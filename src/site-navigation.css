@@ -69,8 +69,8 @@ body:has(#atlas) .mp-atlas-legend{box-shadow:0 10px 25px rgba(3,30,37,.20);borde
 @media(max-width:760px){body:has(#atlas) .map-sidebar{height:auto;min-height:410px;padding-inline:18px;padding-bottom:16px}body:has(#atlas) .map-sidebar .results{max-height:290px;overflow-y:auto}body:has(#atlas) .map-pane{min-height:390px;}}
 /* V31 · Directory · Improve directory introduction hierarchy */
 body:has(.directory) .intro h1{text-wrap:balance;max-width:14ch;}
-/* V32 · Directory · Make directory help note easier to scan */
-body:has(.directory) #year-help{max-width:85ch;line-height:1.65;color:#102b35;}
+/* V32 · Directory · Keep mobile directory navigation on one scrollable row */
+@media(max-width:620px){body:has(.directory)>header{flex-direction:column;align-items:flex-start;gap:10px}body:has(.directory)>header>nav{display:flex;flex-wrap:nowrap;overflow-x:auto;width:100%;max-width:100%;gap:16px;padding-bottom:8px}body:has(.directory)>header>nav a{flex:0 0 auto;white-space:nowrap;min-height:36px;display:inline-flex;align-items:center}}
 /* V33 · Directory · Add more distinct filter-label hierarchy */
 body:has(.directory) .controls label{font-weight:800;letter-spacing:.01em;gap:8px;}
 /* V34 · Directory · Make filter focus visually obvious */
