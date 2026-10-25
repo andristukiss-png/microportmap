@@ -32,6 +32,14 @@ node checks/record-field-2000.cjs
 
 Additional suites and their exact scope are documented under `checks/`. Controlled DOM/VM tests are local behavioral checks, not live browser/device tests.
 
+## Continuous verification
+
+GitHub Actions runs `.github/workflows/verify.yml` on pull requests, pushes to `main` and manual dispatches. It checks source/data preservation, site navigation and recovery, atlas/directory/passport/comparison behavior, and the 2,000-case record-field export suite.
+
+`node checks/map-layer-transitions.cjs` exercises the existing atlas map-layer lifecycle with a controlled Leaflet mock: offline/online toggles, repeat attachment, tile-load and tile-error feedback, automatic schematic fallback and retry. These are code-level tests, not real mobile visual checks or confirmation that external online map tiles are available.
+
+A successful GitHub workflow **does not deploy to Vercel**. The production deployment remains independently managed until an explicit Git integration or deployment workflow is configured.
+
 ## Research limits
 
 The 50 source-linked records and approximate map points are research references. They do not establish current operations, public access or flight permission. Independent research accuracy and actual mobile/device visuals remain unverified. Correction reports are prepared locally; no submission inbox is connected.
