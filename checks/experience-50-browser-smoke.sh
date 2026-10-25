@@ -25,6 +25,7 @@ for item in "home:/:mpx-research-hub" "directory:/directory/:mpx-directory-tools
         { cat /tmp/microportmap-experience-chrome.log >&2; exit 1; }
     if ! grep -q "id=\"$expected\"" "$html"; then
       echo "Missing dynamic $expected on $route ($mode)" >&2
+      grep -o 'data-mpx-passport-diagnostic="[^"]*"' "$html" >&2 || true
       tail -c 900 "$html" >&2
       exit 1
     fi
