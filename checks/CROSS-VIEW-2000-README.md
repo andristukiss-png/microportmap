@@ -6,4 +6,4 @@ Four workflows cover directory filtered results and history restoration, atlas d
 
 The suite uses actual static JS application code with controlled DOM/VM harnesses, not a real browser, online tile server, or independent research audit. It never writes to `src/`, changes a research record, modifies the palette or deploys to Vercel.
 
-Outputs: `checks/cross-view-2000-results.json`, `checks/cross-view-2000-ledger.json` and `checks/cross-view-2000-status.json`. CI uploads generated files as artifacts; successful CI status is execution evidence.
+Outputs: `checks/cross-view-2000-results.json`, `checks/cross-view-2000-ledger.json` and `checks/cross-view-2000-status.json`. A durable deterministic mirror of the 2,000 passed-case matrix is checked in; `checks/cross-view-2000-ci-evidence.json` links the successful merged-main run. CI also uploads original machine-generated files as artifacts; the passing CI log, not the checked-in status alone, is execution evidence.
