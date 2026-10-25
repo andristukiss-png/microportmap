@@ -1,0 +1,314 @@
+{
+  "batch": "research-experience-50",
+  "scope": "50 user-facing actions/affordances across six areas in a shared, progressively enhanced module",
+  "baseCommit": "e6ce41052521752b190aa885dce611697f64898d",
+  "preservation": "No change to original research data, existing colors, baseline HTML content or legacy application behavior; one new module loaded in each page's existing marked navigation section.",
+  "tasks": [
+    {
+      "id": "E01",
+      "area": "Global project finder",
+      "task": "Show site-wide project finder on 72 pages",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E02",
+      "area": "Global project finder",
+      "task": "Support Ctrl+K",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E03",
+      "area": "Global project finder",
+      "task": "Support Command+K",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E04",
+      "area": "Global project finder",
+      "task": "Support slash-key open outside inputs",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E05",
+      "area": "Global project finder",
+      "task": "Dismiss with Escape",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E06",
+      "area": "Global project finder",
+      "task": "Dismiss by backdrop click",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E07",
+      "area": "Global project finder",
+      "task": "Cycle keyboard focus inside dialog",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E08",
+      "area": "Global project finder",
+      "task": "Restore invoking control focus",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E09",
+      "area": "Global project finder",
+      "task": "Accent-insensitive matching with live counts",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E10",
+      "area": "Global project finder",
+      "task": "Open matching passport/atlas or full directory",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E11",
+      "area": "Homepage discovery",
+      "task": "Add discovery hub below research statistics",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E12",
+      "area": "Homepage discovery",
+      "task": "Rank country shortcuts from catalogue data",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E13",
+      "area": "Homepage discovery",
+      "task": "Display counts on country shortcuts",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E14",
+      "area": "Homepage discovery",
+      "task": "Link recorded infrastructure categories",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E15",
+      "area": "Homepage discovery",
+      "task": "Display counts by infrastructure category",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E16",
+      "area": "Homepage discovery",
+      "task": "Show region shortcuts",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E17",
+      "area": "Homepage discovery",
+      "task": "Display counts by region",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E18",
+      "area": "Homepage discovery",
+      "task": "Provide browse-all call to action",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E19",
+      "area": "Homepage discovery",
+      "task": "Provide data-quality destination",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E20",
+      "area": "Homepage discovery",
+      "task": "Provide methodology destination",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E21",
+      "area": "Atlas handoff",
+      "task": "Preserve atlas search/country/type in directory link",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E22",
+      "area": "Atlas handoff",
+      "task": "Copy current atlas URL",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E23",
+      "area": "Atlas handoff",
+      "task": "Show fallback text if clipboard denied",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E24",
+      "area": "Atlas handoff",
+      "task": "Clear atlas filters",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E25",
+      "area": "Atlas handoff",
+      "task": "Jump from atlas actions to results",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E26",
+      "area": "Atlas handoff",
+      "task": "Show live atlas result count",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E27",
+      "area": "Atlas handoff",
+      "task": "Explain schematic and optional detailed geography",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E28",
+      "area": "Atlas handoff",
+      "task": "Disable reset when filters are clear",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E29",
+      "area": "Directory shortcuts",
+      "task": "Show contextual quick-filter panel",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E30",
+      "area": "Directory shortcuts",
+      "task": "Provide six catalogue-ranked country filters",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E31",
+      "area": "Directory shortcuts",
+      "task": "Provide recorded type filters",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E32",
+      "area": "Directory shortcuts",
+      "task": "Set newest-report-year sorting",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E33",
+      "area": "Directory shortcuts",
+      "task": "Set A–Z sorting",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E34",
+      "area": "Directory shortcuts",
+      "task": "Select unspecified report year",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E35",
+      "area": "Directory shortcuts",
+      "task": "Clear all filters",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E36",
+      "area": "Directory shortcuts",
+      "task": "Focus existing search input",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E37",
+      "area": "Directory shortcuts",
+      "task": "Reuse existing copy-filtered-link action",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E38",
+      "area": "Directory shortcuts",
+      "task": "Reuse existing CSV export",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E39",
+      "area": "Directory shortcuts",
+      "task": "Jump to the results list",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E40",
+      "area": "Directory shortcuts",
+      "task": "Remove individual filter chips and show count",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E41",
+      "area": "Project passport context",
+      "task": "Add contextual panel across 50 project pages",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E42",
+      "area": "Project passport context",
+      "task": "Jump to reported project details",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E43",
+      "area": "Project passport context",
+      "task": "Show approximate atlas reference",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E44",
+      "area": "Project passport context",
+      "task": "Link comparison and correction handoffs",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E45",
+      "area": "Project passport context",
+      "task": "Link verification guide",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E46",
+      "area": "Project passport context",
+      "task": "Link country/type/region scoped directories",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E47",
+      "area": "Project passport context",
+      "task": "Explain reported versus verified status",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E48",
+      "area": "Project passport context",
+      "task": "Jump to existing related projects",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E49",
+      "area": "Evidence reading guide",
+      "task": "Add evidence orientation and review-queue shortcuts",
+      "status": "implemented; CI verification pending"
+    },
+    {
+      "id": "E50",
+      "area": "Evidence reading guide",
+      "task": "Explain review flags in a disclosure",
+      "status": "implemented; CI verification pending"
+    }
+  ],
+  "unverified": [
+    "Physical mobile/device visuals",
+    "Live external online map tiles",
+    "Independent research accuracy",
+    "Submission inbox integration"
+  ]
+}

@@ -28,6 +28,18 @@ jobs:
           python3 checks/navigation-round12.py
           python3 checks/site-navigation-audit.py
           python3 checks/site-recovery.py
+      - name: Research experience 50 feature audit
+        run: python3 checks/experience-50-audit.py
+      - name: Research experience desktop and mobile DOM smoke
+        run: bash checks/experience-50-browser-smoke.sh
+      - name: Retain research experience screenshots
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: microportmap-research-experience-50
+          path: checks/experience-50-screenshots/*.png
+          if-no-files-found: warn
+          retention-days: 30
       - name: Fifty visible interface improvements audit
         run: python3 checks/visual-50-audit.py
       - name: Capture desktop and mobile visual review screenshots
