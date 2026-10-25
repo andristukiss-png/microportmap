@@ -1,0 +1,10 @@
+{
+  "batch": "visible-fields-2000",
+  "verification": "GitHub Actions success (pull request and merged main)",
+  "verifiedCommit": "8e63aaf2523ba4db52c9b49b4c735a1e421bde6e",
+  "workflowRun": "https://github.com/andristukiss-png/microportmap/actions/runs/40235383556",
+  "artifactName": "microportmap-visible-fields-2000",
+  "priorPR": "https://github.com/andristukiss-png/microportmap/pull/2",
+  "scope": "2000 deterministic synthetic cases using existing DOM/VM harness, not device/browser/research verification",
+  "note": "This checked-in ledger mirrors the test's deterministic successful-case matrix after the merged main workflow passed; original machine-generated logs remain in the run artifact."
+}
