@@ -256,8 +256,8 @@
     {
       "id": "V32",
       "area": "Directory",
-      "title": "Make directory help note easier to scan",
-      "selectorRule": "body:has(.directory) #year-help{max-width:85ch;line-height:1.65;color:#102b35;}",
+      "title": "Keep mobile directory navigation on one scrollable row",
+      "selectorRule": "@media(max-width:620px){body:has(.directory)>header{flex-direction:column;align-items:flex-start;gap:10px}body:has(.directory)>header>nav{display:flex;flex-wrap:nowrap;overflow-x:auto;width:100%;max-width:100%;gap:16px;padding-bottom:8px}body:has(.directory)>header>nav a{flex:0 0 auto;white-space:nowrap;min-height:36px;display:inline-flex;align-items:center}}",
       "implementedIn": "src/site-navigation.css",
       "status": "implemented; awaiting CI and real-device visual review"
     },
