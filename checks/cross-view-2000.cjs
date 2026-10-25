@@ -94,7 +94,7 @@ async function task(p,scenario,workflow,fn) {
         const url=new URL(x.location.href);
         for(const key of keys){
           if(key==='sort')assert.equal(url.searchParams.get('sort')||'name',fields.sort||'name');
-          else assert.equal(url.searchParams.get(key),fields[key]||null);
+          else assert.equal(url.searchParams.get(key),key==='q'?(fields.q||'').trim()||null:fields[key]||null);
         }
         if(wanted.length){
           assert(x.f.results.innerHTML.includes('/projects/'+wanted[0]+'/'));
@@ -128,7 +128,7 @@ async function task(p,scenario,workflow,fn) {
         const url=new URL(x.location.href);
         assert(!url.searchParams.has('project'));
         for(const key of ['q','country','type'])
-          assert.equal(url.searchParams.get(key),fields[key]||null);
+          assert.equal(url.searchParams.get(key),key==='q'?(fields.q||'').trim()||null:fields[key]||null);
       });
       await task(p,scenario,'comparison-to-passport-filter-handoff',async()=>{
         // Use the normalized directory view, never trust stale/unrelated URL keys.
@@ -148,7 +148,7 @@ async function task(p,scenario,workflow,fn) {
         assert.equal(passportRoute.pathname,'/projects/'+p.id+'/');
         assert.equal(passportRoute.searchParams.get('compare'),selection);
         // sort=name is omitted by normalized directory state.
-        const normalized={...fields};if(normalized.sort==='name')delete normalized.sort;
+        const normalized={...fields};if(normalized.sort==='name')delete normalized.sort;if(normalized.q)normalized.q=normalized.q.trim();
         preserveFilters(passportRoute,normalized);
         assert(html.includes('/?project='+p.id+'#atlas'));
       });
@@ -161,7 +161,7 @@ async function task(p,scenario,workflow,fn) {
         assert.equal(url.pathname,'/directory/');
         assert.equal(url.searchParams.get('compare'),selection);
         assert.equal(url.hash,'#project-comparison');
-        const normalized={...fields};if(normalized.sort==='name')delete normalized.sort;
+        const normalized={...fields};if(normalized.sort==='name')delete normalized.sort;if(normalized.q)normalized.q=normalized.q.trim();
         preserveFilters(url,normalized);
         assert.equal(back.attrs['aria-label'],'Return to comparison of 2 projects');
         assert(x.get('project-copy-link'),'Copy action must exist');
