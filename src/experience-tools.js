@@ -342,6 +342,7 @@
   async function passportExtras(){
     const m=location.pathname.match(/^\/projects\/([a-z0-9-]+)\/?$/);
     const main=document.querySelector('main'),hero=main?.querySelector('.hero');
+    document.documentElement.dataset.mpxPassportDiagnostic=[location.pathname,!!m,!!main,!!hero].join('|');
     if(!m||!main||!hero)return;
     const id=m[1];
     const root=make('section','mpx-passport-explore');
