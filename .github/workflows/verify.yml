@@ -30,6 +30,16 @@ jobs:
           python3 checks/site-recovery.py
       - name: Fifty visible interface improvements audit
         run: python3 checks/visual-50-audit.py
+      - name: Capture desktop and mobile visual review screenshots
+        run: bash checks/visual-50-browser-smoke.sh
+      - name: Retain desktop and mobile screenshots
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: microportmap-visible-release-50-previews
+          path: checks/visual-50-screenshots/*.png
+          if-no-files-found: warn
+          retention-days: 30
       - name: Atlas, directory, comparison and export regression
         run: |
           node --check src/site-redesign.js
