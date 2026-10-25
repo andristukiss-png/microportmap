@@ -1,0 +1,39 @@
+name: Verify MicroportMap
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verify-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  static-and-behavior:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Preservation, navigation and recovery
+        run: |
+          python3 checks/validate.py
+          python3 checks/navigation-round12.py
+          python3 checks/site-navigation-audit.py
+          python3 checks/site-recovery.py
+      - name: Atlas, directory, comparison and export regression
+        run: |
+          node --check src/site-redesign.js
+          node checks/map-layer-transitions.cjs
+          node checks/atlas.cjs
+          node checks/directory.cjs
+          node checks/passport.cjs
+          node checks/compare.cjs
+          node checks/record-field-2000.cjs
