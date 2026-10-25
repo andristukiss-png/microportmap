@@ -1,0 +1,32 @@
+[
+  [
+    "Distinguish date-label coverage from verified dates; expose 28 explicitly unverified date labels",
+    "data-quality.js",
+    "Live summary: 28 records, 56%; controlled metadata test"
+  ],
+  [
+    "Use identical review flags in the UI and audit exports, including duplicates",
+    "research-quality.js; data-quality.js; research-audit-export.js",
+    "Duplicate fixture UI/export agreement; live 28-record queue/CSV/JSON agreement"
+  ],
+  [
+    "Add JSON audit downloads for all and flagged records",
+    "research-audit-export.js; data-quality/index.html",
+    "Live downloads parsed: 50 total and 28 flagged; original record objects match"
+  ],
+  [
+    "Tighten coordinate and credential-bearing citation-format checks",
+    "research-quality.js",
+    "Boolean/string coordinate and credential URL unit tests; no research records changed"
+  ],
+  [
+    "Recover quality loading with recalculation, retry and bounded timeout; use one shared fetch",
+    "data-quality.js; research-audit-export.js",
+    "One-fetch, error/retry and abort unit tests; live recalculation"
+  ],
+  [
+    "Document audit structures and limits; clarify that no flag does not verify accuracy",
+    "data-dictionary/index.html; data-quality/index.html",
+    "Source review; live explanatory copy and audit JSON limitations"
+  ]
+]

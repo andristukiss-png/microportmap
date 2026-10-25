@@ -1,0 +1,2502 @@
+[
+  [
+    "shenzhen",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "shenzhen",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "shenzhen",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "shenzhen",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "shenzhen",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "shenzhen",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "shenzhen",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "shenzhen",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "shenzhen",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "shenzhen",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "rotterdam",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "rotterdam",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "rotterdam",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "rotterdam",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "rotterdam",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "rotterdam",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "rotterdam",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "rotterdam",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "rotterdam",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "rotterdam",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "kiel",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "kiel",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "kiel",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "kiel",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "kiel",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "kiel",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "kiel",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "kiel",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "kiel",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "kiel",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "italy",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "italy",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "italy",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "italy",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "italy",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "italy",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "italy",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "italy",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "italy",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "italy",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "oman",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "oman",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "oman",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "oman",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "oman",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "oman",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "oman",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "oman",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "oman",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "oman",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "australia",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "australia",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "australia",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "australia",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "australia",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "australia",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "australia",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "australia",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "australia",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "australia",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "enbw",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "enbw",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "enbw",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "enbw",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "enbw",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "enbw",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "enbw",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "enbw",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "enbw",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "enbw",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "dole",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "dole",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "dole",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "dole",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "dole",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "dole",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "dole",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "dole",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "dole",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "dole",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "tnb",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "tnb",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "tnb",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "tnb",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "tnb",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "tnb",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "tnb",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "tnb",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "tnb",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "tnb",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "asheville",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "asheville",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "asheville",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "asheville",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "asheville",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "asheville",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "asheville",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "asheville",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "asheville",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "asheville",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "vancouver",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "vancouver",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "vancouver",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "vancouver",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "vancouver",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "vancouver",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "vancouver",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "vancouver",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "vancouver",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "vancouver",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "ishikawa",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "ishikawa",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "ishikawa",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "ishikawa",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "ishikawa",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "ishikawa",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "ishikawa",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "ishikawa",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "ishikawa",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "ishikawa",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "belgium-sense",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "belgium-sense",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "belgium-sense",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "belgium-sense",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "belgium-sense",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "belgium-sense",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "belgium-sense",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "belgium-sense",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "belgium-sense",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "belgium-sense",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "texas-solar",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "texas-solar",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "texas-solar",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "texas-solar",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "texas-solar",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "texas-solar",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "texas-solar",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "texas-solar",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "texas-solar",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "texas-solar",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "caltrans-otay",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "caltrans-otay",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "caltrans-otay",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "caltrans-otay",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "caltrans-otay",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "caltrans-otay",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "caltrans-otay",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "caltrans-otay",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "caltrans-otay",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "caltrans-otay",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "ramapo",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "ramapo",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "ramapo",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "ramapo",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "ramapo",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "ramapo",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "ramapo",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "ramapo",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "ramapo",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "ramapo",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "kansanshi-zambia",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "kansanshi-zambia",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "kansanshi-zambia",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "kansanshi-zambia",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "kansanshi-zambia",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "kansanshi-zambia",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "kansanshi-zambia",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "kansanshi-zambia",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "kansanshi-zambia",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "kansanshi-zambia",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "quellaveco-peru",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "quellaveco-peru",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "quellaveco-peru",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "quellaveco-peru",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "quellaveco-peru",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "quellaveco-peru",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "quellaveco-peru",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "quellaveco-peru",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "quellaveco-peru",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "quellaveco-peru",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "uae-waste",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "uae-waste",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "uae-waste",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "uae-waste",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "uae-waste",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "uae-waste",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "uae-waste",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "uae-waste",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "uae-waste",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "uae-waste",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "axpo-swiss",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "axpo-swiss",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "axpo-swiss",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "axpo-swiss",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "axpo-swiss",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "axpo-swiss",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "axpo-swiss",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "axpo-swiss",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "axpo-swiss",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "axpo-swiss",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "slovakia-forest",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "slovakia-forest",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "slovakia-forest",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "slovakia-forest",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "slovakia-forest",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "slovakia-forest",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "slovakia-forest",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "slovakia-forest",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "slovakia-forest",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "slovakia-forest",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "southafrica-estate",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "southafrica-estate",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "southafrica-estate",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "southafrica-estate",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "southafrica-estate",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "southafrica-estate",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "southafrica-estate",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "southafrica-estate",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "southafrica-estate",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "southafrica-estate",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "sqm-chile",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "sqm-chile",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "sqm-chile",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "sqm-chile",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "sqm-chile",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "sqm-chile",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "sqm-chile",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "sqm-chile",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "sqm-chile",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "sqm-chile",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "csx-rail",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "csx-rail",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "csx-rail",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "csx-rail",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "csx-rail",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "csx-rail",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "csx-rail",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "csx-rail",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "csx-rail",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "csx-rail",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "aerial-fences",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "aerial-fences",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "aerial-fences",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "aerial-fences",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "aerial-fences",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "aerial-fences",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "aerial-fences",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "aerial-fences",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "aerial-fences",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "aerial-fences",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "premier-security-us",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "premier-security-us",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "premier-security-us",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "premier-security-us",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "premier-security-us",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "premier-security-us",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "premier-security-us",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "premier-security-us",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "premier-security-us",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "premier-security-us",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "discovery-land-us",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "discovery-land-us",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "discovery-land-us",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "discovery-land-us",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "discovery-land-us",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "discovery-land-us",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "discovery-land-us",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "discovery-land-us",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "discovery-land-us",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "discovery-land-us",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "port-lincoln",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "port-lincoln",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "port-lincoln",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "port-lincoln",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "port-lincoln",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "port-lincoln",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "port-lincoln",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "port-lincoln",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "port-lincoln",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "port-lincoln",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "titan-protection",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "titan-protection",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "titan-protection",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "titan-protection",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "titan-protection",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "titan-protection",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "titan-protection",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "titan-protection",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "titan-protection",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "titan-protection",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "soar-alaska",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "soar-alaska",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "soar-alaska",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "soar-alaska",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "soar-alaska",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "soar-alaska",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "soar-alaska",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "soar-alaska",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "soar-alaska",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "soar-alaska",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "barcelona-port",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "barcelona-port",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "barcelona-port",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "barcelona-port",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "barcelona-port",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "barcelona-port",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "barcelona-port",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "barcelona-port",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "barcelona-port",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "barcelona-port",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "celaya",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "celaya",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "celaya",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "celaya",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "celaya",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "celaya",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "celaya",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "celaya",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "celaya",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "celaya",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "palcacocha",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "palcacocha",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "palcacocha",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "palcacocha",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "palcacocha",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "palcacocha",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "palcacocha",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "palcacocha",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "palcacocha",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "palcacocha",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "bibai",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "bibai",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "bibai",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "bibai",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "bibai",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "bibai",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "bibai",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "bibai",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "bibai",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "bibai",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "ambite",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "ambite",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "ambite",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "ambite",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "ambite",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "ambite",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "ambite",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "ambite",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "ambite",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "ambite",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "opole",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "opole",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "opole",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "opole",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "opole",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "opole",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "opole",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "opole",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "opole",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "opole",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "wurzburg-emqport",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "wurzburg-emqport",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "wurzburg-emqport",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "wurzburg-emqport",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "wurzburg-emqport",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "wurzburg-emqport",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "wurzburg-emqport",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "wurzburg-emqport",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "wurzburg-emqport",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "wurzburg-emqport",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "tomakomai-refinery",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "tomakomai-refinery",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "tomakomai-refinery",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "tomakomai-refinery",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "tomakomai-refinery",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "tomakomai-refinery",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "tomakomai-refinery",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "tomakomai-refinery",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "tomakomai-refinery",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "tomakomai-refinery",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "network-rail-uk",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "network-rail-uk",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "network-rail-uk",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "network-rail-uk",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "network-rail-uk",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "network-rail-uk",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "network-rail-uk",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "network-rail-uk",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "network-rail-uk",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "network-rail-uk",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "gilboa-nypa",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "gilboa-nypa",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "gilboa-nypa",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "gilboa-nypa",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "gilboa-nypa",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "gilboa-nypa",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "gilboa-nypa",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "gilboa-nypa",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "gilboa-nypa",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "gilboa-nypa",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "teesside-terminal",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "teesside-terminal",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "teesside-terminal",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "teesside-terminal",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "teesside-terminal",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "teesside-terminal",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "teesside-terminal",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "teesside-terminal",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "teesside-terminal",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "teesside-terminal",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "antwerp-cargo-hub",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "antwerp-cargo-hub",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "antwerp-cargo-hub",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "antwerp-cargo-hub",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "antwerp-cargo-hub",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "antwerp-cargo-hub",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "antwerp-cargo-hub",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "antwerp-cargo-hub",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "antwerp-cargo-hub",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "antwerp-cargo-hub",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "upper-darby-dfr",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "upper-darby-dfr",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "upper-darby-dfr",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "upper-darby-dfr",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "upper-darby-dfr",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "upper-darby-dfr",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "upper-darby-dfr",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "upper-darby-dfr",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "upper-darby-dfr",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "upper-darby-dfr",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "skybound-waterloo",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "skybound-waterloo",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "skybound-waterloo",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "skybound-waterloo",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "skybound-waterloo",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "skybound-waterloo",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "skybound-waterloo",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "skybound-waterloo",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "skybound-waterloo",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "skybound-waterloo",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "skybound-glasgow",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "skybound-glasgow",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "skybound-glasgow",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "skybound-glasgow",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "skybound-glasgow",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "skybound-glasgow",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "skybound-glasgow",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "skybound-glasgow",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "skybound-glasgow",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "skybound-glasgow",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "skybound-cardiff",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "skybound-cardiff",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "skybound-cardiff",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "skybound-cardiff",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "skybound-cardiff",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "skybound-cardiff",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "skybound-cardiff",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "skybound-cardiff",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "skybound-cardiff",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "skybound-cardiff",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "cincinnati-dfr",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "cincinnati-dfr",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "cincinnati-dfr",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "cincinnati-dfr",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "cincinnati-dfr",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "cincinnati-dfr",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "cincinnati-dfr",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "cincinnati-dfr",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "cincinnati-dfr",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "cincinnati-dfr",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "yonkers-nokia",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "yonkers-nokia",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "yonkers-nokia",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "yonkers-nokia",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "yonkers-nokia",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "yonkers-nokia",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "yonkers-nokia",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "yonkers-nokia",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "yonkers-nokia",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "yonkers-nokia",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "summerville-nokia",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "summerville-nokia",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "summerville-nokia",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "summerville-nokia",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "summerville-nokia",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "summerville-nokia",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "summerville-nokia",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "summerville-nokia",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "summerville-nokia",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "summerville-nokia",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ],
+  [
+    "el-paso-dfr",
+    "Uppercase full-name search agrees across directory and atlas",
+    "PASS"
+  ],
+  [
+    "el-paso-dfr",
+    "Decomposed Unicode full-name search restores matching set",
+    "PASS"
+  ],
+  [
+    "el-paso-dfr",
+    "Accent-stripped full-name search retains original project",
+    "PASS"
+  ],
+  [
+    "el-paso-dfr",
+    "Reversed name word order agrees across both search surfaces",
+    "PASS"
+  ],
+  [
+    "el-paso-dfr",
+    "Mixed whitespace name query restores consistently",
+    "PASS"
+  ],
+  [
+    "el-paso-dfr",
+    "Combined project and country terms keep original project",
+    "PASS"
+  ],
+  [
+    "el-paso-dfr",
+    "Operator and project terms preserve cross-field matching",
+    "PASS"
+  ],
+  [
+    "el-paso-dfr",
+    "Region and infrastructure terms agree across atlas and directory",
+    "PASS"
+  ],
+  [
+    "el-paso-dfr",
+    "Unique absent term produces no results on either surface",
+    "PASS"
+  ],
+  [
+    "el-paso-dfr",
+    "Whitespace-only search restores all original records",
+    "PASS"
+  ]
+]

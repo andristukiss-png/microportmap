@@ -1,0 +1,252 @@
+[
+  [
+    "Add Compare actions to directory cards",
+    "src/directory-compare.js; directory.js",
+    "Implemented"
+  ],
+  [
+    "Expose comparison selection through pressed state and accessible names",
+    "src/directory-compare.js",
+    "Implemented"
+  ],
+  [
+    "Limit comparison to three projects and disable further additions",
+    "src/directory-compare.js",
+    "Implemented"
+  ],
+  [
+    "Allow selected cards to toggle out of the comparison",
+    "src/directory-compare.js",
+    "Implemented"
+  ],
+  [
+    "Retain selections when directory filters hide selected cards",
+    "src/directory-compare.js",
+    "Implemented"
+  ],
+  [
+    "Persist comparison IDs in directory URLs",
+    "src/directory-compare.js",
+    "Implemented"
+  ],
+  [
+    "Normalize unavailable, repeated and excess comparison IDs",
+    "src/directory-compare.js",
+    "Implemented"
+  ],
+  [
+    "Restore selection from directory state/history events",
+    "src/directory-compare.js",
+    "Implemented"
+  ],
+  [
+    "Render a semantic table with caption and row/column headers",
+    "src/directory-compare.js",
+    "Implemented"
+  ],
+  [
+    "Show Not recorded for missing reported attributes",
+    "src/directory-compare.js",
+    "Implemented"
+  ],
+  [
+    "Link only credential-free HTTPS sources with new-tab descriptions",
+    "src/directory-compare.js",
+    "Implemented"
+  ],
+  [
+    "Remove a selected table column with predictable keyboard focus",
+    "src/directory-compare.js",
+    "Implemented"
+  ],
+  [
+    "Clear the comparison and return focus to search",
+    "src/directory-compare.js",
+    "Implemented"
+  ],
+  [
+    "Copy a standalone comparison link independent of browse filters",
+    "src/directory-compare.js",
+    "Implemented"
+  ],
+  [
+    "Reveal the comparison URL when clipboard access fails",
+    "src/directory-compare.js",
+    "Implemented"
+  ],
+  [
+    "Ignore stale clipboard results after selection changes",
+    "src/directory-compare.js",
+    "Implemented"
+  ],
+  [
+    "Export exact original selected records as comparison JSON",
+    "src/directory-compare.js",
+    "Implemented"
+  ],
+  [
+    "Export selected reported attributes as comparison CSV",
+    "src/directory-compare.js",
+    "Implemented"
+  ],
+  [
+    "Neutralize spreadsheet formula prefixes in CSV cells",
+    "src/directory-compare.js",
+    "Implemented"
+  ],
+  [
+    "Report download failures and clean temporary links/blob URLs",
+    "src/directory-compare.js",
+    "Implemented"
+  ],
+  [
+    "Hide unavailable comparison data and disable actions during loading",
+    "src/directory-compare.js",
+    "Implemented"
+  ],
+  [
+    "Provide a responsive scrollable comparison without new palette rules",
+    "src/directory-compare.css",
+    "Implemented"
+  ],
+  [
+    "Document selection, export and evidence limitations",
+    "src/data-dictionary/index.html",
+    "Implemented"
+  ],
+  [
+    "Reject malformed directory IDs before building project links",
+    "src/directory.js",
+    "Implemented"
+  ],
+  [
+    "Scroll shared links to the restored comparison and focus its heading",
+    "src/directory-compare.js",
+    "Implemented"
+  ],
+  [
+    "Verify comparison JSON preserves each of all 50 records exactly",
+    "checks/compare.cjs",
+    "Verified by stated method; controlled failures are not production injection"
+  ],
+  [
+    "Verify selected order is retained in JSON",
+    "checks/compare.cjs; actual download",
+    "Verified by stated method; controlled failures are not production injection"
+  ],
+  [
+    "Verify the third selection disables unselected cards",
+    "checks/compare.cjs; Cloud Browser",
+    "Verified by stated method; controlled failures are not production injection"
+  ],
+  [
+    "Verify deselection re-enables capacity",
+    "checks/compare.cjs",
+    "Verified by stated method; controlled failures are not production injection"
+  ],
+  [
+    "Verify country changes retain earlier selections",
+    "checks/compare.cjs; Germany to Japan live",
+    "Verified by stated method; controlled failures are not production injection"
+  ],
+  [
+    "Verify unknown, duplicate and excess URL selections normalize",
+    "checks/compare.cjs",
+    "Verified by stated method; controlled failures are not production injection"
+  ],
+  [
+    "Verify new URL selections restore on directory state events",
+    "checks/compare.cjs; existing popstate regression",
+    "Verified by stated method; controlled failures are not production injection"
+  ],
+  [
+    "Verify per-column removal focuses the comparison heading",
+    "checks/compare.cjs; Cloud Browser",
+    "Verified by stated method; controlled failures are not production injection"
+  ],
+  [
+    "Verify clearing hides the panel and focuses search",
+    "checks/compare.cjs; Cloud Browser",
+    "Verified by stated method; controlled failures are not production injection"
+  ],
+  [
+    "Verify successful comparison link copying",
+    "checks/compare.cjs; Cloud Browser clipboard",
+    "Verified by stated method; controlled failures are not production injection"
+  ],
+  [
+    "Verify stale clipboard completion does not overwrite current feedback",
+    "checks/compare.cjs controlled promise",
+    "Verified by stated method; controlled failures are not production injection"
+  ],
+  [
+    "Verify clipboard denial reveals a usable URL",
+    "checks/compare.cjs controlled failure",
+    "Verified by stated method; controlled failures are not production injection"
+  ],
+  [
+    "Verify actual comparison JSON equals the three selected original records",
+    "Cloud Browser download; exact Python comparison",
+    "Verified by stated method; controlled failures are not production injection"
+  ],
+  [
+    "Verify every actual comparison CSV field equals original selected values",
+    "Cloud Browser download; csv.DictReader comparison",
+    "Verified by stated method; controlled failures are not production injection"
+  ],
+  [
+    "Verify formula-prefix neutralization",
+    "checks/compare.cjs synthetic operator value",
+    "Verified by stated method; controlled failures are not production injection"
+  ],
+  [
+    "Verify download failure feedback, link removal and delayed URL cleanup",
+    "checks/compare.cjs controlled download",
+    "Verified by stated method; controlled failures are not production injection"
+  ],
+  [
+    "Verify loading hides data and disables comparison actions",
+    "checks/compare.cjs controlled state",
+    "Verified by stated method; controlled failures are not production injection"
+  ],
+  [
+    "Verify credential-bearing source links are suppressed",
+    "checks/compare.cjs synthetic source URL",
+    "Verified by stated method; controlled failures are not production injection"
+  ],
+  [
+    "Verify HTML-like record values are escaped",
+    "checks/compare.cjs synthetic name",
+    "Verified by stated method; controlled failures are not production injection"
+  ],
+  [
+    "Verify missing attributes use visible placeholders",
+    "checks/compare.cjs synthetic equipment value",
+    "Verified by stated method; controlled failures are not production injection"
+  ],
+  [
+    "Verify caption and scoped table headers",
+    "checks/compare.cjs; live accessibility tree",
+    "Verified by stated method; controlled failures are not production injection"
+  ],
+  [
+    "Verify copied link restores selection and scroll/focus target",
+    "checks/compare.cjs; Cloud Browser reload geometry and focus",
+    "Verified by stated method; controlled failures are not production injection"
+  ],
+  [
+    "Verify original records, export files, CSS, embedded styles and passports unchanged",
+    "baseline-round14.json; navigation-round12.py",
+    "Verified by stated method; controlled failures are not production injection"
+  ],
+  [
+    "Run all regression suites, link audits and JavaScript syntax checks",
+    "checks/*.cjs; validate.py; map-assets.py; navigation-round12.py",
+    "Verified by stated method; controlled failures are not production injection"
+  ],
+  [
+    "Verify production readiness, source hashes, assets, desktop proof and error scan",
+    "READY aliases; 134 source hashes + five asset byte checks; browser/runtime logs",
+    "Verified by stated method; controlled failures are not production injection"
+  ]
+]

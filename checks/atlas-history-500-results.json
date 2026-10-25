@@ -1,0 +1,3008 @@
+{
+  "total": 500,
+  "passed": 500,
+  "failed": 0,
+  "mode": "Local controlled DOM/VM popstate sequences; not actual browser back/forward or mobile testing.",
+  "checks": [
+    {
+      "project": "shenzhen",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "kiel",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "kiel",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "kiel",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "kiel",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "kiel",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "kiel",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "kiel",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "kiel",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "kiel",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "kiel",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "italy",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "italy",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "italy",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "italy",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "italy",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "italy",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "italy",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "italy",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "italy",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "italy",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "oman",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "oman",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "oman",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "oman",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "oman",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "oman",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "oman",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "oman",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "oman",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "oman",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "australia",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "australia",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "australia",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "australia",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "australia",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "australia",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "australia",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "australia",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "australia",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "australia",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "enbw",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "enbw",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "enbw",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "enbw",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "enbw",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "enbw",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "enbw",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "enbw",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "enbw",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "enbw",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "dole",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "dole",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "dole",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "dole",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "dole",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "dole",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "dole",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "dole",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "dole",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "dole",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "tnb",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "tnb",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "tnb",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "tnb",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "tnb",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "tnb",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "tnb",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "tnb",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "tnb",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "tnb",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "asheville",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "asheville",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "asheville",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "asheville",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "asheville",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "asheville",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "asheville",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "asheville",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "asheville",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "asheville",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "celaya",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "celaya",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "celaya",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "celaya",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "celaya",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "celaya",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "celaya",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "celaya",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "celaya",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "celaya",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "bibai",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "bibai",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "bibai",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "bibai",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "bibai",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "bibai",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "bibai",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "bibai",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "bibai",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "bibai",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "ambite",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "ambite",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "ambite",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "ambite",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "ambite",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "ambite",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "ambite",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "ambite",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "ambite",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "ambite",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "opole",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "opole",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "opole",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "opole",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "opole",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "opole",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "opole",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "opole",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "opole",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "opole",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Project to project to closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Project to missing to recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Repeated same project then closed",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Closed to missing to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Project replacement returns to first",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Missing route repeated then recovered",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Project to blank to other project",
+      "passed": true,
+      "historyTransitions": 3
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Three projects then first again",
+      "passed": true,
+      "historyTransitions": 4
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Project removed while country filter remains",
+      "passed": true,
+      "historyTransitions": 2
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Unknown project then closed then known",
+      "passed": true,
+      "historyTransitions": 3
+    }
+  ]
+}

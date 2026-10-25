@@ -1,0 +1,20 @@
+.research-toolbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 12px;font-size:12px;color:#5d7664}
+.research-toolbar select,.research-toolbar button{background:#fff;color:#27573f;border:1px solid #d4e3ce;border-radius:9px;padding:9px 11px;min-height:38px;font-size:12px}
+.research-toolbar button{font-weight:720;cursor:pointer}.research-toolbar button:hover{background:#e8f4e2}
+#research-count{font-weight:700;margin-left:auto;color:#34664d}
+.research-caveat{margin:5px 0 15px;font-size:11px;color:#6d7c70;line-height:1.55}
+.research-card-actions{display:flex;align-items:center;flex-wrap:wrap;gap:9px;margin:9px 0}
+.research-toggle,.research-reset{border:1px solid #b8d8b5;background:#eaf3e5;color:#285b40;border-radius:9px;padding:6px 12px;cursor:pointer;font-size:11px;font-weight:750}
+.research-toggle[aria-pressed=true]{background:#d3f38e}.research-toggle:disabled{opacity:.46;cursor:not-allowed}
+.research-source-label{font-size:10px;color:#687b6c;background:#f2f5ed;border-radius:6px;padding:5px 8px}
+.research-panel{display:none;background:#fff;border:1px solid #dbe9d8;border-radius:14px;padding:17px;margin:0 0 14px;box-shadow:0 8px 25px #1d493314}
+.research-panel.visible{display:block}
+.research-panel-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.research-panel-head h3{font-size:16px;margin:0}.research-panel-head p{font-size:11px;color:#708477;margin:4px 0 12px}
+.research-panel-actions{display:flex;gap:7px}.research-panel-actions button{background:#eff5e9;border:1px solid #d5e5cd;color:#2c5e43;border-radius:9px;padding:7px 11px;font-size:11px;cursor:pointer}
+.research-table-scroll{overflow-x:auto}.research-table-scroll table{border-collapse:collapse;min-width:580px;width:100%;font-size:12px}
+.research-table-scroll th,.research-table-scroll td{text-align:left;border-bottom:1px solid #e8eee3;padding:10px;vertical-align:top;overflow-wrap:anywhere}
+.research-table-scroll th{background:#f4f8ef;color:#41694f}.research-table-scroll a{color:#2a7853}
+.research-reset{margin-top:12px}.research-toolbar :focus-visible,.research-card-actions :focus-visible,.research-panel :focus-visible{outline:3px solid #68b57d;outline-offset:2px}
+@media(max-width:720px){.research-toolbar select{flex:1 1 140px;min-width:0}#research-count{width:100%}.research-panel{padding:13px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation-duration:.01ms!important}}

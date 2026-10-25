@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-25",
+  "productionDeployment": "dpl_BYjLh7JQA1K1VoHhcKbPWELdK64o",
+  "sourceChanged": false,
+  "checks": [
+    "Germany CSV: three rows, all 12 fields equal originals including accents",
+    "Flagged-only audit JSON: 28 unique records equal originals, flags attached",
+    "Keyboard expansion reveals remaining three review entries"
+  ],
+  "unverified": [
+    "Fresh mobile visuals",
+    "Independent research verification",
+    "Provider outage fallback in production"
+  ]
+}

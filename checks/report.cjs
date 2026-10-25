@@ -1,0 +1,24 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const html=fs.readFileSync('src/submit/index.html','utf8');
+const sourcePattern=new RegExp('^(?:'+html.match(/id="source"[^>]*pattern="([^"]+)"/)[1]+')$');
+for(const scheme of ['https','HTTPS','Https','hTtPs'])assert(sourcePattern.test(scheme+'://example.com/evidence'));
+for(const address of ['http://example.com/','ftp://example.com/','https://'])assert(!sourcePattern.test(address));
+const script=[...html.matchAll(/<script[^>]*>([\s\S]*?)<\/script>/g)].map(match=>match[1]).find(code=>code.includes('var prepared=null'));
+let fields={},resolveCopy,rejectCopy,selectionCalls=0,downloadBlob,downloadLink;
+const defaults={name:'QA project',city:'QA city',country:'QA country',type:'Industrial drone station',stage:'Unknown',source:'https://microportmap.com/',date:'',desc:'Routine local test',operator:'QA operator'};
+for(const id of [...Object.keys(defaults),'proposal','report-heading','report-preview','result','status','edit-report','copy','download'])fields[id]={value:defaults[id]||'',dataset:{},style:{},textContent:'',listeners:{},addEventListener(event,fn){this.listeners[event]=fn},setCustomValidity(){},reportValidity(){},focus(){this.focused=true},scrollIntoView(){}};
+const doc={getElementById:id=>fields[id],createElement:()=>{downloadLink={click(){},remove(){}};return downloadLink},body:{appendChild(){}}};
+class TestURL extends URL{}TestURL.createObjectURL=blob=>{downloadBlob=blob;return 'blob:test'};TestURL.revokeObjectURL=()=>{};
+vm.runInNewContext(script,{document:doc,window:{matchMedia:()=>({matches:true}),getSelection(){selectionCalls++;return null}},navigator:{clipboard:{writeText(){return new Promise((resolve,reject)=>{resolveCopy=resolve;rejectCopy=reject})}}},URL:TestURL,Blob,setTimeout(){},Date});
+const prepare=()=>fields.proposal.listeners.submit({preventDefault(){}});
+(async()=>{
+ fields.source.value='HTTPS://example.com/evidence';prepare();fields.download.listeners.click();assert.equal(JSON.parse(await downloadBlob.text()).sourceUrl,'HTTPS://example.com/evidence');assert.equal(JSON.parse(await downloadBlob.text()).sourceDomain,'example.com');
+ prepare();let pending=fields.copy.listeners.click();fields.proposal.listeners.input();fields.desc.value='Changed report';prepare();assert.equal(fields.status.textContent,'Report prepared on your device.');resolveCopy();await pending;assert.equal(fields.status.textContent,'Report prepared on your device.');
+ pending=fields.copy.listeners.click();fields.proposal.listeners.change();prepare();rejectCopy(Error('permission denied'));await pending;assert.equal(selectionCalls,0);assert.equal(fields.status.textContent,'Report prepared on your device.');
+ pending=fields.copy.listeners.click();resolveCopy();await pending;assert.equal(fields.status.textContent,'Copied to clipboard.');
+ fields.download.listeners.click();let payload=JSON.parse(await downloadBlob.text());assert.equal(payload.recordType,'MicroportMap new project suggestion');assert.equal(payload.description,'Changed report');assert.equal(payload.status,'Prepared locally — NOT submitted');
+ fields.proposal.dataset={projectId:'shenzhen',originalInfrastructureType:'Street-pole network',originalOperator:'Shenzhen traffic police',originalLocation:'Shenzhen, China',originalEvidenceStatus:'Source report only'};prepare();fields.download.listeners.click();payload=JSON.parse(await downloadBlob.text());assert.equal(payload.projectId,'shenzhen');assert.equal(payload.originalReportedInfrastructureType,'Street-pole network');assert.equal(payload.projectPassportUrl,'https://microportmap.com/projects/shenzhen/');
+ fields.proposal.dataset={requestedProjectId:'unknown-project',contextResolution:'not-found',requestedReferenceTruncated:'false'};prepare();fields.download.listeners.click();payload=JSON.parse(await downloadBlob.text());assert.equal(payload.schemaVersion,'1.1');assert.equal(payload.recordType,'MicroportMap unresolved correction reference');assert.equal(payload.requestedProjectId,'unknown-project');assert.equal(payload.projectId,null);assert.equal(payload.projectPassportUrl,null);assert.equal(payload.contextResolution,'not-found');assert.equal(payload.requestedReferenceTruncated,false);assert.equal(downloadLink.download,'microportmap-unresolved-correction-unknown-project.json');assert.equal(fields['report-heading'].textContent,'Unresolved correction report prepared');
+ fields.proposal.listeners['mp-correction-context']();assert.equal(fields.result.style.display,'none');fields.proposal.dataset.contextResolution='loading';prepare();assert.equal(fields.result.style.display,'none');
+ console.log('PASS: report clipboard success/failure races, current-report copying, new/correction JSON and local-only status');
+})().catch(error=>{console.error(error);process.exit(1)});

@@ -1,0 +1,1 @@
+MicroportMap source-linked research data. 50 project records, not individual physical stations. The 500 automated checks validate metadata structure; the 500 pending review tasks require substantive source research. All coordinates are broad indicative positions, not drone dock coordinates. Never infer flight permission or public access.

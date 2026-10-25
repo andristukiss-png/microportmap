@@ -1,0 +1,3008 @@
+{
+  "total": 500,
+  "passed": 500,
+  "failed": 0,
+  "mode": "Local controlled DOM/VM multi-filter sequences, exact original records and URL/export metadata at every transition.",
+  "checks": [
+    {
+      "project": "shenzhen",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "kiel",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "kiel",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "kiel",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "kiel",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "kiel",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "kiel",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "kiel",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "kiel",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "kiel",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "kiel",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "italy",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "italy",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "italy",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "italy",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "italy",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "italy",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "italy",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "italy",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "italy",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "italy",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "oman",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "oman",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "oman",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "oman",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "oman",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "oman",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "oman",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "oman",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "oman",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "oman",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "australia",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "australia",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "australia",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "australia",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "australia",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "australia",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "australia",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "australia",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "australia",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "australia",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "enbw",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "enbw",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "enbw",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "enbw",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "enbw",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "enbw",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "enbw",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "enbw",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "enbw",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "enbw",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "dole",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "dole",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "dole",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "dole",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "dole",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "dole",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "dole",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "dole",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "dole",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "dole",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "tnb",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "tnb",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "tnb",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "tnb",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "tnb",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "tnb",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "tnb",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "tnb",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "tnb",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "tnb",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "asheville",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "asheville",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "asheville",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "asheville",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "asheville",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "asheville",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "asheville",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "asheville",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "asheville",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "asheville",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "vancouver",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ramapo",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "celaya",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "celaya",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "celaya",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "celaya",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "celaya",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "celaya",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "celaya",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "celaya",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "celaya",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "celaya",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "bibai",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "bibai",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "bibai",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "bibai",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "bibai",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "bibai",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "bibai",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "bibai",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "bibai",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "bibai",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ambite",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ambite",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ambite",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ambite",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ambite",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ambite",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ambite",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ambite",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ambite",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "ambite",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "opole",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "opole",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "opole",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "opole",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "opole",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "opole",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "opole",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "opole",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "opole",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "opole",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Country then region then clear country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Category then region then clear category",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Year then category then clear year",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Region then country then change country",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Country and year then recent sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Region then country sorting then name sorting",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Exact name then country then clear name",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Category and country then full reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "All structured filters then clear in reverse order",
+      "passed": true,
+      "transitions": 8
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Year then country sorting then replace year",
+      "passed": true,
+      "transitions": 3
+    }
+  ]
+}

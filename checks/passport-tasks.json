@@ -1,0 +1,27 @@
+[
+  [
+    "Exclude unrelated filler from passport recommendations",
+    "project-connect.js",
+    "Live Shenzhen list: five shared-region projects, no unrelated South Africa entry; unit tests"
+  ],
+  [
+    "Add per-project JSON download retaining the exact research object",
+    "project-connect.js; data-dictionary/index.html",
+    "Unit tests for all 50 records; live Shenzhen download matches the full audit record"
+  ],
+  [
+    "Keep canonical copy-link and correction actions available before data loads",
+    "project-connect.js",
+    "Pending/failure unit tests; live canonical clipboard and resolved correction handoff"
+  ],
+  [
+    "Show loading/failure states with retry and bounded timeout",
+    "project-connect.js",
+    "Pending, outage/retry, malformed/duplicate/missing record and abort unit tests"
+  ],
+  [
+    "Use explicit clipboard fallback and safe citation links",
+    "project-connect.js",
+    "Clipboard-denied and credential-bearing source unit tests; normal live copy"
+  ]
+]

@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-25",
+  "requestedTasks": 500,
+  "completedVerificationTasks": 500,
+  "failedTasks": 0,
+  "implementationTasks": 0,
+  "productionSourceChanges": 0,
+  "newDeployment": false,
+  "existingDeployment": "dpl_GgMjjjfBGseuRBNFesPEYFtYoVMh",
+  "productionStatus": "READY",
+  "projects": 50,
+  "workflows": {
+    "Resolved correction preserves original metadata": 50,
+    "User title and category survive pending lookup": 50,
+    "Unknown reference stays unresolved with requested identity": 50,
+    "Duplicate reference rejected as ambiguous": 50,
+    "Lookup retry preserves user-written name and city": 50,
+    "Timed-out correction lookup permits retry": 50,
+    "Resolved correction report schema and original context": 50,
+    "Unresolved correction report never becomes a new suggestion": 50,
+    "Private-IP evidence blocks form preparation": 50,
+    "Original cited HTTPS URL passes format validation only": 50
+  },
+  "verificationMode": "Local controlled DOM/VM; no report submissions or source-site requests",
+  "allSourceFilesUnchanged": 140,
+  "unverified": [
+    "Fresh mobile/device visuals",
+    "Optional detailed online geography",
+    "Independent research accuracy and external evidence availability",
+    "Submission inbox remains unconnected",
+    "These are local tests, not 500 live browser tests"
+  ]
+}

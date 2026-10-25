@@ -1,0 +1,6 @@
+/* Keep filter and export labels readable as the directory gains browse controls. */
+.controls{grid-template-columns:repeat(3,minmax(0,1fr))}
+.controls label,.controls input,.controls select,.controls button{min-width:0}
+.controls button{white-space:normal;overflow-wrap:anywhere}
+@media(max-width:950px){.controls{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.controls{grid-template-columns:minmax(0,1fr)}}

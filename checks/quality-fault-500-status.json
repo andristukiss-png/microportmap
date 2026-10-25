@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-25",
+  "requestedTasks": 500,
+  "completedVerificationTasks": 500,
+  "beforePassed": 450,
+  "beforeFailed": 50,
+  "afterPassed": 500,
+  "afterFailed": 0,
+  "implementationFixes": 1,
+  "fix": "CSV passport URLs require a string ID matching the project route pattern; whitespace IDs no longer create links",
+  "sourceChanges": [
+    "src/research-audit-export.js"
+  ],
+  "deployment": "dpl_GgMjjjfBGseuRBNFesPEYFtYoVMh",
+  "status": "READY",
+  "workflows": {
+    "Whitespace-only project ID": 50,
+    "Path-like project ID": 50,
+    "Duplicate project ID": 50,
+    "Missing project name": 50,
+    "Non-HTTPS evidence URL": 50,
+    "Credential-bearing evidence URL": 50,
+    "Missing map point": 50,
+    "String-valued map latitude": 50,
+    "Missing report-date label": 50,
+    "Whitespace-only operator": 50
+  },
+  "projects": 50,
+  "syntheticFixtures": "Local in-memory only; original records unchanged",
+  "exposedDeploymentHashesMatched": 135,
+  "liveHttpVerified": [
+    "research-audit-export.js",
+    "data/projects.json"
+  ],
+  "liveUISmoke": "Germany review view requests two-record CSV",
+  "unverified": [
+    "Fresh mobile/device visuals",
+    "Optional detailed online geography",
+    "Independent research accuracy and external evidence availability",
+    "Submission inbox remains unconnected",
+    "Malformed-ID reproduction was local; no production data fault injection"
+  ]
+}

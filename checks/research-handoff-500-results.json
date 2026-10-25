@@ -1,0 +1,2508 @@
+{
+  "total": 500,
+  "passed": 500,
+  "failed": 0,
+  "mode": "Local controlled DOM/VM with synthetic correction input and audit faults; no submissions or external evidence requests.",
+  "checks": [
+    {
+      "project": "shenzhen",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Edited description remains lossless while correction identity stays resolved",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Unavailable lookup exports unresolved context then retry resolves original identity",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Edited category survives lookup and correction report preserves original category",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Unresolved unusual reference gets safe local filename and no invented passport",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Evidence validator recovers from private address to original cited URL",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Missing descriptive fields all receive distinct review flags without record rewriting",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Combined invalid coordinate and credential source remain flagged in exact audit JSON",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Duplicate catalog audit preserves both records and marks both identities",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Review search exports synthetic flagged project with original accented name",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Audit allocation failure recovers without losing exact single-record export",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-25",
+  "requestedTasks": 500,
+  "completedVerificationTasks": 500,
+  "failedTasks": 0,
+  "implementationTasks": 0,
+  "productionSourceChanges": 0,
+  "newDeployment": false,
+  "existingDeployment": "dpl_DwoKtgsaXhLh2qjVM2ErtwuDdMdR",
+  "productionStatus": "READY",
+  "workflows": {
+    "Region/type intersection with full name ordering": 50,
+    "Regional country sort with name tie-breaks": 50,
+    "Report-year slice with recent-sort tie-breaks": 50,
+    "Folded case/accent search and surrounding whitespace": 50,
+    "Clipboard completion ignored after view changes": 50,
+    "Synthetic CSV formula, quotes, commas and multiline field": 50,
+    "Synthetic HTML escaping with lossless JSON": 50,
+    "Missing map coordinates leave comparison JSON intact": 50,
+    "Passport clipboard denial provides clean canonical fallback": 50,
+    "Filtered JSON URL-allocation failure and recovery": 50
+  },
+  "projects": 50,
+  "priorBundleSourceFilesUnchanged": 140,
+  "verificationMode": "Local controlled DOM/VM; ten new workflows distinct from previous 500 batch",
+  "syntheticFixtures": "In-memory only; original records remain unchanged",
+  "unverified": [
+    "Fresh mobile/device visuals",
+    "Optional detailed online geography",
+    "Independent research accuracy and external evidence availability",
+    "Submission inbox remains unconnected",
+    "These are local tests, not 500 live browser tests"
+  ]
+}

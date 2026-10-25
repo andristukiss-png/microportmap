@@ -1,0 +1,2508 @@
+{
+  "total": 500,
+  "passed": 500,
+  "failed": 0,
+  "mode": "Local controlled DOM/VM with mock Leaflet. Synthetic text, country, category and coordinate fault fixtures; no live browser or tile requests.",
+  "checks": [
+    {
+      "project": "shenzhen",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Cluster chooser escapes markup in project names",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Cluster chooser preserves real accented research names",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Search isolates one project from clustered records",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Country filtering excludes unrelated cluster member",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Infrastructure filtering updates map and URL together",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Empty search clears mapped count and offers reset",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Empty-state reset restores both research records and pins",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Fallback pin opens correct drawer and focuses close control",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Unmapped companion retains list entry without fabricated pin",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Repeated render removes stale markers before creating replacements",
+      "passed": true
+    }
+  ]
+}

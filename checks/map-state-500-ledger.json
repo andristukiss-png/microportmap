@@ -1,0 +1,2502 @@
+[
+  [
+    "Atlas rejects boolean latitude without dropping record: Futian street-pole drone dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Futian street-pole drone dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Futian street-pole drone dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Futian street-pole drone dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Futian street-pole drone dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Futian street-pole drone dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Futian street-pole drone dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Futian street-pole drone dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Futian street-pole drone dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Futian street-pole drone dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Shell industrial drone dock deployments",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Shell industrial drone dock deployments",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Shell industrial drone dock deployments",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Shell industrial drone dock deployments",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Shell industrial drone dock deployments",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Shell industrial drone dock deployments",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Shell industrial drone dock deployments",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Shell industrial drone dock deployments",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Shell industrial drone dock deployments",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Shell industrial drone dock deployments",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Kiel emergency-response dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Kiel emergency-response dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Kiel emergency-response dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Kiel emergency-response dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Kiel emergency-response dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Kiel emergency-response dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Kiel emergency-response dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Kiel emergency-response dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Kiel emergency-response dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Kiel emergency-response dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: ReADI autonomous highway dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: ReADI autonomous highway dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: ReADI autonomous highway dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: ReADI autonomous highway dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: ReADI autonomous highway dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: ReADI autonomous highway dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: ReADI autonomous highway dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: ReADI autonomous highway dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: ReADI autonomous highway dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: ReADI autonomous highway dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Remote construction-site dock deployment",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Remote construction-site dock deployment",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Remote construction-site dock deployment",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Remote construction-site dock deployment",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Remote construction-site dock deployment",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Remote construction-site dock deployment",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Remote construction-site dock deployment",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Remote construction-site dock deployment",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Remote construction-site dock deployment",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Remote construction-site dock deployment",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Sensorem autonomous dock fleet",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Sensorem autonomous dock fleet",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Sensorem autonomous dock fleet",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Sensorem autonomous dock fleet",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Sensorem autonomous dock fleet",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Sensorem autonomous dock fleet",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Sensorem autonomous dock fleet",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Sensorem autonomous dock fleet",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Sensorem autonomous dock fleet",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Sensorem autonomous dock fleet",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: EnBW autonomous solar-inspection docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: EnBW autonomous solar-inspection docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: EnBW autonomous solar-inspection docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: EnBW autonomous solar-inspection docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: EnBW autonomous solar-inspection docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: EnBW autonomous solar-inspection docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: EnBW autonomous solar-inspection docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: EnBW autonomous solar-inspection docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: EnBW autonomous solar-inspection docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: EnBW autonomous solar-inspection docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Dole Asia plantation drone docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Dole Asia plantation drone docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Dole Asia plantation drone docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Dole Asia plantation drone docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Dole Asia plantation drone docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Dole Asia plantation drone docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Dole Asia plantation drone docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Dole Asia plantation drone docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Dole Asia plantation drone docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Dole Asia plantation drone docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: TNB warehouse inventory drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: TNB warehouse inventory drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: TNB warehouse inventory drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: TNB warehouse inventory drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: TNB warehouse inventory drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: TNB warehouse inventory drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: TNB warehouse inventory drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: TNB warehouse inventory drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: TNB warehouse inventory drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: TNB warehouse inventory drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Asheville disaster-recovery drone dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Asheville disaster-recovery drone dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Asheville disaster-recovery drone dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Asheville disaster-recovery drone dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Asheville disaster-recovery drone dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Asheville disaster-recovery drone dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Asheville disaster-recovery drone dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Asheville disaster-recovery drone dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Asheville disaster-recovery drone dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Asheville disaster-recovery drone dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Vancouver Police dock-based drone network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Vancouver Police dock-based drone network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Vancouver Police dock-based drone network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Vancouver Police dock-based drone network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Vancouver Police dock-based drone network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Vancouver Police dock-based drone network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Vancouver Police dock-based drone network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Vancouver Police dock-based drone network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Vancouver Police dock-based drone network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Vancouver Police dock-based drone network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Belgium Citymesh SENSE drone network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Belgium Citymesh SENSE drone network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Belgium Citymesh SENSE drone network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Belgium Citymesh SENSE drone network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Belgium Citymesh SENSE drone network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Belgium Citymesh SENSE drone network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Belgium Citymesh SENSE drone network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Belgium Citymesh SENSE drone network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Belgium Citymesh SENSE drone network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Belgium Citymesh SENSE drone network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Percepto autonomous Texas solar inspection",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Percepto autonomous Texas solar inspection",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Percepto autonomous Texas solar inspection",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Percepto autonomous Texas solar inspection",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Percepto autonomous Texas solar inspection",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Percepto autonomous Texas solar inspection",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Percepto autonomous Texas solar inspection",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Percepto autonomous Texas solar inspection",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Percepto autonomous Texas solar inspection",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Percepto autonomous Texas solar inspection",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Caltrans remote inspection drone docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Caltrans remote inspection drone docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Caltrans remote inspection drone docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Caltrans remote inspection drone docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Caltrans remote inspection drone docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Caltrans remote inspection drone docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Caltrans remote inspection drone docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Caltrans remote inspection drone docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Caltrans remote inspection drone docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Caltrans remote inspection drone docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Ramapo Police two-dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Ramapo Police two-dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Ramapo Police two-dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Ramapo Police two-dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Ramapo Police two-dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Ramapo Police two-dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Ramapo Police two-dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Ramapo Police two-dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Ramapo Police two-dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Ramapo Police two-dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Kansanshi mining autonomous surveillance docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Kansanshi mining autonomous surveillance docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Kansanshi mining autonomous surveillance docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Kansanshi mining autonomous surveillance docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Kansanshi mining autonomous surveillance docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Kansanshi mining autonomous surveillance docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Kansanshi mining autonomous surveillance docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Kansanshi mining autonomous surveillance docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Kansanshi mining autonomous surveillance docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Kansanshi mining autonomous surveillance docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Quellaveco mining survey drone docking network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Quellaveco mining survey drone docking network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Quellaveco mining survey drone docking network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Quellaveco mining survey drone docking network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Quellaveco mining survey drone docking network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Quellaveco mining survey drone docking network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Quellaveco mining survey drone docking network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Quellaveco mining survey drone docking network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Quellaveco mining survey drone docking network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Quellaveco mining survey drone docking network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: UAE waste management facility dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: UAE waste management facility dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: UAE waste management facility dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: UAE waste management facility dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: UAE waste management facility dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: UAE waste management facility dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: UAE waste management facility dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: UAE waste management facility dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: UAE waste management facility dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: UAE waste management facility dock network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Axpo Alpine hydropower drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Axpo Alpine hydropower drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Axpo Alpine hydropower drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Axpo Alpine hydropower drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Axpo Alpine hydropower drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Axpo Alpine hydropower drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Axpo Alpine hydropower drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Axpo Alpine hydropower drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Axpo Alpine hydropower drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Axpo Alpine hydropower drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Slovakia military forestry wildfire dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Slovakia military forestry wildfire dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Slovakia military forestry wildfire dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Slovakia military forestry wildfire dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Slovakia military forestry wildfire dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Slovakia military forestry wildfire dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Slovakia military forestry wildfire dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Slovakia military forestry wildfire dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Slovakia military forestry wildfire dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Slovakia military forestry wildfire dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: 24-7 Drone Force estate security docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: 24-7 Drone Force estate security docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: 24-7 Drone Force estate security docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: 24-7 Drone Force estate security docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: 24-7 Drone Force estate security docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: 24-7 Drone Force estate security docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: 24-7 Drone Force estate security docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: 24-7 Drone Force estate security docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: 24-7 Drone Force estate security docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: 24-7 Drone Force estate security docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: SQM northern Chile mine dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: SQM northern Chile mine dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: SQM northern Chile mine dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: SQM northern Chile mine dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: SQM northern Chile mine dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: SQM northern Chile mine dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: SQM northern Chile mine dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: SQM northern Chile mine dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: SQM northern Chile mine dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: SQM northern Chile mine dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: CSX rail-yard inspection docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: CSX rail-yard inspection docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: CSX rail-yard inspection docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: CSX rail-yard inspection docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: CSX rail-yard inspection docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: CSX rail-yard inspection docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: CSX rail-yard inspection docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: CSX rail-yard inspection docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: CSX rail-yard inspection docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: CSX rail-yard inspection docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Aerial Fences livestock security dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Aerial Fences livestock security dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Aerial Fences livestock security dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Aerial Fences livestock security dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Aerial Fences livestock security dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Aerial Fences livestock security dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Aerial Fences livestock security dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Aerial Fences livestock security dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Aerial Fences livestock security dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Aerial Fences livestock security dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Premier Security dock-based monitoring",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Premier Security dock-based monitoring",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Premier Security dock-based monitoring",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Premier Security dock-based monitoring",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Premier Security dock-based monitoring",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Premier Security dock-based monitoring",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Premier Security dock-based monitoring",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Premier Security dock-based monitoring",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Premier Security dock-based monitoring",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Premier Security dock-based monitoring",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Discovery Land drone-in-a-box network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Discovery Land drone-in-a-box network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Discovery Land drone-in-a-box network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Discovery Land drone-in-a-box network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Discovery Land drone-in-a-box network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Discovery Land drone-in-a-box network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Discovery Land drone-in-a-box network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Discovery Land drone-in-a-box network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Discovery Land drone-in-a-box network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Discovery Land drone-in-a-box network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Port Lincoln airport drone dock security",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Port Lincoln airport drone dock security",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Port Lincoln airport drone dock security",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Port Lincoln airport drone dock security",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Port Lincoln airport drone dock security",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Port Lincoln airport drone dock security",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Port Lincoln airport drone dock security",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Port Lincoln airport drone dock security",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Port Lincoln airport drone dock security",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Port Lincoln airport drone dock security",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Titan Protection autonomous security docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Titan Protection autonomous security docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Titan Protection autonomous security docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Titan Protection autonomous security docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Titan Protection autonomous security docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Titan Protection autonomous security docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Titan Protection autonomous security docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Titan Protection autonomous security docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Titan Protection autonomous security docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Titan Protection autonomous security docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Alaska DOT SOAR autonomous dock pilot",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Alaska DOT SOAR autonomous dock pilot",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Alaska DOT SOAR autonomous dock pilot",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Alaska DOT SOAR autonomous dock pilot",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Alaska DOT SOAR autonomous dock pilot",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Alaska DOT SOAR autonomous dock pilot",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Alaska DOT SOAR autonomous dock pilot",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Alaska DOT SOAR autonomous dock pilot",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Alaska DOT SOAR autonomous dock pilot",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Alaska DOT SOAR autonomous dock pilot",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Port of Barcelona DJI Dock 3",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Port of Barcelona DJI Dock 3",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Port of Barcelona DJI Dock 3",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Port of Barcelona DJI Dock 3",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Port of Barcelona DJI Dock 3",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Port of Barcelona DJI Dock 3",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Port of Barcelona DJI Dock 3",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Port of Barcelona DJI Dock 3",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Port of Barcelona DJI Dock 3",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Port of Barcelona DJI Dock 3",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Celaya automated public safety dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Celaya automated public safety dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Celaya automated public safety dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Celaya automated public safety dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Celaya automated public safety dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Celaya automated public safety dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Celaya automated public safety dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Celaya automated public safety dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Celaya automated public safety dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Celaya automated public safety dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Palcacocha glacier monitoring dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Palcacocha glacier monitoring dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Palcacocha glacier monitoring dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Palcacocha glacier monitoring dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Palcacocha glacier monitoring dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Palcacocha glacier monitoring dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Palcacocha glacier monitoring dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Palcacocha glacier monitoring dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Palcacocha glacier monitoring dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Palcacocha glacier monitoring dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Bibai DJI Dock 3 surveying",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Bibai DJI Dock 3 surveying",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Bibai DJI Dock 3 surveying",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Bibai DJI Dock 3 surveying",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Bibai DJI Dock 3 surveying",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Bibai DJI Dock 3 surveying",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Bibai DJI Dock 3 surveying",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Bibai DJI Dock 3 surveying",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Bibai DJI Dock 3 surveying",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Bibai DJI Dock 3 surveying",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Ambite Tajuña River monitoring dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Ambite Tajuña River monitoring dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Ambite Tajuña River monitoring dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Ambite Tajuña River monitoring dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Ambite Tajuña River monitoring dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Ambite Tajuña River monitoring dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Ambite Tajuña River monitoring dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Ambite Tajuña River monitoring dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Ambite Tajuña River monitoring dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Ambite Tajuña River monitoring dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Opole DJI Dock 3 municipal inspection",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Opole DJI Dock 3 municipal inspection",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Opole DJI Dock 3 municipal inspection",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Opole DJI Dock 3 municipal inspection",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Opole DJI Dock 3 municipal inspection",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Opole DJI Dock 3 municipal inspection",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Opole DJI Dock 3 municipal inspection",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Opole DJI Dock 3 municipal inspection",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Opole DJI Dock 3 municipal inspection",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Opole DJI Dock 3 municipal inspection",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Würzburg EMQport droneport prototype",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Würzburg EMQport droneport prototype",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Würzburg EMQport droneport prototype",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Würzburg EMQport droneport prototype",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Würzburg EMQport droneport prototype",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Würzburg EMQport droneport prototype",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Würzburg EMQport droneport prototype",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Würzburg EMQport droneport prototype",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Würzburg EMQport droneport prototype",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Würzburg EMQport droneport prototype",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Tomakomai refinery drone inspections",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Tomakomai refinery drone inspections",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Tomakomai refinery drone inspections",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Tomakomai refinery drone inspections",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Tomakomai refinery drone inspections",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Tomakomai refinery drone inspections",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Tomakomai refinery drone inspections",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Tomakomai refinery drone inspections",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Tomakomai refinery drone inspections",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Tomakomai refinery drone inspections",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Network Rail automated docking project",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Network Rail automated docking project",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Network Rail automated docking project",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Network Rail automated docking project",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Network Rail automated docking project",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Network Rail automated docking project",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Network Rail automated docking project",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Network Rail automated docking project",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Network Rail automated docking project",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Network Rail automated docking project",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: NYPA Gilboa hydroelectric drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: NYPA Gilboa hydroelectric drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: NYPA Gilboa hydroelectric drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: NYPA Gilboa hydroelectric drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: NYPA Gilboa hydroelectric drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: NYPA Gilboa hydroelectric drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: NYPA Gilboa hydroelectric drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: NYPA Gilboa hydroelectric drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: NYPA Gilboa hydroelectric drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: NYPA Gilboa hydroelectric drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: ConocoPhillips Teesside docking trial",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: ConocoPhillips Teesside docking trial",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: ConocoPhillips Teesside docking trial",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: ConocoPhillips Teesside docking trial",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: ConocoPhillips Teesside docking trial",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: ConocoPhillips Teesside docking trial",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: ConocoPhillips Teesside docking trial",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: ConocoPhillips Teesside docking trial",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: ConocoPhillips Teesside docking trial",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: ConocoPhillips Teesside docking trial",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: ADLC Antwerp cargo drone hub",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: ADLC Antwerp cargo drone hub",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: ADLC Antwerp cargo drone hub",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: ADLC Antwerp cargo drone hub",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: ADLC Antwerp cargo drone hub",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: ADLC Antwerp cargo drone hub",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: ADLC Antwerp cargo drone hub",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: ADLC Antwerp cargo drone hub",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: ADLC Antwerp cargo drone hub",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: ADLC Antwerp cargo drone hub",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Upper Darby Police Skydio DFR docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Upper Darby Police Skydio DFR docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Upper Darby Police Skydio DFR docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Upper Darby Police Skydio DFR docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Upper Darby Police Skydio DFR docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Upper Darby Police Skydio DFR docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Upper Darby Police Skydio DFR docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Upper Darby Police Skydio DFR docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Upper Darby Police Skydio DFR docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Upper Darby Police Skydio DFR docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: SkyBound railway drone dock London",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: SkyBound railway drone dock London",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: SkyBound railway drone dock London",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: SkyBound railway drone dock London",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: SkyBound railway drone dock London",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: SkyBound railway drone dock London",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: SkyBound railway drone dock London",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: SkyBound railway drone dock London",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: SkyBound railway drone dock London",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: SkyBound railway drone dock London",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: SkyBound railway drone dock Glasgow",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: SkyBound railway drone dock Glasgow",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: SkyBound railway drone dock Glasgow",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: SkyBound railway drone dock Glasgow",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: SkyBound railway drone dock Glasgow",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: SkyBound railway drone dock Glasgow",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: SkyBound railway drone dock Glasgow",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: SkyBound railway drone dock Glasgow",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: SkyBound railway drone dock Glasgow",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: SkyBound railway drone dock Glasgow",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: SkyBound railway drone dock Cardiff",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: SkyBound railway drone dock Cardiff",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: SkyBound railway drone dock Cardiff",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: SkyBound railway drone dock Cardiff",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: SkyBound railway drone dock Cardiff",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: SkyBound railway drone dock Cardiff",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: SkyBound railway drone dock Cardiff",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: SkyBound railway drone dock Cardiff",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: SkyBound railway drone dock Cardiff",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: SkyBound railway drone dock Cardiff",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Cincinnati Police Skydio DFR docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Cincinnati Police Skydio DFR docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Cincinnati Police Skydio DFR docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Cincinnati Police Skydio DFR docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Cincinnati Police Skydio DFR docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Cincinnati Police Skydio DFR docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Cincinnati Police Skydio DFR docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Cincinnati Police Skydio DFR docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Cincinnati Police Skydio DFR docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Cincinnati Police Skydio DFR docks",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Yonkers Police Nokia docking network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Yonkers Police Nokia docking network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Yonkers Police Nokia docking network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Yonkers Police Nokia docking network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Yonkers Police Nokia docking network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Yonkers Police Nokia docking network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Yonkers Police Nokia docking network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Yonkers Police Nokia docking network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Yonkers Police Nokia docking network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Yonkers Police Nokia docking network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: Summerville Nokia public safety drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: Summerville Nokia public safety drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: Summerville Nokia public safety drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: Summerville Nokia public safety drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: Summerville Nokia public safety drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: Summerville Nokia public safety drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: Summerville Nokia public safety drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: Summerville Nokia public safety drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: Summerville Nokia public safety drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: Summerville Nokia public safety drone dock",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ],
+  [
+    "Atlas rejects boolean latitude without dropping record: El Paso DJI Dock 3 public safety network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects numeric-string latitude without coercion: El Paso DJI Dock 3 public safety network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas rejects array longitude without coercion: El Paso DJI Dock 3 public safety network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas missing point retains accessible project card: El Paso DJI Dock 3 public safety network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"recordRetained\": true, \"noCoercedMapPoint\": true}"
+  ],
+  [
+    "Atlas accepts numeric zero and projection boundaries: El Paso DJI Dock 3 public safety network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"zeroAccepted\": true, \"boundariesAccepted\": true}"
+  ],
+  [
+    "Oversized comparison selection retains first three records: El Paso DJI Dock 3 public safety network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"limit\": 3, \"firstSelectionOrder\": true, \"notice\": true}"
+  ],
+  [
+    "Repeated and unknown comparison IDs normalize with focus: El Paso DJI Dock 3 public safety network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"duplicatesRemoved\": true, \"unknownRemoved\": true, \"focus\": true}"
+  ],
+  [
+    "Blocked history retains three selections and limit: El Paso DJI Dock 3 public safety network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"historyFailureHandled\": true, \"threeSelectionsRetained\": true, \"limitEnforced\": true}"
+  ],
+  [
+    "Clear last comparison restores results and search focus: El Paso DJI Dock 3 public safety network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"selectionCleared\": true, \"resultsAnchor\": true, \"searchFocus\": true}"
+  ],
+  [
+    "Blocked history uses latest filter state in passport links: El Paso DJI Dock 3 public safety network",
+    "checks/map-state-500.cjs",
+    "PASSED: {\"currentFilters\": 6, \"staleUrlNotUsed\": true, \"unrelatedExcluded\": true}"
+  ]
+]

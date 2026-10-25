@@ -1,0 +1,42 @@
+[
+  [
+    "Share accent/token/field search logic between atlas and directory",
+    "research-search.js; directory.js; site-redesign.js",
+    "Automated suites; live Wurzburg and multiword publisher searches"
+  ],
+  [
+    "Restore selected marker state after zoom redraw",
+    "site-redesign.js",
+    "Marker redraw unit test; live marker aria-current and selected class after zoom"
+  ],
+  [
+    "Restrict atlas evidence links to HTTPS without credentials",
+    "site-redesign.js",
+    "Invalid-scheme unit test; existing HTTPS link verified live"
+  ],
+  [
+    "Reject malformed and duplicate atlas records with retry feedback",
+    "site-redesign.js",
+    "Malformed and duplicate dataset unit tests"
+  ],
+  [
+    "Explain unknown project references during history navigation",
+    "site-redesign.js",
+    "Popstate unknown-ID unit test"
+  ],
+  [
+    "Use singular atlas project, pin and location labels correctly",
+    "site-redesign.js",
+    "Live one-result accessibility tree and screenshot"
+  ],
+  [
+    "Count schematic fallback pins when interactive mapping is unavailable",
+    "site-redesign.js",
+    "Fallback rendering source review and unit harness"
+  ],
+  [
+    "Ignore stale report clipboard success/failure feedback",
+    "submit/index.html",
+    "Delayed clipboard unit tests; normal live copy and JSON download"
+  ]
+]

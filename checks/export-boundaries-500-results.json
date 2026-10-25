@@ -1,0 +1,2508 @@
+{
+  "total": 500,
+  "passed": 500,
+  "failed": 0,
+  "mode": "Local controlled DOM/VM with isolated synthetic equipment text; CSV parser checks directory/comparison agreement and exact JSON preservation.",
+  "checks": [
+    {
+      "project": "shenzhen",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Comma and quote text",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "CRLF multiline text",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "LF multiline Unicode",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Formula equals",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Formula plus",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Formula minus",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Formula at sign",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Whitespace-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "BOM-prefixed formula",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Literal apostrophe remains intact",
+      "passed": true
+    }
+  ]
+}

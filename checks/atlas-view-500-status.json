@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-25",
+  "requestedTasks": 500,
+  "completedVerificationTasks": 500,
+  "beforePassed": 400,
+  "beforeFailed": 100,
+  "afterPassed": 500,
+  "afterFailed": 0,
+  "implementationFixes": 1,
+  "fix": "Project opening uses zoom 3 on the schematic offline atlas; detailed-mode project focus behavior is preserved",
+  "sourceChanges": [
+    "src/site-redesign.js"
+  ],
+  "deployment": "dpl_5nWD1GEDTaMa7VT5CRn3ALuKELmk",
+  "status": "READY",
+  "projects": 50,
+  "workflows": {
+    "Offline project opening uses schematic zoom cap from world view": 50,
+    "Offline project opening reduces stale close-up zoom": 50,
+    "Detailed project opening retains normal focus zoom": 50,
+    "Detailed project opening preserves existing close-up": 50,
+    "Missing coordinates open readable drawer without map movement": 50,
+    "Project map movement honors reduced motion": 50,
+    "Modal close preserves pre-existing inert background state": 50,
+    "History project replacement restores background on close": 50,
+    "Drawer selection updates and clears marker accessibility": 50,
+    "Failed deep-link load retries with project and filter context": 50
+  },
+  "verificationMode": "Local controlled DOM/VM and mock map; no live tile requests",
+  "liveUISmoke": "Kiel drawer in offline mode, close focus, Escape and 50/50 records",
+  "exposedDeploymentHashesMatched": 135,
+  "liveHttpVerified": [
+    "site-redesign.js",
+    "data/projects.json"
+  ],
+  "unverified": [
+    "Fresh mobile/device visuals",
+    "Live optional detailed online geography",
+    "Independent research accuracy and external evidence availability",
+    "Submission inbox remains unconnected",
+    "Cluster-expansion zoom behavior was not audited in this batch"
+  ]
+}

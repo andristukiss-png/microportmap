@@ -1,0 +1,27 @@
+[
+  [
+    "Wire technology shortcuts to available cargo/street/industrial categories, with focus and reloadable atlas state",
+    "index.html; site-redesign.js",
+    "Live cargo Antwerp 1, street Shenzhen 1, industrial 22, dock keyword 48; focus/reload unit and live checks"
+  ],
+  [
+    "Disable technology shortcuts until data is ready and announce results",
+    "index.html; site-redesign.js",
+    "Pending/failure/retry unit checks; live result-count announcement"
+  ],
+  [
+    "Respect reduced motion during fitting and cap offline schematic fitting at broad regional zoom",
+    "site-redesign.js",
+    "Single/multi-point and detailed-layer unit tests; live fitted marker inside map"
+  ],
+  [
+    "Repair incorrect Leaflet CSS integrity; host pinned stylesheet/assets locally with license",
+    "index.html; vendor/leaflet",
+    "Official hash and asset/license checks; live absolute positioning restored; five deployed PNGs byte-match local files"
+  ],
+  [
+    "Separate geography toggle from the map-precision toolbar",
+    "site-redesign.js",
+    "Live bounding-box check: toggle below precision link; screenshot"
+  ]
+]

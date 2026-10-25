@@ -1,0 +1,2508 @@
+{
+  "total": 500,
+  "passed": 500,
+  "failed": 0,
+  "mode": "Local controlled DOM/VM; synthetic delayed fetch, timeout and allocation failures. Not live browser/device testing.",
+  "checks": [
+    {
+      "project": "shenzhen",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Delayed initial load enables JSON only after exact result arrives",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Timeout then retry restores filtered JSON and error state",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Repeated retry clicks during pending fetch do not duplicate requests",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "URL changed during load is restored when records arrive",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Invalid secondary filters normalize without losing exact project search",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "CSV allocation failure recovers through JSON with exact record",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "JSON allocation failure recovers through CSV and cleans anchor",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Empty filtered exports give feedback and recover after clearing search",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Reset after exact filtered export yields full original catalog in name order",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "History navigation from empty view restores exact export and metadata",
+      "passed": true
+    }
+  ]
+}

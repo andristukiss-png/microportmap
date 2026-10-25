@@ -1,0 +1,17 @@
+{
+  "deployment": "dpl_4K71mrFBNmvPwrboERVR6Avuz1vB",
+  "status": "READY",
+  "featureCount": 1,
+  "verificationCases": 50,
+  "productionSourceChanges": [
+    "src/project-connect.js"
+  ],
+  "liveFlow": "Kiel passport \u2192 selected comparison \u2192 add EnBW",
+  "liveHttpVerified": [
+    "project-connect.js",
+    "data/projects.json"
+  ],
+  "availableDeploymentHashesVerified": 135,
+  "siteOriginErrorsInCheckedBrowserViews": 0,
+  "browserExtensionMetadataErrorsObserved": true
+}

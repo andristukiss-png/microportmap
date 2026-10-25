@@ -1,0 +1,2502 @@
+[
+  [
+    "shenzhen",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "shenzhen",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "shenzhen",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "shenzhen",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "shenzhen",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "shenzhen",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "shenzhen",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "shenzhen",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "shenzhen",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "shenzhen",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "rotterdam",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "rotterdam",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "rotterdam",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "rotterdam",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "rotterdam",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "rotterdam",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "rotterdam",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "rotterdam",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "rotterdam",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "rotterdam",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "kiel",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "kiel",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "kiel",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "kiel",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "kiel",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "kiel",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "kiel",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "kiel",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "kiel",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "kiel",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "italy",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "italy",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "italy",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "italy",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "italy",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "italy",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "italy",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "italy",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "italy",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "italy",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "oman",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "oman",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "oman",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "oman",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "oman",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "oman",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "oman",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "oman",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "oman",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "oman",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "australia",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "australia",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "australia",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "australia",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "australia",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "australia",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "australia",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "australia",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "australia",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "australia",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "enbw",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "enbw",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "enbw",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "enbw",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "enbw",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "enbw",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "enbw",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "enbw",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "enbw",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "enbw",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "dole",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "dole",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "dole",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "dole",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "dole",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "dole",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "dole",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "dole",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "dole",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "dole",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "tnb",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "tnb",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "tnb",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "tnb",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "tnb",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "tnb",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "tnb",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "tnb",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "tnb",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "tnb",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "asheville",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "asheville",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "asheville",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "asheville",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "asheville",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "asheville",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "asheville",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "asheville",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "asheville",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "asheville",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "vancouver",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "vancouver",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "vancouver",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "vancouver",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "vancouver",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "vancouver",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "vancouver",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "vancouver",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "vancouver",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "vancouver",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "ishikawa",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "ishikawa",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "ishikawa",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "ishikawa",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "ishikawa",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "ishikawa",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "ishikawa",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "ishikawa",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "ishikawa",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "ishikawa",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "belgium-sense",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "belgium-sense",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "belgium-sense",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "belgium-sense",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "belgium-sense",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "belgium-sense",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "belgium-sense",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "belgium-sense",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "belgium-sense",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "belgium-sense",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "texas-solar",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "texas-solar",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "texas-solar",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "texas-solar",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "texas-solar",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "texas-solar",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "texas-solar",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "texas-solar",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "texas-solar",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "texas-solar",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "caltrans-otay",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "caltrans-otay",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "caltrans-otay",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "caltrans-otay",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "caltrans-otay",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "caltrans-otay",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "caltrans-otay",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "caltrans-otay",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "caltrans-otay",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "caltrans-otay",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "ramapo",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "ramapo",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "ramapo",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "ramapo",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "ramapo",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "ramapo",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "ramapo",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "ramapo",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "ramapo",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "ramapo",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "kansanshi-zambia",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "kansanshi-zambia",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "kansanshi-zambia",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "kansanshi-zambia",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "kansanshi-zambia",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "kansanshi-zambia",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "kansanshi-zambia",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "kansanshi-zambia",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "kansanshi-zambia",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "kansanshi-zambia",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "quellaveco-peru",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "quellaveco-peru",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "quellaveco-peru",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "quellaveco-peru",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "quellaveco-peru",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "quellaveco-peru",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "quellaveco-peru",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "quellaveco-peru",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "quellaveco-peru",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "quellaveco-peru",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "uae-waste",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "uae-waste",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "uae-waste",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "uae-waste",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "uae-waste",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "uae-waste",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "uae-waste",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "uae-waste",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "uae-waste",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "uae-waste",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "axpo-swiss",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "axpo-swiss",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "axpo-swiss",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "axpo-swiss",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "axpo-swiss",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "axpo-swiss",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "axpo-swiss",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "axpo-swiss",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "axpo-swiss",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "axpo-swiss",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "slovakia-forest",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "slovakia-forest",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "slovakia-forest",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "slovakia-forest",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "slovakia-forest",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "slovakia-forest",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "slovakia-forest",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "slovakia-forest",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "slovakia-forest",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "slovakia-forest",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "southafrica-estate",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "southafrica-estate",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "southafrica-estate",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "southafrica-estate",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "southafrica-estate",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "southafrica-estate",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "southafrica-estate",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "southafrica-estate",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "southafrica-estate",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "southafrica-estate",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "sqm-chile",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "sqm-chile",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "sqm-chile",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "sqm-chile",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "sqm-chile",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "sqm-chile",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "sqm-chile",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "sqm-chile",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "sqm-chile",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "sqm-chile",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "csx-rail",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "csx-rail",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "csx-rail",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "csx-rail",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "csx-rail",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "csx-rail",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "csx-rail",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "csx-rail",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "csx-rail",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "csx-rail",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "aerial-fences",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "aerial-fences",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "aerial-fences",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "aerial-fences",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "aerial-fences",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "aerial-fences",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "aerial-fences",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "aerial-fences",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "aerial-fences",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "aerial-fences",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "premier-security-us",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "premier-security-us",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "premier-security-us",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "premier-security-us",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "premier-security-us",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "premier-security-us",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "premier-security-us",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "premier-security-us",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "premier-security-us",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "premier-security-us",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "discovery-land-us",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "discovery-land-us",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "discovery-land-us",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "discovery-land-us",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "discovery-land-us",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "discovery-land-us",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "discovery-land-us",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "discovery-land-us",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "discovery-land-us",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "discovery-land-us",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "port-lincoln",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "port-lincoln",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "port-lincoln",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "port-lincoln",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "port-lincoln",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "port-lincoln",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "port-lincoln",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "port-lincoln",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "port-lincoln",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "port-lincoln",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "titan-protection",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "titan-protection",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "titan-protection",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "titan-protection",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "titan-protection",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "titan-protection",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "titan-protection",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "titan-protection",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "titan-protection",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "titan-protection",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "soar-alaska",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "soar-alaska",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "soar-alaska",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "soar-alaska",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "soar-alaska",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "soar-alaska",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "soar-alaska",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "soar-alaska",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "soar-alaska",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "soar-alaska",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "barcelona-port",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "barcelona-port",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "barcelona-port",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "barcelona-port",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "barcelona-port",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "barcelona-port",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "barcelona-port",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "barcelona-port",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "barcelona-port",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "barcelona-port",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "celaya",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "celaya",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "celaya",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "celaya",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "celaya",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "celaya",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "celaya",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "celaya",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "celaya",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "celaya",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "palcacocha",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "palcacocha",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "palcacocha",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "palcacocha",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "palcacocha",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "palcacocha",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "palcacocha",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "palcacocha",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "palcacocha",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "palcacocha",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "bibai",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "bibai",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "bibai",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "bibai",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "bibai",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "bibai",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "bibai",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "bibai",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "bibai",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "bibai",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "ambite",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "ambite",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "ambite",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "ambite",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "ambite",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "ambite",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "ambite",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "ambite",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "ambite",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "ambite",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "opole",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "opole",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "opole",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "opole",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "opole",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "opole",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "opole",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "opole",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "opole",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "opole",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "wurzburg-emqport",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "wurzburg-emqport",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "wurzburg-emqport",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "wurzburg-emqport",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "wurzburg-emqport",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "wurzburg-emqport",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "wurzburg-emqport",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "wurzburg-emqport",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "wurzburg-emqport",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "wurzburg-emqport",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "tomakomai-refinery",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "tomakomai-refinery",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "tomakomai-refinery",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "tomakomai-refinery",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "tomakomai-refinery",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "tomakomai-refinery",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "tomakomai-refinery",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "tomakomai-refinery",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "tomakomai-refinery",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "tomakomai-refinery",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "network-rail-uk",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "network-rail-uk",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "network-rail-uk",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "network-rail-uk",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "network-rail-uk",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "network-rail-uk",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "network-rail-uk",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "network-rail-uk",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "network-rail-uk",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "network-rail-uk",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "gilboa-nypa",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "gilboa-nypa",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "gilboa-nypa",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "gilboa-nypa",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "gilboa-nypa",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "gilboa-nypa",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "gilboa-nypa",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "gilboa-nypa",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "gilboa-nypa",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "gilboa-nypa",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "teesside-terminal",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "teesside-terminal",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "teesside-terminal",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "teesside-terminal",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "teesside-terminal",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "teesside-terminal",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "teesside-terminal",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "teesside-terminal",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "teesside-terminal",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "teesside-terminal",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "antwerp-cargo-hub",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "antwerp-cargo-hub",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "antwerp-cargo-hub",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "antwerp-cargo-hub",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "antwerp-cargo-hub",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "antwerp-cargo-hub",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "antwerp-cargo-hub",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "antwerp-cargo-hub",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "antwerp-cargo-hub",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "antwerp-cargo-hub",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "upper-darby-dfr",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "upper-darby-dfr",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "upper-darby-dfr",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "upper-darby-dfr",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "upper-darby-dfr",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "upper-darby-dfr",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "upper-darby-dfr",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "upper-darby-dfr",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "upper-darby-dfr",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "upper-darby-dfr",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "skybound-waterloo",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "skybound-waterloo",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "skybound-waterloo",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "skybound-waterloo",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "skybound-waterloo",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "skybound-waterloo",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "skybound-waterloo",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "skybound-waterloo",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "skybound-waterloo",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "skybound-waterloo",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "skybound-glasgow",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "skybound-glasgow",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "skybound-glasgow",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "skybound-glasgow",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "skybound-glasgow",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "skybound-glasgow",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "skybound-glasgow",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "skybound-glasgow",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "skybound-glasgow",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "skybound-glasgow",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "skybound-cardiff",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "skybound-cardiff",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "skybound-cardiff",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "skybound-cardiff",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "skybound-cardiff",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "skybound-cardiff",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "skybound-cardiff",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "skybound-cardiff",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "skybound-cardiff",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "skybound-cardiff",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "cincinnati-dfr",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "cincinnati-dfr",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "cincinnati-dfr",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "cincinnati-dfr",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "cincinnati-dfr",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "cincinnati-dfr",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "cincinnati-dfr",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "cincinnati-dfr",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "cincinnati-dfr",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "cincinnati-dfr",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "yonkers-nokia",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "yonkers-nokia",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "yonkers-nokia",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "yonkers-nokia",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "yonkers-nokia",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "yonkers-nokia",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "yonkers-nokia",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "yonkers-nokia",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "yonkers-nokia",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "yonkers-nokia",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "summerville-nokia",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "summerville-nokia",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "summerville-nokia",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "summerville-nokia",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "summerville-nokia",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "summerville-nokia",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "summerville-nokia",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "summerville-nokia",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "summerville-nokia",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "summerville-nokia",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ],
+  [
+    "el-paso-dfr",
+    "Forward selection then middle removal",
+    "PASS"
+  ],
+  [
+    "el-paso-dfr",
+    "Reverse selection then first removal",
+    "PASS"
+  ],
+  [
+    "el-paso-dfr",
+    "Alternate order then last removal",
+    "PASS"
+  ],
+  [
+    "el-paso-dfr",
+    "Removed first project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "el-paso-dfr",
+    "Removed middle project is appended when reselected",
+    "PASS"
+  ],
+  [
+    "el-paso-dfr",
+    "Fourth selection refused then accepted after a removal",
+    "PASS"
+  ],
+  [
+    "el-paso-dfr",
+    "Clear then rebuild in a different order",
+    "PASS"
+  ],
+  [
+    "el-paso-dfr",
+    "Last removal clears comparison then selection recovers",
+    "PASS"
+  ],
+  [
+    "el-paso-dfr",
+    "Repeated state notifications retain selection order",
+    "PASS"
+  ],
+  [
+    "el-paso-dfr",
+    "Full selection survives load recovery then removal",
+    "PASS"
+  ]
+]

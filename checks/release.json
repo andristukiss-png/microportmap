@@ -1,0 +1,260 @@
+{
+  "deployment": "dpl_5GKteLhbc8vH5Ejm456oyYjWMdWz",
+  "hostname": "microportmap-b12dztds2-football-planet.vercel.app",
+  "duration": "Production READY. Cluster expansion respects offline zoom limits and reduced motion.",
+  "fileCount": 141,
+  "verified": [
+    "Cluster expansion now caps schematic offline zoom at 3 and opens internal passport choices at that cap. Detailed-mode expansion retains its three-level step and zoom-10 ceiling. Cluster zoom respects reduced-motion preferences.",
+    "Live desktop smoke: a 17-project cluster expands; a remaining 9-project cluster opens its passport chooser in offline mode. Original 50 records, all HTML and all color files unchanged.",
+    "Added a persistent lower navigation bar to all 72 HTML pages, including passports and the branded 404. Five consistent destinations: Atlas, Projects, Tech, Evidence and Explore.",
+    "Added four internal discovery banner cards near the end of every page, plus a consistent site-topic link row. Banner choices avoid sending visitors back to the page they are already reading.",
+    "Each of the 50 project passports includes next/previous project links and a country directory banner. The next/previous links form a complete cycle across all 50 records.",
+    "Navigation is static and works without JavaScript. It includes safe-area spacing, keyboard skip links, visible focus, current-page states, responsive layouts and reduced-motion handling. Existing floating home shortcuts are visually replaced by the shared bar; the Up button sits above it.",
+    "Live desktop checks confirm the Kiel banner opens Network Rail, the bar remains fixed/visible, directory current-page state works, Explore reaches the banners, and the atlas dialog makes the bar inert until dismissal.",
+    "Vercel confirms READY. All 136 exposed deployment hashes match. Public stylesheet, passport HTML, branded 404 response and original dataset match source bytes."
+  ],
+  "tests": [
+    "Latest batch: 2,000/2,000 record-field export cases (50 projects \u00d7 10 text fields \u00d7 4 text variants). Each case verifies directory/comparison CSV values by column name and exact directory/comparison/passport JSON records, including formula protection and temporary-anchor cleanup. Synthetic fixture changes only; no application source change or deployment.",
+    "Latest batch: 500/500 review queue transition sequences. Ten sequences for each three-record synthetic fixture verify exact audit records/flags through search/country/flag changes, reset, and review/all/flagged scope transitions. Empty views give feedback; all scope remains independent of review filters. No app changes or deployment.",
+    "Latest batch: 500/500 atlas history-event sequences. Ten sequences per project cover project replacement, repeated known/unknown routes, closing/reopening and recovery. At each step verify selected identity, filters, drawer/backdrop, inert background, focus and scroll restoration. Local controlled popstate events; no source changes or deployment.",
+    "Latest batch: 500/500 directory filter transition sequences. Ten sequences per project verify exact displayed IDs/order, URL parameters, JSON records/count and filter metadata at every step. Includes country/region/category/year intersections, clearing individual filters, changing sorting, exact search and full reset. No app changes or deployment.",
+    "Latest batch: 500/500 comparison transition sequences. Ten explicit selection/removal/reselection/clear/loading sequences across 50 starting projects verify exact original JSON, order, URL, pressed state, hidden/disabled state and selection limit after each step. No app source changes or deployment.",
+    "Latest batch: 500/500 CSV/JSON boundary fixtures. Ten equipment-text variants per project cover commas/quotes, CRLF/LF Unicode, formula prefixes, leading whitespace/BOM and literal apostrophes. Directory and comparison CSV values agree by column name despite their existing different column orders; JSON preserves exact fixture records. No app changes or deployment.",
+    "Latest batch: 500/500 search concordance journeys across directory and atlas: uppercase, decomposed Unicode, accent stripping, reversed words, mixed whitespace, combined country/operator/region/category terms, absent terms and blank searches. Each query also restores via a fresh directory instance; matching projects open/close without losing search. No app changes or deployment.",
+    "Latest batch: 500/500 date boundary checks: ten validation/event sequences across 50 dates in 2024\u20132028. Covers current/past/future dates, clearing errors, leap-year/month/year rollover, field/window focus, visibility changes and backward calendar changes. Controlled local calendar, not device timezone emulation. No app source change or deployment.",
+    "Latest batch: 500/500 evidence-input boundary checks, ten source transformations per project. Valid whitespace, encoded query/fragment/path and mixed-case scheme cases preserve input; credential, HTTP, protocol-relative, IPv6 loopback and localhost cases block submit then recover to original source. Local format validation only; no external source requests or app changes.",
+    "Latest batch: 500/500 site connection journeys using links extracted from real HTML: country index; coverage country/category/region/year; operator search; passport country and next-project banners; rendered correction routes; comparison-to-atlas routes with exact exports. Local static/controlled DOM tests; no source change or deployment.",
+    "Latest batch: 500/500 research handoff checks, five correction and five quality-export sequences per project. Covers edited text, unresolved/retry identity, original categories, encoded unusual references, evidence-format recovery, missing fields, invalid coordinates/sources, duplicate records, accented review search and allocation recovery. Local controlled DOM/VM; no app change or deployment.",
+    "Latest batch: 500/500 directory recovery checks: delayed load, timeout/retry, duplicate retry prevention, URL changes during load, invalid filter normalization, CSV/JSON allocation-failure recovery, empty export feedback, full-catalog reset and history restoration. Local controlled DOM/VM; no source change or deployment.",
+    "Latest batch: 500/500 local sharing journey checks. Ten journeys for each project validate triple-selection order, each passport return, Unicode filters, query-field restrictions, companion related pairs, malformed encodings, fetch retry, canonical copy separation, loading restoration and middle-selection removal. Exact exports verified after every return. No app changes or redeployment.",
+    "Latest batch: 500/500 local controlled DOM/VM cluster recovery checks. Ten behaviors per project cover escaped chooser names, accents, search/country/type filtering, empty/reset states, fallback focus, unmapped records and stale marker removal. No source changes or redeployment.",
+    "New cluster batch: 500 local controlled DOM/VM checks, 250 passed before fix and 500 after. Ten scenarios for each of 50 project-based synthetic fixtures. Also reran 500 atlas-view checks, 500 map-state checks, atlas/passport suites, 500 discovery assertions, 72-page navigation audit and preservation/recovery suites.",
+    "New batch: 500/500 local static discovery checks across all 50 passports: destinations, exact country filters, forward/reverse 50-project cycles, valid internal routes and fragments, keyboard targets, shared styles and content preservation. No production source changes or redeployment needed.",
+    "72-page static audit passes: exactly one five-link bar, four non-self internal cards, valid local routes, unique IDs, correct active states, no new external/blank-target links, a 50-project discovery cycle and inverse previous links.",
+    "Generator idempotence passes. New CSS colors are drawn from the existing palette. Removing only the new marked navigation blocks and stylesheet link reproduces all prior HTML bytes; all original data and CSS remain byte-identical.",
+    "Existing atlas and passport behavior suites, 34 preservation checks, full navigation/link/anchor/metadata audit and 71-page sitemap/recovery checks pass.",
+    "Local managed preview service was unavailable. Live desktop visual QA was performed on production. Actual mobile/device visuals remain unverified."
+  ],
+  "unverified": [
+    "Actual mobile/device visual checks",
+    "Live optional detailed online geography",
+    "Independent research accuracy and external evidence availability",
+    "Submission inbox remains unconnected"
+  ],
+  "ledgers": [
+    [
+      "Latest batch: 2,000 record-field export cases",
+      "checks/record-field-2000-ledger.json",
+      1
+    ],
+    [
+      "Latest batch: 500 review queue transition sequences",
+      "checks/review-transitions-500-ledger.json",
+      1
+    ],
+    [
+      "Latest batch: 500 atlas history sequences",
+      "checks/atlas-history-500-ledger.json",
+      1
+    ],
+    [
+      "Latest batch: 500 filter transition sequences",
+      "checks/filter-transitions-500-ledger.json",
+      1
+    ],
+    [
+      "Latest batch: 500 comparison transition sequences",
+      "checks/comparison-transitions-500-ledger.json",
+      1
+    ],
+    [
+      "Latest batch: 500 export boundary checks",
+      "checks/export-boundaries-500-ledger.json",
+      1
+    ],
+    [
+      "Latest batch: 500 search concordance journeys",
+      "checks/search-concordance-500-ledger.json",
+      1
+    ],
+    [
+      "Latest batch: 500 date boundary checks",
+      "checks/date-boundaries-500-ledger.json",
+      1
+    ],
+    [
+      "Latest batch: 500 evidence-input boundary checks",
+      "checks/evidence-boundary-500-ledger.json",
+      1
+    ],
+    [
+      "Latest batch: 500 site connection journeys",
+      "checks/site-journeys-500-ledger.json",
+      1
+    ],
+    [
+      "Latest batch: 500 research handoff checks",
+      "checks/research-handoff-500-ledger.json",
+      1
+    ],
+    [
+      "Latest batch: 500 directory recovery checks",
+      "checks/directory-recovery-500-ledger.json",
+      1
+    ],
+    [
+      "Latest batch: 500 sharing journey checks",
+      "checks/sharing-journey-500-ledger.json",
+      1
+    ],
+    [
+      "Latest batch: 500 cluster recovery checks",
+      "checks/cluster-recovery-500-ledger.json",
+      1
+    ],
+    [
+      "Latest batch: 500 cluster expansion checks",
+      "checks/cluster-500-ledger.json",
+      1
+    ],
+    [
+      "Latest batch: 500 passport discovery checks",
+      "checks/discovery-500-ledger.json",
+      1
+    ],
+    [
+      "Current release: shared lower navigation on all 72 pages",
+      "checks/site-navigation-ledger.json",
+      1
+    ],
+    [
+      "Previous batch: 500 atlas view-state tasks and project-zoom fix",
+      "checks/atlas-view-500-ledger.json",
+      1
+    ],
+    [
+      "Previous batch: 500 map/state tasks and coordinate fix",
+      "checks/map-state-500-ledger.json",
+      1
+    ],
+    [
+      "Previous batch: 500 malformed-catalog tasks and atlas ID fix",
+      "checks/catalog-fault-500-ledger.json",
+      1
+    ],
+    [
+      "Previous batch: 500 correction/evidence tasks",
+      "checks/correction-500-ledger.json",
+      1
+    ],
+    [
+      "Previous batch: 500 data-quality fault tasks and CSV fix",
+      "checks/quality-fault-500-ledger.json",
+      1
+    ],
+    [
+      "Previous batch: 500 advanced verification tasks",
+      "checks/advanced-500-ledger.json",
+      1
+    ],
+    [
+      "Previous batch: 500 verification tasks \u2014 10 workflows \u00d7 50 records",
+      "checks/next-500-ledger.json",
+      1
+    ],
+    [
+      "Previous batch: 50 comparison-to-map verification tasks",
+      "checks/comparison-map-ledger.json",
+      1
+    ],
+    [
+      "Previous batch: 50 related-project comparison verification tasks",
+      "checks/related-pair-ledger.json",
+      1
+    ],
+    [
+      "Previous release: 50 filtered comparison-return cases",
+      "checks/comparison-filter-return-ledger.json",
+      1
+    ],
+    [
+      "Previous release: 50 comparison-return verification cases",
+      "checks/comparison-return-ledger.json",
+      1
+    ],
+    [
+      "Previous release: comparison handoff verification for 50 passports",
+      "checks/passport-comparison-ledger.json",
+      1
+    ],
+    [
+      "Previous continuation: 50 production passport verification tasks",
+      "checks/live-integrity-tasks.json",
+      1
+    ],
+    [
+      "Latest 50 comparison tasks: 25 implementation and 25 verification",
+      "checks/comparison-next-50-tasks.json",
+      181
+    ],
+    [
+      "Previous 50 review tasks: 25 implementation and 25 verification",
+      "checks/review-next-50-tasks.json",
+      131
+    ],
+    [
+      "Previous 50 tasks: 32 implementation and 18 verification",
+      "checks/next-50-tasks.json",
+      81
+    ],
+    [
+      "Correction HTTPS validation",
+      "checks/https-validation-tasks.json",
+      80
+    ],
+    [
+      "Geography switching repair",
+      "checks/geography-switch-tasks.json",
+      79
+    ],
+    [
+      "Latest technology/map fixes",
+      "checks/technology-map-tasks.json",
+      74
+    ],
+    [
+      "Latest passport improvements",
+      "checks/passport-tasks.json",
+      69
+    ],
+    [
+      "Previous correction context improvements",
+      "checks/correction-context-tasks.json",
+      65
+    ],
+    [
+      "Previous quality improvements",
+      "checks/quality-tasks.json",
+      59
+    ],
+    [
+      "Previous search/map continuation",
+      "checks/continuation-tasks.json",
+      51
+    ],
+    [
+      "Previously completed 50-item development list",
+      "checks/development-tasks.json",
+      1
+    ]
+  ],
+  "sourceVerification": "All 136 exposed deployment hashes match. Live map script, dataset and shared navigation stylesheet match exact source bytes.",
+  "preservation": "All 50 research records, coordinates, data exports, existing CSS and embedded colors are preserved. HTML pages intentionally gained shared navigation; stripping only those marked additions reproduces the previous page content exactly.",
+  "sources": [
+    {
+      "label": "Leaflet 1.9.4 official download and integrity instructions",
+      "url": "https://leafletjs.com/download"
+    }
+  ],
+  "date": "25 October 2026"
+}

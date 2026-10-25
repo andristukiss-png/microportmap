@@ -1,0 +1,2502 @@
+[
+  [
+    "Offline project opening uses schematic zoom cap from world view: Futian street-pole drone dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Futian street-pole drone dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Futian street-pole drone dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Futian street-pole drone dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Futian street-pole drone dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Futian street-pole drone dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Futian street-pole drone dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Futian street-pole drone dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Futian street-pole drone dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Futian street-pole drone dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Shell industrial drone dock deployments",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Shell industrial drone dock deployments",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Shell industrial drone dock deployments",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Shell industrial drone dock deployments",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Shell industrial drone dock deployments",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Shell industrial drone dock deployments",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Shell industrial drone dock deployments",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Shell industrial drone dock deployments",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Shell industrial drone dock deployments",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Shell industrial drone dock deployments",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Kiel emergency-response dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Kiel emergency-response dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Kiel emergency-response dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Kiel emergency-response dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Kiel emergency-response dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Kiel emergency-response dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Kiel emergency-response dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Kiel emergency-response dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Kiel emergency-response dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Kiel emergency-response dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: ReADI autonomous highway dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: ReADI autonomous highway dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: ReADI autonomous highway dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: ReADI autonomous highway dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: ReADI autonomous highway dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: ReADI autonomous highway dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: ReADI autonomous highway dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: ReADI autonomous highway dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: ReADI autonomous highway dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: ReADI autonomous highway dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Remote construction-site dock deployment",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Remote construction-site dock deployment",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Remote construction-site dock deployment",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Remote construction-site dock deployment",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Remote construction-site dock deployment",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Remote construction-site dock deployment",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Remote construction-site dock deployment",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Remote construction-site dock deployment",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Remote construction-site dock deployment",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Remote construction-site dock deployment",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Sensorem autonomous dock fleet",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Sensorem autonomous dock fleet",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Sensorem autonomous dock fleet",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Sensorem autonomous dock fleet",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Sensorem autonomous dock fleet",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Sensorem autonomous dock fleet",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Sensorem autonomous dock fleet",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Sensorem autonomous dock fleet",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Sensorem autonomous dock fleet",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Sensorem autonomous dock fleet",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: EnBW autonomous solar-inspection docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: EnBW autonomous solar-inspection docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: EnBW autonomous solar-inspection docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: EnBW autonomous solar-inspection docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: EnBW autonomous solar-inspection docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: EnBW autonomous solar-inspection docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: EnBW autonomous solar-inspection docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: EnBW autonomous solar-inspection docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: EnBW autonomous solar-inspection docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: EnBW autonomous solar-inspection docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Dole Asia plantation drone docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Dole Asia plantation drone docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Dole Asia plantation drone docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Dole Asia plantation drone docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Dole Asia plantation drone docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Dole Asia plantation drone docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Dole Asia plantation drone docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Dole Asia plantation drone docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Dole Asia plantation drone docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Dole Asia plantation drone docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: TNB warehouse inventory drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: TNB warehouse inventory drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: TNB warehouse inventory drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: TNB warehouse inventory drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: TNB warehouse inventory drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: TNB warehouse inventory drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: TNB warehouse inventory drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: TNB warehouse inventory drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: TNB warehouse inventory drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: TNB warehouse inventory drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Asheville disaster-recovery drone dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Asheville disaster-recovery drone dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Asheville disaster-recovery drone dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Asheville disaster-recovery drone dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Asheville disaster-recovery drone dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Asheville disaster-recovery drone dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Asheville disaster-recovery drone dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Asheville disaster-recovery drone dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Asheville disaster-recovery drone dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Asheville disaster-recovery drone dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Vancouver Police dock-based drone network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Vancouver Police dock-based drone network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Vancouver Police dock-based drone network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Vancouver Police dock-based drone network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Vancouver Police dock-based drone network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Vancouver Police dock-based drone network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Vancouver Police dock-based drone network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Vancouver Police dock-based drone network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Vancouver Police dock-based drone network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Vancouver Police dock-based drone network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Belgium Citymesh SENSE drone network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Belgium Citymesh SENSE drone network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Belgium Citymesh SENSE drone network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Belgium Citymesh SENSE drone network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Belgium Citymesh SENSE drone network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Belgium Citymesh SENSE drone network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Belgium Citymesh SENSE drone network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Belgium Citymesh SENSE drone network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Belgium Citymesh SENSE drone network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Belgium Citymesh SENSE drone network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Percepto autonomous Texas solar inspection",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Percepto autonomous Texas solar inspection",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Percepto autonomous Texas solar inspection",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Percepto autonomous Texas solar inspection",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Percepto autonomous Texas solar inspection",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Percepto autonomous Texas solar inspection",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Percepto autonomous Texas solar inspection",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Percepto autonomous Texas solar inspection",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Percepto autonomous Texas solar inspection",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Percepto autonomous Texas solar inspection",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Caltrans remote inspection drone docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Caltrans remote inspection drone docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Caltrans remote inspection drone docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Caltrans remote inspection drone docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Caltrans remote inspection drone docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Caltrans remote inspection drone docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Caltrans remote inspection drone docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Caltrans remote inspection drone docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Caltrans remote inspection drone docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Caltrans remote inspection drone docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Ramapo Police two-dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Ramapo Police two-dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Ramapo Police two-dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Ramapo Police two-dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Ramapo Police two-dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Ramapo Police two-dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Ramapo Police two-dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Ramapo Police two-dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Ramapo Police two-dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Ramapo Police two-dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Kansanshi mining autonomous surveillance docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Kansanshi mining autonomous surveillance docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Kansanshi mining autonomous surveillance docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Kansanshi mining autonomous surveillance docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Kansanshi mining autonomous surveillance docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Kansanshi mining autonomous surveillance docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Kansanshi mining autonomous surveillance docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Kansanshi mining autonomous surveillance docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Kansanshi mining autonomous surveillance docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Kansanshi mining autonomous surveillance docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Quellaveco mining survey drone docking network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Quellaveco mining survey drone docking network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Quellaveco mining survey drone docking network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Quellaveco mining survey drone docking network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Quellaveco mining survey drone docking network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Quellaveco mining survey drone docking network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Quellaveco mining survey drone docking network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Quellaveco mining survey drone docking network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Quellaveco mining survey drone docking network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Quellaveco mining survey drone docking network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: UAE waste management facility dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: UAE waste management facility dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: UAE waste management facility dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: UAE waste management facility dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: UAE waste management facility dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: UAE waste management facility dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: UAE waste management facility dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: UAE waste management facility dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: UAE waste management facility dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: UAE waste management facility dock network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Axpo Alpine hydropower drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Axpo Alpine hydropower drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Axpo Alpine hydropower drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Axpo Alpine hydropower drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Axpo Alpine hydropower drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Axpo Alpine hydropower drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Axpo Alpine hydropower drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Axpo Alpine hydropower drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Axpo Alpine hydropower drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Axpo Alpine hydropower drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Slovakia military forestry wildfire dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Slovakia military forestry wildfire dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Slovakia military forestry wildfire dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Slovakia military forestry wildfire dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Slovakia military forestry wildfire dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Slovakia military forestry wildfire dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Slovakia military forestry wildfire dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Slovakia military forestry wildfire dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Slovakia military forestry wildfire dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Slovakia military forestry wildfire dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: 24-7 Drone Force estate security docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: 24-7 Drone Force estate security docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: 24-7 Drone Force estate security docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: 24-7 Drone Force estate security docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: 24-7 Drone Force estate security docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: 24-7 Drone Force estate security docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: 24-7 Drone Force estate security docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: 24-7 Drone Force estate security docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: 24-7 Drone Force estate security docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: 24-7 Drone Force estate security docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: SQM northern Chile mine dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: SQM northern Chile mine dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: SQM northern Chile mine dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: SQM northern Chile mine dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: SQM northern Chile mine dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: SQM northern Chile mine dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: SQM northern Chile mine dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: SQM northern Chile mine dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: SQM northern Chile mine dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: SQM northern Chile mine dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: CSX rail-yard inspection docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: CSX rail-yard inspection docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: CSX rail-yard inspection docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: CSX rail-yard inspection docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: CSX rail-yard inspection docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: CSX rail-yard inspection docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: CSX rail-yard inspection docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: CSX rail-yard inspection docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: CSX rail-yard inspection docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: CSX rail-yard inspection docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Aerial Fences livestock security dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Aerial Fences livestock security dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Aerial Fences livestock security dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Aerial Fences livestock security dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Aerial Fences livestock security dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Aerial Fences livestock security dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Aerial Fences livestock security dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Aerial Fences livestock security dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Aerial Fences livestock security dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Aerial Fences livestock security dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Premier Security dock-based monitoring",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Premier Security dock-based monitoring",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Premier Security dock-based monitoring",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Premier Security dock-based monitoring",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Premier Security dock-based monitoring",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Premier Security dock-based monitoring",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Premier Security dock-based monitoring",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Premier Security dock-based monitoring",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Premier Security dock-based monitoring",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Premier Security dock-based monitoring",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Discovery Land drone-in-a-box network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Discovery Land drone-in-a-box network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Discovery Land drone-in-a-box network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Discovery Land drone-in-a-box network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Discovery Land drone-in-a-box network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Discovery Land drone-in-a-box network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Discovery Land drone-in-a-box network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Discovery Land drone-in-a-box network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Discovery Land drone-in-a-box network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Discovery Land drone-in-a-box network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Port Lincoln airport drone dock security",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Port Lincoln airport drone dock security",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Port Lincoln airport drone dock security",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Port Lincoln airport drone dock security",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Port Lincoln airport drone dock security",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Port Lincoln airport drone dock security",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Port Lincoln airport drone dock security",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Port Lincoln airport drone dock security",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Port Lincoln airport drone dock security",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Port Lincoln airport drone dock security",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Titan Protection autonomous security docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Titan Protection autonomous security docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Titan Protection autonomous security docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Titan Protection autonomous security docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Titan Protection autonomous security docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Titan Protection autonomous security docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Titan Protection autonomous security docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Titan Protection autonomous security docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Titan Protection autonomous security docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Titan Protection autonomous security docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Alaska DOT SOAR autonomous dock pilot",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Alaska DOT SOAR autonomous dock pilot",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Alaska DOT SOAR autonomous dock pilot",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Alaska DOT SOAR autonomous dock pilot",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Alaska DOT SOAR autonomous dock pilot",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Alaska DOT SOAR autonomous dock pilot",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Alaska DOT SOAR autonomous dock pilot",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Alaska DOT SOAR autonomous dock pilot",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Alaska DOT SOAR autonomous dock pilot",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Alaska DOT SOAR autonomous dock pilot",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Port of Barcelona DJI Dock 3",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Port of Barcelona DJI Dock 3",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Port of Barcelona DJI Dock 3",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Port of Barcelona DJI Dock 3",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Port of Barcelona DJI Dock 3",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Port of Barcelona DJI Dock 3",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Port of Barcelona DJI Dock 3",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Port of Barcelona DJI Dock 3",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Port of Barcelona DJI Dock 3",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Port of Barcelona DJI Dock 3",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Celaya automated public safety dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Celaya automated public safety dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Celaya automated public safety dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Celaya automated public safety dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Celaya automated public safety dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Celaya automated public safety dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Celaya automated public safety dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Celaya automated public safety dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Celaya automated public safety dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Celaya automated public safety dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Palcacocha glacier monitoring dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Palcacocha glacier monitoring dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Palcacocha glacier monitoring dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Palcacocha glacier monitoring dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Palcacocha glacier monitoring dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Palcacocha glacier monitoring dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Palcacocha glacier monitoring dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Palcacocha glacier monitoring dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Palcacocha glacier monitoring dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Palcacocha glacier monitoring dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Bibai DJI Dock 3 surveying",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Bibai DJI Dock 3 surveying",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Bibai DJI Dock 3 surveying",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Bibai DJI Dock 3 surveying",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Bibai DJI Dock 3 surveying",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Bibai DJI Dock 3 surveying",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Bibai DJI Dock 3 surveying",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Bibai DJI Dock 3 surveying",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Bibai DJI Dock 3 surveying",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Bibai DJI Dock 3 surveying",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Ambite Tajuña River monitoring dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Ambite Tajuña River monitoring dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Ambite Tajuña River monitoring dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Ambite Tajuña River monitoring dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Ambite Tajuña River monitoring dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Ambite Tajuña River monitoring dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Ambite Tajuña River monitoring dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Ambite Tajuña River monitoring dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Ambite Tajuña River monitoring dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Ambite Tajuña River monitoring dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Opole DJI Dock 3 municipal inspection",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Opole DJI Dock 3 municipal inspection",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Opole DJI Dock 3 municipal inspection",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Opole DJI Dock 3 municipal inspection",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Opole DJI Dock 3 municipal inspection",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Opole DJI Dock 3 municipal inspection",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Opole DJI Dock 3 municipal inspection",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Opole DJI Dock 3 municipal inspection",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Opole DJI Dock 3 municipal inspection",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Opole DJI Dock 3 municipal inspection",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Würzburg EMQport droneport prototype",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Würzburg EMQport droneport prototype",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Würzburg EMQport droneport prototype",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Würzburg EMQport droneport prototype",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Würzburg EMQport droneport prototype",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Würzburg EMQport droneport prototype",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Würzburg EMQport droneport prototype",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Würzburg EMQport droneport prototype",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Würzburg EMQport droneport prototype",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Würzburg EMQport droneport prototype",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Tomakomai refinery drone inspections",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Tomakomai refinery drone inspections",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Tomakomai refinery drone inspections",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Tomakomai refinery drone inspections",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Tomakomai refinery drone inspections",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Tomakomai refinery drone inspections",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Tomakomai refinery drone inspections",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Tomakomai refinery drone inspections",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Tomakomai refinery drone inspections",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Tomakomai refinery drone inspections",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Network Rail automated docking project",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Network Rail automated docking project",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Network Rail automated docking project",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Network Rail automated docking project",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Network Rail automated docking project",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Network Rail automated docking project",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Network Rail automated docking project",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Network Rail automated docking project",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Network Rail automated docking project",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Network Rail automated docking project",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: NYPA Gilboa hydroelectric drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: NYPA Gilboa hydroelectric drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: NYPA Gilboa hydroelectric drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: NYPA Gilboa hydroelectric drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: NYPA Gilboa hydroelectric drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: NYPA Gilboa hydroelectric drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: NYPA Gilboa hydroelectric drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: NYPA Gilboa hydroelectric drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: NYPA Gilboa hydroelectric drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: NYPA Gilboa hydroelectric drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: ConocoPhillips Teesside docking trial",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: ConocoPhillips Teesside docking trial",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: ConocoPhillips Teesside docking trial",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: ConocoPhillips Teesside docking trial",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: ConocoPhillips Teesside docking trial",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: ConocoPhillips Teesside docking trial",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: ConocoPhillips Teesside docking trial",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: ConocoPhillips Teesside docking trial",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: ConocoPhillips Teesside docking trial",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: ConocoPhillips Teesside docking trial",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: ADLC Antwerp cargo drone hub",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: ADLC Antwerp cargo drone hub",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: ADLC Antwerp cargo drone hub",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: ADLC Antwerp cargo drone hub",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: ADLC Antwerp cargo drone hub",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: ADLC Antwerp cargo drone hub",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: ADLC Antwerp cargo drone hub",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: ADLC Antwerp cargo drone hub",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: ADLC Antwerp cargo drone hub",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: ADLC Antwerp cargo drone hub",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Upper Darby Police Skydio DFR docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Upper Darby Police Skydio DFR docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Upper Darby Police Skydio DFR docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Upper Darby Police Skydio DFR docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Upper Darby Police Skydio DFR docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Upper Darby Police Skydio DFR docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Upper Darby Police Skydio DFR docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Upper Darby Police Skydio DFR docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Upper Darby Police Skydio DFR docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Upper Darby Police Skydio DFR docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: SkyBound railway drone dock London",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: SkyBound railway drone dock London",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: SkyBound railway drone dock London",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: SkyBound railway drone dock London",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: SkyBound railway drone dock London",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: SkyBound railway drone dock London",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: SkyBound railway drone dock London",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: SkyBound railway drone dock London",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: SkyBound railway drone dock London",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: SkyBound railway drone dock London",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: SkyBound railway drone dock Glasgow",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: SkyBound railway drone dock Glasgow",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: SkyBound railway drone dock Glasgow",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: SkyBound railway drone dock Glasgow",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: SkyBound railway drone dock Glasgow",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: SkyBound railway drone dock Glasgow",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: SkyBound railway drone dock Glasgow",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: SkyBound railway drone dock Glasgow",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: SkyBound railway drone dock Glasgow",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: SkyBound railway drone dock Glasgow",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: SkyBound railway drone dock Cardiff",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: SkyBound railway drone dock Cardiff",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: SkyBound railway drone dock Cardiff",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: SkyBound railway drone dock Cardiff",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: SkyBound railway drone dock Cardiff",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: SkyBound railway drone dock Cardiff",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: SkyBound railway drone dock Cardiff",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: SkyBound railway drone dock Cardiff",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: SkyBound railway drone dock Cardiff",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: SkyBound railway drone dock Cardiff",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Cincinnati Police Skydio DFR docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Cincinnati Police Skydio DFR docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Cincinnati Police Skydio DFR docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Cincinnati Police Skydio DFR docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Cincinnati Police Skydio DFR docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Cincinnati Police Skydio DFR docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Cincinnati Police Skydio DFR docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Cincinnati Police Skydio DFR docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Cincinnati Police Skydio DFR docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Cincinnati Police Skydio DFR docks",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Yonkers Police Nokia docking network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Yonkers Police Nokia docking network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Yonkers Police Nokia docking network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Yonkers Police Nokia docking network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Yonkers Police Nokia docking network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Yonkers Police Nokia docking network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Yonkers Police Nokia docking network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Yonkers Police Nokia docking network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Yonkers Police Nokia docking network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Yonkers Police Nokia docking network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: Summerville Nokia public safety drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: Summerville Nokia public safety drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: Summerville Nokia public safety drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: Summerville Nokia public safety drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: Summerville Nokia public safety drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: Summerville Nokia public safety drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: Summerville Nokia public safety drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: Summerville Nokia public safety drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: Summerville Nokia public safety drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: Summerville Nokia public safety drone dock",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ],
+  [
+    "Offline project opening uses schematic zoom cap from world view: El Paso DJI Dock 3 public safety network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"offlineZoom\": 3, \"correctPoint\": true}"
+  ],
+  [
+    "Offline project opening reduces stale close-up zoom: El Paso DJI Dock 3 public safety network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"staleZoom\": 8, \"targetZoom\": 3}"
+  ],
+  [
+    "Detailed project opening retains normal focus zoom: El Paso DJI Dock 3 public safety network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"detailedZoom\": 5}"
+  ],
+  [
+    "Detailed project opening preserves existing close-up: El Paso DJI Dock 3 public safety network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"existingDetailedZoomPreserved\": 10}"
+  ],
+  [
+    "Missing coordinates open readable drawer without map movement: El Paso DJI Dock 3 public safety network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"noInferredPoint\": true, \"drawerAccessible\": true}"
+  ],
+  [
+    "Project map movement honors reduced motion: El Paso DJI Dock 3 public safety network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"animationDisabled\": true, \"closeControlFocused\": true}"
+  ],
+  [
+    "Modal close preserves pre-existing inert background state: El Paso DJI Dock 3 public safety network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"previousInertPreserved\": true, \"otherRegionsRestored\": true}"
+  ],
+  [
+    "History project replacement restores background on close: El Paso DJI Dock 3 public safety network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"newProjectLoaded\": true, \"backgroundRestored\": true}"
+  ],
+  [
+    "Drawer selection updates and clears marker accessibility: El Paso DJI Dock 3 public safety network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"singleCurrentMarker\": true, \"markerStateCleared\": true}"
+  ],
+  [
+    "Failed deep-link load retries with project and filter context: El Paso DJI Dock 3 public safety network",
+    "checks/atlas-view-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"correctProject\": true, \"countryFilterRetained\": true}"
+  ]
+]

@@ -1,0 +1,2509 @@
+{
+  "batch": "cluster-500",
+  "total": 500,
+  "passed": 500,
+  "failed": 0,
+  "mode": "Local controlled DOM/VM and Leaflet doubles. Synthetic second-point placement, no real tile requests or mobile visuals.",
+  "checks": [
+    {
+      "project": "shenzhen",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Offline cluster expansion caps zoom at 3",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Offline cluster at cap opens project chooser",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Offline stale close-up opens chooser without extra zoom",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Detailed cluster expansion keeps three-level step",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Detailed cluster expansion caps at zoom 10",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Reduced motion disables cluster fly animation",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Normal motion allows cluster animation",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Coincident offline points open chooser without zoom",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Coincident detailed points preserve both passport links",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Single marker still opens correct project drawer",
+      "passed": true
+    }
+  ]
+}

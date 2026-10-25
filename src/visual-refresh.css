@@ -1,0 +1,22 @@
+/* MicroportMap visual refinement / October 2026 */
+:root{--deep:#091e29;--ink:#102b35;--mint:#8be7ca;--pale:#f4f8f6;--line:#d6e5e2;--off:#fbfdfa;--green:#167b75}
+html{scroll-padding-top:88px}
+body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:-.012em;background:#fbfdfa}
+.topbar{position:relative;z-index:110;background:#091e29;border-bottom:1px solid rgba(151,229,208,.18);box-shadow:0 5px 30px rgba(3,30,37,.12)}
+.logo{letter-spacing:-1.3px}.logo-symbol{border-radius:12px;transform:rotate(-4deg);box-shadow:0 0 28px #77dcb744}
+.topbar nav a{position:relative;transition:color .18s}.topbar nav a:hover{color:#8be7ca;text-decoration:none}.network-nav{color:#91e8ce!important}
+.head-action,.hero-actions a{transition:transform .22s,background .22s,box-shadow .22s}.head-action:hover,.hero-actions a:hover{transform:translateY(-2px);text-decoration:none}
+.head-action{border-color:#698880;background:#ffffff08}.head-action:hover{background:#ffffff17}
+.hero{background:radial-gradient(ellipse at 85% 20%,#164b56 0%,transparent 42%),linear-gradient(135deg,#091e29,#102d35 65%,#0a2430);overflow:hidden}
+.hero h1{font-weight:790;letter-spacing:-.065em;text-wrap:balance}
+.hero-main>p{line-height:1.75;color:#d1e4df;max-width:650px}
+.hero-aside{filter:drop-shadow(0 10px 32px rgba(83,210,179,.13))}
+.stats{position:relative;background:#f4faf7;border-block:1px solid #d6e8e2}
+.stats b{letter-spacing:-.06em}
+section[id],div[id]{scroll-margin-top:18px}
+:is(.card,.project-card,.tech-card,.explorer-card){transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease}
+:is(.card,.project-card,.tech-card,.explorer-card):hover{transform:translateY(-3px);box-shadow:0 13px 35px rgba(8,51,61,.1)}
+a:focus-visible,button:focus-visible{outline:3px solid #ffbc70;outline-offset:3px}
+::selection{background:#b0f2d9;color:#082f39}
+@media(max-width:760px){.topbar{height:auto;min-height:70px;flex-wrap:wrap;padding-block:15px;row-gap:12px}.topbar nav{gap:14px;flex-wrap:wrap}.hero h1{letter-spacing:-.05em}.hero-main>p{font-size:1rem}.head-action{padding:10px 14px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important}}

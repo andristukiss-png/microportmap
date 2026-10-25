@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-25",
+  "requestedTasks": 500,
+  "completedVerificationTasks": 500,
+  "beforePassed": 450,
+  "beforeFailed": 50,
+  "afterPassed": 500,
+  "afterFailed": 0,
+  "implementationFixes": 1,
+  "fix": "Atlas catalog normalization now requires IDs matching the same lowercase/hyphen route pattern as directory/passport loaders",
+  "sourceChanges": [
+    "src/site-redesign.js"
+  ],
+  "deployment": "dpl_JCwCCumnVDdQpcp6XFvJdx23Qpmn",
+  "status": "READY",
+  "projects": 50,
+  "workflows": {
+    "Directory rejects missing project ID": 50,
+    "Directory rejects duplicate identities": 50,
+    "Directory rejects whitespace-only project name": 50,
+    "Passport missing record keeps export unavailable": 50,
+    "Passport duplicate IDs cannot select an arbitrary record": 50,
+    "Atlas duplicate IDs stop catalog rendering": 50,
+    "Atlas rejects path-like project IDs": 50,
+    "Comparison failure invalidates pending copy and exports": 50,
+    "Removed comparison record reconciles remaining selection": 50,
+    "Audit rejects array entries and disables review exports": 50
+  },
+  "verificationMode": "Local controlled DOM/VM with synthetic malformed catalogs; no production fault injection",
+  "liveUISmoke": "Valid Kiel drawer, close-control focus, Escape dismissal and 50/50 records",
+  "exposedDeploymentHashesMatched": 135,
+  "liveHttpVerified": [
+    "site-redesign.js",
+    "data/projects.json"
+  ],
+  "unverified": [
+    "Fresh mobile/device visuals",
+    "Optional detailed online geography",
+    "Independent research accuracy and external evidence availability",
+    "Submission inbox remains unconnected",
+    "Malformed catalogs were tested locally; no production data fault injection"
+  ]
+}

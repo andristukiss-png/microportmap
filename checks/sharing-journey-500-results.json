@@ -1,0 +1,2508 @@
+{
+  "total": 500,
+  "passed": 500,
+  "failed": 0,
+  "mode": "Local controlled DOM/VM journey tests; no live browser, mobile, or research verification.",
+  "checks": [
+    {
+      "project": "shenzhen",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Three-project passport return preserves chosen order and exact export",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Three-project comparison links return through each passport",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Unicode punctuation filters survive passport comparison round trip",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Unrecognized query fields never enter comparison passport round trip",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Related-project pair can pass through companion passport and export exactly",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Malformed encoded selection recovers to current passport comparison",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Retry after failed passport fetch retains full triple selection",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Canonical sharing strips selection while return link retains selection",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Comparison loading round trip restores triple before passport return",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Removing middle selection propagates to passport and exact two-record export",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,2508 @@
+{
+  "total": 500,
+  "passed": 500,
+  "failed": 0,
+  "mode": "Local static-link extraction plus controlled DOM/VM journeys; no live browser or device verification.",
+  "checks": [
+    {
+      "project": "shenzhen",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Country index link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Coverage country link returns exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Coverage infrastructure link returns exact category catalog",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Coverage region link returns exact regional catalog",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Coverage report-year link returns exact year catalog",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Operator index search reaches original project and its passport",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Passport country discovery banner reaches exact country catalog",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Next-project banner points to a real canonical passport with a return route",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Rendered directory correction route resolves original project context",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Comparison map route opens correct atlas drawer and preserves exact export",
+      "passed": true
+    }
+  ]
+}

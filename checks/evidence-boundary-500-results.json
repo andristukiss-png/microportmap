@@ -1,0 +1,2508 @@
+{
+  "total": 500,
+  "passed": 500,
+  "failed": 0,
+  "mode": "Local controlled DOM/VM, synthetic URL transformations only. No evidence URL requests, research verification, or submissions.",
+  "checks": [
+    {
+      "project": "shenzhen",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "kiel",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "italy",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "oman",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "australia",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "enbw",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "dole",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "tnb",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "asheville",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "celaya",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "bibai",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "ambite",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "opole",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Change event trims surrounding whitespace without altering cited URL",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Encoded query punctuation survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Encoded project fragment survives validation unchanged",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Case-insensitive HTTPS scheme retains original input text",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Percent-encoded Unicode evidence path remains intact",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Credential-bearing source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "HTTP source blocks preparation and recovers to original HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Protocol-relative source blocks preparation and recovers to complete HTTPS source",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "IPv6 loopback source blocks preparation and recovers to original source",
+      "passed": true
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Localhost subdomain blocks preparation and recovers to original source",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "MicroportMap project dataset schema",
+  "version": 1,
+  "canonical": "https://microportmap.com/data/projects.json",
+  "recordCount": 50,
+  "fields": {
+    "id": "Stable URL-safe record identifier",
+    "name": "Published project title",
+    "where": "Human-readable broad geography",
+    "country": "Country name",
+    "region": "Continental area filter",
+    "infrastructureType": "Reported project class; not necessarily the same as dock type",
+    "reportedOperator": "Source-attributed operator or coordinating entity",
+    "reportedEquipment": "Hardware and software mentioned by source",
+    "locationPrecision": "Description of deliberate geographic generalization",
+    "approximateMapPoint": {
+      "latitude": "Broad illustrative latitude, not facility coordinates",
+      "longitude": "Broad illustrative longitude, not facility coordinates"
+    },
+    "reportDateLabel": "Source publication timing, not operating status",
+    "description": "Source-attributed research abstract",
+    "source": {
+      "name": "Original source attribution",
+      "url": "Original publication URL"
+    },
+    "verificationStatus": "Reported, unverified current operational status"
+  },
+  "limitations": [
+    "No physical site count is implied by one record",
+    "No independent present-day status certification",
+    "No public landing or flight permission",
+    "Third-party publication rights remain with original holders"
+  ]
+}

@@ -1,0 +1,3008 @@
+{
+  "total": 500,
+  "passed": 500,
+  "failed": 0,
+  "mode": "Local controlled DOM/VM with three-record synthetic review catalogs; original production records unchanged.",
+  "checks": [
+    {
+      "project": "shenzhen",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "kiel",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "kiel",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "kiel",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "kiel",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "kiel",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "kiel",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "kiel",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "kiel",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "kiel",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "kiel",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "italy",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "italy",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "italy",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "italy",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "italy",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "italy",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "italy",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "italy",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "italy",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "italy",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "oman",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "oman",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "oman",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "oman",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "oman",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "oman",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "oman",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "oman",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "oman",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "oman",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "australia",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "australia",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "australia",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "australia",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "australia",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "australia",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "australia",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "australia",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "australia",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "australia",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "enbw",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "enbw",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "enbw",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "enbw",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "enbw",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "enbw",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "enbw",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "enbw",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "enbw",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "enbw",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "dole",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "dole",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "dole",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "dole",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "dole",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "dole",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "dole",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "dole",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "dole",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "dole",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "tnb",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "tnb",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "tnb",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "tnb",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "tnb",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "tnb",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "tnb",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "tnb",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "tnb",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "tnb",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "asheville",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "asheville",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "asheville",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "asheville",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "asheville",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "asheville",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "asheville",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "asheville",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "asheville",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "asheville",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "vancouver",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "ramapo",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "celaya",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "celaya",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "celaya",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "celaya",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "celaya",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "celaya",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "celaya",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "celaya",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "celaya",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "celaya",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "bibai",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "bibai",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "bibai",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "bibai",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "bibai",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "bibai",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "bibai",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "bibai",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "bibai",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "bibai",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "ambite",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "ambite",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "ambite",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "ambite",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ambite",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "ambite",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ambite",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ambite",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "ambite",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "ambite",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "opole",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "opole",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "opole",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "opole",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "opole",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "opole",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "opole",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "opole",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "opole",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "opole",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Search then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Country then clear",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Date flag then point flag",
+      "passed": true,
+      "transitions": 2
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Search then incompatible flag then clear flag",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Review then all then flagged scopes",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Flag and country then reset",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Empty search then all then empty review",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Point flag then matching companion search",
+      "passed": true,
+      "transitions": 3
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Full reset after all filters",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "All scope remains independent of review filters",
+      "passed": true,
+      "transitions": 4
+    }
+  ]
+}

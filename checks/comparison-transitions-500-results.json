@@ -1,0 +1,3008 @@
+{
+  "total": 500,
+  "passed": 500,
+  "failed": 0,
+  "mode": "Local controlled DOM/VM with real comparison script; exact original JSON verified after each transition.",
+  "checks": [
+    {
+      "project": "shenzhen",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "shenzhen",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "rotterdam",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "kiel",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "kiel",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "kiel",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "kiel",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "kiel",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "kiel",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "kiel",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "kiel",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "kiel",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "kiel",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "italy",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "italy",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "italy",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "italy",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "italy",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "italy",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "italy",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "italy",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "italy",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "italy",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "oman",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "oman",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "oman",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "oman",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "oman",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "oman",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "oman",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "oman",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "oman",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "oman",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "australia",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "australia",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "australia",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "australia",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "australia",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "australia",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "australia",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "australia",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "australia",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "australia",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "enbw",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "enbw",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "enbw",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "enbw",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "enbw",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "enbw",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "enbw",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "enbw",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "enbw",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "enbw",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "dole",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "dole",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "dole",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "dole",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "dole",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "dole",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "dole",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "dole",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "dole",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "dole",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "tnb",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "tnb",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "tnb",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "tnb",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "tnb",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "tnb",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "tnb",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "tnb",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "tnb",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "tnb",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "asheville",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "asheville",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "asheville",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "asheville",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "asheville",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "asheville",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "asheville",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "asheville",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "asheville",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "asheville",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "vancouver",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "ishikawa",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "belgium-sense",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "texas-solar",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "caltrans-otay",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "ramapo",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "kansanshi-zambia",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "quellaveco-peru",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "uae-waste",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "axpo-swiss",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "slovakia-forest",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "southafrica-estate",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "sqm-chile",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "csx-rail",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "aerial-fences",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "premier-security-us",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "discovery-land-us",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "port-lincoln",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "titan-protection",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "soar-alaska",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "barcelona-port",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "celaya",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "celaya",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "celaya",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "celaya",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "celaya",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "celaya",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "celaya",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "celaya",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "celaya",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "celaya",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "palcacocha",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "bibai",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "bibai",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "bibai",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "bibai",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "bibai",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "bibai",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "bibai",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "bibai",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "bibai",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "bibai",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "ambite",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "ambite",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "ambite",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "ambite",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "ambite",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "ambite",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "ambite",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "ambite",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "ambite",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "ambite",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "opole",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "opole",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "opole",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "opole",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "opole",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "opole",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "opole",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "opole",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "opole",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "opole",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "wurzburg-emqport",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "tomakomai-refinery",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "network-rail-uk",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "gilboa-nypa",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "teesside-terminal",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "antwerp-cargo-hub",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "upper-darby-dfr",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "skybound-waterloo",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "skybound-glasgow",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "skybound-cardiff",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "cincinnati-dfr",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "yonkers-nokia",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "summerville-nokia",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Forward selection then middle removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Reverse selection then first removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Alternate order then last removal",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Removed first project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Removed middle project is appended when reselected",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Fourth selection refused then accepted after a removal",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Clear then rebuild in a different order",
+      "passed": true,
+      "transitions": 5
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Last removal clears comparison then selection recovers",
+      "passed": true,
+      "transitions": 4
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Repeated state notifications retain selection order",
+      "passed": true,
+      "transitions": 6
+    },
+    {
+      "project": "el-paso-dfr",
+      "behavior": "Full selection survives load recovery then removal",
+      "passed": true,
+      "transitions": 5
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-24",
+  "productionDeployment": "dpl_BYjLh7JQA1K1VoHhcKbPWELdK64o",
+  "sourceChanged": false,
+  "checks": [
+    "HTTP evidence rejected in live correction form",
+    "Germany + recent: 3 downloaded records equal originals",
+    "Copied link retains country=Germany and sort=recent",
+    "Full downloaded JSON: 50 original records, exact equality",
+    "Empty JSON export shows feedback; reset recovers results"
+  ],
+  "limitations": [
+    "No fresh mobile test",
+    "No source accuracy verification",
+    "No submission inbox"
+  ]
+}

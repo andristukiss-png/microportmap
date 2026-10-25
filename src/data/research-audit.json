@@ -1,0 +1,69 @@
+{
+  "updatedAt": "2026-10-21",
+  "projectRecords": 50,
+  "distinctCountries": 23,
+  "typeCounts": {
+    "Industrial dock": 22,
+    "Emergency response": 14,
+    "Transport network": 8,
+    "Agriculture dock": 2,
+    "Environmental monitoring": 2,
+    "Cargo drone hub": 1,
+    "Street-pole network": 1
+  },
+  "technologyMentions": [
+    {
+      "name": "DJI Dock",
+      "count": 22
+    },
+    {
+      "name": "Skydio",
+      "count": 8
+    },
+    {
+      "name": "Nokia",
+      "count": 3
+    },
+    {
+      "name": "Percepto",
+      "count": 1
+    },
+    {
+      "name": "FlytBase",
+      "count": 16
+    },
+    {
+      "name": "SkyBound",
+      "count": 3
+    }
+  ],
+  "reportYearLabels": [
+    {
+      "year": "2023",
+      "count": 1
+    },
+    {
+      "year": "2024",
+      "count": 1
+    },
+    {
+      "year": "2025",
+      "count": 3
+    },
+    {
+      "year": "2026",
+      "count": 20
+    },
+    {
+      "year": "Unspecified",
+      "count": 25
+    }
+  ],
+  "sourceLinked": 50,
+  "sourceKinds": {
+    "governmentReports": 1,
+    "otherReports": 49
+  },
+  "independentlyOperationallyVerified": 0,
+  "precision": "Approximate marker positions, no physical dock coordinates certified."
+}

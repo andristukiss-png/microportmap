@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-25",
+  "requestedTasks": 500,
+  "completedVerificationTasks": 500,
+  "failedTasks": 0,
+  "implementationTasks": 0,
+  "productionSourceChanges": 0,
+  "newDeployment": false,
+  "existingDeployment": "dpl_DwoKtgsaXhLh2qjVM2ErtwuDdMdR",
+  "productionStatus": "READY",
+  "workflows": {
+    "Scoped directory result and URL restoration": 50,
+    "Filtered JSON exact record and filter metadata": 50,
+    "Filtered CSV fields and encoded names": 50,
+    "Passport exact single-record download": 50,
+    "Canonical passport sharing strips view context": 50,
+    "Ordered pair JSON exact records": 50,
+    "Ordered pair CSV fields and record names": 50,
+    "Three-project filtered passport return": 50,
+    "Atlas drawer Escape recovery retains view": 50,
+    "Directory retry restores record and export": 50
+  },
+  "projects": 50,
+  "exposedDeploymentHashesMatched": 135,
+  "priorBundleSourceFilesUnchanged": 140,
+  "verificationMode": "Local controlled DOM/VM; existing deployment state and hashes verified separately",
+  "unverified": [
+    "Fresh mobile/device visuals",
+    "Optional detailed online geography",
+    "Independent research accuracy and external evidence availability",
+    "Submission inbox remains unconnected",
+    "These 500 cases are not 500 live browser tests"
+  ]
+}

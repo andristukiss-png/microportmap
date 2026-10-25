@@ -1,0 +1,22 @@
+[
+  [
+    "Retain unresolved requested correction IDs with explicit lookup state and truncation disclosure",
+    "correction-prefill.js; submit/index.html",
+    "Unknown-ID live preview and downloaded JSON; invalid/oversized/ambiguous-ID unit tests"
+  ],
+  [
+    "Retry project lookup while preserving user edits",
+    "correction-prefill.js",
+    "Live unknown-ID retry retains fields; failed-then-resolved lookup unit test"
+  ],
+  [
+    "Invalidate prepared previews when correction context changes; guard preparation during lookup",
+    "correction-prefill.js; submit/index.html",
+    "Live retry hides the old preview; report state-transition unit tests"
+  ],
+  [
+    "Distinguish unresolved correction reports in schema 1.1, headings and filenames; document the contract",
+    "submit/index.html; data-dictionary/index.html",
+    "Live downloaded JSON matches preview; filename and resolved/unresolved unit tests"
+  ]
+]

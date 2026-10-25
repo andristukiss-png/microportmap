@@ -1,0 +1,252 @@
+[
+  [
+    "Route country-hub entries to exact country filters",
+    "src/countries/index.html",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Route coverage country counts to exact country filters",
+    "src/coverage/index.html",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Route operator-hub searches to the directory",
+    "src/operators/index.html",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Route technology-hub searches to the directory",
+    "src/technologies/index.html",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Route coverage infrastructure counts to exact type filters",
+    "src/coverage/index.html",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Route coverage equipment searches to the directory",
+    "src/coverage/index.html",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Add a dataset-derived report-year selector",
+    "src/directory.js",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Add Unspecified year selection for labels without a year",
+    "src/directory.js",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Add a dataset-derived exact region selector",
+    "src/directory.js",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Intersect region/year with existing search, country and type filters",
+    "src/directory.js",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Persist region/year in normalized directory URLs",
+    "src/directory.js",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Recover invalid region/year values to available options",
+    "src/directory.js",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Clear new filters through normal and empty-result resets",
+    "src/directory.js",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Restore new filters through browser history events",
+    "src/directory.js",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Include new filters in copied directory links",
+    "src/directory.js",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Include new filter values in JSON export metadata",
+    "src/directory-json-export.js",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Disable new controls while loading or unavailable",
+    "src/directory.js",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Give directory selects stable explicit accessible names",
+    "src/directory/index.html",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Explain report-year uncertainty alongside the controls",
+    "src/directory/index.html",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Redirect legacy year/region atlas URLs to supported directory filters",
+    "src/legacy-browse.js",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Preserve direct project-link precedence during legacy routing",
+    "src/legacy-browse.js",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Retain the legacy explore anchor for older atlas links",
+    "src/index.html",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Provide a real dashboard-top anchor",
+    "src/index.html",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Provide no-JavaScript directory dataset links",
+    "src/directory/index.html",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Explain no-JavaScript correction preparation limitations",
+    "src/submit/index.html",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Provide no-JavaScript quality-page dataset access",
+    "src/data-quality/index.html",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Add missing network-page canonical URL",
+    "src/network/index.html",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Add missing verification-guide canonical URL",
+    "src/verification-guide/index.html",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Add missing data-dictionary canonical URL",
+    "src/data-dictionary/index.html",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Document directory filter and export semantics",
+    "src/data-dictionary/index.html",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Repair supplementary-page atlas navigation anchors",
+    "src/Multiple supplementary HTML pages",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Prevent export label clipping with responsive layout-only CSS",
+    "src/directory-filters.css",
+    "Implemented; regression and/or source verification"
+  ],
+  [
+    "Verify each recorded region against exact dataset membership",
+    "checks/directory.cjs",
+    "Verified; see stated method and limits"
+  ],
+  [
+    "Verify every recorded year group including Unspecified",
+    "checks/directory.cjs",
+    "Verified; see stated method and limits"
+  ],
+  [
+    "Verify compound filtering and invalid parameter recovery",
+    "checks/directory.cjs",
+    "Verified; see stated method and limits"
+  ],
+  [
+    "Verify reset, popstate and new-control loading states",
+    "checks/directory.cjs",
+    "Verified; see stated method and limits"
+  ],
+  [
+    "Verify actual combined-filter JSON download equals original record",
+    "Live Cloud Browser download; region-year-export-qa.json",
+    "Verified; see stated method and limits"
+  ],
+  [
+    "Verify live copied URL preserves region and year",
+    "Cloud Browser clipboard read",
+    "Verified; see stated method and limits"
+  ],
+  [
+    "Verify live coverage-year link and legacy route results",
+    "Cloud Browser: 2025=3; Europe+2025=1",
+    "Verified; see stated method and limits"
+  ],
+  [
+    "Verify direct project and ordinary atlas URLs avoid legacy redirection",
+    "checks/legacy-browse.cjs",
+    "Verified; see stated method and limits"
+  ],
+  [
+    "Audit every local HTML resource path and anchor",
+    "checks/navigation-round12.py: 71 pages, zero missing",
+    "Verified; see stated method and limits"
+  ],
+  [
+    "Audit unique IDs, titles, viewports and canonicals",
+    "checks/navigation-round12.py: 71 pages",
+    "Verified; see stated method and limits"
+  ],
+  [
+    "Verify all country/operator/technology browse destinations",
+    "checks/navigation-round12.py",
+    "Verified; see stated method and limits"
+  ],
+  [
+    "Verify all research/export file hashes remain unchanged",
+    "checks/navigation-round12.py; baseline-round12.json",
+    "Verified; see stated method and limits"
+  ],
+  [
+    "Verify existing CSS and embedded palette/style declarations unchanged",
+    "checks/navigation-round12.py; new CSS has no color rules",
+    "Verified; see stated method and limits"
+  ],
+  [
+    "Verify all 50 static passport HTML files unchanged",
+    "checks/navigation-round12.py",
+    "Verified; see stated method and limits"
+  ],
+  [
+    "Run full existing regression suites and all JavaScript syntax checks",
+    "checks/*.cjs; validate.py; map-assets.py; node --check",
+    "Verified; see stated method and limits"
+  ],
+  [
+    "Verify final deployed source matches local release",
+    "130 source hashes plus five fetched PNG byte comparisons",
+    "Verified; see stated method and limits"
+  ],
+  [
+    "Check live console and deployment error/fatal logs",
+    "No non-extension browser errors; no matching runtime entries",
+    "Verified; see stated method and limits"
+  ],
+  [
+    "Verify desktop label geometry and retain responsive breakpoint rules",
+    "Cloud Browser: four buttons unclipped; source breakpoints 950/620; mobile screenshot unverified",
+    "Verified; see stated method and limits"
+  ]
+]

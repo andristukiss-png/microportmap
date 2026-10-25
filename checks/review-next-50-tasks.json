@@ -1,0 +1,252 @@
+[
+  [
+    "Add text search to the flagged-record review queue",
+    "src/review-tools.js",
+    "Implemented; see source and tests"
+  ],
+  [
+    "Add a dataset-derived review country selector",
+    "src/review-tools.js",
+    "Implemented; see source and tests"
+  ],
+  [
+    "Add a dataset-derived review flag selector",
+    "src/review-tools.js",
+    "Implemented; see source and tests"
+  ],
+  [
+    "Intersect all three review filters",
+    "src/review-tools.js",
+    "Implemented; see source and tests"
+  ],
+  [
+    "Keep review results ordered by flag count then name",
+    "src/review-tools.js",
+    "Implemented; see source and tests"
+  ],
+  [
+    "Announce selected review counts and scope changes",
+    "src/review-tools.js; research-audit-export.js",
+    "Implemented; see source and tests"
+  ],
+  [
+    "Persist review filters in shareable URLs",
+    "src/review-tools.js",
+    "Implemented; see source and tests"
+  ],
+  [
+    "Normalize invalid review country and flag values",
+    "src/review-tools.js",
+    "Implemented; see source and tests"
+  ],
+  [
+    "Restore review filters through history events",
+    "src/review-tools.js",
+    "Implemented; see source and tests"
+  ],
+  [
+    "Provide a Copy review link action",
+    "src/review-tools.js",
+    "Implemented; see source and tests"
+  ],
+  [
+    "Ignore stale clipboard completion after filter changes",
+    "src/review-tools.js",
+    "Implemented; see source and tests"
+  ],
+  [
+    "Provide a readable URL when clipboard access fails",
+    "src/review-tools.js",
+    "Implemented; see source and tests"
+  ],
+  [
+    "Clear review filters and return focus to search",
+    "src/review-tools.js",
+    "Implemented; see source and tests"
+  ],
+  [
+    "Disable review controls during loading and dataset failure",
+    "src/review-tools.js",
+    "Implemented; see source and tests"
+  ],
+  [
+    "Retain expandable review results beyond the first 25",
+    "src/review-tools.js",
+    "Implemented; see source and tests"
+  ],
+  [
+    "Explain empty review results and recovery",
+    "src/review-tools.js",
+    "Implemented; see source and tests"
+  ],
+  [
+    "Add Current review view JSON export scope",
+    "src/research-audit-export.js",
+    "Implemented; see source and tests"
+  ],
+  [
+    "Add Current review view CSV export scope",
+    "src/research-audit-export.js",
+    "Implemented; see source and tests"
+  ],
+  [
+    "Include review filter provenance in current-view JSON",
+    "src/research-audit-export.js",
+    "Implemented; see source and tests"
+  ],
+  [
+    "Explain current-view versus full-dataset export scopes",
+    "src/data-quality/index.html",
+    "Implemented; see source and tests"
+  ],
+  [
+    "Flag missing map points separately from malformed coordinates",
+    "src/research-quality.js",
+    "Implemented; see source and tests"
+  ],
+  [
+    "Expose missing-map-point counts in the quality summary",
+    "src/data-quality.js",
+    "Implemented; see source and tests"
+  ],
+  [
+    "Suppress ambiguous duplicate-ID project links in queues and CSV",
+    "src/review-tools.js; data-quality.js; research-audit-export.js",
+    "Implemented; see source and tests"
+  ],
+  [
+    "Document review filters, export scopes and identity limitations",
+    "src/data-dictionary/index.html",
+    "Implemented; see source and tests"
+  ],
+  [
+    "Add responsive review-control layout without palette declarations",
+    "src/review-filters.css",
+    "Implemented; see source and tests"
+  ],
+  [
+    "Verify the existing dataset still has 50 entries and 28 flagged records",
+    "checks/quality.cjs",
+    "Verified using the stated method; controlled cases are not production failure injection"
+  ],
+  [
+    "Verify exact membership for every flagged country group",
+    "checks/quality.cjs",
+    "Verified using the stated method; controlled cases are not production failure injection"
+  ],
+  [
+    "Verify selection by the existing date-review flag",
+    "checks/quality.cjs",
+    "Verified using the stated method; controlled cases are not production failure injection"
+  ],
+  [
+    "Verify review text search against the dataset",
+    "checks/quality.cjs; live Kiel search",
+    "Verified using the stated method; controlled cases are not production failure injection"
+  ],
+  [
+    "Verify country, flag and text intersection",
+    "checks/quality.cjs; Cloud Browser",
+    "Verified using the stated method; controlled cases are not production failure injection"
+  ],
+  [
+    "Verify invalid review URL values recover safely",
+    "checks/quality.cjs",
+    "Verified using the stated method; controlled cases are not production failure injection"
+  ],
+  [
+    "Verify history events restore review selection",
+    "checks/quality.cjs",
+    "Verified using the stated method; controlled cases are not production failure injection"
+  ],
+  [
+    "Verify clear-filter focus and full queue recovery",
+    "checks/quality.cjs; Cloud Browser reset",
+    "Verified using the stated method; controlled cases are not production failure injection"
+  ],
+  [
+    "Verify successful clipboard feedback",
+    "checks/quality.cjs; Cloud Browser clipboard",
+    "Verified using the stated method; controlled cases are not production failure injection"
+  ],
+  [
+    "Verify stale clipboard feedback is ignored",
+    "checks/quality.cjs controlled promise",
+    "Verified using the stated method; controlled cases are not production failure injection"
+  ],
+  [
+    "Verify clipboard denial reveals the URL",
+    "checks/quality.cjs controlled failure",
+    "Verified using the stated method; controlled cases are not production failure injection"
+  ],
+  [
+    "Verify review controls stay disabled during load/error",
+    "checks/quality.cjs controlled fetch",
+    "Verified using the stated method; controlled cases are not production failure injection"
+  ],
+  [
+    "Verify retry re-enables controls without duplicate options",
+    "checks/quality.cjs controlled retry",
+    "Verified using the stated method; controlled cases are not production failure injection"
+  ],
+  [
+    "Verify timeout keeps unavailable data unexportable",
+    "checks/quality.cjs controlled timeout",
+    "Verified using the stated method; controlled cases are not production failure injection"
+  ],
+  [
+    "Verify actual current-view JSON preserves records, flags and metadata",
+    "Cloud Browser download: Germany two records; exact local comparison",
+    "Verified using the stated method; controlled cases are not production failure injection"
+  ],
+  [
+    "Verify actual current-view CSV contains selected record and flag",
+    "Cloud Browser download: Kiel one row; parsed CSV comparison",
+    "Verified using the stated method; controlled cases are not production failure injection"
+  ],
+  [
+    "Verify All records and Flagged only ignore review filters",
+    "checks/quality.cjs: 50 and 28",
+    "Verified using the stated method; controlled cases are not production failure injection"
+  ],
+  [
+    "Verify empty review exports show feedback",
+    "checks/quality.cjs; Cloud Browser",
+    "Verified using the stated method; controlled cases are not production failure injection"
+  ],
+  [
+    "Verify HTML-like record names are escaped",
+    "checks/quality.cjs synthetic record",
+    "Verified using the stated method; controlled cases are not production failure injection"
+  ],
+  [
+    "Verify absent/null map points receive the missing-point flag",
+    "checks/quality.cjs synthetic records",
+    "Verified using the stated method; controlled cases are not production failure injection"
+  ],
+  [
+    "Verify duplicate-ID links are suppressed in queue and CSV",
+    "checks/quality.cjs synthetic duplicate records",
+    "Verified using the stated method; controlled cases are not production failure injection"
+  ],
+  [
+    "Verify live review links restore selection after reload",
+    "Cloud Browser: Kiel/Germany remains one result",
+    "Verified using the stated method; controlled cases are not production failure injection"
+  ],
+  [
+    "Verify all data, existing styles and passport HTML remain unchanged",
+    "baseline-round13.json; navigation-round12.py",
+    "Verified using the stated method; controlled cases are not production failure injection"
+  ],
+  [
+    "Run all regression suites, local link audits and JS syntax checks",
+    "checks/*.cjs; validate.py; map-assets.py; navigation-round12.py",
+    "Verified using the stated method; controlled cases are not production failure injection"
+  ],
+  [
+    "Verify deployment source, public aliases, desktop UI and error scan",
+    "132 source hashes + five binary byte comparisons; READY; screenshot; no matching errors",
+    "Verified using the stated method; controlled cases are not production failure injection"
+  ]
+]

@@ -1,0 +1,2502 @@
+[
+  [
+    "Resolved correction preserves original metadata: Futian street-pole drone dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Futian street-pole drone dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Futian street-pole drone dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Futian street-pole drone dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Futian street-pole drone dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Futian street-pole drone dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Futian street-pole drone dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Futian street-pole drone dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Futian street-pole drone dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Futian street-pole drone dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Shell industrial drone dock deployments",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Shell industrial drone dock deployments",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Shell industrial drone dock deployments",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Shell industrial drone dock deployments",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Shell industrial drone dock deployments",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Shell industrial drone dock deployments",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Shell industrial drone dock deployments",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Shell industrial drone dock deployments",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Shell industrial drone dock deployments",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Shell industrial drone dock deployments",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Kiel emergency-response dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Kiel emergency-response dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Kiel emergency-response dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Kiel emergency-response dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Kiel emergency-response dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Kiel emergency-response dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Kiel emergency-response dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Kiel emergency-response dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Kiel emergency-response dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Kiel emergency-response dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: ReADI autonomous highway dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: ReADI autonomous highway dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: ReADI autonomous highway dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: ReADI autonomous highway dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: ReADI autonomous highway dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: ReADI autonomous highway dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: ReADI autonomous highway dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: ReADI autonomous highway dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: ReADI autonomous highway dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: ReADI autonomous highway dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Remote construction-site dock deployment",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Remote construction-site dock deployment",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Remote construction-site dock deployment",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Remote construction-site dock deployment",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Remote construction-site dock deployment",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Remote construction-site dock deployment",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Remote construction-site dock deployment",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Remote construction-site dock deployment",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Remote construction-site dock deployment",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Remote construction-site dock deployment",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Sensorem autonomous dock fleet",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Sensorem autonomous dock fleet",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Sensorem autonomous dock fleet",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Sensorem autonomous dock fleet",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Sensorem autonomous dock fleet",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Sensorem autonomous dock fleet",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Sensorem autonomous dock fleet",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Sensorem autonomous dock fleet",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Sensorem autonomous dock fleet",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Sensorem autonomous dock fleet",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: EnBW autonomous solar-inspection docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: EnBW autonomous solar-inspection docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: EnBW autonomous solar-inspection docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: EnBW autonomous solar-inspection docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: EnBW autonomous solar-inspection docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: EnBW autonomous solar-inspection docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: EnBW autonomous solar-inspection docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: EnBW autonomous solar-inspection docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: EnBW autonomous solar-inspection docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: EnBW autonomous solar-inspection docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Dole Asia plantation drone docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Dole Asia plantation drone docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Dole Asia plantation drone docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Dole Asia plantation drone docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Dole Asia plantation drone docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Dole Asia plantation drone docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Dole Asia plantation drone docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Dole Asia plantation drone docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Dole Asia plantation drone docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Dole Asia plantation drone docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: TNB warehouse inventory drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: TNB warehouse inventory drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: TNB warehouse inventory drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: TNB warehouse inventory drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: TNB warehouse inventory drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: TNB warehouse inventory drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: TNB warehouse inventory drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: TNB warehouse inventory drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: TNB warehouse inventory drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: TNB warehouse inventory drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Asheville disaster-recovery drone dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Asheville disaster-recovery drone dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Asheville disaster-recovery drone dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Asheville disaster-recovery drone dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Asheville disaster-recovery drone dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Asheville disaster-recovery drone dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Asheville disaster-recovery drone dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Asheville disaster-recovery drone dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Asheville disaster-recovery drone dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Asheville disaster-recovery drone dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Vancouver Police dock-based drone network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Vancouver Police dock-based drone network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Vancouver Police dock-based drone network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Vancouver Police dock-based drone network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Vancouver Police dock-based drone network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Vancouver Police dock-based drone network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Vancouver Police dock-based drone network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Vancouver Police dock-based drone network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Vancouver Police dock-based drone network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Vancouver Police dock-based drone network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Belgium Citymesh SENSE drone network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Belgium Citymesh SENSE drone network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Belgium Citymesh SENSE drone network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Belgium Citymesh SENSE drone network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Belgium Citymesh SENSE drone network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Belgium Citymesh SENSE drone network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Belgium Citymesh SENSE drone network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Belgium Citymesh SENSE drone network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Belgium Citymesh SENSE drone network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Belgium Citymesh SENSE drone network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Percepto autonomous Texas solar inspection",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Percepto autonomous Texas solar inspection",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Percepto autonomous Texas solar inspection",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Percepto autonomous Texas solar inspection",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Percepto autonomous Texas solar inspection",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Percepto autonomous Texas solar inspection",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Percepto autonomous Texas solar inspection",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Percepto autonomous Texas solar inspection",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Percepto autonomous Texas solar inspection",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Percepto autonomous Texas solar inspection",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Caltrans remote inspection drone docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Caltrans remote inspection drone docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Caltrans remote inspection drone docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Caltrans remote inspection drone docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Caltrans remote inspection drone docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Caltrans remote inspection drone docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Caltrans remote inspection drone docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Caltrans remote inspection drone docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Caltrans remote inspection drone docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Caltrans remote inspection drone docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Ramapo Police two-dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Ramapo Police two-dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Ramapo Police two-dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Ramapo Police two-dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Ramapo Police two-dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Ramapo Police two-dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Ramapo Police two-dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Ramapo Police two-dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Ramapo Police two-dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Ramapo Police two-dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Kansanshi mining autonomous surveillance docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Kansanshi mining autonomous surveillance docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Kansanshi mining autonomous surveillance docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Kansanshi mining autonomous surveillance docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Kansanshi mining autonomous surveillance docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Kansanshi mining autonomous surveillance docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Kansanshi mining autonomous surveillance docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Kansanshi mining autonomous surveillance docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Kansanshi mining autonomous surveillance docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Kansanshi mining autonomous surveillance docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Quellaveco mining survey drone docking network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Quellaveco mining survey drone docking network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Quellaveco mining survey drone docking network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Quellaveco mining survey drone docking network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Quellaveco mining survey drone docking network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Quellaveco mining survey drone docking network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Quellaveco mining survey drone docking network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Quellaveco mining survey drone docking network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Quellaveco mining survey drone docking network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Quellaveco mining survey drone docking network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: UAE waste management facility dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: UAE waste management facility dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: UAE waste management facility dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: UAE waste management facility dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: UAE waste management facility dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: UAE waste management facility dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: UAE waste management facility dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: UAE waste management facility dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: UAE waste management facility dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: UAE waste management facility dock network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Axpo Alpine hydropower drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Axpo Alpine hydropower drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Axpo Alpine hydropower drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Axpo Alpine hydropower drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Axpo Alpine hydropower drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Axpo Alpine hydropower drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Axpo Alpine hydropower drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Axpo Alpine hydropower drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Axpo Alpine hydropower drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Axpo Alpine hydropower drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Slovakia military forestry wildfire dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Slovakia military forestry wildfire dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Slovakia military forestry wildfire dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Slovakia military forestry wildfire dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Slovakia military forestry wildfire dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Slovakia military forestry wildfire dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Slovakia military forestry wildfire dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Slovakia military forestry wildfire dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Slovakia military forestry wildfire dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Slovakia military forestry wildfire dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: 24-7 Drone Force estate security docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: 24-7 Drone Force estate security docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: 24-7 Drone Force estate security docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: 24-7 Drone Force estate security docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: 24-7 Drone Force estate security docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: 24-7 Drone Force estate security docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: 24-7 Drone Force estate security docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: 24-7 Drone Force estate security docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: 24-7 Drone Force estate security docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: 24-7 Drone Force estate security docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: SQM northern Chile mine dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: SQM northern Chile mine dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: SQM northern Chile mine dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: SQM northern Chile mine dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: SQM northern Chile mine dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: SQM northern Chile mine dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: SQM northern Chile mine dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: SQM northern Chile mine dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: SQM northern Chile mine dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: SQM northern Chile mine dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: CSX rail-yard inspection docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: CSX rail-yard inspection docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: CSX rail-yard inspection docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: CSX rail-yard inspection docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: CSX rail-yard inspection docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: CSX rail-yard inspection docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: CSX rail-yard inspection docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: CSX rail-yard inspection docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: CSX rail-yard inspection docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: CSX rail-yard inspection docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Aerial Fences livestock security dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Aerial Fences livestock security dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Aerial Fences livestock security dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Aerial Fences livestock security dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Aerial Fences livestock security dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Aerial Fences livestock security dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Aerial Fences livestock security dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Aerial Fences livestock security dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Aerial Fences livestock security dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Aerial Fences livestock security dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Premier Security dock-based monitoring",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Premier Security dock-based monitoring",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Premier Security dock-based monitoring",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Premier Security dock-based monitoring",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Premier Security dock-based monitoring",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Premier Security dock-based monitoring",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Premier Security dock-based monitoring",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Premier Security dock-based monitoring",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Premier Security dock-based monitoring",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Premier Security dock-based monitoring",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Discovery Land drone-in-a-box network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Discovery Land drone-in-a-box network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Discovery Land drone-in-a-box network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Discovery Land drone-in-a-box network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Discovery Land drone-in-a-box network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Discovery Land drone-in-a-box network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Discovery Land drone-in-a-box network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Discovery Land drone-in-a-box network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Discovery Land drone-in-a-box network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Discovery Land drone-in-a-box network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Port Lincoln airport drone dock security",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Port Lincoln airport drone dock security",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Port Lincoln airport drone dock security",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Port Lincoln airport drone dock security",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Port Lincoln airport drone dock security",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Port Lincoln airport drone dock security",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Port Lincoln airport drone dock security",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Port Lincoln airport drone dock security",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Port Lincoln airport drone dock security",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Port Lincoln airport drone dock security",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Titan Protection autonomous security docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Titan Protection autonomous security docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Titan Protection autonomous security docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Titan Protection autonomous security docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Titan Protection autonomous security docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Titan Protection autonomous security docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Titan Protection autonomous security docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Titan Protection autonomous security docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Titan Protection autonomous security docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Titan Protection autonomous security docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Alaska DOT SOAR autonomous dock pilot",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Alaska DOT SOAR autonomous dock pilot",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Alaska DOT SOAR autonomous dock pilot",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Alaska DOT SOAR autonomous dock pilot",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Alaska DOT SOAR autonomous dock pilot",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Alaska DOT SOAR autonomous dock pilot",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Alaska DOT SOAR autonomous dock pilot",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Alaska DOT SOAR autonomous dock pilot",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Alaska DOT SOAR autonomous dock pilot",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Alaska DOT SOAR autonomous dock pilot",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Port of Barcelona DJI Dock 3",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Port of Barcelona DJI Dock 3",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Port of Barcelona DJI Dock 3",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Port of Barcelona DJI Dock 3",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Port of Barcelona DJI Dock 3",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Port of Barcelona DJI Dock 3",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Port of Barcelona DJI Dock 3",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Port of Barcelona DJI Dock 3",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Port of Barcelona DJI Dock 3",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Port of Barcelona DJI Dock 3",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Celaya automated public safety dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Celaya automated public safety dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Celaya automated public safety dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Celaya automated public safety dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Celaya automated public safety dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Celaya automated public safety dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Celaya automated public safety dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Celaya automated public safety dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Celaya automated public safety dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Celaya automated public safety dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Palcacocha glacier monitoring dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Palcacocha glacier monitoring dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Palcacocha glacier monitoring dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Palcacocha glacier monitoring dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Palcacocha glacier monitoring dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Palcacocha glacier monitoring dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Palcacocha glacier monitoring dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Palcacocha glacier monitoring dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Palcacocha glacier monitoring dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Palcacocha glacier monitoring dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Bibai DJI Dock 3 surveying",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Bibai DJI Dock 3 surveying",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Bibai DJI Dock 3 surveying",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Bibai DJI Dock 3 surveying",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Bibai DJI Dock 3 surveying",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Bibai DJI Dock 3 surveying",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Bibai DJI Dock 3 surveying",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Bibai DJI Dock 3 surveying",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Bibai DJI Dock 3 surveying",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Bibai DJI Dock 3 surveying",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Ambite Tajuña River monitoring dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Ambite Tajuña River monitoring dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Ambite Tajuña River monitoring dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Ambite Tajuña River monitoring dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Ambite Tajuña River monitoring dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Ambite Tajuña River monitoring dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Ambite Tajuña River monitoring dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Ambite Tajuña River monitoring dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Ambite Tajuña River monitoring dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Ambite Tajuña River monitoring dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Opole DJI Dock 3 municipal inspection",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Opole DJI Dock 3 municipal inspection",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Opole DJI Dock 3 municipal inspection",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Opole DJI Dock 3 municipal inspection",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Opole DJI Dock 3 municipal inspection",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Opole DJI Dock 3 municipal inspection",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Opole DJI Dock 3 municipal inspection",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Opole DJI Dock 3 municipal inspection",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Opole DJI Dock 3 municipal inspection",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Opole DJI Dock 3 municipal inspection",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Würzburg EMQport droneport prototype",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Würzburg EMQport droneport prototype",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Würzburg EMQport droneport prototype",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Würzburg EMQport droneport prototype",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Würzburg EMQport droneport prototype",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Würzburg EMQport droneport prototype",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Würzburg EMQport droneport prototype",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Würzburg EMQport droneport prototype",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Würzburg EMQport droneport prototype",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Würzburg EMQport droneport prototype",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Tomakomai refinery drone inspections",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Tomakomai refinery drone inspections",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Tomakomai refinery drone inspections",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Tomakomai refinery drone inspections",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Tomakomai refinery drone inspections",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Tomakomai refinery drone inspections",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Tomakomai refinery drone inspections",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Tomakomai refinery drone inspections",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Tomakomai refinery drone inspections",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Tomakomai refinery drone inspections",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Network Rail automated docking project",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Network Rail automated docking project",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Network Rail automated docking project",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Network Rail automated docking project",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Network Rail automated docking project",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Network Rail automated docking project",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Network Rail automated docking project",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Network Rail automated docking project",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Network Rail automated docking project",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Network Rail automated docking project",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: NYPA Gilboa hydroelectric drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: NYPA Gilboa hydroelectric drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: NYPA Gilboa hydroelectric drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: NYPA Gilboa hydroelectric drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: NYPA Gilboa hydroelectric drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: NYPA Gilboa hydroelectric drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: NYPA Gilboa hydroelectric drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: NYPA Gilboa hydroelectric drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: NYPA Gilboa hydroelectric drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: NYPA Gilboa hydroelectric drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: ConocoPhillips Teesside docking trial",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: ConocoPhillips Teesside docking trial",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: ConocoPhillips Teesside docking trial",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: ConocoPhillips Teesside docking trial",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: ConocoPhillips Teesside docking trial",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: ConocoPhillips Teesside docking trial",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: ConocoPhillips Teesside docking trial",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: ConocoPhillips Teesside docking trial",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: ConocoPhillips Teesside docking trial",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: ConocoPhillips Teesside docking trial",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: ADLC Antwerp cargo drone hub",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: ADLC Antwerp cargo drone hub",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: ADLC Antwerp cargo drone hub",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: ADLC Antwerp cargo drone hub",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: ADLC Antwerp cargo drone hub",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: ADLC Antwerp cargo drone hub",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: ADLC Antwerp cargo drone hub",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: ADLC Antwerp cargo drone hub",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: ADLC Antwerp cargo drone hub",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: ADLC Antwerp cargo drone hub",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Upper Darby Police Skydio DFR docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Upper Darby Police Skydio DFR docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Upper Darby Police Skydio DFR docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Upper Darby Police Skydio DFR docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Upper Darby Police Skydio DFR docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Upper Darby Police Skydio DFR docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Upper Darby Police Skydio DFR docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Upper Darby Police Skydio DFR docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Upper Darby Police Skydio DFR docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Upper Darby Police Skydio DFR docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: SkyBound railway drone dock London",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: SkyBound railway drone dock London",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: SkyBound railway drone dock London",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: SkyBound railway drone dock London",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: SkyBound railway drone dock London",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: SkyBound railway drone dock London",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: SkyBound railway drone dock London",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: SkyBound railway drone dock London",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: SkyBound railway drone dock London",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: SkyBound railway drone dock London",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: SkyBound railway drone dock Glasgow",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: SkyBound railway drone dock Glasgow",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: SkyBound railway drone dock Glasgow",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: SkyBound railway drone dock Glasgow",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: SkyBound railway drone dock Glasgow",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: SkyBound railway drone dock Glasgow",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: SkyBound railway drone dock Glasgow",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: SkyBound railway drone dock Glasgow",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: SkyBound railway drone dock Glasgow",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: SkyBound railway drone dock Glasgow",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: SkyBound railway drone dock Cardiff",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: SkyBound railway drone dock Cardiff",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: SkyBound railway drone dock Cardiff",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: SkyBound railway drone dock Cardiff",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: SkyBound railway drone dock Cardiff",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: SkyBound railway drone dock Cardiff",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: SkyBound railway drone dock Cardiff",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: SkyBound railway drone dock Cardiff",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: SkyBound railway drone dock Cardiff",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: SkyBound railway drone dock Cardiff",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Cincinnati Police Skydio DFR docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Cincinnati Police Skydio DFR docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Cincinnati Police Skydio DFR docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Cincinnati Police Skydio DFR docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Cincinnati Police Skydio DFR docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Cincinnati Police Skydio DFR docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Cincinnati Police Skydio DFR docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Cincinnati Police Skydio DFR docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Cincinnati Police Skydio DFR docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Cincinnati Police Skydio DFR docks",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Yonkers Police Nokia docking network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Yonkers Police Nokia docking network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Yonkers Police Nokia docking network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Yonkers Police Nokia docking network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Yonkers Police Nokia docking network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Yonkers Police Nokia docking network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Yonkers Police Nokia docking network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Yonkers Police Nokia docking network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Yonkers Police Nokia docking network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Yonkers Police Nokia docking network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: Summerville Nokia public safety drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: Summerville Nokia public safety drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: Summerville Nokia public safety drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: Summerville Nokia public safety drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: Summerville Nokia public safety drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: Summerville Nokia public safety drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: Summerville Nokia public safety drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: Summerville Nokia public safety drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: Summerville Nokia public safety drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: Summerville Nokia public safety drone dock",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ],
+  [
+    "Resolved correction preserves original metadata: El Paso DJI Dock 3 public safety network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"originalContext\": true, \"category\": true, \"evidenceNotAutofilled\": true}"
+  ],
+  [
+    "User title and category survive pending lookup: El Paso DJI Dock 3 public safety network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"userEditsPreserved\": true, \"originalCategoryRetained\": true}"
+  ],
+  [
+    "Unknown reference stays unresolved with requested identity: El Paso DJI Dock 3 public safety network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"noFalseResolvedId\": true, \"requestedIdRetained\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Duplicate reference rejected as ambiguous: El Paso DJI Dock 3 public safety network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"ambiguousRejected\": true, \"formRecovered\": true}"
+  ],
+  [
+    "Lookup retry preserves user-written name and city: El Paso DJI Dock 3 public safety network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"retryResolved\": true, \"userTextPreserved\": true}"
+  ],
+  [
+    "Timed-out correction lookup permits retry: El Paso DJI Dock 3 public safety network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"timeoutRecovered\": true, \"retryResolved\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Resolved correction report schema and original context: El Paso DJI Dock 3 public safety network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"schema\": \"1.1\", \"correctId\": true, \"originalContext\": true, \"localOnly\": true}"
+  ],
+  [
+    "Unresolved correction report never becomes a new suggestion: El Paso DJI Dock 3 public safety network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"requestedIdRetained\": true, \"noInventedPassport\": true, \"localOnly\": true}"
+  ],
+  [
+    "Private-IP evidence blocks form preparation: El Paso DJI Dock 3 public safety network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"syntheticOnly\": true, \"privateAddressRejected\": true, \"submitStopped\": true}"
+  ],
+  [
+    "Original cited HTTPS URL passes format validation only: El Paso DJI Dock 3 public safety network",
+    "checks/correction-500.cjs",
+    "PASSED: {\"urlTrimmed\": true, \"formatAccepted\": true, \"noAccuracyClaim\": true}"
+  ]
+]

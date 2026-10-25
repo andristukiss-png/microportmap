@@ -1,0 +1,22 @@
+{
+  "deployment": "dpl_8Cf6s9KsHBH7659kw2f2u1fRVjsK",
+  "status": "READY",
+  "featureCount": 1,
+  "verificationCases": 50,
+  "productionSourceChanges": [
+    "src/project-connect.js",
+    "src/directory-compare.js"
+  ],
+  "liveFlow": "Kiel/EnBW comparison \u2192 Kiel passport \u2192 Enter on return link \u2192 Kiel/EnBW restored with heading focus",
+  "liveHttpVerified": [
+    "project-connect.js",
+    "directory-compare.js",
+    "data/projects.json"
+  ],
+  "availableDeploymentHashesVerified": 135,
+  "unverified": [
+    "Fresh mobile/device visuals and optional detailed online map layer remain unverified.",
+    "Independent research accuracy, external evidence availability, current operations, access permissions and publication dates remain unverified.",
+    "No submission inbox is connected. Production failure injection was not performed."
+  ]
+}

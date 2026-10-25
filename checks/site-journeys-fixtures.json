@@ -1,0 +1,6692 @@
+{
+  "pages": {
+    "countries": [
+      {
+        "class": "mp-site-nav-skip",
+        "href": "#mp-bottom-navigation"
+      },
+      {
+        "href": "/"
+      },
+      {
+        "href": "/#atlas"
+      },
+      {
+        "href": "/directory/?country=United%20States"
+      },
+      {
+        "href": "/directory/?country=United%20Kingdom"
+      },
+      {
+        "href": "/directory/?country=Germany"
+      },
+      {
+        "href": "/directory/?country=Japan"
+      },
+      {
+        "href": "/directory/?country=Australia"
+      },
+      {
+        "href": "/directory/?country=Belgium"
+      },
+      {
+        "href": "/directory/?country=Peru"
+      },
+      {
+        "href": "/directory/?country=Spain"
+      },
+      {
+        "href": "/directory/?country=Canada"
+      },
+      {
+        "href": "/directory/?country=Chile"
+      },
+      {
+        "href": "/directory/?country=China"
+      },
+      {
+        "href": "/directory/?country=Italy"
+      },
+      {
+        "href": "/directory/?country=Malaysia"
+      },
+      {
+        "href": "/directory/?country=Mexico"
+      },
+      {
+        "href": "/directory/?country=Netherlands"
+      },
+      {
+        "href": "/directory/?country=Oman"
+      },
+      {
+        "href": "/directory/?country=Philippines"
+      },
+      {
+        "href": "/directory/?country=Poland"
+      },
+      {
+        "href": "/directory/?country=Slovakia"
+      },
+      {
+        "href": "/directory/?country=South%20Africa"
+      },
+      {
+        "href": "/directory/?country=Switzerland"
+      },
+      {
+        "href": "/directory/?country=United%20Arab%20Emirates"
+      },
+      {
+        "href": "/directory/?country=Zambia"
+      },
+      {
+        "class": "mp-continue-card",
+        "href": "/#atlas"
+      },
+      {
+        "class": "mp-continue-card",
+        "href": "/directory/"
+      },
+      {
+        "class": "mp-continue-card",
+        "href": "/technologies/"
+      },
+      {
+        "class": "mp-continue-card",
+        "href": "/data-quality/"
+      },
+      {
+        "href": "/coverage/"
+      },
+      {
+        "href": "/operators/"
+      },
+      {
+        "href": "/data-quality/"
+      },
+      {
+        "href": "/verification-guide/"
+      },
+      {
+        "href": "/methodology/"
+      },
+      {
+        "href": "/data-dictionary/"
+      },
+      {
+        "href": "/network/"
+      },
+      {
+        "href": "/submit/"
+      },
+      {
+        "href": "/help/"
+      },
+      {
+        "href": "/"
+      },
+      {
+        "href": "/glossary/"
+      },
+      {
+        "href": "/methodology/"
+      },
+      {
+        "href": "/privacy/"
+      },
+      {
+        "href": "/legal/"
+      },
+      {
+        "href": "/terms/"
+      },
+      {
+        "class": "mp-home-shortcut",
+        "href": "/#top",
+        "aria-label": "MicroportMap \u2014 return to dashboard top"
+      },
+      {
+        "class": "mp-bottom-link",
+        "href": "/#atlas",
+        "aria-label": "Atlas"
+      },
+      {
+        "class": "mp-bottom-link",
+        "href": "/directory/",
+        "aria-label": "Project directory"
+      },
+      {
+        "class": "mp-bottom-link",
+        "href": "/technologies/",
+        "aria-label": "Technology pages"
+      },
+      {
+        "class": "mp-bottom-link",
+        "href": "/data-quality/",
+        "aria-label": "Data quality and evidence"
+      },
+      {
+        "class": "mp-bottom-link",
+        "href": "#mp-continue",
+        "aria-label": "More MicroportMap pages"
+      }
+    ],
+    "coverage": [
+      {
+        "class": "mp-site-nav-skip",
+        "href": "#mp-bottom-navigation"
+      },
+      {
+        "href": "/"
+      },
+      {
+        "href": "/#atlas"
+      },
+      {
+        "href": "/data/projects.json"
+      },
+      {
+        "href": "/data/projects.csv"
+      },
+      {
+        "href": "/data/projects.geojson"
+      },
+      {
+        "href": "/data/qa-report.json"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?country=United%20States"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?country=United%20Kingdom"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?country=Germany"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?country=Japan"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?country=Australia"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?country=Belgium"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?country=Peru"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?country=Spain"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?country=Canada"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?country=Chile"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?country=China"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?country=Italy"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?country=Malaysia"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?country=Mexico"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?country=Netherlands"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?country=Oman"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?country=Philippines"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?country=Poland"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?country=Slovakia"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?country=South%20Africa"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?country=Switzerland"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?country=United%20Arab%20Emirates"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?country=Zambia"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?type=Industrial%20dock"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?type=Emergency%20response"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?type=Transport%20network"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?type=Agriculture%20dock"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?type=Environmental%20monitoring"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?type=Cargo%20drone%20hub"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?type=Street-pole%20network"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?q=DJI%20Dock"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?q=Skydio"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?q=Nokia"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?q=Percepto"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?q=FlytBase"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?q=SkyBound"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?year=unknown"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?year=2026"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?year=2025"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?year=2023"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?year=2024"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?region=North%20America"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?region=Europe"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?region=Asia"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?region=South%20America"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?region=Africa"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?region=Middle%20East"
+      },
+      {
+        "class": "bar",
+        "href": "/directory/?region=Oceania"
+      },
+      {
+        "class": "mp-continue-card",
+        "href": "/#atlas"
+      },
+      {
+        "class": "mp-continue-card",
+        "href": "/directory/"
+      },
+      {
+        "class": "mp-continue-card",
+        "href": "/technologies/"
+      },
+      {
+        "class": "mp-continue-card",
+        "href": "/countries/"
+      },
+      {
+        "href": "/countries/"
+      },
+      {
+        "href": "/operators/"
+      },
+      {
+        "href": "/data-quality/"
+      },
+      {
+        "href": "/verification-guide/"
+      },
+      {
+        "href": "/methodology/"
+      },
+      {
+        "href": "/data-dictionary/"
+      },
+      {
+        "href": "/network/"
+      },
+      {
+        "href": "/submit/"
+      },
+      {
+        "href": "/help/"
+      },
+      {
+        "href": "/"
+      },
+      {
+        "href": "/glossary/"
+      },
+      {
+        "href": "/methodology/"
+      },
+      {
+        "href": "/privacy/"
+      },
+      {
+        "href": "/legal/"
+      },
+      {
+        "href": "/terms/"
+      },
+      {
+        "class": "mp-home-shortcut",
+        "href": "/#top",
+        "aria-label": "MicroportMap \u2014 return to dashboard top"
+      },
+      {
+        "class": "mp-bottom-link",
+        "href": "/#atlas",
+        "aria-label": "Atlas"
+      },
+      {
+        "class": "mp-bottom-link",
+        "href": "/directory/",
+        "aria-label": "Project directory"
+      },
+      {
+        "class": "mp-bottom-link",
+        "href": "/technologies/",
+        "aria-label": "Technology pages"
+      },
+      {
+        "class": "mp-bottom-link",
+        "href": "/data-quality/",
+        "aria-label": "Data quality and evidence"
+      },
+      {
+        "class": "mp-bottom-link",
+        "href": "#mp-continue",
+        "aria-label": "More MicroportMap pages"
+      }
+    ],
+    "operators": [
+      {
+        "class": "mp-site-nav-skip",
+        "href": "#mp-bottom-navigation"
+      },
+      {
+        "href": "/"
+      },
+      {
+        "href": "/#atlas"
+      },
+      {
+        "href": "/directory/?q=SkyBound%20%2F%20rail%20operators"
+      },
+      {
+        "href": "/directory/?q=24-7%20Drone%20Force%20%2F%20HDRT"
+      },
+      {
+        "href": "/directory/?q=ADLC"
+      },
+      {
+        "href": "/directory/?q=Aerial%20Fences"
+      },
+      {
+        "href": "/directory/?q=AI%20View%20Group%20%2F%20highway%20partners"
+      },
+      {
+        "href": "/directory/?q=Alaska%20DOT%20%2F%20Skydio"
+      },
+      {
+        "href": "/directory/?q=Anglo%20American%20%2F%20UAV%20LATAM"
+      },
+      {
+        "href": "/directory/?q=Axpo%20Group"
+      },
+      {
+        "href": "/directory/?q=BF%20Kiel%20%2F%20FlytBase"
+      },
+      {
+        "href": "/directory/?q=California%20Department%20of%20Transportation"
+      },
+      {
+        "href": "/directory/?q=Celaya%20public%20safety%20agencies"
+      },
+      {
+        "href": "/directory/?q=Cincinnati%20Police%20Department"
+      },
+      {
+        "href": "/directory/?q=Citymesh%20%2F%20Nokia"
+      },
+      {
+        "href": "/directory/?q=ConocoPhillips%20%2F%20heliguy"
+      },
+      {
+        "href": "/directory/?q=CSX%20Transportation"
+      },
+      {
+        "href": "/directory/?q=Discovery%20Land%20Company%20%2F%20UVT"
+      },
+      {
+        "href": "/directory/?q=Dole%20Asia%20Company%20%2F%20ASY%20Electronics"
+      },
+      {
+        "href": "/directory/?q=El%20Paso%20public%20safety%20agencies"
+      },
+      {
+        "href": "/directory/?q=Emqopter%20%2F%20Wingcopter"
+      },
+      {
+        "href": "/directory/?q=EnBW%20%2F%20FlytBase"
+      },
+      {
+        "href": "/directory/?q=Goat%20Drones%20Solutions"
+      },
+      {
+        "href": "/directory/?q=HELICAM%20%2F%20local%20contractors"
+      },
+      {
+        "href": "/directory/?q=Ibn%20Firnas%20Drone%20Center"
+      },
+      {
+        "href": "/directory/?q=Idemitsu%20Kosan%20%2F%20SENSYN%20Robotics"
+      },
+      {
+        "href": "/directory/?q=Kansanshi%20Mining%20%2F%20FS%20Systems%20International"
+      },
+      {
+        "href": "/directory/?q=MSS%20Security"
+      },
+      {
+        "href": "/directory/?q=Network%20Rail%20%2F%20heliguy"
+      },
+      {
+        "href": "/directory/?q=New%20York%20Power%20Authority%20%2F%20NUAIR"
+      },
+      {
+        "href": "/directory/?q=Opole%20municipal%20services%20%2F%20MEGADRON"
+      },
+      {
+        "href": "/directory/?q=OvrWatch%20%2F%20Asheville%20Police%20Department"
+      },
+      {
+        "href": "/directory/?q=Percepto%20%2F%20unnamed%20solar%20power%20operator"
+      },
+      {
+        "href": "/directory/?q=Port%20of%20Barcelona%20%2F%20INSTOP"
+      },
+      {
+        "href": "/directory/?q=Premier%20Security%20Solutions%20%2F%20UVT"
+      },
+      {
+        "href": "/directory/?q=Research%20partners%20%2F%20INAIGEM"
+      },
+      {
+        "href": "/directory/?q=Sensorem"
+      },
+      {
+        "href": "/directory/?q=Shell%20%2F%20Skeye%20%2F%20DroneLand"
+      },
+      {
+        "href": "/directory/?q=Shenzhen%20traffic%20police"
+      },
+      {
+        "href": "/directory/?q=Skydio%20%2F%20KDDI%20%2F%20Ishikawa%20Prefecture"
+      },
+      {
+        "href": "/directory/?q=Slovak%20military%20forestry%20%2F%20UAVONIC"
+      },
+      {
+        "href": "/directory/?q=SQM%20%2F%20Adentu"
+      },
+      {
+        "href": "/directory/?q=Summerville%20emergency%20responders"
+      },
+      {
+        "href": "/directory/?q=Tenaga%20Nasional%20Berhad%20%2F%20Aerodyne"
+      },
+      {
+        "href": "/directory/?q=Titan%20Protection"
+      },
+      {
+        "href": "/directory/?q=Town%20of%20Ramapo%20Police%20Department"
+      },
+      {
+        "href": "/directory/?q=UAE%20Waste%20Management%20Authority%20%2F%20The%20Drone%20Centre"
+      },
+      {
+        "href": "/directory/?q=Upper%20Darby%20Police%20Department"
+      },
+      {
+        "href": "/directory/?q=Vancouver%20Police%20Department"
+      },
+      {
+        "href": "/directory/?q=Yonkers%20Police%20Department"
+      },
+      {
+        "class": "mp-continue-card",
+        "href": "/#atlas"
+      },
+      {
+        "class": "mp-continue-card",
+        "href": "/directory/"
+      },
+      {
+        "class": "mp-continue-card",
+        "href": "/technologies/"
+      },
+      {
+        "class": "mp-continue-card",
+        "href": "/countries/"
+      },
+      {
+        "href": "/countries/"
+      },
+      {
+        "href": "/coverage/"
+      },
+      {
+        "href": "/data-quality/"
+      },
+      {
+        "href": "/verification-guide/"
+      },
+      {
+        "href": "/methodology/"
+      },
+      {
+        "href": "/data-dictionary/"
+      },
+      {
+        "href": "/network/"
+      },
+      {
+        "href": "/submit/"
+      },
+      {
+        "href": "/help/"
+      },
+      {
+        "href": "/"
+      },
+      {
+        "href": "/glossary/"
+      },
+      {
+        "href": "/methodology/"
+      },
+      {
+        "href": "/privacy/"
+      },
+      {
+        "href": "/legal/"
+      },
+      {
+        "href": "/terms/"
+      },
+      {
+        "class": "mp-home-shortcut",
+        "href": "/#top",
+        "aria-label": "MicroportMap \u2014 return to dashboard top"
+      },
+      {
+        "class": "mp-bottom-link",
+        "href": "/#atlas",
+        "aria-label": "Atlas"
+      },
+      {
+        "class": "mp-bottom-link",
+        "href": "/directory/",
+        "aria-label": "Project directory"
+      },
+      {
+        "class": "mp-bottom-link",
+        "href": "/technologies/",
+        "aria-label": "Technology pages"
+      },
+      {
+        "class": "mp-bottom-link",
+        "href": "/data-quality/",
+        "aria-label": "Data quality and evidence"
+      },
+      {
+        "class": "mp-bottom-link",
+        "href": "#mp-continue",
+        "aria-label": "More MicroportMap pages"
+      }
+    ]
+  },
+  "passports": {
+    "shenzhen": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=shenzhen#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://szjj.sz.gov.cn/gkmlpt/content/12/12664/post_12664595.html",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/ishikawa/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=China"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/enbw/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/shenzhen/"
+      ]
+    },
+    "rotterdam": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=rotterdam#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://flytbase.com/case-studies/autonomous-drone-inspections-oil-and-gas",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/skybound-cardiff/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=Netherlands"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/australia/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/rotterdam/"
+      ]
+    },
+    "kiel": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=kiel#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://www.flytbase.com/case-studies/how-bf-kiel-turned-emergency-response-into-a-3-minute-aerial-operation-with-autonomous-drones",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/network-rail-uk/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=Germany"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/kansanshi-zambia/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/kiel/"
+      ]
+    },
+    "italy": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=italy#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://flytbase.com/case-studies/aiview-autonomous-drones-italian-highway-monitoring",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/oman/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=Italy"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/ramapo/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/italy/"
+      ]
+    },
+    "oman": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=oman#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://flytbase.com/case-studies/ibn-firnas-drone-center-oman-government-construction-monitoring",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/australia/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=Oman"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/italy/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/oman/"
+      ]
+    },
+    "australia": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=australia#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://flytbase.com/case-studies/sensorem-autonomous-docked-drones-deployment-australia",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/rotterdam/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=Australia"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/oman/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/australia/"
+      ]
+    },
+    "enbw": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=enbw#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://flytbase.com/case-studies/enbw-scaled-solar-pv-inspections-150-mw-to-1-gw-autonomous-drone-docks",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/shenzhen/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=Germany"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/el-paso-dfr/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/enbw/"
+      ]
+    },
+    "dole": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=dole#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://flytbase.com/case-studies/dole-asia-autonomous-plantation-drone-security-philippines",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/el-paso-dfr/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=Philippines"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/discovery-land-us/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/dole/"
+      ]
+    },
+    "tnb": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=tnb#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://flytbase.com/case-studies/tnb-warehouse-asset-monitoring-autonomous-drones-malaysia",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/tomakomai-refinery/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=Malaysia"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/titan-protection/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/tnb/"
+      ]
+    },
+    "asheville": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=asheville#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://flytbase.com/case-studies/ovrwatch-asheville-hurricane-disaster-recovery-drones-public-safety",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/axpo-swiss/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=United%20States"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/ambite/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/asheville/"
+      ]
+    },
+    "vancouver": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=vancouver#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://www.skydio.com/blog/vancouver-police-department-drone-as-first-responder",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/wurzburg-emqport/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=Canada"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/upper-darby-dfr/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/vancouver/"
+      ]
+    },
+    "ishikawa": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=ishikawa#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://www.skydio.com/blog/skydio-x10-dock-available-japan",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/kansanshi-zambia/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=Japan"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/shenzhen/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/ishikawa/"
+      ]
+    },
+    "belgium-sense": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=belgium-sense#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://www.nokia.com/blog/taking-industries-further-with-the-enhanced-nokia-drone-networks-platform/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/bibai/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=Belgium"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/axpo-swiss/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/belgium-sense/"
+      ]
+    },
+    "texas-solar": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=texas-solar#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://percepto.com/percepto-approved-to-deploy-highly-automated-beyond-visual-line-of-sight-drones-for-remote-operations-at-record-breaking-altitude/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/port-lincoln/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=United%20States"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/palcacocha/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/texas-solar/"
+      ]
+    },
+    "caltrans-otay": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=caltrans-otay#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://www.skydio.com/resources/videos/caltrans-saved-usd100k-on-a-single-bridge-inspection",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/celaya/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=United%20States"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/bibai/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/caltrans-otay/"
+      ]
+    },
+    "ramapo": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=ramapo#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://www.skydio.com/customers/awards/2026",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/italy/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=United%20States"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/quellaveco-peru/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/ramapo/"
+      ]
+    },
+    "kansanshi-zambia": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=kansanshi-zambia#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://flytbase.com/case-studies/kansanshi-mining-plc-transformed-mine-security-to-proactive-uav-surveillance",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/kiel/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=Zambia"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/ishikawa/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/kansanshi-zambia/"
+      ]
+    },
+    "quellaveco-peru": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=quellaveco-peru#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://flytbase.com/case-studies/anglo-american-autonomous-mining-drones-peru-case-study",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/ramapo/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=Peru"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/premier-security-us/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/quellaveco-peru/"
+      ]
+    },
+    "uae-waste": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=uae-waste#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://flytbase.com/case-studies/uae-waste-management-autonomous-drone-implementation-case-study",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/upper-darby-dfr/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=United%20Arab%20Emirates"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/tomakomai-refinery/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/uae-waste/"
+      ]
+    },
+    "axpo-swiss": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=axpo-swiss#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://flytbase.com/case-studies/axpo-hydropower-plant-monitoring-autonomous-drones",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/belgium-sense/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=Switzerland"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/asheville/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/axpo-swiss/"
+      ]
+    },
+    "slovakia-forest": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=slovakia-forest#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://flytbase.com/case-studies/slovakia-military-wildfire-detection-dock-drones",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/sqm-chile/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=Slovakia"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/skybound-waterloo/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/slovakia-forest/"
+      ]
+    },
+    "southafrica-estate": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=southafrica-estate#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://flytbase.com/case-studies/24-7-drone-force-residential-estate-security-docks-south-africa",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/antwerp-cargo-hub/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=South%20Africa"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/yonkers-nokia/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/southafrica-estate/"
+      ]
+    },
+    "sqm-chile": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=sqm-chile#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://flytbase.com/case-studies/sqm-678-km2-mine-autonomous-inspection-adentu-and-flytbase",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/summerville-nokia/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=Chile"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/slovakia-forest/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/sqm-chile/"
+      ]
+    },
+    "csx-rail": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=csx-rail#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://flytbase.com/case-studies/csx-autonomous-drone-rail-inspection",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/discovery-land-us/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=United%20States"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/teesside-terminal/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/csx-rail/"
+      ]
+    },
+    "aerial-fences": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=aerial-fences#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://flytbase.com/case-studies/aerial-fences-automating-ranch-security-oversight-drones-flytbase",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/soar-alaska/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=United%20States"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/antwerp-cargo-hub/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/aerial-fences/"
+      ]
+    },
+    "premier-security-us": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=premier-security-us#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://flytbase.com/case-studies/premier-security-autonomous-drone-surveillance",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/quellaveco-peru/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=United%20States"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/barcelona-port/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/premier-security-us/"
+      ]
+    },
+    "discovery-land-us": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=discovery-land-us#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://flytbase.com/case-studies/discovery-land-autonomous-drone-security",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/dole/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=United%20States"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/csx-rail/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/discovery-land-us/"
+      ]
+    },
+    "port-lincoln": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=port-lincoln#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://flytbase.com/case-studies/mss-security-airport-bvlos-drone-operations-australia",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/barcelona-port/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=Australia"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/texas-solar/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/port-lincoln/"
+      ]
+    },
+    "titan-protection": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=titan-protection#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://flytbase.com/case-studies/titan-protection-autonomous-drone-security",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/tnb/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=United%20States"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/summerville-nokia/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/titan-protection/"
+      ]
+    },
+    "soar-alaska": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=soar-alaska#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://www.skydio.com/customer-stories/soar-program-brings-autonomous-drone-docks-to-ca-and-ak",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/ambite/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=United%20States"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/aerial-fences/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/soar-alaska/"
+      ]
+    },
+    "barcelona-port": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=barcelona-port#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://www.instop.es/casos-exito/instop-suministra-el-dji-dock-3-al-puerto-de-barcelona-para-reforzar-la-vigilancia-aerea-y-apoyar-la-respuesta-ante-emergencias/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/premier-security-us/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=Spain"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/port-lincoln/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/barcelona-port/"
+      ]
+    },
+    "celaya": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=celaya#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://enterprise-insights.dji.com/user-stories/a-city-that-anticipates-how-celaya-is-transforming-public-safety-with-automated-dji-drones",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/cincinnati-dfr/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=Mexico"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/caltrans-otay/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/celaya/"
+      ]
+    },
+    "palcacocha": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=palcacocha#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://www.mynewsdesk.com/uk/dji/pressreleases/dji-dock-3-enhances-glacier-monitoring-for-avalanches-and-floods-in-the-peruvian-andes-3421736",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/texas-solar/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=Peru"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/opole/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/palcacocha/"
+      ]
+    },
+    "bibai": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=bibai#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://www.helicam.jp/case/%E5%9C%83%E5%A0%B4%E6%95%B4%E5%82%99%E4%BA%8B%E6%A5%AD%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B-dji-dock-3-%E6%B4%BB%E7%94%A8%E4%BA%8B%E4%BE%8B/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/caltrans-otay/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=Japan"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/belgium-sense/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/bibai/"
+      ]
+    },
+    "ambite": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=ambite#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://www.infodron.es/texto-diario/mostrar/5794081/espanola-goat-drones-solutions-vigila-drones-autonomos-rio-tajuna-prevenir-inundaciones-ambite",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/asheville/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=Spain"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/soar-alaska/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/ambite/"
+      ]
+    },
+    "opole": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=opole#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://megadron.pl/en/blog/early-detection-of-fires-and-hazards-how-drones-are-making-municipal-infrastructure-safer-dji-dock-3-and-matrice-4td-1767190319.html",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/palcacocha/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=Poland"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/gilboa-nypa/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/opole/"
+      ]
+    },
+    "wurzburg-emqport": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=wurzburg-emqport#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://wingcopter.com/drone-port",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/yonkers-nokia/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=Germany"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/vancouver/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/wurzburg-emqport/"
+      ]
+    },
+    "tomakomai-refinery": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=tomakomai-refinery#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://drone-journal.impress.co.jp/docs/news/1188971.html",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/uae-waste/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=Japan"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/tnb/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/tomakomai-refinery/"
+      ]
+    },
+    "network-rail-uk": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=network-rail-uk#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://www.heliguy.com/blogs/posts/heliguy-secures-sora-approval-for-network-rail-bvlos-flights/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://www.heliguy.com/blogs/posts/heliguy-secures-sora-approval-for-network-rail-bvlos-flights/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/gilboa-nypa/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=United%20Kingdom"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/kiel/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/network-rail-uk/"
+      ]
+    },
+    "gilboa-nypa": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=gilboa-nypa#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://www.nuair.org/post/nuair-and-nypa-successfully-deploy-skydio-dock-for-power-project",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://www.nuair.org/post/nuair-and-nypa-successfully-deploy-skydio-dock-for-power-project",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/opole/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=United%20States"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/network-rail-uk/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/gilboa-nypa/"
+      ]
+    },
+    "teesside-terminal": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=teesside-terminal#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://www.heliguy.com/blogs/posts/conocophillips-dji-dock-automated-inspections/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://www.heliguy.com/blogs/posts/conocophillips-dji-dock-automated-inspections/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/csx-rail/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=United%20Kingdom"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/cincinnati-dfr/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/teesside-terminal/"
+      ]
+    },
+    "antwerp-cargo-hub": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=antwerp-cargo-hub#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://adlc.eu/en/posts/adlc-opens-belgium-s-first-advanced-air-mobility-cargo-drone-hub-1",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://adlc.eu/en/posts/adlc-opens-belgium-s-first-advanced-air-mobility-cargo-drone-hub-1",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/aerial-fences/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=Belgium"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/southafrica-estate/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/antwerp-cargo-hub/"
+      ]
+    },
+    "upper-darby-dfr": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=upper-darby-dfr#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://www.skydio.com/customer-stories/upper-darby-pd-case-study",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://www.skydio.com/customer-stories/upper-darby-pd-case-study",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/vancouver/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=United%20States"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/uae-waste/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/upper-darby-dfr/"
+      ]
+    },
+    "skybound-waterloo": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=skybound-waterloo#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://aerospaceamerica.aiaa.org/departments/drone-railroad-sentries/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://aerospaceamerica.aiaa.org/departments/drone-railroad-sentries/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/slovakia-forest/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=United%20Kingdom"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/skybound-glasgow/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/skybound-waterloo/"
+      ]
+    },
+    "skybound-glasgow": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=skybound-glasgow#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://aerospaceamerica.aiaa.org/departments/drone-railroad-sentries/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://aerospaceamerica.aiaa.org/departments/drone-railroad-sentries/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/skybound-waterloo/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=United%20Kingdom"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/skybound-cardiff/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/skybound-glasgow/"
+      ]
+    },
+    "skybound-cardiff": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=skybound-cardiff#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://aerospaceamerica.aiaa.org/departments/drone-railroad-sentries/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://aerospaceamerica.aiaa.org/departments/drone-railroad-sentries/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/skybound-glasgow/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=United%20Kingdom"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/rotterdam/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/skybound-cardiff/"
+      ]
+    },
+    "cincinnati-dfr": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=cincinnati-dfr#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://www.skydio.com/resources/videos/cincinnati-pd-dfr-program-gets-officers-on-scene-in-two-minutes",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://www.skydio.com/resources/videos/cincinnati-pd-dfr-program-gets-officers-on-scene-in-two-minutes",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/teesside-terminal/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=United%20States"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/celaya/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/cincinnati-dfr/"
+      ]
+    },
+    "yonkers-nokia": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=yonkers-nokia#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://www.unmannedsystemstechnology.com/2026/04/nokia-drone-in-a-box-systems-support-yonkers-police-newly-launched-dfr-program/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://www.unmannedsystemstechnology.com/2026/04/nokia-drone-in-a-box-systems-support-yonkers-police-newly-launched-dfr-program/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/southafrica-estate/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=United%20States"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/wurzburg-emqport/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/yonkers-nokia/"
+      ]
+    },
+    "summerville-nokia": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=summerville-nokia#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://www.unmannedsystemstechnology.com/feature/nokia-drone-networks-supports-south-carolinas-first-drone-as-first-responder-program/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://www.unmannedsystemstechnology.com/feature/nokia-drone-networks-supports-south-carolinas-first-drone-as-first-responder-program/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/titan-protection/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=United%20States"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/sqm-chile/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/summerville-nokia/"
+      ]
+    },
+    "el-paso-dfr": {
+      "links": [
+        {
+          "class": "mp-site-nav-skip",
+          "href": "#mp-bottom-navigation"
+        },
+        {
+          "class": "logo",
+          "href": "/"
+        },
+        {
+          "href": "/?project=el-paso-dfr#explore"
+        },
+        {
+          "class": "button",
+          "href": "https://enterprise-insights.dji.com/blog/drone-as-first-responder-dfr-how-docks-are-changing-the-model?hs_amp=true",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://enterprise-insights.dji.com/blog/drone-as-first-responder-dfr-how-docks-are-changing-the-model?hs_amp=true",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/projects/enbw/"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/directory/?country=United%20States"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/#atlas"
+        },
+        {
+          "class": "mp-continue-card",
+          "href": "/technologies/"
+        },
+        {
+          "href": "/projects/dole/"
+        },
+        {
+          "href": "/countries/"
+        },
+        {
+          "href": "/coverage/"
+        },
+        {
+          "href": "/operators/"
+        },
+        {
+          "href": "/data-quality/"
+        },
+        {
+          "href": "/verification-guide/"
+        },
+        {
+          "href": "/methodology/"
+        },
+        {
+          "href": "/data-dictionary/"
+        },
+        {
+          "href": "/network/"
+        },
+        {
+          "href": "/submit/"
+        },
+        {
+          "href": "/help/"
+        },
+        {
+          "href": "/"
+        },
+        {
+          "href": "/legal/"
+        },
+        {
+          "href": "/privacy/"
+        },
+        {
+          "href": "/cookies/"
+        },
+        {
+          "href": "/terms/"
+        },
+        {
+          "class": "mp-home-shortcut",
+          "href": "/#top",
+          "aria-label": "MicroportMap \u2014 return to dashboard top"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/#atlas",
+          "aria-label": "Atlas"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/directory/",
+          "aria-label": "Project directory"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/technologies/",
+          "aria-label": "Technology pages"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "/data-quality/",
+          "aria-label": "Data quality and evidence"
+        },
+        {
+          "class": "mp-bottom-link",
+          "href": "#mp-continue",
+          "aria-label": "More MicroportMap pages"
+        }
+      ],
+      "canonical": [
+        "https://microportmap.com/projects/el-paso-dfr/"
+      ]
+    }
+  }
+}

@@ -1,0 +1,2502 @@
+[
+  [
+    "Directory rejects missing project ID: Futian street-pole drone dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Futian street-pole drone dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Futian street-pole drone dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Futian street-pole drone dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Futian street-pole drone dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Futian street-pole drone dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Futian street-pole drone dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Futian street-pole drone dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Futian street-pole drone dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Futian street-pole drone dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Shell industrial drone dock deployments",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Shell industrial drone dock deployments",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Shell industrial drone dock deployments",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Shell industrial drone dock deployments",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Shell industrial drone dock deployments",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Shell industrial drone dock deployments",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Shell industrial drone dock deployments",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Shell industrial drone dock deployments",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Shell industrial drone dock deployments",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Shell industrial drone dock deployments",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Kiel emergency-response dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Kiel emergency-response dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Kiel emergency-response dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Kiel emergency-response dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Kiel emergency-response dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Kiel emergency-response dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Kiel emergency-response dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Kiel emergency-response dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Kiel emergency-response dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Kiel emergency-response dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: ReADI autonomous highway dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: ReADI autonomous highway dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: ReADI autonomous highway dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: ReADI autonomous highway dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: ReADI autonomous highway dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: ReADI autonomous highway dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: ReADI autonomous highway dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: ReADI autonomous highway dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: ReADI autonomous highway dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: ReADI autonomous highway dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Remote construction-site dock deployment",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Remote construction-site dock deployment",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Remote construction-site dock deployment",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Remote construction-site dock deployment",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Remote construction-site dock deployment",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Remote construction-site dock deployment",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Remote construction-site dock deployment",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Remote construction-site dock deployment",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Remote construction-site dock deployment",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Remote construction-site dock deployment",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Sensorem autonomous dock fleet",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Sensorem autonomous dock fleet",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Sensorem autonomous dock fleet",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Sensorem autonomous dock fleet",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Sensorem autonomous dock fleet",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Sensorem autonomous dock fleet",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Sensorem autonomous dock fleet",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Sensorem autonomous dock fleet",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Sensorem autonomous dock fleet",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Sensorem autonomous dock fleet",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: EnBW autonomous solar-inspection docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: EnBW autonomous solar-inspection docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: EnBW autonomous solar-inspection docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: EnBW autonomous solar-inspection docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: EnBW autonomous solar-inspection docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: EnBW autonomous solar-inspection docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: EnBW autonomous solar-inspection docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: EnBW autonomous solar-inspection docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: EnBW autonomous solar-inspection docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: EnBW autonomous solar-inspection docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Dole Asia plantation drone docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Dole Asia plantation drone docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Dole Asia plantation drone docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Dole Asia plantation drone docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Dole Asia plantation drone docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Dole Asia plantation drone docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Dole Asia plantation drone docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Dole Asia plantation drone docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Dole Asia plantation drone docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Dole Asia plantation drone docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: TNB warehouse inventory drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: TNB warehouse inventory drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: TNB warehouse inventory drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: TNB warehouse inventory drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: TNB warehouse inventory drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: TNB warehouse inventory drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: TNB warehouse inventory drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: TNB warehouse inventory drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: TNB warehouse inventory drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: TNB warehouse inventory drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Asheville disaster-recovery drone dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Asheville disaster-recovery drone dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Asheville disaster-recovery drone dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Asheville disaster-recovery drone dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Asheville disaster-recovery drone dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Asheville disaster-recovery drone dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Asheville disaster-recovery drone dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Asheville disaster-recovery drone dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Asheville disaster-recovery drone dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Asheville disaster-recovery drone dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Vancouver Police dock-based drone network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Vancouver Police dock-based drone network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Vancouver Police dock-based drone network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Vancouver Police dock-based drone network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Vancouver Police dock-based drone network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Vancouver Police dock-based drone network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Vancouver Police dock-based drone network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Vancouver Police dock-based drone network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Vancouver Police dock-based drone network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Vancouver Police dock-based drone network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Ishikawa Prefecture Skydio Dock rollout",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Belgium Citymesh SENSE drone network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Belgium Citymesh SENSE drone network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Belgium Citymesh SENSE drone network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Belgium Citymesh SENSE drone network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Belgium Citymesh SENSE drone network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Belgium Citymesh SENSE drone network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Belgium Citymesh SENSE drone network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Belgium Citymesh SENSE drone network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Belgium Citymesh SENSE drone network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Belgium Citymesh SENSE drone network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Percepto autonomous Texas solar inspection",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Percepto autonomous Texas solar inspection",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Percepto autonomous Texas solar inspection",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Percepto autonomous Texas solar inspection",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Percepto autonomous Texas solar inspection",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Percepto autonomous Texas solar inspection",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Percepto autonomous Texas solar inspection",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Percepto autonomous Texas solar inspection",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Percepto autonomous Texas solar inspection",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Percepto autonomous Texas solar inspection",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Caltrans remote inspection drone docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Caltrans remote inspection drone docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Caltrans remote inspection drone docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Caltrans remote inspection drone docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Caltrans remote inspection drone docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Caltrans remote inspection drone docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Caltrans remote inspection drone docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Caltrans remote inspection drone docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Caltrans remote inspection drone docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Caltrans remote inspection drone docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Ramapo Police two-dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Ramapo Police two-dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Ramapo Police two-dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Ramapo Police two-dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Ramapo Police two-dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Ramapo Police two-dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Ramapo Police two-dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Ramapo Police two-dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Ramapo Police two-dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Ramapo Police two-dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Kansanshi mining autonomous surveillance docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Kansanshi mining autonomous surveillance docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Kansanshi mining autonomous surveillance docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Kansanshi mining autonomous surveillance docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Kansanshi mining autonomous surveillance docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Kansanshi mining autonomous surveillance docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Kansanshi mining autonomous surveillance docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Kansanshi mining autonomous surveillance docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Kansanshi mining autonomous surveillance docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Kansanshi mining autonomous surveillance docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Quellaveco mining survey drone docking network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Quellaveco mining survey drone docking network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Quellaveco mining survey drone docking network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Quellaveco mining survey drone docking network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Quellaveco mining survey drone docking network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Quellaveco mining survey drone docking network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Quellaveco mining survey drone docking network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Quellaveco mining survey drone docking network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Quellaveco mining survey drone docking network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Quellaveco mining survey drone docking network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: UAE waste management facility dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: UAE waste management facility dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: UAE waste management facility dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: UAE waste management facility dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: UAE waste management facility dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: UAE waste management facility dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: UAE waste management facility dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: UAE waste management facility dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: UAE waste management facility dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: UAE waste management facility dock network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Axpo Alpine hydropower drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Axpo Alpine hydropower drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Axpo Alpine hydropower drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Axpo Alpine hydropower drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Axpo Alpine hydropower drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Axpo Alpine hydropower drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Axpo Alpine hydropower drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Axpo Alpine hydropower drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Axpo Alpine hydropower drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Axpo Alpine hydropower drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Slovakia military forestry wildfire dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Slovakia military forestry wildfire dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Slovakia military forestry wildfire dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Slovakia military forestry wildfire dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Slovakia military forestry wildfire dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Slovakia military forestry wildfire dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Slovakia military forestry wildfire dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Slovakia military forestry wildfire dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Slovakia military forestry wildfire dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Slovakia military forestry wildfire dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: 24-7 Drone Force estate security docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: 24-7 Drone Force estate security docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: 24-7 Drone Force estate security docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: 24-7 Drone Force estate security docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: 24-7 Drone Force estate security docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: 24-7 Drone Force estate security docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: 24-7 Drone Force estate security docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: 24-7 Drone Force estate security docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: 24-7 Drone Force estate security docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: 24-7 Drone Force estate security docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: SQM northern Chile mine dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: SQM northern Chile mine dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: SQM northern Chile mine dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: SQM northern Chile mine dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: SQM northern Chile mine dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: SQM northern Chile mine dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: SQM northern Chile mine dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: SQM northern Chile mine dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: SQM northern Chile mine dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: SQM northern Chile mine dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: CSX rail-yard inspection docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: CSX rail-yard inspection docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: CSX rail-yard inspection docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: CSX rail-yard inspection docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: CSX rail-yard inspection docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: CSX rail-yard inspection docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: CSX rail-yard inspection docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: CSX rail-yard inspection docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: CSX rail-yard inspection docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: CSX rail-yard inspection docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Aerial Fences livestock security dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Aerial Fences livestock security dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Aerial Fences livestock security dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Aerial Fences livestock security dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Aerial Fences livestock security dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Aerial Fences livestock security dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Aerial Fences livestock security dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Aerial Fences livestock security dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Aerial Fences livestock security dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Aerial Fences livestock security dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Premier Security dock-based monitoring",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Premier Security dock-based monitoring",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Premier Security dock-based monitoring",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Premier Security dock-based monitoring",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Premier Security dock-based monitoring",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Premier Security dock-based monitoring",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Premier Security dock-based monitoring",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Premier Security dock-based monitoring",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Premier Security dock-based monitoring",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Premier Security dock-based monitoring",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Discovery Land drone-in-a-box network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Discovery Land drone-in-a-box network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Discovery Land drone-in-a-box network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Discovery Land drone-in-a-box network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Discovery Land drone-in-a-box network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Discovery Land drone-in-a-box network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Discovery Land drone-in-a-box network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Discovery Land drone-in-a-box network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Discovery Land drone-in-a-box network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Discovery Land drone-in-a-box network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Port Lincoln airport drone dock security",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Port Lincoln airport drone dock security",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Port Lincoln airport drone dock security",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Port Lincoln airport drone dock security",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Port Lincoln airport drone dock security",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Port Lincoln airport drone dock security",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Port Lincoln airport drone dock security",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Port Lincoln airport drone dock security",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Port Lincoln airport drone dock security",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Port Lincoln airport drone dock security",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Titan Protection autonomous security docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Titan Protection autonomous security docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Titan Protection autonomous security docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Titan Protection autonomous security docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Titan Protection autonomous security docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Titan Protection autonomous security docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Titan Protection autonomous security docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Titan Protection autonomous security docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Titan Protection autonomous security docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Titan Protection autonomous security docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Alaska DOT SOAR autonomous dock pilot",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Alaska DOT SOAR autonomous dock pilot",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Alaska DOT SOAR autonomous dock pilot",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Alaska DOT SOAR autonomous dock pilot",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Alaska DOT SOAR autonomous dock pilot",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Alaska DOT SOAR autonomous dock pilot",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Alaska DOT SOAR autonomous dock pilot",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Alaska DOT SOAR autonomous dock pilot",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Alaska DOT SOAR autonomous dock pilot",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Alaska DOT SOAR autonomous dock pilot",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Port of Barcelona DJI Dock 3",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Port of Barcelona DJI Dock 3",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Port of Barcelona DJI Dock 3",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Port of Barcelona DJI Dock 3",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Port of Barcelona DJI Dock 3",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Port of Barcelona DJI Dock 3",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Port of Barcelona DJI Dock 3",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Port of Barcelona DJI Dock 3",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Port of Barcelona DJI Dock 3",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Port of Barcelona DJI Dock 3",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Celaya automated public safety dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Celaya automated public safety dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Celaya automated public safety dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Celaya automated public safety dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Celaya automated public safety dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Celaya automated public safety dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Celaya automated public safety dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Celaya automated public safety dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Celaya automated public safety dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Celaya automated public safety dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Palcacocha glacier monitoring dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Palcacocha glacier monitoring dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Palcacocha glacier monitoring dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Palcacocha glacier monitoring dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Palcacocha glacier monitoring dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Palcacocha glacier monitoring dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Palcacocha glacier monitoring dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Palcacocha glacier monitoring dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Palcacocha glacier monitoring dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Palcacocha glacier monitoring dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Bibai DJI Dock 3 surveying",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Bibai DJI Dock 3 surveying",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Bibai DJI Dock 3 surveying",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Bibai DJI Dock 3 surveying",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Bibai DJI Dock 3 surveying",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Bibai DJI Dock 3 surveying",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Bibai DJI Dock 3 surveying",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Bibai DJI Dock 3 surveying",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Bibai DJI Dock 3 surveying",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Bibai DJI Dock 3 surveying",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Ambite Tajuña River monitoring dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Ambite Tajuña River monitoring dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Ambite Tajuña River monitoring dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Ambite Tajuña River monitoring dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Ambite Tajuña River monitoring dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Ambite Tajuña River monitoring dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Ambite Tajuña River monitoring dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Ambite Tajuña River monitoring dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Ambite Tajuña River monitoring dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Ambite Tajuña River monitoring dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Opole DJI Dock 3 municipal inspection",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Opole DJI Dock 3 municipal inspection",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Opole DJI Dock 3 municipal inspection",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Opole DJI Dock 3 municipal inspection",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Opole DJI Dock 3 municipal inspection",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Opole DJI Dock 3 municipal inspection",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Opole DJI Dock 3 municipal inspection",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Opole DJI Dock 3 municipal inspection",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Opole DJI Dock 3 municipal inspection",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Opole DJI Dock 3 municipal inspection",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Würzburg EMQport droneport prototype",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Würzburg EMQport droneport prototype",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Würzburg EMQport droneport prototype",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Würzburg EMQport droneport prototype",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Würzburg EMQport droneport prototype",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Würzburg EMQport droneport prototype",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Würzburg EMQport droneport prototype",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Würzburg EMQport droneport prototype",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Würzburg EMQport droneport prototype",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Würzburg EMQport droneport prototype",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Tomakomai refinery drone inspections",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Tomakomai refinery drone inspections",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Tomakomai refinery drone inspections",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Tomakomai refinery drone inspections",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Tomakomai refinery drone inspections",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Tomakomai refinery drone inspections",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Tomakomai refinery drone inspections",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Tomakomai refinery drone inspections",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Tomakomai refinery drone inspections",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Tomakomai refinery drone inspections",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Network Rail automated docking project",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Network Rail automated docking project",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Network Rail automated docking project",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Network Rail automated docking project",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Network Rail automated docking project",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Network Rail automated docking project",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Network Rail automated docking project",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Network Rail automated docking project",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Network Rail automated docking project",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Network Rail automated docking project",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: NYPA Gilboa hydroelectric drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: NYPA Gilboa hydroelectric drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: NYPA Gilboa hydroelectric drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: NYPA Gilboa hydroelectric drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: NYPA Gilboa hydroelectric drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: NYPA Gilboa hydroelectric drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: NYPA Gilboa hydroelectric drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: NYPA Gilboa hydroelectric drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: NYPA Gilboa hydroelectric drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: NYPA Gilboa hydroelectric drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: ConocoPhillips Teesside docking trial",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: ConocoPhillips Teesside docking trial",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: ConocoPhillips Teesside docking trial",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: ConocoPhillips Teesside docking trial",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: ConocoPhillips Teesside docking trial",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: ConocoPhillips Teesside docking trial",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: ConocoPhillips Teesside docking trial",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: ConocoPhillips Teesside docking trial",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: ConocoPhillips Teesside docking trial",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: ConocoPhillips Teesside docking trial",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: ADLC Antwerp cargo drone hub",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: ADLC Antwerp cargo drone hub",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: ADLC Antwerp cargo drone hub",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: ADLC Antwerp cargo drone hub",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: ADLC Antwerp cargo drone hub",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: ADLC Antwerp cargo drone hub",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: ADLC Antwerp cargo drone hub",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: ADLC Antwerp cargo drone hub",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: ADLC Antwerp cargo drone hub",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: ADLC Antwerp cargo drone hub",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Upper Darby Police Skydio DFR docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Upper Darby Police Skydio DFR docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Upper Darby Police Skydio DFR docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Upper Darby Police Skydio DFR docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Upper Darby Police Skydio DFR docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Upper Darby Police Skydio DFR docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Upper Darby Police Skydio DFR docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Upper Darby Police Skydio DFR docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Upper Darby Police Skydio DFR docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Upper Darby Police Skydio DFR docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: SkyBound railway drone dock London",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: SkyBound railway drone dock London",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: SkyBound railway drone dock London",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: SkyBound railway drone dock London",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: SkyBound railway drone dock London",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: SkyBound railway drone dock London",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: SkyBound railway drone dock London",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: SkyBound railway drone dock London",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: SkyBound railway drone dock London",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: SkyBound railway drone dock London",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: SkyBound railway drone dock Glasgow",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: SkyBound railway drone dock Glasgow",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: SkyBound railway drone dock Glasgow",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: SkyBound railway drone dock Glasgow",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: SkyBound railway drone dock Glasgow",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: SkyBound railway drone dock Glasgow",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: SkyBound railway drone dock Glasgow",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: SkyBound railway drone dock Glasgow",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: SkyBound railway drone dock Glasgow",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: SkyBound railway drone dock Glasgow",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: SkyBound railway drone dock Cardiff",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: SkyBound railway drone dock Cardiff",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: SkyBound railway drone dock Cardiff",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: SkyBound railway drone dock Cardiff",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: SkyBound railway drone dock Cardiff",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: SkyBound railway drone dock Cardiff",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: SkyBound railway drone dock Cardiff",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: SkyBound railway drone dock Cardiff",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: SkyBound railway drone dock Cardiff",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: SkyBound railway drone dock Cardiff",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Cincinnati Police Skydio DFR docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Cincinnati Police Skydio DFR docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Cincinnati Police Skydio DFR docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Cincinnati Police Skydio DFR docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Cincinnati Police Skydio DFR docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Cincinnati Police Skydio DFR docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Cincinnati Police Skydio DFR docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Cincinnati Police Skydio DFR docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Cincinnati Police Skydio DFR docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Cincinnati Police Skydio DFR docks",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Yonkers Police Nokia docking network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Yonkers Police Nokia docking network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Yonkers Police Nokia docking network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Yonkers Police Nokia docking network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Yonkers Police Nokia docking network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Yonkers Police Nokia docking network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Yonkers Police Nokia docking network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Yonkers Police Nokia docking network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Yonkers Police Nokia docking network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Yonkers Police Nokia docking network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: Summerville Nokia public safety drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: Summerville Nokia public safety drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: Summerville Nokia public safety drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: Summerville Nokia public safety drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: Summerville Nokia public safety drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: Summerville Nokia public safety drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: Summerville Nokia public safety drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: Summerville Nokia public safety drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: Summerville Nokia public safety drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: Summerville Nokia public safety drone dock",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Directory rejects missing project ID: El Paso DJI Dock 3 public safety network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidCatalogRejected\": true, \"noExportOrCards\": true}"
+  ],
+  [
+    "Directory rejects duplicate identities: El Paso DJI Dock 3 public safety network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousCatalogRejected\": true, \"controlsDisabled\": true}"
+  ],
+  [
+    "Directory rejects whitespace-only project name: El Paso DJI Dock 3 public safety network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"emptyNameRejected\": true, \"noPartialExport\": true}"
+  ],
+  [
+    "Passport missing record keeps export unavailable: El Paso DJI Dock 3 public safety network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"missingReferenceHandled\": true, \"staticPassportRetained\": true, \"retry\": true}"
+  ],
+  [
+    "Passport duplicate IDs cannot select an arbitrary record: El Paso DJI Dock 3 public safety network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"noRelatedOrExport\": true}"
+  ],
+  [
+    "Atlas duplicate IDs stop catalog rendering: El Paso DJI Dock 3 public safety network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"ambiguousRejected\": true, \"retryAvailable\": true, \"busyCleared\": true}"
+  ],
+  [
+    "Atlas rejects path-like project IDs: El Paso DJI Dock 3 public safety network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"invalidRouteIdRejected\": true, \"noDrawer\": true, \"retryAvailable\": true}"
+  ],
+  [
+    "Comparison failure invalidates pending copy and exports: El Paso DJI Dock 3 public safety network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"staleCopySuppressed\": true, \"oldTableCleared\": true, \"noStaleExport\": true}"
+  ],
+  [
+    "Removed comparison record reconciles remaining selection: El Paso DJI Dock 3 public safety network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"removedRecordExcluded\": true, \"remainingOrderPreserved\": true, \"urlReconciled\": true}"
+  ],
+  [
+    "Audit rejects array entries and disables review exports: El Paso DJI Dock 3 public safety network",
+    "checks/catalog-fault-500.cjs",
+    "PASSED: {\"malformedCatalogRejected\": true, \"reviewAndExportsDisabled\": true, \"busyCleared\": true}"
+  ]
+]

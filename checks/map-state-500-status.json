@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-25",
+  "requestedTasks": 500,
+  "completedVerificationTasks": 500,
+  "beforePassed": 350,
+  "beforeFailed": 150,
+  "afterPassed": 500,
+  "afterFailed": 0,
+  "implementationFixes": 1,
+  "fix": "Atlas accepts finite numeric coordinate values only, matching quality and comparison validation; records without usable map points remain accessible",
+  "sourceChanges": [
+    "src/site-redesign.js"
+  ],
+  "deployment": "dpl_db4BD4FE7LsBgaQQJRrdDseWY3bV",
+  "status": "READY",
+  "projects": 50,
+  "workflows": {
+    "Atlas rejects boolean latitude without dropping record": 50,
+    "Atlas rejects numeric-string latitude without coercion": 50,
+    "Atlas rejects array longitude without coercion": 50,
+    "Atlas missing point retains accessible project card": 50,
+    "Atlas accepts numeric zero and projection boundaries": 50,
+    "Oversized comparison selection retains first three records": 50,
+    "Repeated and unknown comparison IDs normalize with focus": 50,
+    "Blocked history retains three selections and limit": 50,
+    "Clear last comparison restores results and search focus": 50,
+    "Blocked history uses latest filter state in passport links": 50
+  },
+  "verificationMode": "Local controlled DOM/VM; malformed coordinates/history states are synthetic",
+  "liveUISmoke": "50 mapped locations / 50 records, 50 projects / 10 pins, 50 record buttons",
+  "exposedDeploymentHashesMatched": 135,
+  "liveHttpVerified": [
+    "site-redesign.js",
+    "data/projects.json"
+  ],
+  "unverified": [
+    "Fresh mobile/device visuals",
+    "Optional detailed online geography",
+    "Independent research accuracy and external evidence availability",
+    "Submission inbox remains unconnected",
+    "Malformed coordinates were tested locally; no production data fault injection"
+  ]
+}

@@ -1,0 +1,11 @@
+.comparison-panel{margin:24px 0;min-height:0}
+.comparison-panel[hidden]{display:none}
+.comparison-actions{box-shadow:none;padding:12px;grid-template-columns:repeat(2,minmax(0,1fr))}
+.comparison-scroll{max-width:100%;overflow:auto}
+.comparison-scroll table{border-collapse:collapse;min-width:640px;width:100%}
+.comparison-scroll th,.comparison-scroll td{padding:12px;text-align:left;vertical-align:top;border:1px solid currentColor;overflow-wrap:anywhere}
+.comparison-scroll th:first-child{min-width:140px}
+.comparison-toggle,.comparison-remove{font:inherit;min-height:44px;padding:10px;cursor:pointer;white-space:normal}
+.comparison-toggle{margin-top:12px}
+.comparison-remove{display:block;margin-top:8px}
+@media(max-width:620px){.comparison-actions{grid-template-columns:minmax(0,1fr)}}

@@ -1,0 +1,19 @@
+{
+  "deployment": "dpl_CCfSxWWtdQDbQMJuRhwyiY8NmQCM",
+  "status": "READY",
+  "featureCount": 1,
+  "verificationCases": 50,
+  "liveFlow": "Germany + recent + Kiel/EnBW \u2192 Kiel passport \u2192 Enter return \u2192 same filters, ordering and selections",
+  "availableDeploymentHashesVerified": 135,
+  "liveHttpVerified": [
+    "project-connect.js",
+    "directory-compare.js",
+    "directory.js",
+    "data/projects.json"
+  ],
+  "unverified": [
+    "Fresh mobile/device visuals and optional detailed online map layer remain unverified.",
+    "Independent research accuracy, external evidence availability, current operations, access permissions and publication dates remain unverified.",
+    "No submission inbox is connected. Production failure injection was not performed."
+  ]
+}

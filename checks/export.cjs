@@ -1,0 +1,14 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+let handler,blob,clicked=false,removed=false;
+const data=JSON.parse(fs.readFileSync('src/data/projects.json')).records;
+const status={textContent:''};const fields={search:{value:'Shenzhen'},country:{value:'China'},kind:{value:''},sort:{value:'name'},region:{value:'Asia'},year:{value:'2026'},results:{},'share-status':status,'export-csv':{insertAdjacentElement(){}}};
+const button={addEventListener(event,fn){handler=fn}},link={click(){clicked=true},remove(){removed=true}};
+let created=0;
+const document={getElementById:id=>fields[id],createElement:tag=>tag==='button'?button:link,body:{appendChild(){}}};
+const context={document,window:{addEventListener(){},mpFilteredRecords:[data[0]]},MutationObserver:class{observe(){}disconnect(){}},Blob,URL:{createObjectURL(b){blob=b;created++;return 'blob:qa'},revokeObjectURL(){}},setTimeout(){},Date};
+vm.runInNewContext(fs.readFileSync('src/directory-json-export.js','utf8'),context);
+assert.equal(button.disabled,false);handler();
+(async()=>{let payload=JSON.parse(await blob.text());assert.equal(payload.count,1);assert.deepEqual(payload.records,[data[0]]);assert.equal(payload.filters.country,'China');assert.equal(payload.filters.region,'Asia');assert.equal(payload.filters.year,'2026');assert.equal(payload.filters.search,'Shenzhen');assert.equal(blob.type,'application/json;charset=utf-8');assert(clicked&&removed);assert.equal(link.download,'microportmap-filtered-projects.json');
+context.window.mpFilteredRecords=[];handler();assert.equal(created,1);assert(/No projects/.test(status.textContent));
+context.window.mpFilteredRecords=data;handler();payload=JSON.parse(await blob.text());assert.equal(payload.count,50);assert.deepEqual(payload.records,data);assert(/not independently verified/.test(payload.methodology));
+context.URL.createObjectURL=()=>{throw Error('download failed')};handler();assert(/could not be started/.test(status.textContent));console.log('PASS: filtered/full JSON payloads, records, filters, MIME, filename, cleanup, empty results and failure feedback');})().catch(e=>{console.error(e);process.exit(1)});

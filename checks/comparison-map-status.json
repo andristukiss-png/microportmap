@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-25",
+  "completedVerificationTasks": 50,
+  "implementedSharedFeatures": 1,
+  "deployment": "dpl_DwoKtgsaXhLh2qjVM2ErtwuDdMdR",
+  "status": "READY",
+  "sourceChanges": [
+    "src/directory-compare.js"
+  ],
+  "recordsUnchanged": 50,
+  "existingStylesUnchanged": true,
+  "coordinateCases": "null/missing/strings/booleans/nonfinite/out-of-range unavailable; zero and valid bounds accepted",
+  "liveFlow": "comparison map link \u2192 Kiel drawer + close focus \u2192 browser Back \u2192 comparison/filter/sort restored",
+  "availableDeploymentHashesVerified": 135
+}

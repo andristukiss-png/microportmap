@@ -1,0 +1,16 @@
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#071e25;color:#edf7f3;font:16px/1.7 system-ui,-apple-system,Segoe UI,sans-serif}a{color:#92edd3}header,main,footer{max-width:1080px;margin:auto;padding:24px}header{display:flex;gap:20px;flex-wrap:wrap;justify-content:space-between;align-items:center;border-bottom:1px solid #33535a}nav{display:flex;gap:16px;flex-wrap:wrap}nav a{text-decoration:none}main{padding-top:52px;padding-bottom:62px}h1{font-size:clamp(2.2rem,6vw,4.5rem);line-height:1.1;letter-spacing:-.05em;margin:.3em 0}h2{line-height:1.25;margin:1.5em 0 .45em}p{max-width:76ch}.muted{color:#b7d2ce}.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.77rem;color:#9be9d2}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;margin:30px 0}.card{background:#12323a;border:1px solid #32575d;padding:24px;border-radius:17px}.card h2{margin:0 0 12px}.brand{font-size:2rem;letter-spacing:-.045em;font-weight:800;line-height:1.2}.dron{color:#79e6c5}.airport{color:white;font-weight:450}.tag{text-transform:uppercase;letter-spacing:.08em;font-size:.72rem;color:#b6d7d1}.btn{display:inline-block;background:#83e9cd;color:#07252a;padding:10px 18px;border-radius:10px;text-decoration:none;font-weight:750}.pill{border:1px solid #3e6870;border-radius:99px;padding:5px 11px;font-size:.81rem}table{border-collapse:collapse;width:100%}td,th{text-align:left;padding:12px 10px;border-bottom:1px solid #35525a;vertical-align:top}th{color:#95e7d0}code{color:#b9f6e5;font-size:.9em}footer{border-top:1px solid #35525a;color:#b0cdc8;font-size:.86rem}li{margin:.5em 0}a:focus-visible{outline:3px solid #fff;outline-offset:4px}@media(max-width:600px){header,main,footer{padding:18px}main{padding-top:40px}table{font-size:.85rem}}
+/* MicroportMap mobile/desktop brand parity — October 2026 */
+@media(max-width:767px){
+:root{--ink:#102b35;--deep:#091e29;--mint:#8be7ca;--green:#167b75;--pale:#f4f8f6;--line:#d6e5e2;--off:#fbfdfa;--text:#234149}
+body{background:#fbfdfa;color:#102b35}
+.topbar,header.top,header:not(.leaflet-control),footer.foot{background-color:#091e29;color:#f4fffb}
+.topbar a,header.top a,footer.foot a{color:#d8f5e8}
+.hero,.intro{background:radial-gradient(ellipse at 85% 20%,#164b56 0%,transparent 44%),linear-gradient(135deg,#091e29,#102d35 65%,#0a2430);color:#fff}
+.hero em,.intro em,.eyebrow,.logo-dot,.network-nav{color:#8be7ca}
+.hero p,.intro p{color:#d1e4df}
+.card,.item,.mp-panel,.controls{background:#fff;border-color:#d6e5e2;color:#102b35}
+.pill,.item .tag{background:#dff6ee;color:#0e6457}
+.primary,.btn,.button,.controls button{background:#167b75;color:#fff;border-color:#167b75}
+#map,.map-pane{background:#d7eae7}
+#mp-up-button{display:none!important}
+}

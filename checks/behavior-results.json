@@ -1,0 +1,142 @@
+[
+  {
+    "task": "Use correction-specific page heading",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  },
+  {
+    "task": "Use correction-specific evidence prompt",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  },
+  {
+    "task": "Disable prepare while correction prefill is pending",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  },
+  {
+    "task": "Expose busy state during prefill",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  },
+  {
+    "task": "Restore prepare after successful prefill",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  },
+  {
+    "task": "Retain correction project ID",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  },
+  {
+    "task": "Preserve recorded category in correction",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  },
+  {
+    "task": "Offer recorded category as a selectable option",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  },
+  {
+    "task": "Remove repeated country suffix from city",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  },
+  {
+    "task": "Preserve original location in correction metadata",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  },
+  {
+    "task": "Preserve original operator in correction metadata",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  },
+  {
+    "task": "Keep correction evidence input empty",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  },
+  {
+    "task": "Preserve user text during asynchronous prefill",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  },
+  {
+    "task": "Handle unknown project without false correction ID",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  },
+  {
+    "task": "Restore form after unknown project",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  },
+  {
+    "task": "Show readable dataset-load failure",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  },
+  {
+    "task": "Restore form after failed prefill",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  },
+  {
+    "task": "Preserve user-selected category during prefill",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  },
+  {
+    "task": "Explain oversized correction references",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  },
+  {
+    "task": "Bound and disclose truncated references",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  },
+  {
+    "task": "Handle malformed correction dataset",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  },
+  {
+    "task": "Recover form when prefill times out",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  },
+  {
+    "task": "Preserve category changed while request is pending",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  },
+  {
+    "task": "Retry resolves a failed correction reference",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  },
+  {
+    "task": "Retry preserves user edits",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  },
+  {
+    "task": "Retain unresolved requested ID",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  },
+  {
+    "task": "Reject ambiguous correction ID",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  },
+  {
+    "task": "Verify category and ID preservation across all 50 corrections",
+    "status": "verified",
+    "evidence": "JavaScript behavior test"
+  }
+]

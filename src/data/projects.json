@@ -1,0 +1,1109 @@
+{
+  "name": "MicroportMap research preview",
+  "website": "https://microportmap.com",
+  "updatedAt": "2026-10-21",
+  "methodology": "Publicly reported infrastructure deployments; approximate project-level locations, not landing coordinates. Source-linked, not independently operationally verified. No flight permission or public access implied.",
+  "count": 50,
+  "records": [
+    {
+      "id": "shenzhen",
+      "name": "Futian street-pole drone dock network",
+      "where": "Shenzhen, China",
+      "country": "China",
+      "region": "Asia",
+      "infrastructureType": "Street-pole network",
+      "reportedOperator": "Shenzhen traffic police",
+      "reportedEquipment": "Autonomous drone nests",
+      "locationPrecision": "District-level representation",
+      "approximateMapPoint": {
+        "latitude": 22.538,
+        "longitude": 114.056
+      },
+      "reportDateLabel": "3 March 2026 government report",
+      "description": "Municipal traffic authorities reported 65 drone nests in Futian District, including systems mounted on traffic-light poles.",
+      "source": {
+        "name": "Shenzhen Traffic Police · government report",
+        "url": "https://szjj.sz.gov.cn/gkmlpt/content/12/12664/post_12664595.html"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "rotterdam",
+      "name": "Shell industrial drone dock deployments",
+      "where": "Rotterdam, Netherlands",
+      "country": "Netherlands",
+      "region": "Europe",
+      "infrastructureType": "Industrial dock",
+      "reportedOperator": "Shell / Skeye / DroneLand",
+      "reportedEquipment": "DJI Dock systems",
+      "locationPrecision": "City-level representation",
+      "approximateMapPoint": {
+        "latitude": 51.9225,
+        "longitude": 4.4792
+      },
+      "reportDateLabel": "Case study · publication date unverified",
+      "description": "Multiple DJI docking systems documented across industrial inspection operations in the Rotterdam area.",
+      "source": {
+        "name": "FlytBase · operator case study",
+        "url": "https://flytbase.com/case-studies/autonomous-drone-inspections-oil-and-gas"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "kiel",
+      "name": "Kiel emergency-response dock network",
+      "where": "Kiel, Germany",
+      "country": "Germany",
+      "region": "Europe",
+      "infrastructureType": "Emergency response",
+      "reportedOperator": "BF Kiel / FlytBase",
+      "reportedEquipment": "DJI Dock 2",
+      "locationPrecision": "City-level representation",
+      "approximateMapPoint": {
+        "latitude": 54.3233,
+        "longitude": 10.1228
+      },
+      "reportDateLabel": "Case study · publication date unverified",
+      "description": "Fire and rescue services use docked drones for faster incident assessment and coastal emergency response.",
+      "source": {
+        "name": "FlytBase · case study",
+        "url": "https://www.flytbase.com/case-studies/how-bf-kiel-turned-emergency-response-into-a-3-minute-aerial-operation-with-autonomous-drones"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "italy",
+      "name": "ReADI autonomous highway dock network",
+      "where": "Italy (multiple sites)",
+      "country": "Italy",
+      "region": "Europe",
+      "infrastructureType": "Transport network",
+      "reportedOperator": "AI View Group / highway partners",
+      "reportedEquipment": "ReADI remote operations",
+      "locationPrecision": "Country-level representation",
+      "approximateMapPoint": {
+        "latitude": 42.35,
+        "longitude": 12.55
+      },
+      "reportDateLabel": "Case study · publication date unverified",
+      "description": "AI View Group describes docked drones at highway toll gates and service areas for inspection, traffic monitoring and emergencies.",
+      "source": {
+        "name": "FlytBase · highway case study",
+        "url": "https://flytbase.com/case-studies/aiview-autonomous-drones-italian-highway-monitoring"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "oman",
+      "name": "Remote construction-site dock deployment",
+      "where": "Oman (three sites)",
+      "country": "Oman",
+      "region": "Middle East",
+      "infrastructureType": "Industrial dock",
+      "reportedOperator": "Ibn Firnas Drone Center",
+      "reportedEquipment": "Three DJI Dock 3 units",
+      "locationPrecision": "Country-level representation",
+      "approximateMapPoint": {
+        "latitude": 21.5,
+        "longitude": 57.2
+      },
+      "reportDateLabel": "Case study · publication date unverified",
+      "description": "Ibn Firnas Drone Center documented three DJI Dock 3 deployments at government construction sites across Oman.",
+      "source": {
+        "name": "FlytBase · construction case study",
+        "url": "https://flytbase.com/case-studies/ibn-firnas-drone-center-oman-government-construction-monitoring"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "australia",
+      "name": "Sensorem autonomous dock fleet",
+      "where": "Western Australia, Australia",
+      "country": "Australia",
+      "region": "Oceania",
+      "infrastructureType": "Industrial dock",
+      "reportedOperator": "Sensorem",
+      "reportedEquipment": "DJI Dock / FlytBase",
+      "locationPrecision": "Regional representation",
+      "approximateMapPoint": {
+        "latitude": -26.5,
+        "longitude": 121.5
+      },
+      "reportDateLabel": "Case study · publication date unverified",
+      "description": "A regional network of 20+ documented drone-in-a-box systems across industrial and remote sites in Western Australia.",
+      "source": {
+        "name": "FlytBase · operator case study",
+        "url": "https://flytbase.com/case-studies/sensorem-autonomous-docked-drones-deployment-australia"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "enbw",
+      "name": "EnBW autonomous solar-inspection docks",
+      "where": "Germany (solar portfolio)",
+      "country": "Germany",
+      "region": "Europe",
+      "infrastructureType": "Industrial dock",
+      "reportedOperator": "EnBW / FlytBase",
+      "reportedEquipment": "DJI Dock 2",
+      "locationPrecision": "Country-level representation",
+      "approximateMapPoint": {
+        "latitude": 50.8,
+        "longitude": 10.4
+      },
+      "reportDateLabel": "Case study · publication date unverified",
+      "description": "A proof-of-concept deployment with two dock systems documented for recurring inspections of solar facilities.",
+      "source": {
+        "name": "FlytBase · solar case study",
+        "url": "https://flytbase.com/case-studies/enbw-scaled-solar-pv-inspections-150-mw-to-1-gw-autonomous-drone-docks"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "dole",
+      "name": "Dole Asia plantation drone docks",
+      "where": "Philippines (plantation network)",
+      "country": "Philippines",
+      "region": "Asia",
+      "infrastructureType": "Agriculture dock",
+      "reportedOperator": "Dole Asia Company / ASY Electronics",
+      "reportedEquipment": "DJI Dock 2 + FlytBase",
+      "locationPrecision": "Country-level representation; private plantation sites",
+      "approximateMapPoint": {
+        "latitude": 12.8,
+        "longitude": 122.5
+      },
+      "reportDateLabel": "Case study · publication date unverified",
+      "description": "Dole Asia and ASY Electronics describe DJI Dock 2 autonomous drone stations used for plantation security patrols and monitoring.",
+      "source": {
+        "name": "FlytBase · Dole Asia customer story",
+        "url": "https://flytbase.com/case-studies/dole-asia-autonomous-plantation-drone-security-philippines"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "tnb",
+      "name": "TNB warehouse inventory drone dock",
+      "where": "Malaysia (warehouse project)",
+      "country": "Malaysia",
+      "region": "Asia",
+      "infrastructureType": "Industrial dock",
+      "reportedOperator": "Tenaga Nasional Berhad / Aerodyne",
+      "reportedEquipment": "DJI Dock + DJI Matrice 30 + FlytBase",
+      "locationPrecision": "Country-level representation; private storage facility",
+      "approximateMapPoint": {
+        "latitude": 4.2,
+        "longitude": 102
+      },
+      "reportDateLabel": "Case study · publication date unverified",
+      "description": "Tenaga Nasional Berhad and Aerodyne report using an automated dock with a DJI Matrice 30 for recurring warehouse inventory inspections.",
+      "source": {
+        "name": "FlytBase · TNB customer story",
+        "url": "https://flytbase.com/case-studies/tnb-warehouse-asset-monitoring-autonomous-drones-malaysia"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "asheville",
+      "name": "Asheville disaster-recovery drone dock network",
+      "where": "Asheville, North Carolina, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Emergency response",
+      "reportedOperator": "OvrWatch / Asheville Police Department",
+      "reportedEquipment": "Autonomous docked drones + FlytBase",
+      "locationPrecision": "City-level representation; emergency-response infrastructure",
+      "approximateMapPoint": {
+        "latitude": 35.595,
+        "longitude": -82.551
+      },
+      "reportDateLabel": "Case study · publication date unverified",
+      "description": "OvrWatch and the Asheville Police Department reported a citywide 13-dock network supporting hurricane recovery and emergency response.",
+      "source": {
+        "name": "FlytBase · OvrWatch / Asheville case study",
+        "url": "https://flytbase.com/case-studies/ovrwatch-asheville-hurricane-disaster-recovery-drones-public-safety"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "vancouver",
+      "name": "Vancouver Police dock-based drone network",
+      "where": "Vancouver, British Columbia, Canada",
+      "country": "Canada",
+      "region": "North America",
+      "infrastructureType": "Emergency response",
+      "reportedOperator": "Vancouver Police Department",
+      "reportedEquipment": "Skydio Dock for X10 · Skydio X10",
+      "locationPrecision": "City-level marker; exact public-safety dock sites not shown",
+      "approximateMapPoint": {
+        "latitude": 49.283,
+        "longitude": -123.121
+      },
+      "reportDateLabel": "10 June 2026 Skydio report",
+      "description": "Skydio reported multiple Dock for X10 systems positioned around Vancouver for a police drone-as-first-responder program.",
+      "source": {
+        "name": "Skydio · Vancouver Police DFR announcement",
+        "url": "https://www.skydio.com/blog/vancouver-police-department-drone-as-first-responder"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "ishikawa",
+      "name": "Ishikawa Prefecture Skydio Dock rollout",
+      "where": "Ishikawa Prefecture, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Industrial dock",
+      "reportedOperator": "Skydio / KDDI / Ishikawa Prefecture",
+      "reportedEquipment": "Skydio Dock for X10 · Skydio X10",
+      "locationPrecision": "Prefecture-level marker; actual installation undisclosed",
+      "approximateMapPoint": {
+        "latitude": 36.595,
+        "longitude": 136.626
+      },
+      "reportDateLabel": "3 September 2025 Skydio report",
+      "description": "Skydio announced deployment of Dock for X10 through KDDI and NTT Docomo and identified Ishikawa Prefecture as an early Japanese customer site.",
+      "source": {
+        "name": "Skydio · Japan dock rollout",
+        "url": "https://www.skydio.com/blog/skydio-x10-dock-available-japan"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "belgium-sense",
+      "name": "Belgium Citymesh SENSE drone network",
+      "where": "Belgium (nationwide project)",
+      "country": "Belgium",
+      "region": "Europe",
+      "infrastructureType": "Emergency response",
+      "reportedOperator": "Citymesh / Nokia",
+      "reportedEquipment": "Nokia Drone Networks · 5G drone-in-a-box",
+      "locationPrecision": "Country-level marker; emergency-response facilities are not plotted",
+      "approximateMapPoint": {
+        "latitude": 50.504,
+        "longitude": 4.47
+      },
+      "reportDateLabel": "12 November 2025 Nokia update",
+      "description": "Nokia reported nationwide adoption of its Drone Networks platform in Belgium, supporting distributed drone-in-a-box emergency-response operations.",
+      "source": {
+        "name": "Nokia · Drone Networks deployment update",
+        "url": "https://www.nokia.com/blog/taking-industries-further-with-the-enhanced-nokia-drone-networks-platform/"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "texas-solar",
+      "name": "Percepto autonomous Texas solar inspection",
+      "where": "Texas, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Industrial dock",
+      "reportedOperator": "Percepto / unnamed solar power operator",
+      "reportedEquipment": "Percepto drone-in-a-box inspection system",
+      "locationPrecision": "State-level marker; private power plant not identified",
+      "approximateMapPoint": {
+        "latitude": 31.1,
+        "longitude": -99.2
+      },
+      "reportDateLabel": "6 January 2023 Percepto release",
+      "description": "Percepto announced FAA approval for highly automated drone-in-a-box inspections at a large solar plant in Texas.",
+      "source": {
+        "name": "Percepto · Texas solar plant operations release",
+        "url": "https://percepto.com/percepto-approved-to-deploy-highly-automated-beyond-visual-line-of-sight-drones-for-remote-operations-at-record-breaking-altitude/"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "caltrans-otay",
+      "name": "Caltrans remote inspection drone docks",
+      "where": "San Diego border region, California, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Transport network",
+      "reportedOperator": "California Department of Transportation",
+      "reportedEquipment": "Skydio Dock for X10 · earlier X2 Dock pilot",
+      "locationPrecision": "San Diego city-area marker; precise dock locations not shown",
+      "approximateMapPoint": {
+        "latitude": 32.716,
+        "longitude": -117.162
+      },
+      "reportDateLabel": "1 May 2026 Skydio case study",
+      "description": "Skydio described Caltrans docked-drone monitoring at Otay Mesa construction sites, following earlier off-grid dock testing near the California–Mexico border.",
+      "source": {
+        "name": "Skydio · Caltrans SOAR project video",
+        "url": "https://www.skydio.com/resources/videos/caltrans-saved-usd100k-on-a-single-bridge-inspection"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "ramapo",
+      "name": "Ramapo Police two-dock network",
+      "where": "Ramapo, New York, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Emergency response",
+      "reportedOperator": "Town of Ramapo Police Department",
+      "reportedEquipment": "Skydio dock-based DFR systems · model unspecified",
+      "locationPrecision": "Town-level marker; dock locations not disclosed",
+      "approximateMapPoint": {
+        "latitude": 41.146,
+        "longitude": -74.063
+      },
+      "reportDateLabel": "2026 Skydio customer awards; date unverified",
+      "description": "Skydio's 2026 customer awards describe a Town of Ramapo public-safety drone program operating two docks.",
+      "source": {
+        "name": "Skydio · 2026 customer awards",
+        "url": "https://www.skydio.com/customers/awards/2026"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "kansanshi-zambia",
+      "name": "Kansanshi mining autonomous surveillance docks",
+      "where": "Zambia (mine network)",
+      "country": "Zambia",
+      "region": "Africa",
+      "infrastructureType": "Industrial dock",
+      "reportedOperator": "Kansanshi Mining / FS Systems International",
+      "reportedEquipment": "UAV docks · FlytBase",
+      "locationPrecision": "Broad regional reference; precise private or sensitive sites not shown",
+      "approximateMapPoint": {
+        "latitude": -13.1,
+        "longitude": 27.9
+      },
+      "reportDateLabel": "Case study · publication date unverified",
+      "description": "FS Systems International described automated mine-security docks at Kansanshi, scaling from two to four units.",
+      "source": {
+        "name": "FlytBase · published case study",
+        "url": "https://flytbase.com/case-studies/kansanshi-mining-plc-transformed-mine-security-to-proactive-uav-surveillance"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "quellaveco-peru",
+      "name": "Quellaveco mining survey drone docking network",
+      "where": "Peru (mine project)",
+      "country": "Peru",
+      "region": "South America",
+      "infrastructureType": "Industrial dock",
+      "reportedOperator": "Anglo American / UAV LATAM",
+      "reportedEquipment": "Drone-in-a-box docks · FlytBase",
+      "locationPrecision": "Broad regional reference; precise private or sensitive sites not shown",
+      "approximateMapPoint": {
+        "latitude": -9.2,
+        "longitude": -75
+      },
+      "reportDateLabel": "Case study · publication date unverified",
+      "description": "Anglo American and UAV LATAM reported autonomous dock-based surveying at Quellaveco copper mine.",
+      "source": {
+        "name": "FlytBase · published case study",
+        "url": "https://flytbase.com/case-studies/anglo-american-autonomous-mining-drones-peru-case-study"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "uae-waste",
+      "name": "UAE waste management facility dock network",
+      "where": "United Arab Emirates (multiple sites)",
+      "country": "United Arab Emirates",
+      "region": "Middle East",
+      "infrastructureType": "Industrial dock",
+      "reportedOperator": "UAE Waste Management Authority / The Drone Centre",
+      "reportedEquipment": "DJI Dock · FlytBase",
+      "locationPrecision": "Broad regional reference; precise private or sensitive sites not shown",
+      "approximateMapPoint": {
+        "latitude": 23.4,
+        "longitude": 53.7
+      },
+      "reportDateLabel": "Case study · publication date unverified",
+      "description": "The Drone Centre described autonomous DJI docking stations across waste facilities for inspections and monitoring.",
+      "source": {
+        "name": "FlytBase · published case study",
+        "url": "https://flytbase.com/case-studies/uae-waste-management-autonomous-drone-implementation-case-study"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "axpo-swiss",
+      "name": "Axpo Alpine hydropower drone dock",
+      "where": "Graubünden, Switzerland",
+      "country": "Switzerland",
+      "region": "Europe",
+      "infrastructureType": "Industrial dock",
+      "reportedOperator": "Axpo Group",
+      "reportedEquipment": "DJI Dock 2 · FlightHub 2",
+      "locationPrecision": "Broad regional reference; precise private or sensitive sites not shown",
+      "approximateMapPoint": {
+        "latitude": 46.67,
+        "longitude": 9.58
+      },
+      "reportDateLabel": "Case study · publication date unverified",
+      "description": "Axpo described a DJI Dock 2 installation for automated hydropower catchment inspections in the Swiss Alps.",
+      "source": {
+        "name": "FlytBase · published case study",
+        "url": "https://flytbase.com/case-studies/axpo-hydropower-plant-monitoring-autonomous-drones"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "slovakia-forest",
+      "name": "Slovakia military forestry wildfire dock",
+      "where": "Slovakia (forest program)",
+      "country": "Slovakia",
+      "region": "Europe",
+      "infrastructureType": "Emergency response",
+      "reportedOperator": "Slovak military forestry / UAVONIC",
+      "reportedEquipment": "DJI drone dock · FlytBase",
+      "locationPrecision": "Broad regional reference; precise private or sensitive sites not shown",
+      "approximateMapPoint": {
+        "latitude": 48.7,
+        "longitude": 19.7
+      },
+      "reportDateLabel": "Case study · publication date unverified",
+      "description": "UAVONIC reported automated thermal drone monitoring for wildfire detection in Slovakia's military forestry program.",
+      "source": {
+        "name": "FlytBase · published case study",
+        "url": "https://flytbase.com/case-studies/slovakia-military-wildfire-detection-dock-drones"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "southafrica-estate",
+      "name": "24-7 Drone Force estate security docks",
+      "where": "South Africa (multiple properties)",
+      "country": "South Africa",
+      "region": "Africa",
+      "infrastructureType": "Industrial dock",
+      "reportedOperator": "24-7 Drone Force / HDRT",
+      "reportedEquipment": "DJI Dock · FlytBase",
+      "locationPrecision": "Broad regional reference; precise private or sensitive sites not shown",
+      "approximateMapPoint": {
+        "latitude": -29,
+        "longitude": 24
+      },
+      "reportDateLabel": "Case study · publication date unverified",
+      "description": "24-7 Drone Force reported DJI Dock-based monitoring for private estates and commercial premises.",
+      "source": {
+        "name": "FlytBase · published case study",
+        "url": "https://flytbase.com/case-studies/24-7-drone-force-residential-estate-security-docks-south-africa"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "sqm-chile",
+      "name": "SQM northern Chile mine dock",
+      "where": "Northern Chile (mine project)",
+      "country": "Chile",
+      "region": "South America",
+      "infrastructureType": "Industrial dock",
+      "reportedOperator": "SQM / Adentu",
+      "reportedEquipment": "DJI Dock · FlytBase",
+      "locationPrecision": "Broad regional reference; private sites not identified",
+      "approximateMapPoint": {
+        "latitude": -24.5,
+        "longitude": -69.5
+      },
+      "reportDateLabel": "Published case study · date unverified",
+      "description": "SQM and Adentu described automated mine-inspection drones based in DJI docks.",
+      "source": {
+        "name": "Public company case study",
+        "url": "https://flytbase.com/case-studies/sqm-678-km2-mine-autonomous-inspection-adentu-and-flytbase"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "csx-rail",
+      "name": "CSX rail-yard inspection docks",
+      "where": "Eastern United States (rail yards)",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Transport network",
+      "reportedOperator": "CSX Transportation",
+      "reportedEquipment": "Hextronics Atlas dock · FlytBase",
+      "locationPrecision": "Broad regional reference; private sites not identified",
+      "approximateMapPoint": {
+        "latitude": 38,
+        "longitude": -83
+      },
+      "reportDateLabel": "Published case study · date unverified",
+      "description": "CSX described automated Hextronics Atlas docks supporting rail infrastructure inspections.",
+      "source": {
+        "name": "Public company case study",
+        "url": "https://flytbase.com/case-studies/csx-autonomous-drone-rail-inspection"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "aerial-fences",
+      "name": "Aerial Fences livestock security dock",
+      "where": "Celeste, Texas, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Agriculture dock",
+      "reportedOperator": "Aerial Fences",
+      "reportedEquipment": "DJI Dock 2 · FlytBase",
+      "locationPrecision": "City-level reference; precise dock not shown",
+      "approximateMapPoint": {
+        "latitude": 33.3,
+        "longitude": -96.2
+      },
+      "reportDateLabel": "Published case study · date unverified",
+      "description": "Aerial Fences documented a DJI Dock 2 ranch monitoring and security deployment in Texas.",
+      "source": {
+        "name": "Public company case study",
+        "url": "https://flytbase.com/case-studies/aerial-fences-automating-ranch-security-oversight-drones-flytbase"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "premier-security-us",
+      "name": "Premier Security dock-based monitoring",
+      "where": "United States (manufacturing facilities)",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Industrial dock",
+      "reportedOperator": "Premier Security Solutions / UVT",
+      "reportedEquipment": "Autonomous dock-based drones · FlytBase",
+      "locationPrecision": "Broad regional reference; private sites not identified",
+      "approximateMapPoint": {
+        "latitude": 39,
+        "longitude": -98
+      },
+      "reportDateLabel": "Published case study · date unverified",
+      "description": "Premier Security reported dock-based drone surveillance at manufacturing sites.",
+      "source": {
+        "name": "Public company case study",
+        "url": "https://flytbase.com/case-studies/premier-security-autonomous-drone-surveillance"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "discovery-land-us",
+      "name": "Discovery Land drone-in-a-box network",
+      "where": "United States (private developments)",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Industrial dock",
+      "reportedOperator": "Discovery Land Company / UVT",
+      "reportedEquipment": "Drone-in-a-box · FlytBase",
+      "locationPrecision": "Broad regional reference; private sites not identified",
+      "approximateMapPoint": {
+        "latitude": 38.5,
+        "longitude": -98
+      },
+      "reportDateLabel": "Published case study · date unverified",
+      "description": "Discovery Land reported autonomous dock systems supporting property security and site development.",
+      "source": {
+        "name": "Public company case study",
+        "url": "https://flytbase.com/case-studies/discovery-land-autonomous-drone-security"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "port-lincoln",
+      "name": "Port Lincoln airport drone dock security",
+      "where": "Port Lincoln, South Australia",
+      "country": "Australia",
+      "region": "Oceania",
+      "infrastructureType": "Emergency response",
+      "reportedOperator": "MSS Security",
+      "reportedEquipment": "Three drone docks · FlytBase",
+      "locationPrecision": "City-level reference; precise dock not shown",
+      "approximateMapPoint": {
+        "latitude": -34.73,
+        "longitude": 135.87
+      },
+      "reportDateLabel": "Published case study · date unverified",
+      "description": "MSS Security reported three docking stations supporting airport perimeter and wildlife monitoring.",
+      "source": {
+        "name": "Public company case study",
+        "url": "https://flytbase.com/case-studies/mss-security-airport-bvlos-drone-operations-australia"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "titan-protection",
+      "name": "Titan Protection autonomous security docks",
+      "where": "United States (security network)",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Industrial dock",
+      "reportedOperator": "Titan Protection",
+      "reportedEquipment": "Drone-in-a-box · FlytBase",
+      "locationPrecision": "Broad regional reference; private sites not identified",
+      "approximateMapPoint": {
+        "latitude": 39.4,
+        "longitude": -98
+      },
+      "reportDateLabel": "Published case study · date unverified",
+      "description": "Titan Protection described drone-in-a-box systems integrated with remote security operations.",
+      "source": {
+        "name": "Public company case study",
+        "url": "https://flytbase.com/case-studies/titan-protection-autonomous-drone-security"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "soar-alaska",
+      "name": "Alaska DOT SOAR autonomous dock pilot",
+      "where": "Alaska, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Transport network",
+      "reportedOperator": "Alaska DOT / Skydio",
+      "reportedEquipment": "Skydio X10 off-grid dock",
+      "locationPrecision": "Broad regional reference; private sites not identified",
+      "approximateMapPoint": {
+        "latitude": 63.5,
+        "longitude": -152
+      },
+      "reportDateLabel": "Published case study · date unverified",
+      "description": "Skydio reported Alaska DOT participation in the SOAR autonomous solar-powered dock program.",
+      "source": {
+        "name": "Public company case study",
+        "url": "https://www.skydio.com/customer-stories/soar-program-brings-autonomous-drone-docks-to-ca-and-ak"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "barcelona-port",
+      "name": "Port of Barcelona DJI Dock 3",
+      "where": "Barcelona, Spain",
+      "country": "Spain",
+      "region": "Europe",
+      "infrastructureType": "Emergency response",
+      "reportedOperator": "Port of Barcelona / INSTOP",
+      "reportedEquipment": "DJI Dock 3",
+      "locationPrecision": "Broad Barcelona, Spain representative marker; precise site not published",
+      "approximateMapPoint": {
+        "latitude": 41.387,
+        "longitude": 2.17
+      },
+      "reportDateLabel": "8 Oct 2026 · INSTOP",
+      "description": "INSTOP documented a DJI Dock 3 installed for port police security and emergency assessment.",
+      "source": {
+        "name": "INSTOP · report",
+        "url": "https://www.instop.es/casos-exito/instop-suministra-el-dji-dock-3-al-puerto-de-barcelona-para-reforzar-la-vigilancia-aerea-y-apoyar-la-respuesta-ante-emergencias/"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "celaya",
+      "name": "Celaya automated public safety dock",
+      "where": "Celaya, Mexico",
+      "country": "Mexico",
+      "region": "North America",
+      "infrastructureType": "Emergency response",
+      "reportedOperator": "Celaya public safety agencies",
+      "reportedEquipment": "DJI Dock 3",
+      "locationPrecision": "Broad Celaya, Mexico representative marker; precise site not published",
+      "approximateMapPoint": {
+        "latitude": 20.52,
+        "longitude": -100.82
+      },
+      "reportDateLabel": "3 Jul 2026 · DJI Enterprise",
+      "description": "DJI Enterprise described deploying DJI Dock 3 for faster public-safety incident response in Celaya.",
+      "source": {
+        "name": "DJI Enterprise · report",
+        "url": "https://enterprise-insights.dji.com/user-stories/a-city-that-anticipates-how-celaya-is-transforming-public-safety-with-automated-dji-drones"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "palcacocha",
+      "name": "Palcacocha glacier monitoring dock",
+      "where": "Huaraz region, Peru",
+      "country": "Peru",
+      "region": "South America",
+      "infrastructureType": "Environmental monitoring",
+      "reportedOperator": "Research partners / INAIGEM",
+      "reportedEquipment": "DJI Dock 3 · Matrice 4D",
+      "locationPrecision": "Broad Huaraz region, Peru representative marker; precise site not published",
+      "approximateMapPoint": {
+        "latitude": -9.53,
+        "longitude": -77.53
+      },
+      "reportDateLabel": "15 Dec 2025 · DJI Europe",
+      "description": "DJI described Dock 3 and Matrice 4D used for automated glacier monitoring near Palcacocha Lagoon.",
+      "source": {
+        "name": "DJI Europe · report",
+        "url": "https://www.mynewsdesk.com/uk/dji/pressreleases/dji-dock-3-enhances-glacier-monitoring-for-avalanches-and-floods-in-the-peruvian-andes-3421736"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "bibai",
+      "name": "Bibai DJI Dock 3 surveying",
+      "where": "Bibai, Hokkaido, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Industrial dock",
+      "reportedOperator": "HELICAM / local contractors",
+      "reportedEquipment": "DJI Dock 3",
+      "locationPrecision": "Broad Bibai, Hokkaido, Japan representative marker; precise site not published",
+      "approximateMapPoint": {
+        "latitude": 43.332,
+        "longitude": 141.852
+      },
+      "reportDateLabel": "20 Jan 2026 · HELICAM",
+      "description": "HELICAM described a DJI Dock 3 used for surveying and progress monitoring at field-improvement works.",
+      "source": {
+        "name": "HELICAM · report",
+        "url": "https://www.helicam.jp/case/%E5%9C%83%E5%A0%B4%E6%95%B4%E5%82%99%E4%BA%8B%E6%A5%AD%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B-dji-dock-3-%E6%B4%BB%E7%94%A8%E4%BA%8B%E4%BE%8B/"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "ambite",
+      "name": "Ambite Tajuña River monitoring dock",
+      "where": "Ambite, Spain",
+      "country": "Spain",
+      "region": "Europe",
+      "infrastructureType": "Environmental monitoring",
+      "reportedOperator": "Goat Drones Solutions",
+      "reportedEquipment": "DJI Dock 3 · Matrice 4TD",
+      "locationPrecision": "Broad Ambite, Spain representative marker; precise site not published",
+      "approximateMapPoint": {
+        "latitude": 40.41,
+        "longitude": -3.09
+      },
+      "reportDateLabel": "9 Mar 2026 · InfoDron",
+      "description": "InfoDron reported Goat Drones Solutions monitoring flood risks with DJI Dock 3 and Matrice 4TD.",
+      "source": {
+        "name": "InfoDron · report",
+        "url": "https://www.infodron.es/texto-diario/mostrar/5794081/espanola-goat-drones-solutions-vigila-drones-autonomos-rio-tajuna-prevenir-inundaciones-ambite"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "opole",
+      "name": "Opole DJI Dock 3 municipal inspection",
+      "where": "Opole, Poland",
+      "country": "Poland",
+      "region": "Europe",
+      "infrastructureType": "Industrial dock",
+      "reportedOperator": "Opole municipal services / MEGADRON",
+      "reportedEquipment": "DJI Dock 3 · Matrice 4TD",
+      "locationPrecision": "Broad Opole, Poland representative marker; precise site not published",
+      "approximateMapPoint": {
+        "latitude": 50.675,
+        "longitude": 17.922
+      },
+      "reportDateLabel": "10 Feb 2026 · MEGADRON",
+      "description": "MEGADRON documented a DJI Dock 3 monitoring a municipal services facility and potential fire hazards.",
+      "source": {
+        "name": "MEGADRON · report",
+        "url": "https://megadron.pl/en/blog/early-detection-of-fires-and-hazards-how-drones-are-making-municipal-infrastructure-safer-dji-dock-3-and-matrice-4td-1767190319.html"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "wurzburg-emqport",
+      "name": "Würzburg EMQport droneport prototype",
+      "where": "Würzburg, Germany",
+      "country": "Germany",
+      "region": "Europe",
+      "infrastructureType": "Industrial dock",
+      "reportedOperator": "Emqopter / Wingcopter",
+      "reportedEquipment": "EMQport · EMQBot",
+      "locationPrecision": "Broad Würzburg, Germany representative marker; precise site not published",
+      "approximateMapPoint": {
+        "latitude": 49.79,
+        "longitude": 9.93
+      },
+      "reportDateLabel": "21 Apr 2026 · Wingcopter",
+      "description": "Wingcopter and Emqopter unveiled a prototype automated drone ground-handling port.",
+      "source": {
+        "name": "Wingcopter · report",
+        "url": "https://wingcopter.com/drone-port"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "tomakomai-refinery",
+      "name": "Tomakomai refinery drone inspections",
+      "where": "Tomakomai, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Industrial dock",
+      "reportedOperator": "Idemitsu Kosan / SENSYN Robotics",
+      "reportedEquipment": "DJI Dock 3",
+      "locationPrecision": "Broad Tomakomai, Japan representative marker; precise site not published",
+      "approximateMapPoint": {
+        "latitude": 42.634,
+        "longitude": 141.605
+      },
+      "reportDateLabel": "21 Oct 2026 · Drone Journal",
+      "description": "Drone Journal reported DJI Dock 3 being used for remote inspections at an Idemitsu refinery.",
+      "source": {
+        "name": "Drone Journal · report",
+        "url": "https://drone-journal.impress.co.jp/docs/news/1188971.html"
+      },
+      "verificationStatus": "Source report only; current operation not independently verified"
+    },
+    {
+      "id": "network-rail-uk",
+      "name": "Network Rail automated docking project",
+      "where": "Western and Anglia rail routes, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Transport network",
+      "reportedOperator": "Network Rail / heliguy",
+      "reportedEquipment": "DJI Dock 3",
+      "locationPrecision": "United Kingdom country-level reference; two physical sites are not plotted",
+      "approximateMapPoint": {
+        "latitude": 52.4,
+        "longitude": -1.8
+      },
+      "reportDateLabel": "27 May 2026 heliguy report",
+      "description": "heliguy reported UK CAA BVLOS approval for DJI Dock 3 operations at two Network Rail locations on Western and Anglia railway routes.",
+      "source": {
+        "name": "heliguy · Network Rail deployment",
+        "url": "https://www.heliguy.com/blogs/posts/heliguy-secures-sora-approval-for-network-rail-bvlos-flights/"
+      },
+      "verificationStatus": "Public report only; current operational status not independently confirmed"
+    },
+    {
+      "id": "gilboa-nypa",
+      "name": "NYPA Gilboa hydroelectric drone dock",
+      "where": "Gilboa, New York, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Industrial dock",
+      "reportedOperator": "New York Power Authority / NUAIR",
+      "reportedEquipment": "Skydio Dock",
+      "locationPrecision": "Gilboa town-level marker; private dock location not shown",
+      "approximateMapPoint": {
+        "latitude": 42.397,
+        "longitude": -74.48
+      },
+      "reportDateLabel": "17 September 2024 NUAIR report",
+      "description": "NUAIR and NYPA reported use of Skydio dock technology for vegetation management, tower inspection and security at an upstate hydroelectric project.",
+      "source": {
+        "name": "NUAIR · NYPA deployment",
+        "url": "https://www.nuair.org/post/nuair-and-nypa-successfully-deploy-skydio-dock-for-power-project"
+      },
+      "verificationStatus": "Public report only; current operational status not independently confirmed"
+    },
+    {
+      "id": "teesside-terminal",
+      "name": "ConocoPhillips Teesside docking trial",
+      "where": "Teesside, England, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Industrial dock",
+      "reportedOperator": "ConocoPhillips / heliguy",
+      "reportedEquipment": "DJI Dock 2",
+      "locationPrecision": "Teesside-area marker; precise industrial installation withheld",
+      "approximateMapPoint": {
+        "latitude": 54.57,
+        "longitude": -1.23
+      },
+      "reportDateLabel": "12 June 2026 heliguy case study",
+      "description": "A 90-day DJI Dock 2 trial at the Teesside Oil Terminal studied remote inspections of a tank farm. This historic trial does not establish current operation.",
+      "source": {
+        "name": "heliguy · Teesside trial",
+        "url": "https://www.heliguy.com/blogs/posts/conocophillips-dji-dock-automated-inspections/"
+      },
+      "verificationStatus": "Public report only; current operational status not independently confirmed"
+    },
+    {
+      "id": "antwerp-cargo-hub",
+      "name": "ADLC Antwerp cargo drone hub",
+      "where": "Antwerp, Belgium",
+      "country": "Belgium",
+      "region": "Europe",
+      "infrastructureType": "Cargo drone hub",
+      "reportedOperator": "ADLC",
+      "reportedEquipment": "Cargo drone hub · ADLC logistics software",
+      "locationPrecision": "Antwerp city-level marker; no exact landing location provided",
+      "approximateMapPoint": {
+        "latitude": 51.219,
+        "longitude": 4.402
+      },
+      "reportDateLabel": "24 March 2026 ADLC announcement",
+      "description": "ADLC announced a drone cargo hub in Antwerp connecting city and port operations. The hub is not described as an automated drone-in-a-box station.",
+      "source": {
+        "name": "ADLC · Antwerp cargo hub",
+        "url": "https://adlc.eu/en/posts/adlc-opens-belgium-s-first-advanced-air-mobility-cargo-drone-hub-1"
+      },
+      "verificationStatus": "Public report only; current operational status not independently confirmed"
+    },
+    {
+      "id": "upper-darby-dfr",
+      "name": "Upper Darby Police Skydio DFR docks",
+      "where": "Upper Darby, Pennsylvania, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Emergency response",
+      "reportedOperator": "Upper Darby Police Department",
+      "reportedEquipment": "Skydio X10 · Skydio Dock",
+      "locationPrecision": "Town-level area only; no police installation coordinates",
+      "approximateMapPoint": {
+        "latitude": 39.961,
+        "longitude": -75.258
+      },
+      "reportDateLabel": "Skydio case study · publication date unverified",
+      "description": "Skydio reported a drone-as-first-responder program combining Skydio X10 and Dock equipment with a police crime intelligence center.",
+      "source": {
+        "name": "Skydio · Upper Darby program",
+        "url": "https://www.skydio.com/customer-stories/upper-darby-pd-case-study"
+      },
+      "verificationStatus": "Public report only; current operational status not independently confirmed"
+    },
+    {
+      "id": "skybound-waterloo",
+      "name": "SkyBound railway drone dock London",
+      "where": "London, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Transport network",
+      "reportedOperator": "SkyBound / rail operators",
+      "reportedEquipment": "SkyBound Automated Drone Station",
+      "locationPrecision": "London city center only; actual rail installation not plotted",
+      "approximateMapPoint": {
+        "latitude": 51.509,
+        "longitude": -0.128
+      },
+      "reportDateLabel": "1 October 2026 Aerospace America report",
+      "description": "Aerospace America reported that SkyBound commissioned an automated railway drone station near London Waterloo in January 2026 for rail monitoring and trespass response.",
+      "source": {
+        "name": "Aerospace America · railway drones",
+        "url": "https://aerospaceamerica.aiaa.org/departments/drone-railroad-sentries/"
+      },
+      "verificationStatus": "Public report only; current operational status not independently confirmed"
+    },
+    {
+      "id": "skybound-glasgow",
+      "name": "SkyBound railway drone dock Glasgow",
+      "where": "Glasgow, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Transport network",
+      "reportedOperator": "SkyBound / rail operators",
+      "reportedEquipment": "SkyBound Automated Drone Station",
+      "locationPrecision": "Glasgow city center only; actual station not plotted",
+      "approximateMapPoint": {
+        "latitude": 55.864,
+        "longitude": -4.251
+      },
+      "reportDateLabel": "1 October 2026 Aerospace America report",
+      "description": "Aerospace America reported a SkyBound automated railway drone station in Glasgow installed in May 2026 for infrastructure monitoring and trespass response.",
+      "source": {
+        "name": "Aerospace America · railway drones",
+        "url": "https://aerospaceamerica.aiaa.org/departments/drone-railroad-sentries/"
+      },
+      "verificationStatus": "Public report only; current operational status not independently confirmed"
+    },
+    {
+      "id": "skybound-cardiff",
+      "name": "SkyBound railway drone dock Cardiff",
+      "where": "Cardiff, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Transport network",
+      "reportedOperator": "SkyBound / rail operators",
+      "reportedEquipment": "SkyBound Automated Drone Station",
+      "locationPrecision": "Cardiff city center only; actual station not plotted",
+      "approximateMapPoint": {
+        "latitude": 51.481,
+        "longitude": -3.179
+      },
+      "reportDateLabel": "1 October 2026 Aerospace America report",
+      "description": "Aerospace America described a SkyBound automated railway station that began service in Cardiff in late 2025.",
+      "source": {
+        "name": "Aerospace America · railway drones",
+        "url": "https://aerospaceamerica.aiaa.org/departments/drone-railroad-sentries/"
+      },
+      "verificationStatus": "Public report only; current operational status not independently confirmed"
+    },
+    {
+      "id": "cincinnati-dfr",
+      "name": "Cincinnati Police Skydio DFR docks",
+      "where": "Cincinnati, Ohio, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Emergency response",
+      "reportedOperator": "Cincinnati Police Department",
+      "reportedEquipment": "Skydio Dock · Skydio X10",
+      "locationPrecision": "City-level area only; no rooftop dock positions",
+      "approximateMapPoint": {
+        "latitude": 39.103,
+        "longitude": -84.512
+      },
+      "reportDateLabel": "2026 Skydio program case study · date unverified",
+      "description": "Skydio described Cincinnati Police operating a drone-as-first-responder network with rooftop docks. Initial and planned dock counts should not be confused with present operational totals.",
+      "source": {
+        "name": "Skydio · Cincinnati DFR",
+        "url": "https://www.skydio.com/resources/videos/cincinnati-pd-dfr-program-gets-officers-on-scene-in-two-minutes"
+      },
+      "verificationStatus": "Public report only; current operational status not independently confirmed"
+    },
+    {
+      "id": "yonkers-nokia",
+      "name": "Yonkers Police Nokia docking network",
+      "where": "Yonkers, New York, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Emergency response",
+      "reportedOperator": "Yonkers Police Department",
+      "reportedEquipment": "Nokia Drone Networks · Motorola CAPE",
+      "locationPrecision": "Yonkers city-level marker; police docks not identified",
+      "approximateMapPoint": {
+        "latitude": 40.932,
+        "longitude": -73.899
+      },
+      "reportDateLabel": "13 April 2026 industry article",
+      "description": "Industry reporting described Yonkers Police launching a citywide first-responder drone program using Nokia Drone Networks systems integrated with Motorola Solutions.",
+      "source": {
+        "name": "Unmanned Systems Technology · Yonkers",
+        "url": "https://www.unmannedsystemstechnology.com/2026/04/nokia-drone-in-a-box-systems-support-yonkers-police-newly-launched-dfr-program/"
+      },
+      "verificationStatus": "Public report only; current operational status not independently confirmed"
+    },
+    {
+      "id": "summerville-nokia",
+      "name": "Summerville Nokia public safety drone dock",
+      "where": "Summerville, South Carolina, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Emergency response",
+      "reportedOperator": "Summerville emergency responders",
+      "reportedEquipment": "Nokia Drone Networks · Motorola CAPE",
+      "locationPrecision": "Summerville town-level reference; exact dock not plotted",
+      "approximateMapPoint": {
+        "latitude": 33.019,
+        "longitude": -80.176
+      },
+      "reportDateLabel": "Industry feature · publication date unverified",
+      "description": "A public industry case study described emergency responders using Nokia drone docking hardware integrated with Motorola CAPE to enable automated dispatch from a fixed base.",
+      "source": {
+        "name": "Unmanned Systems Technology · Summerville",
+        "url": "https://www.unmannedsystemstechnology.com/feature/nokia-drone-networks-supports-south-carolinas-first-drone-as-first-responder-program/"
+      },
+      "verificationStatus": "Public report only; current operational status not independently confirmed"
+    },
+    {
+      "id": "el-paso-dfr",
+      "name": "El Paso DJI Dock 3 public safety network",
+      "where": "El Paso, Texas, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Emergency response",
+      "reportedOperator": "El Paso public safety agencies",
+      "reportedEquipment": "DJI Dock 3 · DJI FlightHub 2",
+      "locationPrecision": "City-level map marker; exact dock sites withheld",
+      "approximateMapPoint": {
+        "latitude": 31.761,
+        "longitude": -106.485
+      },
+      "reportDateLabel": "2026 DJI Enterprise overview · date unverified",
+      "description": "DJI Enterprise described an El Paso drone-as-first-responder program with DJI Dock 3 and FlightHub 2 On-Premises. Current size is not independently verified.",
+      "source": {
+        "name": "DJI Enterprise · DFR overview",
+        "url": "https://enterprise-insights.dji.com/blog/drone-as-first-responder-dfr-how-docks-are-changing-the-model?hs_amp=true"
+      },
+      "verificationStatus": "Public report only; current operational status not independently confirmed"
+    }
+  ]
+}
