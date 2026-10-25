@@ -148,7 +148,7 @@ async function task(p,scenario,workflow,fn) {
         assert.equal(passportRoute.pathname,'/projects/'+p.id+'/');
         assert.equal(passportRoute.searchParams.get('compare'),selection);
         // sort=name is omitted by normalized directory state.
-        const normalized={...fields};if(normalized.sort==='name')delete normalized.sort;if(normalized.q)normalized.q=normalized.q.trim();
+        const normalized={...fields};if(normalized.sort==='name')delete normalized.sort; // popstate retains user-entered q spacing
         preserveFilters(passportRoute,normalized);
         assert(html.includes('/?project='+p.id+'#atlas'));
       });
@@ -161,7 +161,7 @@ async function task(p,scenario,workflow,fn) {
         assert.equal(url.pathname,'/directory/');
         assert.equal(url.searchParams.get('compare'),selection);
         assert.equal(url.hash,'#project-comparison');
-        const normalized={...fields};if(normalized.sort==='name')delete normalized.sort;if(normalized.q)normalized.q=normalized.q.trim();
+        const normalized={...fields};if(normalized.sort==='name')delete normalized.sort; // popstate retains user-entered q spacing
         preserveFilters(url,normalized);
         assert.equal(back.attrs['aria-label'],'Return to comparison of 2 projects');
         assert(x.get('project-copy-link'),'Copy action must exist');
