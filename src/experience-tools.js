@@ -342,10 +342,10 @@
   async function passportExtras(){
     const m=location.pathname.match(/^\/projects\/([a-z0-9-]+)\/?$/);
     const main=document.querySelector('main'),hero=main?.querySelector('.hero');
-    document.documentElement.dataset.mpxPassportDiagnostic=[location.pathname,!!m,!!main,!!hero].join('|');
     if(!m||!main||!hero)return;
     const id=m[1];
     const root=make('section','mpx-passport-explore');
+    root.id='mpx-passport-explore';
     root.setAttribute('aria-labelledby','mpx-passport-title');
     const title=make('h2','','Explore this project in context');title.id='mpx-passport-title';
     const hint=make('p','mpx-note','Jump between the report, broader research and its approximate map reference.');
@@ -384,6 +384,7 @@
     const target=$('review-queue');
     if(!target)return;
     const root=make('section','mpx-quality-guide');
+    root.id='mpx-quality-guide';
     root.setAttribute('aria-labelledby','mpx-quality-title');
     const title=make('h2','','How to read this research');
     title.id='mpx-quality-title';
