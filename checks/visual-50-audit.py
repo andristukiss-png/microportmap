@@ -17,7 +17,7 @@ for row in tasks:
 assert len(list(root.rglob("*.html")))==72
 assert all(p.read_text().count(CSS_LINK)==1 for p in root.rglob("*.html"))
 palette="".join(p.read_text(errors="replace") for p in root.rglob("*") if p.is_file() and p.suffix in (".css",".html") and p.name!="site-navigation.css")
-hexes=lambda v:{s.lower() for s in re.findall(r"#[0-9a-fA-F]{3,8}\\b",v)}
+hexes=lambda v:{s.lower() for s in re.findall(r"#[0-9a-fA-F]{3,8}\b",v)}
 assert hexes(css).issubset(hexes(palette)),"New colors must reuse original palette"
 assert not any("/data/" in row["selectorRule"] for row in tasks)
 print("PASS: 50 numbered visual changes, 72 HTML entry points, CSS brace balance and existing palette")
