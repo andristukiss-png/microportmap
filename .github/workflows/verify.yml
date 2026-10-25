@@ -39,6 +39,19 @@ jobs:
           node checks/record-field-2000.cjs
       - name: Two thousand visible-field safety cases
         run: node checks/visible-fields-2000.cjs
+      - name: Two thousand cross-view filter and comparison handoffs
+        run: node checks/cross-view-2000.cjs
+      - name: Preserve cross-view audit ledgers
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: microportmap-cross-view-2000
+          path: |
+            checks/cross-view-2000-results.json
+            checks/cross-view-2000-ledger.json
+            checks/cross-view-2000-status.json
+          if-no-files-found: warn
+          retention-days: 30
       - name: Preserve visible-field audit ledgers
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
