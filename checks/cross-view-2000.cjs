@@ -62,7 +62,7 @@ function expected(rows,fields,atlasOnly=false) {
 const keys=['q','country','type','region','year','sort'];
 function preserveFilters(actual,values) {
   for(const key of keys)assert.equal(actual.searchParams.get(key),values[key]||null,
-    'Bad preserved filter '+key);
+    'Bad preserved filter '+key+' actual='+JSON.stringify(actual.searchParams.get(key))+' expected='+JSON.stringify(values[key]||null));
   for(const key of ['token','redirect','admin'])assert(!actual.searchParams.has(key),
     'Unrelated parameter leaked: '+key);
 }
