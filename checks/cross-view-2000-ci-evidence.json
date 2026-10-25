@@ -1,0 +1,10 @@
+{
+  "batch": "cross-view-2000",
+  "kind": "Deterministic per-case mirror indexed after successful merged-main CI",
+  "verifiedCodeCommit": "1622c951378de1334dd7e6ea2ba4483db3fff51d",
+  "runUrl": "https://github.com/andristukiss-png/microportmap/actions/runs/40242119385",
+  "runResult": "2000/2000 passed; zero failed, preservation and other regression steps passed",
+  "runArtifact": "microportmap-cross-view-2000",
+  "changePR": "https://github.com/andristukiss-png/microportmap/pull/4",
+  "note": "CI-generated original results, ledger and status are retained in the Actions artifact for the run. The committed per-case ledger recreates the 50×10×4 deterministic matrix for durable navigation; CI logs are authoritative for test execution."
+}
