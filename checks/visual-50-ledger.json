@@ -1,0 +1,415 @@
+{
+  "batch": "visual-50",
+  "scope": "50 individually numbered additive CSS enhancements, not user/device-confirmed visual regressions.",
+  "baseCommit": "659fa871d6f7893cf98e57c6ca10820b8e989a0e",
+  "pageCoverage": "site-navigation.css is loaded in 72 HTML pages",
+  "dataPolicy": "Original 50 records, all legacy source CSS, embedded colors, HTML and core application scripts unchanged.",
+  "tasks": [
+    {
+      "id": "V01",
+      "area": "Shared",
+      "title": "Improve bottom navigation elevation",
+      "selectorRule": ".mp-bottom-nav.mp-bottom-nav{box-shadow:0 14px 38px rgba(3,30,37,.38);border-width:1.5px;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V02",
+      "area": "Shared",
+      "title": "Give nav links more breathing room",
+      "selectorRule": ".mp-bottom-nav .mp-bottom-link{letter-spacing:.015em;gap:7px;padding-block:10px;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V03",
+      "area": "Shared",
+      "title": "Make active navigation visibly anchored",
+      "selectorRule": ".mp-bottom-nav .mp-bottom-link[aria-current=page]{box-shadow:inset 0 0 0 2px #0b423b;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V04",
+      "area": "Shared",
+      "title": "Strengthen navigation icon hierarchy",
+      "selectorRule": ".mp-bottom-nav .mp-bottom-link svg{width:24px;height:24px;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V05",
+      "area": "Shared",
+      "title": "Make navigation hover state tactile",
+      "selectorRule": ".mp-bottom-nav .mp-bottom-link:hover{box-shadow:inset 0 0 0 1px #65bfa8;text-decoration:none;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V06",
+      "area": "Shared",
+      "title": "Prevent long mobile nav labels clipping",
+      "selectorRule": ".mp-bottom-nav .mp-bottom-link span{overflow-wrap:anywhere;line-height:1.28;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V07",
+      "area": "Shared",
+      "title": "Adjust mobile rail to narrow screens",
+      "selectorRule": "@media(max-width:420px){.mp-bottom-nav.mp-bottom-nav{width:calc(100% - 16px);bottom:calc(8px + env(safe-area-inset-bottom,0px));border-radius:16px}.mp-bottom-nav .mp-bottom-link{font-size:10px;padding-inline:2px;min-height:58px}}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V08",
+      "area": "Shared",
+      "title": "Create stronger discovery-section separation",
+      "selectorRule": ".mp-continue.mp-continue{border-top:4px solid #65bfa8;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V09",
+      "area": "Shared",
+      "title": "Give discovery cards a discernible surface",
+      "selectorRule": ".mp-continue .mp-continue-card{box-shadow:0 7px 24px rgba(3,30,37,.18);}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V10",
+      "area": "Shared",
+      "title": "Add clear hover treatment to topic links",
+      "selectorRule": ".mp-continue .mp-continue-topics a:hover{color:#8be7ca;text-underline-offset:5px;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V11",
+      "area": "Homepage",
+      "title": "Balance the main headline on wide screens",
+      "selectorRule": "body:has(#atlas) .hero h1{text-wrap:balance;max-width:14ch;line-height:1.05;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V12",
+      "area": "Homepage",
+      "title": "Increase introductory text legibility",
+      "selectorRule": "body:has(#atlas) .hero-main>p{font-size:clamp(15px,1.25vw,18px);line-height:1.76;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V13",
+      "area": "Homepage",
+      "title": "Improve primary atlas call-to-action size",
+      "selectorRule": "body:has(#atlas) .hero-actions .primary{min-height:52px;display:inline-flex;align-items:center;justify-content:center;padding-inline:26px;border-radius:13px;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V14",
+      "area": "Homepage",
+      "title": "Turn secondary hero actions into distinct choices",
+      "selectorRule": "body:has(#atlas) .hero-actions .ghost{display:inline-flex;align-items:center;min-height:46px;padding:10px 13px;border:1px solid #65bfa8;border-radius:12px;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V15",
+      "area": "Homepage",
+      "title": "Add interaction clarity to hero secondary actions",
+      "selectorRule": "body:has(#atlas) .hero-actions .ghost:hover{background:#102b35;color:#8be7ca;text-decoration:none;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V16",
+      "area": "Homepage",
+      "title": "Emphasize research statistic figures",
+      "selectorRule": "body:has(#atlas) .stats b{font-size:clamp(29px,3vw,40px);line-height:1.15;color:#102b35;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V17",
+      "area": "Homepage",
+      "title": "Present mobile statistics in two columns",
+      "selectorRule": "@media(max-width:600px){body:has(#atlas) .stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}body:has(#atlas) .stats>div{padding:9px;border-right:0;border-bottom:1px solid #d6e5e2}body:has(#atlas) .stats p{grid-column:1/-1;padding:0;margin:0}}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V18",
+      "area": "Homepage",
+      "title": "Reduce section-heading line breaks",
+      "selectorRule": "body:has(#atlas) .section-heading h2{text-wrap:balance;max-width:19ch;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V19",
+      "area": "Homepage",
+      "title": "Make technology tiles more recognizably interactive",
+      "selectorRule": "body:has(#atlas) .tech-card:not(:disabled){outline:1px solid #65bfa8;outline-offset:-1px;box-shadow:0 8px 25px rgba(3,30,37,.12);}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V20",
+      "area": "Homepage",
+      "title": "Improve timeline reading rhythm",
+      "selectorRule": "body:has(#atlas) .timeline-item:hover{background:#f4f8f6;border-radius:10px;}body:has(#atlas) .timeline-item a{text-decoration:underline;text-underline-offset:3px;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V21",
+      "area": "Atlas",
+      "title": "Increase map working area on desktop",
+      "selectorRule": "@media(min-width:1101px){body:has(#atlas) .map-workspace{height:680px;}}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V22",
+      "area": "Atlas",
+      "title": "Widen the atlas filter column",
+      "selectorRule": "@media(min-width:1001px){body:has(#atlas) .map-workspace{grid-template-columns:365px minmax(0,1fr);}}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V23",
+      "area": "Atlas",
+      "title": "Provide more space around sidebar controls",
+      "selectorRule": "body:has(#atlas) .map-sidebar{padding-inline:24px;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V24",
+      "area": "Atlas",
+      "title": "Give search a clear focus-within indicator",
+      "selectorRule": "body:has(#atlas) .search-wrap:focus-within{border-color:#167b75;outline:2px solid #65bfa8;outline-offset:2px;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V25",
+      "area": "Atlas",
+      "title": "Make country/type selectors easier to touch",
+      "selectorRule": "body:has(#atlas) .map-sidebar select{min-height:46px;height:auto;padding-block:10px;border-radius:10px;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V26",
+      "area": "Atlas",
+      "title": "Improve map action button tap targets",
+      "selectorRule": "body:has(#atlas) .sidebar-actions button{min-height:42px;padding:9px 12px;border-radius:9px;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V27",
+      "area": "Atlas",
+      "title": "Use clear result-card separation",
+      "selectorRule": "body:has(#atlas) .results .result{border-top-color:#d6e5e2;border-radius:8px;margin-bottom:3px;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V28",
+      "area": "Atlas",
+      "title": "Highlight the active atlas result",
+      "selectorRule": "body:has(#atlas) .results .result.active{box-shadow:inset 4px 0 0 #167b75;background:#f4f8f6;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V29",
+      "area": "Atlas",
+      "title": "Elevate map legend above map texture",
+      "selectorRule": "body:has(#atlas) .mp-atlas-legend{box-shadow:0 10px 25px rgba(3,30,37,.20);border-radius:12px;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V30",
+      "area": "Atlas",
+      "title": "Give mobile atlas results room to scroll",
+      "selectorRule": "@media(max-width:760px){body:has(#atlas) .map-sidebar{height:auto;min-height:410px;padding-inline:18px;padding-bottom:16px}body:has(#atlas) .map-sidebar .results{max-height:290px;overflow-y:auto}body:has(#atlas) .map-pane{min-height:390px;}}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V31",
+      "area": "Directory",
+      "title": "Improve directory introduction hierarchy",
+      "selectorRule": "body:has(.directory) .intro h1{text-wrap:balance;max-width:14ch;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V32",
+      "area": "Directory",
+      "title": "Make directory help note easier to scan",
+      "selectorRule": "body:has(.directory) #year-help{max-width:85ch;line-height:1.65;color:#102b35;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V33",
+      "area": "Directory",
+      "title": "Add more distinct filter-label hierarchy",
+      "selectorRule": "body:has(.directory) .controls label{font-weight:800;letter-spacing:.01em;gap:8px;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V34",
+      "area": "Directory",
+      "title": "Make filter focus visually obvious",
+      "selectorRule": "body:has(.directory) .controls input:focus-visible,body:has(.directory) .controls select:focus-visible{border-color:#167b75;outline:3px solid #8be7ca;outline-offset:1px;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V35",
+      "area": "Directory",
+      "title": "Differentiate the reset action from exports",
+      "selectorRule": "body:has(.directory) .controls #reset{background:#f4f8f6;color:#102b35;border:1px solid #65bfa8;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V36",
+      "area": "Directory",
+      "title": "Clarify hover affordances for action buttons",
+      "selectorRule": "body:has(.directory) .controls button:hover:not(:disabled){filter:brightness(.93);box-shadow:0 4px 16px rgba(3,30,37,.14);}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V37",
+      "area": "Directory",
+      "title": "Make filtered result count scannable",
+      "selectorRule": "body:has(.directory) #count{display:inline-flex;align-items:center;min-height:38px;padding:7px 15px;border:1px solid #d6e5e2;border-radius:999px;background:#fbfdfa;color:#102b35;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V38",
+      "area": "Directory",
+      "title": "Use stronger card hover and keyboard focus",
+      "selectorRule": "body:has(.directory) .results .item:hover,body:has(.directory) .results .item:focus-within{border-color:#167b75;box-shadow:0 14px 32px rgba(3,30,37,.13);}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V39",
+      "area": "Directory",
+      "title": "Protect long project titles from overflow",
+      "selectorRule": "body:has(.directory) .results .item h2{overflow-wrap:anywhere;line-height:1.32;text-wrap:pretty;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V40",
+      "area": "Directory",
+      "title": "Make comparison tables easier to follow",
+      "selectorRule": "body:has(.directory) .comparison-scroll tbody tr:nth-child(even){background:#f4f8f6;}body:has(.directory) .comparison-scroll th{color:#102b35;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V41",
+      "area": "Passports",
+      "title": "Make project title readable at narrow widths",
+      "selectorRule": "body:has(header.top) .hero h1{text-wrap:balance;overflow-wrap:anywhere;max-width:22ch;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V42",
+      "area": "Passports",
+      "title": "Make project type badges more prominent",
+      "selectorRule": "body:has(header.top) .hero .pill{letter-spacing:.025em;padding:9px 15px;border:1px solid #65bfa8;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V43",
+      "area": "Passports",
+      "title": "Give research cards a clearer visual edge",
+      "selectorRule": "body:has(header.top) main .card{border-top:3px solid #65bfa8!important;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V44",
+      "area": "Passports",
+      "title": "Increase project metadata readability",
+      "selectorRule": "body:has(header.top) dl.spec dt{font-weight:750;font-size:14px;}body:has(header.top) dl.spec dd{overflow-wrap:anywhere;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V45",
+      "area": "Passports",
+      "title": "Give original evidence actions consistent touch size",
+      "selectorRule": "body:has(header.top) a.button{min-height:48px;align-items:center;text-align:center;text-decoration:none;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V46",
+      "area": "Passports",
+      "title": "Emphasize the related-project section",
+      "selectorRule": "body:has(header.top) #mp-connect .mp-connect-head{border-left:4px solid #167b75;padding-left:18px;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V47",
+      "area": "Passports",
+      "title": "Improve compare/share action layout",
+      "selectorRule": "body:has(header.top) .mp-share-project{gap:12px;padding:16px;border:1px solid #d6e5e2;border-radius:16px;background:#fbfdfa;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V48",
+      "area": "Passports",
+      "title": "Make related project rows easier to scan",
+      "selectorRule": "body:has(header.top) .mp-related li:hover{background:#f4f8f6;}body:has(header.top) .mp-related a{padding-inline:8px;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V49",
+      "area": "Evidence",
+      "title": "Improve data-quality statistic cards",
+      "selectorRule": "body:has(#review-queue) .stats .stat{box-shadow:0 8px 24px rgba(3,30,37,.1);border-color:#d6e5e2;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    },
+    {
+      "id": "V50",
+      "area": "Evidence",
+      "title": "Improve review queue keyboard and summary links",
+      "selectorRule": "body:has(#review-queue) .review-list a:hover,body:has(#review-queue) .links a:hover{text-decoration:underline;text-underline-offset:4px;}",
+      "implementedIn": "src/site-navigation.css",
+      "status": "implemented; awaiting CI and real-device visual review"
+    }
+  ],
+  "unverified": [
+    "Real mobile browser layout",
+    "Remote map tiles",
+    "External research accuracy",
+    "Submission inbox"
+  ]
+}
