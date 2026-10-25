@@ -13,7 +13,7 @@ for i in {1..25}; do
   sleep .2
 done
 curl --fail --silent --output /dev/null http://127.0.0.1:8765/site-navigation.css
-for target in "homepage:/" "directory:/directory/" "passport:/projects/kiel/" "evidence:/data-quality/"; do
+for target in "homepage:/" "atlas:/#atlas" "directory:/directory/" "passport:/projects/kiel/" "evidence:/data-quality/"; do
   name="${target%%:*}"
   route="${target#*:}"
   for spec in "desktop:1440,900" "mobile:390,844"; do
@@ -34,4 +34,4 @@ for target in "homepage:/" "directory:/directory/" "passport:/projects/kiel/" "e
     rm -rf "$profile"
   done
 done
-echo "PASS: 8 headless Chromium captures (desktop/mobile across homepage, directory, passport and evidence). Review screenshots before claiming human visual QA."
+echo "PASS: 10 headless Chromium captures (desktop/mobile across homepage, directory, passport and evidence). Review screenshots before claiming human visual QA."
