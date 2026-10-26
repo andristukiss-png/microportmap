@@ -1,0 +1,47 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Research Trail CI fixture</title><script src="/research-trail.js" defer></script></head>
+<body><main><h1>Browser-local Research Trail verification</h1><div id="results">
+<article data-project-id="kiel"><a href="/projects/kiel/">Kiel</a></article>
+<article data-project-id="enbw"><a href="/projects/enbw/">EnBW</a></article>
+<article data-project-id="shenzhen"><a href="/projects/shenzhen/">Shenzhen</a></article>
+</div><p id="trail-probe-result">PENDING</p></main>
+<script>
+window.addEventListener('load',async()=>{
+const output=document.getElementById('trail-probe-result');
+const pause=ms=>new Promise(r=>setTimeout(r,ms));
+const check=(ok,msg)=>{if(!ok)throw Error(msg);};
+try{
+for(let i=0;i<90&&!document.querySelector('[data-mpt-save="kiel"]');i++)await pause(60);
+const save=(id)=>document.querySelector('[data-mpt-save="'+id+'"]');
+check(save('kiel')&&save('enbw'),'save buttons not shown');
+save('kiel').click();save('enbw').click();
+check(JSON.stringify(window.MicroportTrail.getIds())==='["kiel","enbw"]','not saved');
+check(document.getElementById('mpt-open').textContent.includes('2'),'counter failed');
+const saved=JSON.parse(localStorage.getItem('microportmap.research-trail.v1'));
+check(saved.length===2&&saved[0]==='kiel','storage missing');
+document.getElementById('mpt-open').click();
+check(!document.getElementById('mpt-drawer').hidden,'dialog did not open');
+check(document.querySelectorAll('.mpt-card').length===2,'two saved cards absent');
+const query=document.querySelector('.mpt-filter');
+query.value='Germany';query.dispatchEvent(new Event('input',{bubbles:true}));
+check(document.querySelectorAll('.mpt-card').length===2,'country filter failed');
+query.value='different-not-present';query.dispatchEvent(new Event('input',{bubbles:true}));
+check(document.querySelector('.mpt-empty'),'no-result feedback missing');
+query.value='';query.dispatchEvent(new Event('input',{bubbles:true}));
+document.querySelector('.mpt-remove').click();
+check(window.MicroportTrail.getIds().length===1,'remove did not work');
+check(document.querySelector('.mpt-panel').textContent.includes('More in'),'directory country links missing');
+document.dispatchEvent(new KeyboardEvent('keydown',{key:'Escape',bubbles:true}));
+check(document.getElementById('mpt-drawer').hidden,'Escape did not close');
+check(document.activeElement===document.getElementById('mpt-open'),'focus not restored');
+document.getElementById('mpt-open').click();
+check(document.querySelectorAll('.mpt-card').length===1,'saved item did not survive modal reopen');
+check(document.querySelector('.mpt-shared')?.hidden===false,'shared trail invitation missing');
+document.querySelector('.mpt-shared button').click();
+check(window.MicroportTrail.getIds().length===2,'shared import did not add');
+window.confirm=()=>true;
+document.querySelector('.mpt-actions .mpt-quiet').click();
+check(window.MicroportTrail.getIds().length===0,'clear did not empty');
+output.textContent='PASS: saved, persisted, filtered, removed, keyboard dismissed, shared opt-in imported, cleared';
+}catch(e){output.textContent='FAIL: '+e.message;}
+});
+</script></body></html>
