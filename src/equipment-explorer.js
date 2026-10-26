@@ -276,11 +276,10 @@ function filter(){
  clearAll.disabled=!Object.values(fields).some(Boolean);
  json.disabled=csv.disabled=!matches.length;
  const params=new URLSearchParams();
- if(fields.q)params.set('q',fields.q);
+ if(fields.q||fields.equipment)params.set('q',[fields.q,fields.equipment].filter(Boolean).join(' '));
  if(fields.type)params.set('type',fields.type);
  if(fields.country)params.set('country',fields.country);
  if(fields.year)params.set('year',fields.year);
- if(fields.equipment)params.set('q',fields.equipment);
  directory.href='/directory/'+(params.size?'?'+params:'');
  syncURL();
 }
@@ -330,7 +329,7 @@ function prepare(){
  compareSelectB.replaceChildren(Opt('','Second category'));
  for(const type of types){compareSelectA.append(Opt(type,type));compareSelectB.append(Opt(type,type));}
  if(types.length>1){compareSelectA.value=types[0];compareSelectB.value=types[1];}
- syncInputs();loaded=true;filter();setView('equipment');
+ syncInputs();loaded=true;filter();setView('equipment');document.body.classList.add('mpe-ready');
  document.documentElement.dataset.mpeLoaded='1';
 }
 function load(){
