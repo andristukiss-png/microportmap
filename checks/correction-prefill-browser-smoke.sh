@@ -26,8 +26,8 @@ for id in shenzhen kiel rotterdam;do
    --window-size="$viewport" --virtual-time-budget=9500 --dump-dom \
    "http://127.0.0.1:8790/submit/__cp_probe.html?project=$id" > "$dump" 2>/tmp/cp-chrome.log ||
    { cat /tmp/cp-chrome.log >&2;exit 1; }
-  if ! rg -q 'id="cp-probe-result">PASS:' "$dump";then
-   rg -o 'id="cp-probe-result"[^<]*' "$dump" >&2 || true;exit 1
+  if ! grep -q 'id="cp-probe-result">PASS:' "$dump";then
+   grep -o 'id="cp-probe-result"[^<]*' "$dump" >&2 || true;exit 1
   fi
   rm -rf "$profile";profile="$(mktemp -d)"
   timeout 75s "$chrome" --headless=new --no-sandbox --disable-dev-shm-usage \
