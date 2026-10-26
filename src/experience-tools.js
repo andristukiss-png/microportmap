@@ -417,4 +417,8 @@
   insightScript.src='/research-insights.js';
   insightScript.async=true;
   document.body.appendChild(insightScript);
+  const countryScript=document.createElement('script');
+  countryScript.src='/country-explorer.js';
+  countryScript.async=true;
+  document.body.appendChild(countryScript);
 })();

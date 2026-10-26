@@ -1,0 +1,52 @@
+(() => {
+window.addEventListener('load',async()=>{
+ const result=document.getElementById('mpc-probe-result');
+ const wait=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+ const check=(cond,msg)=>{if(!cond)throw Error(msg);};
+ const changed=el=>el.dispatchEvent(new Event('change',{bubbles:true}));
+ try{
+  for(let n=0;n<120&&!window.MicroportCountries?.getState().loaded;n++)await wait(50);
+  const app=window.MicroportCountries;
+  check(app?.getState().loaded,'catalog not loaded');
+  check(app.getState().countries===23,'country total not 23');
+  check(app.getRecords().length===50,'50 source-linked records expected');
+  check(document.body.classList.contains('mpc-ready'),'legacy static fallback not hidden after load');
+  check(document.querySelectorAll('.mpc-highlight').length===4,'coverage counters absent');
+  check(document.querySelectorAll('.mpc-country-card').length===12,'12 initial country cards expected');
+  check(document.querySelectorAll('.mpc-region-tabs button').length===8,'all + seven regions expected');
+  const germany=[...document.querySelectorAll('.mpc-country-card')].find(card=>card.querySelector('h4')?.textContent==='Germany');
+  check(germany,'Germany country card not found');
+  germany.querySelector('.mpc-primary').click();
+  check(app.getState().country==='Germany','country drilldown did not open');
+  check(!document.getElementById('mpc-country-detail').hidden,'country panel hidden');
+  check(document.querySelector('.mpc-project a[href^="/projects/"]'),'project research passport missing');
+  check(location.search.includes('country=Germany'),'URL country context not kept');
+  const back=document.querySelector('.mpc-detail-head button');
+  back.click();
+  check(app.getState().country==='','detail close failed');
+  const region=document.getElementById('mpc-region');region.value='Europe';changed(region);
+  check(app.getState().region==='Europe','region filter failed');
+  check(app.getState().visible>0&&app.getState().visible<23,'region filter counts inaccurate');
+  const q=document.getElementById('mpc-search');q.value='zzzzznotacountry';q.dispatchEvent(new Event('input',{bubbles:true}));
+  check(app.getState().visible===0,'empty country state mismatch');
+  document.querySelector('.mpc-actions .mpc-secondary').click();
+  check(app.getState().visible===23,'reset filters did not restore countries');
+  const compareRows=document.querySelectorAll('.mpc-table tr');
+  check(compareRows.length===5,'country comparison metric table missing');
+  document.querySelector('.mpc-compare-form button').click();
+  check(document.querySelectorAll('.mpc-table tr').length===5,'swap comparison failed');
+  const first=document.querySelector('.mpc-country-card');
+  first.querySelectorAll('.mpc-card-actions button')[1].click();
+  check(document.querySelector('.mpc-bookmark'),'bookmark did not appear');
+  check(JSON.parse(localStorage.getItem('microportmap.country-bookmarks.v1')).length===1,'bookmark not persisted');
+  document.querySelector('.mpc-bookmark button:last-child').click();
+  check(JSON.parse(localStorage.getItem('microportmap.country-bookmarks.v1')).length===0,'bookmark not removable');
+  document.getElementById('mpc-min').value='5';changed(document.getElementById('mpc-min'));
+  check(app.getState().visible<23,'minimum coverage filter missing');
+  const sort=document.getElementById('mpc-sort');sort.value='alpha';changed(sort);
+  check(app.getVisible().every((name,i,list)=>!i||list[i-1].localeCompare(name)<=0),'A-Z sort incorrect');
+  check(document.querySelectorAll('.mpc-exports button').length===2,'JSON/CSV export controls missing');
+  result.textContent='PASS: 23 countries, 50 records, seven regions, drilldown, linked passport, URL, reset, compare, pin/remove, min count, A-Z';
+ }catch(e){result.textContent='FAIL: '+e.message;}
+});
+})();
