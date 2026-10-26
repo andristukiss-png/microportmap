@@ -1,0 +1,364 @@
+{
+  "batch": "research-trail-50",
+  "baselineCommit": "5c7378d8088d9b50aef887672c2b7d039996282b",
+  "scope": "50 individually described visitor-facing behavior and accessibility/privacy tasks in a cohesive Research Trail feature; not 50 independent apps or 50 research verifications.",
+  "originalData": "50 original records, all baseline HTML documents and legacy CSS preserved.",
+  "limitations": [
+    "Browser storage may be unavailable; falls back to in-memory state",
+    "Shared links contain public record IDs only and require opt-in import",
+    "No account, syncing server or external submission inbox",
+    "Real devices and online detailed map tiles not independently verified"
+  ],
+  "tasks": [
+    {
+      "id": "T01",
+      "category": "Save projects",
+      "task": "Add a site-wide Research Trail trigger",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T02",
+      "category": "Save projects",
+      "task": "Show live saved-project count in the trigger",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T03",
+      "category": "Save projects",
+      "task": "Save a project from its research passport",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T04",
+      "category": "Save projects",
+      "task": "Save projects from directory result cards",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T05",
+      "category": "Save projects",
+      "task": "Save projects from atlas result rows without nesting buttons",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T06",
+      "category": "Save projects",
+      "task": "Save the selected atlas drawer project",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T07",
+      "category": "Save projects",
+      "task": "Save matches from the global project finder",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T08",
+      "category": "Save projects",
+      "task": "Use pressed-state labels to identify previously saved projects",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T09",
+      "category": "Save projects",
+      "task": "Prevent duplicate saved IDs and enforce five-item maximum",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T10",
+      "category": "Save projects",
+      "task": "Toggle a saved project off from its original card",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T11",
+      "category": "Manage shortlist",
+      "task": "Open an accessible Research Trail dialog",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T12",
+      "category": "Manage shortlist",
+      "task": "Dismiss the dialog with its close button",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T13",
+      "category": "Manage shortlist",
+      "task": "Dismiss by clicking outside the panel",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T14",
+      "category": "Manage shortlist",
+      "task": "Dismiss with Escape",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T15",
+      "category": "Manage shortlist",
+      "task": "Trap Tab and Shift+Tab inside the open dialog",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T16",
+      "category": "Manage shortlist",
+      "task": "Restore keyboard focus on close",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T17",
+      "category": "Manage shortlist",
+      "task": "Explain the empty saved state",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T18",
+      "category": "Manage shortlist",
+      "task": "Show catalog-loading and failure states",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T19",
+      "category": "Manage shortlist",
+      "task": "Retry data loading after a fetch failure",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T20",
+      "category": "Manage shortlist",
+      "task": "Confirm before clearing all saved projects",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T21",
+      "category": "Review and explore",
+      "task": "Preserve the original order of saved projects",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T22",
+      "category": "Review and explore",
+      "task": "Provide project passport links for saved records",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T23",
+      "category": "Review and explore",
+      "task": "Provide approximate atlas links for saved records",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T24",
+      "category": "Review and explore",
+      "task": "Provide country-filtered directory links",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T25",
+      "category": "Review and explore",
+      "task": "Provide infrastructure-type directory links",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T26",
+      "category": "Review and explore",
+      "task": "Show report-date and evidence-status caveats",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T27",
+      "category": "Review and explore",
+      "task": "Filter the saved shortlist by text",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T28",
+      "category": "Review and explore",
+      "task": "Sort saved items by project name",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T29",
+      "category": "Review and explore",
+      "task": "Sort saved items by country",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T30",
+      "category": "Review and explore",
+      "task": "Display shortlist filtered and total counts",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T31",
+      "category": "Export and share",
+      "task": "Compare the first three saved projects using existing comparison",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T32",
+      "category": "Export and share",
+      "task": "Export saved research records as JSON",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T33",
+      "category": "Export and share",
+      "task": "Preserve exact original record objects in JSON",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T34",
+      "category": "Export and share",
+      "task": "Export a CSV with named columns",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T35",
+      "category": "Export and share",
+      "task": "Protect CSV against spreadsheet formula injection",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T36",
+      "category": "Export and share",
+      "task": "Clean up temporary download anchors and object URLs",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T37",
+      "category": "Export and share",
+      "task": "Copy a shareable public-ID-only link",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T38",
+      "category": "Export and share",
+      "task": "Show a copyable link when clipboard access fails",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T39",
+      "category": "Export and share",
+      "task": "Offer shared-list import without automatic replacement",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T40",
+      "category": "Export and share",
+      "task": "Validate shared project IDs and exclude unavailable entries",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T41",
+      "category": "Privacy and robustness",
+      "task": "Persist saved IDs in browser storage when permitted",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T42",
+      "category": "Privacy and robustness",
+      "task": "Fall back to an in-memory trail if storage is unavailable",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T43",
+      "category": "Privacy and robustness",
+      "task": "Synchronize saved selections across browser tabs",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T44",
+      "category": "Privacy and robustness",
+      "task": "Provide a clear local-only privacy statement",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T45",
+      "category": "Privacy and robustness",
+      "task": "Exclude passwords, email addresses and personal data from share links",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T46",
+      "category": "Privacy and robustness",
+      "task": "Reject invalid or duplicate research catalog entries",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T47",
+      "category": "Privacy and robustness",
+      "task": "Keep the original 50 research records unchanged",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T48",
+      "category": "Privacy and robustness",
+      "task": "Give the shortlist an independent keyboard shortcut",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T49",
+      "category": "Privacy and robustness",
+      "task": "Respect reduced-motion preferences",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    },
+    {
+      "id": "T50",
+      "category": "Privacy and robustness",
+      "task": "Offer catalog-related recommendations without claiming project affiliation",
+      "implementation": "src/research-trail.js",
+      "status": "implemented; requires CI and browser verification"
+    }
+  ]
+}
