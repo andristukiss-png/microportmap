@@ -1,0 +1,364 @@
+{
+  "batch": "technology-equipment-50",
+  "baseMain": "2bb18ef535bb74064796d43f6d4f71f521010934",
+  "scope": "50 visitor-facing controls, navigation paths and safe research workflows in a single technology explorer. Not 50 new records, equipment certifications, or independent applications.",
+  "preservation": "The 50 original data records and 72 original HTML pages remain intact, as do the site color palette and core directory/map scripts.",
+  "limits": [
+    "Equipment descriptions are copied directly from records and can mention multiple systems",
+    "Counts represent research records, not deployed machines, compatibility or market share",
+    "Report dates are not installation dates",
+    "Device screenshots are automated; external source accuracy and physical-device use remain unverified"
+  ],
+  "tasks": [
+    {
+      "id": "H01",
+      "area": "Technology overview",
+      "title": "Show a new technology explorer using the existing 50 records",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H02",
+      "area": "Technology overview",
+      "title": "Count matching records rather than physical facilities",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H03",
+      "area": "Technology overview",
+      "title": "Display counts of seven source-listed infrastructure categories",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H04",
+      "area": "Technology overview",
+      "title": "Show the number of distinct exact equipment description labels",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H05",
+      "area": "Technology overview",
+      "title": "Count distinct countries represented by current filters",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H06",
+      "area": "Technology overview",
+      "title": "Show count of records with explicit source report years",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H07",
+      "area": "Technology overview",
+      "title": "Preserve the original technology mentions when JS is unavailable",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H08",
+      "area": "Technology overview",
+      "title": "Show honest scope caveats before technology categorization",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H09",
+      "area": "Technology overview",
+      "title": "Display a live filtered-record count",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H10",
+      "area": "Technology overview",
+      "title": "Link to the global explorer from shared site navigation",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H11",
+      "area": "Technology filtering",
+      "title": "Search by equipment, project, operator, infrastructure and location",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H12",
+      "area": "Technology filtering",
+      "title": "Match text without case or accent sensitivity",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H13",
+      "area": "Technology filtering",
+      "title": "Filter by one infrastructure category",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H14",
+      "area": "Technology filtering",
+      "title": "Filter by country",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H15",
+      "area": "Technology filtering",
+      "title": "Filter by source report-year label",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H16",
+      "area": "Technology filtering",
+      "title": "Filter by exact equipment description",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H17",
+      "area": "Technology filtering",
+      "title": "Combine text and category filters without mutating records",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H18",
+      "area": "Technology filtering",
+      "title": "Remove filters with contextual active chips",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H19",
+      "area": "Technology filtering",
+      "title": "Reset the entire technology filter state in one action",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H20",
+      "area": "Technology filtering",
+      "title": "Restore bookmarkable filters from URL parameters",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H21",
+      "area": "Infrastructure and equipment browsing",
+      "title": "Display all seven categories as selectable cards",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H22",
+      "area": "Infrastructure and equipment browsing",
+      "title": "Show current research count on each category",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H23",
+      "area": "Infrastructure and equipment browsing",
+      "title": "Toggle an active category filter off",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H24",
+      "area": "Infrastructure and equipment browsing",
+      "title": "Show literal reported-equipment labels with supporting counts",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H25",
+      "area": "Infrastructure and equipment browsing",
+      "title": "Sort exact equipment labels by most records",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H26",
+      "area": "Infrastructure and equipment browsing",
+      "title": "Sort exact equipment labels alphabetically",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H27",
+      "area": "Infrastructure and equipment browsing",
+      "title": "Show additional equipment labels in increments of ten",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H28",
+      "area": "Infrastructure and equipment browsing",
+      "title": "Collapse the expanded equipment list",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H29",
+      "area": "Infrastructure and equipment browsing",
+      "title": "Open the supporting projects for an exact label",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H30",
+      "area": "Infrastructure and equipment browsing",
+      "title": "Switch between equipment labels and project-record views",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H31",
+      "area": "Original project evidence",
+      "title": "List the matching published research projects",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H32",
+      "area": "Original project evidence",
+      "title": "Open an original passport from each project card",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H33",
+      "area": "Original project evidence",
+      "title": "Open valid HTTPS original source links safely",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H34",
+      "area": "Original project evidence",
+      "title": "Display country and editorial category on cards",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H35",
+      "area": "Original project evidence",
+      "title": "Display the exact reported equipment text",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H36",
+      "area": "Original project evidence",
+      "title": "Display the original location context",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H37",
+      "area": "Original project evidence",
+      "title": "Display source report-date context without calling it an opening year",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H38",
+      "area": "Original project evidence",
+      "title": "Display evidence-status limitations on each card",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H39",
+      "area": "Original project evidence",
+      "title": "Sort matching records by name, country, or report year",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H40",
+      "area": "Original project evidence",
+      "title": "Reveal six more projects or collapse to the initial six",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H41",
+      "area": "Comparison, sharing and trust",
+      "title": "Choose first category for a side-by-side research comparison",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H42",
+      "area": "Comparison, sharing and trust",
+      "title": "Choose a different second category",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H43",
+      "area": "Comparison, sharing and trust",
+      "title": "Swap comparison categories",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H44",
+      "area": "Comparison, sharing and trust",
+      "title": "Compare research counts and source-linked country coverage",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H45",
+      "area": "Comparison, sharing and trust",
+      "title": "Compare equipment-label diversity and explicitly dated records",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H46",
+      "area": "Comparison, sharing and trust",
+      "title": "Link each compared category to matching directory records",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H47",
+      "area": "Comparison, sharing and trust",
+      "title": "Export filtered original research as JSON",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H48",
+      "area": "Comparison, sharing and trust",
+      "title": "Export defined-column CSV with spreadsheet formula protection",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H49",
+      "area": "Comparison, sharing and trust",
+      "title": "Copy a bookmarkable technology-filter link with fallback",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    },
+    {
+      "id": "H50",
+      "area": "Comparison, sharing and trust",
+      "title": "Offer retryable errors and a source-report interpretation guide",
+      "implementation": "src/equipment-explorer.js",
+      "status": "implemented; awaiting browser CI"
+    }
+  ]
+}
