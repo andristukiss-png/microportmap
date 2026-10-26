@@ -146,6 +146,7 @@ jobs:
           python3 checks/review-workspace-500-audit.py
           node --check src/research-review-workspace.js
           node checks/review-workspace-500.cjs
+          node checks/review-storage-reliability-500.cjs
       - name: Review Workspace real-browser smoke and responsive screenshots
         run: bash checks/review-workspace-browser-smoke.sh
       - name: Archive 500 review checks and responsive screenshots
@@ -155,6 +156,7 @@ jobs:
           name: microportmap-review-workspace-500
           path: |
             checks/review-workspace-500-results.json
+            checks/review-storage-reliability-500-results.json
             checks/review-workspace-screenshots/*.png
           if-no-files-found: warn
           retention-days: 30
