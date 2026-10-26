@@ -1,0 +1,3508 @@
+{
+  "total": 500,
+  "passed": 500,
+  "failed": 0,
+  "scope": "Controlled DOM/VM metadata, format escaping, CSV, clipboard UI and export recovery checks; real-browser checks run separately. No native clipboard ordering claims.",
+  "cases": [
+    {
+      "taskId": "TK001",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK002",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK003",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK004",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK005",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK006",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK007",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK008",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK009",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK010",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK011",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK012",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK013",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK014",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK015",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK016",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK017",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK018",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK019",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK020",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK021",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK022",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK023",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK024",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK025",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK026",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK027",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK028",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK029",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK030",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK031",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK032",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK033",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK034",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK035",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK036",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK037",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK038",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK039",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK040",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK041",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK042",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK043",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK044",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK045",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK046",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK047",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK048",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK049",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK050",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK051",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK052",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK053",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK054",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK055",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK056",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK057",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK058",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK059",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK060",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK061",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK062",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK063",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK064",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK065",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK066",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK067",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK068",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK069",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK070",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK071",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK072",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK073",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK074",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK075",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK076",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK077",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK078",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK079",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK080",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK081",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK082",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK083",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK084",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK085",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK086",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK087",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK088",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK089",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK090",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK091",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK092",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK093",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK094",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK095",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK096",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK097",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK098",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK099",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK100",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK101",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK102",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK103",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK104",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK105",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK106",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK107",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK108",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK109",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK110",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK111",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK112",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK113",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK114",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK115",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK116",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK117",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK118",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK119",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK120",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK121",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK122",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK123",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK124",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK125",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK126",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK127",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK128",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK129",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK130",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK131",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK132",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK133",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK134",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK135",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK136",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK137",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK138",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK139",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK140",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK141",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK142",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK143",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK144",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK145",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK146",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK147",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK148",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK149",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK150",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK151",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK152",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK153",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK154",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK155",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK156",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK157",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK158",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK159",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK160",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK161",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK162",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK163",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK164",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK165",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK166",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK167",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK168",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK169",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK170",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK171",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK172",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK173",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK174",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK175",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK176",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK177",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK178",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK179",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK180",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK181",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK182",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK183",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK184",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK185",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK186",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK187",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK188",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK189",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK190",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK191",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK192",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK193",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK194",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK195",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK196",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK197",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK198",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK199",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK200",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK201",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK202",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK203",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK204",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK205",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK206",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK207",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK208",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK209",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK210",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK211",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK212",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK213",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK214",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK215",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK216",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK217",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK218",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK219",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK220",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK221",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK222",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK223",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK224",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK225",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK226",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK227",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK228",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK229",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK230",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK231",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK232",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK233",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK234",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK235",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK236",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK237",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK238",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK239",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK240",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK241",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK242",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK243",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK244",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK245",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK246",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK247",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK248",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK249",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK250",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK251",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK252",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK253",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK254",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK255",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK256",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK257",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK258",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK259",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK260",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK261",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK262",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK263",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK264",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK265",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK266",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK267",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK268",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK269",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK270",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK271",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK272",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK273",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK274",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK275",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK276",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK277",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK278",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK279",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK280",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK281",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK282",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK283",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK284",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK285",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK286",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK287",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK288",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK289",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK290",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK291",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK292",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK293",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK294",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK295",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK296",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK297",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK298",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK299",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK300",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK301",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK302",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK303",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK304",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK305",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK306",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK307",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK308",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK309",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK310",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK311",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK312",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK313",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK314",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK315",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK316",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK317",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK318",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK319",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK320",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK321",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK322",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK323",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK324",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK325",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK326",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK327",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK328",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK329",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK330",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK331",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK332",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK333",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK334",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK335",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK336",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK337",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK338",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK339",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK340",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK341",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK342",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK343",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK344",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK345",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK346",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK347",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK348",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK349",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK350",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK351",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK352",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK353",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK354",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK355",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK356",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK357",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK358",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK359",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK360",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK361",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK362",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK363",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK364",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK365",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK366",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK367",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK368",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK369",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK370",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK371",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK372",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK373",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK374",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK375",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK376",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK377",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK378",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK379",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK380",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK381",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK382",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK383",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK384",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK385",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK386",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK387",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK388",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK389",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK390",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK391",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK392",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK393",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK394",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK395",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK396",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK397",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK398",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK399",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK400",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK401",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK402",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK403",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK404",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK405",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK406",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK407",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK408",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK409",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK410",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK411",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK412",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK413",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK414",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK415",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK416",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK417",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK418",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK419",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK420",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK421",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK422",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK423",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK424",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK425",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK426",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK427",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK428",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK429",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK430",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK431",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK432",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK433",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK434",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK435",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK436",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK437",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK438",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK439",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK440",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK441",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK442",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK443",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK444",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK445",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK446",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK447",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK448",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK449",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK450",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK451",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK452",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK453",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK454",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK455",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK456",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK457",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK458",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK459",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK460",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK461",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK462",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK463",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK464",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK465",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK466",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK467",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK468",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK469",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK470",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK471",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK472",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK473",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK474",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK475",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK476",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK477",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK478",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK479",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK480",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK481",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK482",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK483",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK484",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK485",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK486",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK487",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK488",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK489",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK490",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    },
+    {
+      "taskId": "TK491",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "malformed-optional-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "TK492",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "blank-equipment-and-unsafe-source",
+      "passed": true
+    },
+    {
+      "taskId": "TK493",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "markdown-citation-literal-data",
+      "passed": true
+    },
+    {
+      "taskId": "TK494",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "markdown-brief-literal-table-values",
+      "passed": true
+    },
+    {
+      "taskId": "TK495",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "bibtex-literal-tex-characters",
+      "passed": true
+    },
+    {
+      "taskId": "TK496",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "csv-formula-and-quote-boundaries",
+      "passed": true
+    },
+    {
+      "taskId": "TK497",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "clipboard-race-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "TK498",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "download-fallback-and-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "TK499",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "reload-invalidates-old-actions-and-copy",
+      "passed": true
+    },
+    {
+      "taskId": "TK500",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "invalid-catalogue-and-retry-lock",
+      "passed": true
+    }
+  ]
+}
