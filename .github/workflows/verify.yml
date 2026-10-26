@@ -28,14 +28,6 @@ jobs:
           python3 checks/navigation-round12.py
           python3 checks/site-navigation-audit.py
           python3 checks/site-recovery.py
-      - name: Package static source for independent browser QA
-        run: tar -czf microportmap-insights-site.tgz src
-      - name: Retain static source for browser QA
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
-        with:
-          name: microportmap-insights-browser-fixture
-          path: microportmap-insights-site.tgz
-          retention-days: 1
       - name: Research Insights 50 source and syntax audit
         run: |
           python3 checks/research-insights-50-audit.py
