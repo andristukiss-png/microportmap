@@ -108,6 +108,7 @@ jobs:
           python3 checks/project-evidence-500-audit.py
           node --check src/project-evidence-compare.js
           node checks/project-evidence-500.cjs
+          node checks/evidence-reliability-500.cjs
       - name: Evidence Comparison interactive browser and responsive captures
         run: bash checks/project-evidence-browser-smoke.sh
       - name: Retain Evidence Comparison 500 results and screenshots
@@ -117,6 +118,7 @@ jobs:
           name: microportmap-evidence-compare-500
           path: |
             checks/project-evidence-500-results.json
+            checks/evidence-reliability-500-results.json
             checks/project-evidence-screenshots/*.png
           if-no-files-found: warn
           retention-days: 30
