@@ -140,7 +140,7 @@ function load(){
 window.MicroportContrast=Object.freeze({
  getState:()=>({ready,projectId:primaryId,paths:paths.length}),
  getPaths:()=>paths.map(p=>({id:p.id,country:p.country,region:p.region,type:p.infrastructureType,reasons:differences(primary,p)})),
- getExistingRelated:()=>primary?existingRelated([primary,...paths],primary):[]
+ getComparisonURL:targetId=>primary&&paths.some(p=>p.id===targetId)?compare(primary,paths.find(p=>p.id===targetId)):''
 });
 load();
 })();
