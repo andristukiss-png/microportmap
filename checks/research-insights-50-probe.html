@@ -1,0 +1,46 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Insights test</title><link rel="stylesheet" href="/site-navigation.css"><script src="/research-insights.js" defer></script></head>
+<body><div class="stats"></div><div id="mpx-research-hub"></div><div id="atlas"></div><nav class="mp-continue-topics"></nav><div id="mpi-probe-result">PENDING</div>
+<script>
+window.addEventListener('load',async()=>{
+ const output=document.getElementById('mpi-probe-result');
+ const pause=ms=>new Promise(done=>setTimeout(done,ms));
+ const check=(ok,msg)=>{if(!ok)throw Error(msg);};
+ const notify=(e)=>e.dispatchEvent(new Event(e.type==='search'?'input':'change',{bubbles:true}));
+ try{
+  for(let i=0;i<150&&!window.MicroportInsights?.getState().loaded;i++)await pause(40);
+  check(window.MicroportInsights?.getState().matching===50,'initial count not 50');
+  check(document.querySelectorAll('.mpi-chart').length===4,'missing charts');
+  check(document.querySelectorAll('.mpi-card').length===6,'wrong initial pagination');
+  check(document.querySelectorAll('.mpi-stat').length===5,'missing metrics');
+  check(document.querySelector('.mp-continue-topics [data-mpi-link]'),'shared navigation absent');
+  const country=document.getElementById('mpi-country');country.value='Germany';notify(country);
+  check(window.MicroportInsights.getState().country==='Germany','country filter missed');
+  check(window.MicroportInsights.getState().matching>0&&window.MicroportInsights.getState().matching<50,'country result wrong');
+  check(location.search.includes('ins_country=Germany'),'URL state missing');
+  const search=document.getElementById('mpi-search');
+  search.value='nomatchingprojectqwerty';notify(search);
+  check(window.MicroportInsights.getState().matching===0,'empty search count wrong');
+  check(document.querySelector('.mpi-empty'),'empty state absent');
+  document.querySelector('.mpi-filters>.mpi-secondary').click();
+  check(window.MicroportInsights.getState().matching===50,'reset failed');
+  check(!location.search.includes('ins_country'),'URL not reset');
+  const europe=[...document.querySelectorAll('.mpi-bar')].find(b=>b.getAttribute('aria-label')?.includes('Filter Region by Europe'));
+  check(europe,'Europe bar not found');europe.click();
+  check(window.MicroportInsights.getState().region==='Europe','bar drilldown failed');
+  document.querySelector('.mpi-chip').click();
+  check(window.MicroportInsights.getState().region==='','filter chip failed');
+  document.querySelector('.mpi-page-actions button:first-child').click();
+  check(document.querySelectorAll('.mpi-card').length===12,'show more failed');
+  document.querySelector('.mpi-page-actions button:last-child').click();
+  check(document.querySelectorAll('.mpi-card').length===6,'show fewer failed');
+  document.querySelectorAll('.mpi-tab')[1].click();
+  check(document.querySelector('.mpi-bar-labels strong').textContent.includes('%'),'percentage view failed');
+  const year=document.getElementById('mpi-year');
+  check([...year.options].some(o=>o.value==='Unspecified'),'year unspecified missing');
+  const order=document.getElementById('mpi-record-sort');order.value='year';notify(order);
+  check(document.querySelector('.mpi-card a[href^="/projects/"]'),'passport link missing');
+  check(document.querySelector('.mpi-outputs a[href^="/directory/"]'),'directory link missing');
+  output.textContent='PASS: 50 original records, four charts, filters, empty state, reset, chart clicks, pagination, percentages and links';
+ }catch(err){output.textContent='FAIL: '+err.message;}
+});
+</script></body></html>
