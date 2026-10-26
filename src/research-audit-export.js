@@ -4,16 +4,19 @@
   const csvButton = el('audit-download'), jsonButton = el('audit-json'), status = el('audit-status');
   if (!csvButton || !jsonButton || !status) return;
   let checks = [], reviewChecks = [], reviewFilters = {};
-  window.addEventListener('mp-review-view', event => { reviewChecks = event.detail.checks; reviewFilters = event.detail.filters; if (el('audit-scope').value === 'review') status.textContent = reviewChecks.length + (reviewChecks.length === 1 ? ' record' : ' records') + ' in the current review view. No data has been submitted.'; });
+  const selected = () => el('audit-scope').value === 'review' ? reviewChecks : el('audit-scope').value === 'flagged' ? checks.filter(c => c.flags.length) : checks;
+  const syncButtons = () => disable(!checks.length || !selected().length);
+  window.addEventListener('mp-review-view', event => { reviewChecks = event.detail.checks; reviewFilters = event.detail.filters; syncButtons(); if (el('audit-scope').value === 'review') status.textContent = reviewChecks.length + (reviewChecks.length === 1 ? ' record' : ' records') + ' in the current review view. No data has been submitted.'; });
   const disable = value => { csvButton.disabled = value; jsonButton.disabled = value; };
   window.addEventListener('mp-quality-loading', () => { checks = []; reviewChecks = []; disable(true); status.textContent = 'Preparing audit export…'; });
   window.addEventListener('mp-quality-error', () => { checks = []; reviewChecks = []; disable(true); status.textContent = 'Audit exports unavailable while the research dataset cannot be loaded.'; });
   window.addEventListener('mp-quality-ready', event => {
     checks = event.detail.checks;
-    disable(!checks.length);
+    syncButtons();
     status.textContent = el('audit-scope').value === 'review' ? reviewChecks.length + (reviewChecks.length === 1 ? ' record' : ' records') + ' in the current review view. No data has been submitted.' : checks.length + ' records ready; ' + checks.filter(c => c.flags.length).length + ' flagged for metadata review. Dates marked unverified are included.';
   });
   el('audit-scope').addEventListener('change', () => {
+    syncButtons();
     if (checks.length) status.textContent = (el('audit-scope').value === 'flagged' ? checks.filter(c => c.flags.length).length + ' flagged records selected.' : el('audit-scope').value === 'review' ? reviewChecks.length + (reviewChecks.length === 1 ? ' record' : ' records') + ' in the current review view.' : checks.length + ' records selected.') + ' No data has been submitted.';
   });
   const cell = value => { let s = String(value ?? ''); if (/^[\s\uFEFF]*[=+@-]/.test(s)) s = "'" + s; return '"' + s.replace(/"/g, '""') + '"'; };

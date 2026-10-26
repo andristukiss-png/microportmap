@@ -4,7 +4,7 @@
   const search = $('review-search'), country = $('review-country'), flag = $('review-flag');
   const status = $('review-filter-status'), queue = $('review-records'), reset = $('review-reset'), copy = $('review-copy');
   if (!search || !country || !flag || !status || !queue || !reset || !copy) return;
-  let all = [], ready = false, generation = 0;
+  let all = [], ready = false, generation = 0, copyRequest = 0;
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const controls = [search, country, flag, reset, copy];
   const filters = () => ({search: search.value.trim(), country: country.value, flag: flag.value});
@@ -49,6 +49,16 @@
   });
   search.addEventListener('input',()=>render());[country,flag].forEach(c=>c.addEventListener('change',()=>render()));
   reset.addEventListener('click',()=>{search.value='';country.value='';flag.value='';render();search.focus();});
-  copy.addEventListener('click',async()=>{if(!ready)return;const value=url().href,version=generation;try{await navigator.clipboard.writeText(value);if(version===generation)status.textContent='Review link copied. Export scope is chosen separately.';}catch{if(version===generation)status.textContent='Copy this review link: '+value;}});
+  copy.addEventListener('click',async()=>{
+    if(!ready)return;
+    const value=url().href,version=generation,request=++copyRequest;
+    const current=()=>version===generation&&request===copyRequest;
+    let timer;
+    try{
+      await Promise.race([navigator.clipboard.writeText(value),new Promise((_,reject)=>{timer=setTimeout(()=>reject(Error('Clipboard timed out')),5000);})]);
+      if(current())status.textContent='Review link copied. Export scope is chosen separately.';
+    }catch{if(current())status.textContent='Copy this review link: '+value;}
+    finally{clearTimeout(timer);}
+  });
   window.addEventListener('popstate',()=>{if(ready){readURL();render(false);}});
 })();
