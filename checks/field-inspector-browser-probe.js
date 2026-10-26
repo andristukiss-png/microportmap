@@ -29,7 +29,40 @@ window.addEventListener('load',async()=>{
   assert(copyText.includes('Limitations:'),'operational limitations missing');
   const source=tool.getFieldText('sourceURL');
   assert(source.includes('Reported value: https://'),'source URL field missing');
-  output.textContent='PASS: ten original fields, collapsed default, copy action, manual fallback, HTTPS source and caveats';
+  const manual=root.querySelector('.mpf-manual'),fallback=root.querySelector('.mpf-fallback'),statusNode=root.querySelector('#mpf-status');
+  const descriptor=Object.getOwnPropertyDescriptor(navigator,'clipboard');
+  const clipboard=value=>Object.defineProperty(navigator,'clipboard',{configurable:true,value});
+  try{
+   clipboard(undefined);
+   for(const key of expected){
+    assert(await tool.copyField(key)===false,'unsupported clipboard should use fallback');
+    assert(manual.value===tool.getFieldText(key),'fallback lost exact field/source context');
+    assert(!fallback.hidden&&document.activeElement===manual,'manual fallback focus missing');
+    assert(manual.selectionStart===0&&manual.selectionEnd===manual.value.length,'manual fallback text not selected');
+   }
+   let finish;
+   clipboard({writeText:()=>new Promise(resolve=>{finish=resolve;})});
+   const older=tool.copyField('name');
+   clipboard({writeText:async()=>{throw Error('Latest denied');}});
+   await tool.copyField('where');
+   const latest=statusNode.textContent,latestValue=manual.value;
+   finish();assert(await older===false,'superseded success not ignored');
+   assert(statusNode.textContent===latest&&manual.value===latestValue,'older success replaced newer fallback');
+   let reject;
+   clipboard({writeText:()=>new Promise((_,fail)=>{reject=fail;})});
+   const rejected=tool.copyField('name');
+   clipboard({writeText:async()=>{}});
+   first.focus();await tool.copyField('where');const success=statusNode.textContent;
+   reject(Error('Older denied'));assert(await rejected===false,'superseded denial not ignored');
+   assert(fallback.hidden&&manual.value==='','older denial exposed stale fallback');
+   assert(statusNode.textContent===success&&document.activeElement===first,'older denial changed feedback or stole focus');
+   clipboard({writeText:()=>new Promise(()=>{})});
+   assert(await tool.copyField('sourceURL')===false,'stalled clipboard did not time out');
+   assert(!fallback.hidden&&manual.value===source,'timeout fallback missing original source context');
+  }finally{
+   if(descriptor)Object.defineProperty(navigator,'clipboard',descriptor);else delete navigator.clipboard;
+  }
+  output.textContent='PASS: ten field fallbacks, selection/focus, stale success/rejection isolation, copy timeout and source-qualified text';
  }catch(e){output.textContent='FAIL: '+e.message;}
 });
 })();
