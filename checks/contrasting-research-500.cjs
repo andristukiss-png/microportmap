@@ -45,7 +45,7 @@ async function one(origin){
  assert.equal(api.getState().paths,10);
  const paths=api.getPaths();
  const root=originalColumns.children.find(x=>x.id==='mpcr-contrast');
- assert.ok(root,'missing original project's collapsed research panel');
+ assert.ok(root,"missing original project's collapsed research panel");
  assert.equal(root.tagName,'DETAILS');
  const panel=root.children.find(x=>x.className==='mpcr-body');
  const cardGrid=panel.children.find(x=>x.id==='mpcr-path-grid');
