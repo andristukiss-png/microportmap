@@ -231,7 +231,9 @@
   function open(){
     if(opened||document.body.classList.contains('mpx-dialog-open')||
        byId('detail')&&!byId('detail').hidden)return;
-    returnFocus=document.activeElement;opened=true;backdrop.hidden=false;
+    returnFocus=document.activeElement;
+    if(returnFocus===document.body||returnFocus===document.documentElement)returnFocus=trigger;
+    opened=true;backdrop.hidden=false;
     trigger.setAttribute('aria-expanded','true');
     document.body.classList.add('mpt-open');
     query.value='';order.value='saved';
