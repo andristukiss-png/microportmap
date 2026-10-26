@@ -466,5 +466,9 @@
     evidenceCompare.src='/project-evidence-compare.js';
     evidenceCompare.async=true;
     document.body.appendChild(evidenceCompare);
+    const locationTools=document.createElement('script');
+    locationTools.src='/approximate-location-tools.js';
+    locationTools.async=true;
+    document.body.appendChild(locationTools);
   }
 })();
