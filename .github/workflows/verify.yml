@@ -33,6 +33,16 @@ jobs:
           python3 checks/passport-toolkit-500-audit.py
           node --check src/passport-research-toolkit.js
           node checks/passport-toolkit-500.cjs
+      - name: Research passport browser smoke and responsive screenshots
+        run: bash checks/passport-toolkit-browser-smoke.sh
+      - name: Retain Research Toolkit desktop and mobile captures
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: microportmap-passport-toolkit-500-previews
+          path: checks/passport-toolkit-screenshots/*.png
+          if-no-files-found: warn
+          retention-days: 30
       - name: Retain 500 passport action audit results
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
