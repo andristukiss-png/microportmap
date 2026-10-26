@@ -153,9 +153,13 @@ function quickFacts(){
 }
 async function copyText(value,label){
   fallback.hidden=true;status.textContent='';
+  let timeout;
   try{
     if(!navigator.clipboard?.writeText)throw Error('Clipboard is unavailable');
-    await navigator.clipboard.writeText(value);
+    await Promise.race([
+      navigator.clipboard.writeText(value),
+      new Promise((_,reject)=>{timeout=setTimeout(()=>reject(Error('Clipboard timed out')),800);})
+    ]);
     status.textContent=label+' copied. No information was submitted.';
   }catch{
     fallbackValue.value=value;
@@ -163,6 +167,8 @@ async function copyText(value,label){
     fallbackValue.focus({preventScroll:true});
     fallbackValue.select();
     status.textContent='Automatic copying unavailable. Select the prepared '+label+' text below.';
+  }finally{
+    if(timeout)clearTimeout(timeout);
   }
 }
 function download(text,filename,type='text/plain;charset=utf-8'){
