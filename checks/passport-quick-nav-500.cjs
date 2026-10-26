@@ -36,7 +36,7 @@ async function checkOne(record){
  const document={getElementById:key=>key==='mpq-navigation'?null:key==='mpt-open'?saved:null,
    querySelector:key=>key==='main'?main:targets[key]||null,createElement:t=>new El(t),body};
  const location={pathname:'/projects/'+record.id+'/',href:'https://microportmap.com/projects/'+record.id+'/'};
- const context={document,location,AbortController,URLSearchParams,window:{},setTimeout:fn=>{fn();return 1;},clearTimeout:()=>{},
+ const context={document,location,AbortController,URLSearchParams,window:{},setTimeout:(fn,ms)=>1,clearTimeout:()=>{},
   fetch:async path=>{assert.equal(path,'/data/projects.json');return {ok:true,json:async()=>data};}};
  vm.runInNewContext(src,context);
  for(let n=0;n<12&&!context.window.MicroportQuickNav?.getState().ready;n++)
