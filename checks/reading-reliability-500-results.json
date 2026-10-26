@@ -1,0 +1,3508 @@
+{
+  "total": 500,
+  "passed": 500,
+  "failed": 0,
+  "scope": "Controlled DOM/VM interaction transitions; not a browser or deployment test",
+  "cases": [
+    {
+      "taskId": "RR001",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR002",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR003",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR004",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR005",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR006",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR007",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR008",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR009",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR010",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR011",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR012",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR013",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR014",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR015",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR016",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR017",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR018",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR019",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR020",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR021",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR022",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR023",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR024",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR025",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR026",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR027",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR028",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR029",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR030",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR031",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR032",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR033",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR034",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR035",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR036",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR037",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR038",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR039",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR040",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR041",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR042",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR043",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR044",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR045",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR046",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR047",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR048",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR049",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR050",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR051",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR052",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR053",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR054",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR055",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR056",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR057",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR058",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR059",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR060",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR061",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR062",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR063",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR064",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR065",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR066",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR067",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR068",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR069",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR070",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR071",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR072",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR073",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR074",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR075",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR076",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR077",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR078",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR079",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR080",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR081",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR082",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR083",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR084",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR085",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR086",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR087",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR088",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR089",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR090",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR091",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR092",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR093",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR094",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR095",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR096",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR097",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR098",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR099",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR100",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR101",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR102",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR103",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR104",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR105",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR106",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR107",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR108",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR109",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR110",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR111",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR112",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR113",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR114",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR115",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR116",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR117",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR118",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR119",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR120",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR121",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR122",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR123",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR124",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR125",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR126",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR127",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR128",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR129",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR130",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR131",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR132",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR133",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR134",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR135",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR136",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR137",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR138",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR139",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR140",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR141",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR142",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR143",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR144",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR145",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR146",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR147",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR148",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR149",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR150",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR151",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR152",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR153",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR154",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR155",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR156",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR157",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR158",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR159",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR160",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR161",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR162",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR163",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR164",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR165",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR166",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR167",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR168",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR169",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR170",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR171",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR172",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR173",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR174",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR175",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR176",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR177",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR178",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR179",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR180",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR181",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR182",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR183",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR184",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR185",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR186",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR187",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR188",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR189",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR190",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR191",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR192",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR193",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR194",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR195",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR196",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR197",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR198",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR199",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR200",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR201",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR202",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR203",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR204",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR205",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR206",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR207",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR208",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR209",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR210",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR211",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR212",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR213",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR214",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR215",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR216",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR217",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR218",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR219",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR220",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR221",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR222",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR223",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR224",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR225",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR226",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR227",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR228",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR229",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR230",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR231",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR232",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR233",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR234",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR235",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR236",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR237",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR238",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR239",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR240",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR241",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR242",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR243",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR244",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR245",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR246",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR247",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR248",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR249",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR250",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR251",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR252",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR253",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR254",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR255",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR256",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR257",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR258",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR259",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR260",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR261",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR262",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR263",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR264",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR265",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR266",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR267",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR268",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR269",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR270",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR271",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR272",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR273",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR274",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR275",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR276",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR277",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR278",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR279",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR280",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR281",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR282",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR283",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR284",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR285",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR286",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR287",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR288",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR289",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR290",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR291",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR292",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR293",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR294",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR295",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR296",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR297",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR298",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR299",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR300",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR301",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR302",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR303",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR304",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR305",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR306",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR307",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR308",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR309",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR310",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR311",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR312",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR313",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR314",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR315",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR316",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR317",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR318",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR319",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR320",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR321",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR322",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR323",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR324",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR325",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR326",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR327",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR328",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR329",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR330",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR331",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR332",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR333",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR334",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR335",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR336",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR337",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR338",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR339",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR340",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR341",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR342",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR343",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR344",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR345",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR346",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR347",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR348",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR349",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR350",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR351",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR352",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR353",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR354",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR355",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR356",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR357",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR358",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR359",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR360",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR361",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR362",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR363",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR364",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR365",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR366",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR367",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR368",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR369",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR370",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR371",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR372",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR373",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR374",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR375",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR376",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR377",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR378",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR379",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR380",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR381",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR382",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR383",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR384",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR385",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR386",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR387",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR388",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR389",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR390",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR391",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR392",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR393",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR394",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR395",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR396",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR397",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR398",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR399",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR400",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR401",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR402",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR403",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR404",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR405",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR406",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR407",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR408",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR409",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR410",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR411",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR412",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR413",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR414",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR415",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR416",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR417",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR418",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR419",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR420",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR421",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR422",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR423",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR424",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR425",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR426",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR427",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR428",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR429",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR430",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR431",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR432",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR433",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR434",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR435",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR436",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR437",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR438",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR439",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR440",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR441",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR442",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR443",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR444",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR445",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR446",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR447",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR448",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR449",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR450",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR451",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR452",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR453",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR454",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR455",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR456",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR457",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR458",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR459",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR460",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR461",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR462",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR463",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR464",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR465",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR466",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR467",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR468",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR469",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR470",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR471",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR472",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR473",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR474",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR475",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR476",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR477",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR478",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR479",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR480",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR481",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR482",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR483",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR484",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR485",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR486",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR487",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR488",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR489",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR490",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "RR491",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "focus-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR492",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "show-tools",
+      "passed": true
+    },
+    {
+      "taskId": "RR493",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "expand-from-focus",
+      "passed": true
+    },
+    {
+      "taskId": "RR494",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "collapse-keeps-reader",
+      "passed": true
+    },
+    {
+      "taskId": "RR495",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "upper-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR496",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "lower-bound",
+      "passed": true
+    },
+    {
+      "taskId": "RR497",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "normal-restores-bounds",
+      "passed": true
+    },
+    {
+      "taskId": "RR498",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "spacing-exclusive-toggle",
+      "passed": true
+    },
+    {
+      "taskId": "RR499",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "button-semantics",
+      "passed": true
+    },
+    {
+      "taskId": "RR500",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "print-failure-recovery",
+      "passed": true
+    }
+  ]
+}

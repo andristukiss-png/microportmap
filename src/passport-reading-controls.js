@@ -11,7 +11,7 @@ const node=(tag,cls,caption)=>{
  if(caption!==undefined)el.textContent=caption;
  return el;
 };
-let scale=1,spacing='normal',focused=false,actionCount=0;
+let scale=1,spacing='normal',focused=false;
 const root=node('details','mprc-reader');
 root.id='mprc-controls';
 const head=node('summary','mprc-title','Reading controls · 10 actions');
@@ -28,7 +28,7 @@ status.id='mprc-status';
 status.setAttribute('role','status');
 status.setAttribute('aria-live','polite');
 const caveat=node('p','mprc-note',
- 'Focus mode hides supplementary research tools temporarily, but never deletes them. Open “Show research tools” to restore them.');
+ 'Focus mode hides supplementary research tools temporarily, but never deletes them. Choose “Show research tools” or turn off “Focus on project” to restore them.');
 panel.append(description,controls,status,caveat);
 root.append(head,panel);
 const hero=main.querySelector('.hero');
@@ -43,15 +43,18 @@ function refresh(){
  document.body.classList.toggle('mprc-compact',spacing==='compact');
  for(const btn of controls.children){
   const k=btn.dataset.mprcAction;
-  const pressed=k==='focus'&&focused||k==='tools'&&!focused||
-    k==='normal-text'&&scale===1||k==='comfort'&&spacing==='comfortable'||k==='compact'&&spacing==='compact';
-  btn.setAttribute('aria-pressed',String(pressed));
+  if(['focus','comfort','compact'].includes(k)){
+   const pressed=k==='focus'?focused:k==='comfort'?spacing==='comfortable':spacing==='compact';
+   btn.setAttribute('aria-pressed',String(pressed));
+  }
+  if(k==='larger')btn.disabled=scale>=1.4;
+  if(k==='smaller')btn.disabled=scale<=.9;
  }
 }
 function action(key){
  let message='';
  switch(key){
-  case 'focus':focused=true;message='Focus mode: supplementary panels hidden, original passport visible.';break;
+  case 'focus':focused=!focused;message=focused?'Focus mode: supplementary panels hidden, original passport visible.':'Research tools restored.';break;
   case 'tools':focused=false;message='Research tools restored.';break;
   case 'larger':scale=Math.min(1.4,+(scale+.1).toFixed(2));message='Passport text increased to '+Math.round(scale*100)+'%.';break;
   case 'smaller':scale=Math.max(.9,+(scale-.1).toFixed(2));message='Passport text adjusted to '+Math.round(scale*100)+'%.';break;
@@ -59,6 +62,7 @@ function action(key){
   case 'comfort':spacing=spacing==='comfortable'?'normal':'comfortable';message='Reading spacing: '+spacing+'.';break;
   case 'compact':spacing=spacing==='compact'?'normal':'compact';message='Reading spacing: '+spacing+'.';break;
   case 'expand':{
+    focused=false;
     const sections=[...main.querySelectorAll('details')].filter(d=>d!==root);
     sections.forEach(d=>{d.open=true;});
     message=sections.length+' additional research disclosures expanded.';break;
@@ -71,7 +75,10 @@ function action(key){
   case 'print':{
     message='Opening the browser print dialog for the original research passport.';
     announce(message);refresh();
-    if(typeof window.print==='function')window.print();
+    try{
+     if(typeof window.print!=='function')throw Error('Printing unavailable');
+     window.print();
+    }catch{announce('Printing is unavailable. Use your browser menu to print this research passport.');return false;}
     return true;
   }
   default:return false;
