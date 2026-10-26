@@ -24,7 +24,7 @@ assert css.count("{")==css.count("}")
 assert loader.count("fieldInspector.src='/passport-field-inspector.js'")==1
 for key in keys:assert f"['{key}'," in src,key
 for needle in ["function fieldText(def)","function normalizedValue(def)","async function copyField(def)",
-"function render()","function load()","sourceURL","safeSource(p)","aria-live",
+"function render()","function load()","sourceURL","const safeSource=p=>","aria-live",
 "mpf-inspector","MicroportFields","navigator.clipboard.writeText","setTimeout",
 "Original source","Not recorded in catalogue"]:
     assert needle in src,needle
