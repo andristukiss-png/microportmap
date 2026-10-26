@@ -470,5 +470,9 @@
     locationTools.src='/approximate-location-tools.js';
     locationTools.async=true;
     document.body.appendChild(locationTools);
+    const quickNav=document.createElement('script');
+    quickNav.src='/passport-quick-navigation.js';
+    quickNav.async=true;
+    document.body.appendChild(quickNav);
   }
 })();
