@@ -58,6 +58,8 @@ async function workflow(p,category,index){
  // Malformed storage must not be overwritten or destroy in-memory notes.
  const good=shared.raw,writes=shared.writes;shared.raw='{malformed';a.api.update(key,'follow-up','Keep while storage malformed');assert.equal(shared.raw,'{malformed');assert.equal(shared.writes,writes);assert.equal(a.task(key).note,'Keep while storage malformed');
  shared.raw=good;a.api.update(next,'reviewed','Recover after malformed storage');assert.equal(JSON.parse(shared.raw)[p.id][key].note,'Keep while storage malformed');
+ shared.failRead=true;a.api.update(key,'follow-up','Temporary read-denied note');a.external({key:KEY,newValue:shared.raw});assert.equal(a.task(key).note,'Temporary read-denied note');assert.match(a.meta.textContent,/temporary/);
+ shared.failRead=false;a.api.update(next,'reviewed','Recovered after read denial');assert.equal(JSON.parse(shared.raw)[p.id][key].note,'Temporary read-denied note');
  a.api.update(key,'reviewed','X'.repeat(700));assert.equal(a.task(key).note.length,600);assert.equal(a.api.update(key,'unverified','invalid'),false);
  // Storage updates synchronize controls without replacing the focused note field.
  const focused=a.note(key);focused.focus();c.api.update(next,'follow-up','External changed task');a.external({key:KEY,newValue:shared.raw});
