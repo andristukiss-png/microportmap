@@ -28,6 +28,23 @@ jobs:
           python3 checks/navigation-round12.py
           python3 checks/site-navigation-audit.py
           python3 checks/site-recovery.py
+      - name: Approximate Location 500 integrity and action audit
+        run: |
+          python3 checks/approximate-location-500-audit.py
+          node --check src/approximate-location-tools.js
+          node checks/approximate-location-500.cjs
+      - name: Approximate Location browser smoke and screenshots
+        run: bash checks/approximate-location-browser-smoke.sh
+      - name: Archive Approximate Location 500 results and visuals
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: microportmap-approximate-location-500
+          path: |
+            checks/approximate-location-500-results.json
+            checks/approximate-location-screenshots/*.png
+          if-no-files-found: warn
+          retention-days: 30
       - name: Evidence Comparison 500 source and runtime matrix
         run: |
           python3 checks/project-evidence-500-audit.py
