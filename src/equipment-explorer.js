@@ -329,7 +329,7 @@ function prepare(){
  compareSelectB.replaceChildren(Opt('','Second category'));
  for(const type of types){compareSelectA.append(Opt(type,type));compareSelectB.append(Opt(type,type));}
  if(types.length>1){compareSelectA.value=types[0];compareSelectB.value=types[1];}
- syncInputs();loaded=true;filter();setView('equipment');document.body.classList.add('mpe-ready');
+ syncInputs();loaded=true;filter();renderCompare();setView('equipment');document.body.classList.add('mpe-ready');
  document.documentElement.dataset.mpeLoaded='1';
 }
 function load(){
