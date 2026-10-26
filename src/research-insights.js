@@ -67,11 +67,21 @@ function place(){
   if(nav.querySelector('[data-mpi-link]'))return;
   const l=a('Research insights','/#insights');l.dataset.mpiLink='1';nav.append(l);
  });
+ const directory=document.querySelector('.mpx-directory-tools');
+ if(directory&&!directory.querySelector('[data-mpi-link]')){
+  const l=a('Explore the global research picture','/#insights','mpi-secondary');l.dataset.mpiLink='1';directory.append(l);
+ }
+ const quality=document.querySelector('.mpx-quality-guide');
+ if(quality&&!quality.querySelector('[data-mpi-link]')){
+  const l=a('Explore research coverage','/#insights','mpi-secondary');l.dataset.mpiLink='1';quality.append(l);
+ }
+ const passport=document.querySelector('.mpx-passport-explore');
+ if(passport&&!passport.querySelector('[data-mpi-link]')){
+  const l=a('Research insights by country','/#insights','mpi-secondary');l.dataset.mpiLink='1';passport.append(l);
+ }
  if(!document.getElementById('atlas'))return;
  const anchor=document.getElementById('mpx-research-hub')||document.querySelector('.stats');
  anchor?.insertAdjacentElement('afterend',root);
- const directory=document.querySelector('.mpx-directory-tools');
- if(directory&&!directory.querySelector('[data-mpi-link]'))directory.append(a('Explore the full research picture','/#insights'));
 }
 function getLink(){
  const u=new URL('/',location.origin);
