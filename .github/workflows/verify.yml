@@ -28,6 +28,20 @@ jobs:
           python3 checks/navigation-round12.py
           python3 checks/site-navigation-audit.py
           python3 checks/site-recovery.py
+      - name: Country Region 50 source and syntax audit
+        run: |
+          python3 checks/country-explorer-50-audit.py
+          node --check src/country-explorer.js
+      - name: Country Explorer real-browser functional smoke
+        run: bash checks/country-explorer-50-browser-smoke.sh
+      - name: Retain Country Explorer desktop and mobile screenshots
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: microportmap-country-region-50
+          path: checks/country-explorer-50-screenshots/*.png
+          if-no-files-found: warn
+          retention-days: 30
       - name: Research Insights 50 source and syntax audit
         run: |
           python3 checks/research-insights-50-audit.py
