@@ -119,9 +119,10 @@
     for(const b of document.querySelectorAll('[data-mpt-save]')){
       const id=b.getAttribute('data-mpt-save');
       const has=selected.includes(id);
-      b.textContent=has?'✓ Saved to trail':'+ Save to trail';
-      b.setAttribute('aria-pressed',String(has));
-      b.disabled=!has&&selected.length>=LIMIT;
+      const caption=has?'✓ Saved to trail':'+ Save to trail';
+      if(b.textContent!==caption)b.textContent=caption;
+      if(b.getAttribute('aria-pressed')!==String(has))b.setAttribute('aria-pressed',String(has));
+      if(b.disabled!==(!has&&selected.length>=LIMIT))b.disabled=!has&&selected.length>=LIMIT;
       b.title=b.disabled?'Your trail can hold up to five projects':'';
     }
   }
