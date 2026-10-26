@@ -28,6 +28,20 @@ jobs:
           python3 checks/navigation-round12.py
           python3 checks/site-navigation-audit.py
           python3 checks/site-recovery.py
+      - name: Reported Operators 50 source and syntax audit
+        run: |
+          python3 checks/operator-explorer-50-audit.py
+          node --check src/operator-explorer.js
+      - name: Reported Operators browser interaction and responsive smoke
+        run: bash checks/operator-explorer-50-browser-smoke.sh
+      - name: Retain Reported Operators desktop and mobile screenshots
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: microportmap-operator-explorer-50
+          path: checks/operator-explorer-50-screenshots/*.png
+          if-no-files-found: warn
+          retention-days: 14
       - name: Technology and Equipment 50 source audit
         run: |
           python3 checks/equipment-explorer-50-audit.py

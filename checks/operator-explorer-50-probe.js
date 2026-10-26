@@ -1,0 +1,57 @@
+(()=>{
+window.addEventListener('load',async()=>{
+ const output=document.getElementById('mpo-probe');
+ const sleep=ms=>new Promise(done=>setTimeout(done,ms));
+ const assert=(c,m)=>{if(!c)throw Error(m);};
+ const change=(node,t='change')=>node.dispatchEvent(new Event(t,{bubbles:true}));
+ try{
+  for(let i=0;i<150&&!window.MicroportOperators?.getState().ready;i++)await sleep(40);
+  const explorer=window.MicroportOperators;
+  assert(explorer?.getState().ready,'catalogue not ready');
+  assert(explorer.getState().records===50,'expected 50 original records');
+  assert(explorer.getState().labels===48,'expected 48 exact attribution labels');
+  assert(explorer.getOperatorLabels().length===48,'operator list mutated');
+  assert(document.body.classList.contains('mpo-loaded'),'legacy list not replaced after load');
+  assert(document.querySelectorAll('.mpo-metric').length===5,'metrics not rendered');
+  assert(document.querySelectorAll('.mpo-card').length===12,'operator pagination not 12');
+  assert(document.querySelectorAll('.mpo-quick-actions button').length===6,'top operator links absent');
+  assert(document.querySelectorAll('.mpo-table tr').length===6,'operator comparison has wrong rows');
+  const target=document.querySelector('.mpo-card');
+  const selectedLabel=target.querySelector('h4').textContent;
+  target.querySelector('.mpo-primary').click();
+  assert(explorer.getState().selected===selectedLabel,'label drilldown not selected');
+  assert(explorer.getState().records>0&&explorer.getState().records<=50,'selected result count invalid');
+  assert(!document.getElementById('mpo-detail').hidden,'operator details hidden');
+  assert(document.querySelector('.mpo-project a[href^="/projects/"]'),'passport link missing');
+  assert(location.search.includes('op_label='),'attribution not preserved in URL');
+  assert(document.querySelector('.mpo-detail-head button'),'detail close missing');
+  document.querySelector('.mpo-detail-head button').click();
+  assert(explorer.getState().selected==='','detail close failed');
+  const country=document.getElementById('mpo-country');
+  country.value='Germany';change(country);
+  assert(explorer.getState().country==='Germany','country filter did not apply');
+  assert(explorer.getState().records>0&&explorer.getState().records<50,'Germany filter count invalid');
+  assert(location.search.includes('op_country=Germany'),'country URL not preserved');
+  const search=document.getElementById('mpo-query');
+  search.value='nomatchingoperatorzzzz';change(search,'input');
+  assert(explorer.getState().records===0,'unmatched search not empty');
+  assert(document.querySelector('.mpo-empty'),'empty-state message missing');
+  const reset=document.querySelector('.mpo-filters>.mpo-secondary');reset.click();
+  assert(explorer.getState().records===50,'clear filters did not reset');
+  const min=document.getElementById('mpo-minimum');
+  min.value='2';change(min);
+  assert(explorer.getState().labels<48,'minimum reports should reduce attribution labels');
+  const sort=document.getElementById('mpo-sort');sort.value='alpha';change(sort);
+  assert([...document.querySelectorAll('.mpo-card h4')].map(x=>x.textContent).every((s,i,l)=>!i||l[i-1].localeCompare(s)<=0),'operator alphabetical sort failed');
+  reset.click();
+  const swap=document.querySelector('.mpo-compare-filters button');swap.click();
+  assert(document.querySelectorAll('.mpo-table tr').length===6,'comparison swap failed');
+  const lhs=document.getElementById('mpo-compare-left'),rhs=document.getElementById('mpo-compare-right');
+  rhs.value=lhs.value;change(rhs);
+  assert(document.getElementById('mpo-comparison').textContent.includes('different attribution'),'same-label comparison warning missing');
+  assert(document.querySelector('.mpo-exports a[href^="/directory/"]'),'directory handoff missing');
+  assert(document.querySelectorAll('.mpo-exports button').length===3,'CSV JSON Share controls missing');
+  output.textContent='PASS: 50 records, 48 exact attributions, search, filters, drilldown, labels, URL, compare, sorting and exports';
+ }catch(e){output.textContent='FAIL: '+e.message;}
+});
+})();
