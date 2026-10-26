@@ -24,7 +24,7 @@ assert loader.count("passportToolkit.src='/passport-research-toolkit.js'")==1
 assert css.count("Passport Research Toolkit · 500 per-record actions")==1
 assert css.count("{")==css.count("}")
 for task in ops:assert "'"+task["actionId"]+"'" in source,task["actionId"]
-for needle in ["function citationPlain()","function citationMarkdown()","function citationBibTeX()","function briefText()","function briefMarkdown()","function reviewText()","function reviewCSV()","function quickFacts()","function renderEvidence()","function sourceURL(p)","'aria-live'","'aria-disabled'","new URLSearchParams","navigator.clipboard","URL.createObjectURL","verificationStatus","reportDateLabel","MicroportPassportToolkit"]:
+for needle in ["function citationPlain()","function citationMarkdown()","function citationBibTeX()","function briefText()","function briefMarkdown()","function reviewText()","function reviewCSV()","function quickFacts()","function renderEvidence()","const sourceURL=p=>","'aria-live'","'aria-disabled'","new URLSearchParams","navigator.clipboard","URL.createObjectURL","verificationStatus","reportDateLabel","MicroportPassportToolkit"]:
     assert needle in source,needle
 assert r"^[\s\uFEFF]*[=+@-]" in source,"CSV formula safety absent"
 print("PASS: 500 real passport/action instances on 50 existing records, no original HTML rewrites")
