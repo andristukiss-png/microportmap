@@ -1,0 +1,363 @@
+{
+  "batch": "research-insights-50",
+  "baseMain": "074ee1c5231c643ced5a37c4faa72f6480554c46",
+  "scope": "50 interface affordances/behaviors in one source-derived dashboard, not 50 new datasets or independent apps",
+  "preserved": "Original 50 research records, 72 HTML pages, existing theme and core exports",
+  "caveats": [
+    "Report-label years are not verified opening years",
+    "Public research records are not independently verified operational sites",
+    "Physical-device checks and source accuracy remain unverified"
+  ],
+  "tasks": [
+    {
+      "id": "I01",
+      "area": "Coverage dashboard",
+      "title": "Insert homepage Research Insights section",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I02",
+      "area": "Coverage dashboard",
+      "title": "Explain coverage and operational caveat",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I03",
+      "area": "Coverage dashboard",
+      "title": "Show matching record count",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I04",
+      "area": "Coverage dashboard",
+      "title": "Show matching country count",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I05",
+      "area": "Coverage dashboard",
+      "title": "Show matching infrastructure type count",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I06",
+      "area": "Coverage dashboard",
+      "title": "Show represented region count",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I07",
+      "area": "Coverage dashboard",
+      "title": "Show explicit source report-year count",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I08",
+      "area": "Coverage dashboard",
+      "title": "Link to full directory",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I09",
+      "area": "Coverage dashboard",
+      "title": "Add shared-footer navigation to insights",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I10",
+      "area": "Coverage dashboard",
+      "title": "Link from directory passports and evidence",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I11",
+      "area": "Interactive filtering",
+      "title": "Search names operators and equipment",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I12",
+      "area": "Interactive filtering",
+      "title": "Accent-insensitive case-insensitive matching",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I13",
+      "area": "Interactive filtering",
+      "title": "Filter by country",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I14",
+      "area": "Interactive filtering",
+      "title": "Filter by infrastructure type",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I15",
+      "area": "Interactive filtering",
+      "title": "Filter by region",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I16",
+      "area": "Interactive filtering",
+      "title": "Filter by report year",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I17",
+      "area": "Interactive filtering",
+      "title": "Support unspecified year",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I18",
+      "area": "Interactive filtering",
+      "title": "Combine search and categorical filters",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I19",
+      "area": "Interactive filtering",
+      "title": "Clear all filters",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I20",
+      "area": "Interactive filtering",
+      "title": "Remove active filter individually",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I21",
+      "area": "Interactive filtering",
+      "title": "Show active filter chips",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I22",
+      "area": "Interactive filtering",
+      "title": "Restore filters from bookmarkable URL",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I23",
+      "area": "Accessible coverage charts",
+      "title": "Show chart grouped by country",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I24",
+      "area": "Accessible coverage charts",
+      "title": "Show chart grouped by infrastructure type",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I25",
+      "area": "Accessible coverage charts",
+      "title": "Show chart grouped by region",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I26",
+      "area": "Accessible coverage charts",
+      "title": "Show source report-year chart",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I27",
+      "area": "Accessible coverage charts",
+      "title": "Render responsive bars with counts",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I28",
+      "area": "Accessible coverage charts",
+      "title": "Switch count and percentage displays",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I29",
+      "area": "Accessible coverage charts",
+      "title": "Sort counts descending",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I30",
+      "area": "Accessible coverage charts",
+      "title": "Sort labels A–Z",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I31",
+      "area": "Accessible coverage charts",
+      "title": "Click bar to apply filter",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I32",
+      "area": "Accessible coverage charts",
+      "title": "Click active bar to clear filter",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I33",
+      "area": "Accessible coverage charts",
+      "title": "Expand full country chart",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I34",
+      "area": "Accessible coverage charts",
+      "title": "Show empty chart feedback",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I35",
+      "area": "Research drilldown",
+      "title": "List matching published records",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I36",
+      "area": "Research drilldown",
+      "title": "Link project passports",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I37",
+      "area": "Research drilldown",
+      "title": "Link safe original evidence",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I38",
+      "area": "Research drilldown",
+      "title": "Show country and type metadata",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I39",
+      "area": "Research drilldown",
+      "title": "Show original approximate location wording",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I40",
+      "area": "Research drilldown",
+      "title": "Show source report-date labels",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I41",
+      "area": "Research drilldown",
+      "title": "Sort projects by name",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I42",
+      "area": "Research drilldown",
+      "title": "Sort projects by country",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I43",
+      "area": "Research drilldown",
+      "title": "Sort projects by newest report year",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I44",
+      "area": "Research drilldown",
+      "title": "Show additional results six at a time",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I45",
+      "area": "Export and trust",
+      "title": "Export filtered original JSON research objects",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I46",
+      "area": "Export and trust",
+      "title": "Export defined-column CSV",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I47",
+      "area": "Export and trust",
+      "title": "Protect CSV from spreadsheet formulas",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I48",
+      "area": "Export and trust",
+      "title": "Copy insight URL with clipboard fallback",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I49",
+      "area": "Export and trust",
+      "title": "Open directory with matching filters",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    },
+    {
+      "id": "I50",
+      "area": "Export and trust",
+      "title": "Offer retryable errors and caveats",
+      "source": "src/research-insights.js",
+      "status": "implemented; awaiting CI"
+    }
+  ]
+}
