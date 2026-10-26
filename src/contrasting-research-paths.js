@@ -15,7 +15,8 @@ const link=(title,url,cls='mpcr-link')=>{
  const a=make('a',cls,title);a.href=url;return a;
 };
 const validSource=p=>{
- try{const x=new URL(p.source?.url);return x.protocol==='https:'&&!x.username&&!x.password?x.href:null}
+ if(typeof p.source?.url!=='string')return null;
+ try{const x=new URL(p.source.url);return x.protocol==='https:'&&!x.username&&!x.password?x.href:null}
  catch{return null;}
 };
 const passport=p=>'/projects/'+encodeURIComponent(p.id)+'/';
@@ -103,11 +104,14 @@ function render(){
   row.append(make('p','mpcr-source','Original report attribution: '+sourceLabel));
   const buttons=make('div','mpcr-actions');
   const dest=link('Read research passport',passport(p),'mpcr-primary');dest.dataset.mpcrOpen=p.id;
+  dest.setAttribute('aria-label','Read research passport: '+p.name);
   const comp=link('Compare these two',compare(primary,p),'mpcr-link');comp.dataset.mpcrCompare=p.id;
+  comp.setAttribute('aria-label','Compare '+primary.name+' with '+p.name);
   buttons.append(dest,comp);
   const uri=validSource(p);
   if(uri){
    const s=link('Original source ↗',uri,'mpcr-link');s.target='_blank';s.rel='noopener noreferrer';
+   s.setAttribute('aria-label','Original source for '+p.name+' (opens in a new tab)');
    buttons.append(s);
   }
   row.append(buttons);grid.append(row);
@@ -117,28 +121,41 @@ function render(){
 }
 function load(){
  if(busy)return;
- busy=true;retry.hidden=true;status.textContent='Loading other research records…';
- const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),12000);
- fetch('/data/projects.json',{signal:controller.signal})
- .then(r=>{if(!r.ok)throw Error('Research catalogue unavailable');return r.json();})
+ busy=true;ready=false;primary=null;paths=[];
+ root.dataset.mpcrReady='false';root.setAttribute('aria-busy','true');
+ grid.replaceChildren();metrics.replaceChildren();retry.disabled=true;
+ status.textContent='Loading other research records…';
+ const controller=new AbortController();
+ let timer;
+ // Bound the entire response/JSON operation, even when an adapter ignores abort.
+ const deadline=new Promise((_,reject)=>{timer=setTimeout(()=>{
+  controller.abort();reject(Error('Research catalogue timed out'));
+ },12000);});
+ Promise.race([
+  Promise.resolve().then(()=>fetch('/data/projects.json',{signal:controller.signal}))
+   .then(r=>{if(!r.ok)throw Error('Research catalogue unavailable');return r.json();}),
+  deadline
+ ])
  .then(data=>{
   const records=data?.records;
   if(!Array.isArray(records)||records.length!==50||
-     records.some(p=>!p||typeof p.id!=='string'||!/^[a-z0-9-]+$/.test(p.id)||typeof p.name!=='string'||!p.name.trim())||
+     records.some(p=>!p||typeof p.id!=='string'||!/^[a-z0-9-]+$/.test(p.id)||typeof p.name!=='string'||!p.name.trim()||
+       ['country','region','infrastructureType'].some(key=>typeof p[key]!=='string'||!p[key].trim())||
+       (p.source?.name!=null&&typeof p.source.name!=='string'))||
      new Set(records.map(p=>p.id)).size!==50)throw Error('Unexpected catalogue');
   primary=records.find(p=>p.id===primaryId);
   if(!primary)throw Error('Research record not found');
   paths=contrastPaths(records,primary);
   if(paths.length!==10)throw Error('Not enough other records for ten research paths');
-  render();
+  render();retry.hidden=true;
  }).catch(()=>{
-  ready=false;retry.hidden=false;
+  ready=false;primary=null;paths=[];grid.replaceChildren();metrics.replaceChildren();retry.hidden=false;
   root.dataset.mpcrReady='false';
   status.textContent='Contrasting research suggestions are unavailable. The original passport and existing related-project links remain usable.';
- }).finally(()=>{busy=false;clearTimeout(timer);});
+ }).finally(()=>{busy=false;retry.disabled=false;root.setAttribute('aria-busy','false');clearTimeout(timer);});
 }
 window.MicroportContrast=Object.freeze({
- getState:()=>({ready,projectId:primaryId,paths:paths.length}),
+ getState:()=>({ready,loading:busy,projectId:primaryId,paths:paths.length}),
  getPaths:()=>paths.map(p=>({id:p.id,country:p.country,region:p.region,type:p.infrastructureType,reasons:differences(primary,p)})),
  getComparisonURL:targetId=>primary&&paths.some(p=>p.id===targetId)?compare(primary,paths.find(p=>p.id===targetId)):''
 });
