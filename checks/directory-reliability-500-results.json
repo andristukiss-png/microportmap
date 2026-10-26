@@ -1,0 +1,3008 @@
+{
+  "total": 500,
+  "passed": 500,
+  "failed": 0,
+  "scope": "Controlled DOM/VM directory deadline, retry, clipboard and export checks; browser checks run separately.",
+  "cases": [
+    {
+      "taskId": "DR001",
+      "projectId": "shenzhen",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR002",
+      "projectId": "shenzhen",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR003",
+      "projectId": "shenzhen",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR004",
+      "projectId": "shenzhen",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR005",
+      "projectId": "shenzhen",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR006",
+      "projectId": "shenzhen",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR007",
+      "projectId": "shenzhen",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR008",
+      "projectId": "shenzhen",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR009",
+      "projectId": "shenzhen",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR010",
+      "projectId": "shenzhen",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR011",
+      "projectId": "rotterdam",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR012",
+      "projectId": "rotterdam",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR013",
+      "projectId": "rotterdam",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR014",
+      "projectId": "rotterdam",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR015",
+      "projectId": "rotterdam",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR016",
+      "projectId": "rotterdam",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR017",
+      "projectId": "rotterdam",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR018",
+      "projectId": "rotterdam",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR019",
+      "projectId": "rotterdam",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR020",
+      "projectId": "rotterdam",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR021",
+      "projectId": "kiel",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR022",
+      "projectId": "kiel",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR023",
+      "projectId": "kiel",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR024",
+      "projectId": "kiel",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR025",
+      "projectId": "kiel",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR026",
+      "projectId": "kiel",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR027",
+      "projectId": "kiel",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR028",
+      "projectId": "kiel",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR029",
+      "projectId": "kiel",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR030",
+      "projectId": "kiel",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR031",
+      "projectId": "italy",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR032",
+      "projectId": "italy",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR033",
+      "projectId": "italy",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR034",
+      "projectId": "italy",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR035",
+      "projectId": "italy",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR036",
+      "projectId": "italy",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR037",
+      "projectId": "italy",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR038",
+      "projectId": "italy",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR039",
+      "projectId": "italy",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR040",
+      "projectId": "italy",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR041",
+      "projectId": "oman",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR042",
+      "projectId": "oman",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR043",
+      "projectId": "oman",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR044",
+      "projectId": "oman",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR045",
+      "projectId": "oman",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR046",
+      "projectId": "oman",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR047",
+      "projectId": "oman",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR048",
+      "projectId": "oman",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR049",
+      "projectId": "oman",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR050",
+      "projectId": "oman",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR051",
+      "projectId": "australia",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR052",
+      "projectId": "australia",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR053",
+      "projectId": "australia",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR054",
+      "projectId": "australia",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR055",
+      "projectId": "australia",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR056",
+      "projectId": "australia",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR057",
+      "projectId": "australia",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR058",
+      "projectId": "australia",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR059",
+      "projectId": "australia",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR060",
+      "projectId": "australia",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR061",
+      "projectId": "enbw",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR062",
+      "projectId": "enbw",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR063",
+      "projectId": "enbw",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR064",
+      "projectId": "enbw",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR065",
+      "projectId": "enbw",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR066",
+      "projectId": "enbw",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR067",
+      "projectId": "enbw",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR068",
+      "projectId": "enbw",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR069",
+      "projectId": "enbw",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR070",
+      "projectId": "enbw",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR071",
+      "projectId": "dole",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR072",
+      "projectId": "dole",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR073",
+      "projectId": "dole",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR074",
+      "projectId": "dole",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR075",
+      "projectId": "dole",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR076",
+      "projectId": "dole",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR077",
+      "projectId": "dole",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR078",
+      "projectId": "dole",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR079",
+      "projectId": "dole",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR080",
+      "projectId": "dole",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR081",
+      "projectId": "tnb",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR082",
+      "projectId": "tnb",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR083",
+      "projectId": "tnb",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR084",
+      "projectId": "tnb",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR085",
+      "projectId": "tnb",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR086",
+      "projectId": "tnb",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR087",
+      "projectId": "tnb",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR088",
+      "projectId": "tnb",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR089",
+      "projectId": "tnb",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR090",
+      "projectId": "tnb",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR091",
+      "projectId": "asheville",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR092",
+      "projectId": "asheville",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR093",
+      "projectId": "asheville",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR094",
+      "projectId": "asheville",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR095",
+      "projectId": "asheville",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR096",
+      "projectId": "asheville",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR097",
+      "projectId": "asheville",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR098",
+      "projectId": "asheville",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR099",
+      "projectId": "asheville",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR100",
+      "projectId": "asheville",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR101",
+      "projectId": "vancouver",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR102",
+      "projectId": "vancouver",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR103",
+      "projectId": "vancouver",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR104",
+      "projectId": "vancouver",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR105",
+      "projectId": "vancouver",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR106",
+      "projectId": "vancouver",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR107",
+      "projectId": "vancouver",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR108",
+      "projectId": "vancouver",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR109",
+      "projectId": "vancouver",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR110",
+      "projectId": "vancouver",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR111",
+      "projectId": "ishikawa",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR112",
+      "projectId": "ishikawa",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR113",
+      "projectId": "ishikawa",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR114",
+      "projectId": "ishikawa",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR115",
+      "projectId": "ishikawa",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR116",
+      "projectId": "ishikawa",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR117",
+      "projectId": "ishikawa",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR118",
+      "projectId": "ishikawa",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR119",
+      "projectId": "ishikawa",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR120",
+      "projectId": "ishikawa",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR121",
+      "projectId": "belgium-sense",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR122",
+      "projectId": "belgium-sense",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR123",
+      "projectId": "belgium-sense",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR124",
+      "projectId": "belgium-sense",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR125",
+      "projectId": "belgium-sense",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR126",
+      "projectId": "belgium-sense",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR127",
+      "projectId": "belgium-sense",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR128",
+      "projectId": "belgium-sense",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR129",
+      "projectId": "belgium-sense",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR130",
+      "projectId": "belgium-sense",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR131",
+      "projectId": "texas-solar",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR132",
+      "projectId": "texas-solar",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR133",
+      "projectId": "texas-solar",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR134",
+      "projectId": "texas-solar",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR135",
+      "projectId": "texas-solar",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR136",
+      "projectId": "texas-solar",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR137",
+      "projectId": "texas-solar",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR138",
+      "projectId": "texas-solar",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR139",
+      "projectId": "texas-solar",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR140",
+      "projectId": "texas-solar",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR141",
+      "projectId": "caltrans-otay",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR142",
+      "projectId": "caltrans-otay",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR143",
+      "projectId": "caltrans-otay",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR144",
+      "projectId": "caltrans-otay",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR145",
+      "projectId": "caltrans-otay",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR146",
+      "projectId": "caltrans-otay",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR147",
+      "projectId": "caltrans-otay",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR148",
+      "projectId": "caltrans-otay",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR149",
+      "projectId": "caltrans-otay",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR150",
+      "projectId": "caltrans-otay",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR151",
+      "projectId": "ramapo",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR152",
+      "projectId": "ramapo",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR153",
+      "projectId": "ramapo",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR154",
+      "projectId": "ramapo",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR155",
+      "projectId": "ramapo",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR156",
+      "projectId": "ramapo",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR157",
+      "projectId": "ramapo",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR158",
+      "projectId": "ramapo",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR159",
+      "projectId": "ramapo",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR160",
+      "projectId": "ramapo",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR161",
+      "projectId": "kansanshi-zambia",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR162",
+      "projectId": "kansanshi-zambia",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR163",
+      "projectId": "kansanshi-zambia",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR164",
+      "projectId": "kansanshi-zambia",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR165",
+      "projectId": "kansanshi-zambia",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR166",
+      "projectId": "kansanshi-zambia",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR167",
+      "projectId": "kansanshi-zambia",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR168",
+      "projectId": "kansanshi-zambia",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR169",
+      "projectId": "kansanshi-zambia",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR170",
+      "projectId": "kansanshi-zambia",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR171",
+      "projectId": "quellaveco-peru",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR172",
+      "projectId": "quellaveco-peru",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR173",
+      "projectId": "quellaveco-peru",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR174",
+      "projectId": "quellaveco-peru",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR175",
+      "projectId": "quellaveco-peru",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR176",
+      "projectId": "quellaveco-peru",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR177",
+      "projectId": "quellaveco-peru",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR178",
+      "projectId": "quellaveco-peru",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR179",
+      "projectId": "quellaveco-peru",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR180",
+      "projectId": "quellaveco-peru",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR181",
+      "projectId": "uae-waste",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR182",
+      "projectId": "uae-waste",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR183",
+      "projectId": "uae-waste",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR184",
+      "projectId": "uae-waste",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR185",
+      "projectId": "uae-waste",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR186",
+      "projectId": "uae-waste",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR187",
+      "projectId": "uae-waste",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR188",
+      "projectId": "uae-waste",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR189",
+      "projectId": "uae-waste",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR190",
+      "projectId": "uae-waste",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR191",
+      "projectId": "axpo-swiss",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR192",
+      "projectId": "axpo-swiss",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR193",
+      "projectId": "axpo-swiss",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR194",
+      "projectId": "axpo-swiss",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR195",
+      "projectId": "axpo-swiss",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR196",
+      "projectId": "axpo-swiss",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR197",
+      "projectId": "axpo-swiss",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR198",
+      "projectId": "axpo-swiss",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR199",
+      "projectId": "axpo-swiss",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR200",
+      "projectId": "axpo-swiss",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR201",
+      "projectId": "slovakia-forest",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR202",
+      "projectId": "slovakia-forest",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR203",
+      "projectId": "slovakia-forest",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR204",
+      "projectId": "slovakia-forest",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR205",
+      "projectId": "slovakia-forest",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR206",
+      "projectId": "slovakia-forest",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR207",
+      "projectId": "slovakia-forest",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR208",
+      "projectId": "slovakia-forest",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR209",
+      "projectId": "slovakia-forest",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR210",
+      "projectId": "slovakia-forest",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR211",
+      "projectId": "southafrica-estate",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR212",
+      "projectId": "southafrica-estate",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR213",
+      "projectId": "southafrica-estate",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR214",
+      "projectId": "southafrica-estate",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR215",
+      "projectId": "southafrica-estate",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR216",
+      "projectId": "southafrica-estate",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR217",
+      "projectId": "southafrica-estate",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR218",
+      "projectId": "southafrica-estate",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR219",
+      "projectId": "southafrica-estate",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR220",
+      "projectId": "southafrica-estate",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR221",
+      "projectId": "sqm-chile",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR222",
+      "projectId": "sqm-chile",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR223",
+      "projectId": "sqm-chile",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR224",
+      "projectId": "sqm-chile",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR225",
+      "projectId": "sqm-chile",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR226",
+      "projectId": "sqm-chile",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR227",
+      "projectId": "sqm-chile",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR228",
+      "projectId": "sqm-chile",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR229",
+      "projectId": "sqm-chile",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR230",
+      "projectId": "sqm-chile",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR231",
+      "projectId": "csx-rail",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR232",
+      "projectId": "csx-rail",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR233",
+      "projectId": "csx-rail",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR234",
+      "projectId": "csx-rail",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR235",
+      "projectId": "csx-rail",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR236",
+      "projectId": "csx-rail",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR237",
+      "projectId": "csx-rail",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR238",
+      "projectId": "csx-rail",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR239",
+      "projectId": "csx-rail",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR240",
+      "projectId": "csx-rail",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR241",
+      "projectId": "aerial-fences",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR242",
+      "projectId": "aerial-fences",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR243",
+      "projectId": "aerial-fences",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR244",
+      "projectId": "aerial-fences",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR245",
+      "projectId": "aerial-fences",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR246",
+      "projectId": "aerial-fences",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR247",
+      "projectId": "aerial-fences",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR248",
+      "projectId": "aerial-fences",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR249",
+      "projectId": "aerial-fences",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR250",
+      "projectId": "aerial-fences",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR251",
+      "projectId": "premier-security-us",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR252",
+      "projectId": "premier-security-us",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR253",
+      "projectId": "premier-security-us",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR254",
+      "projectId": "premier-security-us",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR255",
+      "projectId": "premier-security-us",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR256",
+      "projectId": "premier-security-us",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR257",
+      "projectId": "premier-security-us",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR258",
+      "projectId": "premier-security-us",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR259",
+      "projectId": "premier-security-us",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR260",
+      "projectId": "premier-security-us",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR261",
+      "projectId": "discovery-land-us",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR262",
+      "projectId": "discovery-land-us",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR263",
+      "projectId": "discovery-land-us",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR264",
+      "projectId": "discovery-land-us",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR265",
+      "projectId": "discovery-land-us",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR266",
+      "projectId": "discovery-land-us",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR267",
+      "projectId": "discovery-land-us",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR268",
+      "projectId": "discovery-land-us",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR269",
+      "projectId": "discovery-land-us",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR270",
+      "projectId": "discovery-land-us",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR271",
+      "projectId": "port-lincoln",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR272",
+      "projectId": "port-lincoln",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR273",
+      "projectId": "port-lincoln",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR274",
+      "projectId": "port-lincoln",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR275",
+      "projectId": "port-lincoln",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR276",
+      "projectId": "port-lincoln",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR277",
+      "projectId": "port-lincoln",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR278",
+      "projectId": "port-lincoln",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR279",
+      "projectId": "port-lincoln",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR280",
+      "projectId": "port-lincoln",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR281",
+      "projectId": "titan-protection",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR282",
+      "projectId": "titan-protection",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR283",
+      "projectId": "titan-protection",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR284",
+      "projectId": "titan-protection",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR285",
+      "projectId": "titan-protection",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR286",
+      "projectId": "titan-protection",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR287",
+      "projectId": "titan-protection",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR288",
+      "projectId": "titan-protection",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR289",
+      "projectId": "titan-protection",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR290",
+      "projectId": "titan-protection",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR291",
+      "projectId": "soar-alaska",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR292",
+      "projectId": "soar-alaska",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR293",
+      "projectId": "soar-alaska",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR294",
+      "projectId": "soar-alaska",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR295",
+      "projectId": "soar-alaska",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR296",
+      "projectId": "soar-alaska",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR297",
+      "projectId": "soar-alaska",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR298",
+      "projectId": "soar-alaska",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR299",
+      "projectId": "soar-alaska",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR300",
+      "projectId": "soar-alaska",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR301",
+      "projectId": "barcelona-port",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR302",
+      "projectId": "barcelona-port",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR303",
+      "projectId": "barcelona-port",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR304",
+      "projectId": "barcelona-port",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR305",
+      "projectId": "barcelona-port",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR306",
+      "projectId": "barcelona-port",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR307",
+      "projectId": "barcelona-port",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR308",
+      "projectId": "barcelona-port",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR309",
+      "projectId": "barcelona-port",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR310",
+      "projectId": "barcelona-port",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR311",
+      "projectId": "celaya",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR312",
+      "projectId": "celaya",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR313",
+      "projectId": "celaya",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR314",
+      "projectId": "celaya",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR315",
+      "projectId": "celaya",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR316",
+      "projectId": "celaya",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR317",
+      "projectId": "celaya",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR318",
+      "projectId": "celaya",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR319",
+      "projectId": "celaya",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR320",
+      "projectId": "celaya",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR321",
+      "projectId": "palcacocha",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR322",
+      "projectId": "palcacocha",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR323",
+      "projectId": "palcacocha",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR324",
+      "projectId": "palcacocha",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR325",
+      "projectId": "palcacocha",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR326",
+      "projectId": "palcacocha",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR327",
+      "projectId": "palcacocha",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR328",
+      "projectId": "palcacocha",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR329",
+      "projectId": "palcacocha",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR330",
+      "projectId": "palcacocha",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR331",
+      "projectId": "bibai",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR332",
+      "projectId": "bibai",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR333",
+      "projectId": "bibai",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR334",
+      "projectId": "bibai",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR335",
+      "projectId": "bibai",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR336",
+      "projectId": "bibai",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR337",
+      "projectId": "bibai",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR338",
+      "projectId": "bibai",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR339",
+      "projectId": "bibai",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR340",
+      "projectId": "bibai",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR341",
+      "projectId": "ambite",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR342",
+      "projectId": "ambite",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR343",
+      "projectId": "ambite",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR344",
+      "projectId": "ambite",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR345",
+      "projectId": "ambite",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR346",
+      "projectId": "ambite",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR347",
+      "projectId": "ambite",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR348",
+      "projectId": "ambite",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR349",
+      "projectId": "ambite",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR350",
+      "projectId": "ambite",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR351",
+      "projectId": "opole",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR352",
+      "projectId": "opole",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR353",
+      "projectId": "opole",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR354",
+      "projectId": "opole",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR355",
+      "projectId": "opole",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR356",
+      "projectId": "opole",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR357",
+      "projectId": "opole",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR358",
+      "projectId": "opole",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR359",
+      "projectId": "opole",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR360",
+      "projectId": "opole",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR361",
+      "projectId": "wurzburg-emqport",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR362",
+      "projectId": "wurzburg-emqport",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR363",
+      "projectId": "wurzburg-emqport",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR364",
+      "projectId": "wurzburg-emqport",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR365",
+      "projectId": "wurzburg-emqport",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR366",
+      "projectId": "wurzburg-emqport",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR367",
+      "projectId": "wurzburg-emqport",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR368",
+      "projectId": "wurzburg-emqport",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR369",
+      "projectId": "wurzburg-emqport",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR370",
+      "projectId": "wurzburg-emqport",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR371",
+      "projectId": "tomakomai-refinery",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR372",
+      "projectId": "tomakomai-refinery",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR373",
+      "projectId": "tomakomai-refinery",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR374",
+      "projectId": "tomakomai-refinery",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR375",
+      "projectId": "tomakomai-refinery",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR376",
+      "projectId": "tomakomai-refinery",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR377",
+      "projectId": "tomakomai-refinery",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR378",
+      "projectId": "tomakomai-refinery",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR379",
+      "projectId": "tomakomai-refinery",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR380",
+      "projectId": "tomakomai-refinery",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR381",
+      "projectId": "network-rail-uk",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR382",
+      "projectId": "network-rail-uk",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR383",
+      "projectId": "network-rail-uk",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR384",
+      "projectId": "network-rail-uk",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR385",
+      "projectId": "network-rail-uk",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR386",
+      "projectId": "network-rail-uk",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR387",
+      "projectId": "network-rail-uk",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR388",
+      "projectId": "network-rail-uk",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR389",
+      "projectId": "network-rail-uk",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR390",
+      "projectId": "network-rail-uk",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR391",
+      "projectId": "gilboa-nypa",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR392",
+      "projectId": "gilboa-nypa",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR393",
+      "projectId": "gilboa-nypa",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR394",
+      "projectId": "gilboa-nypa",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR395",
+      "projectId": "gilboa-nypa",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR396",
+      "projectId": "gilboa-nypa",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR397",
+      "projectId": "gilboa-nypa",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR398",
+      "projectId": "gilboa-nypa",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR399",
+      "projectId": "gilboa-nypa",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR400",
+      "projectId": "gilboa-nypa",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR401",
+      "projectId": "teesside-terminal",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR402",
+      "projectId": "teesside-terminal",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR403",
+      "projectId": "teesside-terminal",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR404",
+      "projectId": "teesside-terminal",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR405",
+      "projectId": "teesside-terminal",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR406",
+      "projectId": "teesside-terminal",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR407",
+      "projectId": "teesside-terminal",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR408",
+      "projectId": "teesside-terminal",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR409",
+      "projectId": "teesside-terminal",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR410",
+      "projectId": "teesside-terminal",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR411",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR412",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR413",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR414",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR415",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR416",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR417",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR418",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR419",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR420",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR421",
+      "projectId": "upper-darby-dfr",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR422",
+      "projectId": "upper-darby-dfr",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR423",
+      "projectId": "upper-darby-dfr",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR424",
+      "projectId": "upper-darby-dfr",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR425",
+      "projectId": "upper-darby-dfr",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR426",
+      "projectId": "upper-darby-dfr",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR427",
+      "projectId": "upper-darby-dfr",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR428",
+      "projectId": "upper-darby-dfr",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR429",
+      "projectId": "upper-darby-dfr",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR430",
+      "projectId": "upper-darby-dfr",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR431",
+      "projectId": "skybound-waterloo",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR432",
+      "projectId": "skybound-waterloo",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR433",
+      "projectId": "skybound-waterloo",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR434",
+      "projectId": "skybound-waterloo",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR435",
+      "projectId": "skybound-waterloo",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR436",
+      "projectId": "skybound-waterloo",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR437",
+      "projectId": "skybound-waterloo",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR438",
+      "projectId": "skybound-waterloo",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR439",
+      "projectId": "skybound-waterloo",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR440",
+      "projectId": "skybound-waterloo",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR441",
+      "projectId": "skybound-glasgow",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR442",
+      "projectId": "skybound-glasgow",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR443",
+      "projectId": "skybound-glasgow",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR444",
+      "projectId": "skybound-glasgow",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR445",
+      "projectId": "skybound-glasgow",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR446",
+      "projectId": "skybound-glasgow",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR447",
+      "projectId": "skybound-glasgow",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR448",
+      "projectId": "skybound-glasgow",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR449",
+      "projectId": "skybound-glasgow",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR450",
+      "projectId": "skybound-glasgow",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR451",
+      "projectId": "skybound-cardiff",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR452",
+      "projectId": "skybound-cardiff",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR453",
+      "projectId": "skybound-cardiff",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR454",
+      "projectId": "skybound-cardiff",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR455",
+      "projectId": "skybound-cardiff",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR456",
+      "projectId": "skybound-cardiff",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR457",
+      "projectId": "skybound-cardiff",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR458",
+      "projectId": "skybound-cardiff",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR459",
+      "projectId": "skybound-cardiff",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR460",
+      "projectId": "skybound-cardiff",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR461",
+      "projectId": "cincinnati-dfr",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR462",
+      "projectId": "cincinnati-dfr",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR463",
+      "projectId": "cincinnati-dfr",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR464",
+      "projectId": "cincinnati-dfr",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR465",
+      "projectId": "cincinnati-dfr",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR466",
+      "projectId": "cincinnati-dfr",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR467",
+      "projectId": "cincinnati-dfr",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR468",
+      "projectId": "cincinnati-dfr",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR469",
+      "projectId": "cincinnati-dfr",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR470",
+      "projectId": "cincinnati-dfr",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR471",
+      "projectId": "yonkers-nokia",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR472",
+      "projectId": "yonkers-nokia",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR473",
+      "projectId": "yonkers-nokia",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR474",
+      "projectId": "yonkers-nokia",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR475",
+      "projectId": "yonkers-nokia",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR476",
+      "projectId": "yonkers-nokia",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR477",
+      "projectId": "yonkers-nokia",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR478",
+      "projectId": "yonkers-nokia",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR479",
+      "projectId": "yonkers-nokia",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR480",
+      "projectId": "yonkers-nokia",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR481",
+      "projectId": "summerville-nokia",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR482",
+      "projectId": "summerville-nokia",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR483",
+      "projectId": "summerville-nokia",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR484",
+      "projectId": "summerville-nokia",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR485",
+      "projectId": "summerville-nokia",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR486",
+      "projectId": "summerville-nokia",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR487",
+      "projectId": "summerville-nokia",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR488",
+      "projectId": "summerville-nokia",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR489",
+      "projectId": "summerville-nokia",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR490",
+      "projectId": "summerville-nokia",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    },
+    {
+      "taskId": "DR491",
+      "projectId": "el-paso-dfr",
+      "scenario": "fetch-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR492",
+      "projectId": "el-paso-dfr",
+      "scenario": "body-deadline-releases-controls",
+      "passed": true
+    },
+    {
+      "taskId": "DR493",
+      "projectId": "el-paso-dfr",
+      "scenario": "retry-recovers-after-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "DR494",
+      "projectId": "el-paso-dfr",
+      "scenario": "late-original-cannot-replace-retry",
+      "passed": true
+    },
+    {
+      "taskId": "DR495",
+      "projectId": "el-paso-dfr",
+      "scenario": "retry-clears-old-export-snapshot",
+      "passed": true
+    },
+    {
+      "taskId": "DR496",
+      "projectId": "el-paso-dfr",
+      "scenario": "latest-share-attempt-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "DR497",
+      "projectId": "el-paso-dfr",
+      "scenario": "share-deadline-provides-exact-link",
+      "passed": true
+    },
+    {
+      "taskId": "DR498",
+      "projectId": "el-paso-dfr",
+      "scenario": "filter-change-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR499",
+      "projectId": "el-paso-dfr",
+      "scenario": "reload-invalidates-pending-share",
+      "passed": true
+    },
+    {
+      "taskId": "DR500",
+      "projectId": "el-paso-dfr",
+      "scenario": "filtered-json-keeps-project-and-context",
+      "passed": true
+    }
+  ]
+}

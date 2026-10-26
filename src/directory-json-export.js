@@ -9,7 +9,7 @@
   button.textContent = 'Export filtered JSON ↓';
   button.disabled = true;
   csv.insertAdjacentElement('afterend', button);
-  const updateState = () => { button.disabled = !Array.isArray(window.mpFilteredRecords); };
+  const updateState = event => { button.disabled = event?.detail?.loading === true || !Array.isArray(window.mpFilteredRecords) || !window.mpFilteredRecords.length; };
   window.addEventListener('mp-directory-state', updateState);
   updateState();
   button.addEventListener('click', () => {

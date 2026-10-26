@@ -47,6 +47,24 @@ jobs:
             checks/contrasting-research-screenshots/*.png
           if-no-files-found: warn
           retention-days: 30
+      - name: Directory 500 recovery and filtered export cases
+        run: |
+          node --check src/directory.js
+          node --check src/directory-json-export.js
+          node checks/directory.cjs
+          node checks/directory-reliability-500.cjs
+      - name: Directory responsive recovery and JSON export checks
+        run: bash checks/directory-reliability-browser-smoke.sh
+      - name: Retain Directory 500 results and captures
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: microportmap-directory-reliability-500
+          path: |
+            checks/directory-reliability-500-results.json
+            checks/directory-reliability-screenshots/*.png
+          if-no-files-found: warn
+          retention-days: 30
       - name: Correction Prefill 500 asynchronous recovery workflows
         run: |
           node --check src/correction-prefill.js
