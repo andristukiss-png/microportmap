@@ -611,3 +611,30 @@ body.mpo-loaded main>.columns{display:none}
 @media(max-width:720px){.mpr-item{grid-template-columns:1fr}.mpr-workspace{padding:16px}.mpr-actions>*{flex:1 1 150px}.mpr-evidence{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:440px){.mpr-evidence{grid-template-columns:1fr}.mpr-actions>*{width:100%;flex:auto}}
 @media(prefers-reduced-motion:reduce){.mpr-workspace *{transition:none!important;scroll-behavior:auto!important}}
+
+
+/* Passport Field Inspector · 500 source-qualified copy actions, collapsed by default. */
+.mpf-inspector,.mpf-inspector *{box-sizing:border-box}
+.mpf-inspector{max-width:100%;margin:18px 0 24px;border:1px solid #65bfa8;background:#fbfdfa;color:#102b35;border-radius:17px;box-shadow:0 8px 22px #173c440b;font:500 13px/1.55 Inter,ui-sans-serif,system-ui,sans-serif}
+.mpf-summary{cursor:pointer;padding:19px 20px;font:850 17px/1.4 system-ui;color:#102b35;display:list-item;list-style-position:inside}
+.mpf-summary::marker{color:#167b75}
+.mpf-inspector[open]>.mpf-summary{border-bottom:1px solid #d6e5e2;background:#f4f8f6}
+.mpf-body{padding:18px}
+.mpf-intro,.mpf-disclaimer{color:#234149;max-width:82ch;line-height:1.7;margin:0 0 17px}
+.mpf-field-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.mpf-row{display:flex;flex-direction:column;gap:10px;min-width:0;padding:15px;border:1px solid #d6e5e2;border-radius:13px;background:#fff}
+.mpf-content{display:grid;gap:5px;align-content:start;min-width:0;flex:1}
+.mpf-label{font:800 13px/1.4 system-ui;color:#167b75}
+.mpf-value{margin:0;line-height:1.5;font-weight:750;color:#102b35;overflow-wrap:anywhere}
+.mpf-hint{font:500 12px/1.55 system-ui;color:#234149;overflow-wrap:anywhere}
+.mpf-copy,.mpf-retry{display:inline-flex;justify-content:center;align-items:center;min-height:43px;border:1px solid #167b75;border-radius:10px;background:#f4f8f6;color:#102b35;padding:10px 14px;font:750 12px/1.4 system-ui;cursor:pointer}
+.mpf-copy{align-self:flex-start}
+.mpf-copy:hover,.mpf-retry:hover{background:#d8f5e8}
+.mpf-inspector :is(button,summary,textarea):focus-visible{outline:3px solid #ffa94f;outline-offset:3px}
+.mpf-status{font:700 12px/1.5 system-ui;color:#167b75;margin:15px 0}
+.mpf-fallback{border:1px solid #65bfa8;border-radius:10px;background:#f4f8f6;padding:13px}
+.mpf-fallback[hidden],.mpf-retry[hidden]{display:none}
+.mpf-manual{width:100%;min-height:110px;resize:vertical;border:1px solid #65bfa8;border-radius:9px;background:#fff;color:#102b35;padding:10px;font:500 12px/1.5 ui-monospace,monospace}
+.mpf-disclaimer{border-top:1px solid #d6e5e2;padding-top:13px;margin-top:16px;font-size:12px}
+@media(max-width:720px){.mpf-field-list{grid-template-columns:1fr}.mpf-summary{padding:16px}.mpf-body{padding:13px}.mpf-copy{width:100%}}
+@media(prefers-reduced-motion:reduce){.mpf-inspector *{transition:none!important}}
