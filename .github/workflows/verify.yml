@@ -28,6 +28,23 @@ jobs:
           python3 checks/navigation-round12.py
           python3 checks/site-navigation-audit.py
           python3 checks/site-recovery.py
+      - name: Evidence Comparison 500 source and runtime matrix
+        run: |
+          python3 checks/project-evidence-500-audit.py
+          node --check src/project-evidence-compare.js
+          node checks/project-evidence-500.cjs
+      - name: Evidence Comparison interactive browser and responsive captures
+        run: bash checks/project-evidence-browser-smoke.sh
+      - name: Retain Evidence Comparison 500 results and screenshots
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: microportmap-evidence-compare-500
+          path: |
+            checks/project-evidence-500-results.json
+            checks/project-evidence-screenshots/*.png
+          if-no-files-found: warn
+          retention-days: 30
       - name: Field Inspector 500 source and runtime actions
         run: |
           python3 checks/field-inspector-500-audit.py
