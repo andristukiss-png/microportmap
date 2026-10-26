@@ -458,5 +458,9 @@
     reviewWorkspace.src='/research-review-workspace.js';
     reviewWorkspace.async=true;
     document.body.appendChild(reviewWorkspace);
+    const fieldInspector=document.createElement('script');
+    fieldInspector.src='/passport-field-inspector.js';
+    fieldInspector.async=true;
+    document.body.appendChild(fieldInspector);
   }
 })();
