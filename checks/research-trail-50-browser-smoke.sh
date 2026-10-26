@@ -8,17 +8,20 @@ pid=$!
 trap 'kill "$pid" 2>/dev/null||true; rm -f src/directory/__research_trail_probe.html' EXIT
 cp checks/research-trail-50-probe.html src/directory/__research_trail_probe.html
 for i in {1..30};do if curl -fsS http://127.0.0.1:8767/research-trail.js >/dev/null;then break;fi;sleep .2;done
-profile="$(mktemp -d)"
+for viewport in "desktop:1440,900" "mobile:390,844";do
+ IFS=: read -r mode size <<< "$viewport"
+ profile="$(mktemp -d)"
 timeout 60s "$chrome" --headless=new --no-sandbox --disable-dev-shm-usage \
   --disable-gpu --disable-background-networking --user-data-dir="$profile" \
-  --virtual-time-budget=9500 --dump-dom \
-  'http://127.0.0.1:8767/directory/__research_trail_probe.html?trail=shenzhen' \
+  --window-size="$size" --virtual-time-budget=9500 --dump-dom \
+  'http://127.0.0.1:8767/directory/__research_trail_probe.html?trail=shenzhen,rotterdam' \
   >/tmp/microportmap-trail-probe.html 2>/tmp/microportmap-trail-chrome.log ||
   { cat /tmp/microportmap-trail-chrome.log >&2;exit 1;}
 grep -q 'id="trail-probe-result">PASS:' /tmp/microportmap-trail-probe.html ||
   { grep -o 'id="trail-probe-result"[^<]*' /tmp/microportmap-trail-probe.html >&2||true;exit 1;}
-echo 'PASS: functional browser trail save/filter/persist/remove/share/clear test'
+echo "PASS: $mode functional modal, import, share and storage checks"
 rm -rf "$profile"
+done
 for item in "home:/" "directory:/directory/" "passport:/projects/kiel/" "quality:/data-quality/";do
  IFS=: read -r name route <<< "$item"
  for spec in "desktop:1440,900" "mobile:390,844";do

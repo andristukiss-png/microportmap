@@ -26,7 +26,7 @@
   status.setAttribute('aria-live','polite');
   let stored=false,records=[],selected=[],waiting=[],loaded=false,failed=false,
     opened=false,returnFocus=null,request=null,saveObserver=null,filter='',sort='saved',
-    currentFiltered=[],pendingShare=[];
+    currentFiltered=[],pendingShare=[],backgroundState=[],shareRequest=0;
   function dedupe(ids){
     if(!Array.isArray(ids))return [];
     const out=[];
@@ -66,7 +66,7 @@
     }).then(data=>{
       records=validate(data);loaded=true;failed=false;
       selected=selected.filter(id=>record(id));
-      if(selected.length)persist();
+      persist();
       pendingShare=pendingShare.filter(id=>record(id));
       render();scan();return records;
     }).catch(error=>{failed=true;loaded=false;request=null;render();throw error;});
@@ -105,7 +105,12 @@
   const more=make('div','mpt-reads');
   more.append(link('Browse directory','/directory/'),link('Research methodology','/methodology/'),
     link('Data-quality review','/data-quality/'));
-  panel.append(top,description,shared,notice,tools,summary,list,recommendations,outputs,more,status);
+  const shareFallback=make('div','mpt-share-fallback');shareFallback.hidden=true;
+  const shareLabel=make('label','mpt-note','Copy this public research trail link manually:');
+  const shareInput=make('textarea','mpt-filter');shareInput.readOnly=true;shareInput.rows=2;
+  shareInput.setAttribute('aria-label','Copy public research trail link manually');
+  shareLabel.appendChild(shareInput);shareFallback.appendChild(shareLabel);
+  panel.append(top,description,shared,notice,tools,summary,list,recommendations,outputs,shareFallback,more,status);
   backdrop.appendChild(panel);
   document.body.append(trigger,backdrop);
   const action= (title,fn,cls='mpt-button')=>{const b=act(title,fn,cls);outputs.appendChild(b);return b;};
@@ -120,12 +125,14 @@
       const id=b.getAttribute('data-mpt-save');
       const has=selected.includes(id);
       const caption=has?'✓ Saved to trail':'+ Save to trail';
+      b.setAttribute('aria-label','Add or remove project '+(record(id)?.name||id)+' from research trail');
       if(b.textContent!==caption)b.textContent=caption;
       if(b.getAttribute('aria-pressed')!==String(has))b.setAttribute('aria-pressed',String(has));
       if(b.disabled!==(!has&&selected.length>=LIMIT))b.disabled=!has&&selected.length>=LIMIT;
       b.title=b.disabled?'Your trail can hold up to five projects':'';
     }
   }
+  function invalidateShare(){shareRequest++;shareFallback.hidden=true;shareInput.value='';}
   function save(id) {
     if(!safeId(id)||loaded&&!record(id))return announce('That record is not available.');
     if(selected.includes(id)){selected=selected.filter(x=>x!==id);announce('Removed project from your trail.');}
@@ -133,7 +140,7 @@
       if(selected.length>=LIMIT){announce('Five project limit reached. Remove one before saving another.');return;}
       selected.push(id);announce('Project saved to your research trail.');
     }
-    persist();render();
+    invalidateShare();persist();render();
   }
   function visible(){
     let rows=selected.map(record).filter(Boolean);
@@ -156,12 +163,14 @@
     ].join(' · '));
     const evidence=make('p','mpt-caveat',p.verificationStatus||'Source status unverified');
     const buttons=make('div','mpt-row');
+    const remove=act('Remove',()=>save(p.id),'mpt-remove');
+    remove.setAttribute('aria-label','Remove '+p.name+' from research trail');
     buttons.append(
       link('Research passport',passport(p.id)),
       link('Approximate atlas view',atlas(p.id)),
       link('More in '+p.country,directory('country',p.country)),
       link('More '+p.infrastructureType,directory('type',p.infrastructureType)),
-      act('Remove',()=>save(p.id),'mpt-remove')
+      remove
     );
     box.append(head,facts,evidence,buttons);return box;
   }
@@ -191,21 +200,26 @@
     shared.replaceChildren();
     shared.hidden=!pendingShare.length;
     if(!pendingShare.length)return;
-    shared.appendChild(make('p','',pendingShare.length+' project IDs were shared with you. Review before importing; nothing has been saved automatically.'));
-    shared.appendChild(act('Add shared projects',()=>{
+    shared.appendChild(make('p','',pendingShare.length+(pendingShare.length===1?' project ID was':' project IDs were')+' shared with you. Review before importing; nothing has been saved automatically.'));
+    const importButton=act('Add shared projects',()=>{
       const fresh=pendingShare.filter(id=>record(id)&&!selected.includes(id));
       const available=LIMIT-selected.length;
       const adding=fresh.slice(0,available);
       selected=selected.concat(adding);
-      pendingShare=[];persist();render();
+      pendingShare=fresh.slice(adding.length);invalidateShare();persist();render();
       announce(adding.length+' projects imported into your research trail.');
-    }));
+    });
+    importButton.disabled=selected.length>=LIMIT;
+    shared.appendChild(importButton);
     shared.appendChild(act('Dismiss shared trail',()=>{
       pendingShare=[];renderShared();
     },'mpt-quiet'));
   }
   function render(){
-    updateCounter();if(!opened)return;
+    updateCounter();
+    for(const button of [compare,json,csv,share])button.disabled=!loaded||!selected.length;
+    clear.disabled=!selected.length;query.disabled=order.disabled=!loaded;
+    if(!opened)return;
     notice.textContent=stored?'Saved locally in this browser. No account or tracking.':
       'Browser storage is unavailable. Your trail lasts only while this page stays open.';
     list.replaceChildren();recommendations.replaceChildren();
@@ -236,6 +250,12 @@
     opened=true;backdrop.hidden=false;
     trigger.setAttribute('aria-expanded','true');
     document.body.classList.add('mpt-open');
+    backgroundState=[];
+    for(const node of document.body.children){
+      if(node!==backdrop&&!['SCRIPT','STYLE','LINK'].includes(node.tagName)){
+        backgroundState.push([node,node.inert]);node.inert=true;
+      }
+    }
     query.value='';order.value='saved';
     render();close.focus({preventScroll:true});
     fetchRecords().catch(()=>{});
@@ -243,6 +263,8 @@
   function dismiss(){
     if(!opened)return;opened=false;backdrop.hidden=true;
     document.body.classList.remove('mpt-open');
+    for(const [node,inert] of backgroundState)node.inert=inert;
+    backgroundState=[];invalidateShare();
     trigger.setAttribute('aria-expanded','false');
     (returnFocus?.isConnected?returnFocus:trigger).focus({preventScroll:true});
   }
@@ -252,9 +274,10 @@
     if(opened){
       if(e.key==='Escape'){e.preventDefault();dismiss();return;}
       if(e.key==='Tab'){
-        const nodes=[...panel.querySelectorAll('a[href],button:not(:disabled),input:not(:disabled),select:not(:disabled)')]
+        const nodes=[...panel.querySelectorAll('a[href],button:not(:disabled),input:not(:disabled),select:not(:disabled),textarea:not(:disabled)')]
           .filter(el=>el.getClientRects().length);
         if(!nodes.length)return;
+        if(!panel.contains(document.activeElement)){e.preventDefault();nodes[0].focus();return;}
         if(e.shiftKey&&document.activeElement===nodes[0]){e.preventDefault();nodes.at(-1).focus();}
         else if(!e.shiftKey&&document.activeElement===nodes.at(-1)){e.preventDefault();nodes[0].focus();}
       }
@@ -272,6 +295,7 @@
     location.href='/directory/?'+new URLSearchParams({compare:ids.join(',')})+'#project-comparison';
   }
   function exportData(format){
+    invalidateShare();
     const rows=selected.map(record).filter(Boolean);
     if(!rows.length)return announce('Nothing to export.');
     let blob,filename;
@@ -304,19 +328,30 @@
     }
   }
   async function shareLink(){
-    if(!selected.length)return announce('Save a project first.');
+    if(!loaded||!selected.length)return announce('Save a project first.');
+    invalidateShare();const current=shareRequest;
     const url=new URL('/',location.origin);
-    url.searchParams.set('trail',selected.join(','));
-    url.hash='atlas';
+    url.searchParams.set('trail',selected.join(','));url.hash='atlas';
+    let timer;
     try{
-      await navigator.clipboard.writeText(url.href);
+      if(!navigator.clipboard?.writeText)throw Error('Clipboard unavailable');
+      await Promise.race([navigator.clipboard.writeText(url.href),
+        new Promise((_,reject)=>{timer=setTimeout(()=>reject(Error('Clipboard timed out')),800);})]);
+      if(current!==shareRequest)return false;
       announce('Shareable trail link copied. Only the selected public project IDs are included.');
-    }catch{announce('Copy this link: '+url.href);}
+      return true;
+    }catch{
+      if(current!==shareRequest)return false;
+      shareInput.value=url.href;shareFallback.hidden=false;
+      shareInput.focus({preventScroll:true});shareInput.select();
+      announce('Automatic copying unavailable. Select and copy the prepared public trail link.');
+      return false;
+    }finally{if(timer)clearTimeout(timer);}
   }
   function clearAll(){
     if(!selected.length)return;
     if(typeof window.confirm==='function'&&!window.confirm('Clear all projects from your research trail?'))return;
-    selected=[];persist();render();announce('Research trail cleared.');
+    selected=[];invalidateShare();persist();render();announce('Research trail cleared.');
   }
   // Saved URLs are invitations; do not overwrite existing browser-local choices.
   function parseShare(){
@@ -385,7 +420,9 @@
     if(id&&panel&&!panel.querySelector('[data-mpt-save]'))panel.appendChild(inlineSave(id));
   }
   window.addEventListener('storage',e=>{
-    if(e.key!==KEY)return;
+    if(e.key!==KEY&&e.key!==null)return;
+    if(e.storageArea&&e.storageArea!==localStorage)return;
+    invalidateShare();
     try{selected=dedupe(e.newValue?JSON.parse(e.newValue):[]).filter(id=>!loaded||record(id));}
     catch{selected=[];}
     render();
