@@ -458,3 +458,75 @@ body.mpe-ready main>.columns{display:none}
 @media(max-width:710px){.mpe-explorer{padding:17px;margin:16px auto}.mpe-stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.mpe-stat{padding:13px}.mpe-filters{grid-template-columns:1fr;padding:14px}.mpe-equipment-list,.mpe-project-grid,.mpe-category-grid{grid-template-columns:1fr}.mpe-compare-controls{grid-template-columns:1fr}.mpe-section-head .mpe-select{width:100%}}
 @media(max-width:420px){.mpe-outputs>*{width:100%}}
 @media(prefers-reduced-motion:reduce){.mpe-explorer *{transition:none!important;scroll-behavior:auto!important}}
+
+
+/* Operator Explorer 50: additive controls, existing MicroportMap palette only. */
+body.mpo-loaded main>.columns{display:none}
+.mpo-explorer,.mpo-explorer *{box-sizing:border-box}
+.mpo-explorer{max-width:1380px;margin:25px auto 70px;padding:clamp(20px,3.6vw,44px);border:1px solid #d6e5e2;border-radius:24px;background:#fbfdfa;color:#102b35;font:400 14px/1.65 Inter,ui-sans-serif,system-ui,sans-serif;box-shadow:0 15px 36px #173c440b}
+.mpo-explorer [hidden]{display:none!important}
+.mpo-kicker{font:850 11px/1.5 system-ui;letter-spacing:.15em;color:#167b75;margin:0 0 11px}
+.mpo-intro h2{font-size:clamp(32px,4vw,52px);line-height:1.1;letter-spacing:-.055em;margin:0 0 15px;color:#102b35;text-wrap:balance}
+.mpo-lede,.mpo-note{max-width:85ch;font-size:14px;color:#234149;line-height:1.7;margin:10px 0 18px}
+.mpo-metrics{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:11px;margin:24px 0}
+.mpo-metric{min-width:0;background:#f4f8f6;border:1px solid #d6e5e2;border-radius:16px;padding:18px 14px}
+.mpo-metric strong{display:block;font:850 clamp(24px,3vw,35px)/1.2 system-ui;letter-spacing:-.05em;color:#102b35}
+.mpo-metric span{display:block;font-size:12px;line-height:1.5;color:#234149;margin-top:6px}
+.mpo-filters{display:grid;grid-template-columns:minmax(180px,1.7fr) repeat(3,minmax(130px,1fr));gap:12px;align-items:end;padding:20px;background:#f4f8f6;border:1px solid #d6e5e2;border-radius:18px}
+.mpo-filters>.mpo-secondary{justify-self:start}
+.mpo-field{display:grid;gap:7px;min-width:0;color:#102b35;font:750 12px/1.4 system-ui}
+.mpo-input,.mpo-select{max-width:100%;min-width:0;width:100%;min-height:45px;padding:10px 12px;border:1px solid #65bfa8;border-radius:11px;background:#fff;color:#102b35;font:500 13px/1.4 system-ui}
+.mpo-explorer :is(button,a,input,select,summary):focus-visible{outline:3px solid #ffa94f;outline-offset:3px}
+.mpo-primary,.mpo-secondary,.mpo-button{display:inline-flex;align-items:center;justify-content:center;min-height:43px;padding:10px 15px;border:1px solid #167b75;border-radius:11px;background:#f4f8f6;color:#102b35;font:750 13px/1.35 system-ui;text-align:center;text-decoration:none!important;cursor:pointer;overflow-wrap:anywhere}
+.mpo-primary{background:#167b75;color:#fff!important}
+.mpo-primary:hover{background:#102b35;color:#fff!important}
+.mpo-secondary:hover,.mpo-button:hover{background:#d8f5e8}
+.mpo-primary:disabled,.mpo-secondary:disabled{opacity:.5;cursor:not-allowed}
+.mpo-link{display:inline-flex;align-items:center;min-height:36px;color:#167b75;font-size:13px;font-weight:750;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+.mpo-chips,.mpo-quick-actions,.mpo-card-actions,.mpo-actions,.mpo-exports{display:flex;gap:9px 12px;flex-wrap:wrap;align-items:center}
+.mpo-chips{margin:16px 0}
+.mpo-chip{min-height:36px;border:1px solid #167b75;border-radius:999px;background:#d8f5e8;color:#102b35;padding:8px 12px;font:750 12px/1.4 system-ui;cursor:pointer;overflow-wrap:anywhere;max-width:100%}
+.mpo-chip:hover{background:#8be7ca}
+.mpo-muted{font-size:13px;color:#234149}
+.mpo-status{font-size:14px;font-weight:800;color:#167b75;margin:15px 0}
+.mpo-quick{background:#f4f8f6;padding:19px;border:1px solid #d6e5e2;border-radius:17px;margin:23px 0}
+.mpo-quick h3,.mpo-explorer h3{font-size:clamp(19px,2.5vw,27px);line-height:1.3;letter-spacing:-.035em;margin:0 0 8px;color:#102b35}
+.mpo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:22px 0}
+.mpo-card{min-width:0;background:#fff;border:1px solid #d6e5e2;border-radius:18px;padding:21px;display:flex;flex-direction:column;gap:10px}
+.mpo-card:hover{border-color:#167b75;box-shadow:0 12px 27px #173c440b}
+.mpo-card small{color:#167b75;font:850 11px/1.4 system-ui;letter-spacing:.06em}
+.mpo-card h4{margin:0;font-size:19px;line-height:1.28;color:#102b35;letter-spacing:-.025em;overflow-wrap:anywhere}
+.mpo-card p{margin:0;color:#234149;font-size:13px}
+.mpo-tags{display:flex;flex-wrap:wrap;gap:5px}
+.mpo-tag{display:inline-flex;padding:6px 9px;border-radius:99px;background:#d8f5e8;color:#102b35;font:650 11px/1.3 system-ui}
+.mpo-card-actions{margin-top:auto;padding-top:12px}
+.mpo-card-actions .mpo-primary{width:100%}
+.mpo-detail,.mpo-compare{margin:28px 0;border:1px solid #d6e5e2;border-radius:21px;background:#fff;padding:clamp(18px,3vw,27px);scroll-margin-top:25px}
+.mpo-detail-head{display:flex;align-items:center;justify-content:space-between;gap:15px}
+.mpo-detail-head h3{overflow-wrap:anywhere}
+.mpo-detail-metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:15px 0}
+.mpo-small-stat{border-radius:13px;background:#f4f8f6;border:1px solid #d6e5e2;padding:14px;min-width:0}
+.mpo-small-stat strong{display:block;font:800 26px/1.2 system-ui;color:#102b35}
+.mpo-small-stat span{display:block;font-size:12px;margin-top:5px;color:#234149}
+.mpo-projects{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin:20px 0}
+.mpo-project{min-width:0;background:#fbfdfa;border:1px solid #d6e5e2;border-radius:15px;padding:19px;display:flex;flex-direction:column;gap:9px}
+.mpo-project h4{font-size:18px;line-height:1.3;margin:0;color:#102b35;overflow-wrap:anywhere}
+.mpo-project p{font-size:13px;color:#234149;line-height:1.55;margin:0}
+.mpo-project .mpo-project-caveat{font-size:12px}
+.mpo-compare-filters{display:grid;grid-template-columns:1fr 1fr auto;gap:11px;align-items:center;margin:15px 0}
+.mpo-comparison{min-width:0;overflow-x:auto}
+.mpo-table{width:100%;min-width:500px;border-collapse:collapse;font-size:13px;margin:15px 0}
+.mpo-table caption{text-align:left;font-size:12px;color:#234149;margin-bottom:10px}
+.mpo-table th,.mpo-table td{border:1px solid #d6e5e2;padding:12px;text-align:left;overflow-wrap:anywhere}
+.mpo-table th{background:#f4f8f6;color:#102b35}
+.mpo-comparison>a{margin:0 17px 9px 0}
+.mpo-exports{border-block:1px solid #d6e5e2;padding:22px 0;margin-top:26px}
+.mpo-announcement{min-height:14px;color:#167b75;font-size:13px;font-weight:750;overflow-wrap:anywhere}
+.mpo-disclosure{font-size:13px;border-top:1px solid #d6e5e2;margin:15px 0;padding-top:14px;color:#234149}
+.mpo-disclosure summary{font-weight:800;color:#167b75;cursor:pointer}
+.mpo-disclosure p{max-width:90ch;line-height:1.7}
+.mpo-empty,.mpo-error{padding:20px;border-radius:13px;background:#f4f8f6;border:1px solid #d6e5e2;font-size:13px}
+@media(max-width:1000px){.mpo-metrics{grid-template-columns:repeat(3,minmax(0,1fr))}.mpo-filters{grid-template-columns:repeat(2,minmax(0,1fr))}.mpo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.mpo-explorer{padding:18px}.mpo-metrics,.mpo-grid,.mpo-projects{grid-template-columns:repeat(2,minmax(0,1fr))}.mpo-metric{padding:14px}.mpo-grid,.mpo-projects{grid-template-columns:1fr}.mpo-compare-filters{grid-template-columns:1fr}.mpo-detail-head{flex-direction:column;align-items:flex-start}.mpo-detail-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:430px){.mpo-filters{grid-template-columns:1fr}.mpo-exports>*{width:100%}}
+@media(prefers-reduced-motion:reduce){.mpo-explorer *{transition:none!important;scroll-behavior:auto!important}}
