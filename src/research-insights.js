@@ -82,6 +82,7 @@ function place(){
  if(!document.getElementById('atlas'))return;
  const anchor=document.getElementById('mpx-research-hub')||document.querySelector('.stats');
  anchor?.insertAdjacentElement('afterend',root);
+ if(location.hash==='#insights')requestAnimationFrame(()=>root.scrollIntoView({behavior:'auto',block:'start'}));
 }
 function getLink(){
  const u=new URL('/',location.origin);
