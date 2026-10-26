@@ -16,11 +16,15 @@ const disclaimer='This source-linked point is indicative only. Do not use it for
 const pass='/projects/'+encodeURIComponent(id)+'/';
 const action=(key,title,handler)=>{
  const button=E('button','mpl-action',title);button.type='button';
- button.dataset.mplAction=key;button.addEventListener('click',handler);return button;
+ button.dataset.mplAction=key;button.addEventListener('click',()=>{
+  if(key!=='retry'&&(!ready||!point))return false;
+  return handler();
+ });return button;
 };
 const link=(key,title,target,external=false)=>{
  const a=E('a','mpl-action mpl-link',title);a.dataset.mplAction=key;a.href=target;
  if(external){a.target='_blank';a.rel='noopener noreferrer';}
+ a.addEventListener('click',event=>{if(!ready||(external&&!point))event.preventDefault();});
  return a;
 };
 const escapeXML=value=>String(value).replace(/[&<>"']/g,c=>({
@@ -34,7 +38,7 @@ function pointOf(record){
  return {lat:p.latitude,lon:p.longitude};
 }
 const fmt=n=>Number(n).toFixed(5).replace(/0+$/,'').replace(/\.$/,'');
-let record=null,point=null,ready=false,busy=false;
+let record=null,point=null,ready=false,busy=false,actionRequest=0;
 const container=E('details','mpl-location');container.id='mpl-location';
 const summary=E('summary','mpl-summary','Explore approximate geographic context');
 summary.setAttribute('aria-controls','mpl-content');
@@ -94,6 +98,7 @@ function kml(){
   '</Placemark></Document></kml>\n';
 }
 function mapURL(provider){
+ if(!['osm','google'].includes(provider))return '';
  if(!point)return '#mpl-facts';
  if(provider==='osm'){
   const u=new URL('https://www.openstreetmap.org/');
@@ -108,29 +113,42 @@ function mapURL(provider){
  return u.toString();
 }
 async function copy(value,name){
- manual.hidden=true;let timer;
+ if(!ready||!point||!value)return false;
+ const request=++actionRequest;
+ manual.hidden=true;manualInput.value='';let timer;
+ message.textContent='Copying '+name.toLowerCase()+' with approximation warning…';
  try{
   if(!navigator.clipboard?.writeText)throw Error('Clipboard unavailable');
   await Promise.race([
    navigator.clipboard.writeText(value),
    new Promise((_,reject)=>{timer=setTimeout(()=>reject(Error('Clipboard timed out')),800);})
   ]);
+  if(request!==actionRequest)return false;
   message.textContent=name+' copied with approximation warning. Nothing was submitted.';
+  return true;
  }catch{
+  if(request!==actionRequest)return false;
   manual.hidden=false;manualInput.value=value;
   manualInput.focus({preventScroll:true});manualInput.select();
   message.textContent='Automatic copying unavailable. '+name+' is prepared for manual copying.';
+  return false;
  }finally{if(timer)clearTimeout(timer);}
 }
 function download(content,filename,type){
- if(!content)return;
+ if(!ready||!point||!content)return false;
+ actionRequest++;manual.hidden=true;manualInput.value='';
  let object,anchor;
  try{
   object=URL.createObjectURL(new Blob([content],{type}));
   anchor=E('a');anchor.href=object;anchor.download=filename;
   document.body.append(anchor);anchor.click();
   message.textContent='Requested '+filename+' containing an explicitly approximate marker.';
- }catch{message.textContent='Download unavailable. Copy the GeoJSON text instead.';}
+  return true;
+ }catch{
+  manual.hidden=false;manualInput.value=content;manualInput.focus({preventScroll:true});manualInput.select();
+  message.textContent='Download unavailable. '+filename+' is prepared for manual copying.';
+  return false;
+ }
  finally{anchor?.remove();if(object)setTimeout(()=>URL.revokeObjectURL(object),30000);}
 }
 function facts(){
@@ -169,7 +187,10 @@ function draw(){
    'Coordinates unavailable; atlas and directory research links are still available.';
 }
 function load(){
- if(busy)return;busy=true;retry.hidden=true;message.textContent='Loading original research coordinates…';
+ if(busy)return;busy=true;ready=false;record=null;point=null;actionRequest++;
+ container.dataset.mplReady='false';container.setAttribute('aria-busy','true');
+ controls.replaceChildren();details.replaceChildren();manual.hidden=true;manualInput.value='';
+ retry.hidden=true;retry.disabled=true;message.textContent='Loading original research coordinates…';
  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),12000);
  fetch('/data/projects.json',{signal:controller.signal})
  .then(r=>{if(!r.ok)throw Error('Catalogue unavailable');return r.json();})
@@ -182,12 +203,12 @@ function load(){
   if(!record)throw Error('Project unavailable');
   point=pointOf(record);draw();
  }).catch(()=>{
-  ready=false;message.textContent='Approximate location tools are unavailable. The original passport remains readable.';
+  ready=false;record=null;point=null;controls.replaceChildren();details.replaceChildren();message.textContent='Approximate location tools are unavailable. The original passport remains readable.';
   retry.hidden=false;container.dataset.mplReady='false';
- }).finally(()=>{busy=false;clearTimeout(timer);});
+ }).finally(()=>{busy=false;retry.disabled=false;container.setAttribute('aria-busy','false');clearTimeout(timer);});
 }
 window.MicroportLocation=Object.freeze({
- getState:()=>({ready,projectId:id,actions:ready?controls.children.length:0,approximate:!!point}),
+ getState:()=>({ready,loading:busy,projectId:id,actions:ready?controls.children.length:0,approximate:ready&&!!point}),
  getActionIds:()=>[...controls.children].map(el=>el.dataset.mplAction),
  getCoordinateText:kind=>ready?coordContext(kind):'',
  getGeoJSON:()=>ready?geoJSON():'',
