@@ -87,9 +87,10 @@ function groupsForView(){
   const text=fold([p.reportedOperator,p.name,p.country,p.region,p.infrastructureType,p.reportedEquipment,p.where].join(' '));
   return fold(search).trim().split(/\s+/).filter(Boolean).every(term=>text.includes(term));
  });
- results=selected?filtered.filter(p=>val(p,'reportedOperator')===selected):filtered;
- let list=group(results,p=>val(p,'reportedOperator')).filter(o=>o.records.length>=minimum);
+ let list=group(filtered,p=>val(p,'reportedOperator')).filter(o=>o.records.length>=minimum);
+ if(selected)list=list.filter(o=>o.label===selected);
  if(sort==='alpha')list.sort((a,b)=>a.label.localeCompare(b.label));
+ results=list.flatMap(o=>o.records);
  return list;
 }
 function onSelect(value){
