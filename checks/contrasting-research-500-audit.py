@@ -29,6 +29,6 @@ for needle in ["function existingRelated(records,primary)","function contrastPat
                "function differences(a,b)","function render()","function load()",
                "mpcr-path-grid","mpcr-contrast","MicroportContrast",
                "noopener noreferrer","Different reported country","Different infrastructure category",
-               "Reported country","Original report attribution"]:
+               "Different reported country","Original report attribution"]:
     assert needle in source,needle
 print("PASS: 500 distinct source-to-destination paths, no record duplication, 72 untouched HTML pages")
