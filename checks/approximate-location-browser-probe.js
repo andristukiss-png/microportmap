@@ -12,7 +12,7 @@ window.addEventListener('load',async()=>{
   check(root?.tagName==='DETAILS','collapse panel missing');
   check(!root.open,'panel must be collapsed by default');
   root.open=true;
-  const controls=[...root.querySelectorAll('[data-mpl-action]')];
+  const controls=[...root.querySelectorAll('#mpl-controls [data-mpl-action]')];
   check(controls.length===10,'ten action controls missing');
   check(root.querySelectorAll('.mpl-fact').length===4,'four research facts missing');
   const geo=JSON.parse(api.getGeoJSON());
