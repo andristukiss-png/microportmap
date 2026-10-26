@@ -1,0 +1,364 @@
+{
+  "batch": "country-region-50",
+  "baseline": "1ef6ccfd05da3722c0aa09ad23e445a89c427605",
+  "scope": "50 distinct controls, behaviors, safeguards, and linked research journeys in one country/region explorer; no independent research is added.",
+  "preservation": "Original 50 data records, legacy 72 HTML pages, existing CSS palettes and tested directory/atlas/passport exports remain untouched.",
+  "nonClaims": [
+    "Counts are references, not confirmed facilities",
+    "Regions are reported classifications, not verified coordinates",
+    "Report-year labels do not establish project launch dates",
+    "No independent check of external source accuracy, live tiles, or physical mobile devices"
+  ],
+  "tasks": [
+    {
+      "id": "G01",
+      "area": "Browse geography",
+      "title": "Create an interactive explorer above the original fallback list",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G02",
+      "area": "Browse geography",
+      "title": "Summarize 50 source-linked records without counting physical sites",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G03",
+      "area": "Browse geography",
+      "title": "Show the exact represented country count",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G04",
+      "area": "Browse geography",
+      "title": "Show region coverage count",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G05",
+      "area": "Browse geography",
+      "title": "Show infrastructure-type coverage count",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G06",
+      "area": "Browse geography",
+      "title": "Search country names and geographic regions",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G07",
+      "area": "Browse geography",
+      "title": "Switch between all regions and individual region tabs",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G08",
+      "area": "Browse geography",
+      "title": "Filter countries by minimum reported record count",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G09",
+      "area": "Browse geography",
+      "title": "Order countries by published-report count or name",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G10",
+      "area": "Browse geography",
+      "title": "Reset geographic filters and remove active chips",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G11",
+      "area": "Country detail and drilldown",
+      "title": "Open record-specific country detail without losing the global context",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G12",
+      "area": "Country detail and drilldown",
+      "title": "Show research count and infrastructure category diversity",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G13",
+      "area": "Country detail and drilldown",
+      "title": "Show counts of explicitly dated source labels",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G14",
+      "area": "Country detail and drilldown",
+      "title": "Show count of syntactically valid source URLs",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G15",
+      "area": "Country detail and drilldown",
+      "title": "Display all recorded infrastructure groupings for a country",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G16",
+      "area": "Country detail and drilldown",
+      "title": "Offer the country-filtered directory link",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G17",
+      "area": "Country detail and drilldown",
+      "title": "Offer approximate atlas markers for the chosen country",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G18",
+      "area": "Country detail and drilldown",
+      "title": "Provide direct research passport links for matching records",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G19",
+      "area": "Country detail and drilldown",
+      "title": "Open original HTTPS-only evidence links safely",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G20",
+      "area": "Country detail and drilldown",
+      "title": "Expand and collapse long country project lists",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G21",
+      "area": "Country comparison",
+      "title": "Choose the first country from published records",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G22",
+      "area": "Country comparison",
+      "title": "Choose a different comparison country",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G23",
+      "area": "Country comparison",
+      "title": "Swap comparison sides",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G24",
+      "area": "Country comparison",
+      "title": "Compare numbers of published research records",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G25",
+      "area": "Country comparison",
+      "title": "Compare infrastructure-type diversity",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G26",
+      "area": "Country comparison",
+      "title": "Compare explicitly dated report records",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G27",
+      "area": "Country comparison",
+      "title": "Compare records with valid source URLs",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G28",
+      "area": "Country comparison",
+      "title": "Link to both countries' filtered directories",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G29",
+      "area": "Country comparison",
+      "title": "Provide duplicate-country explanatory feedback",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G30",
+      "area": "Country comparison",
+      "title": "Explain that country comparisons do not rank real-world operations",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G31",
+      "area": "Bookmarks and discovery",
+      "title": "Pin countries using existing browser storage only",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G32",
+      "area": "Bookmarks and discovery",
+      "title": "Limit country pins to three for legibility",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G33",
+      "area": "Bookmarks and discovery",
+      "title": "Remove pinned countries individually",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G34",
+      "area": "Bookmarks and discovery",
+      "title": "Open a saved country by clicking its bookmark",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G35",
+      "area": "Bookmarks and discovery",
+      "title": "Display browser-only privacy guidance beside pins",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G36",
+      "area": "Bookmarks and discovery",
+      "title": "Use in-memory state when storage is unavailable",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G37",
+      "area": "Bookmarks and discovery",
+      "title": "Sanitize saved country names against published coverage",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G38",
+      "area": "Bookmarks and discovery",
+      "title": "Provide search result count with live announcement",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G39",
+      "area": "Bookmarks and discovery",
+      "title": "Use accessible pressed-state for country and region selectors",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G40",
+      "area": "Bookmarks and discovery",
+      "title": "Preserve an unenhanced country list when the data request fails",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G41",
+      "area": "Share, export and safeguards",
+      "title": "Restore the selected country from a shareable URL",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G42",
+      "area": "Share, export and safeguards",
+      "title": "Restore the region selection from a shareable URL",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G43",
+      "area": "Share, export and safeguards",
+      "title": "Restore country-search text from a shareable URL",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G44",
+      "area": "Share, export and safeguards",
+      "title": "Restore minimum-report threshold from a URL",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G45",
+      "area": "Share, export and safeguards",
+      "title": "Copy shareable country view links with clipboard fallback",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G46",
+      "area": "Share, export and safeguards",
+      "title": "Export exact published matching records in JSON",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G47",
+      "area": "Share, export and safeguards",
+      "title": "Export a defined-column matching-record CSV",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G48",
+      "area": "Share, export and safeguards",
+      "title": "Protect CSV cells against spreadsheet formulas",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G49",
+      "area": "Share, export and safeguards",
+      "title": "Show a retry control for catalogue loading errors",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    },
+    {
+      "id": "G50",
+      "area": "Share, export and safeguards",
+      "title": "Link the geographic explorer from shared navigation and coverage page",
+      "source": "src/country-explorer.js",
+      "status": "implemented; awaiting CI/browser QA"
+    }
+  ]
+}
