@@ -60,12 +60,13 @@ async function one(record){
    return {ok:true,json:async()=>catalogue};
   }
  };
- vm.runInNewContext(source,ctx,{filename:'src/passport-research-toolkit.js'});
+ const instrumented=source.replace('.catch(errorMessage)', '.catch(err=>{globalThis.__passportError=String(err.stack||err);errorMessage()})');
+ vm.runInNewContext(instrumented,ctx,{filename:'src/passport-research-toolkit.js'});
  for(let i=0;i<5&&!browser.MicroportPassportToolkit?.getState().loaded;i++){
    await new Promise(done=>setImmediate(done));
  }
  const state=browser.MicroportPassportToolkit?.getState();
- assert.equal(state?.loaded,true,'toolkit failed for '+record.id);
+ assert.equal(state?.loaded,true,'toolkit failed for '+record.id+': '+ctx.__passportError);
  assert.equal(state.id,record.id);
  assert.equal(state.actions,10);
  assert.deepEqual(Array.from(browser.MicroportPassportToolkit.getLabels()),operationIds);
