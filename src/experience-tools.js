@@ -462,5 +462,9 @@
     fieldInspector.src='/passport-field-inspector.js';
     fieldInspector.async=true;
     document.body.appendChild(fieldInspector);
+    const evidenceCompare=document.createElement('script');
+    evidenceCompare.src='/project-evidence-compare.js';
+    evidenceCompare.async=true;
+    document.body.appendChild(evidenceCompare);
   }
 })();
