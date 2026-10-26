@@ -28,6 +28,19 @@ jobs:
           python3 checks/navigation-round12.py
           python3 checks/site-navigation-audit.py
           python3 checks/site-recovery.py
+      - name: Passport Toolkit 500 implementation and action audit
+        run: |
+          python3 checks/passport-toolkit-500-audit.py
+          node --check src/passport-research-toolkit.js
+          node checks/passport-toolkit-500.cjs
+      - name: Retain 500 passport action audit results
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: microportmap-passport-toolkit-500-results
+          path: checks/passport-toolkit-500-results.json
+          if-no-files-found: warn
+          retention-days: 30
       - name: Reported Operators 50 source and syntax audit
         run: |
           python3 checks/operator-explorer-50-audit.py
