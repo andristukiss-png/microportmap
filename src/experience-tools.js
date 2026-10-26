@@ -408,4 +408,9 @@
   if(document.querySelector('section.directory'))directoryExtras();
   if(/^\/projects\//.test(location.pathname))passportExtras();
   if($('review-queue'))qualityExtras();
+  // Shared trail loader: one entry point already included on all 72 pages.
+  const trailScript=document.createElement('script');
+  trailScript.src='/research-trail.js';
+  trailScript.async=true;
+  document.body.appendChild(trailScript);
 })();
