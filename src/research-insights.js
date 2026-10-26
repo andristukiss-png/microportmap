@@ -82,7 +82,17 @@ function place(){
  if(!document.getElementById('atlas'))return;
  const anchor=document.getElementById('mpx-research-hub')||document.querySelector('.stats');
  anchor?.insertAdjacentElement('afterend',root);
- if(location.hash==='#insights')requestAnimationFrame(()=>root.scrollIntoView({behavior:'auto',block:'start'}));
+ const heroActions=document.querySelector('.hero-actions');
+ if(heroActions&&!heroActions.querySelector('[data-mpi-hero]')){
+  const entry=a('Research insights ↓','#insights','ghost');
+  entry.dataset.mpiHero='1';
+  heroActions.append(entry);
+ }
+ const reveal=()=>{if(location.hash==='#insights')root.scrollIntoView({behavior:'instant',block:'start'});};
+ requestAnimationFrame(reveal);
+ setTimeout(reveal,250);
+ setTimeout(reveal,1200);
+ window.addEventListener('hashchange',reveal);
 }
 function getLink(){
  const u=new URL('/',location.origin);
