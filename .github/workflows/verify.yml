@@ -28,6 +28,20 @@ jobs:
           python3 checks/navigation-round12.py
           python3 checks/site-navigation-audit.py
           python3 checks/site-recovery.py
+      - name: Technology and Equipment 50 source audit
+        run: |
+          python3 checks/equipment-explorer-50-audit.py
+          node --check src/equipment-explorer.js
+      - name: Technology equipment interactive browser smoke
+        run: bash checks/equipment-explorer-50-browser-smoke.sh
+      - name: Retain technology equipment browser screenshots
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: microportmap-equipment-explorer-50
+          path: checks/equipment-explorer-50-screenshots/*.png
+          if-no-files-found: warn
+          retention-days: 14
       - name: Floating buttons overlap and arrow-only regression
         run: bash checks/floating-buttons-smoke.sh
       - name: Retain floating-button desktop screenshots
