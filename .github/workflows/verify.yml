@@ -47,6 +47,24 @@ jobs:
             checks/contrasting-research-screenshots/*.png
           if-no-files-found: warn
           retention-days: 30
+      - name: Correction Prefill 500 asynchronous recovery workflows
+        run: |
+          node --check src/correction-prefill.js
+          node checks/behavior.cjs
+          node checks/correction-500.cjs
+          node checks/correction-prefill-reliability-500.cjs
+      - name: Correction Prefill desktop and mobile browser checks
+        run: bash checks/correction-prefill-browser-smoke.sh
+      - name: Retain Correction Prefill 500 results and captures
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: microportmap-correction-prefill-500
+          path: |
+            checks/correction-prefill-reliability-500-results.json
+            checks/correction-prefill-screenshots/*.png
+          if-no-files-found: warn
+          retention-days: 30
       - name: Passport Reading 500 source and runtime action audit
         run: |
           python3 checks/passport-reading-500-audit.py
