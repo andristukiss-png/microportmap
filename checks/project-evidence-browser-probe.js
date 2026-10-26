@@ -39,7 +39,48 @@ window.addEventListener('load',async()=>{
   await wait(1150);
   must(root.querySelector('#mpd-status').textContent.toLowerCase().includes('comparison'),'copy feedback missing');
   must(root.querySelectorAll('.mpd-actions button').length===4,'comparison actions missing');
-  target.textContent='PASS: ten report-field comparisons, safe original sources, select-other workflow, field focus, copy fallback and collapsed design';
+  const inspect=()=>root.querySelector('[data-mpd-action="country"]');
+  inspect().focus();inspect().click();
+  must(document.activeElement===inspect(),'opening field context lost keyboard focus');
+  inspect().click();must(document.activeElement===inspect(),'closing field context lost keyboard focus');
+  const query=root.querySelector('.mpd-search'),sort=root.querySelector('.mpd-sort');
+  query.value='no-project-can-match-this-query';query.dispatchEvent(new Event('input',{bubbles:true}));
+  must(api.getState().otherId===null,'empty search kept an old pair');
+  must(api.choose(alternative)&&api.getState().otherId===alternative,'explicit choice outside the filter was replaced');
+  must(query.value==='','explicit selection did not clear the excluding filter');
+  const clipboardDescriptor=Object.getOwnPropertyDescriptor(navigator,'clipboard'),originalFetch=window.fetch;
+  const retry=root.querySelector('#mpd-content').lastElementChild;
+  const manual=root.querySelector('.mpd-manual'),text=root.querySelector('.mpd-manual-text'),status=root.querySelector('#mpd-status');
+  try{
+   let reject;
+   Object.defineProperty(navigator,'clipboard',{configurable:true,value:{writeText:()=>new Promise((_,fail)=>{reject=fail;})}});
+   root.querySelector('.mpd-actions button').click();
+   const next=api.getOtherOptions().find(id=>id!==alternative);api.choose(next);const pairStatus=status.textContent;
+   reject(Error('Older pair denied'));await wait(30);
+   must(status.textContent===pairStatus&&manual.hidden&&text.value==='','old clipboard feedback exposed a stale pair');
+   const data=await originalFetch('/data/projects.json').then(r=>r.json());
+   data.records.forEach(p=>delete p.country);
+   window.fetch=(...args)=>String(args[0])==='/data/projects.json'?Promise.resolve({ok:true,json:async()=>data}):originalFetch.apply(window,args);
+   retry.click();
+   for(let i=0;i<150&&api.getState().loading;i++)await wait(20);
+   must(api.getState().ready,'missing-field comparison fixture did not load');
+   must(api.getFields().find(f=>f.id==='country').observation.includes('omits'),'two missing countries were reported as matching wording');
+   sort.value='country';sort.dispatchEvent(new Event('change',{bubbles:true}));
+   must(api.getFields().length===10,'missing-country sort broke comparison');
+   window.fetch=(...args)=>String(args[0])==='/data/projects.json'?Promise.resolve({ok:false}):originalFetch.apply(window,args);
+   retry.click();
+   for(let i=0;i<100&&api.getState().loading;i++)await wait(20);
+   must(!api.getState().ready&&api.getOtherOptions().length===0&&api.getFields().length===0,'failed reload kept old comparison state');
+   must(query.disabled&&root.querySelectorAll('[data-mpd-field]').length===0,'failed reload kept interactive stale fields');
+   window.fetch=originalFetch;retry.click();
+   for(let i=0;i<150&&api.getState().loading;i++)await wait(20);
+   must(api.getState().ready&&api.getFields().length===10&&!query.disabled,'comparison reload did not recover');
+   must(root.getAttribute('aria-busy')==='false','comparison loading indicator not cleared');
+  }finally{
+   window.fetch=originalFetch;
+   if(clipboardDescriptor)Object.defineProperty(navigator,'clipboard',clipboardDescriptor);else delete navigator.clipboard;
+  }
+  target.textContent='PASS: keyboard focus, explicit filtered choice, stale pair isolation, missing-field semantics and reload recovery';
  }catch(e){target.textContent='FAIL: '+e.message;}
 });
 })();

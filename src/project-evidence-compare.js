@@ -42,7 +42,7 @@ const value=(p,fn)=>{
 };
 const byName=(a,b)=>a.name.localeCompare(b.name);
 const compareRoute=id=>'/projects/'+encodeURIComponent(id)+'/';
-let all=[],primary=null,other=null,ready=false,loading=false,active='',search='',sort='related',filtered=[];
+let all=[],primary=null,other=null,ready=false,loading=false,active='',search='',sort='related',filtered=[],actionRequest=0;
 const root=E('details','mpd-compare');root.id='mpd-compare';
 const summary=E('summary','mpd-summary','Compare 10 published research fields with another project');
 summary.setAttribute('aria-controls','mpd-content');
@@ -74,7 +74,7 @@ const copy=B('Copy comparison summary',copySummary,'mpd-primary');
 const json=B('Download comparison JSON',()=>download('json'),'mpd-button');
 const csv=B('Download comparison CSV',()=>download('csv'),'mpd-button');
 const swap=B('Open compared project as primary',()=>{
- if(other)location.href=compareRoute(other.id)+'?comparison='+encodeURIComponent(primaryId);
+ if(ready&&other)location.href=compareRoute(other.id)+'?comparison='+encodeURIComponent(primaryId);
 },'mpd-button');
 actions.append(copy,json,csv,swap);
 const fallback=E('div','mpd-manual');fallback.hidden=true;
@@ -95,7 +95,7 @@ function score(p){
 }
 function orderOptions(){
  const others=all.filter(p=>p.id!==primaryId);
- if(sort==='country')others.sort((a,b)=>a.country.localeCompare(b.country)||byName(a,b));
+ if(sort==='country')others.sort((a,b)=>value(a,p=>p.country).localeCompare(value(b,p=>p.country))||byName(a,b));
  else if(sort==='name')others.sort(byName);
  else others.sort((a,b)=>score(b)-score(a)||byName(a,b));
  return others;
@@ -112,7 +112,7 @@ function applyOptions(){
  }else{
   select.disabled=false;
   for(const project of filtered){
-   const opt=E('option','',project.name+' · '+project.country);
+   const opt=E('option','',project.name+' · '+value(project,p=>p.country));
    opt.value=project.id;select.append(opt);
   }
   if(filtered.some(p=>p.id===current))select.value=current;
@@ -122,8 +122,8 @@ function applyOptions(){
  renderComparison();
 }
 function explain(a,b){
- if(a===b)return 'Same reported wording (not independent corroboration)';
  if(a==='Not recorded in catalogue'||b==='Not recorded in catalogue')return 'At least one record omits this field';
+ if(a===b)return 'Same reported wording (not independent corroboration)';
  return 'Different published wording';
 }
 function makeField(def){
@@ -143,7 +143,14 @@ function makeField(def){
  return section;
 }
 function toggle(key){
+ if(!ready||!other)return false;
+ const restoreFocus=document.activeElement?.dataset?.mpdAction===key;
  active=active===key?'':key;renderComparison();
+ if(restoreFocus){
+  const row=[...fieldsGrid.children].find(node=>node.dataset.mpdField===key);
+  const button=row&&[...row.children].find(node=>node.dataset.mpdAction===key);
+  button?.focus({preventScroll:true});
+ }
  if(active)focus.scrollIntoView({behavior:'auto',block:'nearest'});
 }
 function renderFocus(){
@@ -174,9 +181,11 @@ function addSourceLinks(){
  }
 }
 function renderComparison(){
+ actionRequest++;fallback.hidden=true;manualText.value='';
  fieldsGrid.replaceChildren();head.hidden=focus.hidden=references.hidden=!other;
  for(const control of [copy,json,csv,swap])control.disabled=!other;
  if(!other){
+  active='';focus.replaceChildren();references.replaceChildren();secondaryHeading.textContent='';
   status.textContent='No projects match this search. Clear the filter to compare again.';
   return;
  }
@@ -202,21 +211,28 @@ function summaryText(){
   ' and https://microportmap.com'+compareRoute(other.id);
 }
 async function copySummary(){
- if(!other)return;
- const value=summaryText();fallback.hidden=true;
+ if(!ready||!other)return false;
+ const request=++actionRequest;
+ const value=summaryText();fallback.hidden=true;manualText.value='';
+ status.textContent='Copying the source-qualified comparison…';
  let timer;
  try{
   if(!navigator.clipboard?.writeText)throw Error('Clipboard unavailable');
   await Promise.race([navigator.clipboard.writeText(value),
    new Promise((_,reject)=>{timer=setTimeout(()=>reject(Error('Clipboard timeout')),800);})]);
+  if(request!==actionRequest)return false;
   status.textContent='Source-qualified comparison copied; nothing was submitted.';
+  return true;
  }catch{
+  if(request!==actionRequest)return false;
   manualText.value=value;fallback.hidden=false;manualText.focus({preventScroll:true});manualText.select();
   status.textContent='Comparison prepared for manual copying; nothing was submitted.';
+  return false;
  }finally{if(timer)clearTimeout(timer);}
 }
 function download(format){
- if(!other)return;
+ if(!ready||!other)return false;
+ actionRequest++;fallback.hidden=true;manualText.value='';
  const rows=fieldRows();let text,mime;
  if(format==='json'){
   text=JSON.stringify({schema:'microportmap-evidence-comparison-v1',primaryId,comparisonId:other.id,
@@ -238,13 +254,18 @@ function download(format){
  finally{link?.remove();if(url)setTimeout(()=>URL.revokeObjectURL(url),30000);}
 }
 function selectOther(id){
+ if(!ready)return false;
  const found=all.find(p=>p.id===id&&p.id!==primaryId);
  if(!found)return false;
+ if(!filtered.some(p=>p.id===id)){search='';query.value='';}
  other=found;active='';applyOptions();return true;
 }
 function load(){
  if(loading)return;
- loading=true;retry.hidden=true;status.textContent='Loading original project descriptions…';
+ loading=true;ready=false;all=[];primary=null;other=null;filtered=[];active='';
+ renderComparison();root.dataset.mpdReady='false';root.setAttribute('aria-busy','true');
+ query.disabled=select.disabled=sortSelect.disabled=true;
+ retry.hidden=true;retry.disabled=true;status.textContent='Loading original project descriptions…';
  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),12000);
  fetch('/data/projects.json',{signal:controller.signal})
  .then(r=>{if(!r.ok)throw Error('Research catalogue unavailable');return r.json();})
@@ -255,21 +276,22 @@ function load(){
     new Set(rows.map(p=>p.id)).size!==50)throw Error('Invalid published catalogue');
   all=rows.slice();primary=all.find(p=>p.id===primaryId);
   if(!primary)throw Error('Passport not in published catalogue');
-  ready=true;
+  ready=true;query.disabled=sortSelect.disabled=false;
   const requested=new URLSearchParams(location.search).get('comparison');
   other=all.find(p=>p.id===requested&&p.id!==primaryId)||orderOptions()[0];
   applyOptions();
   root.dataset.mpdReady='true';
  }).catch(()=>{
-  ready=false;status.textContent='Comparison temporarily unavailable. The original passport remains readable.';
+  ready=false;all=[];primary=null;other=null;filtered=[];renderComparison();select.replaceChildren();
+  status.textContent='Comparison temporarily unavailable. The original passport remains readable.';
   retry.hidden=false;root.dataset.mpdReady='false';
- }).finally(()=>{loading=false;clearTimeout(timer);});
+ }).finally(()=>{loading=false;retry.disabled=false;root.setAttribute('aria-busy','false');clearTimeout(timer);});
 }
 query.addEventListener('input',()=>{search=query.value;applyOptions();});
 select.addEventListener('change',()=>selectOther(select.value));
 sortSelect.addEventListener('change',()=>{sort=sortSelect.value;applyOptions();});
 window.MicroportEvidenceCompare=Object.freeze({
- getState:()=>({ready,primaryId,otherId:other?.id||null,fields:ready&&other?fields.length:0,active}),
+ getState:()=>({ready,loading,primaryId,otherId:other?.id||null,fields:ready&&other?fields.length:0,active}),
  getFields:()=>fieldRows().map(r=>({...r})),
  getOtherOptions:()=>orderOptions().map(p=>p.id),
  choose:id=>selectOther(id),
