@@ -33,6 +33,7 @@ jobs:
           python3 checks/contrasting-research-500-audit.py
           node --check src/contrasting-research-paths.js
           node checks/contrasting-research-500.cjs
+          node checks/contrast-reliability-500.cjs
       - name: Contrasting Research responsive browser checks
         run: bash checks/contrasting-research-browser-smoke.sh
       - name: Archive Contrasting Research 500 results and screenshots
@@ -42,6 +43,7 @@ jobs:
           name: microportmap-contrasting-research-500
           path: |
             checks/contrasting-research-500-results.json
+            checks/contrast-reliability-500-results.json
             checks/contrasting-research-screenshots/*.png
           if-no-files-found: warn
           retention-days: 30
