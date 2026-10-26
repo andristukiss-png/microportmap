@@ -13,11 +13,11 @@ const E=(tag,cls,txt)=>{
 };
 const action=(id,label,handler)=>{
   const b=E('button','mpp-action',label);b.type='button';
-  b.dataset.mppAction=id;b.addEventListener('click',handler);return b;
+  b.dataset.mppAction=id;b.addEventListener('click',()=>loaded?handler():false);return b;
 };
 const href=(id,label,destination)=>{
   const a=E('a','mpp-action mpp-action-link',label);a.dataset.mppAction=id;
-  a.href=destination;return a;
+  a.href=destination;a.addEventListener('click',event=>{if(!loaded)event.preventDefault();});return a;
 };
 const sourceURL=p=>{
   try{
@@ -25,10 +25,13 @@ const sourceURL=p=>{
     return u.protocol==='https:'&&!u.username&&!u.password?u.href:null;
   }catch{return null;}
 };
-const printable=v=>String(v??'Not stated').replace(/[\u0000-\u001f\u007f]/g,' ').trim();
+const cleanText=v=>v.replace(/[\u0000-\u001f\u007f]/g,' ').trim();
+const hasText=v=>typeof v==='string'&&cleanText(v).length>0;
+const printable=v=>hasText(v)?cleanText(v):'Not stated';
+const markdownText=v=>String(v).replace(/[\\`*_[\]<>|]/g,c=>'\\'+c);
 const projectURL='https://microportmap.com/projects/'+encodeURIComponent(id)+'/';
 const disclaimer='This is a source-linked public research reference, not independent verification of current operation, exact landing locations, site access, owner relationships or permission to fly.';
-let record=null, busy=false,files=[],source=null,loaded=false;
+let record=null,busy=false,source=null,loaded=false,actionRequest=0;
 const root=E('section','mpp-toolkit');root.id='mpp-toolkit';
 root.setAttribute('aria-labelledby','mpp-heading');
 const heading=E('div','mpp-heading');
@@ -78,17 +81,20 @@ function citationPlain(){
 }
 function citationMarkdown(){
   const p=current();
-  return '**'+p.name+'** — MicroportMap public research reference.\n\n'+
-    '- **Reported country:** '+p.country+'\n'+
-    '- **Reported infrastructure:** '+p.category+'\n'+
-    '- **Original source attribution:** '+p.sourceName+'\n'+
-    '- **Source report timing:** '+p.date+'\n'+
-    '- **Source link:** '+p.sourceURL+'\n'+
+  return '**'+markdownText(p.name)+'** — MicroportMap public research reference.\n\n'+
+    '- **Reported country:** '+markdownText(p.country)+'\n'+
+    '- **Reported infrastructure:** '+markdownText(p.category)+'\n'+
+    '- **Original source attribution:** '+markdownText(p.sourceName)+'\n'+
+    '- **Source report timing:** '+markdownText(p.date)+'\n'+
+    '- **Source link:** '+markdownText(p.sourceURL)+'\n'+
     '- **Project passport:** '+projectURL+'\n\n> '+disclaimer;
 }
 function citationBibTeX(){
   const p=current();
-  const bib=v=>String(v).replace(/\\/g,'\\\\').replace(/[{}]/g,m=>'\\'+m).replace(/[\r\n]+/g,' ');
+  const bib=v=>String(v).replace(/[\\{}%&#_$~^]/g,c=>({
+    '\\':'\\textbackslash{}','{':'\\{','}':'\\}','%':'\\%','&':'\\&',
+    '#':'\\#','_':'\\_','$':'\\$','~':'\\textasciitilde{}','^':'\\textasciicircum{}'
+  }[c])).replace(/[\r\n]+/g,' ');
   return '@misc{microportmap_'+id+',\n'+
     '  title = {'+bib(p.name)+'},\n'+
     '  howpublished = {MicroportMap research record; original source: '+bib(p.sourceName)+'},\n'+
@@ -112,8 +118,8 @@ function briefText(){
 }
 function briefMarkdown(){
   const p=current();
-  const escape=v=>String(v).replace(/\|/g,'\\|').replace(/[\r\n]/g,' ');
-  return '# '+p.name+'\n\n**MicroportMap research brief · source-reported information**\n\n'+
+  const escape=markdownText;
+  return '# '+markdownText(p.name)+'\n\n**MicroportMap research brief · source-reported information**\n\n'+
     '| Published field | Reported value |\n| --- | --- |\n'+
     briefFields.map(([label,k])=>'| '+escape(label)+' | '+escape(p[k])+' |').join('\n')+
     '\n\n## Limitations\n\n'+disclaimer+'\n\n_Review the original source before sharing claims._\n';
@@ -123,11 +129,11 @@ function checklist(){
   return [
     ['Original source link is valid HTTPS',!!source,p.sourceURL],
     ['Report label contains an explicit four-digit year',/\b20[0-9]{2}\b/.test(p.date),p.date],
-    ['Reported country provided',record?.country?.trim()!==''&&!!record?.country,p.country],
-    ['Reported operator attribution provided',record?.reportedOperator?.trim()!==''&&!!record?.reportedOperator,p.operator],
-    ['Reported equipment provided',record?.reportedEquipment?.trim()!==''&&!!record?.reportedEquipment,p.equipment],
-    ['Location precision explicitly described',record?.locationPrecision?.trim()!==''&&!!record?.locationPrecision,p.precision],
-    ['Evidence limitation explicitly described',record?.verificationStatus?.trim()!==''&&!!record?.verificationStatus,p.verification]
+    ['Reported country provided',hasText(record?.country),p.country],
+    ['Reported operator attribution provided',hasText(record?.reportedOperator),p.operator],
+    ['Reported equipment provided',hasText(record?.reportedEquipment),p.equipment],
+    ['Location precision explicitly described',hasText(record?.locationPrecision),p.precision],
+    ['Evidence limitation explicitly described',hasText(record?.verificationStatus),p.verification]
   ];
 }
 function reviewText(){
@@ -152,7 +158,9 @@ function quickFacts(){
     ' | Evidence: '+p.verification+' | '+projectURL+'\n'+disclaimer;
 }
 async function copyText(value,label){
-  fallback.hidden=true;status.textContent='';
+  if(!loaded)return false;
+  const request=++actionRequest;
+  fallback.hidden=true;fallbackValue.value='';status.textContent='Copying '+label+'…';
   let timeout;
   try{
     if(!navigator.clipboard?.writeText)throw Error('Clipboard is unavailable');
@@ -160,27 +168,35 @@ async function copyText(value,label){
       navigator.clipboard.writeText(value),
       new Promise((_,reject)=>{timeout=setTimeout(()=>reject(Error('Clipboard timed out')),800);})
     ]);
+    if(request!==actionRequest)return false;
     status.textContent=label+' copied. No information was submitted.';
+    return true;
   }catch{
+    if(request!==actionRequest)return false;
     fallbackValue.value=value;
     fallback.hidden=false;
     fallbackValue.focus({preventScroll:true});
     fallbackValue.select();
     status.textContent='Automatic copying unavailable. Select the prepared '+label+' text below.';
+    return false;
   }finally{
     if(timeout)clearTimeout(timeout);
   }
 }
 function download(text,filename,type='text/plain;charset=utf-8'){
+  if(!loaded)return false;
+  actionRequest++;fallback.hidden=true;fallbackValue.value='';
   let url=null,a=null;
   try{
     url=URL.createObjectURL(new Blob([text],{type}));
     a=E('a');a.href=url;a.download=filename;document.body.append(a);a.click();
     status.textContent='Download requested: '+filename+'. Your browser controls file saving.';
     fallback.hidden=true;
+    return true;
   }catch{
-    fallbackValue.value=text;fallback.hidden=false;fallbackValue.focus({preventScroll:true});
+    fallbackValue.value=text;fallback.hidden=false;fallbackValue.focus({preventScroll:true});fallbackValue.select();
     status.textContent='Download could not start. You can copy the prepared text instead.';
+    return false;
   }finally{
     a?.remove();if(url)setTimeout(()=>URL.revokeObjectURL(url),30000);
   }
@@ -238,12 +254,16 @@ function render(){
   status.textContent='Ten research actions available for '+p.name+'. No information is submitted to a server.';
 }
 function errorMessage(){
+  loaded=false;record=null;source=null;toolbar.replaceChildren();info.replaceChildren();checks.replaceChildren();
   status.textContent='Could not load the source record. The original passport above remains readable.';
   retry.hidden=false;root.dataset.mppLoaded='false';
 }
 function load(){
   if(busy)return;
-  busy=true;retry.hidden=true;
+  busy=true;loaded=false;record=null;source=null;actionRequest++;
+  toolbar.replaceChildren();info.replaceChildren();checks.replaceChildren();fallback.hidden=true;fallbackValue.value='';
+  root.dataset.mppLoaded='false';root.setAttribute('aria-busy','true');
+  retry.hidden=true;retry.disabled=true;
   status.textContent='Loading the original research record…';
   const controller=new AbortController();
   const timer=setTimeout(()=>controller.abort(),15000);
@@ -258,10 +278,10 @@ function load(){
     if(!matched)throw Error('Record missing');
     record=matched;source=sourceURL(record);
     render();
-  }).catch(errorMessage).finally(()=>{busy=false;clearTimeout(timer);});
+  }).catch(errorMessage).finally(()=>{busy=false;retry.disabled=false;root.setAttribute('aria-busy','false');clearTimeout(timer);});
 }
 window.MicroportPassportToolkit=Object.freeze({
-  getState:()=>({loaded,id,actions:toolbar.querySelectorAll('[data-mpp-action]').length}),
+  getState:()=>({loaded,loading:busy,id,actions:toolbar.querySelectorAll('[data-mpp-action]').length}),
   getLabels:()=>[...toolbar.querySelectorAll('[data-mpp-action]')].map(x=>x.dataset.mppAction)
 });
 load();
