@@ -1,0 +1,363 @@
+{
+  "batch": "operator-explorer-50",
+  "baselineMain": "6f4c820d1717d4d6cabc1bd625ff141db6ed249b",
+  "interpretation": "50 distinct interface behaviors/workflows in one cohesive explorer, not 50 verified operators or independently researched companies.",
+  "preservation": "The original 50 records, 72 original HTML pages, app palette and original operator HTML fallback remain intact.",
+  "limits": [
+    "Reported operator text is treated as a literal attribution; slash-separated labels are not split into independently verified companies",
+    "Source and report years do not prove present-day operation, flight permissions or real-world site counts",
+    "Browser QA is automated, not an independent physical-device test"
+  ],
+  "tasks": [
+    {
+      "id": "O01",
+      "area": "Operator coverage overview",
+      "title": "Present an interactive exact-attribution explorer on the operators page",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O02",
+      "area": "Operator coverage overview",
+      "title": "Validate original 50 project records before enabling the enhanced view",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O03",
+      "area": "Operator coverage overview",
+      "title": "Calculate distinct literal reported-operator labels from the data",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O04",
+      "area": "Operator coverage overview",
+      "title": "Display matching project-record count",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O05",
+      "area": "Operator coverage overview",
+      "title": "Display matching attribution-label count",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O06",
+      "area": "Operator coverage overview",
+      "title": "Display number of represented countries",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O07",
+      "area": "Operator coverage overview",
+      "title": "Display number of infrastructure categories",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O08",
+      "area": "Operator coverage overview",
+      "title": "Display number of records with syntactically valid HTTPS evidence links",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O09",
+      "area": "Operator coverage overview",
+      "title": "Offer quick shortcuts for six most frequently repeated labels",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O10",
+      "area": "Operator coverage overview",
+      "title": "Preserve original operator list if enhanced loading fails",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O11",
+      "area": "Search and filtering",
+      "title": "Search operator names, project names and reported equipment",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O12",
+      "area": "Search and filtering",
+      "title": "Match case-insensitively and accent-insensitively",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O13",
+      "area": "Search and filtering",
+      "title": "Filter by country using source values",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O14",
+      "area": "Search and filtering",
+      "title": "Filter by infrastructure type",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O15",
+      "area": "Search and filtering",
+      "title": "Filter by world region",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O16",
+      "area": "Search and filtering",
+      "title": "Filter by source report-year label",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O17",
+      "area": "Search and filtering",
+      "title": "Choose minimum reported-record threshold",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O18",
+      "area": "Search and filtering",
+      "title": "Sort attribution labels by count or alphabetically",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O19",
+      "area": "Search and filtering",
+      "title": "Display removable active-filter chips",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O20",
+      "area": "Search and filtering",
+      "title": "Clear all filters and preserve bookmarkable URL state",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O21",
+      "area": "Attribution record drilldown",
+      "title": "Open an operator label's source-backed record panel",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O22",
+      "area": "Attribution record drilldown",
+      "title": "Close a currently selected attribution panel",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O23",
+      "area": "Attribution record drilldown",
+      "title": "Count research records within a selected label",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O24",
+      "area": "Attribution record drilldown",
+      "title": "Show country diversity within an attribution",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O25",
+      "area": "Attribution record drilldown",
+      "title": "Show infrastructure category diversity",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O26",
+      "area": "Attribution record drilldown",
+      "title": "Count records with explicit report-year context",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O27",
+      "area": "Attribution record drilldown",
+      "title": "Show original project names without rewriting attributions",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O28",
+      "area": "Attribution record drilldown",
+      "title": "Show original reported equipment text and report dates",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O29",
+      "area": "Attribution record drilldown",
+      "title": "Link to individual research passports and safe original sources",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O30",
+      "area": "Attribution record drilldown",
+      "title": "Expand and collapse project lists six records at a time",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O31",
+      "area": "Comparison and navigation",
+      "title": "Select first exact operator attribution for comparison",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O32",
+      "area": "Comparison and navigation",
+      "title": "Select second exact operator attribution for comparison",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O33",
+      "area": "Comparison and navigation",
+      "title": "Swap comparison selections",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O34",
+      "area": "Comparison and navigation",
+      "title": "Warn when the same label is compared against itself",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O35",
+      "area": "Comparison and navigation",
+      "title": "Compare source-reported project counts",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O36",
+      "area": "Comparison and navigation",
+      "title": "Compare country counts",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O37",
+      "area": "Comparison and navigation",
+      "title": "Compare infrastructure-category counts",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O38",
+      "area": "Comparison and navigation",
+      "title": "Compare explicitly dated source reports",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O39",
+      "area": "Comparison and navigation",
+      "title": "Compare source-URL coverage",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O40",
+      "area": "Comparison and navigation",
+      "title": "Link each compared attribution to related directory records",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O41",
+      "area": "Exports and responsible interpretation",
+      "title": "Export matching full original records as JSON",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O42",
+      "area": "Exports and responsible interpretation",
+      "title": "Export a defined set of original fields as CSV",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O43",
+      "area": "Exports and responsible interpretation",
+      "title": "Protect spreadsheet CSV fields against formula interpretation",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O44",
+      "area": "Exports and responsible interpretation",
+      "title": "Export only records meeting active attribution filters",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O45",
+      "area": "Exports and responsible interpretation",
+      "title": "Copy the current operator-explorer link with clipboard fallback",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O46",
+      "area": "Exports and responsible interpretation",
+      "title": "Restore valid URL-based filters and selected attribution",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O47",
+      "area": "Exports and responsible interpretation",
+      "title": "Carry compatible filters into the project directory",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O48",
+      "area": "Exports and responsible interpretation",
+      "title": "Offer retryable loading failure feedback",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O49",
+      "area": "Exports and responsible interpretation",
+      "title": "Explain that combined labels are not proven partnerships",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    },
+    {
+      "id": "O50",
+      "area": "Exports and responsible interpretation",
+      "title": "Keep all original HTML, data, theme colors and navigation",
+      "implementedIn": "src/operator-explorer.js",
+      "verification": "CI/source and headless-browser checks pending"
+    }
+  ]
+}
