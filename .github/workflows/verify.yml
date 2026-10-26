@@ -28,6 +28,21 @@ jobs:
           python3 checks/navigation-round12.py
           python3 checks/site-navigation-audit.py
           python3 checks/site-recovery.py
+      - name: Research Trail 50 source audit
+        run: |
+          python3 checks/research-trail-50-audit.py
+          node --check src/research-trail.js
+          node --check src/experience-tools.js
+      - name: Browser-local Research Trail functional smoke and screenshots
+        run: bash checks/research-trail-50-browser-smoke.sh
+      - name: Archive Research Trail visual verification
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: microportmap-research-trail-50
+          path: checks/research-trail-50-screenshots/*.png
+          if-no-files-found: warn
+          retention-days: 30
       - name: Research experience 50 feature audit
         run: python3 checks/experience-50-audit.py
       - name: Research experience desktop and mobile DOM smoke
