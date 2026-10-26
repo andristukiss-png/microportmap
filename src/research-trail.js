@@ -36,7 +36,7 @@
   function getStore() {
     try {
       const value=localStorage.getItem(KEY);
-      if(value!==null){const parsed=JSON.parse(value);return dedupe(parsed);}
+      if(value!==null){const parsed=JSON.parse(value);stored=true;return dedupe(parsed);}
       localStorage.setItem(KEY,'[]');
       stored=true;return [];
     }catch {stored=false;return [];}
