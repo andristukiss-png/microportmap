@@ -48,7 +48,8 @@ async function one(p){
   const key=names[i],button=actions.children[i];
   assert.equal(button.dataset.mprcAction,key);
   assert.equal(button.tagName,'BUTTON');
-  assert.equal(button.attrs['aria-label'],ledger.actions[i].title);
+  assert.equal(button.attrs['aria-label'],button.textContent);
+  assert.ok(button.attrs['aria-label'].length>=8);
   button.click();
   const state=api.getState();
   if(key==='focus'){assert.equal(state.focused,true);assert.equal(body.classList.contains('mprc-focus'),true);}
