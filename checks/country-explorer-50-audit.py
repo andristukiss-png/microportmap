@@ -20,7 +20,7 @@ for token in ["function countryGroups()","function setCurrent(name)","function s
     "function download(format)","function copyURL()","function restoreURL()",
     "function preserveURL()","function load()","function entryLinks()","function draw()",
     "function shown()","function fill()","mpc-country-grid","mpc-country-detail",
-    "mpc-country-compare","localStorage","aria-pressed","source(r)",
+    "mpc-country-compare","localStorage","aria-pressed","const source=r=>",
     "verificationStatus","reportDateLabel","getVisible","MicroportCountries",
     "source-linked","countryPage","coveragePage","projects.json"]:
     assert token in js,token
