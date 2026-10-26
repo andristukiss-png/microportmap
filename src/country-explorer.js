@@ -336,7 +336,10 @@ async function copyURL(){
  catch{notice.textContent='Copy this link: '+url;}
 }
 function fill(){
- countryGroups();restoreURL();
+ countryGroups();
+ favorites=favorites.filter(name=>groups.some(group=>group.name===name));
+ keepFavorites();
+ restoreURL();
  regionSelect.replaceChildren(O('','All regions'));
  for(const name of regions)regionSelect.append(O(name,name));
  compareSelectA.replaceChildren(O('','Choose first country'));
