@@ -403,6 +403,25 @@
     const main=document.querySelector('main');
     if(main)main.insertBefore(root,main.firstChild?.nextSibling||null);
   }
+  // The legacy Up control is created by each original HTML page, often after
+  // this shared script. Keep its click/visibility handlers and replace only the label.
+  function compactUpButton() {
+    const up=document.getElementById('mp-up-button');
+    if(!up)return false;
+    if(up.dataset.mpArrowOnly!=='true') {
+      up.textContent='↑';
+      up.setAttribute('aria-label','Back to top of page');
+      up.title='Back to top';
+      up.dataset.mpArrowOnly='true';
+    }
+    return true;
+  }
+  if(!compactUpButton()) {
+    const upObserver=new MutationObserver(()=>{
+      if(compactUpButton())upObserver.disconnect();
+    });
+    upObserver.observe(document.body,{childList:true});
+  }
   finder();
   if($('atlas')){homepage();atlasExtras();}
   if(document.querySelector('section.directory'))directoryExtras();

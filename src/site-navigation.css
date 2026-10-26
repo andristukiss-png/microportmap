@@ -367,3 +367,26 @@ body.mpc-ready main>.columns{display:none}
 @media(max-width:700px){.mpc-explorer{padding:18px;margin:18px auto}.mpc-highlights{grid-template-columns:repeat(2,minmax(0,1fr))}.mpc-country-grid,.mpc-bars,.mpc-project-grid{grid-template-columns:1fr}.mpc-detail-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.mpc-detail,.mpc-compare{padding:17px}.mpc-compare-form{grid-template-columns:1fr}.mpc-detail-head{align-items:flex-start;flex-direction:column}.mpc-status{font-size:13px}}
 @media(max-width:430px){.mpc-selectors{grid-template-columns:1fr}.mpc-region-tabs{overflow-x:auto;flex-wrap:nowrap;padding-bottom:12px}.mpc-region-tabs .mpc-tab{flex:0 0 auto;white-space:nowrap}.mpc-exports>*{width:100%}}
 @media(prefers-reduced-motion:reduce){.mpc-explorer *{scroll-behavior:auto!important;transition:none!important}}
+
+
+/* Floating action overlap fix: keep the three existing controls separate.
+   Up retains its original scroll and visibility behavior. */
+@media(min-width:768px){
+  html body .mpt-trigger{
+    right:max(20px,env(safe-area-inset-right,0px));
+    bottom:calc(232px + env(safe-area-inset-bottom,0px));
+  }
+  html body .mpx-search-trigger{
+    right:max(20px,env(safe-area-inset-right,0px));
+    bottom:calc(166px + env(safe-area-inset-bottom,0px));
+  }
+  html body #mp-up-button{
+    right:max(20px,env(safe-area-inset-right,0px))!important;
+    bottom:calc(104px + env(safe-area-inset-bottom,0px))!important;
+    min-width:48px!important;
+    width:48px!important;
+    min-height:46px!important;
+    padding:10px!important;
+    text-align:center;
+  }
+}
