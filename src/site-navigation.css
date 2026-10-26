@@ -685,3 +685,35 @@ body.mpo-loaded main>.columns{display:none}
 @media(max-width:780px){.mpd-controls{grid-template-columns:1fr}.mpd-compare{margin:15px 0}.mpd-content{padding:14px}}
 @media(max-width:490px){.mpd-values,.mpd-heading,.mpd-references{grid-template-columns:1fr}.mpd-actions>*{width:100%}.mpd-summary{padding:16px}.mpd-field{padding:12px}}
 @media(prefers-reduced-motion:reduce){.mpd-compare *{transition:none!important;scroll-behavior:auto!important}}
+
+
+/* Approximate Location 500: collapsible 50-passport geospatial reference tools. */
+.mpl-location,.mpl-location *{box-sizing:border-box}
+.mpl-location{margin:19px 0 26px;border:1px solid #65bfa8;border-radius:18px;background:#fbfdfa;color:#102b35;font:500 13px/1.6 Inter,system-ui,sans-serif;box-shadow:0 7px 22px #173c440b}
+.mpl-summary{padding:18px 21px;cursor:pointer;color:#102b35;font:850 17px/1.45 system-ui;list-style-position:inside}
+.mpl-summary::marker{color:#167b75}
+.mpl-location[open]>.mpl-summary{border-bottom:1px solid #d6e5e2;background:#f4f8f6}
+.mpl-content{padding:21px}
+.mpl-lead{font-size:13px;line-height:1.7;color:#234149;font-weight:700;margin:0 0 16px}
+.mpl-facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-bottom:17px}
+.mpl-fact{border:1px solid #d6e5e2;border-radius:12px;padding:13px;background:#f4f8f6;min-width:0}
+.mpl-fact small{display:block;color:#167b75;font:800 11px/1.4 system-ui;margin-bottom:5px}
+.mpl-fact strong{color:#102b35;font:750 13px/1.5 system-ui;display:block;overflow-wrap:anywhere}
+.mpl-controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.mpl-action{display:inline-flex;align-items:center;justify-content:center;min-height:45px;padding:11px 13px;border:1px solid #167b75;border-radius:10px;background:#f4f8f6;color:#102b35!important;text-align:center;text-decoration:none!important;font:750 13px/1.4 system-ui;cursor:pointer;overflow-wrap:anywhere}
+.mpl-action:hover{background:#d8f5e8}
+.mpl-link{background:#167b75;color:#fff!important}
+.mpl-link:hover{background:#102b35;color:#fff!important}
+.mpl-action:disabled,.mpl-action[aria-disabled=true]{opacity:.5;cursor:not-allowed}
+.mpl-location :is(button,a,summary,textarea):focus-visible{outline:3px solid #ffa94f;outline-offset:3px}
+.mpl-message{color:#167b75;font:750 12px/1.6 system-ui;margin:15px 0}
+.mpl-manual{border:1px solid #65bfa8;background:#f4f8f6;border-radius:12px;padding:12px}
+.mpl-manual[hidden],.mpl-action[hidden]{display:none}
+.mpl-manual p{color:#234149;font-size:12px}
+.mpl-manual-text{width:100%;min-height:110px;resize:vertical;border:1px solid #65bfa8;border-radius:9px;background:#fff;color:#102b35;padding:11px;font:500 12px/1.5 ui-monospace,monospace}
+.mpl-caveat{border-top:1px solid #d6e5e2;padding-top:14px;margin-top:15px;color:#234149}
+.mpl-caveat summary{cursor:pointer;color:#167b75;font-weight:800}
+.mpl-caveat p{font-size:13px;line-height:1.7}
+@media(max-width:700px){.mpl-controls{grid-template-columns:1fr}.mpl-content{padding:15px}.mpl-facts{grid-template-columns:1fr 1fr}.mpl-summary{padding:16px}}
+@media(max-width:450px){.mpl-facts{grid-template-columns:1fr}.mpl-action{min-height:47px}}
+@media(prefers-reduced-motion:reduce){.mpl-location *{transition:none!important}}
