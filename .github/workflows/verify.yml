@@ -47,6 +47,25 @@ jobs:
             checks/contrasting-research-screenshots/*.png
           if-no-files-found: warn
           retention-days: 30
+      - name: Metadata Review 500 recovery and audit scope cases
+        run: |
+          node --check src/data-quality.js
+          node --check src/review-tools.js
+          node --check src/research-audit-export.js
+          node checks/quality.cjs
+          node checks/quality-reliability-500.cjs
+      - name: Metadata Review responsive recovery and export checks
+        run: bash checks/quality-reliability-browser-smoke.sh
+      - name: Retain Metadata Review 500 results and captures
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: microportmap-quality-reliability-500
+          path: |
+            checks/quality-reliability-500-results.json
+            checks/quality-reliability-screenshots/*.png
+          if-no-files-found: warn
+          retention-days: 30
       - name: Directory 500 recovery and filtered export cases
         run: |
           node --check src/directory.js

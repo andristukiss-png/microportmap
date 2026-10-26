@@ -51,11 +51,16 @@
     loading = true; el('error').hidden = true; el('quality-retry').disabled = true;
     el('summary').setAttribute('aria-busy', 'true');
     window.dispatchEvent(new CustomEvent('mp-quality-loading'));
-    const controller = new AbortController(), timer = setTimeout(() => controller.abort(), 15000);
+    const controller = new AbortController();
+    let timer;
     try {
-      const response = await fetch('/data/projects.json', {signal: controller.signal});
-      if (!response.ok) throw Error('Dataset unavailable');
-      render(await response.json());
+      const deadline = new Promise((_, reject) => { timer = setTimeout(() => { controller.abort(); reject(Error('Metadata lookup timed out')); }, 15000); });
+      const data = await Promise.race([deadline, (async () => {
+        const response = await fetch('/data/projects.json', {signal: controller.signal});
+        if (!response.ok) throw Error('Dataset unavailable');
+        return response.json();
+      })()]);
+      render(data);
     } catch {
       el('summary').textContent = 'Coverage indicators unavailable.';
       el('countries').textContent = 'Country coverage unavailable.';

@@ -1,0 +1,3008 @@
+{
+  "total": 500,
+  "passed": 500,
+  "failed": 0,
+  "scope": "Controlled DOM/VM metadata review recovery, link copy and audit export cases. Metadata flags do not independently verify research claims. Browser checks run separately.",
+  "cases": [
+    {
+      "taskId": "QR001",
+      "projectId": "shenzhen",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR002",
+      "projectId": "shenzhen",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR003",
+      "projectId": "shenzhen",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR004",
+      "projectId": "shenzhen",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR005",
+      "projectId": "shenzhen",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR006",
+      "projectId": "shenzhen",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR007",
+      "projectId": "shenzhen",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR008",
+      "projectId": "shenzhen",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR009",
+      "projectId": "shenzhen",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR010",
+      "projectId": "shenzhen",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR011",
+      "projectId": "rotterdam",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR012",
+      "projectId": "rotterdam",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR013",
+      "projectId": "rotterdam",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR014",
+      "projectId": "rotterdam",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR015",
+      "projectId": "rotterdam",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR016",
+      "projectId": "rotterdam",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR017",
+      "projectId": "rotterdam",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR018",
+      "projectId": "rotterdam",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR019",
+      "projectId": "rotterdam",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR020",
+      "projectId": "rotterdam",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR021",
+      "projectId": "kiel",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR022",
+      "projectId": "kiel",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR023",
+      "projectId": "kiel",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR024",
+      "projectId": "kiel",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR025",
+      "projectId": "kiel",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR026",
+      "projectId": "kiel",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR027",
+      "projectId": "kiel",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR028",
+      "projectId": "kiel",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR029",
+      "projectId": "kiel",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR030",
+      "projectId": "kiel",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR031",
+      "projectId": "italy",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR032",
+      "projectId": "italy",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR033",
+      "projectId": "italy",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR034",
+      "projectId": "italy",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR035",
+      "projectId": "italy",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR036",
+      "projectId": "italy",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR037",
+      "projectId": "italy",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR038",
+      "projectId": "italy",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR039",
+      "projectId": "italy",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR040",
+      "projectId": "italy",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR041",
+      "projectId": "oman",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR042",
+      "projectId": "oman",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR043",
+      "projectId": "oman",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR044",
+      "projectId": "oman",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR045",
+      "projectId": "oman",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR046",
+      "projectId": "oman",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR047",
+      "projectId": "oman",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR048",
+      "projectId": "oman",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR049",
+      "projectId": "oman",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR050",
+      "projectId": "oman",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR051",
+      "projectId": "australia",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR052",
+      "projectId": "australia",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR053",
+      "projectId": "australia",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR054",
+      "projectId": "australia",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR055",
+      "projectId": "australia",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR056",
+      "projectId": "australia",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR057",
+      "projectId": "australia",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR058",
+      "projectId": "australia",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR059",
+      "projectId": "australia",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR060",
+      "projectId": "australia",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR061",
+      "projectId": "enbw",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR062",
+      "projectId": "enbw",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR063",
+      "projectId": "enbw",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR064",
+      "projectId": "enbw",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR065",
+      "projectId": "enbw",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR066",
+      "projectId": "enbw",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR067",
+      "projectId": "enbw",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR068",
+      "projectId": "enbw",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR069",
+      "projectId": "enbw",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR070",
+      "projectId": "enbw",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR071",
+      "projectId": "dole",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR072",
+      "projectId": "dole",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR073",
+      "projectId": "dole",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR074",
+      "projectId": "dole",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR075",
+      "projectId": "dole",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR076",
+      "projectId": "dole",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR077",
+      "projectId": "dole",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR078",
+      "projectId": "dole",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR079",
+      "projectId": "dole",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR080",
+      "projectId": "dole",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR081",
+      "projectId": "tnb",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR082",
+      "projectId": "tnb",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR083",
+      "projectId": "tnb",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR084",
+      "projectId": "tnb",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR085",
+      "projectId": "tnb",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR086",
+      "projectId": "tnb",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR087",
+      "projectId": "tnb",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR088",
+      "projectId": "tnb",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR089",
+      "projectId": "tnb",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR090",
+      "projectId": "tnb",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR091",
+      "projectId": "asheville",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR092",
+      "projectId": "asheville",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR093",
+      "projectId": "asheville",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR094",
+      "projectId": "asheville",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR095",
+      "projectId": "asheville",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR096",
+      "projectId": "asheville",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR097",
+      "projectId": "asheville",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR098",
+      "projectId": "asheville",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR099",
+      "projectId": "asheville",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR100",
+      "projectId": "asheville",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR101",
+      "projectId": "vancouver",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR102",
+      "projectId": "vancouver",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR103",
+      "projectId": "vancouver",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR104",
+      "projectId": "vancouver",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR105",
+      "projectId": "vancouver",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR106",
+      "projectId": "vancouver",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR107",
+      "projectId": "vancouver",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR108",
+      "projectId": "vancouver",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR109",
+      "projectId": "vancouver",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR110",
+      "projectId": "vancouver",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR111",
+      "projectId": "ishikawa",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR112",
+      "projectId": "ishikawa",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR113",
+      "projectId": "ishikawa",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR114",
+      "projectId": "ishikawa",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR115",
+      "projectId": "ishikawa",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR116",
+      "projectId": "ishikawa",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR117",
+      "projectId": "ishikawa",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR118",
+      "projectId": "ishikawa",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR119",
+      "projectId": "ishikawa",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR120",
+      "projectId": "ishikawa",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR121",
+      "projectId": "belgium-sense",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR122",
+      "projectId": "belgium-sense",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR123",
+      "projectId": "belgium-sense",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR124",
+      "projectId": "belgium-sense",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR125",
+      "projectId": "belgium-sense",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR126",
+      "projectId": "belgium-sense",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR127",
+      "projectId": "belgium-sense",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR128",
+      "projectId": "belgium-sense",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR129",
+      "projectId": "belgium-sense",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR130",
+      "projectId": "belgium-sense",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR131",
+      "projectId": "texas-solar",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR132",
+      "projectId": "texas-solar",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR133",
+      "projectId": "texas-solar",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR134",
+      "projectId": "texas-solar",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR135",
+      "projectId": "texas-solar",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR136",
+      "projectId": "texas-solar",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR137",
+      "projectId": "texas-solar",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR138",
+      "projectId": "texas-solar",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR139",
+      "projectId": "texas-solar",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR140",
+      "projectId": "texas-solar",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR141",
+      "projectId": "caltrans-otay",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR142",
+      "projectId": "caltrans-otay",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR143",
+      "projectId": "caltrans-otay",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR144",
+      "projectId": "caltrans-otay",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR145",
+      "projectId": "caltrans-otay",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR146",
+      "projectId": "caltrans-otay",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR147",
+      "projectId": "caltrans-otay",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR148",
+      "projectId": "caltrans-otay",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR149",
+      "projectId": "caltrans-otay",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR150",
+      "projectId": "caltrans-otay",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR151",
+      "projectId": "ramapo",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR152",
+      "projectId": "ramapo",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR153",
+      "projectId": "ramapo",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR154",
+      "projectId": "ramapo",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR155",
+      "projectId": "ramapo",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR156",
+      "projectId": "ramapo",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR157",
+      "projectId": "ramapo",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR158",
+      "projectId": "ramapo",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR159",
+      "projectId": "ramapo",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR160",
+      "projectId": "ramapo",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR161",
+      "projectId": "kansanshi-zambia",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR162",
+      "projectId": "kansanshi-zambia",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR163",
+      "projectId": "kansanshi-zambia",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR164",
+      "projectId": "kansanshi-zambia",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR165",
+      "projectId": "kansanshi-zambia",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR166",
+      "projectId": "kansanshi-zambia",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR167",
+      "projectId": "kansanshi-zambia",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR168",
+      "projectId": "kansanshi-zambia",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR169",
+      "projectId": "kansanshi-zambia",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR170",
+      "projectId": "kansanshi-zambia",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR171",
+      "projectId": "quellaveco-peru",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR172",
+      "projectId": "quellaveco-peru",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR173",
+      "projectId": "quellaveco-peru",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR174",
+      "projectId": "quellaveco-peru",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR175",
+      "projectId": "quellaveco-peru",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR176",
+      "projectId": "quellaveco-peru",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR177",
+      "projectId": "quellaveco-peru",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR178",
+      "projectId": "quellaveco-peru",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR179",
+      "projectId": "quellaveco-peru",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR180",
+      "projectId": "quellaveco-peru",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR181",
+      "projectId": "uae-waste",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR182",
+      "projectId": "uae-waste",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR183",
+      "projectId": "uae-waste",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR184",
+      "projectId": "uae-waste",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR185",
+      "projectId": "uae-waste",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR186",
+      "projectId": "uae-waste",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR187",
+      "projectId": "uae-waste",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR188",
+      "projectId": "uae-waste",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR189",
+      "projectId": "uae-waste",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR190",
+      "projectId": "uae-waste",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR191",
+      "projectId": "axpo-swiss",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR192",
+      "projectId": "axpo-swiss",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR193",
+      "projectId": "axpo-swiss",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR194",
+      "projectId": "axpo-swiss",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR195",
+      "projectId": "axpo-swiss",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR196",
+      "projectId": "axpo-swiss",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR197",
+      "projectId": "axpo-swiss",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR198",
+      "projectId": "axpo-swiss",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR199",
+      "projectId": "axpo-swiss",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR200",
+      "projectId": "axpo-swiss",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR201",
+      "projectId": "slovakia-forest",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR202",
+      "projectId": "slovakia-forest",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR203",
+      "projectId": "slovakia-forest",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR204",
+      "projectId": "slovakia-forest",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR205",
+      "projectId": "slovakia-forest",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR206",
+      "projectId": "slovakia-forest",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR207",
+      "projectId": "slovakia-forest",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR208",
+      "projectId": "slovakia-forest",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR209",
+      "projectId": "slovakia-forest",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR210",
+      "projectId": "slovakia-forest",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR211",
+      "projectId": "southafrica-estate",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR212",
+      "projectId": "southafrica-estate",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR213",
+      "projectId": "southafrica-estate",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR214",
+      "projectId": "southafrica-estate",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR215",
+      "projectId": "southafrica-estate",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR216",
+      "projectId": "southafrica-estate",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR217",
+      "projectId": "southafrica-estate",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR218",
+      "projectId": "southafrica-estate",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR219",
+      "projectId": "southafrica-estate",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR220",
+      "projectId": "southafrica-estate",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR221",
+      "projectId": "sqm-chile",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR222",
+      "projectId": "sqm-chile",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR223",
+      "projectId": "sqm-chile",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR224",
+      "projectId": "sqm-chile",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR225",
+      "projectId": "sqm-chile",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR226",
+      "projectId": "sqm-chile",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR227",
+      "projectId": "sqm-chile",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR228",
+      "projectId": "sqm-chile",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR229",
+      "projectId": "sqm-chile",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR230",
+      "projectId": "sqm-chile",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR231",
+      "projectId": "csx-rail",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR232",
+      "projectId": "csx-rail",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR233",
+      "projectId": "csx-rail",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR234",
+      "projectId": "csx-rail",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR235",
+      "projectId": "csx-rail",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR236",
+      "projectId": "csx-rail",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR237",
+      "projectId": "csx-rail",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR238",
+      "projectId": "csx-rail",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR239",
+      "projectId": "csx-rail",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR240",
+      "projectId": "csx-rail",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR241",
+      "projectId": "aerial-fences",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR242",
+      "projectId": "aerial-fences",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR243",
+      "projectId": "aerial-fences",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR244",
+      "projectId": "aerial-fences",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR245",
+      "projectId": "aerial-fences",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR246",
+      "projectId": "aerial-fences",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR247",
+      "projectId": "aerial-fences",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR248",
+      "projectId": "aerial-fences",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR249",
+      "projectId": "aerial-fences",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR250",
+      "projectId": "aerial-fences",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR251",
+      "projectId": "premier-security-us",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR252",
+      "projectId": "premier-security-us",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR253",
+      "projectId": "premier-security-us",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR254",
+      "projectId": "premier-security-us",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR255",
+      "projectId": "premier-security-us",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR256",
+      "projectId": "premier-security-us",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR257",
+      "projectId": "premier-security-us",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR258",
+      "projectId": "premier-security-us",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR259",
+      "projectId": "premier-security-us",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR260",
+      "projectId": "premier-security-us",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR261",
+      "projectId": "discovery-land-us",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR262",
+      "projectId": "discovery-land-us",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR263",
+      "projectId": "discovery-land-us",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR264",
+      "projectId": "discovery-land-us",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR265",
+      "projectId": "discovery-land-us",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR266",
+      "projectId": "discovery-land-us",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR267",
+      "projectId": "discovery-land-us",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR268",
+      "projectId": "discovery-land-us",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR269",
+      "projectId": "discovery-land-us",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR270",
+      "projectId": "discovery-land-us",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR271",
+      "projectId": "port-lincoln",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR272",
+      "projectId": "port-lincoln",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR273",
+      "projectId": "port-lincoln",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR274",
+      "projectId": "port-lincoln",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR275",
+      "projectId": "port-lincoln",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR276",
+      "projectId": "port-lincoln",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR277",
+      "projectId": "port-lincoln",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR278",
+      "projectId": "port-lincoln",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR279",
+      "projectId": "port-lincoln",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR280",
+      "projectId": "port-lincoln",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR281",
+      "projectId": "titan-protection",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR282",
+      "projectId": "titan-protection",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR283",
+      "projectId": "titan-protection",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR284",
+      "projectId": "titan-protection",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR285",
+      "projectId": "titan-protection",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR286",
+      "projectId": "titan-protection",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR287",
+      "projectId": "titan-protection",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR288",
+      "projectId": "titan-protection",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR289",
+      "projectId": "titan-protection",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR290",
+      "projectId": "titan-protection",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR291",
+      "projectId": "soar-alaska",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR292",
+      "projectId": "soar-alaska",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR293",
+      "projectId": "soar-alaska",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR294",
+      "projectId": "soar-alaska",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR295",
+      "projectId": "soar-alaska",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR296",
+      "projectId": "soar-alaska",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR297",
+      "projectId": "soar-alaska",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR298",
+      "projectId": "soar-alaska",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR299",
+      "projectId": "soar-alaska",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR300",
+      "projectId": "soar-alaska",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR301",
+      "projectId": "barcelona-port",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR302",
+      "projectId": "barcelona-port",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR303",
+      "projectId": "barcelona-port",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR304",
+      "projectId": "barcelona-port",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR305",
+      "projectId": "barcelona-port",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR306",
+      "projectId": "barcelona-port",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR307",
+      "projectId": "barcelona-port",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR308",
+      "projectId": "barcelona-port",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR309",
+      "projectId": "barcelona-port",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR310",
+      "projectId": "barcelona-port",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR311",
+      "projectId": "celaya",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR312",
+      "projectId": "celaya",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR313",
+      "projectId": "celaya",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR314",
+      "projectId": "celaya",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR315",
+      "projectId": "celaya",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR316",
+      "projectId": "celaya",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR317",
+      "projectId": "celaya",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR318",
+      "projectId": "celaya",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR319",
+      "projectId": "celaya",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR320",
+      "projectId": "celaya",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR321",
+      "projectId": "palcacocha",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR322",
+      "projectId": "palcacocha",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR323",
+      "projectId": "palcacocha",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR324",
+      "projectId": "palcacocha",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR325",
+      "projectId": "palcacocha",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR326",
+      "projectId": "palcacocha",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR327",
+      "projectId": "palcacocha",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR328",
+      "projectId": "palcacocha",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR329",
+      "projectId": "palcacocha",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR330",
+      "projectId": "palcacocha",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR331",
+      "projectId": "bibai",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR332",
+      "projectId": "bibai",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR333",
+      "projectId": "bibai",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR334",
+      "projectId": "bibai",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR335",
+      "projectId": "bibai",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR336",
+      "projectId": "bibai",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR337",
+      "projectId": "bibai",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR338",
+      "projectId": "bibai",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR339",
+      "projectId": "bibai",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR340",
+      "projectId": "bibai",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR341",
+      "projectId": "ambite",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR342",
+      "projectId": "ambite",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR343",
+      "projectId": "ambite",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR344",
+      "projectId": "ambite",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR345",
+      "projectId": "ambite",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR346",
+      "projectId": "ambite",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR347",
+      "projectId": "ambite",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR348",
+      "projectId": "ambite",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR349",
+      "projectId": "ambite",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR350",
+      "projectId": "ambite",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR351",
+      "projectId": "opole",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR352",
+      "projectId": "opole",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR353",
+      "projectId": "opole",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR354",
+      "projectId": "opole",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR355",
+      "projectId": "opole",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR356",
+      "projectId": "opole",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR357",
+      "projectId": "opole",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR358",
+      "projectId": "opole",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR359",
+      "projectId": "opole",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR360",
+      "projectId": "opole",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR361",
+      "projectId": "wurzburg-emqport",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR362",
+      "projectId": "wurzburg-emqport",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR363",
+      "projectId": "wurzburg-emqport",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR364",
+      "projectId": "wurzburg-emqport",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR365",
+      "projectId": "wurzburg-emqport",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR366",
+      "projectId": "wurzburg-emqport",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR367",
+      "projectId": "wurzburg-emqport",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR368",
+      "projectId": "wurzburg-emqport",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR369",
+      "projectId": "wurzburg-emqport",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR370",
+      "projectId": "wurzburg-emqport",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR371",
+      "projectId": "tomakomai-refinery",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR372",
+      "projectId": "tomakomai-refinery",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR373",
+      "projectId": "tomakomai-refinery",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR374",
+      "projectId": "tomakomai-refinery",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR375",
+      "projectId": "tomakomai-refinery",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR376",
+      "projectId": "tomakomai-refinery",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR377",
+      "projectId": "tomakomai-refinery",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR378",
+      "projectId": "tomakomai-refinery",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR379",
+      "projectId": "tomakomai-refinery",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR380",
+      "projectId": "tomakomai-refinery",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR381",
+      "projectId": "network-rail-uk",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR382",
+      "projectId": "network-rail-uk",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR383",
+      "projectId": "network-rail-uk",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR384",
+      "projectId": "network-rail-uk",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR385",
+      "projectId": "network-rail-uk",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR386",
+      "projectId": "network-rail-uk",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR387",
+      "projectId": "network-rail-uk",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR388",
+      "projectId": "network-rail-uk",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR389",
+      "projectId": "network-rail-uk",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR390",
+      "projectId": "network-rail-uk",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR391",
+      "projectId": "gilboa-nypa",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR392",
+      "projectId": "gilboa-nypa",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR393",
+      "projectId": "gilboa-nypa",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR394",
+      "projectId": "gilboa-nypa",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR395",
+      "projectId": "gilboa-nypa",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR396",
+      "projectId": "gilboa-nypa",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR397",
+      "projectId": "gilboa-nypa",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR398",
+      "projectId": "gilboa-nypa",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR399",
+      "projectId": "gilboa-nypa",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR400",
+      "projectId": "gilboa-nypa",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR401",
+      "projectId": "teesside-terminal",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR402",
+      "projectId": "teesside-terminal",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR403",
+      "projectId": "teesside-terminal",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR404",
+      "projectId": "teesside-terminal",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR405",
+      "projectId": "teesside-terminal",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR406",
+      "projectId": "teesside-terminal",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR407",
+      "projectId": "teesside-terminal",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR408",
+      "projectId": "teesside-terminal",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR409",
+      "projectId": "teesside-terminal",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR410",
+      "projectId": "teesside-terminal",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR411",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR412",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR413",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR414",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR415",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR416",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR417",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR418",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR419",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR420",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR421",
+      "projectId": "upper-darby-dfr",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR422",
+      "projectId": "upper-darby-dfr",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR423",
+      "projectId": "upper-darby-dfr",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR424",
+      "projectId": "upper-darby-dfr",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR425",
+      "projectId": "upper-darby-dfr",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR426",
+      "projectId": "upper-darby-dfr",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR427",
+      "projectId": "upper-darby-dfr",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR428",
+      "projectId": "upper-darby-dfr",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR429",
+      "projectId": "upper-darby-dfr",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR430",
+      "projectId": "upper-darby-dfr",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR431",
+      "projectId": "skybound-waterloo",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR432",
+      "projectId": "skybound-waterloo",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR433",
+      "projectId": "skybound-waterloo",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR434",
+      "projectId": "skybound-waterloo",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR435",
+      "projectId": "skybound-waterloo",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR436",
+      "projectId": "skybound-waterloo",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR437",
+      "projectId": "skybound-waterloo",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR438",
+      "projectId": "skybound-waterloo",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR439",
+      "projectId": "skybound-waterloo",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR440",
+      "projectId": "skybound-waterloo",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR441",
+      "projectId": "skybound-glasgow",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR442",
+      "projectId": "skybound-glasgow",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR443",
+      "projectId": "skybound-glasgow",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR444",
+      "projectId": "skybound-glasgow",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR445",
+      "projectId": "skybound-glasgow",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR446",
+      "projectId": "skybound-glasgow",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR447",
+      "projectId": "skybound-glasgow",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR448",
+      "projectId": "skybound-glasgow",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR449",
+      "projectId": "skybound-glasgow",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR450",
+      "projectId": "skybound-glasgow",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR451",
+      "projectId": "skybound-cardiff",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR452",
+      "projectId": "skybound-cardiff",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR453",
+      "projectId": "skybound-cardiff",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR454",
+      "projectId": "skybound-cardiff",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR455",
+      "projectId": "skybound-cardiff",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR456",
+      "projectId": "skybound-cardiff",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR457",
+      "projectId": "skybound-cardiff",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR458",
+      "projectId": "skybound-cardiff",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR459",
+      "projectId": "skybound-cardiff",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR460",
+      "projectId": "skybound-cardiff",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR461",
+      "projectId": "cincinnati-dfr",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR462",
+      "projectId": "cincinnati-dfr",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR463",
+      "projectId": "cincinnati-dfr",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR464",
+      "projectId": "cincinnati-dfr",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR465",
+      "projectId": "cincinnati-dfr",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR466",
+      "projectId": "cincinnati-dfr",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR467",
+      "projectId": "cincinnati-dfr",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR468",
+      "projectId": "cincinnati-dfr",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR469",
+      "projectId": "cincinnati-dfr",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR470",
+      "projectId": "cincinnati-dfr",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR471",
+      "projectId": "yonkers-nokia",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR472",
+      "projectId": "yonkers-nokia",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR473",
+      "projectId": "yonkers-nokia",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR474",
+      "projectId": "yonkers-nokia",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR475",
+      "projectId": "yonkers-nokia",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR476",
+      "projectId": "yonkers-nokia",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR477",
+      "projectId": "yonkers-nokia",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR478",
+      "projectId": "yonkers-nokia",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR479",
+      "projectId": "yonkers-nokia",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR480",
+      "projectId": "yonkers-nokia",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR481",
+      "projectId": "summerville-nokia",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR482",
+      "projectId": "summerville-nokia",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR483",
+      "projectId": "summerville-nokia",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR484",
+      "projectId": "summerville-nokia",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR485",
+      "projectId": "summerville-nokia",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR486",
+      "projectId": "summerville-nokia",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR487",
+      "projectId": "summerville-nokia",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR488",
+      "projectId": "summerville-nokia",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR489",
+      "projectId": "summerville-nokia",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR490",
+      "projectId": "summerville-nokia",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "QR491",
+      "projectId": "el-paso-dfr",
+      "scenario": "fetch-deadline-releases-busy-state",
+      "passed": true
+    },
+    {
+      "taskId": "QR492",
+      "projectId": "el-paso-dfr",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "QR493",
+      "projectId": "el-paso-dfr",
+      "scenario": "retry-restores-current-project-audit",
+      "passed": true
+    },
+    {
+      "taskId": "QR494",
+      "projectId": "el-paso-dfr",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QR495",
+      "projectId": "el-paso-dfr",
+      "scenario": "latest-review-copy-controls-status",
+      "passed": true
+    },
+    {
+      "taskId": "QR496",
+      "projectId": "el-paso-dfr",
+      "scenario": "review-copy-deadline-falls-back-to-exact-url",
+      "passed": true
+    },
+    {
+      "taskId": "QR497",
+      "projectId": "el-paso-dfr",
+      "scenario": "reload-invalidates-pending-review-copy",
+      "passed": true
+    },
+    {
+      "taskId": "QR498",
+      "projectId": "el-paso-dfr",
+      "scenario": "flagged-empty-scope-disables-export",
+      "passed": true
+    },
+    {
+      "taskId": "QR499",
+      "projectId": "el-paso-dfr",
+      "scenario": "review-empty-and-restored-scope-buttons",
+      "passed": true
+    },
+    {
+      "taskId": "QR500",
+      "projectId": "el-paso-dfr",
+      "scenario": "csv-context-and-download-cleanup",
+      "passed": true
+    }
+  ]
+}
