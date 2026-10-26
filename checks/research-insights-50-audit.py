@@ -13,6 +13,7 @@ css=(root/"site-navigation.css").read_text()
 assert loader.count("insightScript.src='/research-insights.js'")==1
 assert css.count("Research Insights 50 · dashboard")==1
 assert css.count("{")==css.count("}")
+assert ".mpi-insights header.mpi-intro{background:transparent!important" in css, "Insights mobile hero contrast regression"
 for needle in ["function place()","function filter()","function renderCharts()",
     "function renderRecords()","function download(format)","function copyLink()",
     "function readLink()","function syncLink()","function setDisplay(v)",
