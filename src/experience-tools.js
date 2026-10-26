@@ -454,5 +454,9 @@
     passportToolkit.src='/passport-research-toolkit.js';
     passportToolkit.async=true;
     document.body.appendChild(passportToolkit);
+    const reviewWorkspace=document.createElement('script');
+    reviewWorkspace.src='/research-review-workspace.js';
+    reviewWorkspace.async=true;
+    document.body.appendChild(reviewWorkspace);
   }
 })();

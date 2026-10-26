@@ -28,6 +28,23 @@ jobs:
           python3 checks/navigation-round12.py
           python3 checks/site-navigation-audit.py
           python3 checks/site-recovery.py
+      - name: Review Workspace 500 source and task audit
+        run: |
+          python3 checks/review-workspace-500-audit.py
+          node --check src/research-review-workspace.js
+          node checks/review-workspace-500.cjs
+      - name: Review Workspace real-browser smoke and responsive screenshots
+        run: bash checks/review-workspace-browser-smoke.sh
+      - name: Archive 500 review checks and responsive screenshots
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: microportmap-review-workspace-500
+          path: |
+            checks/review-workspace-500-results.json
+            checks/review-workspace-screenshots/*.png
+          if-no-files-found: warn
+          retention-days: 30
       - name: Passport Toolkit 500 implementation and action audit
         run: |
           python3 checks/passport-toolkit-500-audit.py
