@@ -109,7 +109,7 @@ function load(){
 window.MicroportFields=Object.freeze({
  getState:()=>({ready,projectId:id,count:ready?definitions.length:0}),
  getFieldKeys:()=>definitions.map(d=>d[0]),
- getFieldText:key=>ready?fieldText(definitions.find(d=>d[0]===key)):'',
+ getFieldText:key=>{const def=definitions.find(d=>d[0]===key);return ready&&def?fieldText(def):'';},
  copyField:key=>{const def=definitions.find(d=>d[0]===key);return ready&&def?copyField(def):false;}
 });
 load();
