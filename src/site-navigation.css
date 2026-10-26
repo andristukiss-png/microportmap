@@ -214,7 +214,7 @@ body:has(#review-queue) .review-list a:hover,body:has(#review-queue) .links a:ho
 .mpt-live{display:block;min-height:20px;margin-top:12px;color:#167b75;font:700 13px/1.5 system-ui;overflow-wrap:anywhere}
 .mpt-empty{padding:20px;border:1px dashed #65bfa8;border-radius:13px;background:#f4f8f6;color:#102b35;font-size:14px;line-height:1.6}
 @media(max-width:600px){
- .mpt-trigger{right:12px;bottom:calc(150px + env(safe-area-inset-bottom,0px));padding:9px 13px;min-height:42px;font-size:12px}
+ .mpt-trigger{left:12px;right:auto;bottom:calc(96px + env(safe-area-inset-bottom,0px));padding:9px 12px;min-height:42px;font-size:12px;max-width:calc(50% - 16px)}.mpx-search-trigger{right:12px;max-width:calc(50% - 16px)}
  .mpt-backdrop{padding:9px}
  .mpt-panel{max-height:96vh;padding:18px 14px;border-radius:15px}
  .mpt-controls{grid-template-columns:1fr}
