@@ -22,8 +22,9 @@ for token in [
 "window.addEventListener('storage'","role','dialog'","aria-modal","mpt-save",
 "microportmap.research-trail.v1","window.MicroportTrail","reportDateLabel",
 "role','status'","aria-pressed","getClientRects","querySelectorAll",
-"CSV","location.origin","window.confirm","^\\s\\uFEFF"]:
+"location.origin","window.confirm"]:
     assert token in script,token
+assert "if(/^[\\s\\uFEFF]*[=+@-]/" in script, "CSV formula protection missing"
 assert script.count("localStorage.") >= 2
 assert "microportmap.com" not in script, "share URL should use current first-party origin"
 assert not any(url in script for url in ["google-analytics","facebook.com","smtp","mailto:"])
