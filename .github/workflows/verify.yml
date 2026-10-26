@@ -28,6 +28,23 @@ jobs:
           python3 checks/navigation-round12.py
           python3 checks/site-navigation-audit.py
           python3 checks/site-recovery.py
+      - name: Passport Reading 500 source and runtime action audit
+        run: |
+          python3 checks/passport-reading-500-audit.py
+          node --check src/passport-reading-controls.js
+          node checks/passport-reading-500.cjs
+      - name: Passport Reading real-browser behavior and responsive captures
+        run: bash checks/passport-reading-browser-smoke.sh
+      - name: Retain Passport Reading 500 results and screenshots
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: microportmap-passport-reading-500
+          path: |
+            checks/passport-reading-500-results.json
+            checks/passport-reading-screenshots/*.png
+          if-no-files-found: warn
+          retention-days: 30
       - name: Passport Quick Navigation 500 source and behavior audit
         run: |
           python3 checks/passport-quick-nav-500-audit.py

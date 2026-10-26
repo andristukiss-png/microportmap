@@ -736,3 +736,34 @@ body.mpo-loaded main>.columns{display:none}
 @media(max-width:600px){.mpq-list{grid-template-columns:repeat(2,minmax(0,1fr))}.mpq-panel{padding:12px}.mpq-summary{padding:14px}}
 @media(max-width:370px){.mpq-list{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.mpq-navigation *{transition:none!important}}
+
+
+/* Passport Reading Comfort 500: optional reversible layout adjustments on 50 passports. */
+.mprc-reader,.mprc-reader *{box-sizing:border-box}
+.mprc-reader{margin:15px 0 21px;border:1px solid #65bfa8;border-radius:15px;background:#fbfdfa;color:#102b35;box-shadow:0 7px 18px #173c440b;font:500 13px/1.6 system-ui}
+.mprc-title{padding:15px 18px;color:#102b35;font:800 15px/1.4 system-ui;cursor:pointer;list-style-position:inside}
+.mprc-title::marker{color:#167b75}
+.mprc-reader[open]>.mprc-title{background:#f4f8f6;border-bottom:1px solid #d6e5e2}
+.mprc-panel{padding:15px}
+.mprc-description,.mprc-note{color:#234149;font-size:12px;line-height:1.65;margin:0 0 13px}
+.mprc-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}
+.mprc-button{display:inline-flex;align-items:center;justify-content:center;min-height:43px;padding:9px 10px;border:1px solid #65bfa8;border-radius:10px;background:#f4f8f6;color:#102b35;font:750 12px/1.4 system-ui;cursor:pointer;text-align:center;overflow-wrap:anywhere}
+.mprc-button:hover{background:#d8f5e8}
+.mprc-button[aria-pressed=true]{background:#167b75;color:#fff;border-color:#167b75}
+.mprc-button:focus-visible,.mprc-title:focus-visible{outline:3px solid #ffa94f;outline-offset:3px}
+.mprc-status{color:#167b75;font:750 12px/1.5 system-ui;min-height:18px;margin:12px 0 2px}
+.mprc-reader .mprc-note{margin:5px 0 0}
+body.mprc-focus main > :is(#mpq-navigation,#mpp-toolkit,#mpr-workspace,#mpf-inspector,#mpd-compare,#mpl-location,.mpx-passport-explore,#mp-connect){display:none!important}
+body.mprc-active main :is(.hero p,.card p,.card dd,.card dt,.warn){font-size:calc(15px * var(--mprc-scale,1))!important}
+body.mprc-active main .hero h1{font-size:clamp(32px,calc(50px * var(--mprc-scale,1)),70px)!important}
+body.mprc-comfort main .card{padding:26px!important;margin-block:17px!important}
+body.mprc-comfort main .columns{gap:22px}
+body.mprc-comfort main :is(.hero p,.card p,.card dd,.card dt){line-height:1.95!important}
+body.mprc-compact main .card{padding:13px!important;margin-block:7px!important}
+body.mprc-compact main .columns{gap:9px}
+body.mprc-compact main :is(.hero p,.card p,.card dd,.card dt){line-height:1.45!important}
+@media(max-width:900px){.mprc-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:600px){.mprc-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.mprc-panel{padding:12px}.mprc-title{padding:14px}}
+@media(max-width:370px){.mprc-grid{grid-template-columns:1fr}}
+@media print{.mprc-reader{display:none!important}body.mprc-focus main > :is(#mpq-navigation,#mpp-toolkit,#mpr-workspace,#mpf-inspector,#mpd-compare,#mpl-location,.mpx-passport-explore,#mp-connect){display:none!important}}
+@media(prefers-reduced-motion:reduce){.mprc-reader *{transition:none!important}}
