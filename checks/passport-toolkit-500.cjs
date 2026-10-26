@@ -18,6 +18,7 @@ class Element{
  get textContent(){return this._text+this.children.map(x=>x?.textContent||'').join('');}
  append(...nodes){for(const node of nodes){if(node==null)continue;this.children.push(node);node.parentNode=this;}}
  appendChild(node){this.append(node);return node;}
+ replaceChildren(...nodes){this.children=[];this._text="";this.append(...nodes);}
  insertAdjacentElement(position,node){this.append(node);return node;}
  setAttribute(name,value){this.attributes[name]=String(value);}
  getAttribute(name){return this.attributes[name]??null;}
