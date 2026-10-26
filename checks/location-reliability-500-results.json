@@ -1,0 +1,3508 @@
+{
+  "total": 500,
+  "passed": 500,
+  "failed": 0,
+  "scope": "Controlled DOM/VM geographic boundary, UI and file-resource checks; real-browser checks run separately. No independently verified landing locations or native clipboard ordering claims.",
+  "cases": [
+    {
+      "taskId": "LR001",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR002",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR003",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR004",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR005",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR006",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR007",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR008",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR009",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR010",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR011",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR012",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR013",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR014",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR015",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR016",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR017",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR018",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR019",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR020",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR021",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR022",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR023",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR024",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR025",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR026",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR027",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR028",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR029",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR030",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR031",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR032",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR033",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR034",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR035",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR036",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR037",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR038",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR039",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR040",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR041",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR042",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR043",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR044",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR045",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR046",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR047",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR048",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR049",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR050",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR051",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR052",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR053",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR054",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR055",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR056",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR057",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR058",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR059",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR060",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR061",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR062",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR063",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR064",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR065",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR066",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR067",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR068",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR069",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR070",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR071",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR072",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR073",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR074",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR075",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR076",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR077",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR078",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR079",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR080",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR081",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR082",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR083",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR084",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR085",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR086",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR087",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR088",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR089",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR090",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR091",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR092",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR093",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR094",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR095",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR096",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR097",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR098",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR099",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR100",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR101",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR102",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR103",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR104",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR105",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR106",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR107",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR108",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR109",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR110",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR111",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR112",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR113",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR114",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR115",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR116",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR117",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR118",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR119",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR120",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR121",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR122",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR123",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR124",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR125",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR126",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR127",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR128",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR129",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR130",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR131",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR132",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR133",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR134",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR135",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR136",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR137",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR138",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR139",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR140",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR141",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR142",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR143",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR144",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR145",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR146",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR147",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR148",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR149",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR150",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR151",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR152",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR153",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR154",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR155",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR156",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR157",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR158",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR159",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR160",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR161",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR162",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR163",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR164",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR165",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR166",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR167",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR168",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR169",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR170",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR171",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR172",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR173",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR174",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR175",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR176",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR177",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR178",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR179",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR180",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR181",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR182",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR183",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR184",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR185",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR186",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR187",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR188",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR189",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR190",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR191",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR192",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR193",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR194",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR195",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR196",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR197",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR198",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR199",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR200",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR201",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR202",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR203",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR204",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR205",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR206",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR207",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR208",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR209",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR210",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR211",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR212",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR213",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR214",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR215",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR216",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR217",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR218",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR219",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR220",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR221",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR222",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR223",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR224",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR225",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR226",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR227",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR228",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR229",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR230",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR231",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR232",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR233",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR234",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR235",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR236",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR237",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR238",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR239",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR240",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR241",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR242",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR243",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR244",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR245",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR246",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR247",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR248",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR249",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR250",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR251",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR252",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR253",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR254",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR255",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR256",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR257",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR258",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR259",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR260",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR261",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR262",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR263",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR264",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR265",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR266",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR267",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR268",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR269",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR270",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR271",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR272",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR273",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR274",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR275",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR276",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR277",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR278",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR279",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR280",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR281",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR282",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR283",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR284",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR285",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR286",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR287",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR288",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR289",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR290",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR291",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR292",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR293",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR294",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR295",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR296",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR297",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR298",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR299",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR300",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR301",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR302",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR303",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR304",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR305",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR306",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR307",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR308",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR309",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR310",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR311",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR312",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR313",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR314",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR315",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR316",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR317",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR318",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR319",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR320",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR321",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR322",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR323",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR324",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR325",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR326",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR327",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR328",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR329",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR330",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR331",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR332",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR333",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR334",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR335",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR336",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR337",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR338",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR339",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR340",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR341",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR342",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR343",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR344",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR345",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR346",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR347",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR348",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR349",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR350",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR351",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR352",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR353",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR354",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR355",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR356",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR357",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR358",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR359",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR360",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR361",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR362",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR363",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR364",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR365",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR366",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR367",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR368",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR369",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR370",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR371",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR372",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR373",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR374",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR375",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR376",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR377",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR378",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR379",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR380",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR381",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR382",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR383",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR384",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR385",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR386",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR387",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR388",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR389",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR390",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR391",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR392",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR393",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR394",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR395",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR396",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR397",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR398",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR399",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR400",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR401",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR402",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR403",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR404",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR405",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR406",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR407",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR408",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR409",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR410",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR411",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR412",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR413",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR414",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR415",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR416",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR417",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR418",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR419",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR420",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR421",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR422",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR423",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR424",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR425",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR426",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR427",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR428",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR429",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR430",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR431",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR432",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR433",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR434",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR435",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR436",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR437",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR438",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR439",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR440",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR441",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR442",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR443",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR444",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR445",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR446",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR447",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR448",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR449",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR450",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR451",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR452",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR453",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR454",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR455",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR456",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR457",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR458",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR459",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR460",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR461",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR462",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR463",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR464",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR465",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR466",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR467",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR468",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR469",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR470",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR471",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR472",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR473",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR474",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR475",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR476",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR477",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR478",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR479",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR480",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR481",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR482",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR483",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR484",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR485",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR486",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR487",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR488",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR489",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR490",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    },
+    {
+      "taskId": "LR491",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "zero-and-coordinate-limits",
+      "passed": true
+    },
+    {
+      "taskId": "LR492",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "invalid-latitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR493",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "invalid-longitudes-disable-geographic-actions",
+      "passed": true
+    },
+    {
+      "taskId": "LR494",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "clipboard-unavailable-and-timeout",
+      "passed": true
+    },
+    {
+      "taskId": "LR495",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "competing-copy-feedback",
+      "passed": true
+    },
+    {
+      "taskId": "LR496",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "geojson-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR497",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "kml-download-failure-preserves-file",
+      "passed": true
+    },
+    {
+      "taskId": "LR498",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "download-resource-cleanup",
+      "passed": true
+    },
+    {
+      "taskId": "LR499",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "download-supersedes-pending-copy",
+      "passed": true
+    },
+    {
+      "taskId": "LR500",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "failed-reload-clears-geographic-state",
+      "passed": true
+    }
+  ]
+}

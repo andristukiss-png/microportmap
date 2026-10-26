@@ -89,6 +89,7 @@ jobs:
           python3 checks/approximate-location-500-audit.py
           node --check src/approximate-location-tools.js
           node checks/approximate-location-500.cjs
+          node checks/location-reliability-500.cjs
       - name: Approximate Location browser smoke and screenshots
         run: bash checks/approximate-location-browser-smoke.sh
       - name: Archive Approximate Location 500 results and visuals
@@ -98,6 +99,7 @@ jobs:
           name: microportmap-approximate-location-500
           path: |
             checks/approximate-location-500-results.json
+            checks/location-reliability-500-results.json
             checks/approximate-location-screenshots/*.png
           if-no-files-found: warn
           retention-days: 30
