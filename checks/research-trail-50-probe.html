@@ -1,5 +1,5 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><title>Research Trail CI fixture</title><script src="/research-trail.js" defer></script></head>
-<body><main><h1>Browser-local Research Trail verification</h1><div id="results">
+<body><aside id="trail-pre-inert" inert></aside><main><h1>Browser-local Research Trail verification</h1><div id="results">
 <article data-project-id="kiel"><a href="/projects/kiel/">Kiel</a></article>
 <article data-project-id="enbw"><a href="/projects/enbw/">EnBW</a></article>
 <article data-project-id="shenzhen"><a href="/projects/shenzhen/">Shenzhen</a></article>
@@ -20,6 +20,13 @@ const saved=JSON.parse(localStorage.getItem('microportmap.research-trail.v1'));
 check(saved.length===2&&saved[0]==='kiel','storage missing');
 document.getElementById('mpt-open').click();
 check(!document.getElementById('mpt-drawer').hidden,'dialog did not open');
+check(document.querySelector('main').inert,'background remained interactive during modal');
+const panel=document.querySelector('.mpt-panel');
+const focusables=[...panel.querySelectorAll('a[href],button:not(:disabled),input:not(:disabled),select:not(:disabled),textarea:not(:disabled)')].filter(n=>n.getClientRects().length);
+focusables.at(-1).focus();document.dispatchEvent(new KeyboardEvent('keydown',{key:'Tab',bubbles:true,cancelable:true}));
+check(document.activeElement===focusables[0],'Tab did not wrap within modal');
+focusables[0].focus();document.dispatchEvent(new KeyboardEvent('keydown',{key:'Tab',shiftKey:true,bubbles:true,cancelable:true}));
+check(document.activeElement===focusables.at(-1),'Shift+Tab did not wrap within modal');
 check(document.querySelectorAll('.mpt-card').length===2,'two saved cards absent');
 const query=document.querySelector('.mpt-filter');
 query.value='Germany';query.dispatchEvent(new Event('input',{bubbles:true}));
@@ -33,15 +40,49 @@ check(document.querySelector('.mpt-panel').textContent.includes('More in'),'dire
 document.dispatchEvent(new KeyboardEvent('keydown',{key:'Escape',bubbles:true}));
 check(document.getElementById('mpt-drawer').hidden,'Escape did not close');
 check(document.activeElement===document.getElementById('mpt-open'),'focus not restored');
+check(!document.querySelector('main').inert&&document.getElementById('trail-pre-inert').inert,'dismissal did not restore previous inert states');
 document.getElementById('mpt-open').click();
 check(document.querySelectorAll('.mpt-card').length===1,'saved item did not survive modal reopen');
 check(document.querySelector('.mpt-shared')?.hidden===false,'shared trail invitation missing');
+const key='microportmap.research-trail.v1',incoming=['shenzhen','rotterdam'];
+const data=await fetch('/data/projects.json').then(r=>r.json());
+const current=window.MicroportTrail.getIds()[0];
+const four=[current,...data.records.map(r=>r.id).filter(id=>id!==current&&!incoming.includes(id)).slice(0,3)];
+localStorage.setItem(key,JSON.stringify(four));
+window.dispatchEvent(new StorageEvent('storage',{key,newValue:JSON.stringify(four),storageArea:localStorage}));
 document.querySelector('.mpt-shared button').click();
-check(window.MicroportTrail.getIds().length===2,'shared import did not add');
+check(window.MicroportTrail.getIds().length===5,'partial shared import did not fill the last slot');
+check(!document.querySelector('.mpt-shared').hidden&&document.querySelector('.mpt-shared button').disabled,'remaining invitation was discarded or full import stayed enabled');
+document.querySelector('.mpt-remove').click();document.querySelector('.mpt-shared button').click();
+check(window.MicroportTrail.getIds().length===5&&window.MicroportTrail.getIds().includes('rotterdam'),'remaining shared project was not importable');
+check(document.querySelector('.mpt-shared').hidden,'completed invitation remained visible');
+const descriptor=Object.getOwnPropertyDescriptor(navigator,'clipboard');
+try{
+ Object.defineProperty(navigator,'clipboard',{configurable:true,value:undefined});
+ document.querySelector('.mpt-actions').children[3].click();await pause(30);
+ const fallback=document.querySelector('.mpt-share-fallback'),text=fallback.querySelector('textarea');
+ check(!fallback.hidden&&document.activeElement===text&&text.selectionEnd===text.value.length,'share fallback not focused/selected');
+ const url=new URL(text.value);check(url.origin===location.origin&&url.searchParams.get('trail').split(',').length===5,'share fallback lost public IDs or first-party origin');
+ let reject;
+ Object.defineProperty(navigator,'clipboard',{configurable:true,value:{writeText:()=>new Promise((_,fail)=>{reject=fail;})}});
+ document.querySelector('.mpt-actions').children[3].click();window.confirm=()=>true;
+ document.querySelector('.mpt-actions .mpt-quiet').click();const message=document.querySelector('.mpt-live').textContent;
+ reject(Error('Late copy denial'));await pause(30);
+ check(document.querySelector('.mpt-live').textContent===message&&fallback.hidden&&text.value==='','cleared trail returned through stale share feedback');
+}finally{if(descriptor)Object.defineProperty(navigator,'clipboard',descriptor);else delete navigator.clipboard;}
+localStorage.setItem(key,JSON.stringify(['kiel']));
+window.dispatchEvent(new StorageEvent('storage',{key,newValue:'["kiel"]',storageArea:sessionStorage}));
+check(window.MicroportTrail.getIds().length===0,'unrelated storage area changed trail');
+window.dispatchEvent(new StorageEvent('storage',{key,newValue:'["kiel"]',storageArea:localStorage}));
+check(window.MicroportTrail.getIds().length===1,'local storage update not applied');
+localStorage.removeItem(key);window.dispatchEvent(new StorageEvent('storage',{key:null,newValue:null,storageArea:localStorage}));
+check(window.MicroportTrail.getIds().length===0,'storage clear retained old IDs');
 window.confirm=()=>true;
 document.querySelector('.mpt-actions .mpt-quiet').click();
 check(window.MicroportTrail.getIds().length===0,'clear did not empty');
-output.textContent='PASS: saved, persisted, filtered, removed, keyboard dismissed, shared opt-in imported, cleared';
+document.querySelector('.mpt-close').click();
+check(!document.querySelector('main').inert&&document.getElementById('trail-pre-inert').inert,'final inert restoration failed');
+output.textContent='PASS: modal isolation/focus, partial shared imports, selected share fallback, stale-copy cancellation and storage clear';
 }catch(e){output.textContent='FAIL: '+e.message;}
 });
 </script></body></html>

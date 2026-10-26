@@ -1,0 +1,3508 @@
+{
+  "total": 500,
+  "passed": 500,
+  "failed": 0,
+  "scope": "Controlled DOM/VM shortlist, accessibility and share-link recovery checks; real-browser checks run separately. Public IDs are shared only on explicit import/copy actions; no independent research verification or native clipboard ordering claims.",
+  "cases": [
+    {
+      "taskId": "TR001",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR002",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR003",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR004",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR005",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR006",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR007",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR008",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR009",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR010",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR011",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR012",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR013",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR014",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR015",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR016",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR017",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR018",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR019",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR020",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR021",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR022",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR023",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR024",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR025",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR026",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR027",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR028",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR029",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR030",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR031",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR032",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR033",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR034",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR035",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR036",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR037",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR038",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR039",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR040",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR041",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR042",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR043",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR044",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR045",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR046",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR047",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR048",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR049",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR050",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR051",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR052",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR053",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR054",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR055",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR056",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR057",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR058",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR059",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR060",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR061",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR062",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR063",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR064",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR065",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR066",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR067",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR068",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR069",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR070",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR071",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR072",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR073",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR074",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR075",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR076",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR077",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR078",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR079",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR080",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR081",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR082",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR083",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR084",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR085",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR086",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR087",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR088",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR089",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR090",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR091",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR092",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR093",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR094",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR095",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR096",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR097",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR098",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR099",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR100",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR101",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR102",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR103",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR104",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR105",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR106",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR107",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR108",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR109",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR110",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR111",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR112",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR113",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR114",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR115",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR116",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR117",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR118",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR119",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR120",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR121",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR122",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR123",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR124",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR125",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR126",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR127",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR128",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR129",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR130",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR131",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR132",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR133",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR134",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR135",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR136",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR137",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR138",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR139",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR140",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR141",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR142",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR143",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR144",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR145",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR146",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR147",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR148",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR149",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR150",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR151",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR152",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR153",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR154",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR155",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR156",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR157",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR158",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR159",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR160",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR161",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR162",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR163",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR164",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR165",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR166",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR167",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR168",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR169",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR170",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR171",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR172",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR173",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR174",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR175",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR176",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR177",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR178",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR179",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR180",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR181",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR182",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR183",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR184",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR185",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR186",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR187",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR188",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR189",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR190",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR191",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR192",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR193",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR194",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR195",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR196",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR197",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR198",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR199",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR200",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR201",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR202",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR203",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR204",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR205",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR206",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR207",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR208",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR209",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR210",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR211",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR212",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR213",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR214",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR215",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR216",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR217",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR218",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR219",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR220",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR221",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR222",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR223",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR224",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR225",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR226",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR227",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR228",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR229",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR230",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR231",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR232",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR233",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR234",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR235",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR236",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR237",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR238",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR239",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR240",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR241",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR242",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR243",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR244",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR245",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR246",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR247",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR248",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR249",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR250",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR251",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR252",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR253",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR254",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR255",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR256",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR257",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR258",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR259",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR260",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR261",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR262",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR263",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR264",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR265",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR266",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR267",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR268",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR269",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR270",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR271",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR272",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR273",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR274",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR275",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR276",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR277",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR278",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR279",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR280",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR281",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR282",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR283",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR284",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR285",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR286",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR287",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR288",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR289",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR290",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR291",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR292",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR293",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR294",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR295",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR296",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR297",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR298",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR299",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR300",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR301",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR302",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR303",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR304",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR305",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR306",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR307",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR308",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR309",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR310",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR311",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR312",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR313",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR314",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR315",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR316",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR317",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR318",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR319",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR320",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR321",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR322",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR323",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR324",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR325",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR326",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR327",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR328",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR329",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR330",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR331",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR332",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR333",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR334",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR335",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR336",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR337",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR338",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR339",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR340",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR341",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR342",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR343",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR344",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR345",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR346",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR347",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR348",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR349",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR350",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR351",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR352",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR353",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR354",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR355",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR356",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR357",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR358",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR359",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR360",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR361",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR362",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR363",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR364",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR365",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR366",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR367",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR368",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR369",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR370",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR371",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR372",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR373",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR374",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR375",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR376",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR377",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR378",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR379",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR380",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR381",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR382",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR383",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR384",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR385",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR386",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR387",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR388",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR389",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR390",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR391",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR392",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR393",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR394",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR395",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR396",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR397",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR398",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR399",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR400",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR401",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR402",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR403",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR404",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR405",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR406",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR407",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR408",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR409",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR410",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR411",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR412",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR413",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR414",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR415",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR416",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR417",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR418",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR419",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR420",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR421",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR422",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR423",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR424",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR425",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR426",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR427",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR428",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR429",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR430",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR431",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR432",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR433",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR434",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR435",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR436",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR437",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR438",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR439",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR440",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR441",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR442",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR443",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR444",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR445",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR446",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR447",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR448",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR449",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR450",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR451",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR452",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR453",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR454",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR455",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR456",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR457",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR458",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR459",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR460",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR461",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR462",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR463",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR464",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR465",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR466",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR467",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR468",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR469",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR470",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR471",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR472",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR473",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR474",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR475",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR476",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR477",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR478",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR479",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR480",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR481",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR482",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR483",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR484",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR485",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR486",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR487",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR488",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR489",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR490",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    },
+    {
+      "taskId": "TR491",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "modal-inert-state-and-restoration",
+      "passed": true
+    },
+    {
+      "taskId": "TR492",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "keyboard-trap-and-escape",
+      "passed": true
+    },
+    {
+      "taskId": "TR493",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "invalid-stored-identities-normalize-to-empty",
+      "passed": true
+    },
+    {
+      "taskId": "TR494",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "shared-links-are-opt-in",
+      "passed": true
+    },
+    {
+      "taskId": "TR495",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "partial-import-retains-unimported-projects",
+      "passed": true
+    },
+    {
+      "taskId": "TR496",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "storage-clear-and-unrelated-area",
+      "passed": true
+    },
+    {
+      "taskId": "TR497",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "share-timeout-selectable-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "TR498",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "clearing-supersedes-share-outcomes",
+      "passed": true
+    },
+    {
+      "taskId": "TR499",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "exports-and-accessible-project-labels",
+      "passed": true
+    },
+    {
+      "taskId": "TR500",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "catalogue-failure-controls-and-retry",
+      "passed": true
+    }
+  ]
+}
