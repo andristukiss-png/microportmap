@@ -420,7 +420,7 @@
     const upObserver=new MutationObserver(()=>{
       if(compactUpButton())upObserver.disconnect();
     });
-    upObserver.observe(document.body,{childList:true,subtree:true});
+    upObserver.observe(document.body,{childList:true});
   }
   finder();
   if($('atlas')){homepage();atlasExtras();}
