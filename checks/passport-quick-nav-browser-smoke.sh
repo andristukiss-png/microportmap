@@ -16,7 +16,7 @@ import sys
 path=Path("src/projects")/sys.argv[1]/"index.html"
 source=path.read_text()
 assert "</body>" in source and "</head>" in source
-css='<style>main>.hero,main>.columns,main>#mpp-toolkit,main>#mpr-workspace,main>#mpf-inspector,main>#mpd-compare,main>#mpl-location,main>#mp-connect,main>.mpx-passport-explore{display:none!important}main{margin-top:12px!important}</style>'
+css='<style id="mpq-preview-style">main>.hero,main>.columns,main>#mpp-toolkit,main>#mpr-workspace,main>#mpf-inspector,main>#mpd-compare,main>#mpl-location,main>#mp-connect,main>.mpx-passport-explore{display:none!important}main{margin-top:12px!important}</style>'
 source=source.replace("</head>",css+"</head>",1)
 source=source.replace("</body>",'<output id="mpq-test-result">PENDING</output><script src="/__mpq_probe.js"></script></body>',1)
 path.write_text(source)

@@ -1,0 +1,3508 @@
+{
+  "total": 500,
+  "passed": 500,
+  "failed": 0,
+  "scope": "Controlled DOM/VM navigation transitions, not browser/device or production tests",
+  "cases": [
+    {
+      "taskId": "QN001",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN002",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN003",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN004",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN005",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN006",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN007",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN008",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN009",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN010",
+      "projectId": "shenzhen",
+      "route": "/projects/shenzhen/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN011",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN012",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN013",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN014",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN015",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN016",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN017",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN018",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN019",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN020",
+      "projectId": "rotterdam",
+      "route": "/projects/rotterdam/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN021",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN022",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN023",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN024",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN025",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN026",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN027",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN028",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN029",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN030",
+      "projectId": "kiel",
+      "route": "/projects/kiel/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN031",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN032",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN033",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN034",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN035",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN036",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN037",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN038",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN039",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN040",
+      "projectId": "italy",
+      "route": "/projects/italy/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN041",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN042",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN043",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN044",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN045",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN046",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN047",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN048",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN049",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN050",
+      "projectId": "oman",
+      "route": "/projects/oman/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN051",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN052",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN053",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN054",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN055",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN056",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN057",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN058",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN059",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN060",
+      "projectId": "australia",
+      "route": "/projects/australia/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN061",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN062",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN063",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN064",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN065",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN066",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN067",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN068",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN069",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN070",
+      "projectId": "enbw",
+      "route": "/projects/enbw/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN071",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN072",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN073",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN074",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN075",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN076",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN077",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN078",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN079",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN080",
+      "projectId": "dole",
+      "route": "/projects/dole/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN081",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN082",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN083",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN084",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN085",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN086",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN087",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN088",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN089",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN090",
+      "projectId": "tnb",
+      "route": "/projects/tnb/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN091",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN092",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN093",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN094",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN095",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN096",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN097",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN098",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN099",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN100",
+      "projectId": "asheville",
+      "route": "/projects/asheville/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN101",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN102",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN103",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN104",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN105",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN106",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN107",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN108",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN109",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN110",
+      "projectId": "vancouver",
+      "route": "/projects/vancouver/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN111",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN112",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN113",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN114",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN115",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN116",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN117",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN118",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN119",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN120",
+      "projectId": "ishikawa",
+      "route": "/projects/ishikawa/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN121",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN122",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN123",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN124",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN125",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN126",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN127",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN128",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN129",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN130",
+      "projectId": "belgium-sense",
+      "route": "/projects/belgium-sense/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN131",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN132",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN133",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN134",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN135",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN136",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN137",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN138",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN139",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN140",
+      "projectId": "texas-solar",
+      "route": "/projects/texas-solar/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN141",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN142",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN143",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN144",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN145",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN146",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN147",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN148",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN149",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN150",
+      "projectId": "caltrans-otay",
+      "route": "/projects/caltrans-otay/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN151",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN152",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN153",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN154",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN155",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN156",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN157",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN158",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN159",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN160",
+      "projectId": "ramapo",
+      "route": "/projects/ramapo/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN161",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN162",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN163",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN164",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN165",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN166",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN167",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN168",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN169",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN170",
+      "projectId": "kansanshi-zambia",
+      "route": "/projects/kansanshi-zambia/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN171",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN172",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN173",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN174",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN175",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN176",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN177",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN178",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN179",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN180",
+      "projectId": "quellaveco-peru",
+      "route": "/projects/quellaveco-peru/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN181",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN182",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN183",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN184",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN185",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN186",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN187",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN188",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN189",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN190",
+      "projectId": "uae-waste",
+      "route": "/projects/uae-waste/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN191",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN192",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN193",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN194",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN195",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN196",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN197",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN198",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN199",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN200",
+      "projectId": "axpo-swiss",
+      "route": "/projects/axpo-swiss/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN201",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN202",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN203",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN204",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN205",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN206",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN207",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN208",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN209",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN210",
+      "projectId": "slovakia-forest",
+      "route": "/projects/slovakia-forest/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN211",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN212",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN213",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN214",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN215",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN216",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN217",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN218",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN219",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN220",
+      "projectId": "southafrica-estate",
+      "route": "/projects/southafrica-estate/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN221",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN222",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN223",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN224",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN225",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN226",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN227",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN228",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN229",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN230",
+      "projectId": "sqm-chile",
+      "route": "/projects/sqm-chile/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN231",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN232",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN233",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN234",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN235",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN236",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN237",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN238",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN239",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN240",
+      "projectId": "csx-rail",
+      "route": "/projects/csx-rail/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN241",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN242",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN243",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN244",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN245",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN246",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN247",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN248",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN249",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN250",
+      "projectId": "aerial-fences",
+      "route": "/projects/aerial-fences/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN251",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN252",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN253",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN254",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN255",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN256",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN257",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN258",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN259",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN260",
+      "projectId": "premier-security-us",
+      "route": "/projects/premier-security-us/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN261",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN262",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN263",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN264",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN265",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN266",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN267",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN268",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN269",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN270",
+      "projectId": "discovery-land-us",
+      "route": "/projects/discovery-land-us/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN271",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN272",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN273",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN274",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN275",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN276",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN277",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN278",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN279",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN280",
+      "projectId": "port-lincoln",
+      "route": "/projects/port-lincoln/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN281",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN282",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN283",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN284",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN285",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN286",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN287",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN288",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN289",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN290",
+      "projectId": "titan-protection",
+      "route": "/projects/titan-protection/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN291",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN292",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN293",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN294",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN295",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN296",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN297",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN298",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN299",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN300",
+      "projectId": "soar-alaska",
+      "route": "/projects/soar-alaska/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN301",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN302",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN303",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN304",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN305",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN306",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN307",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN308",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN309",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN310",
+      "projectId": "barcelona-port",
+      "route": "/projects/barcelona-port/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN311",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN312",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN313",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN314",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN315",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN316",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN317",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN318",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN319",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN320",
+      "projectId": "celaya",
+      "route": "/projects/celaya/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN321",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN322",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN323",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN324",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN325",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN326",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN327",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN328",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN329",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN330",
+      "projectId": "palcacocha",
+      "route": "/projects/palcacocha/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN331",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN332",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN333",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN334",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN335",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN336",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN337",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN338",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN339",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN340",
+      "projectId": "bibai",
+      "route": "/projects/bibai/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN341",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN342",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN343",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN344",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN345",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN346",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN347",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN348",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN349",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN350",
+      "projectId": "ambite",
+      "route": "/projects/ambite/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN351",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN352",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN353",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN354",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN355",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN356",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN357",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN358",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN359",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN360",
+      "projectId": "opole",
+      "route": "/projects/opole/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN361",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN362",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN363",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN364",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN365",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN366",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN367",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN368",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN369",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN370",
+      "projectId": "wurzburg-emqport",
+      "route": "/projects/wurzburg-emqport/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN371",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN372",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN373",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN374",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN375",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN376",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN377",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN378",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN379",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN380",
+      "projectId": "tomakomai-refinery",
+      "route": "/projects/tomakomai-refinery/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN381",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN382",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN383",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN384",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN385",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN386",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN387",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN388",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN389",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN390",
+      "projectId": "network-rail-uk",
+      "route": "/projects/network-rail-uk/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN391",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN392",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN393",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN394",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN395",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN396",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN397",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN398",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN399",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN400",
+      "projectId": "gilboa-nypa",
+      "route": "/projects/gilboa-nypa/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN401",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN402",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN403",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN404",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN405",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN406",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN407",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN408",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN409",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN410",
+      "projectId": "teesside-terminal",
+      "route": "/projects/teesside-terminal/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN411",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN412",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN413",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN414",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN415",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN416",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN417",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN418",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN419",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN420",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/projects/antwerp-cargo-hub/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN421",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN422",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN423",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN424",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN425",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN426",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN427",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN428",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN429",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN430",
+      "projectId": "upper-darby-dfr",
+      "route": "/projects/upper-darby-dfr/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN431",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN432",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN433",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN434",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN435",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN436",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN437",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN438",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN439",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN440",
+      "projectId": "skybound-waterloo",
+      "route": "/projects/skybound-waterloo/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN441",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN442",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN443",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN444",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN445",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN446",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN447",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN448",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN449",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN450",
+      "projectId": "skybound-glasgow",
+      "route": "/projects/skybound-glasgow/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN451",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN452",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN453",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN454",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN455",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN456",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN457",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN458",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN459",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN460",
+      "projectId": "skybound-cardiff",
+      "route": "/projects/skybound-cardiff/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN461",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN462",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN463",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN464",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN465",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN466",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN467",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN468",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN469",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN470",
+      "projectId": "cincinnati-dfr",
+      "route": "/projects/cincinnati-dfr/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN471",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN472",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN473",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN474",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN475",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN476",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN477",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN478",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN479",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN480",
+      "projectId": "yonkers-nokia",
+      "route": "/projects/yonkers-nokia/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN481",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN482",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN483",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN484",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN485",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN486",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN487",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN488",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN489",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN490",
+      "projectId": "summerville-nokia",
+      "route": "/projects/summerville-nokia/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    },
+    {
+      "taskId": "QN491",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "leave-focus-for-tools",
+      "passed": true
+    },
+    {
+      "taskId": "QN492",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "retain-focus-for-original",
+      "passed": true
+    },
+    {
+      "taskId": "QN493",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "open-nested-disclosures",
+      "passed": true
+    },
+    {
+      "taskId": "QN494",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "preserve-existing-tabindex",
+      "passed": true
+    },
+    {
+      "taskId": "QN495",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "focus-section-and-ignore-invalid",
+      "passed": true
+    },
+    {
+      "taskId": "QN496",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "newest-shortcut-wins",
+      "passed": true
+    },
+    {
+      "taskId": "QN497",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "saved-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN498",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "country-cancels-delayed-shortcut",
+      "passed": true
+    },
+    {
+      "taskId": "QN499",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "missing-destination-recovers",
+      "passed": true
+    },
+    {
+      "taskId": "QN500",
+      "projectId": "el-paso-dfr",
+      "route": "/projects/el-paso-dfr/",
+      "scenario": "late-destination-retry",
+      "passed": true
+    }
+  ]
+}

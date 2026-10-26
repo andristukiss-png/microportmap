@@ -46,7 +46,7 @@ panel.append(description,nav,status);root.append(summary,panel);
 const hero=main.querySelector('.hero'),facts=main.querySelector('.columns');
 if(hero)hero.insertAdjacentElement('afterend',root);
 else main.insertBefore(root,main.firstChild);
-let country='',ready=false,loading=false;
+let country='',ready=false,loading=false,latestRequest=0;
 const create=(key,title)=>{
  const action=E('button','mpq-link',title);action.type='button';action.dataset.mpqAction=key;
  action.setAttribute('aria-label',notices[key]);
@@ -60,7 +60,9 @@ function targetFor(key){
  return document.querySelector(step[2]);
 }
 async function waitForTarget(key){
+ const request=latestRequest;
  for(let i=0;i<16;i++){
+  if(request!==latestRequest)return null;
   const found=targetFor(key);
   if(found)return found;
   await new Promise(resolve=>setTimeout(resolve,100));
@@ -68,12 +70,18 @@ async function waitForTarget(key){
  return null;
 }
 function reveal(el){
- if(el.tagName==='DETAILS')el.open=true;
- else if(el.closest?.('details'))el.closest('details').open=true;
+ // Open every enclosing disclosure before scrolling or transferring keyboard focus.
+ for(let ancestor=el;ancestor;ancestor=ancestor.parentElement){
+  if(ancestor.tagName==='DETAILS')ancestor.open=true;
+ }
+ if(!el.matches?.('a,button,input,select,textarea,summary')&&!el.hasAttribute?.('tabindex'))
+  el.setAttribute('tabindex','-1');
  el.scrollIntoView?.({behavior:'auto',block:'start'});
- if(el.hasAttribute?.('tabindex')||el.matches?.('a,button,input,select,textarea,summary'))el.focus?.({preventScroll:true});
+ el.focus?.({preventScroll:true});
 }
 async function activate(key){
+ if(!steps.some(s=>s[0]===key))return false;
+ const request=++latestRequest;
  status.textContent='';
  if(key==='country'){
   const search=new URLSearchParams();
@@ -86,9 +94,11 @@ async function activate(key){
   if(!toggle){status.textContent='Saved research is currently unavailable on this page.';return false;}
   toggle.click();return true;
  }
- if(!steps.some(s=>s[0]===key))return false;
  const target=await waitForTarget(key);
+ if(request!==latestRequest)return false;
  if(!target){status.textContent=notices[key]+' is currently unavailable. The original passport remains readable.';return false;}
+ // A supplementary destination must be visible even when reading focus mode was enabled.
+ if(key!=='overview'&&key!=='facts')window.MicroportReading?.activate('tools');
  reveal(target);
  status.textContent='Opened '+notices[key].toLowerCase()+'.';
  return true;

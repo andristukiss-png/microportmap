@@ -68,6 +68,7 @@ jobs:
           python3 checks/passport-quick-nav-500-audit.py
           node --check src/passport-quick-navigation.js
           node checks/passport-quick-nav-500.cjs
+          node checks/quick-navigation-reliability-500.cjs
       - name: Passport Quick Navigation responsive browser smoke
         run: bash checks/passport-quick-nav-browser-smoke.sh
       - name: Retain Passport Quick Navigation screenshots and 500-case results
@@ -77,6 +78,7 @@ jobs:
           name: microportmap-passport-quick-nav-500
           path: |
             checks/passport-quick-nav-500-results.json
+            checks/quick-navigation-reliability-500-results.json
             checks/passport-quick-nav-screenshots/*.png
           if-no-files-found: warn
           retention-days: 30
