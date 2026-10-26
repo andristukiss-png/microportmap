@@ -440,4 +440,8 @@
   countryScript.src='/country-explorer.js';
   countryScript.async=true;
   document.body.appendChild(countryScript);
+  const equipmentScript=document.createElement('script');
+  equipmentScript.src='/equipment-explorer.js';
+  equipmentScript.async=true;
+  document.body.appendChild(equipmentScript);
 })();
