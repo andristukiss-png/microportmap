@@ -277,3 +277,7 @@ body:has(#review-queue) .review-list a:hover,body:has(#review-queue) .links a:ho
 @media(max-width:760px){.mpi-insights{width:calc(100% - 28px);padding:22px 16px;margin:25px auto}.mpi-intro{display:block}.mpi-intro>.mpi-primary{margin-top:17px}.mpi-stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.mpi-stat{padding:14px}.mpi-filters{grid-template-columns:repeat(2,minmax(0,1fr));padding:14px}.mpi-field:first-child{grid-column:1/-1}.mpi-charts{grid-template-columns:1fr;gap:12px}.mpi-chart{padding:18px}.mpi-cards{grid-template-columns:1fr}.mpi-results-head .mpi-select{width:100%}}
 @media(max-width:420px){.mpi-filters{grid-template-columns:1fr}.mpi-field:first-child{grid-column:auto}.mpi-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.mpi-intro h2{font-size:32px}.mpi-outputs>*{width:100%}}
 @media(prefers-reduced-motion:reduce){.mpi-insights,.mpi-bar,.mpi-card{transition:none!important;scroll-behavior:auto!important}}
+
+/* Research Insights: nested header must not inherit older mobile site header palette. */
+.mpi-insights header.mpi-intro{background:transparent!important;background-color:transparent!important;color:#102b35!important;min-height:0!important;padding:0 0 25px!important;box-shadow:none;border-radius:0}
+@media(max-width:760px){.mpi-insights header.mpi-intro{display:block;padding:0 0 22px!important}}
