@@ -28,6 +28,20 @@ jobs:
           python3 checks/navigation-round12.py
           python3 checks/site-navigation-audit.py
           python3 checks/site-recovery.py
+      - name: Research Insights 50 source and syntax audit
+        run: |
+          python3 checks/research-insights-50-audit.py
+          node --check src/research-insights.js
+      - name: Research Insights interactive Chromium smoke and screenshots
+        run: bash checks/research-insights-50-browser-smoke.sh
+      - name: Retain Research Insights mobile and desktop captures
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: microportmap-research-insights-50
+          path: checks/research-insights-50-screenshots/*.png
+          if-no-files-found: warn
+          retention-days: 30
       - name: Research Trail 50 source audit
         run: |
           python3 checks/research-trail-50-audit.py

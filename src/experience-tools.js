@@ -413,4 +413,8 @@
   trailScript.src='/research-trail.js';
   trailScript.async=true;
   document.body.appendChild(trailScript);
+  const insightScript=document.createElement('script');
+  insightScript.src='/research-insights.js';
+  insightScript.async=true;
+  document.body.appendChild(insightScript);
 })();
