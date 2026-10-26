@@ -123,6 +123,7 @@ jobs:
           python3 checks/field-inspector-500-audit.py
           node --check src/passport-field-inspector.js
           node checks/field-inspector-500.cjs
+          node checks/field-copy-reliability-500.cjs
       - name: Field Inspector real-browser responsive smoke
         run: bash checks/field-inspector-browser-smoke.sh
       - name: Retain Field Inspector 500 evidence
@@ -132,6 +133,7 @@ jobs:
           name: microportmap-field-inspector-500
           path: |
             checks/field-inspector-500-results.json
+            checks/field-copy-reliability-500-results.json
             checks/field-inspector-screenshots/*.png
           if-no-files-found: warn
           retention-days: 30

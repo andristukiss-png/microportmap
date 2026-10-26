@@ -26,7 +26,7 @@ const E=(tag,cls,copy)=>{
 };
 const safeSource=p=>{try{const url=new URL(p.source?.url);return url.protocol==='https:'&&!url.username&&!url.password?url.href:null;}catch{return null;}};
 const passportURL='https://microportmap.com/projects/'+encodeURIComponent(id)+'/';
-let record=null,ready=false,busy=false;
+let record=null,ready=false,busy=false,copyRequest=0;
 const root=E('details','mpf-inspector');root.id='mpf-inspector';
 const summary=E('summary','mpf-summary','Inspect and copy 10 research fields');
 summary.setAttribute('aria-controls','mpf-field-list');root.append(summary);
@@ -60,7 +60,10 @@ function fieldText(def){
  ].join('\n');
 }
 async function copyField(def){
- fallback.hidden=true;status.textContent='';
+ if(!ready||!record)return false;
+ const request=++copyRequest;
+ fallback.hidden=true;manual.value='';
+ status.textContent='Copying '+def[1].toLowerCase()+' with source context…';
  const value=fieldText(def);
  let timeout;
  try{
@@ -69,10 +72,14 @@ async function copyField(def){
    navigator.clipboard.writeText(value),
    new Promise((_,reject)=>{timeout=setTimeout(()=>reject(Error('Copy timed out')),800);})
   ]);
+  if(request!==copyRequest)return false;
   status.textContent=def[1]+' copied with source context. Nothing was submitted.';
+  return true;
  }catch{
+  if(request!==copyRequest)return false;
   manual.value=value;fallback.hidden=false;manual.focus({preventScroll:true});manual.select();
   status.textContent=def[1]+' prepared for manual copying. Nothing was submitted.';
+  return false;
  }finally{if(timeout)clearTimeout(timeout);}
 }
 function render(){
@@ -93,7 +100,10 @@ function render(){
  status.textContent='Ten original catalogue fields ready for this project.';
 }
 function load(){
- if(busy)return;busy=true;retry.hidden=true;status.textContent='Loading original research fields…';
+ if(busy)return;busy=true;ready=false;record=null;copyRequest++;
+ root.dataset.mpfReady='false';root.setAttribute('aria-busy','true');
+ grid.replaceChildren();fallback.hidden=true;manual.value='';
+ retry.hidden=true;retry.disabled=true;status.textContent='Loading original research fields…';
  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),12000);
  fetch('/data/projects.json',{signal:controller.signal})
  .then(r=>{if(!r.ok)throw Error('Catalogue unavailable');return r.json();})
@@ -103,11 +113,11 @@ function load(){
    new Set(rows.map(p=>p.id)).size!==50)throw Error('Invalid catalogue');
   record=rows.find(p=>p.id===id);if(!record)throw Error('Project not in catalogue');
   render();
- }).catch(()=>{ready=false;root.dataset.mpfReady='false';summary.textContent='Field inspector temporarily unavailable';retry.hidden=false;status.textContent='The original passport remains available.';})
- .finally(()=>{busy=false;clearTimeout(timer);});
+ }).catch(()=>{ready=false;record=null;grid.replaceChildren();root.dataset.mpfReady='false';summary.textContent='Field inspector temporarily unavailable';retry.hidden=false;status.textContent='The original passport remains available.';})
+ .finally(()=>{busy=false;retry.disabled=false;root.setAttribute('aria-busy','false');clearTimeout(timer);});
 }
 window.MicroportFields=Object.freeze({
- getState:()=>({ready,projectId:id,count:ready?definitions.length:0}),
+ getState:()=>({ready,loading:busy,projectId:id,count:ready?definitions.length:0}),
  getFieldKeys:()=>definitions.map(d=>d[0]),
  getFieldText:key=>{const def=definitions.find(d=>d[0]===key);return ready&&def?fieldText(def):'';},
  copyField:key=>{const def=definitions.find(d=>d[0]===key);return ready&&def?copyField(def):false;}
