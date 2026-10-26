@@ -717,3 +717,22 @@ body.mpo-loaded main>.columns{display:none}
 @media(max-width:700px){.mpl-controls{grid-template-columns:1fr}.mpl-content{padding:15px}.mpl-facts{grid-template-columns:1fr 1fr}.mpl-summary{padding:16px}}
 @media(max-width:450px){.mpl-facts{grid-template-columns:1fr}.mpl-action{min-height:47px}}
 @media(prefers-reduced-motion:reduce){.mpl-location *{transition:none!important}}
+
+
+/* Passport Quick Navigation · 50 research passports × 10 contextual actions. */
+.mpq-navigation,.mpq-navigation *{box-sizing:border-box}
+.mpq-navigation{margin:16px 0 21px;border:1px solid #65bfa8;border-radius:16px;background:#fbfdfa;color:#102b35;font:500 13px/1.55 Inter,ui-sans-serif,system-ui,sans-serif;box-shadow:0 5px 14px #173c440b}
+.mpq-summary{padding:15px 19px;cursor:pointer;color:#102b35;font:800 15px/1.4 system-ui;list-style-position:inside}
+.mpq-summary::marker{color:#167b75}
+.mpq-navigation[open]>.mpq-summary{background:#f4f8f6;border-bottom:1px solid #d6e5e2}
+.mpq-panel{padding:15px}
+.mpq-description{font:500 12px/1.65 system-ui;color:#234149;margin:0 0 13px;max-width:82ch}
+.mpq-list{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px}
+.mpq-link{min-height:43px;padding:9px 10px;border:1px solid #65bfa8;border-radius:11px;background:#f4f8f6;color:#102b35;font:750 12px/1.35 system-ui;cursor:pointer;text-align:center;overflow-wrap:anywhere}
+.mpq-link:hover{background:#d8f5e8;border-color:#167b75}
+.mpq-link:focus-visible,.mpq-summary:focus-visible{outline:3px solid #ffa94f;outline-offset:3px}
+.mpq-status{min-height:10px;margin:10px 0 0;color:#167b75;font:750 12px/1.5 system-ui}
+@media(max-width:960px){.mpq-list{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:600px){.mpq-list{grid-template-columns:repeat(2,minmax(0,1fr))}.mpq-panel{padding:12px}.mpq-summary{padding:14px}}
+@media(max-width:370px){.mpq-list{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.mpq-navigation *{transition:none!important}}
