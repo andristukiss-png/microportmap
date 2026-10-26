@@ -448,4 +448,11 @@
   operatorScript.src='/operator-explorer.js';
   operatorScript.async=true;
   document.body.appendChild(operatorScript);
+  // New per-passport evidence/citation controls; no other pages load this module.
+  if(/^\/projects\/[a-z0-9-]+\/?$/.test(location.pathname)){
+    const passportToolkit=document.createElement('script');
+    passportToolkit.src='/passport-research-toolkit.js';
+    passportToolkit.async=true;
+    document.body.appendChild(passportToolkit);
+  }
 })();
