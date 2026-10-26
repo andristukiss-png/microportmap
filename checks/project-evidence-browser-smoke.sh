@@ -39,7 +39,7 @@ PY
   timeout 75s "$chrome" --headless=new --no-sandbox --disable-dev-shm-usage \
    --disable-gpu --disable-background-networking --user-data-dir="$profile" \
    --window-size="$size" --virtual-time-budget=4200 \
-   --screenshot="$PWD/$file" "http://127.0.0.1:8777/projects/$id/" >/tmp/mpd-chrome.log 2>&1 ||
+   --screenshot="$PWD/$file" "http://127.0.0.1:8777/projects/$id/?snapshot=1" >/tmp/mpd-chrome.log 2>&1 ||
    { cat /tmp/mpd-chrome.log >&2; exit 1; }
   test -s "$file"
   if [ "$(stat -c %s "$file")" -lt 15000 ]; then
