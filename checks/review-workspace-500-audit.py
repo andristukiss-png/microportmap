@@ -23,7 +23,7 @@ assert loader.count("reviewWorkspace.src='/research-review-workspace.js'")==1
 assert style.count("Research Review Workspace: 500 visitor-controlled")==1
 assert style.count("{")==style.count("}")
 for q in questions:assert f"['{q}'," in src,q
-for token in ["function restore()","function persist()","function questionRow(","function render()",
+for token in ["function restore()","function persist(changedKey)","function storedReviews()","function syncControls()","function clearPrepared()","function questionRow(","function render()",
 "function summaryText()","function csv()","function download(format)","async function copySummary()",
 "function resetOne()","function load()","'storage'","localStorage","aria-valuenow",
 "microportmap.review-workspace.v1","getTasks:","MicroportReview","follow-up","not-started","reviewed"]:

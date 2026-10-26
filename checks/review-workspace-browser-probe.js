@@ -28,7 +28,45 @@ window.addEventListener('load',async()=>{
   const reset=[...root.querySelectorAll('.mpr-actions button')].find(x=>x.textContent.includes('Reset this project'));
   window.confirm=()=>true;reset.click();
   ok(api.getState().reviewed===0&&api.getState().followUp===0,'review reset failed');
-  result.textContent='PASS: ten review questions, local private notes, progress, export actions, source links and reset';
+  const key='microportmap.review-workspace.v1',projectId=api.getState().projectId;
+  const otherId=projectId==='kiel'?'shenzhen':'kiel';
+  const stored=JSON.parse(localStorage.getItem(key)||'{}');
+  stored[otherId]={source:{status:'follow-up',note:'Preserve the other project'}};
+  stored[projectId].timing={status:'follow-up',note:'Preserve another tab task'};
+  localStorage.setItem(key,JSON.stringify(stored));
+  api.update('source','reviewed','New source note');
+  let latest=JSON.parse(localStorage.getItem(key));
+  ok(latest[otherId].source.note==='Preserve the other project','stale save overwrote another project');
+  ok(latest[projectId].timing.note==='Preserve another tab task','stale save overwrote another task');
+  const note=root.querySelector('[data-mpr-note="source"]');note.focus();
+  latest[projectId].timing.note='External task update';localStorage.setItem(key,JSON.stringify(latest));
+  window.dispatchEvent(new StorageEvent('storage',{key,newValue:JSON.stringify(latest),storageArea:localStorage}));
+  ok(document.activeElement===note&&root.querySelector('[data-mpr-note="source"]')===note,'storage event replaced the focused note control');
+  ok(root.querySelector('[data-mpr-note="timing"]').value==='External task update','storage event failed to synchronize controls');
+  localStorage.removeItem(key);
+  window.dispatchEvent(new StorageEvent('storage',{key:null,newValue:null,storageArea:localStorage}));
+  ok(api.getTasks().every(t=>!t.note&&t.status==='not-started'),'storage clear retained old private notes');
+  api.update('source','reviewed','Only note after clear');
+  latest=JSON.parse(localStorage.getItem(key));
+  ok(latest[projectId].timing.note===''&&!latest[otherId],'save resurrected cleared storage');
+  const descriptor=Object.getOwnPropertyDescriptor(navigator,'clipboard');
+  try{
+   let reject;
+   Object.defineProperty(navigator,'clipboard',{configurable:true,value:{writeText:()=>new Promise((_,fail)=>{reject=fail;})}});
+   root.querySelector('.mpr-actions').children[2].click();reset.click();
+   const notice=root.querySelector('.mpr-notice'),message=notice.textContent;
+   reject(Error('Delayed denial'));await delay(30);
+   ok(notice.textContent===message,'older clipboard callback replaced reset status');
+   ok(root.querySelector('.mpr-manual').hidden&&root.querySelector('.mpr-manual-text').value==='','reset notes reappeared in manual-copy fallback');
+   api.update('source','follow-up','Temporary prepared text');
+   Object.defineProperty(navigator,'clipboard',{configurable:true,value:undefined});
+   root.querySelector('.mpr-actions').children[2].click();await delay(30);
+   ok(!root.querySelector('.mpr-manual').hidden,'manual fallback fixture did not open');
+   const current=root.querySelector('[data-mpr-note="source"]');current.value='Updated note';current.dispatchEvent(new Event('input',{bubbles:true}));
+   ok(root.querySelector('.mpr-manual').hidden&&root.querySelector('.mpr-manual-text').value==='','editing left stale private summary visible');
+  }finally{if(descriptor)Object.defineProperty(navigator,'clipboard',descriptor);else delete navigator.clipboard;}
+  reset.click();
+  result.textContent='PASS: stale-snapshot task/project preservation, focus-safe storage updates, clear-event recovery and reset copy isolation';
  }catch(e){result.textContent='FAIL: '+e.message;}
 });
 })();

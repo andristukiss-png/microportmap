@@ -31,7 +31,8 @@ const safeSource=p=>{try{
  const u=new URL(p.source?.url);return u.protocol==='https:'&&!u.username&&!u.password?u.href:null;
 }catch{return null;}};
 const fallback=()=>Object.fromEntries(prompts.map(([key])=>[key,{status:'not-started',note:''}]));
-let record=null,ready=false,loading=false,storageAvailable=true,items=fallback(),saved={},loadFailed=false;
+let record=null,ready=false,loading=false,storageAvailable=true,items=fallback(),saved={},loadFailed=false,copyRequest=0;
+const dirty=new Set();
 function normalize(data){
  const out=fallback();
  if(data&&typeof data==='object'&&!Array.isArray(data))for(const [key] of prompts){
@@ -42,18 +43,40 @@ function normalize(data){
  }
  return out;
 }
+function storedReviews(){
+ const raw=localStorage.getItem(KEY),data=raw?JSON.parse(raw):{};
+ return data&&typeof data==='object'&&!Array.isArray(data)?data:{};
+}
 function restore(){
  try{
-  const raw=localStorage.getItem(KEY);
-  saved=raw?JSON.parse(raw):{};
-  if(!saved||typeof saved!=='object'||Array.isArray(saved))saved={};
-  storageAvailable=true;items=normalize(saved[id]);
- }catch{storageAvailable=false;saved={};items=fallback();}
-}
-function persist(){
- try{
-  saved[id]=items;localStorage.setItem(KEY,JSON.stringify(saved));storageAvailable=true;
+  saved=storedReviews();
+  const incoming=normalize(saved[id]);
+  for(const key of dirty)incoming[key]={...items[key]};
+  items=incoming;storageAvailable=dirty.size===0;
  }catch{storageAvailable=false;}
+}
+function clearPrepared(){
+ copyRequest++;manual.hidden=true;copyInput.value='';notice.textContent='';
+}
+function syncControls(){
+ for(const row of taskList.children){
+  const key=row.dataset.mprKey;if(!items[key])continue;
+  const controls=row.children[1],select=controls.children[0].children[0],note=controls.children[1].children[0];
+  if(select.value!==items[key].status)select.value=items[key].status;
+  if(note.value!==items[key].note)note.value=items[key].note;
+ }
+}
+function persist(changedKey){
+ clearPrepared();
+ if(changedKey)dirty.add(changedKey);else for(const [key] of prompts)dirty.add(key);
+ try{
+  const latest=storedReviews(),merged=normalize(latest[id]);
+  for(const key of dirty)merged[key]={...items[key]};
+  latest[id]=merged;
+  localStorage.setItem(KEY,JSON.stringify(latest));
+  saved=latest;items=merged;dirty.clear();storageAvailable=true;
+ }catch{storageAvailable=false;}
+ syncControls();
 }
 const root=element('section','mpr-workspace');root.id='mpr-workspace';
 root.setAttribute('aria-labelledby','mpr-title');
@@ -114,12 +137,12 @@ function questionRow(key,heading,hint,i){
  note.setAttribute('aria-label','Private notes for '+heading);note.placeholder='Optional: evidence, open questions, next step…';
  note.dataset.mprNote=key;note.value=items[key].note;noteLabel.append(note);
  control.append(statusLabel,noteLabel);row.append(text,control);
- select.addEventListener('change',()=>{items[key].status=allowed.has(select.value)?select.value:'not-started';persist();report();});
- note.addEventListener('input',()=>{items[key].note=note.value.slice(0,MAX_NOTES);persist();report();});
+ select.addEventListener('change',()=>{items[key].status=allowed.has(select.value)?select.value:'not-started';persist(key);report();});
+ note.addEventListener('input',()=>{items[key].note=note.value.slice(0,MAX_NOTES);persist(key);report();});
  return row;
 }
 function render(){
- taskList.replaceChildren();
+ clearPrepared();taskList.replaceChildren();
  for(let i=0;i<prompts.length;i++){
   const [key,heading,hint]=prompts[i];
   taskList.append(questionRow(key,heading,hint,i));
@@ -156,6 +179,7 @@ function csv(){
 }
 function download(format){
  if(!ready)return;
+ clearPrepared();
  let a,url;
  try{
   const content=format==='csv'?csv():JSON.stringify({
@@ -169,8 +193,9 @@ function download(format){
  finally{a?.remove();if(url)setTimeout(()=>URL.revokeObjectURL(url),30000);}
 }
 async function copySummary(){
- if(!ready)return;
- manual.hidden=true;
+ if(!ready)return false;
+ clearPrepared();const request=copyRequest;
+ notice.textContent='Copying your review summary…';
  const content=summaryText();
  try{
   if(!navigator.clipboard?.writeText)throw Error('Clipboard unavailable');
@@ -178,10 +203,14 @@ async function copySummary(){
    await Promise.race([navigator.clipboard.writeText(content),
     new Promise((_,reject)=>{timer=setTimeout(()=>reject(Error('Clipboard timeout')),700);})]);
   }finally{if(timer)clearTimeout(timer);}
+  if(request!==copyRequest)return false;
   notice.textContent='Review summary copied. Nothing was submitted.';
+  return true;
  }catch{
+  if(request!==copyRequest)return false;
   manual.hidden=false;copyInput.value=content;copyInput.focus({preventScroll:true});copyInput.select();
   notice.textContent='Automatic clipboard unavailable. Select and copy your review manually.';
+  return false;
  }
 }
 function resetOne(){
@@ -207,15 +236,17 @@ function load(){
  }).finally(()=>{loading=false;clearTimeout(timer);});
 }
 window.addEventListener('storage',event=>{
- if(event.key!==KEY||!ready)return;
- restore();render();notice.textContent='Review progress updated from another tab.';
+ if((event.key!==KEY&&event.key!==null)||!ready)return;
+ if(event.storageArea&&event.storageArea!==localStorage)return;
+ if(event.key===null||event.newValue===null){dirty.clear();items=fallback();}
+ clearPrepared();restore();syncControls();report();notice.textContent='Review progress updated from another tab.';
 });
 window.MicroportReview=Object.freeze({
  getState:()=>({ready,projectId:id,total:10,reviewed:Object.values(items).filter(x=>x.status==='reviewed').length,
  followUp:Object.values(items).filter(x=>x.status==='follow-up').length}),
  getTasks:()=>prompts.map(([key,title])=>({id:key,title,status:items[key].status,note:items[key].note})),
  update:(key,status,note)=>{if(!ready||!prompts.some(x=>x[0]===key)||!allowed.has(status))return false;
-   items[key]={status,note:String(note||'').slice(0,MAX_NOTES)};persist();render();return true;}
+   items[key]={status,note:String(note||'').slice(0,MAX_NOTES)};persist(key);render();return true;}
 });
 load();
 })();
