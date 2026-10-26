@@ -28,6 +28,23 @@ jobs:
           python3 checks/navigation-round12.py
           python3 checks/site-navigation-audit.py
           python3 checks/site-recovery.py
+      - name: Passport Quick Navigation 500 source and behavior audit
+        run: |
+          python3 checks/passport-quick-nav-500-audit.py
+          node --check src/passport-quick-navigation.js
+          node checks/passport-quick-nav-500.cjs
+      - name: Passport Quick Navigation responsive browser smoke
+        run: bash checks/passport-quick-nav-browser-smoke.sh
+      - name: Retain Passport Quick Navigation screenshots and 500-case results
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: microportmap-passport-quick-nav-500
+          path: |
+            checks/passport-quick-nav-500-results.json
+            checks/passport-quick-nav-screenshots/*.png
+          if-no-files-found: warn
+          retention-days: 30
       - name: Approximate Location 500 integrity and action audit
         run: |
           python3 checks/approximate-location-500-audit.py
