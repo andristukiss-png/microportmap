@@ -137,6 +137,7 @@ function reviewText(){
 }
 function reviewCSV(){
   const rows=[['field_check','catalog_field_present','original_reported_value'],
+    ['Research project','Recorded',record.name],
     ...checklist().map(([label,yes,value])=>[label,yes?'Recorded':'Review',value])];
   const safe=v=>{
     let s=String(v??'');if(/^[\s\uFEFF]*[=+@-]/.test(s))s="'"+s;
