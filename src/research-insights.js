@@ -88,10 +88,15 @@ function place(){
   entry.dataset.mpiHero='1';
   heroActions.append(entry);
  }
- const reveal=()=>{if(location.hash==='#insights')root.scrollIntoView({behavior:'instant',block:'start'});};
- requestAnimationFrame(reveal);
- setTimeout(reveal,250);
- setTimeout(reveal,1200);
+ const reveal=()=>{
+  if(location.hash!=='#insights')return;
+  const y=root.getBoundingClientRect().top+window.scrollY-18;
+  const previous=document.documentElement.style.scrollBehavior;
+  document.documentElement.style.scrollBehavior='auto';
+  window.scrollTo(0,Math.max(0,y));
+  document.documentElement.style.scrollBehavior=previous;
+ };
+ setTimeout(reveal,350);
  window.addEventListener('hashchange',reveal);
 }
 function getLink(){
