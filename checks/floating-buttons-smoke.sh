@@ -61,7 +61,7 @@ PY
         --disable-gpu --disable-background-networking --user-data-dir="$profile" \
         --window-size="$size" --virtual-time-budget=4500 \
         --screenshot="$PWD/$img" \
-        "http://127.0.0.1:8770/__floating_test.html" >/tmp/mp-floating-chrome.log 2>&1 ||
+        "http://127.0.0.1:8770/$([ "$name" = 'home' ] && echo '' || echo 'directory/')" >/tmp/mp-floating-chrome.log 2>&1 ||
         { cat /tmp/mp-floating-chrome.log >&2; exit 1; }
       test -s "$img"
     fi
