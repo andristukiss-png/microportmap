@@ -530,3 +530,42 @@ body.mpo-loaded main>.columns{display:none}
 @media(max-width:700px){.mpo-explorer{padding:18px}.mpo-metrics,.mpo-grid,.mpo-projects{grid-template-columns:repeat(2,minmax(0,1fr))}.mpo-metric{padding:14px}.mpo-grid,.mpo-projects{grid-template-columns:1fr}.mpo-compare-filters{grid-template-columns:1fr}.mpo-detail-head{flex-direction:column;align-items:flex-start}.mpo-detail-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:430px){.mpo-filters{grid-template-columns:1fr}.mpo-exports>*{width:100%}}
 @media(prefers-reduced-motion:reduce){.mpo-explorer *{transition:none!important;scroll-behavior:auto!important}}
+
+
+/* Passport Research Toolkit · 500 per-record actions, 50 passports × 10 actions. */
+.mpp-toolkit,.mpp-toolkit *{box-sizing:border-box}
+.mpp-toolkit{margin:24px 0 32px;padding:clamp(18px,3.5vw,30px);border:1px solid #d6e5e2;border-radius:20px;background:#fbfdfa;color:#102b35;box-shadow:0 12px 34px #173c440b;font:500 14px/1.65 Inter,ui-sans-serif,system-ui,sans-serif}
+.mpp-eyebrow{font-size:11px;letter-spacing:.12em;font-weight:850;color:#167b75;margin:0 0 8px}
+.mpp-toolkit h2{font-size:clamp(23px,3vw,32px);line-height:1.22;letter-spacing:-.035em;margin:0 0 11px;color:#102b35;text-wrap:balance}
+.mpp-lede,.mpp-description{color:#234149;line-height:1.7;margin:8px 0 17px;max-width:80ch}
+.mpp-overview{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;margin:20px 0}
+.mpp-quickfact{border:1px solid #d6e5e2;border-radius:13px;background:#f4f8f6;padding:12px;min-width:0}
+.mpp-quickfact small{display:block;font-size:11px;font-weight:800;color:#167b75;margin-bottom:7px}
+.mpp-quickfact strong{display:block;font-size:13px;line-height:1.5;color:#102b35;overflow-wrap:anywhere}
+.mpp-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:20px 0}
+.mpp-action{display:inline-flex;align-items:center;justify-content:flex-start;min-height:46px;padding:11px 14px;border:1px solid #65bfa8;border-radius:11px;background:#f4f8f6;color:#102b35!important;font:750 13px/1.4 Inter,ui-sans-serif,system-ui,sans-serif;cursor:pointer;text-decoration:none!important;text-align:left;overflow-wrap:anywhere}
+.mpp-action:hover{background:#d8f5e8;color:#102b35!important;border-color:#167b75}
+.mpp-action-link{background:#167b75;color:#fff!important;border-color:#167b75}
+.mpp-action-link:hover{background:#102b35;color:#fff!important}
+.mpp-action[aria-disabled=true]{opacity:.65;cursor:not-allowed}
+.mpp-toolkit :is(button,a,textarea,summary):focus-visible{outline:3px solid #ffa94f;outline-offset:3px}
+.mpp-status{color:#167b75;font-size:13px;font-weight:700;min-height:21px;line-height:1.6;overflow-wrap:anywhere}
+.mpp-copy-fallback{padding:13px;border-radius:12px;background:#f4f8f6;border:1px solid #65bfa8}
+.mpp-copy-fallback[hidden]{display:none}
+.mpp-copy-fallback label{display:grid;gap:9px;color:#102b35;font-size:13px;font-weight:750}
+.mpp-copy-text{display:block;width:100%;min-height:96px;padding:12px;border:1px solid #65bfa8;border-radius:8px;color:#102b35;background:#fff;font:500 13px/1.5 ui-monospace,monospace}
+.mpp-evidence-fields{margin-top:23px;padding-top:22px;border-top:1px solid #d6e5e2}
+.mpp-evidence-fields h3{font-size:19px;line-height:1.3;margin:0 0 7px;letter-spacing:-.02em;color:#102b35}
+.mpp-check-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:16px 0;padding:0;list-style:none}
+.mpp-check{border:1px solid #d6e5e2;border-radius:12px;background:#fff;padding:13px;display:grid;gap:5px;min-width:0}
+.mpp-check-state{display:inline-flex;justify-self:start;border-radius:999px;padding:4px 9px;background:#d8f5e8;color:#102b35;font-size:11px;font-weight:800}
+.mpp-check strong{font-size:13px;line-height:1.4;color:#102b35}
+.mpp-check small{font-size:12px;line-height:1.5;color:#234149;overflow-wrap:anywhere}
+.mpp-caveat{border-top:1px solid #d6e5e2;padding-top:14px;margin-top:15px;font-size:13px;color:#234149}
+.mpp-caveat summary{cursor:pointer;color:#167b75;font-weight:800}
+.mpp-caveat p{line-height:1.7}
+.mpp-retry{padding:11px 15px;border:1px solid #65bfa8;border-radius:10px;background:#f4f8f6;color:#102b35;font-weight:750;cursor:pointer}
+.mpp-retry[hidden]{display:none}
+@media(max-width:720px){.mpp-overview{grid-template-columns:repeat(2,minmax(0,1fr))}.mpp-toolkit{padding:18px;margin:18px 0}.mpp-check-list{grid-template-columns:1fr}}
+@media(max-width:490px){.mpp-actions{grid-template-columns:1fr}.mpp-overview{grid-template-columns:1fr 1fr}.mpp-action{min-height:48px}}
+@media(prefers-reduced-motion:reduce){.mpp-toolkit *{transition:none!important}}
