@@ -5,7 +5,7 @@
   const results = $('results'), count = $('count'), status = $('share-status'), error = $('error');
   const controls = [search, country, kind, sort, region, year, $('reset'), $('export-csv'), $('share-filters')];
   const reportYear = p => (String(p.reportDateLabel || '').match(/\b20[0-9]{2}\b/) || [])[0] || 'unknown';
-  let all = [], ready = false, generation = 0, loading = false;
+  let all = [], ready = false, generation = 0, loading = false, shareRequest = 0;
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const sourceURL = p => {
     try { const u = new URL(p.source?.url); return u.protocol === 'https:' && !u.username && !u.password ? u.href : ''; }
@@ -64,15 +64,19 @@
   function reset() { search.value = ''; country.value = ''; kind.value = ''; region.value = ''; year.value = ''; sort.value = 'name'; update(); search.focus(); }
   async function load() {
     if (loading) return;
-    ready = false; error.hidden = true; count.textContent = 'Loading project directory…';
+    ready = false; generation++; shareRequest++; window.mpFilteredRecords = undefined; status.textContent = ''; error.hidden = true; count.textContent = 'Loading project directory…';
     setLoading(true);
     let timer;
     const controller = new AbortController();
     try {
-      timer = setTimeout(() => controller.abort(), 15000);
-      const response = await fetch('/data/projects.json', {signal: controller.signal});
-      if (!response.ok) throw Error('Dataset unavailable');
-      const data = await response.json();
+      const deadline = new Promise((_, reject) => {
+        timer = setTimeout(() => { controller.abort(); reject(Error('Directory lookup timed out')); }, 15000);
+      });
+      const data = await Promise.race([deadline, (async () => {
+        const response = await fetch('/data/projects.json', {signal: controller.signal});
+        if (!response.ok) throw Error('Dataset unavailable');
+        return response.json();
+      })()]);
       if (!Array.isArray(data.records) || !data.records.length || data.records.some(p => !p || typeof p.id !== 'string' || typeof p.name !== 'string' || !/^[a-z0-9-]+$/.test(p.id) || !p.name.trim()) || new Set(data.records.map(p => p.id)).size !== data.records.length) throw Error('Invalid research catalog');
       all = data.records.slice();
       for (const [el, key] of [[country, 'country'], [kind, 'infrastructureType'], [region, 'region']]) {
@@ -110,9 +114,18 @@
     finally { link?.remove(); if (url) setTimeout(() => URL.revokeObjectURL(url), 30000); }
   });
   $('share-filters').addEventListener('click', async () => {
-    const url = filterURL().toString(), version = generation;
-    try { await navigator.clipboard.writeText(url); if (version === generation) status.textContent = 'Link copied'; }
-    catch { if (version === generation) status.textContent = 'Copy this filtered link: ' + url; }
+    if (!ready || loading) return;
+    const url = filterURL().toString(), version = generation, request = ++shareRequest;
+    let timer;
+    const current = () => version === generation && request === shareRequest;
+    try {
+      await Promise.race([
+        navigator.clipboard.writeText(url),
+        new Promise((_, reject) => { timer = setTimeout(() => reject(Error('Clipboard timed out')), 5000); })
+      ]);
+      if (current()) status.textContent = 'Link copied';
+    } catch { if (current()) status.textContent = 'Copy this filtered link: ' + url; }
+    finally { clearTimeout(timer); }
   });
   load();
 })();
