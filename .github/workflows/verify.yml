@@ -28,6 +28,23 @@ jobs:
           python3 checks/navigation-round12.py
           python3 checks/site-navigation-audit.py
           python3 checks/site-recovery.py
+      - name: Field Inspector 500 source and runtime actions
+        run: |
+          python3 checks/field-inspector-500-audit.py
+          node --check src/passport-field-inspector.js
+          node checks/field-inspector-500.cjs
+      - name: Field Inspector real-browser responsive smoke
+        run: bash checks/field-inspector-browser-smoke.sh
+      - name: Retain Field Inspector 500 evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: microportmap-field-inspector-500
+          path: |
+            checks/field-inspector-500-results.json
+            checks/field-inspector-screenshots/*.png
+          if-no-files-found: warn
+          retention-days: 30
       - name: Review Workspace 500 source and task audit
         run: |
           python3 checks/review-workspace-500-audit.py
