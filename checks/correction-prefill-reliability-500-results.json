@@ -1,0 +1,3508 @@
+{
+  "total": 500,
+  "passed": 500,
+  "failed": 0,
+  "scope": "Controlled DOM/VM asynchronous correction lookup checks; real-browser checks run separately. Reports remain local, no messages or submissions are sent, and source links are not independently verified.",
+  "cases": [
+    {
+      "taskId": "CP001",
+      "projectId": "shenzhen",
+      "route": "/submit/?project=shenzhen",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP002",
+      "projectId": "shenzhen",
+      "route": "/submit/?project=shenzhen",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP003",
+      "projectId": "shenzhen",
+      "route": "/submit/?project=shenzhen",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP004",
+      "projectId": "shenzhen",
+      "route": "/submit/?project=shenzhen",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP005",
+      "projectId": "shenzhen",
+      "route": "/submit/?project=shenzhen",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP006",
+      "projectId": "shenzhen",
+      "route": "/submit/?project=shenzhen",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP007",
+      "projectId": "shenzhen",
+      "route": "/submit/?project=shenzhen",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP008",
+      "projectId": "shenzhen",
+      "route": "/submit/?project=shenzhen",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP009",
+      "projectId": "shenzhen",
+      "route": "/submit/?project=shenzhen",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP010",
+      "projectId": "shenzhen",
+      "route": "/submit/?project=shenzhen",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP011",
+      "projectId": "rotterdam",
+      "route": "/submit/?project=rotterdam",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP012",
+      "projectId": "rotterdam",
+      "route": "/submit/?project=rotterdam",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP013",
+      "projectId": "rotterdam",
+      "route": "/submit/?project=rotterdam",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP014",
+      "projectId": "rotterdam",
+      "route": "/submit/?project=rotterdam",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP015",
+      "projectId": "rotterdam",
+      "route": "/submit/?project=rotterdam",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP016",
+      "projectId": "rotterdam",
+      "route": "/submit/?project=rotterdam",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP017",
+      "projectId": "rotterdam",
+      "route": "/submit/?project=rotterdam",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP018",
+      "projectId": "rotterdam",
+      "route": "/submit/?project=rotterdam",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP019",
+      "projectId": "rotterdam",
+      "route": "/submit/?project=rotterdam",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP020",
+      "projectId": "rotterdam",
+      "route": "/submit/?project=rotterdam",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP021",
+      "projectId": "kiel",
+      "route": "/submit/?project=kiel",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP022",
+      "projectId": "kiel",
+      "route": "/submit/?project=kiel",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP023",
+      "projectId": "kiel",
+      "route": "/submit/?project=kiel",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP024",
+      "projectId": "kiel",
+      "route": "/submit/?project=kiel",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP025",
+      "projectId": "kiel",
+      "route": "/submit/?project=kiel",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP026",
+      "projectId": "kiel",
+      "route": "/submit/?project=kiel",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP027",
+      "projectId": "kiel",
+      "route": "/submit/?project=kiel",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP028",
+      "projectId": "kiel",
+      "route": "/submit/?project=kiel",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP029",
+      "projectId": "kiel",
+      "route": "/submit/?project=kiel",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP030",
+      "projectId": "kiel",
+      "route": "/submit/?project=kiel",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP031",
+      "projectId": "italy",
+      "route": "/submit/?project=italy",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP032",
+      "projectId": "italy",
+      "route": "/submit/?project=italy",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP033",
+      "projectId": "italy",
+      "route": "/submit/?project=italy",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP034",
+      "projectId": "italy",
+      "route": "/submit/?project=italy",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP035",
+      "projectId": "italy",
+      "route": "/submit/?project=italy",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP036",
+      "projectId": "italy",
+      "route": "/submit/?project=italy",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP037",
+      "projectId": "italy",
+      "route": "/submit/?project=italy",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP038",
+      "projectId": "italy",
+      "route": "/submit/?project=italy",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP039",
+      "projectId": "italy",
+      "route": "/submit/?project=italy",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP040",
+      "projectId": "italy",
+      "route": "/submit/?project=italy",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP041",
+      "projectId": "oman",
+      "route": "/submit/?project=oman",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP042",
+      "projectId": "oman",
+      "route": "/submit/?project=oman",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP043",
+      "projectId": "oman",
+      "route": "/submit/?project=oman",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP044",
+      "projectId": "oman",
+      "route": "/submit/?project=oman",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP045",
+      "projectId": "oman",
+      "route": "/submit/?project=oman",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP046",
+      "projectId": "oman",
+      "route": "/submit/?project=oman",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP047",
+      "projectId": "oman",
+      "route": "/submit/?project=oman",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP048",
+      "projectId": "oman",
+      "route": "/submit/?project=oman",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP049",
+      "projectId": "oman",
+      "route": "/submit/?project=oman",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP050",
+      "projectId": "oman",
+      "route": "/submit/?project=oman",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP051",
+      "projectId": "australia",
+      "route": "/submit/?project=australia",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP052",
+      "projectId": "australia",
+      "route": "/submit/?project=australia",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP053",
+      "projectId": "australia",
+      "route": "/submit/?project=australia",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP054",
+      "projectId": "australia",
+      "route": "/submit/?project=australia",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP055",
+      "projectId": "australia",
+      "route": "/submit/?project=australia",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP056",
+      "projectId": "australia",
+      "route": "/submit/?project=australia",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP057",
+      "projectId": "australia",
+      "route": "/submit/?project=australia",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP058",
+      "projectId": "australia",
+      "route": "/submit/?project=australia",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP059",
+      "projectId": "australia",
+      "route": "/submit/?project=australia",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP060",
+      "projectId": "australia",
+      "route": "/submit/?project=australia",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP061",
+      "projectId": "enbw",
+      "route": "/submit/?project=enbw",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP062",
+      "projectId": "enbw",
+      "route": "/submit/?project=enbw",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP063",
+      "projectId": "enbw",
+      "route": "/submit/?project=enbw",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP064",
+      "projectId": "enbw",
+      "route": "/submit/?project=enbw",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP065",
+      "projectId": "enbw",
+      "route": "/submit/?project=enbw",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP066",
+      "projectId": "enbw",
+      "route": "/submit/?project=enbw",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP067",
+      "projectId": "enbw",
+      "route": "/submit/?project=enbw",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP068",
+      "projectId": "enbw",
+      "route": "/submit/?project=enbw",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP069",
+      "projectId": "enbw",
+      "route": "/submit/?project=enbw",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP070",
+      "projectId": "enbw",
+      "route": "/submit/?project=enbw",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP071",
+      "projectId": "dole",
+      "route": "/submit/?project=dole",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP072",
+      "projectId": "dole",
+      "route": "/submit/?project=dole",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP073",
+      "projectId": "dole",
+      "route": "/submit/?project=dole",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP074",
+      "projectId": "dole",
+      "route": "/submit/?project=dole",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP075",
+      "projectId": "dole",
+      "route": "/submit/?project=dole",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP076",
+      "projectId": "dole",
+      "route": "/submit/?project=dole",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP077",
+      "projectId": "dole",
+      "route": "/submit/?project=dole",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP078",
+      "projectId": "dole",
+      "route": "/submit/?project=dole",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP079",
+      "projectId": "dole",
+      "route": "/submit/?project=dole",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP080",
+      "projectId": "dole",
+      "route": "/submit/?project=dole",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP081",
+      "projectId": "tnb",
+      "route": "/submit/?project=tnb",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP082",
+      "projectId": "tnb",
+      "route": "/submit/?project=tnb",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP083",
+      "projectId": "tnb",
+      "route": "/submit/?project=tnb",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP084",
+      "projectId": "tnb",
+      "route": "/submit/?project=tnb",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP085",
+      "projectId": "tnb",
+      "route": "/submit/?project=tnb",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP086",
+      "projectId": "tnb",
+      "route": "/submit/?project=tnb",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP087",
+      "projectId": "tnb",
+      "route": "/submit/?project=tnb",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP088",
+      "projectId": "tnb",
+      "route": "/submit/?project=tnb",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP089",
+      "projectId": "tnb",
+      "route": "/submit/?project=tnb",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP090",
+      "projectId": "tnb",
+      "route": "/submit/?project=tnb",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP091",
+      "projectId": "asheville",
+      "route": "/submit/?project=asheville",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP092",
+      "projectId": "asheville",
+      "route": "/submit/?project=asheville",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP093",
+      "projectId": "asheville",
+      "route": "/submit/?project=asheville",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP094",
+      "projectId": "asheville",
+      "route": "/submit/?project=asheville",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP095",
+      "projectId": "asheville",
+      "route": "/submit/?project=asheville",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP096",
+      "projectId": "asheville",
+      "route": "/submit/?project=asheville",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP097",
+      "projectId": "asheville",
+      "route": "/submit/?project=asheville",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP098",
+      "projectId": "asheville",
+      "route": "/submit/?project=asheville",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP099",
+      "projectId": "asheville",
+      "route": "/submit/?project=asheville",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP100",
+      "projectId": "asheville",
+      "route": "/submit/?project=asheville",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP101",
+      "projectId": "vancouver",
+      "route": "/submit/?project=vancouver",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP102",
+      "projectId": "vancouver",
+      "route": "/submit/?project=vancouver",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP103",
+      "projectId": "vancouver",
+      "route": "/submit/?project=vancouver",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP104",
+      "projectId": "vancouver",
+      "route": "/submit/?project=vancouver",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP105",
+      "projectId": "vancouver",
+      "route": "/submit/?project=vancouver",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP106",
+      "projectId": "vancouver",
+      "route": "/submit/?project=vancouver",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP107",
+      "projectId": "vancouver",
+      "route": "/submit/?project=vancouver",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP108",
+      "projectId": "vancouver",
+      "route": "/submit/?project=vancouver",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP109",
+      "projectId": "vancouver",
+      "route": "/submit/?project=vancouver",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP110",
+      "projectId": "vancouver",
+      "route": "/submit/?project=vancouver",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP111",
+      "projectId": "ishikawa",
+      "route": "/submit/?project=ishikawa",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP112",
+      "projectId": "ishikawa",
+      "route": "/submit/?project=ishikawa",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP113",
+      "projectId": "ishikawa",
+      "route": "/submit/?project=ishikawa",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP114",
+      "projectId": "ishikawa",
+      "route": "/submit/?project=ishikawa",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP115",
+      "projectId": "ishikawa",
+      "route": "/submit/?project=ishikawa",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP116",
+      "projectId": "ishikawa",
+      "route": "/submit/?project=ishikawa",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP117",
+      "projectId": "ishikawa",
+      "route": "/submit/?project=ishikawa",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP118",
+      "projectId": "ishikawa",
+      "route": "/submit/?project=ishikawa",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP119",
+      "projectId": "ishikawa",
+      "route": "/submit/?project=ishikawa",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP120",
+      "projectId": "ishikawa",
+      "route": "/submit/?project=ishikawa",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP121",
+      "projectId": "belgium-sense",
+      "route": "/submit/?project=belgium-sense",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP122",
+      "projectId": "belgium-sense",
+      "route": "/submit/?project=belgium-sense",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP123",
+      "projectId": "belgium-sense",
+      "route": "/submit/?project=belgium-sense",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP124",
+      "projectId": "belgium-sense",
+      "route": "/submit/?project=belgium-sense",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP125",
+      "projectId": "belgium-sense",
+      "route": "/submit/?project=belgium-sense",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP126",
+      "projectId": "belgium-sense",
+      "route": "/submit/?project=belgium-sense",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP127",
+      "projectId": "belgium-sense",
+      "route": "/submit/?project=belgium-sense",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP128",
+      "projectId": "belgium-sense",
+      "route": "/submit/?project=belgium-sense",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP129",
+      "projectId": "belgium-sense",
+      "route": "/submit/?project=belgium-sense",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP130",
+      "projectId": "belgium-sense",
+      "route": "/submit/?project=belgium-sense",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP131",
+      "projectId": "texas-solar",
+      "route": "/submit/?project=texas-solar",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP132",
+      "projectId": "texas-solar",
+      "route": "/submit/?project=texas-solar",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP133",
+      "projectId": "texas-solar",
+      "route": "/submit/?project=texas-solar",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP134",
+      "projectId": "texas-solar",
+      "route": "/submit/?project=texas-solar",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP135",
+      "projectId": "texas-solar",
+      "route": "/submit/?project=texas-solar",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP136",
+      "projectId": "texas-solar",
+      "route": "/submit/?project=texas-solar",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP137",
+      "projectId": "texas-solar",
+      "route": "/submit/?project=texas-solar",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP138",
+      "projectId": "texas-solar",
+      "route": "/submit/?project=texas-solar",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP139",
+      "projectId": "texas-solar",
+      "route": "/submit/?project=texas-solar",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP140",
+      "projectId": "texas-solar",
+      "route": "/submit/?project=texas-solar",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP141",
+      "projectId": "caltrans-otay",
+      "route": "/submit/?project=caltrans-otay",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP142",
+      "projectId": "caltrans-otay",
+      "route": "/submit/?project=caltrans-otay",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP143",
+      "projectId": "caltrans-otay",
+      "route": "/submit/?project=caltrans-otay",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP144",
+      "projectId": "caltrans-otay",
+      "route": "/submit/?project=caltrans-otay",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP145",
+      "projectId": "caltrans-otay",
+      "route": "/submit/?project=caltrans-otay",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP146",
+      "projectId": "caltrans-otay",
+      "route": "/submit/?project=caltrans-otay",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP147",
+      "projectId": "caltrans-otay",
+      "route": "/submit/?project=caltrans-otay",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP148",
+      "projectId": "caltrans-otay",
+      "route": "/submit/?project=caltrans-otay",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP149",
+      "projectId": "caltrans-otay",
+      "route": "/submit/?project=caltrans-otay",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP150",
+      "projectId": "caltrans-otay",
+      "route": "/submit/?project=caltrans-otay",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP151",
+      "projectId": "ramapo",
+      "route": "/submit/?project=ramapo",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP152",
+      "projectId": "ramapo",
+      "route": "/submit/?project=ramapo",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP153",
+      "projectId": "ramapo",
+      "route": "/submit/?project=ramapo",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP154",
+      "projectId": "ramapo",
+      "route": "/submit/?project=ramapo",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP155",
+      "projectId": "ramapo",
+      "route": "/submit/?project=ramapo",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP156",
+      "projectId": "ramapo",
+      "route": "/submit/?project=ramapo",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP157",
+      "projectId": "ramapo",
+      "route": "/submit/?project=ramapo",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP158",
+      "projectId": "ramapo",
+      "route": "/submit/?project=ramapo",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP159",
+      "projectId": "ramapo",
+      "route": "/submit/?project=ramapo",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP160",
+      "projectId": "ramapo",
+      "route": "/submit/?project=ramapo",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP161",
+      "projectId": "kansanshi-zambia",
+      "route": "/submit/?project=kansanshi-zambia",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP162",
+      "projectId": "kansanshi-zambia",
+      "route": "/submit/?project=kansanshi-zambia",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP163",
+      "projectId": "kansanshi-zambia",
+      "route": "/submit/?project=kansanshi-zambia",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP164",
+      "projectId": "kansanshi-zambia",
+      "route": "/submit/?project=kansanshi-zambia",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP165",
+      "projectId": "kansanshi-zambia",
+      "route": "/submit/?project=kansanshi-zambia",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP166",
+      "projectId": "kansanshi-zambia",
+      "route": "/submit/?project=kansanshi-zambia",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP167",
+      "projectId": "kansanshi-zambia",
+      "route": "/submit/?project=kansanshi-zambia",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP168",
+      "projectId": "kansanshi-zambia",
+      "route": "/submit/?project=kansanshi-zambia",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP169",
+      "projectId": "kansanshi-zambia",
+      "route": "/submit/?project=kansanshi-zambia",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP170",
+      "projectId": "kansanshi-zambia",
+      "route": "/submit/?project=kansanshi-zambia",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP171",
+      "projectId": "quellaveco-peru",
+      "route": "/submit/?project=quellaveco-peru",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP172",
+      "projectId": "quellaveco-peru",
+      "route": "/submit/?project=quellaveco-peru",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP173",
+      "projectId": "quellaveco-peru",
+      "route": "/submit/?project=quellaveco-peru",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP174",
+      "projectId": "quellaveco-peru",
+      "route": "/submit/?project=quellaveco-peru",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP175",
+      "projectId": "quellaveco-peru",
+      "route": "/submit/?project=quellaveco-peru",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP176",
+      "projectId": "quellaveco-peru",
+      "route": "/submit/?project=quellaveco-peru",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP177",
+      "projectId": "quellaveco-peru",
+      "route": "/submit/?project=quellaveco-peru",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP178",
+      "projectId": "quellaveco-peru",
+      "route": "/submit/?project=quellaveco-peru",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP179",
+      "projectId": "quellaveco-peru",
+      "route": "/submit/?project=quellaveco-peru",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP180",
+      "projectId": "quellaveco-peru",
+      "route": "/submit/?project=quellaveco-peru",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP181",
+      "projectId": "uae-waste",
+      "route": "/submit/?project=uae-waste",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP182",
+      "projectId": "uae-waste",
+      "route": "/submit/?project=uae-waste",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP183",
+      "projectId": "uae-waste",
+      "route": "/submit/?project=uae-waste",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP184",
+      "projectId": "uae-waste",
+      "route": "/submit/?project=uae-waste",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP185",
+      "projectId": "uae-waste",
+      "route": "/submit/?project=uae-waste",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP186",
+      "projectId": "uae-waste",
+      "route": "/submit/?project=uae-waste",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP187",
+      "projectId": "uae-waste",
+      "route": "/submit/?project=uae-waste",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP188",
+      "projectId": "uae-waste",
+      "route": "/submit/?project=uae-waste",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP189",
+      "projectId": "uae-waste",
+      "route": "/submit/?project=uae-waste",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP190",
+      "projectId": "uae-waste",
+      "route": "/submit/?project=uae-waste",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP191",
+      "projectId": "axpo-swiss",
+      "route": "/submit/?project=axpo-swiss",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP192",
+      "projectId": "axpo-swiss",
+      "route": "/submit/?project=axpo-swiss",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP193",
+      "projectId": "axpo-swiss",
+      "route": "/submit/?project=axpo-swiss",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP194",
+      "projectId": "axpo-swiss",
+      "route": "/submit/?project=axpo-swiss",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP195",
+      "projectId": "axpo-swiss",
+      "route": "/submit/?project=axpo-swiss",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP196",
+      "projectId": "axpo-swiss",
+      "route": "/submit/?project=axpo-swiss",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP197",
+      "projectId": "axpo-swiss",
+      "route": "/submit/?project=axpo-swiss",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP198",
+      "projectId": "axpo-swiss",
+      "route": "/submit/?project=axpo-swiss",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP199",
+      "projectId": "axpo-swiss",
+      "route": "/submit/?project=axpo-swiss",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP200",
+      "projectId": "axpo-swiss",
+      "route": "/submit/?project=axpo-swiss",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP201",
+      "projectId": "slovakia-forest",
+      "route": "/submit/?project=slovakia-forest",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP202",
+      "projectId": "slovakia-forest",
+      "route": "/submit/?project=slovakia-forest",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP203",
+      "projectId": "slovakia-forest",
+      "route": "/submit/?project=slovakia-forest",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP204",
+      "projectId": "slovakia-forest",
+      "route": "/submit/?project=slovakia-forest",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP205",
+      "projectId": "slovakia-forest",
+      "route": "/submit/?project=slovakia-forest",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP206",
+      "projectId": "slovakia-forest",
+      "route": "/submit/?project=slovakia-forest",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP207",
+      "projectId": "slovakia-forest",
+      "route": "/submit/?project=slovakia-forest",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP208",
+      "projectId": "slovakia-forest",
+      "route": "/submit/?project=slovakia-forest",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP209",
+      "projectId": "slovakia-forest",
+      "route": "/submit/?project=slovakia-forest",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP210",
+      "projectId": "slovakia-forest",
+      "route": "/submit/?project=slovakia-forest",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP211",
+      "projectId": "southafrica-estate",
+      "route": "/submit/?project=southafrica-estate",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP212",
+      "projectId": "southafrica-estate",
+      "route": "/submit/?project=southafrica-estate",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP213",
+      "projectId": "southafrica-estate",
+      "route": "/submit/?project=southafrica-estate",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP214",
+      "projectId": "southafrica-estate",
+      "route": "/submit/?project=southafrica-estate",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP215",
+      "projectId": "southafrica-estate",
+      "route": "/submit/?project=southafrica-estate",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP216",
+      "projectId": "southafrica-estate",
+      "route": "/submit/?project=southafrica-estate",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP217",
+      "projectId": "southafrica-estate",
+      "route": "/submit/?project=southafrica-estate",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP218",
+      "projectId": "southafrica-estate",
+      "route": "/submit/?project=southafrica-estate",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP219",
+      "projectId": "southafrica-estate",
+      "route": "/submit/?project=southafrica-estate",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP220",
+      "projectId": "southafrica-estate",
+      "route": "/submit/?project=southafrica-estate",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP221",
+      "projectId": "sqm-chile",
+      "route": "/submit/?project=sqm-chile",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP222",
+      "projectId": "sqm-chile",
+      "route": "/submit/?project=sqm-chile",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP223",
+      "projectId": "sqm-chile",
+      "route": "/submit/?project=sqm-chile",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP224",
+      "projectId": "sqm-chile",
+      "route": "/submit/?project=sqm-chile",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP225",
+      "projectId": "sqm-chile",
+      "route": "/submit/?project=sqm-chile",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP226",
+      "projectId": "sqm-chile",
+      "route": "/submit/?project=sqm-chile",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP227",
+      "projectId": "sqm-chile",
+      "route": "/submit/?project=sqm-chile",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP228",
+      "projectId": "sqm-chile",
+      "route": "/submit/?project=sqm-chile",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP229",
+      "projectId": "sqm-chile",
+      "route": "/submit/?project=sqm-chile",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP230",
+      "projectId": "sqm-chile",
+      "route": "/submit/?project=sqm-chile",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP231",
+      "projectId": "csx-rail",
+      "route": "/submit/?project=csx-rail",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP232",
+      "projectId": "csx-rail",
+      "route": "/submit/?project=csx-rail",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP233",
+      "projectId": "csx-rail",
+      "route": "/submit/?project=csx-rail",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP234",
+      "projectId": "csx-rail",
+      "route": "/submit/?project=csx-rail",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP235",
+      "projectId": "csx-rail",
+      "route": "/submit/?project=csx-rail",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP236",
+      "projectId": "csx-rail",
+      "route": "/submit/?project=csx-rail",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP237",
+      "projectId": "csx-rail",
+      "route": "/submit/?project=csx-rail",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP238",
+      "projectId": "csx-rail",
+      "route": "/submit/?project=csx-rail",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP239",
+      "projectId": "csx-rail",
+      "route": "/submit/?project=csx-rail",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP240",
+      "projectId": "csx-rail",
+      "route": "/submit/?project=csx-rail",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP241",
+      "projectId": "aerial-fences",
+      "route": "/submit/?project=aerial-fences",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP242",
+      "projectId": "aerial-fences",
+      "route": "/submit/?project=aerial-fences",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP243",
+      "projectId": "aerial-fences",
+      "route": "/submit/?project=aerial-fences",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP244",
+      "projectId": "aerial-fences",
+      "route": "/submit/?project=aerial-fences",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP245",
+      "projectId": "aerial-fences",
+      "route": "/submit/?project=aerial-fences",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP246",
+      "projectId": "aerial-fences",
+      "route": "/submit/?project=aerial-fences",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP247",
+      "projectId": "aerial-fences",
+      "route": "/submit/?project=aerial-fences",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP248",
+      "projectId": "aerial-fences",
+      "route": "/submit/?project=aerial-fences",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP249",
+      "projectId": "aerial-fences",
+      "route": "/submit/?project=aerial-fences",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP250",
+      "projectId": "aerial-fences",
+      "route": "/submit/?project=aerial-fences",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP251",
+      "projectId": "premier-security-us",
+      "route": "/submit/?project=premier-security-us",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP252",
+      "projectId": "premier-security-us",
+      "route": "/submit/?project=premier-security-us",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP253",
+      "projectId": "premier-security-us",
+      "route": "/submit/?project=premier-security-us",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP254",
+      "projectId": "premier-security-us",
+      "route": "/submit/?project=premier-security-us",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP255",
+      "projectId": "premier-security-us",
+      "route": "/submit/?project=premier-security-us",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP256",
+      "projectId": "premier-security-us",
+      "route": "/submit/?project=premier-security-us",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP257",
+      "projectId": "premier-security-us",
+      "route": "/submit/?project=premier-security-us",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP258",
+      "projectId": "premier-security-us",
+      "route": "/submit/?project=premier-security-us",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP259",
+      "projectId": "premier-security-us",
+      "route": "/submit/?project=premier-security-us",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP260",
+      "projectId": "premier-security-us",
+      "route": "/submit/?project=premier-security-us",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP261",
+      "projectId": "discovery-land-us",
+      "route": "/submit/?project=discovery-land-us",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP262",
+      "projectId": "discovery-land-us",
+      "route": "/submit/?project=discovery-land-us",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP263",
+      "projectId": "discovery-land-us",
+      "route": "/submit/?project=discovery-land-us",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP264",
+      "projectId": "discovery-land-us",
+      "route": "/submit/?project=discovery-land-us",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP265",
+      "projectId": "discovery-land-us",
+      "route": "/submit/?project=discovery-land-us",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP266",
+      "projectId": "discovery-land-us",
+      "route": "/submit/?project=discovery-land-us",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP267",
+      "projectId": "discovery-land-us",
+      "route": "/submit/?project=discovery-land-us",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP268",
+      "projectId": "discovery-land-us",
+      "route": "/submit/?project=discovery-land-us",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP269",
+      "projectId": "discovery-land-us",
+      "route": "/submit/?project=discovery-land-us",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP270",
+      "projectId": "discovery-land-us",
+      "route": "/submit/?project=discovery-land-us",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP271",
+      "projectId": "port-lincoln",
+      "route": "/submit/?project=port-lincoln",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP272",
+      "projectId": "port-lincoln",
+      "route": "/submit/?project=port-lincoln",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP273",
+      "projectId": "port-lincoln",
+      "route": "/submit/?project=port-lincoln",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP274",
+      "projectId": "port-lincoln",
+      "route": "/submit/?project=port-lincoln",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP275",
+      "projectId": "port-lincoln",
+      "route": "/submit/?project=port-lincoln",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP276",
+      "projectId": "port-lincoln",
+      "route": "/submit/?project=port-lincoln",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP277",
+      "projectId": "port-lincoln",
+      "route": "/submit/?project=port-lincoln",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP278",
+      "projectId": "port-lincoln",
+      "route": "/submit/?project=port-lincoln",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP279",
+      "projectId": "port-lincoln",
+      "route": "/submit/?project=port-lincoln",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP280",
+      "projectId": "port-lincoln",
+      "route": "/submit/?project=port-lincoln",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP281",
+      "projectId": "titan-protection",
+      "route": "/submit/?project=titan-protection",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP282",
+      "projectId": "titan-protection",
+      "route": "/submit/?project=titan-protection",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP283",
+      "projectId": "titan-protection",
+      "route": "/submit/?project=titan-protection",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP284",
+      "projectId": "titan-protection",
+      "route": "/submit/?project=titan-protection",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP285",
+      "projectId": "titan-protection",
+      "route": "/submit/?project=titan-protection",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP286",
+      "projectId": "titan-protection",
+      "route": "/submit/?project=titan-protection",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP287",
+      "projectId": "titan-protection",
+      "route": "/submit/?project=titan-protection",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP288",
+      "projectId": "titan-protection",
+      "route": "/submit/?project=titan-protection",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP289",
+      "projectId": "titan-protection",
+      "route": "/submit/?project=titan-protection",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP290",
+      "projectId": "titan-protection",
+      "route": "/submit/?project=titan-protection",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP291",
+      "projectId": "soar-alaska",
+      "route": "/submit/?project=soar-alaska",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP292",
+      "projectId": "soar-alaska",
+      "route": "/submit/?project=soar-alaska",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP293",
+      "projectId": "soar-alaska",
+      "route": "/submit/?project=soar-alaska",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP294",
+      "projectId": "soar-alaska",
+      "route": "/submit/?project=soar-alaska",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP295",
+      "projectId": "soar-alaska",
+      "route": "/submit/?project=soar-alaska",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP296",
+      "projectId": "soar-alaska",
+      "route": "/submit/?project=soar-alaska",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP297",
+      "projectId": "soar-alaska",
+      "route": "/submit/?project=soar-alaska",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP298",
+      "projectId": "soar-alaska",
+      "route": "/submit/?project=soar-alaska",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP299",
+      "projectId": "soar-alaska",
+      "route": "/submit/?project=soar-alaska",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP300",
+      "projectId": "soar-alaska",
+      "route": "/submit/?project=soar-alaska",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP301",
+      "projectId": "barcelona-port",
+      "route": "/submit/?project=barcelona-port",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP302",
+      "projectId": "barcelona-port",
+      "route": "/submit/?project=barcelona-port",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP303",
+      "projectId": "barcelona-port",
+      "route": "/submit/?project=barcelona-port",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP304",
+      "projectId": "barcelona-port",
+      "route": "/submit/?project=barcelona-port",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP305",
+      "projectId": "barcelona-port",
+      "route": "/submit/?project=barcelona-port",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP306",
+      "projectId": "barcelona-port",
+      "route": "/submit/?project=barcelona-port",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP307",
+      "projectId": "barcelona-port",
+      "route": "/submit/?project=barcelona-port",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP308",
+      "projectId": "barcelona-port",
+      "route": "/submit/?project=barcelona-port",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP309",
+      "projectId": "barcelona-port",
+      "route": "/submit/?project=barcelona-port",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP310",
+      "projectId": "barcelona-port",
+      "route": "/submit/?project=barcelona-port",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP311",
+      "projectId": "celaya",
+      "route": "/submit/?project=celaya",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP312",
+      "projectId": "celaya",
+      "route": "/submit/?project=celaya",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP313",
+      "projectId": "celaya",
+      "route": "/submit/?project=celaya",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP314",
+      "projectId": "celaya",
+      "route": "/submit/?project=celaya",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP315",
+      "projectId": "celaya",
+      "route": "/submit/?project=celaya",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP316",
+      "projectId": "celaya",
+      "route": "/submit/?project=celaya",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP317",
+      "projectId": "celaya",
+      "route": "/submit/?project=celaya",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP318",
+      "projectId": "celaya",
+      "route": "/submit/?project=celaya",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP319",
+      "projectId": "celaya",
+      "route": "/submit/?project=celaya",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP320",
+      "projectId": "celaya",
+      "route": "/submit/?project=celaya",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP321",
+      "projectId": "palcacocha",
+      "route": "/submit/?project=palcacocha",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP322",
+      "projectId": "palcacocha",
+      "route": "/submit/?project=palcacocha",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP323",
+      "projectId": "palcacocha",
+      "route": "/submit/?project=palcacocha",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP324",
+      "projectId": "palcacocha",
+      "route": "/submit/?project=palcacocha",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP325",
+      "projectId": "palcacocha",
+      "route": "/submit/?project=palcacocha",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP326",
+      "projectId": "palcacocha",
+      "route": "/submit/?project=palcacocha",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP327",
+      "projectId": "palcacocha",
+      "route": "/submit/?project=palcacocha",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP328",
+      "projectId": "palcacocha",
+      "route": "/submit/?project=palcacocha",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP329",
+      "projectId": "palcacocha",
+      "route": "/submit/?project=palcacocha",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP330",
+      "projectId": "palcacocha",
+      "route": "/submit/?project=palcacocha",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP331",
+      "projectId": "bibai",
+      "route": "/submit/?project=bibai",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP332",
+      "projectId": "bibai",
+      "route": "/submit/?project=bibai",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP333",
+      "projectId": "bibai",
+      "route": "/submit/?project=bibai",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP334",
+      "projectId": "bibai",
+      "route": "/submit/?project=bibai",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP335",
+      "projectId": "bibai",
+      "route": "/submit/?project=bibai",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP336",
+      "projectId": "bibai",
+      "route": "/submit/?project=bibai",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP337",
+      "projectId": "bibai",
+      "route": "/submit/?project=bibai",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP338",
+      "projectId": "bibai",
+      "route": "/submit/?project=bibai",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP339",
+      "projectId": "bibai",
+      "route": "/submit/?project=bibai",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP340",
+      "projectId": "bibai",
+      "route": "/submit/?project=bibai",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP341",
+      "projectId": "ambite",
+      "route": "/submit/?project=ambite",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP342",
+      "projectId": "ambite",
+      "route": "/submit/?project=ambite",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP343",
+      "projectId": "ambite",
+      "route": "/submit/?project=ambite",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP344",
+      "projectId": "ambite",
+      "route": "/submit/?project=ambite",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP345",
+      "projectId": "ambite",
+      "route": "/submit/?project=ambite",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP346",
+      "projectId": "ambite",
+      "route": "/submit/?project=ambite",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP347",
+      "projectId": "ambite",
+      "route": "/submit/?project=ambite",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP348",
+      "projectId": "ambite",
+      "route": "/submit/?project=ambite",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP349",
+      "projectId": "ambite",
+      "route": "/submit/?project=ambite",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP350",
+      "projectId": "ambite",
+      "route": "/submit/?project=ambite",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP351",
+      "projectId": "opole",
+      "route": "/submit/?project=opole",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP352",
+      "projectId": "opole",
+      "route": "/submit/?project=opole",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP353",
+      "projectId": "opole",
+      "route": "/submit/?project=opole",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP354",
+      "projectId": "opole",
+      "route": "/submit/?project=opole",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP355",
+      "projectId": "opole",
+      "route": "/submit/?project=opole",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP356",
+      "projectId": "opole",
+      "route": "/submit/?project=opole",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP357",
+      "projectId": "opole",
+      "route": "/submit/?project=opole",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP358",
+      "projectId": "opole",
+      "route": "/submit/?project=opole",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP359",
+      "projectId": "opole",
+      "route": "/submit/?project=opole",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP360",
+      "projectId": "opole",
+      "route": "/submit/?project=opole",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP361",
+      "projectId": "wurzburg-emqport",
+      "route": "/submit/?project=wurzburg-emqport",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP362",
+      "projectId": "wurzburg-emqport",
+      "route": "/submit/?project=wurzburg-emqport",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP363",
+      "projectId": "wurzburg-emqport",
+      "route": "/submit/?project=wurzburg-emqport",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP364",
+      "projectId": "wurzburg-emqport",
+      "route": "/submit/?project=wurzburg-emqport",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP365",
+      "projectId": "wurzburg-emqport",
+      "route": "/submit/?project=wurzburg-emqport",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP366",
+      "projectId": "wurzburg-emqport",
+      "route": "/submit/?project=wurzburg-emqport",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP367",
+      "projectId": "wurzburg-emqport",
+      "route": "/submit/?project=wurzburg-emqport",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP368",
+      "projectId": "wurzburg-emqport",
+      "route": "/submit/?project=wurzburg-emqport",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP369",
+      "projectId": "wurzburg-emqport",
+      "route": "/submit/?project=wurzburg-emqport",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP370",
+      "projectId": "wurzburg-emqport",
+      "route": "/submit/?project=wurzburg-emqport",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP371",
+      "projectId": "tomakomai-refinery",
+      "route": "/submit/?project=tomakomai-refinery",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP372",
+      "projectId": "tomakomai-refinery",
+      "route": "/submit/?project=tomakomai-refinery",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP373",
+      "projectId": "tomakomai-refinery",
+      "route": "/submit/?project=tomakomai-refinery",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP374",
+      "projectId": "tomakomai-refinery",
+      "route": "/submit/?project=tomakomai-refinery",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP375",
+      "projectId": "tomakomai-refinery",
+      "route": "/submit/?project=tomakomai-refinery",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP376",
+      "projectId": "tomakomai-refinery",
+      "route": "/submit/?project=tomakomai-refinery",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP377",
+      "projectId": "tomakomai-refinery",
+      "route": "/submit/?project=tomakomai-refinery",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP378",
+      "projectId": "tomakomai-refinery",
+      "route": "/submit/?project=tomakomai-refinery",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP379",
+      "projectId": "tomakomai-refinery",
+      "route": "/submit/?project=tomakomai-refinery",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP380",
+      "projectId": "tomakomai-refinery",
+      "route": "/submit/?project=tomakomai-refinery",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP381",
+      "projectId": "network-rail-uk",
+      "route": "/submit/?project=network-rail-uk",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP382",
+      "projectId": "network-rail-uk",
+      "route": "/submit/?project=network-rail-uk",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP383",
+      "projectId": "network-rail-uk",
+      "route": "/submit/?project=network-rail-uk",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP384",
+      "projectId": "network-rail-uk",
+      "route": "/submit/?project=network-rail-uk",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP385",
+      "projectId": "network-rail-uk",
+      "route": "/submit/?project=network-rail-uk",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP386",
+      "projectId": "network-rail-uk",
+      "route": "/submit/?project=network-rail-uk",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP387",
+      "projectId": "network-rail-uk",
+      "route": "/submit/?project=network-rail-uk",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP388",
+      "projectId": "network-rail-uk",
+      "route": "/submit/?project=network-rail-uk",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP389",
+      "projectId": "network-rail-uk",
+      "route": "/submit/?project=network-rail-uk",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP390",
+      "projectId": "network-rail-uk",
+      "route": "/submit/?project=network-rail-uk",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP391",
+      "projectId": "gilboa-nypa",
+      "route": "/submit/?project=gilboa-nypa",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP392",
+      "projectId": "gilboa-nypa",
+      "route": "/submit/?project=gilboa-nypa",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP393",
+      "projectId": "gilboa-nypa",
+      "route": "/submit/?project=gilboa-nypa",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP394",
+      "projectId": "gilboa-nypa",
+      "route": "/submit/?project=gilboa-nypa",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP395",
+      "projectId": "gilboa-nypa",
+      "route": "/submit/?project=gilboa-nypa",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP396",
+      "projectId": "gilboa-nypa",
+      "route": "/submit/?project=gilboa-nypa",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP397",
+      "projectId": "gilboa-nypa",
+      "route": "/submit/?project=gilboa-nypa",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP398",
+      "projectId": "gilboa-nypa",
+      "route": "/submit/?project=gilboa-nypa",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP399",
+      "projectId": "gilboa-nypa",
+      "route": "/submit/?project=gilboa-nypa",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP400",
+      "projectId": "gilboa-nypa",
+      "route": "/submit/?project=gilboa-nypa",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP401",
+      "projectId": "teesside-terminal",
+      "route": "/submit/?project=teesside-terminal",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP402",
+      "projectId": "teesside-terminal",
+      "route": "/submit/?project=teesside-terminal",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP403",
+      "projectId": "teesside-terminal",
+      "route": "/submit/?project=teesside-terminal",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP404",
+      "projectId": "teesside-terminal",
+      "route": "/submit/?project=teesside-terminal",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP405",
+      "projectId": "teesside-terminal",
+      "route": "/submit/?project=teesside-terminal",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP406",
+      "projectId": "teesside-terminal",
+      "route": "/submit/?project=teesside-terminal",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP407",
+      "projectId": "teesside-terminal",
+      "route": "/submit/?project=teesside-terminal",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP408",
+      "projectId": "teesside-terminal",
+      "route": "/submit/?project=teesside-terminal",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP409",
+      "projectId": "teesside-terminal",
+      "route": "/submit/?project=teesside-terminal",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP410",
+      "projectId": "teesside-terminal",
+      "route": "/submit/?project=teesside-terminal",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP411",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/submit/?project=antwerp-cargo-hub",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP412",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/submit/?project=antwerp-cargo-hub",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP413",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/submit/?project=antwerp-cargo-hub",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP414",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/submit/?project=antwerp-cargo-hub",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP415",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/submit/?project=antwerp-cargo-hub",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP416",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/submit/?project=antwerp-cargo-hub",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP417",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/submit/?project=antwerp-cargo-hub",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP418",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/submit/?project=antwerp-cargo-hub",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP419",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/submit/?project=antwerp-cargo-hub",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP420",
+      "projectId": "antwerp-cargo-hub",
+      "route": "/submit/?project=antwerp-cargo-hub",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP421",
+      "projectId": "upper-darby-dfr",
+      "route": "/submit/?project=upper-darby-dfr",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP422",
+      "projectId": "upper-darby-dfr",
+      "route": "/submit/?project=upper-darby-dfr",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP423",
+      "projectId": "upper-darby-dfr",
+      "route": "/submit/?project=upper-darby-dfr",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP424",
+      "projectId": "upper-darby-dfr",
+      "route": "/submit/?project=upper-darby-dfr",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP425",
+      "projectId": "upper-darby-dfr",
+      "route": "/submit/?project=upper-darby-dfr",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP426",
+      "projectId": "upper-darby-dfr",
+      "route": "/submit/?project=upper-darby-dfr",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP427",
+      "projectId": "upper-darby-dfr",
+      "route": "/submit/?project=upper-darby-dfr",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP428",
+      "projectId": "upper-darby-dfr",
+      "route": "/submit/?project=upper-darby-dfr",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP429",
+      "projectId": "upper-darby-dfr",
+      "route": "/submit/?project=upper-darby-dfr",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP430",
+      "projectId": "upper-darby-dfr",
+      "route": "/submit/?project=upper-darby-dfr",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP431",
+      "projectId": "skybound-waterloo",
+      "route": "/submit/?project=skybound-waterloo",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP432",
+      "projectId": "skybound-waterloo",
+      "route": "/submit/?project=skybound-waterloo",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP433",
+      "projectId": "skybound-waterloo",
+      "route": "/submit/?project=skybound-waterloo",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP434",
+      "projectId": "skybound-waterloo",
+      "route": "/submit/?project=skybound-waterloo",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP435",
+      "projectId": "skybound-waterloo",
+      "route": "/submit/?project=skybound-waterloo",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP436",
+      "projectId": "skybound-waterloo",
+      "route": "/submit/?project=skybound-waterloo",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP437",
+      "projectId": "skybound-waterloo",
+      "route": "/submit/?project=skybound-waterloo",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP438",
+      "projectId": "skybound-waterloo",
+      "route": "/submit/?project=skybound-waterloo",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP439",
+      "projectId": "skybound-waterloo",
+      "route": "/submit/?project=skybound-waterloo",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP440",
+      "projectId": "skybound-waterloo",
+      "route": "/submit/?project=skybound-waterloo",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP441",
+      "projectId": "skybound-glasgow",
+      "route": "/submit/?project=skybound-glasgow",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP442",
+      "projectId": "skybound-glasgow",
+      "route": "/submit/?project=skybound-glasgow",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP443",
+      "projectId": "skybound-glasgow",
+      "route": "/submit/?project=skybound-glasgow",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP444",
+      "projectId": "skybound-glasgow",
+      "route": "/submit/?project=skybound-glasgow",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP445",
+      "projectId": "skybound-glasgow",
+      "route": "/submit/?project=skybound-glasgow",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP446",
+      "projectId": "skybound-glasgow",
+      "route": "/submit/?project=skybound-glasgow",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP447",
+      "projectId": "skybound-glasgow",
+      "route": "/submit/?project=skybound-glasgow",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP448",
+      "projectId": "skybound-glasgow",
+      "route": "/submit/?project=skybound-glasgow",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP449",
+      "projectId": "skybound-glasgow",
+      "route": "/submit/?project=skybound-glasgow",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP450",
+      "projectId": "skybound-glasgow",
+      "route": "/submit/?project=skybound-glasgow",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP451",
+      "projectId": "skybound-cardiff",
+      "route": "/submit/?project=skybound-cardiff",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP452",
+      "projectId": "skybound-cardiff",
+      "route": "/submit/?project=skybound-cardiff",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP453",
+      "projectId": "skybound-cardiff",
+      "route": "/submit/?project=skybound-cardiff",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP454",
+      "projectId": "skybound-cardiff",
+      "route": "/submit/?project=skybound-cardiff",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP455",
+      "projectId": "skybound-cardiff",
+      "route": "/submit/?project=skybound-cardiff",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP456",
+      "projectId": "skybound-cardiff",
+      "route": "/submit/?project=skybound-cardiff",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP457",
+      "projectId": "skybound-cardiff",
+      "route": "/submit/?project=skybound-cardiff",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP458",
+      "projectId": "skybound-cardiff",
+      "route": "/submit/?project=skybound-cardiff",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP459",
+      "projectId": "skybound-cardiff",
+      "route": "/submit/?project=skybound-cardiff",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP460",
+      "projectId": "skybound-cardiff",
+      "route": "/submit/?project=skybound-cardiff",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP461",
+      "projectId": "cincinnati-dfr",
+      "route": "/submit/?project=cincinnati-dfr",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP462",
+      "projectId": "cincinnati-dfr",
+      "route": "/submit/?project=cincinnati-dfr",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP463",
+      "projectId": "cincinnati-dfr",
+      "route": "/submit/?project=cincinnati-dfr",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP464",
+      "projectId": "cincinnati-dfr",
+      "route": "/submit/?project=cincinnati-dfr",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP465",
+      "projectId": "cincinnati-dfr",
+      "route": "/submit/?project=cincinnati-dfr",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP466",
+      "projectId": "cincinnati-dfr",
+      "route": "/submit/?project=cincinnati-dfr",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP467",
+      "projectId": "cincinnati-dfr",
+      "route": "/submit/?project=cincinnati-dfr",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP468",
+      "projectId": "cincinnati-dfr",
+      "route": "/submit/?project=cincinnati-dfr",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP469",
+      "projectId": "cincinnati-dfr",
+      "route": "/submit/?project=cincinnati-dfr",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP470",
+      "projectId": "cincinnati-dfr",
+      "route": "/submit/?project=cincinnati-dfr",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP471",
+      "projectId": "yonkers-nokia",
+      "route": "/submit/?project=yonkers-nokia",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP472",
+      "projectId": "yonkers-nokia",
+      "route": "/submit/?project=yonkers-nokia",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP473",
+      "projectId": "yonkers-nokia",
+      "route": "/submit/?project=yonkers-nokia",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP474",
+      "projectId": "yonkers-nokia",
+      "route": "/submit/?project=yonkers-nokia",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP475",
+      "projectId": "yonkers-nokia",
+      "route": "/submit/?project=yonkers-nokia",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP476",
+      "projectId": "yonkers-nokia",
+      "route": "/submit/?project=yonkers-nokia",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP477",
+      "projectId": "yonkers-nokia",
+      "route": "/submit/?project=yonkers-nokia",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP478",
+      "projectId": "yonkers-nokia",
+      "route": "/submit/?project=yonkers-nokia",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP479",
+      "projectId": "yonkers-nokia",
+      "route": "/submit/?project=yonkers-nokia",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP480",
+      "projectId": "yonkers-nokia",
+      "route": "/submit/?project=yonkers-nokia",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP481",
+      "projectId": "summerville-nokia",
+      "route": "/submit/?project=summerville-nokia",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP482",
+      "projectId": "summerville-nokia",
+      "route": "/submit/?project=summerville-nokia",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP483",
+      "projectId": "summerville-nokia",
+      "route": "/submit/?project=summerville-nokia",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP484",
+      "projectId": "summerville-nokia",
+      "route": "/submit/?project=summerville-nokia",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP485",
+      "projectId": "summerville-nokia",
+      "route": "/submit/?project=summerville-nokia",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP486",
+      "projectId": "summerville-nokia",
+      "route": "/submit/?project=summerville-nokia",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP487",
+      "projectId": "summerville-nokia",
+      "route": "/submit/?project=summerville-nokia",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP488",
+      "projectId": "summerville-nokia",
+      "route": "/submit/?project=summerville-nokia",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP489",
+      "projectId": "summerville-nokia",
+      "route": "/submit/?project=summerville-nokia",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP490",
+      "projectId": "summerville-nokia",
+      "route": "/submit/?project=summerville-nokia",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    },
+    {
+      "taskId": "CP491",
+      "projectId": "el-paso-dfr",
+      "route": "/submit/?project=el-paso-dfr",
+      "scenario": "typed-then-cleared-fields-remain-empty",
+      "passed": true
+    },
+    {
+      "taskId": "CP492",
+      "projectId": "el-paso-dfr",
+      "route": "/submit/?project=el-paso-dfr",
+      "scenario": "untouched-prefill-retains-original-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP493",
+      "projectId": "el-paso-dfr",
+      "route": "/submit/?project=el-paso-dfr",
+      "scenario": "non-text-optional-metadata-not-coerced",
+      "passed": true
+    },
+    {
+      "taskId": "CP494",
+      "projectId": "el-paso-dfr",
+      "route": "/submit/?project=el-paso-dfr",
+      "scenario": "fetch-deadline-ignores-late-response",
+      "passed": true
+    },
+    {
+      "taskId": "CP495",
+      "projectId": "el-paso-dfr",
+      "route": "/submit/?project=el-paso-dfr",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "CP496",
+      "projectId": "el-paso-dfr",
+      "route": "/submit/?project=el-paso-dfr",
+      "scenario": "failed-retry-clears-resolved-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "CP497",
+      "projectId": "el-paso-dfr",
+      "route": "/submit/?project=el-paso-dfr",
+      "scenario": "retry-preserves-cleared-and-written-values",
+      "passed": true
+    },
+    {
+      "taskId": "CP498",
+      "projectId": "el-paso-dfr",
+      "route": "/submit/?project=el-paso-dfr",
+      "scenario": "repeated-lookup-does-not-duplicate-context",
+      "passed": true
+    },
+    {
+      "taskId": "CP499",
+      "projectId": "el-paso-dfr",
+      "route": "/submit/?project=el-paso-dfr",
+      "scenario": "submit-lock-and-retry-request-guard",
+      "passed": true
+    },
+    {
+      "taskId": "CP500",
+      "projectId": "el-paso-dfr",
+      "route": "/submit/?project=el-paso-dfr",
+      "scenario": "source-links-format-only-and-evidence-untouched",
+      "passed": true
+    }
+  ]
+}
