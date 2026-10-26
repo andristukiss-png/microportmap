@@ -444,4 +444,8 @@
   equipmentScript.src='/equipment-explorer.js';
   equipmentScript.async=true;
   document.body.appendChild(equipmentScript);
+  const operatorScript=document.createElement('script');
+  operatorScript.src='/operator-explorer.js';
+  operatorScript.async=true;
+  document.body.appendChild(operatorScript);
 })();
