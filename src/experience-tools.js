@@ -478,5 +478,9 @@
     readerControls.src='/passport-reading-controls.js';
     readerControls.async=true;
     document.body.appendChild(readerControls);
+    const contrastPaths=document.createElement('script');
+    contrastPaths.src='/contrasting-research-paths.js';
+    contrastPaths.async=true;
+    document.body.appendChild(contrastPaths);
   }
 })();
