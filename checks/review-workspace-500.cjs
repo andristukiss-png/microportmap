@@ -29,7 +29,7 @@ async function one(p){
  FakeURL.revokeObjectURL=()=>{};
  const context={document,location:{pathname:'/projects/'+p.id+'/'},URL:FakeURL,AbortController,Blob,
   localStorage,navigator:{clipboard:{writeText:async s=>copies.push(s)}},
-  window:{confirm:()=>true},setTimeout:()=>1,clearTimeout:()=>{},
+  window:{confirm:()=>true,addEventListener:()=>{}},setTimeout:()=>1,clearTimeout:()=>{},
   fetch:async()=>({ok:true,json:async()=>catalog})};
  vm.runInNewContext(js,context);
  for(let n=0;n<12&&!context.window.MicroportReview?.getState().ready;n++)await new Promise(r=>setImmediate(r));
