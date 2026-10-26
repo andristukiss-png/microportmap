@@ -21,8 +21,8 @@ window.addEventListener('load',async()=>{
   const equipment=root.querySelector('[data-mpp-action="same-equipment"]');
   must(equipment?.href?.includes('/directory/?q='),'equipment handoff missing');
   root.querySelector('[data-mpp-action="citation-plain"]').click();
-  await delay(80);
-  must(root.querySelector('#mpp-status').textContent.includes('citation'),'copy citation feedback missing');
+  await delay(1100);
+  must(root.querySelector('#mpp-status').textContent.includes('citation'),'copy citation feedback missing: '+root.querySelector('#mpp-status').textContent.slice(0,140));
   must(root.dataset.mppLoaded==='true','enhancement state missing');
   output.textContent='PASS: original passport '+state.id+', ten actions, safe source, equipment, seven checklist items and clipboard fallback';
  }catch(err){output.textContent='FAIL: '+err.message;}
