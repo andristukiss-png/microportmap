@@ -474,5 +474,9 @@
     quickNav.src='/passport-quick-navigation.js';
     quickNav.async=true;
     document.body.appendChild(quickNav);
+    const readerControls=document.createElement('script');
+    readerControls.src='/passport-reading-controls.js';
+    readerControls.async=true;
+    document.body.appendChild(readerControls);
   }
 })();
