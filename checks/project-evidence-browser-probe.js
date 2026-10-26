@@ -13,6 +13,12 @@ window.addEventListener('load',async()=>{
   must(root?.tagName==='DETAILS','comparison must be an accessible disclosure');
   must(!root.open,'comparison should remain collapsed by default');
   root.open=true;
+  // Screenshot-only mode does not scroll to a lower comparison field.
+  if(new URLSearchParams(location.search).has('snapshot')){
+    window.scrollTo(0,0);
+    target.textContent='PASS: expanded source comparison visual capture';
+    return;
+  }
   const fields=[...root.querySelectorAll('[data-mpd-field]')];
   must(fields.length===10,'ten source-field comparison cards missing');
   const buttons=[...root.querySelectorAll('[data-mpd-action]')];
