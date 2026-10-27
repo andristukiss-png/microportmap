@@ -24,9 +24,9 @@ for id in shenzhen kiel rotterdam;do
   timeout 75s "$chrome" --headless=new --no-sandbox --disable-dev-shm-usage \
    --disable-gpu --disable-background-networking --user-data-dir="$profile" \
    --window-size="$viewport" --virtual-time-budget=9500 --dump-dom \
-   "http://127.0.0.1:8796/__ir_probe.html?project=$id" > "$dump" 2>/tmp/ir-chrome.log ||
+   "http://127.0.0.1:8796/__ir_probe.html?case=$id" > "$dump" 2>/tmp/ir-chrome.log ||
    { cat /tmp/ir-chrome.log >&2;exit 1; }
-  if ! grep -q 'id="ir-probe-result">PASS:' "$dump";then
+  if ! grep -q 'id="ir-probe-result"[^>]*>PASS:' "$dump";then
    grep -o 'id="ir-probe-result"[^<]*' "$dump" >&2 || true;exit 1
   fi
   rm -rf "$profile";profile="$(mktemp -d)"
@@ -34,7 +34,7 @@ for id in shenzhen kiel rotterdam;do
    --disable-gpu --disable-background-networking --user-data-dir="$profile" \
    --window-size="$viewport" --virtual-time-budget=9500 \
    --screenshot="$PWD/checks/insights-reliability-screenshots/$id-$mode.png" \
-   "http://127.0.0.1:8796/__ir_probe.html?project=$id" >/tmp/ir-screenshot.log 2>&1 ||
+   "http://127.0.0.1:8796/__ir_probe.html?case=$id" >/tmp/ir-screenshot.log 2>&1 ||
    { cat /tmp/ir-screenshot.log >&2;exit 1; }
   test -s "checks/insights-reliability-screenshots/$id-$mode.png"
   rm -rf "$profile"
