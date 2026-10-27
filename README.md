@@ -43,3 +43,7 @@ A successful GitHub workflow **does not deploy to Vercel**. The production deplo
 ## Research limits
 
 The 50 source-linked records and approximate map points are research references. They do not establish current operations, public access or flight permission. Independent research accuracy and actual mobile/device visuals remain unverified. Correction reports are prepared locally; no submission inbox is connected.
+
+## V1 launch status
+
+[V1 launch review](V1-LAUNCH.md) records the finite release scope, 500 passport gates, corrected map/storage disclosures and two open owner-content blockers. Passing technical tests does not complete the publisher/contact and hosting/privacy information.

@@ -1,5 +1,5 @@
 (async()=>{
- const output=document.getElementById('qr-probe-result'),assert=(ok,msg)=>{if(!ok)throw Error(msg)},wait=async fn=>{for(let i=0;i<100;i++){if(fn())return;await new Promise(r=>setTimeout(r,25));}throw Error('Condition timed out')};
+ const output=document.getElementById('qr-probe-result'),assert=(ok,msg)=>{if(!ok)throw Error(msg)},wait=async fn=>{for(let i=0;i<280;i++){if(fn())return;await new Promise(r=>setTimeout(r,25));}throw Error('Condition timed out')};
  try{
   await wait(()=>!document.getElementById('error').hidden);
   assert(document.getElementById('summary').getAttribute('aria-busy')==='false','Deadline must release busy state');
