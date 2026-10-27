@@ -11,7 +11,7 @@
   const limitation='Reported research characteristics only. No independent confirmation of compatibility, current operations, contacts, public access or flight permission.';
   let viewSearch=null;
   function passportURL(id){const params=new URL('https://microportmap.com/directory/'+(viewSearch??new URL(location.href).search)).searchParams;let href='/projects/'+encodeURIComponent(id)+'/?compare='+encodeURIComponent(selected.join(','));for(const key of ['q','country','type','region','year','sort']){const value=params.get(key);if(value)href+='&'+key+'='+encodeURIComponent(value);}return href;}
-  let records=[],selected=[],ready=false,generation=0,anchorPending=new URL(location.href).hash==='#project-comparison',selectionLoaded=false,observedSelection,selectionNotice='';
+  let records=[],selected=[],ready=false,generation=0,copyRequest=0,anchorPending=new URL(location.href).hash==='#project-comparison',selectionLoaded=false,observedSelection,selectionNotice='';
   const chosen=()=>selected.map(id=>records.find(p=>p.id===id)).filter(Boolean);
   function syncURL(){const u=new URL(location.href);u.searchParams.delete('compare');if(selected.length)u.searchParams.set('compare',selected.join(','));else if(u.hash==='#project-comparison')u.hash='results';try{history.replaceState(null,'',u.pathname+u.search+u.hash);}catch{}observedSelection=new URL(location.href).searchParams.get('compare');}
   function readSelection(){const requested=(new URL(location.href).searchParams.get('compare')||'').split(',').filter(Boolean);selected=[...new Set(requested)].filter(id=>/^[a-z0-9-]+$/.test(id)&&records.some(p=>p.id===id)).slice(0,3);return requested.length!==selected.length;}
@@ -42,11 +42,20 @@
   $('comparison-clear').addEventListener('click',()=>{selectionNotice='';selected=[];syncURL();render();$('search').focus();});
   $('comparison-copy').addEventListener('click',async()=>{
     if(!ready||!selected.length)return;
-    const u=new URL('/directory/',location.origin);u.searchParams.set('compare',selected.join(','));u.hash='project-comparison';const version=generation;
-    try{await navigator.clipboard.writeText(u.href);if(version===generation)status.textContent='Comparison link copied. '+limitation;}
-    catch{if(version===generation)status.textContent='Copy this comparison link: '+u.href;}
+    const u=new URL('/directory/',location.origin);
+    const context=new URL('https://microportmap.com/directory/'+(viewSearch??new URL(location.href).search)).searchParams;
+    for(const key of ['q','country','type','region','year','sort']){const value=context.get(key);if(value)u.searchParams.set(key,value);}
+    u.searchParams.set('compare',selected.join(','));u.hash='project-comparison';
+    const version=generation,request=++copyRequest,current=()=>version===generation&&request===copyRequest;
+    let timer;
+    try{
+      await Promise.race([navigator.clipboard.writeText(u.href),new Promise((_,reject)=>{timer=setTimeout(()=>reject(Error('Clipboard timed out')),5000);})]);
+      if(current())status.textContent='Comparison link copied. '+limitation;
+    }catch{if(current())status.textContent='Copy this comparison link: '+u.href;}
+    finally{clearTimeout(timer);}
   });
   function download(format){
+    copyRequest++;
     const list=chosen();if(!ready||!list.length){status.textContent='Choose projects before exporting a comparison.';return;}
     let url,link;
     try{

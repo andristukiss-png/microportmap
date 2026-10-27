@@ -47,6 +47,23 @@ jobs:
             checks/contrasting-research-screenshots/*.png
           if-no-files-found: warn
           retention-days: 30
+      - name: Directory Comparison 500 clipboard and context cases
+        run: |
+          node --check src/directory-compare.js
+          node checks/compare.cjs
+          node checks/comparison-reliability-500.cjs
+      - name: Directory Comparison responsive copy and export checks
+        run: bash checks/comparison-reliability-browser-smoke.sh
+      - name: Retain Directory Comparison 500 results and captures
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: microportmap-comparison-reliability-500
+          path: |
+            checks/comparison-reliability-500-results.json
+            checks/comparison-reliability-screenshots/*.png
+          if-no-files-found: warn
+          retention-days: 30
       - name: Metadata Review 500 recovery and audit scope cases
         run: |
           node --check src/data-quality.js
