@@ -47,6 +47,23 @@ jobs:
             checks/contrasting-research-screenshots/*.png
           if-no-files-found: warn
           retention-days: 30
+      - name: Country 500 recovery, copy and bookmark feedback cases
+        run: |
+          node --check src/country-explorer.js
+          python3 checks/country-explorer-50-audit.py
+          node checks/country-recovery-500.cjs
+      - name: Country responsive recovery and bookmark feedback checks
+        run: bash checks/country-recovery-browser-smoke.sh
+      - name: Retain Country Recovery 500 results and captures
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: microportmap-country-recovery-500
+          path: |
+            checks/country-recovery-500-results.json
+            checks/country-recovery-screenshots/*.png
+          if-no-files-found: warn
+          retention-days: 30
       - name: Equipment 500 recovery and filter history cases
         run: |
           node --check src/equipment-explorer.js
