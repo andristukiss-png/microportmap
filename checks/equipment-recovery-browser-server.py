@@ -2,7 +2,7 @@
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import urlsplit
-html=Path('src/technologies/index.html').read_text().replace('</head>','<script src="/__er_prelude.js"></script></head>',1).replace('</body>','<output id="or-probe-result">PENDING</output><script src="/__er_probe.js"></script></body>',1)
+html=Path('src/technologies/index.html').read_text().replace('</head>','<script src="/__er_prelude.js"></script></head>',1).replace('</body>','<output id="er-probe-result">PENDING</output><script src="/__er_probe.js"></script></body>',1)
 class Handler(SimpleHTTPRequestHandler):
  def __init__(self,*args,**kwargs):super().__init__(*args,directory='src',**kwargs)
  def do_GET(self):
