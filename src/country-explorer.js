@@ -19,7 +19,7 @@ const filterHref=(url,country)=>url+'?'+new URLSearchParams({country});
 const lower=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 const IDs=r=>r&&typeof r.id==='string'&&/^[a-z0-9-]+$/.test(r.id)&&typeof r.name==='string'&&r.name.trim();
 let records=[],groups=[],regions=[],current='',region='',query='',sort='count',minCount=1,
-    favorites=[],maxShown=12,projectShown=6,selectedA='',selectedB='',isReady=false,isLoading=false,storageOK=true;
+    favorites=[],maxShown=12,projectShown=6,selectedA='',selectedB='',isReady=false,isLoading=false,storageOK=true,generation=0,copyRequest=0;
 const key='microportmap.country-bookmarks.v1';
 function readFavorites(){
  try{const ids=JSON.parse(localStorage.getItem(key)||'[]');if(!Array.isArray(ids))return [];
@@ -87,7 +87,8 @@ const caveat=E('details','mpc-caveat');
 caveat.append(E('summary','','How to interpret the geographic information'),
  E('p','','A country or region identifies the broad reporting area of a research record. Coordinates are approximate; these reports do not independently verify current operations, physical site counts, public access or flight permission. Publication-date labels are not verified opening dates.'));
 const errors=E('div','mpc-error');errors.hidden=true;errors.setAttribute('role','alert');
-errors.append(E('p','','Country research is temporarily unavailable. The original country list and source-linked directory remain accessible.'),B('Retry loading',load,'mpc-primary'));
+const retry=B('Retry loading',load,'mpc-primary');
+errors.append(E('p','','Country research is temporarily unavailable. The original country list and source-linked directory remain accessible.'),retry);
 root.append(heading,pills,selectors,regionTabs,status,controls,active,spotlight,explorerTitle,chart,cards,countryButtons,detail,compare,exports,notice,caveat,errors);
 function preserveURL(){
  if(!countryPage)return;
@@ -182,10 +183,12 @@ function bookmarks(){
  wrap.append(row);return wrap;
 }
 function togglePin(name){
- if(favorites.includes(name)){favorites=favorites.filter(x=>x!==name);notice.textContent='Country unpinned.';}
+ copyRequest++;
+ let feedback;
+ if(favorites.includes(name)){favorites=favorites.filter(x=>x!==name);feedback='Country unpinned.';}
  else if(favorites.length>=3){notice.textContent='Up to three countries can be pinned. Unpin one first.';return;}
- else{favorites.push(name);notice.textContent='Country pinned for this browser.';}
- keepFavorites();draw();
+ else{favorites.push(name);feedback='Country pinned for this browser.';}
+ keepFavorites();draw();notice.textContent=feedback;
 }
 function cardsRender(list){
  chart.replaceChildren();cards.replaceChildren();
@@ -290,6 +293,7 @@ function activeRender(){
 }
 function draw(){
  if(!isReady)return;
+ generation++;notice.textContent='';
  if(current&&!groups.some(x=>x.name===current))current='';
  if(region&&!regions.includes(region))region='';
  const list=shown();const countReports=list.reduce((sum,c)=>sum+c.records.length,0);
@@ -299,6 +303,7 @@ function draw(){
  cardsRender(list);detailRender();compareRender();
  directory.href=current?filterHref('/directory/',current):region?
   '/directory/?'+new URLSearchParams({region}):'/directory/';
+ directory.removeAttribute('aria-disabled');
  reset.disabled=!current&&!region&&!query&&minCount===1;
  csv.disabled=json.disabled=!list.length;
  preserveURL();
@@ -307,7 +312,9 @@ function exportRows(){
  return [...new Set(shown().flatMap(g=>g.records))];
 }
 function download(format){
+ if(!isReady)return;
  const items=exportRows();if(!items.length)return;
+ copyRequest++;
  let text,type,file;
  if(format==='json'){
   text=JSON.stringify({title:'MicroportMap geographic research subset',count:items.length,
@@ -331,9 +338,14 @@ function download(format){
  finally{anchor?.remove();if(url)setTimeout(()=>URL.revokeObjectURL(url),30000);}
 }
 async function copyURL(){
- const url=getLink();
- try{await navigator.clipboard.writeText(url);notice.textContent='Country view link copied.';}
- catch{notice.textContent='Copy this link: '+url;}
+ if(!isReady)return;
+ const url=getLink(),version=generation,request=++copyRequest,current=()=>version===generation&&request===copyRequest;
+ let timer;
+ try{
+  await Promise.race([navigator.clipboard.writeText(url),new Promise((_,reject)=>{timer=setTimeout(()=>reject(Error('Clipboard timed out')),5000);})]);
+  if(current())notice.textContent='Country view link copied.';
+ }catch{if(current())notice.textContent='Copy this link: '+url;}
+ finally{clearTimeout(timer);}
 }
 function fill(){
  countryGroups();
@@ -351,14 +363,26 @@ function fill(){
  document.documentElement.dataset.mpcLoaded='1';
  if(location.hash==='#mpc-country-detail'&&current)setTimeout(()=>detail.scrollIntoView({behavior:'auto'}),200);
 }
-function load(){
- if(isLoading)return;isLoading=true;errors.hidden=true;status.textContent='Loading published research records…';
- fetch('/data/projects.json').then(r=>{if(!r.ok)throw Error('Data unavailable');return r.json();})
- .then(data=>{
-  if(!Array.isArray(data.records)||data.records.length!==50||
-   data.records.some(r=>!IDs(r))||new Set(data.records.map(r=>r.id)).size!==50)throw Error('Invalid catalogue');
-  records=data.records.slice();isLoading=false;fill();
- }).catch(()=>{isLoading=false;errors.hidden=false;status.textContent='Could not load country research data.';});
+function setControls(available){
+ [search,regionSelect,sortSelect,minSelect,reset,copy,more,less,compareSelectA,compareSelectB,swap,csv,json].forEach(n=>{n.disabled=!available;});
+}
+function clearData(){
+ isReady=false;records=[];groups=[];regions=[];setControls(false);
+ document.body.classList.remove('mpc-ready');delete document.documentElement.dataset.mpcLoaded;
+ [pills,regionTabs,active,spotlight,chart,cards,detail,compareBody].forEach(n=>n.replaceChildren());detail.hidden=true;more.hidden=less.hidden=true;
+ directory.removeAttribute('href');directory.setAttribute('aria-disabled','true');
+}
+async function load(){
+ if(isLoading)return;
+ isLoading=true;generation++;retry.disabled=true;errors.hidden=true;clearData();notice.textContent='';root.setAttribute('aria-busy','true');status.textContent='Loading published research records…';
+ const controller=new AbortController();let timer;
+ try{
+  const deadline=new Promise((_,reject)=>{timer=setTimeout(()=>{controller.abort();reject(Error('Country lookup timed out'));},15000);});
+  const data=await Promise.race([deadline,(async()=>{const response=await fetch('/data/projects.json',{signal:controller.signal});if(!response.ok)throw Error('Data unavailable');return response.json();})()]);
+  if(!Array.isArray(data.records)||data.records.length!==50||data.records.some(r=>!IDs(r))||new Set(data.records.map(r=>r.id)).size!==50)throw Error('Invalid catalogue');
+  records=data.records.slice();setControls(true);fill();
+ }catch{clearData();errors.hidden=false;status.textContent='Could not load country research data.';}
+ finally{clearTimeout(timer);isLoading=false;retry.disabled=false;root.setAttribute('aria-busy','false');}
 }
 function entryLinks(){
  for(const nav of document.querySelectorAll('.mp-continue-topics')){
