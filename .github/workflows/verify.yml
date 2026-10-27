@@ -47,6 +47,10 @@ jobs:
             checks/contrasting-research-screenshots/*.png
           if-no-files-found: warn
           retention-days: 30
+      - name: Shared research loader recovery cases
+        run: |
+          node --check src/experience-tools.js
+          node checks/research-loader-500.cjs
       - name: Country 500 recovery, copy and bookmark feedback cases
         run: |
           node --check src/country-explorer.js

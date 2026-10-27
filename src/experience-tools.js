@@ -42,15 +42,22 @@
   let request;
   function data() {
     if (!request) {
-      request = fetch('/data/projects.json', {signal:AbortSignal.timeout?AbortSignal.timeout(12000):undefined})
-        .then(r=>{if(!r.ok)throw Error('Cannot load research data');return r.json();})
-        .then(d=>{
-          const rows=d?.records;
-          if(!Array.isArray(rows)||!rows.length||rows.some(p=>!isRecord(p))||
-            new Set(rows.map(p=>p.id)).size!==rows.length)
-            throw Error('Research data is unavailable');
-          return rows;
-        }).catch(error=>{request=undefined;throw error;});
+      const controller = new AbortController();
+      let timer;
+      const deadline = new Promise((_, reject) => {
+        timer = setTimeout(() => { controller.abort(); reject(Error('Research data request timed out')); }, 12000);
+      });
+      request = Promise.race([deadline, (async () => {
+        const response = await fetch('/data/projects.json', {signal: controller.signal});
+        if (!response.ok) throw Error('Cannot load research data');
+        return response.json();
+      })()]).then(d=>{
+        const rows=d?.records;
+        if(!Array.isArray(rows)||!rows.length||rows.some(p=>!isRecord(p))||
+          new Set(rows.map(p=>p.id)).size!==rows.length)
+          throw Error('Research data is unavailable');
+        return rows;
+      }).catch(error=>{request=undefined;throw error;}).finally(()=>clearTimeout(timer));
     }
     return request;
   }
