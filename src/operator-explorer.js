@@ -20,7 +20,7 @@ const group=(items,fn)=>{
  return [...map].map(([label,records])=>({label,records})).sort((a,b)=>b.records.length-a.records.length||a.label.localeCompare(b.label));
 };
 const distinct=(items,fn)=>new Set(items.map(fn)).size;
-let all=[],operators=[],results=[],ready=false,pending=false,sort='count',minimum=1,limit=12,recordLimit=6,selected='',search='',country='',type='',region='',year='',comparisonLeft='',comparisonRight='';
+let all=[],operators=[],results=[],ready=false,pending=false,sort='count',minimum=1,limit=12,recordLimit=6,selected='',search='',country='',type='',region='',year='',comparisonLeft='',comparisonRight='',generation=0,copyRequest=0;
 const panel=create('section','mpo-explorer');panel.id='mpo-explorer';panel.setAttribute('aria-labelledby','mpo-title');
 const intro=create('div','mpo-intro');
 const title=create('h2','','Explore reported operators');title.id='mpo-title';
@@ -75,7 +75,8 @@ const caveat=create('details','mpo-disclosure');
 caveat.append(create('summary','','What does “reported operator” mean?'),
  create('p','','Attribution labels are retained exactly as published in each research record. A slash, comma or conjunction is not proof of a formal partnership. Project counts are source-backed references, not verified facilities, current operations, access, or aircraft permissions. Date labels describe reporting rather than opening dates.'));
 const err=create('div','mpo-error');err.hidden=true;err.setAttribute('role','alert');
-err.append(create('p','','The enhanced operator explorer could not load. Original operator references and directory links remain available.'),button('Retry research data',load,'mpo-primary'));
+const retry=button('Retry research data',load,'mpo-primary');
+err.append(create('p','','The enhanced operator explorer could not load. Original operator references and directory links remain available.'),retry);
 panel.append(intro,metrics,filters,chips,status,quick,grid,gridActions,detail,comparison,downloads,announcement,caveat,err);
 const displayYear=r=>yr(r);
 function groupsForView(){
@@ -260,6 +261,7 @@ function renderComparison(){
 }
 function render(){
  if(!ready)return;
+ generation++;announcement.textContent='';
  const list=groupsForView();
  status.textContent=list.length+' attribution labels · '+results.length+' matching research records';
  renderStats(list);renderQuick(list);renderChips();renderGrid(list);renderDetail();renderComparison();
@@ -269,7 +271,7 @@ function render(){
  if(region)dir.searchParams.set('region',region);
  if(year)dir.searchParams.set('year',year);
  if(search||selected)dir.searchParams.set('q',[search,selected].filter(Boolean).join(' '));
- directory.href=dir.pathname+dir.search;
+ directory.href=dir.pathname+dir.search;directory.removeAttribute('aria-disabled');
  reset.disabled=!search&&!selected&&!country&&!type&&!region&&!year&&minimum===1;
  json.disabled=csv.disabled=!results.length;
  syncURL();
@@ -280,7 +282,8 @@ function exportCSV(rows){
  return '\uFEFF'+[keys,...rows.map(p=>keys.map(k=>k==='sourceUrl'?safeURL(p)||'':p[k]))].map(r=>r.map(quote).join(',')).join('\r\n');
 }
 function download(format){
- if(!results.length)return;
+ if(!ready||!results.length)return;
+ copyRequest++;
  const selectedRows=results.filter(p=>groupsForView().some(x=>x.label===val(p,'reportedOperator')));
  if(!selectedRows.length)return;
  const file='microportmap-reported-operators.'+format;
@@ -297,20 +300,43 @@ function download(format){
  finally{tag?.remove();if(href)setTimeout(()=>URL.revokeObjectURL(href),30000);}
 }
 async function copyURL(){
- const url=filterURL().toString();
- try{await navigator.clipboard.writeText(url);announcement.textContent='Filtered operator link copied.';}
- catch{announcement.textContent='Copy this link: '+url;}
+ if(!ready)return;
+ const url=filterURL().toString(),version=generation,request=++copyRequest;
+ const current=()=>version===generation&&request===copyRequest;let timer;
+ try{
+  await Promise.race([navigator.clipboard.writeText(url),new Promise((_,reject)=>{timer=setTimeout(()=>reject(Error('Clipboard timed out')),5000);})]);
+  if(current())announcement.textContent='Filtered operator link copied.';
+ }catch{if(current())announcement.textContent='Copy this link: '+url;}
+ finally{clearTimeout(timer);}
 }
-function load(){
- if(pending)return;pending=true;err.hidden=true;status.textContent='Loading original research catalogue…';
- fetch('/data/projects.json').then(r=>{if(!r.ok)throw Error('Unavailable');return r.json();}).then(data=>{
+function controls(available){
+ [query,...Object.values(selects),minimumSelect,sortSelect,reset,more,fewer,left,right,swap,json,csv,copy].forEach(n=>{n.disabled=!available;});
+}
+function clearData(){
+ ready=false;all=[];operators=[];results=[];
+ document.body.classList.remove('mpo-loaded');delete document.documentElement.dataset.mpoLoaded;
+ [metrics,chips,quick,grid,detail,compareBody].forEach(n=>n.replaceChildren());detail.hidden=true;more.hidden=fewer.hidden=true;
+ directory.removeAttribute('href');directory.setAttribute('aria-disabled','true');controls(false);
+}
+async function load(){
+ if(pending)return;
+ pending=true;generation++;retry.disabled=true;err.hidden=true;clearData();announcement.textContent='';panel.setAttribute('aria-busy','true');status.textContent='Loading original research catalogue…';
+ const controller=new AbortController();let timer;
+ try{
+  const deadline=new Promise((_,reject)=>{timer=setTimeout(()=>{controller.abort();reject(Error('Operator lookup timed out'));},15000);});
+  const data=await Promise.race([deadline,(async()=>{const response=await fetch('/data/projects.json',{signal:controller.signal});if(!response.ok)throw Error('Unavailable');return response.json();})()]);
   if(!Array.isArray(data.records)||data.records.length!==50||
    data.records.some(p=>!p||typeof p.id!=='string'||!/^[a-z0-9-]+$/.test(p.id)||typeof p.name!=='string'||!p.name.trim())||
    new Set(data.records.map(p=>p.id)).size!==50)throw Error('Invalid dataset');
-  all=data.records.slice();operators=group(all,p=>val(p,'reportedOperator'));pending=false;
-  restore();setupSelects();ready=true;render();document.body.classList.add('mpo-loaded');
-  document.documentElement.dataset.mpoLoaded='1';
- }).catch(()=>{pending=false;err.hidden=false;status.textContent='Could not load published operator data.';});
+  all=data.records.slice();operators=group(all,p=>val(p,'reportedOperator'));
+  restore();setupSelects();ready=true;controls(true);render();document.body.classList.add('mpo-loaded');document.documentElement.dataset.mpoLoaded='1';
+ }catch{clearData();err.hidden=false;status.textContent='Could not load published operator data.';}
+ finally{clearTimeout(timer);pending=false;retry.disabled=false;panel.setAttribute('aria-busy','false');}
+}
+function normalizeRestoredFilters(){
+ for(const [key,value]of Object.entries({country,type,region,year}))if(![...selects[key].options].some(o=>o.value===value)){
+  if(key==='country')country='';if(key==='type')type='';if(key==='region')region='';if(key==='year')year='';
+ }
 }
 query.addEventListener('input',()=>{search=query.value.trim();selected='';limit=12;render();});
 for(const id of ['country','type','region','year'])selects[id].addEventListener('change',()=>{
@@ -323,7 +349,7 @@ for(const id of ['country','type','region','year'])selects[id].addEventListener(
 minimumSelect.addEventListener('change',()=>{minimum=Number(minimumSelect.value)||1;selected='';render();});
 sortSelect.addEventListener('change',()=>{sort=sortSelect.value;render();});
 left.addEventListener('change',renderComparison);right.addEventListener('change',renderComparison);
-window.addEventListener('popstate',()=>{if(ready){restore();syncFields();render();}});
+window.addEventListener('popstate',()=>{if(ready){restore();normalizeRestoredFilters();syncFields();render();}});
 function entryLinks(){
  for(const nav of document.querySelectorAll('.mp-continue-topics')){
   if(nav.querySelector('[data-mpo-link]'))continue;

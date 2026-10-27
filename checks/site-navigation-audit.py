@@ -57,6 +57,7 @@ assert colors(css)<=colors(prior_colors)
 for path,digest in baseline.items():
  # Lookup and directory scripts were intentionally revised; pin reviewed bytes
  # while retaining the original baseline for every other file.
+ if path=='src/operator-explorer.js':digest='155be1961090c79b36521aec2855ec2fff56b0792ea623428370d6d3afddaf3c'
  if path=='src/research-insights.js':digest='f31d3e5077f5586f87804b0f8acd5e3af301834d559ca6552502a2f9219ade06'
  if path=='src/project-connect.js':digest='d42373f1f21e2f325755f91e6bdf6b3b903af92d04c2e32480e3fa85ffb52fc2'
  if path=='src/site-redesign.js':digest='83ce122ac0d9f2e85f94ef3a48e9c5d816a549bed7a8afefd8bbe66ff1068549'

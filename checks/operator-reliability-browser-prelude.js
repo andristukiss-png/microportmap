@@ -1,0 +1,6 @@
+(()=>{
+ const native=window.fetch.bind(window),timer=window.setTimeout.bind(window);let held=false;
+ window.setTimeout=(fn,ms,...args)=>timer(fn,ms===15000||ms===5000?100:ms,...args);
+ window.fetch=(url,options)=>{if(!held&&document.currentScript?.src.endsWith('/operator-explorer.js')){held=true;return new Promise(resolve=>{window.operatorLateResponse=resolve;});}return native(url,options);};
+ window.operatorProbeCopies=[];Object.defineProperty(navigator,'clipboard',{configurable:true,value:{writeText(value){return new Promise((resolve,reject)=>window.operatorProbeCopies.push({value,resolve,reject}));}}});
+})();
