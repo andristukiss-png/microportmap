@@ -95,11 +95,12 @@
     add(bottom,[all,link('Understand evidence','/verification-guide/','mpx-link')]);
     add(panel,[top,intro,search,count,results,bottom]);cover.appendChild(panel);
     document.body.appendChild(trigger);document.body.appendChild(cover);
-    let returnFocus=null,loaded=[],openNow=false,renderToken=0,backgroundState=[];
+    let returnFocus=null,loaded=[],openNow=false,renderToken=0,backgroundState=[],backgroundObserver=null;
     function dismiss(){
       if(!openNow)return;
       cover.hidden=true;openNow=false;trigger.setAttribute('aria-expanded','false');
       document.body.classList.remove('mpx-dialog-open');
+      backgroundObserver?.disconnect();backgroundObserver=null;
       backgroundState.forEach(([element,previous])=>{element.inert=previous;});backgroundState=[];
       (returnFocus?.isConnected?returnFocus:trigger).focus({preventScroll:true});
     }
@@ -144,9 +145,20 @@
       returnFocus=document.activeElement;openNow=true;
       cover.hidden=false;trigger.setAttribute('aria-expanded','true');
       backgroundState=[];
-      for(const element of document.body.children){
-        if(element===cover||['SCRIPT','STYLE','LINK'].includes(element.tagName))continue;
-        backgroundState.push([element,element.inert]);element.inert=true;
+      const isolate=element=>{
+        if(!element||element.nodeType!==1||element.parentElement!==document.body||element===cover||['SCRIPT','STYLE','LINK'].includes(element.tagName))return;
+        if(!backgroundState.some(([prior])=>prior===element))backgroundState.push([element,element.inert]);
+        const heldFocus=element.contains(document.activeElement);
+        element.inert=true;
+        if(heldFocus)search.focus({preventScroll:true});
+      };
+      for(const element of document.body.children)isolate(element);
+      if(typeof MutationObserver!=='undefined'){
+        backgroundObserver=new MutationObserver(mutations=>{
+          if(!openNow)return;
+          for(const mutation of mutations)for(const element of mutation.addedNodes)isolate(element);
+        });
+        backgroundObserver.observe(document.body,{childList:true});
       }
       document.body.classList.add('mpx-dialog-open');
       search.value='';search.focus({preventScroll:true});load();
