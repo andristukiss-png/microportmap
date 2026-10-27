@@ -104,8 +104,12 @@
       backgroundState.forEach(([element,previous])=>{element.inert=previous;});backgroundState=[];
       (returnFocus?.isConnected?returnFocus:trigger).focus({preventScroll:true});
     }
+    function clearResults(){
+      if(results.contains(document.activeElement))search.focus({preventScroll:true});
+      results.replaceChildren();
+    }
     function paint(){
-      const thisToken=++renderToken;results.replaceChildren();
+      const thisToken=++renderToken;clearResults();
       const q=search.value.trim();
       all.href=q?'/directory/?'+new URLSearchParams({q}):'/directory/';
       all.textContent=q?'See all matching projects in directory →':'Browse the complete directory →';
@@ -130,12 +134,13 @@
         make('p','mpx-note','Showing the first 8 matches. Use the directory link below for the full list.'));
     }
     function load(){
-      count.textContent='Loading research records…';results.replaceChildren();
+      count.textContent='Loading research records…';clearResults();
       data().then(rows=>{if(!openNow)return;loaded=rows;paint();})
         .catch(()=>{
           if(!openNow)return;
           count.textContent='Project search is temporarily unavailable.';
-          results.replaceChildren(button('Retry loading records',load,'mpx-action'));
+          clearResults();
+          results.appendChild(button('Retry loading records',load,'mpx-action'));
         });
     }
     function open(){
