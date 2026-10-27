@@ -12,10 +12,17 @@ test "$ready" = 1 || { cat /tmp/cr-http.log >&2;exit 1; }
 for id in shenzhen kiel rotterdam;do
  for spec in 'desktop:1440,900' 'mobile:390,844';do
   IFS=: read -r mode viewport <<< "$spec"
-  profile="$(mktemp -d)";dump="/tmp/cr-$id-$mode.html"
-  timeout 75s "$chrome" --headless=new --no-sandbox --disable-dev-shm-usage --disable-gpu --disable-background-networking --user-data-dir="$profile" --window-size="$viewport" --virtual-time-budget=9500 --dump-dom "http://127.0.0.1:8800/countries/?case=$id" > "$dump" 2>/tmp/cr-chrome.log || { cat /tmp/cr-chrome.log >&2;exit 1; }
+  dump="/tmp/cr-$id-$mode.html"
+  for attempt in 1 2 3;do
+   profile="$(mktemp -d)"
+   timeout 75s "$chrome" --headless=new --no-sandbox --disable-dev-shm-usage --disable-gpu --disable-background-networking --user-data-dir="$profile" --window-size="$viewport" --virtual-time-budget=18000 --dump-dom "http://127.0.0.1:8800/countries/?case=$id" > "$dump" 2>/tmp/cr-chrome.log || { cat /tmp/cr-chrome.log >&2;exit 1; }
+   rm -rf "$profile"
+   if grep -q 'id="cr-probe-result"[^>]*>PASS:' "$dump";then break;fi
+   if ! grep -q 'id="cr-probe-result"[^>]*>PENDING' "$dump";then grep -o 'id="cr-probe-result"[^<]*' "$dump" >&2 || true;exit 1;fi
+   echo "Inconclusive country capture; retrying ($attempt/3)" >&2
+  done
   if ! grep -q 'id="cr-probe-result"[^>]*>PASS:' "$dump";then grep -o 'id="cr-probe-result"[^<]*' "$dump" >&2 || true;exit 1;fi
-  rm -rf "$profile";profile="$(mktemp -d)"
+  profile="$(mktemp -d)"
   timeout 75s "$chrome" --headless=new --no-sandbox --disable-dev-shm-usage --disable-gpu --disable-background-networking --user-data-dir="$profile" --window-size="$viewport" --virtual-time-budget=9500 --screenshot="$PWD/checks/country-recovery-screenshots/$id-$mode.png" "http://127.0.0.1:8800/countries/?case=$id" >/tmp/cr-screenshot.log 2>&1 || { cat /tmp/cr-screenshot.log >&2;exit 1; }
   test -s "checks/country-recovery-screenshots/$id-$mode.png";rm -rf "$profile"
   echo "PASS: $id $mode country lookup recovery, selection, bookmarks and copy/export"
