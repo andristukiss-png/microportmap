@@ -47,6 +47,18 @@ jobs:
             checks/contrasting-research-screenshots/*.png
           if-no-files-found: warn
           retention-days: 30
+      - name: Finder modal 500 accessibility cases
+        run: node checks/finder-modal-500.cjs
+      - name: Finder modal desktop and mobile browser checks
+        run: bash checks/finder-modal-browser-smoke.sh
+      - name: Retain finder modal browser captures
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: microportmap-finder-modal-500
+          path: checks/finder-modal-screenshots/*.png
+          if-no-files-found: warn
+          retention-days: 30
       - name: Shared research loader recovery cases
         run: |
           node --check src/experience-tools.js

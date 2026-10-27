@@ -95,11 +95,12 @@
     add(bottom,[all,link('Understand evidence','/verification-guide/','mpx-link')]);
     add(panel,[top,intro,search,count,results,bottom]);cover.appendChild(panel);
     document.body.appendChild(trigger);document.body.appendChild(cover);
-    let returnFocus=null,loaded=[],openNow=false,renderToken=0;
+    let returnFocus=null,loaded=[],openNow=false,renderToken=0,backgroundState=[];
     function dismiss(){
       if(!openNow)return;
       cover.hidden=true;openNow=false;trigger.setAttribute('aria-expanded','false');
       document.body.classList.remove('mpx-dialog-open');
+      backgroundState.forEach(([element,previous])=>{element.inert=previous;});backgroundState=[];
       (returnFocus?.isConnected?returnFocus:trigger).focus({preventScroll:true});
     }
     function paint(){
@@ -142,6 +143,11 @@
       if(atlasDrawer&&!atlasDrawer.hidden)return;
       returnFocus=document.activeElement;openNow=true;
       cover.hidden=false;trigger.setAttribute('aria-expanded','true');
+      backgroundState=[];
+      for(const element of document.body.children){
+        if(element===cover||['SCRIPT','STYLE','LINK'].includes(element.tagName))continue;
+        backgroundState.push([element,element.inert]);element.inert=true;
+      }
       document.body.classList.add('mpx-dialog-open');
       search.value='';search.focus({preventScroll:true});load();
     }
