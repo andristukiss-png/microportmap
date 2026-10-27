@@ -22,6 +22,7 @@ These are content findings from the existing drafts, not a legal-compliance dete
 - Checked all 72 pages for one primary heading, language, descriptions and declared image alternatives. Existing navigation/recovery audits cover local routes, anchors, sitemap and error-page behavior.
 - Added 500 passport gates: identity; search/mobile metadata; exact citation URL; reported context; uncertainty; approximate geography; local navigation; assets/link safety; CSV/GeoJSON consistency; core workflow entry points.
 - Added responsive checks and captures for atlas, directory, Kiel passport, metadata review, correction preparation, privacy and cookies at 1440×900 and 390×844. The new probe also checks page-level horizontal overflow and basic visible control names/labels. It blocks unpkg to exercise the site's fallback; it does not assess external tile availability.
+- Hardened the existing metadata recovery fixture: only the intentionally stalled initial lookup uses a shortened deadline; recovery retains the normal deadline, with failure diagnostics and a larger browser budget.
 - Retained the existing full functional regression suite, including local report preparation, copy/export behavior, browser storage, comparisons and failure/retry paths.
 
 ## Explicit scope and follow-up

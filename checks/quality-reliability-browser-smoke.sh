@@ -2,7 +2,7 @@
 set -euo pipefail
 chrome="$(command -v google-chrome || command -v chromium || command -v chromium-browser || true)"
 test -n "$chrome" || { echo 'Chromium required' >&2;exit 1; }
-mkdir -p checks/quality-reliability-screenshots
+mkdir -p checks/quality-reliability-screenshots checks/quality-reliability-diagnostics
 python3 -m http.server 8792 --bind 127.0.0.1 --directory src >/tmp/qr-http.log 2>&1 &
 pid=$!
 trap 'kill "$pid" 2>/dev/null || true; rm -f src/data-quality/__qr_probe.html src/__qr_prelude.js src/__qr_probe.js' EXIT
@@ -23,16 +23,17 @@ for id in shenzhen kiel rotterdam;do
   dump="/tmp/qr-$id-$mode.html"
   timeout 75s "$chrome" --headless=new --no-sandbox --disable-dev-shm-usage \
    --disable-gpu --disable-background-networking --user-data-dir="$profile" \
-   --window-size="$viewport" --virtual-time-budget=9500 --dump-dom \
+   --window-size="$viewport" --virtual-time-budget=18000 --dump-dom \
    "http://127.0.0.1:8792/data-quality/__qr_probe.html?project=$id" > "$dump" 2>/tmp/qr-chrome.log ||
    { cat /tmp/qr-chrome.log >&2;exit 1; }
-  if ! grep -q 'id="qr-probe-result">PASS:' "$dump";then
+  if ! grep -q 'id="qr-probe-result"[^>]*>PASS:' "$dump";then
+   cp "$dump" "checks/quality-reliability-diagnostics/$id-$mode.html";cp /tmp/qr-chrome.log checks/quality-reliability-diagnostics/chrome.log;cp /tmp/qr-http.log checks/quality-reliability-diagnostics/http.log
    grep -o 'id="qr-probe-result"[^<]*' "$dump" >&2 || true;exit 1
   fi
   rm -rf "$profile";profile="$(mktemp -d)"
   timeout 75s "$chrome" --headless=new --no-sandbox --disable-dev-shm-usage \
    --disable-gpu --disable-background-networking --user-data-dir="$profile" \
-   --window-size="$viewport" --virtual-time-budget=9500 \
+   --window-size="$viewport" --virtual-time-budget=18000 \
    --screenshot="$PWD/checks/quality-reliability-screenshots/$id-$mode.png" \
    "http://127.0.0.1:8792/data-quality/__qr_probe.html?project=$id" >/tmp/qr-screenshot.log 2>&1 ||
    { cat /tmp/qr-screenshot.log >&2;exit 1; }

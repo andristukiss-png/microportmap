@@ -164,6 +164,7 @@ jobs:
           path: |
             checks/quality-reliability-500-results.json
             checks/quality-reliability-screenshots/*.png
+            checks/quality-reliability-diagnostics/*
           if-no-files-found: warn
           retention-days: 30
       - name: Directory 500 recovery and filtered export cases
