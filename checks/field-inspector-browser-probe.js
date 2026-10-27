@@ -31,6 +31,7 @@ window.addEventListener('load',async()=>{
   assert(source.includes('Reported value: https://'),'source URL field missing');
   const manual=root.querySelector('.mpf-manual'),fallback=root.querySelector('.mpf-fallback'),statusNode=root.querySelector('#mpf-status');
   const descriptor=Object.getOwnPropertyDescriptor(navigator,'clipboard');
+  const originalFetch=window.fetch,originalTimeout=window.setTimeout;
   const clipboard=value=>Object.defineProperty(navigator,'clipboard',{configurable:true,value});
   try{
    clipboard(undefined);
@@ -59,7 +60,19 @@ window.addEventListener('load',async()=>{
    clipboard({writeText:()=>new Promise(()=>{})});
    assert(await tool.copyField('sourceURL')===false,'stalled clipboard did not time out');
    assert(!fallback.hidden&&manual.value===source,'timeout fallback missing original source context');
+   const retry=root.querySelector('.mpf-retry');let lateReject;
+   window.fetch=(...args)=>String(args[0])==='/data/projects.json'?Promise.resolve({ok:true,json:()=>new Promise((_,reject)=>{lateReject=reject;})}):originalFetch.apply(window,args);
+   window.setTimeout=(fn,ms,...args)=>originalTimeout(fn,ms===12000?40:ms,...args);
+   retry.click();window.setTimeout=originalTimeout;
+   for(let i=0;i<100&&tool.getState().loading;i++)await wait(20);
+   assert(!tool.getState().ready&&!retry.hidden&&!retry.disabled,'stalled body did not expose retry');
+   window.fetch=originalFetch;retry.click();
+   for(let i=0;i<150&&tool.getState().loading;i++)await wait(20);
+   assert(tool.getState().ready&&tool.getFieldText('sourceURL')===source,'retry did not restore field');
+   lateReject(Error('Late body failure'));await wait(30);
+   assert(tool.getState().ready&&tool.getFieldText('sourceURL')===source,'late failure disturbed recovered field');
   }finally{
+   window.fetch=originalFetch;window.setTimeout=originalTimeout;
    if(descriptor)Object.defineProperty(navigator,'clipboard',descriptor);else delete navigator.clipboard;
   }
   output.textContent='PASS: ten field fallbacks, selection/focus, stale success/rejection isolation, copy timeout and source-qualified text';

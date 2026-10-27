@@ -337,6 +337,7 @@ jobs:
           node --check src/passport-field-inspector.js
           node checks/field-inspector-500.cjs
           node checks/field-copy-reliability-500.cjs
+          node checks/field-lookup-deadline-500.cjs
       - name: Field Inspector real-browser responsive smoke
         run: bash checks/field-inspector-browser-smoke.sh
       - name: Retain Field Inspector 500 evidence

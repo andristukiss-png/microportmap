@@ -104,10 +104,12 @@ function load(){
  root.dataset.mpfReady='false';root.setAttribute('aria-busy','true');
  grid.replaceChildren();fallback.hidden=true;manual.value='';
  retry.hidden=true;retry.disabled=true;status.textContent='Loading original research fields…';
- const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),12000);
- fetch('/data/projects.json',{signal:controller.signal})
- .then(r=>{if(!r.ok)throw Error('Catalogue unavailable');return r.json();})
- .then(data=>{
+ const controller=new AbortController();let timer;
+ const deadline=new Promise((_,reject)=>{timer=setTimeout(()=>{controller.abort();reject(Error('Field lookup timed out'));},12000);});
+ Promise.race([deadline,(async()=>{
+  const response=await fetch('/data/projects.json',{signal:controller.signal});
+  if(!response.ok)throw Error('Catalogue unavailable');return response.json();
+ })()]).then(data=>{
   const rows=data?.records;
   if(!Array.isArray(rows)||rows.length!==50||rows.some(p=>!p||typeof p.id!=='string'||!/^[a-z0-9-]+$/.test(p.id)||typeof p.name!=='string'||!p.name.trim())||
    new Set(rows.map(p=>p.id)).size!==50)throw Error('Invalid catalogue');
