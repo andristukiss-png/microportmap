@@ -9,8 +9,10 @@ const implementation=source.slice(start,end);
 
 function harness(){
   let zoom=8,tilesCreated=0,tilesAdded=0;
-  const layers=new Set(),controls={},timers=[];
+  const layers=new Set(),controls={},timers=[],zoomHandlers=[];
+  const renderPins=()=>{};
   const map={
+    on(event,handler){assert.strictEqual(event,'zoomend');zoomHandlers.push(handler);},
     getZoom:()=>zoom,
     setZoom(value){zoom=value;},
     fitBounds(){},invalidateSize(){},
@@ -45,9 +47,10 @@ function harness(){
   const document={createElement:()=>({id:'',textContent:'',setAttribute(){}})};
   const lookup=id=>controls[id]||null;
   const restoreOfflineZoom=()=>{if(map.getZoom()>3)map.setZoom(3,{animate:false});};
-  const runner=new Function('L','document','$','setTimeout','restoreOfflineZoom',
+  const runner=new Function('L','document','$','setTimeout','restoreOfflineZoom','renderPins',
     'var map=null;\n'+implementation+'\nsetupMap();return map;');
-  assert.strictEqual(runner(L,document,lookup,(fn,ms)=>timers.push(ms),restoreOfflineZoom),map);
+  assert.strictEqual(runner(L,document,lookup,(fn,ms)=>timers.push(ms),restoreOfflineZoom,renderPins),map);
+  assert.deepStrictEqual(zoomHandlers,[renderPins],'map creation attaches exactly one pin refresh listener, including initial load failure');
   return {map,checkbox,layers,controls,get atlas(){return atlas;},get tiles(){return tiles;},
     get zoom(){return zoom;},get tilesCreated(){return tilesCreated;},get tilesAdded(){return tilesAdded;}};
 }

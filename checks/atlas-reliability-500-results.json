@@ -1,0 +1,3008 @@
+{
+  "total": 500,
+  "passed": 500,
+  "failed": 0,
+  "scope": "Controlled DOM/VM atlas loading, late response, retry and modal state checks across 50 original projects. Map points remain approximate research references. Browser checks run separately.",
+  "cases": [
+    {
+      "taskId": "AR001",
+      "projectId": "shenzhen",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR002",
+      "projectId": "shenzhen",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR003",
+      "projectId": "shenzhen",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR004",
+      "projectId": "shenzhen",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR005",
+      "projectId": "shenzhen",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR006",
+      "projectId": "shenzhen",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR007",
+      "projectId": "shenzhen",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR008",
+      "projectId": "shenzhen",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR009",
+      "projectId": "shenzhen",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR010",
+      "projectId": "shenzhen",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR011",
+      "projectId": "rotterdam",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR012",
+      "projectId": "rotterdam",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR013",
+      "projectId": "rotterdam",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR014",
+      "projectId": "rotterdam",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR015",
+      "projectId": "rotterdam",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR016",
+      "projectId": "rotterdam",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR017",
+      "projectId": "rotterdam",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR018",
+      "projectId": "rotterdam",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR019",
+      "projectId": "rotterdam",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR020",
+      "projectId": "rotterdam",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR021",
+      "projectId": "kiel",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR022",
+      "projectId": "kiel",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR023",
+      "projectId": "kiel",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR024",
+      "projectId": "kiel",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR025",
+      "projectId": "kiel",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR026",
+      "projectId": "kiel",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR027",
+      "projectId": "kiel",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR028",
+      "projectId": "kiel",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR029",
+      "projectId": "kiel",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR030",
+      "projectId": "kiel",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR031",
+      "projectId": "italy",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR032",
+      "projectId": "italy",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR033",
+      "projectId": "italy",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR034",
+      "projectId": "italy",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR035",
+      "projectId": "italy",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR036",
+      "projectId": "italy",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR037",
+      "projectId": "italy",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR038",
+      "projectId": "italy",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR039",
+      "projectId": "italy",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR040",
+      "projectId": "italy",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR041",
+      "projectId": "oman",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR042",
+      "projectId": "oman",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR043",
+      "projectId": "oman",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR044",
+      "projectId": "oman",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR045",
+      "projectId": "oman",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR046",
+      "projectId": "oman",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR047",
+      "projectId": "oman",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR048",
+      "projectId": "oman",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR049",
+      "projectId": "oman",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR050",
+      "projectId": "oman",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR051",
+      "projectId": "australia",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR052",
+      "projectId": "australia",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR053",
+      "projectId": "australia",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR054",
+      "projectId": "australia",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR055",
+      "projectId": "australia",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR056",
+      "projectId": "australia",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR057",
+      "projectId": "australia",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR058",
+      "projectId": "australia",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR059",
+      "projectId": "australia",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR060",
+      "projectId": "australia",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR061",
+      "projectId": "enbw",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR062",
+      "projectId": "enbw",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR063",
+      "projectId": "enbw",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR064",
+      "projectId": "enbw",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR065",
+      "projectId": "enbw",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR066",
+      "projectId": "enbw",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR067",
+      "projectId": "enbw",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR068",
+      "projectId": "enbw",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR069",
+      "projectId": "enbw",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR070",
+      "projectId": "enbw",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR071",
+      "projectId": "dole",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR072",
+      "projectId": "dole",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR073",
+      "projectId": "dole",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR074",
+      "projectId": "dole",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR075",
+      "projectId": "dole",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR076",
+      "projectId": "dole",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR077",
+      "projectId": "dole",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR078",
+      "projectId": "dole",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR079",
+      "projectId": "dole",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR080",
+      "projectId": "dole",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR081",
+      "projectId": "tnb",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR082",
+      "projectId": "tnb",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR083",
+      "projectId": "tnb",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR084",
+      "projectId": "tnb",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR085",
+      "projectId": "tnb",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR086",
+      "projectId": "tnb",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR087",
+      "projectId": "tnb",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR088",
+      "projectId": "tnb",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR089",
+      "projectId": "tnb",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR090",
+      "projectId": "tnb",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR091",
+      "projectId": "asheville",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR092",
+      "projectId": "asheville",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR093",
+      "projectId": "asheville",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR094",
+      "projectId": "asheville",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR095",
+      "projectId": "asheville",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR096",
+      "projectId": "asheville",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR097",
+      "projectId": "asheville",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR098",
+      "projectId": "asheville",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR099",
+      "projectId": "asheville",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR100",
+      "projectId": "asheville",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR101",
+      "projectId": "vancouver",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR102",
+      "projectId": "vancouver",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR103",
+      "projectId": "vancouver",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR104",
+      "projectId": "vancouver",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR105",
+      "projectId": "vancouver",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR106",
+      "projectId": "vancouver",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR107",
+      "projectId": "vancouver",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR108",
+      "projectId": "vancouver",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR109",
+      "projectId": "vancouver",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR110",
+      "projectId": "vancouver",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR111",
+      "projectId": "ishikawa",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR112",
+      "projectId": "ishikawa",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR113",
+      "projectId": "ishikawa",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR114",
+      "projectId": "ishikawa",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR115",
+      "projectId": "ishikawa",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR116",
+      "projectId": "ishikawa",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR117",
+      "projectId": "ishikawa",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR118",
+      "projectId": "ishikawa",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR119",
+      "projectId": "ishikawa",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR120",
+      "projectId": "ishikawa",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR121",
+      "projectId": "belgium-sense",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR122",
+      "projectId": "belgium-sense",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR123",
+      "projectId": "belgium-sense",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR124",
+      "projectId": "belgium-sense",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR125",
+      "projectId": "belgium-sense",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR126",
+      "projectId": "belgium-sense",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR127",
+      "projectId": "belgium-sense",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR128",
+      "projectId": "belgium-sense",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR129",
+      "projectId": "belgium-sense",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR130",
+      "projectId": "belgium-sense",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR131",
+      "projectId": "texas-solar",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR132",
+      "projectId": "texas-solar",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR133",
+      "projectId": "texas-solar",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR134",
+      "projectId": "texas-solar",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR135",
+      "projectId": "texas-solar",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR136",
+      "projectId": "texas-solar",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR137",
+      "projectId": "texas-solar",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR138",
+      "projectId": "texas-solar",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR139",
+      "projectId": "texas-solar",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR140",
+      "projectId": "texas-solar",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR141",
+      "projectId": "caltrans-otay",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR142",
+      "projectId": "caltrans-otay",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR143",
+      "projectId": "caltrans-otay",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR144",
+      "projectId": "caltrans-otay",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR145",
+      "projectId": "caltrans-otay",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR146",
+      "projectId": "caltrans-otay",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR147",
+      "projectId": "caltrans-otay",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR148",
+      "projectId": "caltrans-otay",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR149",
+      "projectId": "caltrans-otay",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR150",
+      "projectId": "caltrans-otay",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR151",
+      "projectId": "ramapo",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR152",
+      "projectId": "ramapo",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR153",
+      "projectId": "ramapo",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR154",
+      "projectId": "ramapo",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR155",
+      "projectId": "ramapo",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR156",
+      "projectId": "ramapo",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR157",
+      "projectId": "ramapo",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR158",
+      "projectId": "ramapo",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR159",
+      "projectId": "ramapo",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR160",
+      "projectId": "ramapo",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR161",
+      "projectId": "kansanshi-zambia",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR162",
+      "projectId": "kansanshi-zambia",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR163",
+      "projectId": "kansanshi-zambia",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR164",
+      "projectId": "kansanshi-zambia",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR165",
+      "projectId": "kansanshi-zambia",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR166",
+      "projectId": "kansanshi-zambia",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR167",
+      "projectId": "kansanshi-zambia",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR168",
+      "projectId": "kansanshi-zambia",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR169",
+      "projectId": "kansanshi-zambia",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR170",
+      "projectId": "kansanshi-zambia",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR171",
+      "projectId": "quellaveco-peru",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR172",
+      "projectId": "quellaveco-peru",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR173",
+      "projectId": "quellaveco-peru",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR174",
+      "projectId": "quellaveco-peru",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR175",
+      "projectId": "quellaveco-peru",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR176",
+      "projectId": "quellaveco-peru",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR177",
+      "projectId": "quellaveco-peru",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR178",
+      "projectId": "quellaveco-peru",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR179",
+      "projectId": "quellaveco-peru",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR180",
+      "projectId": "quellaveco-peru",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR181",
+      "projectId": "uae-waste",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR182",
+      "projectId": "uae-waste",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR183",
+      "projectId": "uae-waste",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR184",
+      "projectId": "uae-waste",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR185",
+      "projectId": "uae-waste",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR186",
+      "projectId": "uae-waste",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR187",
+      "projectId": "uae-waste",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR188",
+      "projectId": "uae-waste",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR189",
+      "projectId": "uae-waste",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR190",
+      "projectId": "uae-waste",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR191",
+      "projectId": "axpo-swiss",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR192",
+      "projectId": "axpo-swiss",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR193",
+      "projectId": "axpo-swiss",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR194",
+      "projectId": "axpo-swiss",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR195",
+      "projectId": "axpo-swiss",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR196",
+      "projectId": "axpo-swiss",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR197",
+      "projectId": "axpo-swiss",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR198",
+      "projectId": "axpo-swiss",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR199",
+      "projectId": "axpo-swiss",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR200",
+      "projectId": "axpo-swiss",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR201",
+      "projectId": "slovakia-forest",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR202",
+      "projectId": "slovakia-forest",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR203",
+      "projectId": "slovakia-forest",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR204",
+      "projectId": "slovakia-forest",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR205",
+      "projectId": "slovakia-forest",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR206",
+      "projectId": "slovakia-forest",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR207",
+      "projectId": "slovakia-forest",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR208",
+      "projectId": "slovakia-forest",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR209",
+      "projectId": "slovakia-forest",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR210",
+      "projectId": "slovakia-forest",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR211",
+      "projectId": "southafrica-estate",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR212",
+      "projectId": "southafrica-estate",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR213",
+      "projectId": "southafrica-estate",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR214",
+      "projectId": "southafrica-estate",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR215",
+      "projectId": "southafrica-estate",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR216",
+      "projectId": "southafrica-estate",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR217",
+      "projectId": "southafrica-estate",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR218",
+      "projectId": "southafrica-estate",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR219",
+      "projectId": "southafrica-estate",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR220",
+      "projectId": "southafrica-estate",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR221",
+      "projectId": "sqm-chile",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR222",
+      "projectId": "sqm-chile",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR223",
+      "projectId": "sqm-chile",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR224",
+      "projectId": "sqm-chile",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR225",
+      "projectId": "sqm-chile",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR226",
+      "projectId": "sqm-chile",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR227",
+      "projectId": "sqm-chile",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR228",
+      "projectId": "sqm-chile",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR229",
+      "projectId": "sqm-chile",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR230",
+      "projectId": "sqm-chile",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR231",
+      "projectId": "csx-rail",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR232",
+      "projectId": "csx-rail",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR233",
+      "projectId": "csx-rail",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR234",
+      "projectId": "csx-rail",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR235",
+      "projectId": "csx-rail",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR236",
+      "projectId": "csx-rail",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR237",
+      "projectId": "csx-rail",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR238",
+      "projectId": "csx-rail",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR239",
+      "projectId": "csx-rail",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR240",
+      "projectId": "csx-rail",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR241",
+      "projectId": "aerial-fences",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR242",
+      "projectId": "aerial-fences",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR243",
+      "projectId": "aerial-fences",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR244",
+      "projectId": "aerial-fences",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR245",
+      "projectId": "aerial-fences",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR246",
+      "projectId": "aerial-fences",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR247",
+      "projectId": "aerial-fences",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR248",
+      "projectId": "aerial-fences",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR249",
+      "projectId": "aerial-fences",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR250",
+      "projectId": "aerial-fences",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR251",
+      "projectId": "premier-security-us",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR252",
+      "projectId": "premier-security-us",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR253",
+      "projectId": "premier-security-us",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR254",
+      "projectId": "premier-security-us",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR255",
+      "projectId": "premier-security-us",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR256",
+      "projectId": "premier-security-us",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR257",
+      "projectId": "premier-security-us",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR258",
+      "projectId": "premier-security-us",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR259",
+      "projectId": "premier-security-us",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR260",
+      "projectId": "premier-security-us",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR261",
+      "projectId": "discovery-land-us",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR262",
+      "projectId": "discovery-land-us",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR263",
+      "projectId": "discovery-land-us",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR264",
+      "projectId": "discovery-land-us",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR265",
+      "projectId": "discovery-land-us",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR266",
+      "projectId": "discovery-land-us",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR267",
+      "projectId": "discovery-land-us",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR268",
+      "projectId": "discovery-land-us",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR269",
+      "projectId": "discovery-land-us",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR270",
+      "projectId": "discovery-land-us",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR271",
+      "projectId": "port-lincoln",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR272",
+      "projectId": "port-lincoln",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR273",
+      "projectId": "port-lincoln",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR274",
+      "projectId": "port-lincoln",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR275",
+      "projectId": "port-lincoln",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR276",
+      "projectId": "port-lincoln",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR277",
+      "projectId": "port-lincoln",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR278",
+      "projectId": "port-lincoln",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR279",
+      "projectId": "port-lincoln",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR280",
+      "projectId": "port-lincoln",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR281",
+      "projectId": "titan-protection",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR282",
+      "projectId": "titan-protection",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR283",
+      "projectId": "titan-protection",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR284",
+      "projectId": "titan-protection",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR285",
+      "projectId": "titan-protection",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR286",
+      "projectId": "titan-protection",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR287",
+      "projectId": "titan-protection",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR288",
+      "projectId": "titan-protection",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR289",
+      "projectId": "titan-protection",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR290",
+      "projectId": "titan-protection",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR291",
+      "projectId": "soar-alaska",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR292",
+      "projectId": "soar-alaska",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR293",
+      "projectId": "soar-alaska",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR294",
+      "projectId": "soar-alaska",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR295",
+      "projectId": "soar-alaska",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR296",
+      "projectId": "soar-alaska",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR297",
+      "projectId": "soar-alaska",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR298",
+      "projectId": "soar-alaska",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR299",
+      "projectId": "soar-alaska",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR300",
+      "projectId": "soar-alaska",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR301",
+      "projectId": "barcelona-port",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR302",
+      "projectId": "barcelona-port",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR303",
+      "projectId": "barcelona-port",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR304",
+      "projectId": "barcelona-port",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR305",
+      "projectId": "barcelona-port",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR306",
+      "projectId": "barcelona-port",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR307",
+      "projectId": "barcelona-port",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR308",
+      "projectId": "barcelona-port",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR309",
+      "projectId": "barcelona-port",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR310",
+      "projectId": "barcelona-port",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR311",
+      "projectId": "celaya",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR312",
+      "projectId": "celaya",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR313",
+      "projectId": "celaya",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR314",
+      "projectId": "celaya",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR315",
+      "projectId": "celaya",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR316",
+      "projectId": "celaya",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR317",
+      "projectId": "celaya",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR318",
+      "projectId": "celaya",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR319",
+      "projectId": "celaya",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR320",
+      "projectId": "celaya",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR321",
+      "projectId": "palcacocha",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR322",
+      "projectId": "palcacocha",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR323",
+      "projectId": "palcacocha",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR324",
+      "projectId": "palcacocha",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR325",
+      "projectId": "palcacocha",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR326",
+      "projectId": "palcacocha",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR327",
+      "projectId": "palcacocha",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR328",
+      "projectId": "palcacocha",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR329",
+      "projectId": "palcacocha",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR330",
+      "projectId": "palcacocha",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR331",
+      "projectId": "bibai",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR332",
+      "projectId": "bibai",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR333",
+      "projectId": "bibai",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR334",
+      "projectId": "bibai",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR335",
+      "projectId": "bibai",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR336",
+      "projectId": "bibai",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR337",
+      "projectId": "bibai",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR338",
+      "projectId": "bibai",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR339",
+      "projectId": "bibai",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR340",
+      "projectId": "bibai",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR341",
+      "projectId": "ambite",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR342",
+      "projectId": "ambite",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR343",
+      "projectId": "ambite",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR344",
+      "projectId": "ambite",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR345",
+      "projectId": "ambite",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR346",
+      "projectId": "ambite",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR347",
+      "projectId": "ambite",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR348",
+      "projectId": "ambite",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR349",
+      "projectId": "ambite",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR350",
+      "projectId": "ambite",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR351",
+      "projectId": "opole",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR352",
+      "projectId": "opole",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR353",
+      "projectId": "opole",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR354",
+      "projectId": "opole",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR355",
+      "projectId": "opole",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR356",
+      "projectId": "opole",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR357",
+      "projectId": "opole",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR358",
+      "projectId": "opole",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR359",
+      "projectId": "opole",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR360",
+      "projectId": "opole",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR361",
+      "projectId": "wurzburg-emqport",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR362",
+      "projectId": "wurzburg-emqport",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR363",
+      "projectId": "wurzburg-emqport",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR364",
+      "projectId": "wurzburg-emqport",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR365",
+      "projectId": "wurzburg-emqport",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR366",
+      "projectId": "wurzburg-emqport",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR367",
+      "projectId": "wurzburg-emqport",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR368",
+      "projectId": "wurzburg-emqport",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR369",
+      "projectId": "wurzburg-emqport",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR370",
+      "projectId": "wurzburg-emqport",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR371",
+      "projectId": "tomakomai-refinery",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR372",
+      "projectId": "tomakomai-refinery",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR373",
+      "projectId": "tomakomai-refinery",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR374",
+      "projectId": "tomakomai-refinery",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR375",
+      "projectId": "tomakomai-refinery",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR376",
+      "projectId": "tomakomai-refinery",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR377",
+      "projectId": "tomakomai-refinery",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR378",
+      "projectId": "tomakomai-refinery",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR379",
+      "projectId": "tomakomai-refinery",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR380",
+      "projectId": "tomakomai-refinery",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR381",
+      "projectId": "network-rail-uk",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR382",
+      "projectId": "network-rail-uk",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR383",
+      "projectId": "network-rail-uk",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR384",
+      "projectId": "network-rail-uk",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR385",
+      "projectId": "network-rail-uk",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR386",
+      "projectId": "network-rail-uk",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR387",
+      "projectId": "network-rail-uk",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR388",
+      "projectId": "network-rail-uk",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR389",
+      "projectId": "network-rail-uk",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR390",
+      "projectId": "network-rail-uk",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR391",
+      "projectId": "gilboa-nypa",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR392",
+      "projectId": "gilboa-nypa",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR393",
+      "projectId": "gilboa-nypa",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR394",
+      "projectId": "gilboa-nypa",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR395",
+      "projectId": "gilboa-nypa",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR396",
+      "projectId": "gilboa-nypa",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR397",
+      "projectId": "gilboa-nypa",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR398",
+      "projectId": "gilboa-nypa",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR399",
+      "projectId": "gilboa-nypa",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR400",
+      "projectId": "gilboa-nypa",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR401",
+      "projectId": "teesside-terminal",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR402",
+      "projectId": "teesside-terminal",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR403",
+      "projectId": "teesside-terminal",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR404",
+      "projectId": "teesside-terminal",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR405",
+      "projectId": "teesside-terminal",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR406",
+      "projectId": "teesside-terminal",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR407",
+      "projectId": "teesside-terminal",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR408",
+      "projectId": "teesside-terminal",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR409",
+      "projectId": "teesside-terminal",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR410",
+      "projectId": "teesside-terminal",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR411",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR412",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR413",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR414",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR415",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR416",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR417",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR418",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR419",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR420",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR421",
+      "projectId": "upper-darby-dfr",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR422",
+      "projectId": "upper-darby-dfr",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR423",
+      "projectId": "upper-darby-dfr",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR424",
+      "projectId": "upper-darby-dfr",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR425",
+      "projectId": "upper-darby-dfr",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR426",
+      "projectId": "upper-darby-dfr",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR427",
+      "projectId": "upper-darby-dfr",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR428",
+      "projectId": "upper-darby-dfr",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR429",
+      "projectId": "upper-darby-dfr",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR430",
+      "projectId": "upper-darby-dfr",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR431",
+      "projectId": "skybound-waterloo",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR432",
+      "projectId": "skybound-waterloo",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR433",
+      "projectId": "skybound-waterloo",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR434",
+      "projectId": "skybound-waterloo",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR435",
+      "projectId": "skybound-waterloo",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR436",
+      "projectId": "skybound-waterloo",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR437",
+      "projectId": "skybound-waterloo",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR438",
+      "projectId": "skybound-waterloo",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR439",
+      "projectId": "skybound-waterloo",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR440",
+      "projectId": "skybound-waterloo",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR441",
+      "projectId": "skybound-glasgow",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR442",
+      "projectId": "skybound-glasgow",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR443",
+      "projectId": "skybound-glasgow",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR444",
+      "projectId": "skybound-glasgow",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR445",
+      "projectId": "skybound-glasgow",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR446",
+      "projectId": "skybound-glasgow",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR447",
+      "projectId": "skybound-glasgow",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR448",
+      "projectId": "skybound-glasgow",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR449",
+      "projectId": "skybound-glasgow",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR450",
+      "projectId": "skybound-glasgow",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR451",
+      "projectId": "skybound-cardiff",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR452",
+      "projectId": "skybound-cardiff",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR453",
+      "projectId": "skybound-cardiff",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR454",
+      "projectId": "skybound-cardiff",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR455",
+      "projectId": "skybound-cardiff",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR456",
+      "projectId": "skybound-cardiff",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR457",
+      "projectId": "skybound-cardiff",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR458",
+      "projectId": "skybound-cardiff",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR459",
+      "projectId": "skybound-cardiff",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR460",
+      "projectId": "skybound-cardiff",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR461",
+      "projectId": "cincinnati-dfr",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR462",
+      "projectId": "cincinnati-dfr",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR463",
+      "projectId": "cincinnati-dfr",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR464",
+      "projectId": "cincinnati-dfr",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR465",
+      "projectId": "cincinnati-dfr",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR466",
+      "projectId": "cincinnati-dfr",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR467",
+      "projectId": "cincinnati-dfr",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR468",
+      "projectId": "cincinnati-dfr",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR469",
+      "projectId": "cincinnati-dfr",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR470",
+      "projectId": "cincinnati-dfr",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR471",
+      "projectId": "yonkers-nokia",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR472",
+      "projectId": "yonkers-nokia",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR473",
+      "projectId": "yonkers-nokia",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR474",
+      "projectId": "yonkers-nokia",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR475",
+      "projectId": "yonkers-nokia",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR476",
+      "projectId": "yonkers-nokia",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR477",
+      "projectId": "yonkers-nokia",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR478",
+      "projectId": "yonkers-nokia",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR479",
+      "projectId": "yonkers-nokia",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR480",
+      "projectId": "yonkers-nokia",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR481",
+      "projectId": "summerville-nokia",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR482",
+      "projectId": "summerville-nokia",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR483",
+      "projectId": "summerville-nokia",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR484",
+      "projectId": "summerville-nokia",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR485",
+      "projectId": "summerville-nokia",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR486",
+      "projectId": "summerville-nokia",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR487",
+      "projectId": "summerville-nokia",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR488",
+      "projectId": "summerville-nokia",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR489",
+      "projectId": "summerville-nokia",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR490",
+      "projectId": "summerville-nokia",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    },
+    {
+      "taskId": "AR491",
+      "projectId": "el-paso-dfr",
+      "scenario": "fetch-deadline-ignores-late-records",
+      "passed": true
+    },
+    {
+      "taskId": "AR492",
+      "projectId": "el-paso-dfr",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "AR493",
+      "projectId": "el-paso-dfr",
+      "scenario": "retry-recovers-requested-project",
+      "passed": true
+    },
+    {
+      "taskId": "AR494",
+      "projectId": "el-paso-dfr",
+      "scenario": "late-original-cannot-overwrite-retry",
+      "passed": true
+    },
+    {
+      "taskId": "AR495",
+      "projectId": "el-paso-dfr",
+      "scenario": "loading-guards-duplicate-requests",
+      "passed": true
+    },
+    {
+      "taskId": "AR496",
+      "projectId": "el-paso-dfr",
+      "scenario": "invalid-reload-clears-old-catalog",
+      "passed": true
+    },
+    {
+      "taskId": "AR497",
+      "projectId": "el-paso-dfr",
+      "scenario": "reopening-drawer-preserves-original-inert-state",
+      "passed": true
+    },
+    {
+      "taskId": "AR498",
+      "projectId": "el-paso-dfr",
+      "scenario": "reopening-drawer-restores-prior-overflow",
+      "passed": true
+    },
+    {
+      "taskId": "AR499",
+      "projectId": "el-paso-dfr",
+      "scenario": "reload-closes-drawer-and-clears-stale-pins",
+      "passed": true
+    },
+    {
+      "taskId": "AR500",
+      "projectId": "el-paso-dfr",
+      "scenario": "recovery-rebuilds-unique-filter-options",
+      "passed": true
+    }
+  ]
+}

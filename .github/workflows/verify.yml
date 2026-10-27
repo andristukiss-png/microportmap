@@ -47,6 +47,23 @@ jobs:
             checks/contrasting-research-screenshots/*.png
           if-no-files-found: warn
           retention-days: 30
+      - name: Atlas 500 recovery and modal state cases
+        run: |
+          node --check src/site-redesign.js
+          node checks/atlas.cjs
+          node checks/atlas-reliability-500.cjs
+      - name: Atlas responsive recovery and modal restoration checks
+        run: bash checks/atlas-reliability-browser-smoke.sh
+      - name: Retain Atlas 500 results and captures
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: microportmap-atlas-reliability-500
+          path: |
+            checks/atlas-reliability-500-results.json
+            checks/atlas-reliability-screenshots/*.png
+          if-no-files-found: warn
+          retention-days: 30
       - name: Directory Comparison 500 clipboard and context cases
         run: |
           node --check src/directory-compare.js
