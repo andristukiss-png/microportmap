@@ -25,16 +25,25 @@
   const retry = document.createElement('button'); retry.id = 'project-data-retry'; retry.type = 'button'; retry.className = 'mp-share-button'; retry.textContent = 'Retry project details'; retry.hidden = true; section.appendChild(retry);
   const details = document.createElement('div'); details.id = 'project-related-details'; section.appendChild(details);
   main.appendChild(section);
-  let record = null, loading = false;
+  let record = null, loading = false, copyRequest = 0;
   copy.addEventListener('click', async () => {
-    try { await navigator.clipboard.writeText(canonical); shareStatus.textContent = 'Project link copied'; }
-    catch {
+    const request = ++copyRequest;
+    let timer;
+    try {
+      await Promise.race([
+        navigator.clipboard.writeText(canonical),
+        new Promise((_, reject) => { timer = setTimeout(() => reject(Error('Clipboard timed out')), 5000); })
+      ]);
+      if (request === copyRequest) shareStatus.textContent = 'Project link copied';
+    } catch {
+      if (request !== copyRequest) return;
       shareStatus.textContent = 'Clipboard unavailable. Use this project link: ';
       const link = document.createElement('a'); link.href = canonical; link.textContent = canonical; shareStatus.appendChild(link);
-    }
+    } finally { clearTimeout(timer); }
   });
   download.addEventListener('click', () => {
     if (!record) return;
+    copyRequest++;
     let url, link;
     try {
       const payload = {schemaVersion: '1.0', name: 'MicroportMap project research export', website: 'https://microportmap.com', exportedAt: new Date().toISOString(), count: 1, methodology: 'Public report only; location is an approximate project reference. Current operations, contacts, public access and flight permission are not independently verified.', records: [record]};
@@ -54,12 +63,16 @@
   }
   async function load() {
     if (loading) return;
-    loading = true; record = null; download.disabled = true; retry.hidden = true; details.innerHTML = ''; details.setAttribute('aria-busy', 'true'); loadingStatus.textContent = 'Loading related project research details…';
-    const controller = new AbortController(), timer = setTimeout(() => controller.abort(), 15000);
+    loading = true; retry.disabled = true; record = null; download.disabled = true; retry.hidden = true; details.innerHTML = ''; details.setAttribute('aria-busy', 'true'); loadingStatus.textContent = 'Loading related project research details…';
+    const controller = new AbortController();
+    let timer;
     try {
-      const response = await fetch('/data/projects.json', {signal: controller.signal});
-      if (!response.ok) throw Error('Dataset unavailable');
-      const data = await response.json();
+      const deadline = new Promise((_, reject) => { timer = setTimeout(() => { controller.abort(); reject(Error('Project lookup timed out')); }, 15000); });
+      const data = await Promise.race([deadline, (async () => {
+        const response = await fetch('/data/projects.json', {signal: controller.signal});
+        if (!response.ok) throw Error('Dataset unavailable');
+        return response.json();
+      })()]);
       if (!Array.isArray(data.records) || data.records.some(p => !p || typeof p.id !== 'string' || !/^[a-z0-9-]+$/.test(p.id) || typeof p.name !== 'string' || !p.name.trim()) || new Set(data.records.map(p => p.id)).size !== data.records.length) throw Error('Invalid dataset');
       const project = data.records.find(p => p.id === id);
       if (!project) throw Error('Project missing from current catalog');
@@ -67,7 +80,7 @@
     } catch {
       loadingStatus.textContent = 'Related research details could not be loaded. The published passport above remains readable. You can retry, copy its link, or prepare a correction.';
       retry.hidden = false;
-    } finally { clearTimeout(timer); loading = false; details.setAttribute('aria-busy', 'false'); }
+    } finally { clearTimeout(timer); loading = false; retry.disabled = false; details.setAttribute('aria-busy', 'false'); }
   }
   retry.addEventListener('click', load);
   load();
