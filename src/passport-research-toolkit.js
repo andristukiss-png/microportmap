@@ -265,11 +265,12 @@ function load(){
   root.dataset.mppLoaded='false';root.setAttribute('aria-busy','true');
   retry.hidden=true;retry.disabled=true;
   status.textContent='Loading the original research record…';
-  const controller=new AbortController();
-  const timer=setTimeout(()=>controller.abort(),15000);
-  fetch('/data/projects.json',{signal:controller.signal}).then(r=>{
-    if(!r.ok)throw Error('Dataset unavailable');return r.json();
-  }).then(data=>{
+  const controller=new AbortController();let timer;
+  const deadline=new Promise((_,reject)=>{timer=setTimeout(()=>{controller.abort();reject(Error('Toolkit lookup timed out'));},15000);});
+  Promise.race([deadline,(async()=>{
+    const response=await fetch('/data/projects.json',{signal:controller.signal});
+    if(!response.ok)throw Error('Dataset unavailable');return response.json();
+  })()]).then(data=>{
     const rows=data?.records;
     if(!Array.isArray(rows)||rows.length!==50||
       rows.some(r=>!r||typeof r.id!=='string'||!/^[a-z0-9-]+$/.test(r.id)||typeof r.name!=='string'||!r.name.trim())||

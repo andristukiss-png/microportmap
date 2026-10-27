@@ -376,6 +376,7 @@ jobs:
           node --check src/passport-research-toolkit.js
           node checks/passport-toolkit-500.cjs
           node checks/toolkit-reliability-500.cjs
+          node checks/toolkit-lookup-deadline-500.cjs
       - name: Research passport browser smoke and responsive screenshots
         run: bash checks/passport-toolkit-browser-smoke.sh
       - name: Retain Research Toolkit desktop and mobile captures
