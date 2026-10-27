@@ -3,10 +3,12 @@ set -euo pipefail
 chrome="$(command -v google-chrome || command -v chromium || command -v chromium-browser || true)"
 test -n "$chrome" || { echo 'Chromium required' >&2;exit 1; }
 mkdir -p checks/country-recovery-screenshots
-python3 checks/country-recovery-browscr-server.py >/tmp/cr-http.log 2>&1 &
+python3 checks/country-recovery-browser-server.py >/tmp/cr-http.log 2>&1 &
 pid=$!
 trap 'kill "$pid" 2>/dev/null || true' EXIT
-for i in {1..35};do curl -fsS http://127.0.0.1:8800/__cr_probe.js >/dev/null 2>&1 && break;sleep .2;done
+ready=0
+for i in {1..35};do if curl -fsS http://127.0.0.1:8800/__cr_probe.js >/dev/null 2>&1;then ready=1;break;fi;sleep .2;done
+test "$ready" = 1 || { cat /tmp/cr-http.log >&2;exit 1; }
 for id in shenzhen kiel rotterdam;do
  for spec in 'desktop:1440,900' 'mobile:390,844';do
   IFS=: read -r mode viewport <<< "$spec"
