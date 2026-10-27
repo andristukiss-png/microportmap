@@ -47,6 +47,21 @@ jobs:
             checks/contrasting-research-screenshots/*.png
           if-no-files-found: warn
           retention-days: 30
+      - name: V1 launch 500 passport gates and finite blocker register
+        run: python3 checks/v1-launch-500.py
+      - name: V1 launch responsive routes and policy disclosures
+        run: bash checks/v1-launch-browser-smoke.sh
+      - name: Retain V1 launch audit and responsive captures
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: microportmap-v1-launch-audit-500
+          path: |
+            checks/v1-launch-500-results.json
+            checks/v1-launch-screenshots/*.png
+            V1-LAUNCH.md
+          if-no-files-found: warn
+          retention-days: 30
       - name: Reported Operators 500 recovery and filter history cases
         run: |
           node --check src/operator-explorer.js

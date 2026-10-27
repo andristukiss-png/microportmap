@@ -1,0 +1,3050 @@
+{
+  "total": 500,
+  "passed": 500,
+  "failed": 0,
+  "scope": "Static passport release gates, 50 projects \u00d7 10 categories. Passing these gates does not mean V1 launch is complete. Runtime/browser evidence is separate; source truth, external citation availability, full WCAG conformance, legal compliance and physical-device testing are outside these gates.",
+  "siteWide": {
+    "htmlPages": 72,
+    "projectPassports": 50,
+    "onePrimaryHeadingEveryPage": true,
+    "languageEveryPage": true,
+    "descriptionEveryPage": true,
+    "imageAlternativesDeclared": true,
+    "correctionsRemainLocal": true,
+    "policyMapLoadingCorrected": true,
+    "policyStorageKeysDocumented": true
+  },
+  "launchStatus": "technical-audit-complete-owner-content-blockers-open",
+  "openLaunchBlockers": [
+    {
+      "id": "V1-OWNER-01",
+      "status": "open",
+      "owner": "site owner",
+      "title": "Verified publisher identity and contact details",
+      "evidence": "src/legal/index.html and src/privacy/index.html explicitly retain owner/controller/contact placeholders.",
+      "completion": "Owner supplies accurate publisher identity, postal address and working contact channel, then final copy replaces placeholders. No identity or email is inferred."
+    },
+    {
+      "id": "V1-OWNER-02",
+      "status": "open",
+      "owner": "site owner",
+      "title": "Hosting/privacy facts remain unconfirmed",
+      "evidence": "src/privacy/index.html explicitly says hosting log retention, transfer details and the operator assessment are not finalized.",
+      "completion": "Confirm the actual hosting/account practices and finalize policy text. This audit is a technical/content review, not a legal-compliance determination."
+    }
+  ],
+  "gateDefinitions": {
+    "identity": "Unique catalog identity, published route, one primary heading and readable project name",
+    "search-and-mobile-metadata": "Language, canonical, viewport, nonempty description and title; not a ranking or device-performance claim",
+    "citation-traceability": "Exact cited HTTPS URL appears in published passport; external availability and claim accuracy are not tested",
+    "reported-context": "Published operator, equipment, precision and report-date labels agree with catalog",
+    "research-limitations": "Published uncertainty/permission warning and nonempty catalog evidence status",
+    "approximate-geography": "Finite bounded approximate point with explicit precision; not an independently verified landing location",
+    "local-navigation": "All static local destinations/fragments resolve; IDs are unique",
+    "assets-and-link-safety": "Referenced local assets exist, image alternatives are declared, new-tab links isolate their opener; not a full WCAG audit",
+    "export-consistency": "Original CSV and GeoJSON retain catalog identity, source, reported values and approximate geography",
+    "core-workflow-entry": "Project-specific atlas handoff and shared comparison/export/correction loader; runtime flows verified by separate suites"
+  },
+  "cases": [
+    {
+      "taskId": "V1-001",
+      "projectId": "shenzhen",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-002",
+      "projectId": "shenzhen",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-003",
+      "projectId": "shenzhen",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-004",
+      "projectId": "shenzhen",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-005",
+      "projectId": "shenzhen",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-006",
+      "projectId": "shenzhen",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-007",
+      "projectId": "shenzhen",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-008",
+      "projectId": "shenzhen",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-009",
+      "projectId": "shenzhen",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-010",
+      "projectId": "shenzhen",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-011",
+      "projectId": "rotterdam",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-012",
+      "projectId": "rotterdam",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-013",
+      "projectId": "rotterdam",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-014",
+      "projectId": "rotterdam",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-015",
+      "projectId": "rotterdam",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-016",
+      "projectId": "rotterdam",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-017",
+      "projectId": "rotterdam",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-018",
+      "projectId": "rotterdam",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-019",
+      "projectId": "rotterdam",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-020",
+      "projectId": "rotterdam",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-021",
+      "projectId": "kiel",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-022",
+      "projectId": "kiel",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-023",
+      "projectId": "kiel",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-024",
+      "projectId": "kiel",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-025",
+      "projectId": "kiel",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-026",
+      "projectId": "kiel",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-027",
+      "projectId": "kiel",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-028",
+      "projectId": "kiel",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-029",
+      "projectId": "kiel",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-030",
+      "projectId": "kiel",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-031",
+      "projectId": "italy",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-032",
+      "projectId": "italy",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-033",
+      "projectId": "italy",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-034",
+      "projectId": "italy",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-035",
+      "projectId": "italy",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-036",
+      "projectId": "italy",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-037",
+      "projectId": "italy",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-038",
+      "projectId": "italy",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-039",
+      "projectId": "italy",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-040",
+      "projectId": "italy",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-041",
+      "projectId": "oman",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-042",
+      "projectId": "oman",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-043",
+      "projectId": "oman",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-044",
+      "projectId": "oman",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-045",
+      "projectId": "oman",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-046",
+      "projectId": "oman",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-047",
+      "projectId": "oman",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-048",
+      "projectId": "oman",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-049",
+      "projectId": "oman",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-050",
+      "projectId": "oman",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-051",
+      "projectId": "australia",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-052",
+      "projectId": "australia",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-053",
+      "projectId": "australia",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-054",
+      "projectId": "australia",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-055",
+      "projectId": "australia",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-056",
+      "projectId": "australia",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-057",
+      "projectId": "australia",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-058",
+      "projectId": "australia",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-059",
+      "projectId": "australia",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-060",
+      "projectId": "australia",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-061",
+      "projectId": "enbw",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-062",
+      "projectId": "enbw",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-063",
+      "projectId": "enbw",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-064",
+      "projectId": "enbw",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-065",
+      "projectId": "enbw",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-066",
+      "projectId": "enbw",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-067",
+      "projectId": "enbw",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-068",
+      "projectId": "enbw",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-069",
+      "projectId": "enbw",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-070",
+      "projectId": "enbw",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-071",
+      "projectId": "dole",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-072",
+      "projectId": "dole",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-073",
+      "projectId": "dole",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-074",
+      "projectId": "dole",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-075",
+      "projectId": "dole",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-076",
+      "projectId": "dole",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-077",
+      "projectId": "dole",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-078",
+      "projectId": "dole",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-079",
+      "projectId": "dole",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-080",
+      "projectId": "dole",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-081",
+      "projectId": "tnb",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-082",
+      "projectId": "tnb",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-083",
+      "projectId": "tnb",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-084",
+      "projectId": "tnb",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-085",
+      "projectId": "tnb",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-086",
+      "projectId": "tnb",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-087",
+      "projectId": "tnb",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-088",
+      "projectId": "tnb",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-089",
+      "projectId": "tnb",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-090",
+      "projectId": "tnb",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-091",
+      "projectId": "asheville",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-092",
+      "projectId": "asheville",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-093",
+      "projectId": "asheville",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-094",
+      "projectId": "asheville",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-095",
+      "projectId": "asheville",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-096",
+      "projectId": "asheville",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-097",
+      "projectId": "asheville",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-098",
+      "projectId": "asheville",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-099",
+      "projectId": "asheville",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-100",
+      "projectId": "asheville",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-101",
+      "projectId": "vancouver",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-102",
+      "projectId": "vancouver",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-103",
+      "projectId": "vancouver",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-104",
+      "projectId": "vancouver",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-105",
+      "projectId": "vancouver",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-106",
+      "projectId": "vancouver",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-107",
+      "projectId": "vancouver",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-108",
+      "projectId": "vancouver",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-109",
+      "projectId": "vancouver",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-110",
+      "projectId": "vancouver",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-111",
+      "projectId": "ishikawa",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-112",
+      "projectId": "ishikawa",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-113",
+      "projectId": "ishikawa",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-114",
+      "projectId": "ishikawa",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-115",
+      "projectId": "ishikawa",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-116",
+      "projectId": "ishikawa",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-117",
+      "projectId": "ishikawa",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-118",
+      "projectId": "ishikawa",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-119",
+      "projectId": "ishikawa",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-120",
+      "projectId": "ishikawa",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-121",
+      "projectId": "belgium-sense",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-122",
+      "projectId": "belgium-sense",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-123",
+      "projectId": "belgium-sense",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-124",
+      "projectId": "belgium-sense",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-125",
+      "projectId": "belgium-sense",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-126",
+      "projectId": "belgium-sense",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-127",
+      "projectId": "belgium-sense",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-128",
+      "projectId": "belgium-sense",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-129",
+      "projectId": "belgium-sense",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-130",
+      "projectId": "belgium-sense",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-131",
+      "projectId": "texas-solar",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-132",
+      "projectId": "texas-solar",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-133",
+      "projectId": "texas-solar",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-134",
+      "projectId": "texas-solar",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-135",
+      "projectId": "texas-solar",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-136",
+      "projectId": "texas-solar",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-137",
+      "projectId": "texas-solar",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-138",
+      "projectId": "texas-solar",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-139",
+      "projectId": "texas-solar",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-140",
+      "projectId": "texas-solar",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-141",
+      "projectId": "caltrans-otay",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-142",
+      "projectId": "caltrans-otay",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-143",
+      "projectId": "caltrans-otay",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-144",
+      "projectId": "caltrans-otay",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-145",
+      "projectId": "caltrans-otay",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-146",
+      "projectId": "caltrans-otay",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-147",
+      "projectId": "caltrans-otay",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-148",
+      "projectId": "caltrans-otay",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-149",
+      "projectId": "caltrans-otay",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-150",
+      "projectId": "caltrans-otay",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-151",
+      "projectId": "ramapo",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-152",
+      "projectId": "ramapo",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-153",
+      "projectId": "ramapo",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-154",
+      "projectId": "ramapo",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-155",
+      "projectId": "ramapo",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-156",
+      "projectId": "ramapo",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-157",
+      "projectId": "ramapo",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-158",
+      "projectId": "ramapo",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-159",
+      "projectId": "ramapo",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-160",
+      "projectId": "ramapo",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-161",
+      "projectId": "kansanshi-zambia",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-162",
+      "projectId": "kansanshi-zambia",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-163",
+      "projectId": "kansanshi-zambia",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-164",
+      "projectId": "kansanshi-zambia",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-165",
+      "projectId": "kansanshi-zambia",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-166",
+      "projectId": "kansanshi-zambia",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-167",
+      "projectId": "kansanshi-zambia",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-168",
+      "projectId": "kansanshi-zambia",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-169",
+      "projectId": "kansanshi-zambia",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-170",
+      "projectId": "kansanshi-zambia",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-171",
+      "projectId": "quellaveco-peru",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-172",
+      "projectId": "quellaveco-peru",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-173",
+      "projectId": "quellaveco-peru",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-174",
+      "projectId": "quellaveco-peru",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-175",
+      "projectId": "quellaveco-peru",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-176",
+      "projectId": "quellaveco-peru",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-177",
+      "projectId": "quellaveco-peru",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-178",
+      "projectId": "quellaveco-peru",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-179",
+      "projectId": "quellaveco-peru",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-180",
+      "projectId": "quellaveco-peru",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-181",
+      "projectId": "uae-waste",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-182",
+      "projectId": "uae-waste",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-183",
+      "projectId": "uae-waste",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-184",
+      "projectId": "uae-waste",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-185",
+      "projectId": "uae-waste",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-186",
+      "projectId": "uae-waste",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-187",
+      "projectId": "uae-waste",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-188",
+      "projectId": "uae-waste",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-189",
+      "projectId": "uae-waste",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-190",
+      "projectId": "uae-waste",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-191",
+      "projectId": "axpo-swiss",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-192",
+      "projectId": "axpo-swiss",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-193",
+      "projectId": "axpo-swiss",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-194",
+      "projectId": "axpo-swiss",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-195",
+      "projectId": "axpo-swiss",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-196",
+      "projectId": "axpo-swiss",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-197",
+      "projectId": "axpo-swiss",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-198",
+      "projectId": "axpo-swiss",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-199",
+      "projectId": "axpo-swiss",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-200",
+      "projectId": "axpo-swiss",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-201",
+      "projectId": "slovakia-forest",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-202",
+      "projectId": "slovakia-forest",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-203",
+      "projectId": "slovakia-forest",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-204",
+      "projectId": "slovakia-forest",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-205",
+      "projectId": "slovakia-forest",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-206",
+      "projectId": "slovakia-forest",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-207",
+      "projectId": "slovakia-forest",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-208",
+      "projectId": "slovakia-forest",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-209",
+      "projectId": "slovakia-forest",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-210",
+      "projectId": "slovakia-forest",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-211",
+      "projectId": "southafrica-estate",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-212",
+      "projectId": "southafrica-estate",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-213",
+      "projectId": "southafrica-estate",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-214",
+      "projectId": "southafrica-estate",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-215",
+      "projectId": "southafrica-estate",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-216",
+      "projectId": "southafrica-estate",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-217",
+      "projectId": "southafrica-estate",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-218",
+      "projectId": "southafrica-estate",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-219",
+      "projectId": "southafrica-estate",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-220",
+      "projectId": "southafrica-estate",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-221",
+      "projectId": "sqm-chile",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-222",
+      "projectId": "sqm-chile",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-223",
+      "projectId": "sqm-chile",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-224",
+      "projectId": "sqm-chile",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-225",
+      "projectId": "sqm-chile",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-226",
+      "projectId": "sqm-chile",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-227",
+      "projectId": "sqm-chile",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-228",
+      "projectId": "sqm-chile",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-229",
+      "projectId": "sqm-chile",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-230",
+      "projectId": "sqm-chile",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-231",
+      "projectId": "csx-rail",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-232",
+      "projectId": "csx-rail",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-233",
+      "projectId": "csx-rail",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-234",
+      "projectId": "csx-rail",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-235",
+      "projectId": "csx-rail",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-236",
+      "projectId": "csx-rail",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-237",
+      "projectId": "csx-rail",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-238",
+      "projectId": "csx-rail",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-239",
+      "projectId": "csx-rail",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-240",
+      "projectId": "csx-rail",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-241",
+      "projectId": "aerial-fences",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-242",
+      "projectId": "aerial-fences",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-243",
+      "projectId": "aerial-fences",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-244",
+      "projectId": "aerial-fences",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-245",
+      "projectId": "aerial-fences",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-246",
+      "projectId": "aerial-fences",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-247",
+      "projectId": "aerial-fences",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-248",
+      "projectId": "aerial-fences",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-249",
+      "projectId": "aerial-fences",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-250",
+      "projectId": "aerial-fences",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-251",
+      "projectId": "premier-security-us",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-252",
+      "projectId": "premier-security-us",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-253",
+      "projectId": "premier-security-us",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-254",
+      "projectId": "premier-security-us",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-255",
+      "projectId": "premier-security-us",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-256",
+      "projectId": "premier-security-us",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-257",
+      "projectId": "premier-security-us",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-258",
+      "projectId": "premier-security-us",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-259",
+      "projectId": "premier-security-us",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-260",
+      "projectId": "premier-security-us",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-261",
+      "projectId": "discovery-land-us",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-262",
+      "projectId": "discovery-land-us",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-263",
+      "projectId": "discovery-land-us",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-264",
+      "projectId": "discovery-land-us",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-265",
+      "projectId": "discovery-land-us",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-266",
+      "projectId": "discovery-land-us",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-267",
+      "projectId": "discovery-land-us",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-268",
+      "projectId": "discovery-land-us",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-269",
+      "projectId": "discovery-land-us",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-270",
+      "projectId": "discovery-land-us",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-271",
+      "projectId": "port-lincoln",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-272",
+      "projectId": "port-lincoln",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-273",
+      "projectId": "port-lincoln",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-274",
+      "projectId": "port-lincoln",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-275",
+      "projectId": "port-lincoln",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-276",
+      "projectId": "port-lincoln",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-277",
+      "projectId": "port-lincoln",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-278",
+      "projectId": "port-lincoln",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-279",
+      "projectId": "port-lincoln",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-280",
+      "projectId": "port-lincoln",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-281",
+      "projectId": "titan-protection",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-282",
+      "projectId": "titan-protection",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-283",
+      "projectId": "titan-protection",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-284",
+      "projectId": "titan-protection",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-285",
+      "projectId": "titan-protection",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-286",
+      "projectId": "titan-protection",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-287",
+      "projectId": "titan-protection",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-288",
+      "projectId": "titan-protection",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-289",
+      "projectId": "titan-protection",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-290",
+      "projectId": "titan-protection",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-291",
+      "projectId": "soar-alaska",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-292",
+      "projectId": "soar-alaska",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-293",
+      "projectId": "soar-alaska",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-294",
+      "projectId": "soar-alaska",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-295",
+      "projectId": "soar-alaska",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-296",
+      "projectId": "soar-alaska",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-297",
+      "projectId": "soar-alaska",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-298",
+      "projectId": "soar-alaska",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-299",
+      "projectId": "soar-alaska",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-300",
+      "projectId": "soar-alaska",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-301",
+      "projectId": "barcelona-port",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-302",
+      "projectId": "barcelona-port",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-303",
+      "projectId": "barcelona-port",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-304",
+      "projectId": "barcelona-port",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-305",
+      "projectId": "barcelona-port",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-306",
+      "projectId": "barcelona-port",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-307",
+      "projectId": "barcelona-port",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-308",
+      "projectId": "barcelona-port",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-309",
+      "projectId": "barcelona-port",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-310",
+      "projectId": "barcelona-port",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-311",
+      "projectId": "celaya",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-312",
+      "projectId": "celaya",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-313",
+      "projectId": "celaya",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-314",
+      "projectId": "celaya",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-315",
+      "projectId": "celaya",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-316",
+      "projectId": "celaya",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-317",
+      "projectId": "celaya",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-318",
+      "projectId": "celaya",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-319",
+      "projectId": "celaya",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-320",
+      "projectId": "celaya",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-321",
+      "projectId": "palcacocha",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-322",
+      "projectId": "palcacocha",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-323",
+      "projectId": "palcacocha",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-324",
+      "projectId": "palcacocha",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-325",
+      "projectId": "palcacocha",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-326",
+      "projectId": "palcacocha",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-327",
+      "projectId": "palcacocha",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-328",
+      "projectId": "palcacocha",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-329",
+      "projectId": "palcacocha",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-330",
+      "projectId": "palcacocha",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-331",
+      "projectId": "bibai",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-332",
+      "projectId": "bibai",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-333",
+      "projectId": "bibai",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-334",
+      "projectId": "bibai",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-335",
+      "projectId": "bibai",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-336",
+      "projectId": "bibai",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-337",
+      "projectId": "bibai",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-338",
+      "projectId": "bibai",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-339",
+      "projectId": "bibai",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-340",
+      "projectId": "bibai",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-341",
+      "projectId": "ambite",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-342",
+      "projectId": "ambite",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-343",
+      "projectId": "ambite",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-344",
+      "projectId": "ambite",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-345",
+      "projectId": "ambite",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-346",
+      "projectId": "ambite",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-347",
+      "projectId": "ambite",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-348",
+      "projectId": "ambite",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-349",
+      "projectId": "ambite",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-350",
+      "projectId": "ambite",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-351",
+      "projectId": "opole",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-352",
+      "projectId": "opole",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-353",
+      "projectId": "opole",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-354",
+      "projectId": "opole",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-355",
+      "projectId": "opole",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-356",
+      "projectId": "opole",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-357",
+      "projectId": "opole",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-358",
+      "projectId": "opole",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-359",
+      "projectId": "opole",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-360",
+      "projectId": "opole",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-361",
+      "projectId": "wurzburg-emqport",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-362",
+      "projectId": "wurzburg-emqport",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-363",
+      "projectId": "wurzburg-emqport",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-364",
+      "projectId": "wurzburg-emqport",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-365",
+      "projectId": "wurzburg-emqport",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-366",
+      "projectId": "wurzburg-emqport",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-367",
+      "projectId": "wurzburg-emqport",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-368",
+      "projectId": "wurzburg-emqport",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-369",
+      "projectId": "wurzburg-emqport",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-370",
+      "projectId": "wurzburg-emqport",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-371",
+      "projectId": "tomakomai-refinery",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-372",
+      "projectId": "tomakomai-refinery",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-373",
+      "projectId": "tomakomai-refinery",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-374",
+      "projectId": "tomakomai-refinery",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-375",
+      "projectId": "tomakomai-refinery",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-376",
+      "projectId": "tomakomai-refinery",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-377",
+      "projectId": "tomakomai-refinery",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-378",
+      "projectId": "tomakomai-refinery",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-379",
+      "projectId": "tomakomai-refinery",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-380",
+      "projectId": "tomakomai-refinery",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-381",
+      "projectId": "network-rail-uk",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-382",
+      "projectId": "network-rail-uk",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-383",
+      "projectId": "network-rail-uk",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-384",
+      "projectId": "network-rail-uk",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-385",
+      "projectId": "network-rail-uk",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-386",
+      "projectId": "network-rail-uk",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-387",
+      "projectId": "network-rail-uk",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-388",
+      "projectId": "network-rail-uk",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-389",
+      "projectId": "network-rail-uk",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-390",
+      "projectId": "network-rail-uk",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-391",
+      "projectId": "gilboa-nypa",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-392",
+      "projectId": "gilboa-nypa",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-393",
+      "projectId": "gilboa-nypa",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-394",
+      "projectId": "gilboa-nypa",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-395",
+      "projectId": "gilboa-nypa",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-396",
+      "projectId": "gilboa-nypa",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-397",
+      "projectId": "gilboa-nypa",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-398",
+      "projectId": "gilboa-nypa",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-399",
+      "projectId": "gilboa-nypa",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-400",
+      "projectId": "gilboa-nypa",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-401",
+      "projectId": "teesside-terminal",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-402",
+      "projectId": "teesside-terminal",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-403",
+      "projectId": "teesside-terminal",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-404",
+      "projectId": "teesside-terminal",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-405",
+      "projectId": "teesside-terminal",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-406",
+      "projectId": "teesside-terminal",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-407",
+      "projectId": "teesside-terminal",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-408",
+      "projectId": "teesside-terminal",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-409",
+      "projectId": "teesside-terminal",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-410",
+      "projectId": "teesside-terminal",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-411",
+      "projectId": "antwerp-cargo-hub",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-412",
+      "projectId": "antwerp-cargo-hub",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-413",
+      "projectId": "antwerp-cargo-hub",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-414",
+      "projectId": "antwerp-cargo-hub",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-415",
+      "projectId": "antwerp-cargo-hub",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-416",
+      "projectId": "antwerp-cargo-hub",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-417",
+      "projectId": "antwerp-cargo-hub",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-418",
+      "projectId": "antwerp-cargo-hub",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-419",
+      "projectId": "antwerp-cargo-hub",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-420",
+      "projectId": "antwerp-cargo-hub",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-421",
+      "projectId": "upper-darby-dfr",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-422",
+      "projectId": "upper-darby-dfr",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-423",
+      "projectId": "upper-darby-dfr",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-424",
+      "projectId": "upper-darby-dfr",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-425",
+      "projectId": "upper-darby-dfr",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-426",
+      "projectId": "upper-darby-dfr",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-427",
+      "projectId": "upper-darby-dfr",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-428",
+      "projectId": "upper-darby-dfr",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-429",
+      "projectId": "upper-darby-dfr",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-430",
+      "projectId": "upper-darby-dfr",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-431",
+      "projectId": "skybound-waterloo",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-432",
+      "projectId": "skybound-waterloo",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-433",
+      "projectId": "skybound-waterloo",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-434",
+      "projectId": "skybound-waterloo",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-435",
+      "projectId": "skybound-waterloo",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-436",
+      "projectId": "skybound-waterloo",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-437",
+      "projectId": "skybound-waterloo",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-438",
+      "projectId": "skybound-waterloo",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-439",
+      "projectId": "skybound-waterloo",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-440",
+      "projectId": "skybound-waterloo",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-441",
+      "projectId": "skybound-glasgow",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-442",
+      "projectId": "skybound-glasgow",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-443",
+      "projectId": "skybound-glasgow",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-444",
+      "projectId": "skybound-glasgow",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-445",
+      "projectId": "skybound-glasgow",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-446",
+      "projectId": "skybound-glasgow",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-447",
+      "projectId": "skybound-glasgow",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-448",
+      "projectId": "skybound-glasgow",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-449",
+      "projectId": "skybound-glasgow",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-450",
+      "projectId": "skybound-glasgow",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-451",
+      "projectId": "skybound-cardiff",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-452",
+      "projectId": "skybound-cardiff",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-453",
+      "projectId": "skybound-cardiff",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-454",
+      "projectId": "skybound-cardiff",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-455",
+      "projectId": "skybound-cardiff",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-456",
+      "projectId": "skybound-cardiff",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-457",
+      "projectId": "skybound-cardiff",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-458",
+      "projectId": "skybound-cardiff",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-459",
+      "projectId": "skybound-cardiff",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-460",
+      "projectId": "skybound-cardiff",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-461",
+      "projectId": "cincinnati-dfr",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-462",
+      "projectId": "cincinnati-dfr",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-463",
+      "projectId": "cincinnati-dfr",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-464",
+      "projectId": "cincinnati-dfr",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-465",
+      "projectId": "cincinnati-dfr",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-466",
+      "projectId": "cincinnati-dfr",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-467",
+      "projectId": "cincinnati-dfr",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-468",
+      "projectId": "cincinnati-dfr",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-469",
+      "projectId": "cincinnati-dfr",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-470",
+      "projectId": "cincinnati-dfr",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-471",
+      "projectId": "yonkers-nokia",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-472",
+      "projectId": "yonkers-nokia",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-473",
+      "projectId": "yonkers-nokia",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-474",
+      "projectId": "yonkers-nokia",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-475",
+      "projectId": "yonkers-nokia",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-476",
+      "projectId": "yonkers-nokia",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-477",
+      "projectId": "yonkers-nokia",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-478",
+      "projectId": "yonkers-nokia",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-479",
+      "projectId": "yonkers-nokia",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-480",
+      "projectId": "yonkers-nokia",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-481",
+      "projectId": "summerville-nokia",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-482",
+      "projectId": "summerville-nokia",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-483",
+      "projectId": "summerville-nokia",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-484",
+      "projectId": "summerville-nokia",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-485",
+      "projectId": "summerville-nokia",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-486",
+      "projectId": "summerville-nokia",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-487",
+      "projectId": "summerville-nokia",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-488",
+      "projectId": "summerville-nokia",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-489",
+      "projectId": "summerville-nokia",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-490",
+      "projectId": "summerville-nokia",
+      "gate": "core-workflow-entry",
+      "passed": true
+    },
+    {
+      "taskId": "V1-491",
+      "projectId": "el-paso-dfr",
+      "gate": "identity",
+      "passed": true
+    },
+    {
+      "taskId": "V1-492",
+      "projectId": "el-paso-dfr",
+      "gate": "search-and-mobile-metadata",
+      "passed": true
+    },
+    {
+      "taskId": "V1-493",
+      "projectId": "el-paso-dfr",
+      "gate": "citation-traceability",
+      "passed": true
+    },
+    {
+      "taskId": "V1-494",
+      "projectId": "el-paso-dfr",
+      "gate": "reported-context",
+      "passed": true
+    },
+    {
+      "taskId": "V1-495",
+      "projectId": "el-paso-dfr",
+      "gate": "research-limitations",
+      "passed": true
+    },
+    {
+      "taskId": "V1-496",
+      "projectId": "el-paso-dfr",
+      "gate": "approximate-geography",
+      "passed": true
+    },
+    {
+      "taskId": "V1-497",
+      "projectId": "el-paso-dfr",
+      "gate": "local-navigation",
+      "passed": true
+    },
+    {
+      "taskId": "V1-498",
+      "projectId": "el-paso-dfr",
+      "gate": "assets-and-link-safety",
+      "passed": true
+    },
+    {
+      "taskId": "V1-499",
+      "projectId": "el-paso-dfr",
+      "gate": "export-consistency",
+      "passed": true
+    },
+    {
+      "taskId": "V1-500",
+      "projectId": "el-paso-dfr",
+      "gate": "core-workflow-entry",
+      "passed": true
+    }
+  ]
+}

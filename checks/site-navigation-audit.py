@@ -21,6 +21,9 @@ class Doc(HTMLParser):
    if not self.rail_depth:self.in_rail=False
 root=Path('src');data=json.loads((root/'data/projects.json').read_text())['records']; results=[]
 baseline=json.loads(Path('baseline-round25.json').read_text())
+reviewed=json.loads(Path('checks/v1-reviewed-html-digests.json').read_text())
+assert set(reviewed)=={'src/privacy/index.html','src/cookies/index.html'}
+assert all(row['beforeSha256']==baseline[path] for path,row in reviewed.items())
 next_ids={};previous_ids={}
 for p in sorted(root.rglob('*.html')):
  raw=p.read_text();assert raw.count(CSS_LINK)==1,p;doc=Doc();doc.feed(raw);route='/' if p==root/'index.html' else '/'+p.relative_to(root).as_posix().removesuffix('index.html')
@@ -29,7 +32,7 @@ for p in sorted(root.rglob('*.html')):
  assert len(doc.ids)==len(set(doc.ids)),p
  assert 'mp-continue' in doc.ids and 'mp-continue-heading' in doc.ids,p
  assert len(doc.active)==(1 if route in ['/','/directory/','/technologies/','/data-quality/'] else 0),p
- assert hashlib.sha256(without_site_navigation(raw).encode()).hexdigest()==baseline[str(p)],p
+ assert hashlib.sha256(without_site_navigation(raw).encode()).hexdigest()==(reviewed[str(p)]['afterSha256'] if str(p) in reviewed else baseline[str(p)]),p
  nav_fragment=raw.split('<!-- mp-site-navigation:content:start -->')[1].split('<!-- mp-site-navigation:content:end -->')[0]+raw.split('<!-- mp-site-navigation:rail:start -->')[1].split('<!-- mp-site-navigation:rail:end -->')[0]
  newdoc=Doc();newdoc.feed(nav_fragment)
  for a in newdoc.all_links:
@@ -43,7 +46,7 @@ for p in sorted(root.rglob('*.html')):
   current=p.parent.name; next_id=doc.cards[0]['href'].split('/')[2];assert next_id!=current;next_ids[current]=next_id
   previous_ids[current]=re.search(r'<p class="mp-continue-previous">Previous project: <a href="/projects/([^/]+)/',raw)[1]
   country=next(r['country'] for r in data if r['id']==current);assert parse_qs(urlsplit(doc.cards[1]['href']).query)['country']==[country]
- results.append({'page':str(p),'passed':True,'bannerCards':4,'bottomNavigationLinks':5,'internalOnly':True,'previousPageContentPreserved':True})
+ results.append({'page':str(p),'passed':True,'bannerCards':4,'bottomNavigationLinks':5,'internalOnly':True,'previousPageContentPreserved':str(p) not in reviewed,'reviewedPolicyCopy':str(p) in reviewed})
 assert len(results)==72 and len(next_ids)==50
 start=next(iter(next_ids));seen=set();current=start
 while current not in seen:seen.add(current);current=next_ids[current]
@@ -73,4 +76,4 @@ for path,digest in baseline.items():
   content=p.read_bytes()
   assert hashlib.sha256(content).hexdigest()==digest,path
 Path('checks/site-navigation-results.json').write_text(json.dumps({'pages':len(results),'passed':len(results),'projectCycle':50,'sourceFileCount':len([p for p in root.rglob('*') if p.is_file()]),'tests':results,'unverified':['Actual mobile/device rendering']},indent=2)+'\n')
-print('PASS: 72 pages, one fixed rail + four internal banners each, active states, no self-card links, 50-project discovery cycle, original content/data/CSS preserved')
+print('PASS: 72 pages, one fixed rail + four internal banners each, active states, no self-card links, 50-project discovery cycle, reviewed privacy/cookie copy and original project/data/CSS preserved')
