@@ -47,6 +47,23 @@ jobs:
             checks/contrasting-research-screenshots/*.png
           if-no-files-found: warn
           retention-days: 30
+      - name: Research Insights 500 recovery and filter history cases
+        run: |
+          node --check src/research-insights.js
+          python3 checks/research-insights-50-audit.py
+          node checks/insights-reliability-500.cjs
+      - name: Research Insights responsive recovery and export checks
+        run: bash checks/insights-reliability-browser-smoke.sh
+      - name: Retain Insights Recovery 500 results and captures
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: microportmap-insights-reliability-500
+          path: |
+            checks/insights-reliability-500-results.json
+            checks/insights-reliability-screenshots/*.png
+          if-no-files-found: warn
+          retention-days: 30
       - name: Passport 500 lookup, canonical copy and export recovery cases
         run: |
           node --check src/project-connect.js

@@ -9,7 +9,7 @@ const btn=(s,action,c='mpi-button')=>{const n=make('button',c,s);n.type='button'
 const opt=(value,label)=>{const n=make('option','',label);n.value=value;return n;};
 const dims=[['country','Country','ins_country'],['type','Infrastructure','ins_type'],['region','Region','ins_region'],['year','Report year','ins_year']];
 const values={country:'',type:'',region:'',year:'',q:''};
-let all=[],match=[],loaded=false,loading=false,by='count',display='count',maxCountries=8,limit=6,ordering='name';
+let all=[],match=[],loaded=false,loading=false,by='count',display='count',maxCountries=8,limit=6,ordering='name',generation=0,copyRequest=0;
 const field=p=>({country:p.country||'Unspecified',type:p.infrastructureType||'Unspecified',region:p.region||'Unspecified',
  year:(String(p.reportDateLabel||'').match(/\b20[0-9]{2}\b/)||[])[0]||'Unspecified'});
 const counts=(rows,key)=>{const d=new Map();for(const p of rows){const v=field(p)[key];d.set(v,(d.get(v)||0)+1);}return [...d].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]));};
@@ -60,7 +60,8 @@ const notice=make('p','mpi-notice');notice.id='mpi-notice';notice.setAttribute('
 const disclosure=make('details','mpi-disclosure');disclosure.append(make('summary','','How to read these results'),
  make('p','','Counts cover published research records only. A year in a report label does not establish an installation or opening year; “Unspecified” means no explicit year in the label. Current operations, public access, exact coordinates and flight permission are not independently verified.'));
 const error=make('section','mpi-error');error.hidden=true;error.setAttribute('role','alert');
-error.append(make('p','','Insights could not load the catalogue; directory and map remain available.'),btn('Retry insight data',load,'mpi-secondary'));
+const retry=btn('Retry insight data',load,'mpi-secondary');
+error.append(make('p','','Insights could not load the catalogue; directory and map remain available.'),retry);
 root.append(intro,stats,filters,active,summary,displayBar,charts,results,outputs,notice,disclosure,error);
 function place(){
  document.querySelectorAll('.mp-continue-topics').forEach(nav=>{
@@ -126,6 +127,7 @@ function fillOptions(){
 function updateInputs(){query.value=values.q;dims.forEach(([k])=>{selects[k].value=values[k];});}
 function filter(){
  if(!loaded)return;
+ generation++;notice.textContent='';
  match=all.filter(p=>{
   const d=field(p);
   if(dims.some(([k])=>values[k]&&values[k]!==d[k]))return false;
@@ -145,7 +147,7 @@ function filter(){
  renderActive();renderCharts();renderRecords();
  const dest=new URL('/directory/',location.origin);
  for(const [k,p] of [['q','q'],['country','country'],['type','type'],['region','region'],['year','year']])if(values[k])dest.searchParams.set(p,values[k]);
- directoryLink.href=dest.pathname+dest.search;
+ directoryLink.href=dest.pathname+dest.search;directoryLink.removeAttribute('aria-disabled');
  reset.disabled=!values.q&&!dims.some(([k])=>values[k]);
  json.disabled=csv.disabled=!match.length;
  syncLink();
@@ -210,7 +212,8 @@ function exportCSV(rows,keys){
  return '\uFEFF'+[keys,...rows.map(p=>keys.map(k=>k==='sourceUrl'?src(p)||'':p[k]))].map(row=>row.map(cell).join(',')).join('\r\n');
 }
 function download(format){
- if(!match.length)return;
+ if(!loaded||!match.length)return;
+ copyRequest++;
  const filename='microportmap-insights.'+format;
  const content=format==='json'?JSON.stringify({title:'MicroportMap research coverage',
    filters:{...values},count:match.length,
@@ -226,24 +229,43 @@ function download(format){
  finally{anchor?.remove();if(object)setTimeout(()=>URL.revokeObjectURL(object),30000);}
 }
 async function copyLink(){
- const url=getLink().toString();
- try{await navigator.clipboard.writeText(url);notify('Research insights link copied.');}
- catch{notify('Copy this link: '+url);}
+ if(!loaded)return;
+ const url=getLink().toString(),version=generation,request=++copyRequest;
+ const current=()=>version===generation&&request===copyRequest;
+ let timer;
+ try{
+  await Promise.race([navigator.clipboard.writeText(url),new Promise((_,reject)=>{timer=setTimeout(()=>reject(Error('Clipboard timed out')),5000);})]);
+  if(current())notify('Research insights link copied.');
+ }catch{if(current())notify('Copy this link: '+url);}
+ finally{clearTimeout(timer);}
 }
-function load(){
- if(loading)return;loading=true;error.hidden=true;summary.textContent='Loading published research records…';
- fetch('/data/projects.json').then(r=>{if(!r.ok)throw Error('Fetch failed');return r.json();}).then(data=>{
+function controls(available){
+ [query,...Object.values(selects),reset,orderingSelect,countButton,shareButton,mostButton,alphaButton,showMore,showLess,json,csv,copyBtn].forEach(n=>{n.disabled=!available;});
+}
+async function load(){
+ if(loading)return;
+ loading=true;loaded=false;all=[];match=[];generation++;retry.disabled=true;error.hidden=true;
+ delete document.documentElement.dataset.mpInsightsLoaded;
+ controls(false);root.setAttribute('aria-busy','true');
+ stats.replaceChildren();charts.replaceChildren();cards.replaceChildren();active.replaceChildren();notice.textContent='';
+ showMore.hidden=showLess.hidden=true;directoryLink.removeAttribute('href');directoryLink.setAttribute('aria-disabled','true');
+ summary.textContent='Loading published research records…';
+ const controller=new AbortController();let timer;
+ try{
+  const deadline=new Promise((_,reject)=>{timer=setTimeout(()=>{controller.abort();reject(Error('Insights lookup timed out'));},15000);});
+  const data=await Promise.race([deadline,(async()=>{const response=await fetch('/data/projects.json',{signal:controller.signal});if(!response.ok)throw Error('Fetch failed');return response.json();})()]);
   if(!Array.isArray(data.records)||data.records.length!==50||
    data.records.some(p=>!p||typeof p.id!=='string'||!/^[a-z0-9-]+$/.test(p.id)||typeof p.name!=='string'||!p.name.trim())||
    new Set(data.records.map(p=>p.id)).size!==50)throw Error('Invalid catalog');
-  all=data.records.slice();loaded=true;loading=false;readLink();fillOptions();updateInputs();setDisplay('count');setOrder('count');filter();
+  all=data.records.slice();loaded=true;readLink();fillOptions();updateInputs();controls(true);setDisplay('count');setOrder('count');filter();
   document.documentElement.dataset.mpInsightsLoaded='1';
- }).catch(()=>{loading=false;error.hidden=false;summary.textContent='Research insights are currently unavailable.';});
+ }catch{loaded=false;all=[];match=[];controls(false);stats.replaceChildren();charts.replaceChildren();cards.replaceChildren();error.hidden=false;summary.textContent='Research insights are currently unavailable.';}
+ finally{clearTimeout(timer);loading=false;retry.disabled=false;root.setAttribute('aria-busy','false');}
 }
 query.addEventListener('input',()=>{values.q=query.value.trim();limit=6;filter();});
 for(const [k] of dims)selects[k].addEventListener('change',()=>{values[k]=selects[k].value;limit=6;filter();});
 orderingSelect.addEventListener('change',()=>{ordering=orderingSelect.value;limit=6;renderRecords();});
-window.addEventListener('popstate',()=>{if(loaded){readLink();updateInputs();filter();}});
+window.addEventListener('popstate',()=>{if(loaded){readLink();fillOptions();updateInputs();filter();}});
 place();
 if(document.getElementById('atlas'))load();
 window.MicroportInsights=Object.freeze({
