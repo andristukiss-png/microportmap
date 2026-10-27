@@ -47,6 +47,23 @@ jobs:
             checks/contrasting-research-screenshots/*.png
           if-no-files-found: warn
           retention-days: 30
+      - name: Equipment 500 recovery and filter history cases
+        run: |
+          node --check src/equipment-explorer.js
+          python3 checks/equipment-explorer-50-audit.py
+          node checks/equipment-recovery-500.cjs
+      - name: Equipment responsive recovery and export checks
+        run: bash checks/equipment-recovery-browser-smoke.sh
+      - name: Retain Equipment Recovery 500 results and captures
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: microportmap-equipment-recovery-500
+          path: |
+            checks/equipment-recovery-500-results.json
+            checks/equipment-recovery-screenshots/*.png
+          if-no-files-found: warn
+          retention-days: 30
       - name: V1 launch 500 passport gates and finite blocker register
         run: python3 checks/v1-launch-500.py
       - name: V1 launch responsive routes and policy disclosures
