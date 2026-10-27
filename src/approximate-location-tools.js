@@ -191,10 +191,12 @@ function load(){
  container.dataset.mplReady='false';container.setAttribute('aria-busy','true');
  controls.replaceChildren();details.replaceChildren();manual.hidden=true;manualInput.value='';
  retry.hidden=true;retry.disabled=true;message.textContent='Loading original research coordinates…';
- const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),12000);
- fetch('/data/projects.json',{signal:controller.signal})
- .then(r=>{if(!r.ok)throw Error('Catalogue unavailable');return r.json();})
- .then(data=>{
+ const controller=new AbortController();let timer;
+ const deadline=new Promise((_,reject)=>{timer=setTimeout(()=>{controller.abort();reject(Error('Location lookup timed out'));},12000);});
+ Promise.race([deadline,(async()=>{
+  const response=await fetch('/data/projects.json',{signal:controller.signal});
+  if(!response.ok)throw Error('Catalogue unavailable');return response.json();
+ })()]).then(data=>{
   const records=data?.records;
   if(!Array.isArray(records)||records.length!==50||
     records.some(p=>!p||typeof p.id!=='string'||!/^[a-z0-9-]+$/.test(p.id)||typeof p.name!=='string'||!p.name.trim())||

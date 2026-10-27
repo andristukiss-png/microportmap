@@ -298,6 +298,7 @@ jobs:
           node --check src/approximate-location-tools.js
           node checks/approximate-location-500.cjs
           node checks/location-reliability-500.cjs
+          node checks/location-timeout-500.cjs
       - name: Approximate Location browser smoke and screenshots
         run: bash checks/approximate-location-browser-smoke.sh
       - name: Archive Approximate Location 500 results and visuals
