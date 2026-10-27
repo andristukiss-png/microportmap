@@ -27,7 +27,7 @@ const count=(records,key)=>{
 const unique=(records,key)=>new Set(records.map(key)).size;
 const fields={q:'',type:'',country:'',year:'',equipment:''};
 let records=[],matches=[],loaded=false,loading=false,sort='name',equipSort='count',
- recordLimit=6,equipLimit=10,view='equipment',compareA='',compareB='';
+ recordLimit=6,equipLimit=10,view='equipment',compareA='',compareB='',generation=0,copyRequest=0;
 const root=E('section','mpe-explorer');root.id='mpe-explorer';root.setAttribute('aria-labelledby','mpe-title');
 const heading=E('div','mpe-intro');
 const title=E('h2','','Explore reported technologies and equipment');
@@ -86,9 +86,10 @@ compare.append(E('h3','','Compare infrastructure categories'),
 const compareSelectors=E('div','mpe-compare-controls');
 const compareSelectA=E('select','mpe-select');compareSelectA.id='mpe-compare-a';compareSelectA.setAttribute('aria-label','First infrastructure category');
 const compareSelectB=E('select','mpe-select');compareSelectB.id='mpe-compare-b';compareSelectB.setAttribute('aria-label','Second infrastructure category');
-compareSelectors.append(compareSelectA,compareSelectB,B('Swap categories',()=>{
+const swap=B('Swap categories',()=>{
  const old=compareSelectA.value;compareSelectA.value=compareSelectB.value;compareSelectB.value=old;renderCompare();
-},'mpe-secondary'));
+},'mpe-secondary');
+compareSelectors.append(compareSelectA,compareSelectB,swap);
 const comparison=E('div','mpe-table-scroll');comparison.id='mpe-comparison';
 compare.append(compareSelectors,comparison);
 const outputs=E('div','mpe-outputs');
@@ -102,7 +103,8 @@ const message=E('p','mpe-announcement');message.id='mpe-message';message.setAttr
 const disclosure=E('details','mpe-disclosure');disclosure.append(E('summary','','What do technology labels mean?'),
  E('p','','Infrastructure categories are editorial groups; equipment labels are transcribed as reported. They may mix multiple models or software references. Counts describe research entries, not individual machines, operating installations or independent verification. Report-year labels are not opening dates, and approximate map points do not grant flight access.'));
 const errors=E('div','mpe-error');errors.hidden=true;errors.setAttribute('role','alert');
-errors.append(E('p','','The enhanced technology catalogue is unavailable; the original technology mentions above and the project directory remain usable.'),B('Retry loading technology records',load,'mpe-primary'));
+const retry=B('Retry loading technology records',load,'mpe-primary');
+errors.append(E('p','','The enhanced technology catalogue is unavailable; the original technology mentions above and the project directory remain usable.'),retry);
 root.append(heading,stats,filters,active,status,categoryHeading,categoryList,modeActions,equipmentArea,projects,compare,outputs,message,disclosure,errors);
 function entryLinks(){
  for(const nav of document.querySelectorAll('.mp-continue-topics')){
@@ -262,6 +264,7 @@ function renderActive(){
 }
 function filter(){
  if(!loaded)return;
+ generation++;message.textContent='';
  matches=records.filter(p=>{
   if(fields.type&&category(p)!==fields.type)return false;
   if(fields.country&&country(p)!==fields.country)return false;
@@ -280,7 +283,7 @@ function filter(){
  if(fields.type)params.set('type',fields.type);
  if(fields.country)params.set('country',fields.country);
  if(fields.year)params.set('year',fields.year);
- directory.href='/directory/'+(params.size?'?'+params:'');
+ directory.href='/directory/'+(params.size?'?'+params:'');directory.removeAttribute('aria-disabled');
  syncURL();
 }
 function exportCSV(items){
@@ -290,7 +293,8 @@ function exportCSV(items){
  .map(row=>row.map(cell).join(',')).join('\r\n');
 }
 function download(format){
- if(!matches.length)return;
+ if(!loaded||!matches.length)return;
+ copyRequest++;
  let blob,filename;
  if(format==='json'){
   blob=new Blob([JSON.stringify({title:'MicroportMap technology research subset',
@@ -311,9 +315,14 @@ function download(format){
  finally{anchor?.remove();if(url)setTimeout(()=>URL.revokeObjectURL(url),30000);}
 }
 async function copyURL(){
- const url=pathURL().toString();
- try{await navigator.clipboard.writeText(url);message.textContent='Technology filter link copied.';}
- catch{message.textContent='Copy this URL: '+url;}
+ if(!loaded)return;
+ const url=pathURL().toString(),version=generation,request=++copyRequest,current=()=>version===generation&&request===copyRequest;
+ let timer;
+ try{
+  await Promise.race([navigator.clipboard.writeText(url),new Promise((_,reject)=>{timer=setTimeout(()=>reject(Error('Clipboard timed out')),5000);})]);
+  if(current())message.textContent='Technology filter link copied.';
+ }catch{if(current())message.textContent='Copy this URL: '+url;}
+ finally{clearTimeout(timer);}
 }
 function prepare(){
  const types=count(records,category).map(x=>x[0]);
@@ -332,15 +341,33 @@ function prepare(){
  syncInputs();loaded=true;filter();renderCompare();setView('equipment');document.body.classList.add('mpe-ready');
  document.documentElement.dataset.mpeLoaded='1';
 }
-function load(){
+function controls(available){
+ [search,...Object.values(selectors),clearAll,showEquipment,showProjects,equipmentOrder,projectSort,moreEquipment,lessEquipment,moreProjects,lessProjects,compareSelectA,compareSelectB,swap,csv,json,copy].forEach(n=>{n.disabled=!available;});
+}
+function clearData(){
+ loaded=false;records=[];matches=[];controls(false);
+ document.body.classList.remove('mpe-ready');delete document.documentElement.dataset.mpeLoaded;
+ [stats,active,categoryList,equipmentList,projectCards,comparison].forEach(n=>n.replaceChildren());
+ moreEquipment.hidden=lessEquipment.hidden=moreProjects.hidden=lessProjects.hidden=true;
+ directory.removeAttribute('href');directory.setAttribute('aria-disabled','true');
+}
+async function load(){
  if(loading)return;
- loading=true;errors.hidden=true;status.textContent='Loading source-linked equipment research…';
- fetch('/data/projects.json').then(r=>{if(!r.ok)throw Error('Unavailable');return r.json();}).then(data=>{
+ loading=true;generation++;retry.disabled=true;errors.hidden=true;clearData();message.textContent='';root.setAttribute('aria-busy','true');status.textContent='Loading source-linked equipment research…';
+ const controller=new AbortController();let timer;
+ try{
+  const deadline=new Promise((_,reject)=>{timer=setTimeout(()=>{controller.abort();reject(Error('Equipment lookup timed out'));},15000);});
+  const data=await Promise.race([deadline,(async()=>{const response=await fetch('/data/projects.json',{signal:controller.signal});if(!response.ok)throw Error('Unavailable');return response.json();})()]);
   if(!Array.isArray(data.records)||data.records.length!==50||
-     data.records.some(x=>!x||!/^[a-z0-9-]+$/.test(x.id)||typeof x.name!=='string'||!x.name.trim())||
+     data.records.some(x=>!x||typeof x.id!=='string'||!/^[a-z0-9-]+$/.test(x.id)||typeof x.name!=='string'||!x.name.trim())||
      new Set(data.records.map(x=>x.id)).size!==50)throw Error('Invalid catalogue');
-  records=data.records.slice();loading=false;restore();prepare();
- }).catch(()=>{loading=false;errors.hidden=false;status.textContent='Could not load equipment research.';});
+  records=data.records.slice();restore();controls(true);prepare();
+ }catch{clearData();errors.hidden=false;status.textContent='Could not load equipment research.';}
+ finally{clearTimeout(timer);loading=false;retry.disabled=false;root.setAttribute('aria-busy','false');}
+}
+function normalizeRestoredFilters(){
+ for(const key of ['type','country','year'])if(![...selectors[key].options].some(o=>o.value===fields[key]))fields[key]='';
+ if(!records.some(p=>equipment(p)===fields.equipment))fields.equipment='';
 }
 search.addEventListener('input',()=>{fields.q=search.value.trim();recordLimit=6;equipLimit=10;filter();});
 for(const key of ['type','country','year'])selectors[key].addEventListener('change',()=>{fields[key]=selectors[key].value;recordLimit=6;filter();});
@@ -348,7 +375,7 @@ equipmentOrder.addEventListener('change',()=>{equipSort=equipmentOrder.value;ren
 projectSort.addEventListener('change',()=>{sort=projectSort.value;recordLimit=6;renderProjects();});
 compareSelectA.addEventListener('change',renderCompare);
 compareSelectB.addEventListener('change',renderCompare);
-window.addEventListener('popstate',()=>{if(loaded){restore();syncInputs();filter();}});
+window.addEventListener('popstate',()=>{if(loaded){restore();normalizeRestoredFilters();syncInputs();filter();}});
 entryLinks();
 if(isTech){
  const main=document.querySelector('main'),columns=main?.querySelector('.columns');

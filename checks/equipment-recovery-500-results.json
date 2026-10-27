@@ -1,0 +1,3008 @@
+{
+  "total": 500,
+  "passed": 500,
+  "failed": 0,
+  "scope": "Controlled DOM/VM Technology & Equipment loading, retry, filter history, clipboard and export checks. Counts describe source-reported research records. Browser checks run separately.",
+  "cases": [
+    {
+      "taskId": "ER001",
+      "projectId": "shenzhen",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER002",
+      "projectId": "shenzhen",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER003",
+      "projectId": "shenzhen",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER004",
+      "projectId": "shenzhen",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER005",
+      "projectId": "shenzhen",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER006",
+      "projectId": "shenzhen",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER007",
+      "projectId": "shenzhen",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER008",
+      "projectId": "shenzhen",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER009",
+      "projectId": "shenzhen",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER010",
+      "projectId": "shenzhen",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER011",
+      "projectId": "rotterdam",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER012",
+      "projectId": "rotterdam",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER013",
+      "projectId": "rotterdam",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER014",
+      "projectId": "rotterdam",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER015",
+      "projectId": "rotterdam",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER016",
+      "projectId": "rotterdam",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER017",
+      "projectId": "rotterdam",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER018",
+      "projectId": "rotterdam",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER019",
+      "projectId": "rotterdam",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER020",
+      "projectId": "rotterdam",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER021",
+      "projectId": "kiel",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER022",
+      "projectId": "kiel",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER023",
+      "projectId": "kiel",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER024",
+      "projectId": "kiel",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER025",
+      "projectId": "kiel",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER026",
+      "projectId": "kiel",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER027",
+      "projectId": "kiel",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER028",
+      "projectId": "kiel",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER029",
+      "projectId": "kiel",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER030",
+      "projectId": "kiel",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER031",
+      "projectId": "italy",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER032",
+      "projectId": "italy",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER033",
+      "projectId": "italy",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER034",
+      "projectId": "italy",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER035",
+      "projectId": "italy",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER036",
+      "projectId": "italy",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER037",
+      "projectId": "italy",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER038",
+      "projectId": "italy",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER039",
+      "projectId": "italy",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER040",
+      "projectId": "italy",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER041",
+      "projectId": "oman",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER042",
+      "projectId": "oman",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER043",
+      "projectId": "oman",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER044",
+      "projectId": "oman",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER045",
+      "projectId": "oman",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER046",
+      "projectId": "oman",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER047",
+      "projectId": "oman",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER048",
+      "projectId": "oman",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER049",
+      "projectId": "oman",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER050",
+      "projectId": "oman",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER051",
+      "projectId": "australia",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER052",
+      "projectId": "australia",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER053",
+      "projectId": "australia",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER054",
+      "projectId": "australia",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER055",
+      "projectId": "australia",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER056",
+      "projectId": "australia",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER057",
+      "projectId": "australia",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER058",
+      "projectId": "australia",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER059",
+      "projectId": "australia",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER060",
+      "projectId": "australia",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER061",
+      "projectId": "enbw",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER062",
+      "projectId": "enbw",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER063",
+      "projectId": "enbw",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER064",
+      "projectId": "enbw",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER065",
+      "projectId": "enbw",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER066",
+      "projectId": "enbw",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER067",
+      "projectId": "enbw",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER068",
+      "projectId": "enbw",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER069",
+      "projectId": "enbw",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER070",
+      "projectId": "enbw",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER071",
+      "projectId": "dole",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER072",
+      "projectId": "dole",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER073",
+      "projectId": "dole",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER074",
+      "projectId": "dole",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER075",
+      "projectId": "dole",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER076",
+      "projectId": "dole",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER077",
+      "projectId": "dole",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER078",
+      "projectId": "dole",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER079",
+      "projectId": "dole",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER080",
+      "projectId": "dole",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER081",
+      "projectId": "tnb",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER082",
+      "projectId": "tnb",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER083",
+      "projectId": "tnb",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER084",
+      "projectId": "tnb",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER085",
+      "projectId": "tnb",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER086",
+      "projectId": "tnb",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER087",
+      "projectId": "tnb",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER088",
+      "projectId": "tnb",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER089",
+      "projectId": "tnb",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER090",
+      "projectId": "tnb",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER091",
+      "projectId": "asheville",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER092",
+      "projectId": "asheville",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER093",
+      "projectId": "asheville",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER094",
+      "projectId": "asheville",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER095",
+      "projectId": "asheville",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER096",
+      "projectId": "asheville",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER097",
+      "projectId": "asheville",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER098",
+      "projectId": "asheville",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER099",
+      "projectId": "asheville",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER100",
+      "projectId": "asheville",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER101",
+      "projectId": "vancouver",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER102",
+      "projectId": "vancouver",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER103",
+      "projectId": "vancouver",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER104",
+      "projectId": "vancouver",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER105",
+      "projectId": "vancouver",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER106",
+      "projectId": "vancouver",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER107",
+      "projectId": "vancouver",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER108",
+      "projectId": "vancouver",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER109",
+      "projectId": "vancouver",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER110",
+      "projectId": "vancouver",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER111",
+      "projectId": "ishikawa",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER112",
+      "projectId": "ishikawa",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER113",
+      "projectId": "ishikawa",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER114",
+      "projectId": "ishikawa",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER115",
+      "projectId": "ishikawa",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER116",
+      "projectId": "ishikawa",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER117",
+      "projectId": "ishikawa",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER118",
+      "projectId": "ishikawa",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER119",
+      "projectId": "ishikawa",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER120",
+      "projectId": "ishikawa",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER121",
+      "projectId": "belgium-sense",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER122",
+      "projectId": "belgium-sense",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER123",
+      "projectId": "belgium-sense",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER124",
+      "projectId": "belgium-sense",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER125",
+      "projectId": "belgium-sense",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER126",
+      "projectId": "belgium-sense",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER127",
+      "projectId": "belgium-sense",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER128",
+      "projectId": "belgium-sense",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER129",
+      "projectId": "belgium-sense",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER130",
+      "projectId": "belgium-sense",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER131",
+      "projectId": "texas-solar",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER132",
+      "projectId": "texas-solar",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER133",
+      "projectId": "texas-solar",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER134",
+      "projectId": "texas-solar",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER135",
+      "projectId": "texas-solar",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER136",
+      "projectId": "texas-solar",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER137",
+      "projectId": "texas-solar",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER138",
+      "projectId": "texas-solar",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER139",
+      "projectId": "texas-solar",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER140",
+      "projectId": "texas-solar",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER141",
+      "projectId": "caltrans-otay",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER142",
+      "projectId": "caltrans-otay",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER143",
+      "projectId": "caltrans-otay",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER144",
+      "projectId": "caltrans-otay",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER145",
+      "projectId": "caltrans-otay",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER146",
+      "projectId": "caltrans-otay",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER147",
+      "projectId": "caltrans-otay",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER148",
+      "projectId": "caltrans-otay",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER149",
+      "projectId": "caltrans-otay",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER150",
+      "projectId": "caltrans-otay",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER151",
+      "projectId": "ramapo",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER152",
+      "projectId": "ramapo",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER153",
+      "projectId": "ramapo",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER154",
+      "projectId": "ramapo",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER155",
+      "projectId": "ramapo",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER156",
+      "projectId": "ramapo",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER157",
+      "projectId": "ramapo",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER158",
+      "projectId": "ramapo",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER159",
+      "projectId": "ramapo",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER160",
+      "projectId": "ramapo",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER161",
+      "projectId": "kansanshi-zambia",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER162",
+      "projectId": "kansanshi-zambia",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER163",
+      "projectId": "kansanshi-zambia",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER164",
+      "projectId": "kansanshi-zambia",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER165",
+      "projectId": "kansanshi-zambia",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER166",
+      "projectId": "kansanshi-zambia",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER167",
+      "projectId": "kansanshi-zambia",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER168",
+      "projectId": "kansanshi-zambia",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER169",
+      "projectId": "kansanshi-zambia",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER170",
+      "projectId": "kansanshi-zambia",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER171",
+      "projectId": "quellaveco-peru",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER172",
+      "projectId": "quellaveco-peru",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER173",
+      "projectId": "quellaveco-peru",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER174",
+      "projectId": "quellaveco-peru",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER175",
+      "projectId": "quellaveco-peru",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER176",
+      "projectId": "quellaveco-peru",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER177",
+      "projectId": "quellaveco-peru",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER178",
+      "projectId": "quellaveco-peru",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER179",
+      "projectId": "quellaveco-peru",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER180",
+      "projectId": "quellaveco-peru",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER181",
+      "projectId": "uae-waste",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER182",
+      "projectId": "uae-waste",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER183",
+      "projectId": "uae-waste",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER184",
+      "projectId": "uae-waste",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER185",
+      "projectId": "uae-waste",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER186",
+      "projectId": "uae-waste",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER187",
+      "projectId": "uae-waste",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER188",
+      "projectId": "uae-waste",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER189",
+      "projectId": "uae-waste",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER190",
+      "projectId": "uae-waste",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER191",
+      "projectId": "axpo-swiss",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER192",
+      "projectId": "axpo-swiss",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER193",
+      "projectId": "axpo-swiss",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER194",
+      "projectId": "axpo-swiss",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER195",
+      "projectId": "axpo-swiss",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER196",
+      "projectId": "axpo-swiss",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER197",
+      "projectId": "axpo-swiss",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER198",
+      "projectId": "axpo-swiss",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER199",
+      "projectId": "axpo-swiss",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER200",
+      "projectId": "axpo-swiss",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER201",
+      "projectId": "slovakia-forest",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER202",
+      "projectId": "slovakia-forest",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER203",
+      "projectId": "slovakia-forest",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER204",
+      "projectId": "slovakia-forest",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER205",
+      "projectId": "slovakia-forest",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER206",
+      "projectId": "slovakia-forest",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER207",
+      "projectId": "slovakia-forest",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER208",
+      "projectId": "slovakia-forest",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER209",
+      "projectId": "slovakia-forest",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER210",
+      "projectId": "slovakia-forest",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER211",
+      "projectId": "southafrica-estate",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER212",
+      "projectId": "southafrica-estate",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER213",
+      "projectId": "southafrica-estate",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER214",
+      "projectId": "southafrica-estate",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER215",
+      "projectId": "southafrica-estate",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER216",
+      "projectId": "southafrica-estate",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER217",
+      "projectId": "southafrica-estate",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER218",
+      "projectId": "southafrica-estate",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER219",
+      "projectId": "southafrica-estate",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER220",
+      "projectId": "southafrica-estate",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER221",
+      "projectId": "sqm-chile",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER222",
+      "projectId": "sqm-chile",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER223",
+      "projectId": "sqm-chile",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER224",
+      "projectId": "sqm-chile",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER225",
+      "projectId": "sqm-chile",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER226",
+      "projectId": "sqm-chile",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER227",
+      "projectId": "sqm-chile",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER228",
+      "projectId": "sqm-chile",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER229",
+      "projectId": "sqm-chile",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER230",
+      "projectId": "sqm-chile",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER231",
+      "projectId": "csx-rail",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER232",
+      "projectId": "csx-rail",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER233",
+      "projectId": "csx-rail",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER234",
+      "projectId": "csx-rail",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER235",
+      "projectId": "csx-rail",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER236",
+      "projectId": "csx-rail",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER237",
+      "projectId": "csx-rail",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER238",
+      "projectId": "csx-rail",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER239",
+      "projectId": "csx-rail",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER240",
+      "projectId": "csx-rail",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER241",
+      "projectId": "aerial-fences",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER242",
+      "projectId": "aerial-fences",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER243",
+      "projectId": "aerial-fences",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER244",
+      "projectId": "aerial-fences",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER245",
+      "projectId": "aerial-fences",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER246",
+      "projectId": "aerial-fences",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER247",
+      "projectId": "aerial-fences",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER248",
+      "projectId": "aerial-fences",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER249",
+      "projectId": "aerial-fences",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER250",
+      "projectId": "aerial-fences",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER251",
+      "projectId": "premier-security-us",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER252",
+      "projectId": "premier-security-us",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER253",
+      "projectId": "premier-security-us",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER254",
+      "projectId": "premier-security-us",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER255",
+      "projectId": "premier-security-us",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER256",
+      "projectId": "premier-security-us",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER257",
+      "projectId": "premier-security-us",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER258",
+      "projectId": "premier-security-us",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER259",
+      "projectId": "premier-security-us",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER260",
+      "projectId": "premier-security-us",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER261",
+      "projectId": "discovery-land-us",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER262",
+      "projectId": "discovery-land-us",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER263",
+      "projectId": "discovery-land-us",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER264",
+      "projectId": "discovery-land-us",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER265",
+      "projectId": "discovery-land-us",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER266",
+      "projectId": "discovery-land-us",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER267",
+      "projectId": "discovery-land-us",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER268",
+      "projectId": "discovery-land-us",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER269",
+      "projectId": "discovery-land-us",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER270",
+      "projectId": "discovery-land-us",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER271",
+      "projectId": "port-lincoln",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER272",
+      "projectId": "port-lincoln",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER273",
+      "projectId": "port-lincoln",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER274",
+      "projectId": "port-lincoln",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER275",
+      "projectId": "port-lincoln",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER276",
+      "projectId": "port-lincoln",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER277",
+      "projectId": "port-lincoln",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER278",
+      "projectId": "port-lincoln",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER279",
+      "projectId": "port-lincoln",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER280",
+      "projectId": "port-lincoln",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER281",
+      "projectId": "titan-protection",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER282",
+      "projectId": "titan-protection",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER283",
+      "projectId": "titan-protection",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER284",
+      "projectId": "titan-protection",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER285",
+      "projectId": "titan-protection",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER286",
+      "projectId": "titan-protection",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER287",
+      "projectId": "titan-protection",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER288",
+      "projectId": "titan-protection",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER289",
+      "projectId": "titan-protection",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER290",
+      "projectId": "titan-protection",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER291",
+      "projectId": "soar-alaska",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER292",
+      "projectId": "soar-alaska",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER293",
+      "projectId": "soar-alaska",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER294",
+      "projectId": "soar-alaska",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER295",
+      "projectId": "soar-alaska",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER296",
+      "projectId": "soar-alaska",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER297",
+      "projectId": "soar-alaska",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER298",
+      "projectId": "soar-alaska",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER299",
+      "projectId": "soar-alaska",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER300",
+      "projectId": "soar-alaska",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER301",
+      "projectId": "barcelona-port",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER302",
+      "projectId": "barcelona-port",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER303",
+      "projectId": "barcelona-port",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER304",
+      "projectId": "barcelona-port",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER305",
+      "projectId": "barcelona-port",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER306",
+      "projectId": "barcelona-port",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER307",
+      "projectId": "barcelona-port",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER308",
+      "projectId": "barcelona-port",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER309",
+      "projectId": "barcelona-port",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER310",
+      "projectId": "barcelona-port",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER311",
+      "projectId": "celaya",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER312",
+      "projectId": "celaya",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER313",
+      "projectId": "celaya",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER314",
+      "projectId": "celaya",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER315",
+      "projectId": "celaya",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER316",
+      "projectId": "celaya",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER317",
+      "projectId": "celaya",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER318",
+      "projectId": "celaya",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER319",
+      "projectId": "celaya",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER320",
+      "projectId": "celaya",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER321",
+      "projectId": "palcacocha",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER322",
+      "projectId": "palcacocha",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER323",
+      "projectId": "palcacocha",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER324",
+      "projectId": "palcacocha",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER325",
+      "projectId": "palcacocha",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER326",
+      "projectId": "palcacocha",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER327",
+      "projectId": "palcacocha",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER328",
+      "projectId": "palcacocha",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER329",
+      "projectId": "palcacocha",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER330",
+      "projectId": "palcacocha",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER331",
+      "projectId": "bibai",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER332",
+      "projectId": "bibai",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER333",
+      "projectId": "bibai",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER334",
+      "projectId": "bibai",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER335",
+      "projectId": "bibai",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER336",
+      "projectId": "bibai",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER337",
+      "projectId": "bibai",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER338",
+      "projectId": "bibai",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER339",
+      "projectId": "bibai",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER340",
+      "projectId": "bibai",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER341",
+      "projectId": "ambite",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER342",
+      "projectId": "ambite",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER343",
+      "projectId": "ambite",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER344",
+      "projectId": "ambite",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER345",
+      "projectId": "ambite",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER346",
+      "projectId": "ambite",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER347",
+      "projectId": "ambite",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER348",
+      "projectId": "ambite",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER349",
+      "projectId": "ambite",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER350",
+      "projectId": "ambite",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER351",
+      "projectId": "opole",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER352",
+      "projectId": "opole",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER353",
+      "projectId": "opole",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER354",
+      "projectId": "opole",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER355",
+      "projectId": "opole",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER356",
+      "projectId": "opole",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER357",
+      "projectId": "opole",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER358",
+      "projectId": "opole",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER359",
+      "projectId": "opole",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER360",
+      "projectId": "opole",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER361",
+      "projectId": "wurzburg-emqport",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER362",
+      "projectId": "wurzburg-emqport",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER363",
+      "projectId": "wurzburg-emqport",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER364",
+      "projectId": "wurzburg-emqport",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER365",
+      "projectId": "wurzburg-emqport",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER366",
+      "projectId": "wurzburg-emqport",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER367",
+      "projectId": "wurzburg-emqport",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER368",
+      "projectId": "wurzburg-emqport",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER369",
+      "projectId": "wurzburg-emqport",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER370",
+      "projectId": "wurzburg-emqport",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER371",
+      "projectId": "tomakomai-refinery",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER372",
+      "projectId": "tomakomai-refinery",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER373",
+      "projectId": "tomakomai-refinery",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER374",
+      "projectId": "tomakomai-refinery",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER375",
+      "projectId": "tomakomai-refinery",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER376",
+      "projectId": "tomakomai-refinery",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER377",
+      "projectId": "tomakomai-refinery",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER378",
+      "projectId": "tomakomai-refinery",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER379",
+      "projectId": "tomakomai-refinery",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER380",
+      "projectId": "tomakomai-refinery",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER381",
+      "projectId": "network-rail-uk",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER382",
+      "projectId": "network-rail-uk",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER383",
+      "projectId": "network-rail-uk",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER384",
+      "projectId": "network-rail-uk",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER385",
+      "projectId": "network-rail-uk",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER386",
+      "projectId": "network-rail-uk",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER387",
+      "projectId": "network-rail-uk",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER388",
+      "projectId": "network-rail-uk",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER389",
+      "projectId": "network-rail-uk",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER390",
+      "projectId": "network-rail-uk",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER391",
+      "projectId": "gilboa-nypa",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER392",
+      "projectId": "gilboa-nypa",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER393",
+      "projectId": "gilboa-nypa",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER394",
+      "projectId": "gilboa-nypa",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER395",
+      "projectId": "gilboa-nypa",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER396",
+      "projectId": "gilboa-nypa",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER397",
+      "projectId": "gilboa-nypa",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER398",
+      "projectId": "gilboa-nypa",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER399",
+      "projectId": "gilboa-nypa",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER400",
+      "projectId": "gilboa-nypa",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER401",
+      "projectId": "teesside-terminal",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER402",
+      "projectId": "teesside-terminal",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER403",
+      "projectId": "teesside-terminal",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER404",
+      "projectId": "teesside-terminal",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER405",
+      "projectId": "teesside-terminal",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER406",
+      "projectId": "teesside-terminal",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER407",
+      "projectId": "teesside-terminal",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER408",
+      "projectId": "teesside-terminal",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER409",
+      "projectId": "teesside-terminal",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER410",
+      "projectId": "teesside-terminal",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER411",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER412",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER413",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER414",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER415",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER416",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER417",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER418",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER419",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER420",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER421",
+      "projectId": "upper-darby-dfr",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER422",
+      "projectId": "upper-darby-dfr",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER423",
+      "projectId": "upper-darby-dfr",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER424",
+      "projectId": "upper-darby-dfr",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER425",
+      "projectId": "upper-darby-dfr",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER426",
+      "projectId": "upper-darby-dfr",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER427",
+      "projectId": "upper-darby-dfr",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER428",
+      "projectId": "upper-darby-dfr",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER429",
+      "projectId": "upper-darby-dfr",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER430",
+      "projectId": "upper-darby-dfr",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER431",
+      "projectId": "skybound-waterloo",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER432",
+      "projectId": "skybound-waterloo",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER433",
+      "projectId": "skybound-waterloo",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER434",
+      "projectId": "skybound-waterloo",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER435",
+      "projectId": "skybound-waterloo",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER436",
+      "projectId": "skybound-waterloo",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER437",
+      "projectId": "skybound-waterloo",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER438",
+      "projectId": "skybound-waterloo",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER439",
+      "projectId": "skybound-waterloo",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER440",
+      "projectId": "skybound-waterloo",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER441",
+      "projectId": "skybound-glasgow",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER442",
+      "projectId": "skybound-glasgow",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER443",
+      "projectId": "skybound-glasgow",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER444",
+      "projectId": "skybound-glasgow",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER445",
+      "projectId": "skybound-glasgow",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER446",
+      "projectId": "skybound-glasgow",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER447",
+      "projectId": "skybound-glasgow",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER448",
+      "projectId": "skybound-glasgow",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER449",
+      "projectId": "skybound-glasgow",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER450",
+      "projectId": "skybound-glasgow",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER451",
+      "projectId": "skybound-cardiff",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER452",
+      "projectId": "skybound-cardiff",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER453",
+      "projectId": "skybound-cardiff",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER454",
+      "projectId": "skybound-cardiff",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER455",
+      "projectId": "skybound-cardiff",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER456",
+      "projectId": "skybound-cardiff",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER457",
+      "projectId": "skybound-cardiff",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER458",
+      "projectId": "skybound-cardiff",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER459",
+      "projectId": "skybound-cardiff",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER460",
+      "projectId": "skybound-cardiff",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER461",
+      "projectId": "cincinnati-dfr",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER462",
+      "projectId": "cincinnati-dfr",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER463",
+      "projectId": "cincinnati-dfr",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER464",
+      "projectId": "cincinnati-dfr",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER465",
+      "projectId": "cincinnati-dfr",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER466",
+      "projectId": "cincinnati-dfr",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER467",
+      "projectId": "cincinnati-dfr",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER468",
+      "projectId": "cincinnati-dfr",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER469",
+      "projectId": "cincinnati-dfr",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER470",
+      "projectId": "cincinnati-dfr",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER471",
+      "projectId": "yonkers-nokia",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER472",
+      "projectId": "yonkers-nokia",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER473",
+      "projectId": "yonkers-nokia",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER474",
+      "projectId": "yonkers-nokia",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER475",
+      "projectId": "yonkers-nokia",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER476",
+      "projectId": "yonkers-nokia",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER477",
+      "projectId": "yonkers-nokia",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER478",
+      "projectId": "yonkers-nokia",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER479",
+      "projectId": "yonkers-nokia",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER480",
+      "projectId": "yonkers-nokia",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER481",
+      "projectId": "summerville-nokia",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER482",
+      "projectId": "summerville-nokia",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER483",
+      "projectId": "summerville-nokia",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER484",
+      "projectId": "summerville-nokia",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER485",
+      "projectId": "summerville-nokia",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER486",
+      "projectId": "summerville-nokia",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER487",
+      "projectId": "summerville-nokia",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER488",
+      "projectId": "summerville-nokia",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER489",
+      "projectId": "summerville-nokia",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER490",
+      "projectId": "summerville-nokia",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    },
+    {
+      "taskId": "ER491",
+      "projectId": "el-paso-dfr",
+      "scenario": "fetch-deadline-releases-retry",
+      "passed": true
+    },
+    {
+      "taskId": "ER492",
+      "projectId": "el-paso-dfr",
+      "scenario": "json-deadline-ignores-late-body",
+      "passed": true
+    },
+    {
+      "taskId": "ER493",
+      "projectId": "el-paso-dfr",
+      "scenario": "retry-recovers-exact-filtered-project",
+      "passed": true
+    },
+    {
+      "taskId": "ER494",
+      "projectId": "el-paso-dfr",
+      "scenario": "retry-clears-old-data-and-blocks-duplicates",
+      "passed": true
+    },
+    {
+      "taskId": "ER495",
+      "projectId": "el-paso-dfr",
+      "scenario": "latest-copy-attempt-controls-notice",
+      "passed": true
+    },
+    {
+      "taskId": "ER496",
+      "projectId": "el-paso-dfr",
+      "scenario": "copy-deadline-keeps-exact-filter-link",
+      "passed": true
+    },
+    {
+      "taskId": "ER497",
+      "projectId": "el-paso-dfr",
+      "scenario": "filter-change-invalidates-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER498",
+      "projectId": "el-paso-dfr",
+      "scenario": "new-export-supersedes-old-copy",
+      "passed": true
+    },
+    {
+      "taskId": "ER499",
+      "projectId": "el-paso-dfr",
+      "scenario": "popstate-normalizes-unsupported-filters",
+      "passed": true
+    },
+    {
+      "taskId": "ER500",
+      "projectId": "el-paso-dfr",
+      "scenario": "failed-export-keeps-current-message",
+      "passed": true
+    }
+  ]
+}

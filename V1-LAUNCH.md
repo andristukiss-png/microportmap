@@ -25,6 +25,10 @@ These are content findings from the existing drafts, not a legal-compliance dete
 - Hardened the existing metadata recovery fixture: only the intentionally stalled initial lookup uses a shortened deadline; recovery retains the normal deadline, with failure diagnostics and a larger browser budget.
 - Retained the existing full functional regression suite, including local report preparation, copy/export behavior, browser storage, comparisons and failure/retry paths.
 
+## Technical follow-up after the audit
+
+The Technology & Equipment explorer now bounds dataset loading, clears stale data during retries, normalizes restored filters, and guards current clipboard/export messages. Its 500 controlled cases and responsive recovery probes supplement the launch checks. These technical improvements do not resolve or alter the two owner-content blockers above.
+
 ## Explicit scope and follow-up
 
 Correction reports stay on the visitor's device; no public submission inbox is connected. This is disclosed on the form and Help page. A backend inbox is optional future work unless receiving contributions becomes part of the V1 promise.
