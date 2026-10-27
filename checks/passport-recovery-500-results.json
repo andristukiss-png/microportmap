@@ -1,0 +1,3008 @@
+{
+  "total": 500,
+  "passed": 500,
+  "failed": 0,
+  "scope": "Controlled DOM/VM passport related-details deadline, retry, copy and export cases. Research information is not independently verified. Native clipboard writes already started cannot be recalled; displayed outcomes are guarded. Browser checks run separately.",
+  "cases": [
+    {
+      "taskId": "PR001",
+      "projectId": "shenzhen",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR002",
+      "projectId": "shenzhen",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR003",
+      "projectId": "shenzhen",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR004",
+      "projectId": "shenzhen",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR005",
+      "projectId": "shenzhen",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR006",
+      "projectId": "shenzhen",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR007",
+      "projectId": "shenzhen",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR008",
+      "projectId": "shenzhen",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR009",
+      "projectId": "shenzhen",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR010",
+      "projectId": "shenzhen",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR011",
+      "projectId": "rotterdam",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR012",
+      "projectId": "rotterdam",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR013",
+      "projectId": "rotterdam",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR014",
+      "projectId": "rotterdam",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR015",
+      "projectId": "rotterdam",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR016",
+      "projectId": "rotterdam",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR017",
+      "projectId": "rotterdam",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR018",
+      "projectId": "rotterdam",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR019",
+      "projectId": "rotterdam",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR020",
+      "projectId": "rotterdam",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR021",
+      "projectId": "kiel",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR022",
+      "projectId": "kiel",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR023",
+      "projectId": "kiel",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR024",
+      "projectId": "kiel",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR025",
+      "projectId": "kiel",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR026",
+      "projectId": "kiel",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR027",
+      "projectId": "kiel",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR028",
+      "projectId": "kiel",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR029",
+      "projectId": "kiel",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR030",
+      "projectId": "kiel",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR031",
+      "projectId": "italy",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR032",
+      "projectId": "italy",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR033",
+      "projectId": "italy",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR034",
+      "projectId": "italy",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR035",
+      "projectId": "italy",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR036",
+      "projectId": "italy",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR037",
+      "projectId": "italy",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR038",
+      "projectId": "italy",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR039",
+      "projectId": "italy",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR040",
+      "projectId": "italy",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR041",
+      "projectId": "oman",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR042",
+      "projectId": "oman",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR043",
+      "projectId": "oman",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR044",
+      "projectId": "oman",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR045",
+      "projectId": "oman",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR046",
+      "projectId": "oman",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR047",
+      "projectId": "oman",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR048",
+      "projectId": "oman",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR049",
+      "projectId": "oman",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR050",
+      "projectId": "oman",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR051",
+      "projectId": "australia",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR052",
+      "projectId": "australia",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR053",
+      "projectId": "australia",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR054",
+      "projectId": "australia",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR055",
+      "projectId": "australia",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR056",
+      "projectId": "australia",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR057",
+      "projectId": "australia",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR058",
+      "projectId": "australia",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR059",
+      "projectId": "australia",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR060",
+      "projectId": "australia",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR061",
+      "projectId": "enbw",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR062",
+      "projectId": "enbw",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR063",
+      "projectId": "enbw",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR064",
+      "projectId": "enbw",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR065",
+      "projectId": "enbw",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR066",
+      "projectId": "enbw",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR067",
+      "projectId": "enbw",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR068",
+      "projectId": "enbw",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR069",
+      "projectId": "enbw",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR070",
+      "projectId": "enbw",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR071",
+      "projectId": "dole",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR072",
+      "projectId": "dole",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR073",
+      "projectId": "dole",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR074",
+      "projectId": "dole",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR075",
+      "projectId": "dole",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR076",
+      "projectId": "dole",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR077",
+      "projectId": "dole",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR078",
+      "projectId": "dole",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR079",
+      "projectId": "dole",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR080",
+      "projectId": "dole",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR081",
+      "projectId": "tnb",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR082",
+      "projectId": "tnb",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR083",
+      "projectId": "tnb",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR084",
+      "projectId": "tnb",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR085",
+      "projectId": "tnb",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR086",
+      "projectId": "tnb",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR087",
+      "projectId": "tnb",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR088",
+      "projectId": "tnb",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR089",
+      "projectId": "tnb",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR090",
+      "projectId": "tnb",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR091",
+      "projectId": "asheville",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR092",
+      "projectId": "asheville",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR093",
+      "projectId": "asheville",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR094",
+      "projectId": "asheville",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR095",
+      "projectId": "asheville",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR096",
+      "projectId": "asheville",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR097",
+      "projectId": "asheville",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR098",
+      "projectId": "asheville",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR099",
+      "projectId": "asheville",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR100",
+      "projectId": "asheville",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR101",
+      "projectId": "vancouver",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR102",
+      "projectId": "vancouver",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR103",
+      "projectId": "vancouver",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR104",
+      "projectId": "vancouver",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR105",
+      "projectId": "vancouver",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR106",
+      "projectId": "vancouver",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR107",
+      "projectId": "vancouver",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR108",
+      "projectId": "vancouver",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR109",
+      "projectId": "vancouver",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR110",
+      "projectId": "vancouver",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR111",
+      "projectId": "ishikawa",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR112",
+      "projectId": "ishikawa",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR113",
+      "projectId": "ishikawa",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR114",
+      "projectId": "ishikawa",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR115",
+      "projectId": "ishikawa",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR116",
+      "projectId": "ishikawa",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR117",
+      "projectId": "ishikawa",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR118",
+      "projectId": "ishikawa",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR119",
+      "projectId": "ishikawa",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR120",
+      "projectId": "ishikawa",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR121",
+      "projectId": "belgium-sense",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR122",
+      "projectId": "belgium-sense",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR123",
+      "projectId": "belgium-sense",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR124",
+      "projectId": "belgium-sense",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR125",
+      "projectId": "belgium-sense",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR126",
+      "projectId": "belgium-sense",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR127",
+      "projectId": "belgium-sense",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR128",
+      "projectId": "belgium-sense",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR129",
+      "projectId": "belgium-sense",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR130",
+      "projectId": "belgium-sense",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR131",
+      "projectId": "texas-solar",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR132",
+      "projectId": "texas-solar",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR133",
+      "projectId": "texas-solar",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR134",
+      "projectId": "texas-solar",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR135",
+      "projectId": "texas-solar",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR136",
+      "projectId": "texas-solar",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR137",
+      "projectId": "texas-solar",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR138",
+      "projectId": "texas-solar",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR139",
+      "projectId": "texas-solar",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR140",
+      "projectId": "texas-solar",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR141",
+      "projectId": "caltrans-otay",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR142",
+      "projectId": "caltrans-otay",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR143",
+      "projectId": "caltrans-otay",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR144",
+      "projectId": "caltrans-otay",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR145",
+      "projectId": "caltrans-otay",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR146",
+      "projectId": "caltrans-otay",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR147",
+      "projectId": "caltrans-otay",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR148",
+      "projectId": "caltrans-otay",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR149",
+      "projectId": "caltrans-otay",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR150",
+      "projectId": "caltrans-otay",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR151",
+      "projectId": "ramapo",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR152",
+      "projectId": "ramapo",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR153",
+      "projectId": "ramapo",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR154",
+      "projectId": "ramapo",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR155",
+      "projectId": "ramapo",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR156",
+      "projectId": "ramapo",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR157",
+      "projectId": "ramapo",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR158",
+      "projectId": "ramapo",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR159",
+      "projectId": "ramapo",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR160",
+      "projectId": "ramapo",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR161",
+      "projectId": "kansanshi-zambia",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR162",
+      "projectId": "kansanshi-zambia",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR163",
+      "projectId": "kansanshi-zambia",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR164",
+      "projectId": "kansanshi-zambia",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR165",
+      "projectId": "kansanshi-zambia",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR166",
+      "projectId": "kansanshi-zambia",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR167",
+      "projectId": "kansanshi-zambia",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR168",
+      "projectId": "kansanshi-zambia",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR169",
+      "projectId": "kansanshi-zambia",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR170",
+      "projectId": "kansanshi-zambia",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR171",
+      "projectId": "quellaveco-peru",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR172",
+      "projectId": "quellaveco-peru",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR173",
+      "projectId": "quellaveco-peru",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR174",
+      "projectId": "quellaveco-peru",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR175",
+      "projectId": "quellaveco-peru",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR176",
+      "projectId": "quellaveco-peru",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR177",
+      "projectId": "quellaveco-peru",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR178",
+      "projectId": "quellaveco-peru",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR179",
+      "projectId": "quellaveco-peru",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR180",
+      "projectId": "quellaveco-peru",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR181",
+      "projectId": "uae-waste",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR182",
+      "projectId": "uae-waste",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR183",
+      "projectId": "uae-waste",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR184",
+      "projectId": "uae-waste",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR185",
+      "projectId": "uae-waste",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR186",
+      "projectId": "uae-waste",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR187",
+      "projectId": "uae-waste",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR188",
+      "projectId": "uae-waste",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR189",
+      "projectId": "uae-waste",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR190",
+      "projectId": "uae-waste",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR191",
+      "projectId": "axpo-swiss",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR192",
+      "projectId": "axpo-swiss",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR193",
+      "projectId": "axpo-swiss",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR194",
+      "projectId": "axpo-swiss",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR195",
+      "projectId": "axpo-swiss",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR196",
+      "projectId": "axpo-swiss",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR197",
+      "projectId": "axpo-swiss",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR198",
+      "projectId": "axpo-swiss",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR199",
+      "projectId": "axpo-swiss",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR200",
+      "projectId": "axpo-swiss",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR201",
+      "projectId": "slovakia-forest",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR202",
+      "projectId": "slovakia-forest",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR203",
+      "projectId": "slovakia-forest",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR204",
+      "projectId": "slovakia-forest",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR205",
+      "projectId": "slovakia-forest",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR206",
+      "projectId": "slovakia-forest",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR207",
+      "projectId": "slovakia-forest",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR208",
+      "projectId": "slovakia-forest",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR209",
+      "projectId": "slovakia-forest",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR210",
+      "projectId": "slovakia-forest",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR211",
+      "projectId": "southafrica-estate",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR212",
+      "projectId": "southafrica-estate",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR213",
+      "projectId": "southafrica-estate",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR214",
+      "projectId": "southafrica-estate",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR215",
+      "projectId": "southafrica-estate",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR216",
+      "projectId": "southafrica-estate",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR217",
+      "projectId": "southafrica-estate",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR218",
+      "projectId": "southafrica-estate",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR219",
+      "projectId": "southafrica-estate",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR220",
+      "projectId": "southafrica-estate",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR221",
+      "projectId": "sqm-chile",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR222",
+      "projectId": "sqm-chile",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR223",
+      "projectId": "sqm-chile",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR224",
+      "projectId": "sqm-chile",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR225",
+      "projectId": "sqm-chile",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR226",
+      "projectId": "sqm-chile",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR227",
+      "projectId": "sqm-chile",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR228",
+      "projectId": "sqm-chile",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR229",
+      "projectId": "sqm-chile",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR230",
+      "projectId": "sqm-chile",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR231",
+      "projectId": "csx-rail",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR232",
+      "projectId": "csx-rail",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR233",
+      "projectId": "csx-rail",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR234",
+      "projectId": "csx-rail",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR235",
+      "projectId": "csx-rail",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR236",
+      "projectId": "csx-rail",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR237",
+      "projectId": "csx-rail",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR238",
+      "projectId": "csx-rail",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR239",
+      "projectId": "csx-rail",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR240",
+      "projectId": "csx-rail",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR241",
+      "projectId": "aerial-fences",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR242",
+      "projectId": "aerial-fences",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR243",
+      "projectId": "aerial-fences",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR244",
+      "projectId": "aerial-fences",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR245",
+      "projectId": "aerial-fences",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR246",
+      "projectId": "aerial-fences",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR247",
+      "projectId": "aerial-fences",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR248",
+      "projectId": "aerial-fences",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR249",
+      "projectId": "aerial-fences",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR250",
+      "projectId": "aerial-fences",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR251",
+      "projectId": "premier-security-us",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR252",
+      "projectId": "premier-security-us",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR253",
+      "projectId": "premier-security-us",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR254",
+      "projectId": "premier-security-us",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR255",
+      "projectId": "premier-security-us",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR256",
+      "projectId": "premier-security-us",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR257",
+      "projectId": "premier-security-us",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR258",
+      "projectId": "premier-security-us",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR259",
+      "projectId": "premier-security-us",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR260",
+      "projectId": "premier-security-us",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR261",
+      "projectId": "discovery-land-us",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR262",
+      "projectId": "discovery-land-us",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR263",
+      "projectId": "discovery-land-us",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR264",
+      "projectId": "discovery-land-us",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR265",
+      "projectId": "discovery-land-us",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR266",
+      "projectId": "discovery-land-us",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR267",
+      "projectId": "discovery-land-us",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR268",
+      "projectId": "discovery-land-us",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR269",
+      "projectId": "discovery-land-us",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR270",
+      "projectId": "discovery-land-us",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR271",
+      "projectId": "port-lincoln",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR272",
+      "projectId": "port-lincoln",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR273",
+      "projectId": "port-lincoln",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR274",
+      "projectId": "port-lincoln",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR275",
+      "projectId": "port-lincoln",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR276",
+      "projectId": "port-lincoln",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR277",
+      "projectId": "port-lincoln",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR278",
+      "projectId": "port-lincoln",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR279",
+      "projectId": "port-lincoln",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR280",
+      "projectId": "port-lincoln",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR281",
+      "projectId": "titan-protection",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR282",
+      "projectId": "titan-protection",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR283",
+      "projectId": "titan-protection",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR284",
+      "projectId": "titan-protection",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR285",
+      "projectId": "titan-protection",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR286",
+      "projectId": "titan-protection",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR287",
+      "projectId": "titan-protection",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR288",
+      "projectId": "titan-protection",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR289",
+      "projectId": "titan-protection",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR290",
+      "projectId": "titan-protection",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR291",
+      "projectId": "soar-alaska",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR292",
+      "projectId": "soar-alaska",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR293",
+      "projectId": "soar-alaska",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR294",
+      "projectId": "soar-alaska",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR295",
+      "projectId": "soar-alaska",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR296",
+      "projectId": "soar-alaska",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR297",
+      "projectId": "soar-alaska",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR298",
+      "projectId": "soar-alaska",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR299",
+      "projectId": "soar-alaska",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR300",
+      "projectId": "soar-alaska",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR301",
+      "projectId": "barcelona-port",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR302",
+      "projectId": "barcelona-port",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR303",
+      "projectId": "barcelona-port",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR304",
+      "projectId": "barcelona-port",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR305",
+      "projectId": "barcelona-port",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR306",
+      "projectId": "barcelona-port",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR307",
+      "projectId": "barcelona-port",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR308",
+      "projectId": "barcelona-port",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR309",
+      "projectId": "barcelona-port",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR310",
+      "projectId": "barcelona-port",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR311",
+      "projectId": "celaya",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR312",
+      "projectId": "celaya",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR313",
+      "projectId": "celaya",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR314",
+      "projectId": "celaya",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR315",
+      "projectId": "celaya",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR316",
+      "projectId": "celaya",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR317",
+      "projectId": "celaya",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR318",
+      "projectId": "celaya",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR319",
+      "projectId": "celaya",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR320",
+      "projectId": "celaya",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR321",
+      "projectId": "palcacocha",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR322",
+      "projectId": "palcacocha",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR323",
+      "projectId": "palcacocha",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR324",
+      "projectId": "palcacocha",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR325",
+      "projectId": "palcacocha",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR326",
+      "projectId": "palcacocha",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR327",
+      "projectId": "palcacocha",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR328",
+      "projectId": "palcacocha",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR329",
+      "projectId": "palcacocha",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR330",
+      "projectId": "palcacocha",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR331",
+      "projectId": "bibai",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR332",
+      "projectId": "bibai",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR333",
+      "projectId": "bibai",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR334",
+      "projectId": "bibai",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR335",
+      "projectId": "bibai",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR336",
+      "projectId": "bibai",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR337",
+      "projectId": "bibai",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR338",
+      "projectId": "bibai",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR339",
+      "projectId": "bibai",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR340",
+      "projectId": "bibai",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR341",
+      "projectId": "ambite",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR342",
+      "projectId": "ambite",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR343",
+      "projectId": "ambite",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR344",
+      "projectId": "ambite",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR345",
+      "projectId": "ambite",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR346",
+      "projectId": "ambite",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR347",
+      "projectId": "ambite",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR348",
+      "projectId": "ambite",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR349",
+      "projectId": "ambite",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR350",
+      "projectId": "ambite",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR351",
+      "projectId": "opole",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR352",
+      "projectId": "opole",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR353",
+      "projectId": "opole",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR354",
+      "projectId": "opole",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR355",
+      "projectId": "opole",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR356",
+      "projectId": "opole",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR357",
+      "projectId": "opole",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR358",
+      "projectId": "opole",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR359",
+      "projectId": "opole",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR360",
+      "projectId": "opole",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR361",
+      "projectId": "wurzburg-emqport",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR362",
+      "projectId": "wurzburg-emqport",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR363",
+      "projectId": "wurzburg-emqport",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR364",
+      "projectId": "wurzburg-emqport",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR365",
+      "projectId": "wurzburg-emqport",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR366",
+      "projectId": "wurzburg-emqport",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR367",
+      "projectId": "wurzburg-emqport",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR368",
+      "projectId": "wurzburg-emqport",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR369",
+      "projectId": "wurzburg-emqport",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR370",
+      "projectId": "wurzburg-emqport",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR371",
+      "projectId": "tomakomai-refinery",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR372",
+      "projectId": "tomakomai-refinery",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR373",
+      "projectId": "tomakomai-refinery",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR374",
+      "projectId": "tomakomai-refinery",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR375",
+      "projectId": "tomakomai-refinery",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR376",
+      "projectId": "tomakomai-refinery",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR377",
+      "projectId": "tomakomai-refinery",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR378",
+      "projectId": "tomakomai-refinery",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR379",
+      "projectId": "tomakomai-refinery",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR380",
+      "projectId": "tomakomai-refinery",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR381",
+      "projectId": "network-rail-uk",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR382",
+      "projectId": "network-rail-uk",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR383",
+      "projectId": "network-rail-uk",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR384",
+      "projectId": "network-rail-uk",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR385",
+      "projectId": "network-rail-uk",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR386",
+      "projectId": "network-rail-uk",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR387",
+      "projectId": "network-rail-uk",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR388",
+      "projectId": "network-rail-uk",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR389",
+      "projectId": "network-rail-uk",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR390",
+      "projectId": "network-rail-uk",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR391",
+      "projectId": "gilboa-nypa",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR392",
+      "projectId": "gilboa-nypa",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR393",
+      "projectId": "gilboa-nypa",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR394",
+      "projectId": "gilboa-nypa",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR395",
+      "projectId": "gilboa-nypa",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR396",
+      "projectId": "gilboa-nypa",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR397",
+      "projectId": "gilboa-nypa",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR398",
+      "projectId": "gilboa-nypa",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR399",
+      "projectId": "gilboa-nypa",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR400",
+      "projectId": "gilboa-nypa",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR401",
+      "projectId": "teesside-terminal",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR402",
+      "projectId": "teesside-terminal",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR403",
+      "projectId": "teesside-terminal",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR404",
+      "projectId": "teesside-terminal",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR405",
+      "projectId": "teesside-terminal",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR406",
+      "projectId": "teesside-terminal",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR407",
+      "projectId": "teesside-terminal",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR408",
+      "projectId": "teesside-terminal",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR409",
+      "projectId": "teesside-terminal",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR410",
+      "projectId": "teesside-terminal",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR411",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR412",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR413",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR414",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR415",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR416",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR417",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR418",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR419",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR420",
+      "projectId": "antwerp-cargo-hub",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR421",
+      "projectId": "upper-darby-dfr",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR422",
+      "projectId": "upper-darby-dfr",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR423",
+      "projectId": "upper-darby-dfr",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR424",
+      "projectId": "upper-darby-dfr",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR425",
+      "projectId": "upper-darby-dfr",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR426",
+      "projectId": "upper-darby-dfr",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR427",
+      "projectId": "upper-darby-dfr",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR428",
+      "projectId": "upper-darby-dfr",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR429",
+      "projectId": "upper-darby-dfr",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR430",
+      "projectId": "upper-darby-dfr",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR431",
+      "projectId": "skybound-waterloo",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR432",
+      "projectId": "skybound-waterloo",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR433",
+      "projectId": "skybound-waterloo",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR434",
+      "projectId": "skybound-waterloo",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR435",
+      "projectId": "skybound-waterloo",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR436",
+      "projectId": "skybound-waterloo",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR437",
+      "projectId": "skybound-waterloo",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR438",
+      "projectId": "skybound-waterloo",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR439",
+      "projectId": "skybound-waterloo",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR440",
+      "projectId": "skybound-waterloo",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR441",
+      "projectId": "skybound-glasgow",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR442",
+      "projectId": "skybound-glasgow",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR443",
+      "projectId": "skybound-glasgow",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR444",
+      "projectId": "skybound-glasgow",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR445",
+      "projectId": "skybound-glasgow",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR446",
+      "projectId": "skybound-glasgow",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR447",
+      "projectId": "skybound-glasgow",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR448",
+      "projectId": "skybound-glasgow",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR449",
+      "projectId": "skybound-glasgow",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR450",
+      "projectId": "skybound-glasgow",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR451",
+      "projectId": "skybound-cardiff",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR452",
+      "projectId": "skybound-cardiff",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR453",
+      "projectId": "skybound-cardiff",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR454",
+      "projectId": "skybound-cardiff",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR455",
+      "projectId": "skybound-cardiff",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR456",
+      "projectId": "skybound-cardiff",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR457",
+      "projectId": "skybound-cardiff",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR458",
+      "projectId": "skybound-cardiff",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR459",
+      "projectId": "skybound-cardiff",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR460",
+      "projectId": "skybound-cardiff",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR461",
+      "projectId": "cincinnati-dfr",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR462",
+      "projectId": "cincinnati-dfr",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR463",
+      "projectId": "cincinnati-dfr",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR464",
+      "projectId": "cincinnati-dfr",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR465",
+      "projectId": "cincinnati-dfr",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR466",
+      "projectId": "cincinnati-dfr",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR467",
+      "projectId": "cincinnati-dfr",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR468",
+      "projectId": "cincinnati-dfr",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR469",
+      "projectId": "cincinnati-dfr",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR470",
+      "projectId": "cincinnati-dfr",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR471",
+      "projectId": "yonkers-nokia",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR472",
+      "projectId": "yonkers-nokia",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR473",
+      "projectId": "yonkers-nokia",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR474",
+      "projectId": "yonkers-nokia",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR475",
+      "projectId": "yonkers-nokia",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR476",
+      "projectId": "yonkers-nokia",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR477",
+      "projectId": "yonkers-nokia",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR478",
+      "projectId": "yonkers-nokia",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR479",
+      "projectId": "yonkers-nokia",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR480",
+      "projectId": "yonkers-nokia",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR481",
+      "projectId": "summerville-nokia",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR482",
+      "projectId": "summerville-nokia",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR483",
+      "projectId": "summerville-nokia",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR484",
+      "projectId": "summerville-nokia",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR485",
+      "projectId": "summerville-nokia",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR486",
+      "projectId": "summerville-nokia",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR487",
+      "projectId": "summerville-nokia",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR488",
+      "projectId": "summerville-nokia",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR489",
+      "projectId": "summerville-nokia",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR490",
+      "projectId": "summerville-nokia",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR491",
+      "projectId": "el-paso-dfr",
+      "scenario": "fetch-deadline-ignores-late-project",
+      "passed": true
+    },
+    {
+      "taskId": "PR492",
+      "projectId": "el-paso-dfr",
+      "scenario": "body-deadline-ignores-late-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR493",
+      "projectId": "el-paso-dfr",
+      "scenario": "retry-recovers-exact-project-json",
+      "passed": true
+    },
+    {
+      "taskId": "PR494",
+      "projectId": "el-paso-dfr",
+      "scenario": "late-original-cannot-overwrite-recovery",
+      "passed": true
+    },
+    {
+      "taskId": "PR495",
+      "projectId": "el-paso-dfr",
+      "scenario": "lookup-guards-repeated-retry-requests",
+      "passed": true
+    },
+    {
+      "taskId": "PR496",
+      "projectId": "el-paso-dfr",
+      "scenario": "latest-copy-failure-keeps-canonical-fallback",
+      "passed": true
+    },
+    {
+      "taskId": "PR497",
+      "projectId": "el-paso-dfr",
+      "scenario": "latest-copy-success-ignores-old-failure",
+      "passed": true
+    },
+    {
+      "taskId": "PR498",
+      "projectId": "el-paso-dfr",
+      "scenario": "clipboard-deadline-retains-clickable-canonical",
+      "passed": true
+    },
+    {
+      "taskId": "PR499",
+      "projectId": "el-paso-dfr",
+      "scenario": "json-export-status-supersedes-copy",
+      "passed": true
+    },
+    {
+      "taskId": "PR500",
+      "projectId": "el-paso-dfr",
+      "scenario": "failed-export-status-supersedes-copy",
+      "passed": true
+    }
+  ]
+}
