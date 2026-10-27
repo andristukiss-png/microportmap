@@ -36,7 +36,7 @@ window.addEventListener('load',async()=>{
   check(api.getCoordinateText('pair').includes('NOT an exact landing site'),'coordinate copy lost warning');
   const manual=root.querySelector('.mpl-manual'),text=root.querySelector('.mpl-manual-text'),message=root.querySelector('#mpl-message');
   const clipboardDescriptor=Object.getOwnPropertyDescriptor(navigator,'clipboard');
-  const create=URL.createObjectURL,originalFetch=window.fetch;
+  const create=URL.createObjectURL,originalFetch=window.fetch,originalTimeout=window.setTimeout;
   const clipboard=value=>Object.defineProperty(navigator,'clipboard',{configurable:true,value});
   try{
    URL.createObjectURL=()=>{throw Error('Test download failure');};
@@ -71,8 +71,19 @@ window.addEventListener('load',async()=>{
    for(let i=0;i<150&&api.getState().loading;i++)await delay(20);
    check(api.getState().ready&&api.getState().actions===10,'geographic retry did not recover');
    check(root.getAttribute('aria-busy')==='false','geographic loading indicator not cleared');
+   let lateReject;
+   window.fetch=(...args)=>String(args[0])==='/data/projects.json'?Promise.resolve({ok:true,json:()=>new Promise((_,reject)=>{lateReject=reject;})}):originalFetch.apply(window,args);
+   window.setTimeout=(fn,ms,...args)=>originalTimeout(fn,ms===12000?40:ms,...args);
+   retry.click();window.setTimeout=originalTimeout;
+   for(let i=0;i<100&&api.getState().loading;i++)await delay(20);
+   check(!api.getState().ready&&!retry.hidden&&!retry.disabled,'stalled response did not reach retry state');
+   window.fetch=originalFetch;retry.click();
+   for(let i=0;i<150&&api.getState().loading;i++)await delay(20);
+   check(api.getState().ready,'retry after stalled response failed');
+   lateReject(Error('Late response failure'));await delay(30);
+   check(api.getState().ready&&root.getAttribute('aria-busy')==='false','late response disturbed recovered state');
   }finally{
-   URL.createObjectURL=create;window.fetch=originalFetch;
+   URL.createObjectURL=create;window.fetch=originalFetch;window.setTimeout=originalTimeout;
    if(clipboardDescriptor)Object.defineProperty(navigator,'clipboard',clipboardDescriptor);else delete navigator.clipboard;
   }
   output.textContent='PASS: exact GeoJSON/KML fallback, focus/selection, superseded copy isolation and failed-load/retry recovery';
