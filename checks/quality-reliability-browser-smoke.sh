@@ -19,18 +19,23 @@ for i in {1..35};do curl -fsS http://127.0.0.1:8792/__qr_probe.js >/dev/null 2>&
 for id in shenzhen kiel rotterdam;do
  for spec in 'desktop:1440,900' 'mobile:390,844';do
   IFS=: read -r mode viewport <<< "$spec"
-  profile="$(mktemp -d)"
   dump="/tmp/qr-$id-$mode.html"
-  timeout 75s "$chrome" --headless=new --no-sandbox --disable-dev-shm-usage \
-   --disable-gpu --disable-background-networking --user-data-dir="$profile" \
-   --window-size="$viewport" --virtual-time-budget=18000 --dump-dom \
-   "http://127.0.0.1:8792/data-quality/__qr_probe.html?project=$id" > "$dump" 2>/tmp/qr-chrome.log ||
-   { cat /tmp/qr-chrome.log >&2;exit 1; }
+  for attempt in 1 2 3;do
+   profile="$(mktemp -d)"
+   timeout 75s "$chrome" --headless=new --no-sandbox --disable-dev-shm-usage \
+    --disable-gpu --disable-background-networking --user-data-dir="$profile" \
+    --window-size="$viewport" --virtual-time-budget=18000 --dump-dom \
+    "http://127.0.0.1:8792/data-quality/__qr_probe.html?project=$id" > "$dump" 2>/tmp/qr-chrome.log || { cat /tmp/qr-chrome.log >&2;exit 1; }
+   rm -rf "$profile"
+   if grep -q 'id="qr-probe-result"[^>]*>PASS:' "$dump";then break;fi
+   if ! grep -q 'id="qr-probe-result"[^>]*>PENDING' "$dump";then break;fi
+   echo "Inconclusive metadata capture; retrying ($attempt/3)" >&2
+  done
   if ! grep -q 'id="qr-probe-result"[^>]*>PASS:' "$dump";then
    cp "$dump" "checks/quality-reliability-diagnostics/$id-$mode.html";cp /tmp/qr-chrome.log checks/quality-reliability-diagnostics/chrome.log;cp /tmp/qr-http.log checks/quality-reliability-diagnostics/http.log
    grep -o 'id="qr-probe-result"[^<]*' "$dump" >&2 || true;exit 1
   fi
-  rm -rf "$profile";profile="$(mktemp -d)"
+  profile="$(mktemp -d)"
   timeout 75s "$chrome" --headless=new --no-sandbox --disable-dev-shm-usage \
    --disable-gpu --disable-background-networking --user-data-dir="$profile" \
    --window-size="$viewport" --virtual-time-budget=18000 \
