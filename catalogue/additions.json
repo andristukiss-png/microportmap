@@ -2471,9 +2471,319 @@
       "reviewNotes": "One network entry. Unnamed takeoff points, RIT-Dubai’s delivery point and later Silicon Central Mall hub reports require overlap review rather than automatic extra records.",
       "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
       "researchBatch": "2026-10-28-global-hubs-and-trials"
+    },
+    {
+      "id": "wing-christiansburg",
+      "name": "Wing North Christiansburg delivery nest",
+      "where": "North Christiansburg, Virginia, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Wing",
+      "reportedEquipment": "Wing delivery aircraft; model not stated in the cited report",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 37.13,
+        "longitude": -80.41
+      },
+      "reportDateLabel": "2019-10-18 source publication",
+      "description": "Wing describes a North Christiansburg nest supporting home deliveries for retail partners.",
+      "source": {
+        "name": "Wing",
+        "url": "https://wing.com/news/wing-launches-americas-first-commercial"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "wing-christiansburg",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2019-10-18",
+      "sourceType": "operator",
+      "reviewNotes": "One shared nest. FedEx, Walgreens and Sugar Magnolia partnerships and later restaurant pilots are not counted as separate bases. A launch report does not establish present service.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-community-logistics-and-testing"
+    },
+    {
+      "id": "aeronext-katsuura",
+      "name": "Katsuura Kazusa-Okitsu logistics depot",
+      "where": "Okitsu, Katsuura, Chiba, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "NEXT DELIVERY / Aeronext / Seino and local partners",
+      "reportedEquipment": "AirTruck",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 35.14,
+        "longitude": 140.25
+      },
+      "reportDateLabel": "2023-01-20 source publication",
+      "description": "Aeronext reports a SkyHub depot by Kazusa-Okitsu Station for local delivery services.",
+      "source": {
+        "name": "Aeronext",
+        "url": "https://aeronext.com/news/skyhubservices_startinkatsuura/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "aeronext-katsuura",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2023-01-20",
+      "sourceType": "operator",
+      "reviewNotes": "One depot. The report describes an initial January–March 2023 project period; its translated fiscal-year wording is inconsistent. Later citywide coverage and delivery destinations are not additional depots.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-community-logistics-and-testing"
+    },
+    {
+      "id": "aeronext-tsuruga-arachi",
+      "name": "Tsuruga Arachi temporary drone depot",
+      "where": "Arachi district, Tsuruga, Fukui, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "NEXT DELIVERY / Aeronext / Seino / Tsuruga City",
+      "reportedEquipment": "Logistics drone; model not stated in the cited report",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 35.65,
+        "longitude": 136.06
+      },
+      "reportDateLabel": "2022-01-24 source publication",
+      "description": "Aeronext describes a temporary depot at Arachi Community Center for a two-day delivery demonstration.",
+      "source": {
+        "name": "Aeronext",
+        "url": "https://aeronext.com/news/tsurugacity_poc/"
+      },
+      "verificationStatus": "Completed project in cited source; current operation not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "aeronext-tsuruga-arachi",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2022-01-24",
+      "sourceType": "operator",
+      "reviewNotes": "One temporary origin for the completed 20–21 January 2022 demonstration. Three temporary destination stands are not counted separately. Any subsequent permanent Tsuruga depot requires overlap review.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-community-logistics-and-testing"
+    },
+    {
+      "id": "aeronext-shintotsukawa",
+      "name": "Shintotsukawa SkyHub drone depot",
+      "where": "Shintotsukawa, Hokkaido, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "NEXT DELIVERY / Aeronext / Shintotsukawa Town",
+      "reportedEquipment": "AirTruck",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 43.55,
+        "longitude": 141.88
+      },
+      "reportDateLabel": "2024-07-26 source publication",
+      "description": "Aeronext reports a depot opening and an AirTruck demonstration from Miraie to the local campground.",
+      "source": {
+        "name": "Aeronext",
+        "url": "https://aeronext.co.jp/news/shintotsukawa_skyhubstart/"
+      },
+      "verificationStatus": "Source-reported trial; current operation not independently verified",
+      "reportedStatus": "trial",
+      "recordScope": "centre",
+      "entityKey": "aeronext-shintotsukawa",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2024-07-26",
+      "sourceType": "operator",
+      "reviewNotes": "One opened depot with a demonstrated route. Paid delivery services were scheduled for August 2024 in this report; the announcement does not prove they commenced. The campground destination is not another depot.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-community-logistics-and-testing"
+    },
+    {
+      "id": "nsanje-hospital-drone-hub",
+      "name": "Nsanje District Hospital medical-drone hub",
+      "where": "Nsanje, Malawi",
+      "country": "Malawi",
+      "region": "Africa",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Swoop Aero / Malawi health partners",
+      "reportedEquipment": "Swoop Aero aircraft; model not recorded for the evaluated hub",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": -16.92,
+        "longitude": 35.26
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "A UNICEF evaluation identifies the hospital takeoff and landing area as the main drone-operations hub.",
+      "source": {
+        "name": "UNICEF Malawi evaluation",
+        "url": "https://www.unicef.org/malawi/media/6716/file/Summative%2520evaluation%2520of%2520the%2520impact%2520of%2520using%2520drones%2520on%2520population%2520health%2520&%2520other%2520outcomes.pdf"
+      },
+      "verificationStatus": "Source-reported trial; current operation not independently verified",
+      "reportedStatus": "trial",
+      "recordScope": "hospital campus",
+      "entityKey": "nsanje-hospital-drone-hub",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One named hospital hub in the evaluated pilot. Served facilities and the Chikwawa district catchment are not added as separate hubs. Source location: PDF page 40, Figure 4 and preceding paragraph. Publication date not recorded.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-community-logistics-and-testing"
+    },
+    {
+      "id": "kasungu-humanitarian-testing",
+      "name": "Kasungu Aerodrome humanitarian drone-testing base",
+      "where": "Kasungu, Malawi",
+      "country": "Malawi",
+      "region": "Africa",
+      "infrastructureType": "Research site",
+      "reportedOperator": "Government of Malawi / UNICEF and participating operators",
+      "reportedEquipment": "Multiple participating UAV systems; no single model specified",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": -13.03,
+        "longitude": 33.48
+      },
+      "reportDateLabel": "2017-06-29 source publication",
+      "description": "UNICEF describes a humanitarian drone-testing corridor centred on Kasungu Aerodrome.",
+      "source": {
+        "name": "UNICEF",
+        "url": "https://www.unicef.org/press-releases/africas-first-humanitarian-drone-testing-corridor-launched-malawi-government"
+      },
+      "verificationStatus": "Source-reported trial; current operation not independently verified",
+      "reportedStatus": "trial",
+      "recordScope": "test-site",
+      "entityKey": "kasungu-humanitarian-testing",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2017-06-29",
+      "sourceType": "research",
+      "reviewNotes": "One aerodrome-centred testing programme. The corridor area, participating companies and surrounding communities are not individual microports. This 2017 report does not establish current access or operations.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-community-logistics-and-testing"
+    },
+    {
+      "id": "dillons-bay-vaccine-trial",
+      "name": "Dillon’s Bay vaccine-delivery trial origin",
+      "where": "Dillon’s Bay, Erromango, Vanuatu",
+      "country": "Vanuatu",
+      "region": "Oceania",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Swoop Aero / Vanuatu Ministry of Health with UNICEF support",
+      "reportedEquipment": "Swoop Aero delivery drone; model not stated in the cited report",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": -18.82,
+        "longitude": 169.01
+      },
+      "reportDateLabel": "2018-12-18 source publication",
+      "description": "UNICEF reports a vaccine-delivery flight from Dillon’s Bay to Cook’s Bay on Erromango.",
+      "source": {
+        "name": "UNICEF",
+        "url": "https://www.unicef.org/press-releases/child-given-worlds-first-drone-delivered-vaccine-vanuatu-unicef"
+      },
+      "verificationStatus": "Source-reported trial; current operation not independently verified",
+      "reportedStatus": "trial",
+      "recordScope": "trial-site",
+      "entityKey": "dillons-bay-vaccine-trial",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2018-12-18",
+      "sourceType": "research",
+      "reviewNotes": "One named origin and its trial programme. Cook’s Bay is a recipient location, not a separately documented base. Other Vanuatu islands or contractors are not counted from this flight report.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-community-logistics-and-testing"
+    },
+    {
+      "id": "abu-dhabi-skygo-matternet",
+      "name": "Abu Dhabi SkyGo–Matternet medical network proposal",
+      "where": "Abu Dhabi, United Arab Emirates",
+      "country": "United Arab Emirates",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "SkyGo / Matternet / Abu Dhabi Department of Health",
+      "reportedEquipment": "Matternet drone system; model not stated in the cited report",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 24.45,
+        "longitude": 54.38
+      },
+      "reportDateLabel": "2021-09-22 source publication",
+      "description": "Matternet announced a medical-delivery network after a sample-transport demonstration in Abu Dhabi.",
+      "source": {
+        "name": "Matternet",
+        "url": "https://investor.matternet.com/news-events/press-releases/detail/103/matternet-and-skygo-partner-with-abu-dhabi-doh-for-worlds-first-city-wide-medical-drone-network"
+      },
+      "verificationStatus": "Announced network in cited source; implementation not independently verified",
+      "reportedStatus": "announced",
+      "recordScope": "network",
+      "entityKey": "abu-dhabi-skygo-matternet",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2021-09-22",
+      "sourceType": "operator",
+      "reviewNotes": "One proposed network, not the 40 planned droneports. Zayed Sports City demonstration and unnamed laboratory endpoints are not additional records. Later SkyGo or LODD healthcare deployments need overlap review.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-community-logistics-and-testing"
+    },
+    {
+      "id": "orlando-police-dfr",
+      "name": "Orlando Police permanent drone-dock network",
+      "where": "Orlando, Florida, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Public safety dock",
+      "reportedOperator": "Orlando Police Department",
+      "reportedEquipment": "Skydio X10 DFR drones and permanent docking stations",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 28.54,
+        "longitude": -81.38
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "The city describes permanent docks supporting police drone responses to emergency calls.",
+      "source": {
+        "name": "City of Orlando",
+        "url": "https://www.orlando.gov/Our-Government/Departments-Offices/Transportation/Drone-Delivery-in-Orlando"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "network",
+      "entityKey": "orlando-police-dfr",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "One citywide police network. The source does not identify each dock address. This public-safety infrastructure is separate from Wing retail delivery discussed on the same page.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-community-logistics-and-testing"
+    },
+    {
+      "id": "inhambane-medical-drone-study",
+      "name": "Inhambane medical-sample drone study network",
+      "where": "Inhambane Province, Mozambique",
+      "country": "Mozambique",
+      "region": "Africa",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Swoop Aero / VillageReach / Mozambique health partners",
+      "reportedEquipment": "Swoop Aero delivery aircraft; model not specified on the project page",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": -23.86,
+        "longitude": 35.38
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "VillageReach describes a completed medical-sample transport study using two drone hubs in Inhambane Province.",
+      "source": {
+        "name": "VillageReach",
+        "url": "https://www.villagereach.org/project/drones-for-health-in-mozambique/"
+      },
+      "verificationStatus": "Completed project in cited source; current operation not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "network",
+      "entityKey": "inhambane-medical-drone-study",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "One completed provincial study network. Two unnamed hubs and six served facilities are not converted into separate records. Point represents the provincial locality, not either hub. Project page marks the study complete; publication date not recorded.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-community-logistics-and-testing"
     }
   ],
-  "expectedTotal": 130,
+  "expectedTotal": 140,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -2568,6 +2878,21 @@
         "dhl-reit-im-winkl",
         "dronamics-balchik",
         "dubai-silicon-oasis-keeta"
+      ]
+    },
+    {
+      "id": "2026-10-28-community-logistics-and-testing",
+      "recordIds": [
+        "wing-christiansburg",
+        "aeronext-katsuura",
+        "aeronext-tsuruga-arachi",
+        "aeronext-shintotsukawa",
+        "nsanje-hospital-drone-hub",
+        "kasungu-humanitarian-testing",
+        "dillons-bay-vaccine-trial",
+        "abu-dhabi-skygo-matternet",
+        "orlando-police-dfr",
+        "inhambane-medical-drone-study"
       ]
     }
   ]
