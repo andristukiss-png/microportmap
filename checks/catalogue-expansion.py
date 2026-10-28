@@ -24,7 +24,16 @@ assert latest==batch['releases'][2]['recordIds'] and len(latest)==30
 fourth=json.loads((ROOT/'catalogue/fourth-batch-ids.json').read_text())
 assert fourth==batch['releases'][3]['recordIds'] and len(fourth)==10
 fifth=json.loads((ROOT/'catalogue/fifth-batch-ids.json').read_text())
-assert fifth==batch['releases'][-1]['recordIds'] and len(fifth)==10
+assert fifth==batch['releases'][4]['recordIds'] and len(fifth)==10
+sixth=json.loads((ROOT/'catalogue/sixth-batch-ids.json').read_text())
+assert sixth==batch['releases'][-1]['recordIds'] and len(sixth)==30
+prior150=json.loads((ROOT/'catalogue/prior-150-preservation.json').read_text())
+assert len(prior150)==100
+for id,digest in prior150.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 150-record release changed'
+for id in ['wing-walmart-charlotte-callabridge','wing-walmart-charlotte-independence','wing-nrh-bisd','zipline-dallas-forest','harford-county-dfr']:
+ assert next(p for p in additions if p['id']==id)['reportedStatus']=='announced'
 prior140=json.loads((ROOT/'catalogue/prior-140-preservation.json').read_text())
 assert len(prior140)==90
 for id,digest in prior140.items():
