@@ -30,7 +30,20 @@ assert sixth==batch['releases'][5]['recordIds'] and len(sixth)==30
 seventh=json.loads((ROOT/'catalogue/seventh-batch-ids.json').read_text())
 assert seventh==batch['releases'][6]['recordIds'] and len(seventh)==30
 eighth=json.loads((ROOT/'catalogue/eighth-batch-ids.json').read_text())
-assert eighth==batch['releases'][-1]['recordIds'] and len(eighth)==30
+assert eighth==batch['releases'][7]['recordIds'] and len(eighth)==30
+ninth=json.loads((ROOT/'catalogue/ninth-batch-ids.json').read_text())
+assert ninth==batch['releases'][-1]['recordIds'] and len(ninth)==10
+prior240=json.loads((ROOT/'catalogue/prior-240-preservation.json').read_text())
+assert len(prior240)==190
+for id,digest in prior240.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 240-record release changed'
+ninth_rows=[p for p in additions if p['id'] in ninth]
+houston=[p for p in ninth_rows if p['id'].startswith('wing-houston-')]
+assert len(houston)==8 and len({p['where'] for p in houston})==8
+assert all(p['reportedStatus']=='reported-operation' for p in houston)
+assert next(p for p in ninth_rows if p['id']=='zipline-denton-university')['reportedStatus']=='announced'
+assert next(p for p in ninth_rows if p['id']=='zipline-rowlett-network')['recordScope']=='network'
 prior210=json.loads((ROOT/'catalogue/prior-210-preservation.json').read_text())
 assert len(prior210)==160
 for id,digest in prior210.items():
