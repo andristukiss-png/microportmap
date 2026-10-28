@@ -26,7 +26,7 @@ def validate(seed, additions):
   signature=(p['name'].casefold(),p['where'].casefold())
   assert signature not in signatures, 'Duplicate project name and locality'
   assert p['reportedStatus'] in STATUS and p['recordScope'] and p['reviewNotes']
-  assert p['sourceType'] in {'government','operator','hospital','research'}
+  assert p['sourceType'] in {'government','operator','hospital','research','news'}
   assert safe_url(p['source']['url']) and p['source']['name']
   date.fromisoformat(p['sourceReviewedAt'])
   if p['sourcePublishedAt']:assert date.fromisoformat(p['sourcePublishedAt'])<=date.fromisoformat(p['sourceReviewedAt'])
