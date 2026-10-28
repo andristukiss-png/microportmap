@@ -83,7 +83,7 @@
     const close=button('Close ✕',dismiss,'mpx-close');
     const heading=make('h2','','Find a research project');heading.id='mpx-search-title';
     add(top,[heading,close]);
-    const intro=make('p','mpx-note','Search the 50 public research references by place, project, type or reported operator. These are not verified landing sites.');
+    const intro=make('p','mpx-note','Search public research references by place, project, type or reported operator. These are not verified landing sites.');
     const search=make('input','mpx-search-field');
     search.id='mpx-search-field';search.type='search';search.placeholder='Try Kiel, cargo, Chile…';
     search.autocomplete='off';search.setAttribute('aria-label','Find research projects');
@@ -207,7 +207,7 @@
       make('p','mpx-note','Start with a reported country, region or infrastructure type. Every shortcut leads to the source-linked directory.')]);
     const groups=make('div','mpx-home-groups');
     const actions=make('div','mpx-home-actions');
-    add(actions,[link('Browse all 50 records','/directory/','mpx-action'),
+    add(actions,[link('Browse all research records','/directory/','mpx-action'),
       link('Check research limitations','/data-quality/','mpx-link'),
       link('Read the methodology','/methodology/','mpx-link')]);
     add(root,[top,groups,actions]);stats.insertAdjacentElement('afterend',root);
@@ -353,7 +353,7 @@
       if(!n)active.appendChild(make('span','mpx-muted','No filters selected'));
       const rows=window.mpFilteredRecords;
       summary.textContent=Array.isArray(rows)
-        ?rows.length+' of 50 reported projects shown. Refine or clear filters above.'
+        ?rows.length+' reported projects shown. Refine or clear filters above.'
         :'Waiting for research records…';
     }
     window.addEventListener('mp-directory-state',event=>{

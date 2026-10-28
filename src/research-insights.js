@@ -20,7 +20,7 @@ const intro=make('header','mpi-intro');
 const text=make('div','mpi-intro-copy');
 text.append(make('p','mpi-eyebrow','RESEARCH COVERAGE / INTERACTIVE'),
  make('h2','','What does the research actually cover?'),
- make('p','mpi-intro-text','Explore the 50 published research references by place, infrastructure, region and source report year. These are reports, not independently verified operational facilities.'));
+ make('p','mpi-intro-text','Explore published research references by place, infrastructure, region and source report year. These are reports, not independently verified operational facilities.'));
 text.querySelector('h2').id='mpi-title';
 intro.append(text,a('Browse all project records','/directory/','mpi-primary'));
 const stats=make('div','mpi-stats');stats.id='mpi-stats';
@@ -254,9 +254,9 @@ async function load(){
  try{
   const deadline=new Promise((_,reject)=>{timer=setTimeout(()=>{controller.abort();reject(Error('Insights lookup timed out'));},15000);});
   const data=await Promise.race([deadline,(async()=>{const response=await fetch('/data/projects.json',{signal:controller.signal});if(!response.ok)throw Error('Fetch failed');return response.json();})()]);
-  if(!Array.isArray(data.records)||data.records.length!==50||
+  if(!Array.isArray(data.records)||data.records.length<50||
    data.records.some(p=>!p||typeof p.id!=='string'||!/^[a-z0-9-]+$/.test(p.id)||typeof p.name!=='string'||!p.name.trim())||
-   new Set(data.records.map(p=>p.id)).size!==50)throw Error('Invalid catalog');
+   new Set(data.records.map(p=>p.id)).size!==data.records.length)throw Error('Invalid catalog');
   all=data.records.slice();loaded=true;readLink();fillOptions();updateInputs();controls(true);setDisplay('count');setOrder('count');filter();
   document.documentElement.dataset.mpInsightsLoaded='1';
  }catch{loaded=false;all=[];match=[];controls(false);stats.replaceChildren();charts.replaceChildren();cards.replaceChildren();error.hidden=false;summary.textContent='Research insights are currently unavailable.';}

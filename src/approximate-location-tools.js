@@ -198,9 +198,9 @@ function load(){
   if(!response.ok)throw Error('Catalogue unavailable');return response.json();
  })()]).then(data=>{
   const records=data?.records;
-  if(!Array.isArray(records)||records.length!==50||
+  if(!Array.isArray(records)||records.length<50||
     records.some(p=>!p||typeof p.id!=='string'||!/^[a-z0-9-]+$/.test(p.id)||typeof p.name!=='string'||!p.name.trim())||
-    new Set(records.map(p=>p.id)).size!==50)throw Error('Invalid catalogue');
+    new Set(records.map(p=>p.id)).size!==records.length)throw Error('Invalid catalogue');
   record=records.find(p=>p.id===id);
   if(!record)throw Error('Project unavailable');
   point=pointOf(record);draw();

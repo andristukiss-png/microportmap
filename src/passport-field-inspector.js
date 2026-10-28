@@ -111,8 +111,8 @@ function load(){
   if(!response.ok)throw Error('Catalogue unavailable');return response.json();
  })()]).then(data=>{
   const rows=data?.records;
-  if(!Array.isArray(rows)||rows.length!==50||rows.some(p=>!p||typeof p.id!=='string'||!/^[a-z0-9-]+$/.test(p.id)||typeof p.name!=='string'||!p.name.trim())||
-   new Set(rows.map(p=>p.id)).size!==50)throw Error('Invalid catalogue');
+  if(!Array.isArray(rows)||rows.length<50||rows.some(p=>!p||typeof p.id!=='string'||!/^[a-z0-9-]+$/.test(p.id)||typeof p.name!=='string'||!p.name.trim())||
+   new Set(rows.map(p=>p.id)).size!==rows.length)throw Error('Invalid catalogue');
   record=rows.find(p=>p.id===id);if(!record)throw Error('Project not in catalogue');
   render();
  }).catch(()=>{ready=false;record=null;grid.replaceChildren();root.dataset.mpfReady='false';summary.textContent='Field inspector temporarily unavailable';retry.hidden=false;status.textContent='The original passport remains available.';})

@@ -271,9 +271,9 @@ function load(){
  .then(r=>{if(!r.ok)throw Error('Research catalogue unavailable');return r.json();})
  .then(data=>{
   const rows=data?.records;
-  if(!Array.isArray(rows)||rows.length!==50||
+  if(!Array.isArray(rows)||rows.length<50||
     rows.some(p=>!p||typeof p.id!=='string'||!/^[a-z0-9-]+$/.test(p.id)||typeof p.name!=='string'||!p.name.trim())||
-    new Set(rows.map(p=>p.id)).size!==50)throw Error('Invalid published catalogue');
+    new Set(rows.map(p=>p.id)).size!==rows.length)throw Error('Invalid published catalogue');
   all=rows.slice();primary=all.find(p=>p.id===primaryId);
   if(!primary)throw Error('Passport not in published catalogue');
   ready=true;query.disabled=sortSelect.disabled=false;

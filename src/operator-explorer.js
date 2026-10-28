@@ -25,7 +25,7 @@ const panel=create('section','mpo-explorer');panel.id='mpo-explorer';panel.setAt
 const intro=create('div','mpo-intro');
 const title=create('h2','','Explore reported operators');title.id='mpo-title';
 intro.append(create('p','mpo-kicker','OPERATORS / ORIGINAL SOURCE ATTRIBUTIONS'),title,
- create('p','mpo-lede','Browse exact operator attribution labels from the 50 research records. Some labels contain multiple named parties; we do not split them into independent companies or infer partnerships, ownership or operations.'));
+ create('p','mpo-lede','Browse exact operator attribution labels from the published research records. Some labels contain multiple named parties; we do not split them into independent companies or infer partnerships, ownership or operations.'));
 const metrics=create('div','mpo-metrics');metrics.id='mpo-metrics';
 const filters=create('div','mpo-filters');
 const searchLabel=create('label','mpo-field');searchLabel.append(create('span','','Find reported operators'));
@@ -325,9 +325,9 @@ async function load(){
  try{
   const deadline=new Promise((_,reject)=>{timer=setTimeout(()=>{controller.abort();reject(Error('Operator lookup timed out'));},15000);});
   const data=await Promise.race([deadline,(async()=>{const response=await fetch('/data/projects.json',{signal:controller.signal});if(!response.ok)throw Error('Unavailable');return response.json();})()]);
-  if(!Array.isArray(data.records)||data.records.length!==50||
+  if(!Array.isArray(data.records)||data.records.length<50||
    data.records.some(p=>!p||typeof p.id!=='string'||!/^[a-z0-9-]+$/.test(p.id)||typeof p.name!=='string'||!p.name.trim())||
-   new Set(data.records.map(p=>p.id)).size!==50)throw Error('Invalid dataset');
+   new Set(data.records.map(p=>p.id)).size!==data.records.length)throw Error('Invalid dataset');
   all=data.records.slice();operators=group(all,p=>val(p,'reportedOperator'));
   restore();setupSelects();ready=true;controls(true);render();document.body.classList.add('mpo-loaded');document.documentElement.dataset.mpoLoaded='1';
  }catch{clearData();err.hidden=false;status.textContent='Could not load published operator data.';}
