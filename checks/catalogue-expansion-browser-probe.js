@@ -33,9 +33,9 @@
    if(['zipline-kisumu','wing-walmart-942','abu-dhabi-skygo-matternet'].includes(id))check(document.querySelector('.hero').textContent.includes('Announced / planned'),'Proposed hub presented as operating');
    await wait(()=>window.MicroportFields?.getState().ready&&window.MicroportLocation?.getState().ready&&window.MicroportPassportToolkit?.getState().loaded&&window.MicroportReview?.getState().ready&&window.MicroportQuickNav?.getState().ready&&window.MicroportEvidenceCompare?.getState().ready&&window.MicroportContrast?.getState().ready);
    check(window.MicroportFields.getState().projectId===id,'Wrong project loaded');
-   if(id==='aeronext-shintotsukawa')check(document.querySelector('.hero').textContent.includes('Trial in cited source'),'Demonstration presented as regular service');
+   if(['aeronext-shintotsukawa','aeronext-sakai','shinshiro-sakude-trial','nara-tsukigase-ono-ono','nara-yagyu-school','japan-post-okutama','japan-post-izushi','japan-post-iruka'].includes(id))check(document.querySelector('.hero').textContent.includes('Trial in cited source'),'Demonstration presented as regular service');
    const record=catalogue.records.find(p=>p.id===id);
-   if(record.researchBatch==='2026-10-28-community-logistics-and-testing'){
+   if(['2026-10-28-community-logistics-and-testing','2026-10-28-japan-depots-and-postal-trials'].includes(record.researchBatch)){
     check(document.querySelector('h1').textContent===record.name,'New passport identity mismatch');
     check([...document.querySelectorAll('a')].some(a=>a.href===record.source.url),'New source link lost');
     check(document.querySelector('main').textContent.includes(record.reviewNotes),'New counting limitation lost');

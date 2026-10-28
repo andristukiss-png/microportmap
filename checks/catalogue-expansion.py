@@ -22,7 +22,16 @@ assert second==batch['releases'][1]['recordIds'] and len(second)==40
 latest=json.loads((ROOT/'catalogue/third-batch-ids.json').read_text())
 assert latest==batch['releases'][2]['recordIds'] and len(latest)==30
 fourth=json.loads((ROOT/'catalogue/fourth-batch-ids.json').read_text())
-assert fourth==batch['releases'][-1]['recordIds'] and len(fourth)==10
+assert fourth==batch['releases'][3]['recordIds'] and len(fourth)==10
+fifth=json.loads((ROOT/'catalogue/fifth-batch-ids.json').read_text())
+assert fifth==batch['releases'][-1]['recordIds'] and len(fifth)==10
+prior140=json.loads((ROOT/'catalogue/prior-140-preservation.json').read_text())
+assert len(prior140)==90
+for id,digest in prior140.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 140-record release changed'
+for id in ['aeronext-sakai','shinshiro-sakude-trial','nara-tsukigase-ono-ono','nara-yagyu-school','japan-post-okutama','japan-post-izushi','japan-post-iruka']:
+ assert next(p for p in additions if p['id']==id)['reportedStatus']=='trial'
 prior130=json.loads((ROOT/'catalogue/prior-130-preservation.json').read_text())
 assert len(prior130)==80
 for id,digest in prior130.items():

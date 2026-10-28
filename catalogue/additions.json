@@ -2781,9 +2781,319 @@
       "reviewNotes": "One completed provincial study network. Two unnamed hubs and six served facilities are not converted into separate records. Point represents the provincial locality, not either hub. Project page marks the study complete; publication date not recorded.",
       "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
       "researchBatch": "2026-10-28-community-logistics-and-testing"
+    },
+    {
+      "id": "aeronext-sakai",
+      "name": "Sakai logistics depot and delivery trial",
+      "where": "Sakai, Ibaraki, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "NEXT DELIVERY / Aeronext / Sakai Town",
+      "reportedEquipment": "AirTruck",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 36.11,
+        "longitude": 139.8
+      },
+      "reportDateLabel": "2023-03-06 source publication",
+      "description": "NEXT DELIVERY reports an opened Sakai depot and a food-delivery demonstration.",
+      "source": {
+        "name": "Aeronext",
+        "url": "https://aeronext.com/news/sakaitown_poc/"
+      },
+      "verificationStatus": "Source-reported trial; current operation not independently verified",
+      "reportedStatus": "trial",
+      "recordScope": "centre",
+      "entityKey": "aeronext-sakai",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2023-03-06",
+      "sourceType": "operator",
+      "reviewNotes": "One depot-led programme. The trial used a van transfer to a former gateball field before flight; the depot is not claimed as the aircraft launch pad. Restaurants, transfer field and recipients are not extra records.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-japan-depots-and-postal-trials"
+    },
+    {
+      "id": "aeronext-kawanehoncho",
+      "name": "Kawanehoncho former-school logistics depot",
+      "where": "Kawanehoncho, Shizuoka, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "NEXT DELIVERY / Aeronext / Alfresa and Kawanehoncho partners",
+      "reportedEquipment": "AirTruck",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 35.05,
+        "longitude": 138.08
+      },
+      "reportDateLabel": "2025-04-23 source publication",
+      "description": "Aeronext reports a depot at the former Nakakawane South Elementary School and the start of regular medicine deliveries.",
+      "source": {
+        "name": "Aeronext",
+        "url": "https://aeronext.com/news/kawanehoncho_medicalstart/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "aeronext-kawanehoncho",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2025-04-23",
+      "sourceType": "operator",
+      "reviewNotes": "One depot linking ground and drone logistics. The school’s evacuation role, shopping services and medical deliveries are uses of the same base, not separate ports. Recipient medical institutions are not extra origins.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-japan-depots-and-postal-trials"
+    },
+    {
+      "id": "shinshiro-sakude-trial",
+      "name": "Shinshiro A Coop Sakude trial depot",
+      "where": "Sakude, Shinshiro, Aichi, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "NEXT DELIVERY / Green Service with Prodrone and Seino partners",
+      "reportedEquipment": "PD4B-M-AN and AirTruck",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 35.0,
+        "longitude": 137.42
+      },
+      "reportDateLabel": "2025-12-02 source publication",
+      "description": "Prodrone describes a temporary logistics depot at A Coop Sakude for a drone-delivery study.",
+      "source": {
+        "name": "Prodrone",
+        "url": "https://www.prodrone.com/en/news/10205"
+      },
+      "verificationStatus": "Source-reported trial; current operation not independently verified",
+      "reportedStatus": "trial",
+      "recordScope": "trial-site",
+      "entityKey": "shinshiro-sakude-trial",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2025-12-02",
+      "sourceType": "operator",
+      "reviewNotes": "One study origin. Six receiving stands and remote management from the existing Kosuge base are not additional depots. The report schedules a November–December 2025 study; continued service is not established.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-japan-depots-and-postal-trials"
+    },
+    {
+      "id": "nara-tsukigase-ono-ono",
+      "name": "Nara Tsukigase ONOONO temporary depot",
+      "where": "Tsukigase, Nara, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "NEXT DELIVERY / Aeronext / KDDI SmartDrone",
+      "reportedEquipment": "AirTruck",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 34.7,
+        "longitude": 136.04
+      },
+      "reportDateLabel": "2023-02-27 source publication",
+      "description": "Aeronext identifies ONOONO as a temporary depot for a Tsukigase delivery demonstration.",
+      "source": {
+        "name": "Aeronext",
+        "url": "https://aeronext.com/news/naracity_poc/"
+      },
+      "verificationStatus": "Source-reported trial; current operation not independently verified",
+      "reportedStatus": "trial",
+      "recordScope": "trial-site",
+      "entityKey": "nara-tsukigase-ono-ono",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2023-02-27",
+      "sourceType": "operator",
+      "reviewNotes": "One explicitly named origin. The separately named former Yagyu Junior High School is another origin in the same trial; destination parking areas and homes are not ports.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-japan-depots-and-postal-trials"
+    },
+    {
+      "id": "nara-yagyu-school",
+      "name": "Nara former Yagyu school temporary depot",
+      "where": "Yagyu, Nara, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "NEXT DELIVERY / Aeronext / KDDI SmartDrone",
+      "reportedEquipment": "AirTruck",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 34.73,
+        "longitude": 135.96
+      },
+      "reportDateLabel": "2023-02-27 source publication",
+      "description": "Aeronext identifies the former Yagyu Junior High School as a temporary delivery depot.",
+      "source": {
+        "name": "Aeronext",
+        "url": "https://aeronext.com/news/naracity_poc/"
+      },
+      "verificationStatus": "Source-reported trial; current operation not independently verified",
+      "reportedStatus": "trial",
+      "recordScope": "trial-site",
+      "entityKey": "nara-yagyu-school",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2023-02-27",
+      "sourceType": "operator",
+      "reviewNotes": "One explicitly named school origin, distinct from ONOONO in Tsukigase. Both belong to the February 2023 Nara trial. Recipient homes and later trial dates are not additional depots.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-japan-depots-and-postal-trials"
+    },
+    {
+      "id": "aeronext-komatsu",
+      "name": "Komatsu Honobono Shoto logistics depot",
+      "where": "Shoto district, Komatsu, Ishikawa, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "NEXT DELIVERY / Aeronext / Seino and Komatsu City",
+      "reportedEquipment": "Delivery drones; model not stated on the cited case-study page",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 36.4,
+        "longitude": 136.45
+      },
+      "reportDateLabel": "March 2024 service snapshot; publication date not recorded",
+      "description": "Aeronext describes the Honobono Shoto depot and drone-delivery services in Komatsu.",
+      "source": {
+        "name": "Aeronext",
+        "url": "https://aeronext.co.jp/achievements/startinkomatsu/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "aeronext-komatsu",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "One named logistics depot. Ten stands and ten routes in the March 2024 case-study snapshot are not ten depots. Distinct from the original Ishikawa prefectural Skydio dock rollout, which describes a different operator and purpose.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-japan-depots-and-postal-trials"
+    },
+    {
+      "id": "ina-hase-droneport",
+      "name": "Ina Minami Alps Mura Hase delivery droneport",
+      "where": "Hase, Ina, Nagano, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Ina City and local delivery-service partners",
+      "reportedEquipment": "Delivery drone; model not stated on the cited city page",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 35.75,
+        "longitude": 138.08
+      },
+      "reportDateLabel": "2021-11-16 source update; original publication date not recorded",
+      "description": "Ina City describes a delivery droneport at the Minami Alps Mura Hase roadside station.",
+      "source": {
+        "name": "Ina City",
+        "url": "https://www.inacity.jp/shisei/inashiseisakusesaku/shinsangyougijutu/dronekatuyou/174kija2021111716.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "ina-hase-droneport",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "One named origin. Route extensions and the Ichinose and Sugishima service areas are not extra bases. The page distinguishes a 2020 service start from a 2021 network expansion. Current continuation is unverified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-japan-depots-and-postal-trials"
+    },
+    {
+      "id": "japan-post-okutama",
+      "name": "Okutama Post Office rooftop delivery trial",
+      "where": "Okutama, Tokyo, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Japan Post / ACSL",
+      "reportedEquipment": "ACSL PF2-CAT3",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 35.81,
+        "longitude": 139.1
+      },
+      "reportDateLabel": "2023-06-22 source publication",
+      "description": "Japan Post describes a rooftop launch from Okutama Post Office for a household-delivery trial.",
+      "source": {
+        "name": "Japan Post JP CAST",
+        "url": "https://www.jpcast.japanpost.jp/articles/350"
+      },
+      "verificationStatus": "Source-reported trial; current operation not independently verified",
+      "reportedStatus": "trial",
+      "recordScope": "trial-site",
+      "entityKey": "japan-post-okutama",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2023-06-22",
+      "sourceType": "operator",
+      "reviewNotes": "One postal origin. Earlier Okutama trial phases and recipient homes are not extra ports. This retrospective describes the March 2023 flight; it does not establish a routine delivery service.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-japan-depots-and-postal-trials"
+    },
+    {
+      "id": "japan-post-izushi",
+      "name": "Izushi Post Office delivery trial origin",
+      "where": "Izushi, Toyooka, Hyogo, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Japan Post",
+      "reportedEquipment": "ACSL PF-2 Delivery",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 35.46,
+        "longitude": 134.87
+      },
+      "reportDateLabel": "2023-12-21 source update; describes 2023-12-18 trial",
+      "description": "Toyooka reports a drone delivery from Izushi Post Office to the Okuyane community hall.",
+      "source": {
+        "name": "Toyooka City",
+        "url": "https://www.city.toyooka.lg.jp/shisei/kohokocho/news/1026005/1028380.html"
+      },
+      "verificationStatus": "Source-reported trial; current operation not independently verified",
+      "reportedStatus": "trial",
+      "recordScope": "trial-site",
+      "entityKey": "japan-post-izushi",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "One postal origin for the December 2023 trial. The recipient community hall is not a second origin. Subsequent Izushi trial campaigns and aircraft upgrades require overlap review.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-japan-depots-and-postal-trials"
+    },
+    {
+      "id": "japan-post-iruka",
+      "name": "Iruka Post Office household-delivery trial",
+      "where": "Kiwa, Kumano, Mie, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Japan Post",
+      "reportedEquipment": "Delivery drone; model not specified in the cited chronology",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 33.88,
+        "longitude": 135.92
+      },
+      "reportDateLabel": "December 2022 trial in operator chronology; publication date not recorded",
+      "description": "Japan Post records household-delivery trials at Iruka Post Office in December 2022.",
+      "source": {
+        "name": "Japan Post",
+        "url": "https://www.post.japanpost.jp/about/csr/society/"
+      },
+      "verificationStatus": "Source-reported trial; current operation not independently verified",
+      "reportedStatus": "trial",
+      "recordScope": "trial-site",
+      "entityKey": "japan-post-iruka",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "One named postal origin from the operator’s chronology. Kizuro delivery destinations and disaster-support demonstrations in the same campaign are not additional bases. The source does not establish routine service.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-japan-depots-and-postal-trials"
     }
   ],
-  "expectedTotal": 140,
+  "expectedTotal": 150,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -2893,6 +3203,21 @@
         "abu-dhabi-skygo-matternet",
         "orlando-police-dfr",
         "inhambane-medical-drone-study"
+      ]
+    },
+    {
+      "id": "2026-10-28-japan-depots-and-postal-trials",
+      "recordIds": [
+        "aeronext-sakai",
+        "aeronext-kawanehoncho",
+        "shinshiro-sakude-trial",
+        "nara-tsukigase-ono-ono",
+        "nara-yagyu-school",
+        "aeronext-komatsu",
+        "ina-hase-droneport",
+        "japan-post-okutama",
+        "japan-post-izushi",
+        "japan-post-iruka"
       ]
     }
   ]
