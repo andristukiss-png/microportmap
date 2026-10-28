@@ -25,7 +25,7 @@ window.addEventListener('load',async()=>{
   must(root.querySelector('#mpp-status').textContent.includes('citation'),'copy citation feedback missing: '+root.querySelector('#mpp-status').textContent.slice(0,140));
   must(root.dataset.mppLoaded==='true','enhancement state missing');
   const api=window.MicroportPassportToolkit,retry=root.querySelector('.mpp-retry');
-  const descriptor=Object.getOwnPropertyDescriptor(navigator,'clipboard'),originalFetch=window.fetch,create=URL.createObjectURL;
+  const descriptor=Object.getOwnPropertyDescriptor(navigator,'clipboard'),originalFetch=window.fetch,create=URL.createObjectURL,originalTimeout=window.setTimeout;
   const action=key=>root.querySelector('[data-mpp-action="'+key+'"]');
   const manual=root.querySelector('.mpp-copy-fallback'),text=root.querySelector('.mpp-copy-text'),status=root.querySelector('#mpp-status');
   const clipboard=value=>Object.defineProperty(navigator,'clipboard',{configurable:true,value});
@@ -54,8 +54,19 @@ window.addEventListener('load',async()=>{
    window.fetch=originalFetch;retry.click();for(let i=0;i<150&&api.getState().loading;i++)await delay(20);
    must(api.getState().loaded&&api.getState().actions===10,'toolkit retry did not restore actions');
    must(root.getAttribute('aria-busy')==='false','toolkit loading indicator not cleared');
+   let lateReject;
+   window.fetch=(...args)=>String(args[0])==='/data/projects.json'?Promise.resolve({ok:true,json:()=>new Promise((_,reject)=>{lateReject=reject;})}):originalFetch.apply(window,args);
+   window.setTimeout=(fn,ms,...args)=>originalTimeout(fn,ms===15000?40:ms,...args);
+   retry.click();window.setTimeout=originalTimeout;
+   for(let i=0;i<100&&api.getState().loading;i++)await delay(20);
+   must(!api.getState().loaded&&!retry.hidden&&!retry.disabled,'stalled toolkit body did not expose retry');
+   window.fetch=originalFetch;retry.click();
+   for(let i=0;i<150&&api.getState().loading;i++)await delay(20);
+   must(api.getState().loaded&&api.getState().actions===10,'toolkit retry after stalled body failed');
+   lateReject(Error('Late response failure'));await delay(30);
+   must(api.getState().loaded&&root.getAttribute('aria-busy')==='false','late response disturbed toolkit recovery');
   }finally{
-   window.fetch=originalFetch;URL.createObjectURL=create;
+   window.fetch=originalFetch;URL.createObjectURL=create;window.setTimeout=originalTimeout;
    if(descriptor)Object.defineProperty(navigator,'clipboard',descriptor);else delete navigator.clipboard;
   }
   output.textContent='PASS: malformed metadata, literal Markdown, selected export fallbacks, stale-copy isolation and toolkit reload recovery';
