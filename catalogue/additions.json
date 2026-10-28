@@ -4021,9 +4021,987 @@
       "reviewNotes": "One facility deployment. LNG Canada’s own corporate page identifies the export facility as Kitimat. Flare stacks are not additional ports. Distinct from the Vancouver Police network.",
       "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
       "researchBatch": "2026-10-28-retail-origins-and-dock-networks"
+    },
+    {
+      "id": "wing-eastland",
+      "name": "Wing Eastland delivery nest",
+      "where": "Ringwood, Melbourne, Victoria, Australia",
+      "country": "Australia",
+      "region": "Oceania",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Wing / DoorDash / QIC",
+      "reportedEquipment": "Delivery drone; model not established in cited evidence",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": -37.82,
+        "longitude": 145.23
+      },
+      "reportDateLabel": "2024-07-17 source publication",
+      "description": "Wing reports its first Victorian delivery nest at Eastland Shopping Centre.",
+      "source": {
+        "name": "Wing",
+        "url": "https://wing.com/news/wing-melbourne-doordash"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "wing-eastland",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2024-07-17",
+      "sourceType": "operator",
+      "reviewNotes": "One shopping-centre origin. Coverage suburbs and participating merchants are not separate nests.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres"
+    },
+    {
+      "id": "wing-hyperdome",
+      "name": "Wing Hyperdome delivery hub",
+      "where": "Loganholme, Queensland, Australia",
+      "country": "Australia",
+      "region": "Oceania",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Wing / DoorDash / QIC",
+      "reportedEquipment": "Delivery drone; model not established in cited evidence",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": -27.69,
+        "longitude": 153.18
+      },
+      "reportDateLabel": "2023-09-19 source publication",
+      "description": "The report identifies a delivery hub using a loading area at Hyperdome Shopping Centre.",
+      "source": {
+        "name": "Business News Australia",
+        "url": "https://www.businessnewsaustralia.com/articles/wing-teams-up-with-doordash-and-qic-to-expand-drone-delivery-services-in-south-east-queensland.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "wing-hyperdome",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2023-09-19",
+      "sourceType": "news",
+      "reviewNotes": "One named origin, distinct from Grand Plaza and Orion Springfield. Service suburbs are not additional ports.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres"
+    },
+    {
+      "id": "wing-orion-springfield",
+      "name": "Wing Orion Springfield delivery centre",
+      "where": "Springfield Central, Queensland, Australia",
+      "country": "Australia",
+      "region": "Oceania",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Wing / DoorDash / Mirvac",
+      "reportedEquipment": "Delivery drone; model not established in cited evidence",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": -27.68,
+        "longitude": 152.9
+      },
+      "reportDateLabel": "2023-04-20 source publication",
+      "description": "The council reports delivery service from an operations centre at Orion Springfield Central.",
+      "source": {
+        "name": "Ipswich City Council",
+        "url": "https://www.ipswich.qld.gov.au/News-Articles-Folder/2023/Drone-food-delivery-service-takes-off-in-Ipswich"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "wing-orion-springfield",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2023-04-20",
+      "sourceType": "government",
+      "reviewNotes": "One shopping-centre origin. The preceding rooftop pilot announcement and later service launch are phases of the same project.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres"
+    },
+    {
+      "id": "wing-little-elm-walgreens",
+      "name": "Wing Little Elm Walgreens nest",
+      "where": "Little Elm, Texas, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Wing / Walgreens",
+      "reportedEquipment": "Delivery drone; model not established in cited evidence",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 33.16,
+        "longitude": -96.94
+      },
+      "reportDateLabel": "2022-04-04 source publication",
+      "description": "Wing announced Dallas-area deliveries with aircraft staged at Walgreens stores.",
+      "source": {
+        "name": "Wing",
+        "url": "https://wing.com/news/the-dallas-flyer-episode-11-wing-to"
+      },
+      "verificationStatus": "Announced network in cited source; implementation not independently verified",
+      "reportedStatus": "announced",
+      "recordScope": "centre",
+      "entityKey": "wing-little-elm-walgreens",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2022-04-04",
+      "sourceType": "operator",
+      "reviewNotes": "One Little Elm nest identified in the FAA assessment near East Eldorado Parkway and FM 423. The launch announcement alone is not treated as proof of implementation. Separate from Frisco Station and the later Frisco Eldorado nest.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres",
+      "supportingSources": [
+        {
+          "name": "FAA — Little Elm nest assessment",
+          "url": "https://www.faa.gov/sites/faa.gov/files/uas/advanced_operations/nepa_and_drones/Wing_Aviation_TX-EA_and_rec_of_decision.pdf"
+        }
+      ]
+    },
+    {
+      "id": "manna-tulsa-cherry-street",
+      "name": "Manna Tulsa Cherry Street airbase",
+      "where": "Cherry Street, Tulsa, Oklahoma, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Manna",
+      "reportedEquipment": "Delivery drone; model not established in cited evidence",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 36.15,
+        "longitude": -95.99
+      },
+      "reportDateLabel": "2026-08-12 source publication",
+      "description": "Manna reports deliveries from its first Tulsa airbase near Cherry Street.",
+      "source": {
+        "name": "Manna",
+        "url": "https://www.manna.aero/blog/cherry-street-tulsa-launch"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "manna-tulsa-cherry-street",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2026-08-12",
+      "sourceType": "operator",
+      "reviewNotes": "One origin at the reported East 15th Street address. Multiple aircraft, merchants and recipient homes do not increase the site count.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres"
+    },
+    {
+      "id": "manna-oranmore-tesco",
+      "name": "Manna Oranmore Tesco trial origin",
+      "where": "Oranmore, County Galway, Ireland",
+      "country": "Ireland",
+      "region": "Europe",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Manna / Tesco",
+      "reportedEquipment": "Delivery drone; model not established in cited evidence",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 53.27,
+        "longitude": -8.93
+      },
+      "reportDateLabel": "2020-10-27 source publication",
+      "description": "Tesco describes an Oranmore grocery-delivery trial with Manna.",
+      "source": {
+        "name": "Tesco Ireland",
+        "url": "https://tescoireland.ie/tesco-s-partnership-with-manna-sees-ireland-s-first-grocery-home-shopping-drone-deliveries-commence-to-customers-in-oranmore-co-galway/"
+      },
+      "verificationStatus": "Source-reported service cessation or pause; resumption not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "centre",
+      "entityKey": "manna-oranmore-tesco",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2020-10-27",
+      "sourceType": "operator",
+      "reviewNotes": "One store-led trial. Later reporting records Manna’s June 2026 pause of Irish delivery services; current resumption is not established. Recipient homes are not additional bases.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres",
+      "supportingSources": [
+        {
+          "name": "RTÉ — Irish delivery cessation announced, June 2026",
+          "url": "https://www.rte.ie/news/business/2026/0619/1579350-manna-drones-ireland/"
+        }
+      ]
+    },
+    {
+      "id": "manna-balbriggan-millfield",
+      "name": "Manna Balbriggan Millfield base",
+      "where": "Balbriggan, County Dublin, Ireland",
+      "country": "Ireland",
+      "region": "Europe",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Manna",
+      "reportedEquipment": "Delivery drone; model not established in cited evidence",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 53.61,
+        "longitude": -6.18
+      },
+      "reportDateLabel": "2022-04-04 source publication",
+      "description": "The report identifies Millfield Shopping Centre as Manna’s Balbriggan operations base.",
+      "source": {
+        "name": "Robotics and Automation — Katie Searles",
+        "url": "https://www.roboticsandautomationmagazine.co.uk/news/deliveries/manna-drone-delivery-launches-in-ireland.html"
+      },
+      "verificationStatus": "Source-reported service cessation or pause; resumption not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "centre",
+      "entityKey": "manna-balbriggan-millfield",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2022-04-04",
+      "sourceType": "news",
+      "reviewNotes": "One shopping-centre base. The initial trials and subsequent launch are one programme. Manna’s Irish delivery pause was reported in June 2026; resumption is not established.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres",
+      "supportingSources": [
+        {
+          "name": "RTÉ — Irish delivery cessation announced, June 2026",
+          "url": "https://www.rte.ie/news/business/2026/0619/1579350-manna-drones-ireland/"
+        }
+      ]
+    },
+    {
+      "id": "manna-blanchardstown",
+      "name": "Manna Blanchardstown Shopping Centre base",
+      "where": "Blanchardstown, Dublin, Ireland",
+      "country": "Ireland",
+      "region": "Europe",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Manna",
+      "reportedEquipment": "Delivery drone; model not established in cited evidence",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 53.39,
+        "longitude": -6.38
+      },
+      "reportDateLabel": "2025-02-09 source publication",
+      "description": "RTÉ identifies a base behind Blanchardstown Shopping Centre.",
+      "source": {
+        "name": "RTÉ",
+        "url": "https://www.rte.ie/news/regional/2025/0209/1495588-drone-delivery-dublin/"
+      },
+      "verificationStatus": "Source-reported service cessation or pause; resumption not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "centre",
+      "entityKey": "manna-blanchardstown",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2025-02-09",
+      "sourceType": "news",
+      "reviewNotes": "One of two explicitly distinguished Dublin origins in the same report. Later reporting records Manna’s June 2026 Irish delivery pause; resumption is not established. A planning appeal does not prove continued service.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres",
+      "supportingSources": [
+        {
+          "name": "RTÉ — Irish delivery cessation announced, June 2026",
+          "url": "https://www.rte.ie/news/business/2026/0619/1579350-manna-drones-ireland/"
+        }
+      ]
+    },
+    {
+      "id": "manna-junction-6",
+      "name": "Manna Junction 6 base",
+      "where": "Junction 6 area, Dublin, Ireland",
+      "country": "Ireland",
+      "region": "Europe",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Manna",
+      "reportedEquipment": "Delivery drone; model not established in cited evidence",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 53.39,
+        "longitude": -6.35
+      },
+      "reportDateLabel": "2025-02-09 source publication",
+      "description": "RTÉ identifies a separate base at Junction 6 off the M50.",
+      "source": {
+        "name": "RTÉ",
+        "url": "https://www.rte.ie/news/regional/2025/0209/1495588-drone-delivery-dublin/"
+      },
+      "verificationStatus": "Source-reported service cessation or pause; resumption not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "centre",
+      "entityKey": "manna-junction-6",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2025-02-09",
+      "sourceType": "news",
+      "reviewNotes": "One of two explicitly distinguished Dublin origins in the same report. Later reporting records Manna’s June 2026 Irish delivery pause; resumption is not established. A planning appeal does not prove continued service.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres",
+      "supportingSources": [
+        {
+          "name": "RTÉ — Irish delivery cessation announced, June 2026",
+          "url": "https://www.rte.ie/news/business/2026/0619/1579350-manna-drones-ireland/"
+        }
+      ]
+    },
+    {
+      "id": "manna-espoo-niittykumpu",
+      "name": "Manna Wolt Niittykumpu winter trial",
+      "where": "Niittykumpu, Espoo, Finland",
+      "country": "Finland",
+      "region": "Europe",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Manna / Wolt",
+      "reportedEquipment": "Delivery drone; model not established in cited evidence",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 60.17,
+        "longitude": 24.77
+      },
+      "reportDateLabel": "2025-01-29 source publication",
+      "description": "Wolt describes a winter drone-delivery test in Niittykumpu.",
+      "source": {
+        "name": "Wolt",
+        "url": "https://press.wolt.com/fi-FI/246407-ruokaa-toimitettuna-droonilla-talvisessa-suomessa-wolt-ja-manna-testaavat/"
+      },
+      "verificationStatus": "Source-reported trial; current operation not independently verified",
+      "reportedStatus": "trial",
+      "recordScope": "trial-programme",
+      "entityKey": "manna-espoo-niittykumpu",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2025-01-29",
+      "sourceType": "operator",
+      "reviewNotes": "One area-scoped test programme. The report does not identify an exact base; it is not presented as an individually verified port. Separate from Wing’s Helsinki Columbus origin.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres"
+    },
+    {
+      "id": "flytrex-fayetteville",
+      "name": "Flytrex Fayetteville Walmart pilot",
+      "where": "Fayetteville, North Carolina, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Flytrex / Walmart",
+      "reportedEquipment": "Delivery drone; model not established in cited evidence",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 35.05,
+        "longitude": -78.88
+      },
+      "reportDateLabel": "2020-09-09 source publication",
+      "description": "Walmart reports a Flytrex delivery pilot in Fayetteville.",
+      "source": {
+        "name": "Walmart",
+        "url": "https://corporate.walmart.com/news/2020/09/09/walmart-now-piloting-on-demand-drone-delivery-with-flytrex"
+      },
+      "verificationStatus": "Source-reported trial; current operation not independently verified",
+      "reportedStatus": "trial",
+      "recordScope": "trial-programme",
+      "entityKey": "flytrex-fayetteville",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2020-09-09",
+      "sourceType": "operator",
+      "reviewNotes": "One city pilot origin. Store deliveries and later range extensions are not extra records. The source does not establish current service.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres"
+    },
+    {
+      "id": "flytrex-raeford",
+      "name": "Flytrex Raeford delivery outpost",
+      "where": "Raeford, North Carolina, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Flytrex / Causey Aviation Unmanned",
+      "reportedEquipment": "Delivery drone; model not established in cited evidence",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 34.98,
+        "longitude": -79.22
+      },
+      "reportDateLabel": "2022-07-28 source publication",
+      "description": "The report lists Raeford as a Flytrex delivery outpost.",
+      "source": {
+        "name": "Restaurant Dive — Julie Littman",
+        "url": "https://www.restaurantdive.com/news/flytrex-expands-drone-delivery-radius-to-service-100k-restaurant-and-retail-customers/628060/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "flytrex-raeford",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2022-07-28",
+      "sourceType": "news",
+      "reviewNotes": "One named outpost. The source separately identifies Fayetteville and Holly Springs. Exact launch-site coordinates and current continuation are unverified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres"
+    },
+    {
+      "id": "flytrex-holly-springs",
+      "name": "Flytrex Holly Springs delivery programme",
+      "where": "Holly Springs, North Carolina, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Flytrex / Causey Aviation Unmanned",
+      "reportedEquipment": "Delivery drone; model not established in cited evidence",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 35.65,
+        "longitude": -78.83
+      },
+      "reportDateLabel": "2025-07-24 source publication",
+      "description": "WRAL reports the end of Flytrex’s Holly Springs delivery service.",
+      "source": {
+        "name": "WRAL",
+        "url": "https://www.wral.com/news/local/flytrex-ends-drone-delivery-holly-springs-july-2025/"
+      },
+      "verificationStatus": "Source-reported service cessation or pause; resumption not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "network",
+      "entityKey": "flytrex-holly-springs",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2025-07-24",
+      "sourceType": "news",
+      "reviewNotes": "One ended pilot programme. A pause is not a claim that service can never return. Destinations such as Ting Park and later coverage expansions are not extra origins.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres",
+      "supportingSources": [
+        {
+          "name": "Restaurant Dive — earlier operating outposts",
+          "url": "https://www.restaurantdive.com/news/flytrex-expands-drone-delivery-radius-to-service-100k-restaurant-and-retail-customers/628060/"
+        }
+      ]
+    },
+    {
+      "id": "flytrex-durham",
+      "name": "Flytrex Durham delivery outpost",
+      "where": "Durham, North Carolina, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Flytrex / Causey Aviation Unmanned",
+      "reportedEquipment": "Delivery drone; model not established in cited evidence",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 35.99,
+        "longitude": -78.9
+      },
+      "reportDateLabel": "2023-05-16 source publication",
+      "description": "WRAL lists Durham among Flytrex’s existing delivery locations.",
+      "source": {
+        "name": "WRAL",
+        "url": "https://www.wral.com/story/flytrex-wants-to-expand-food-delivery-by-drone-operation-deeper-into-wake-county/20863726"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "flytrex-durham",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2023-05-16",
+      "sourceType": "news",
+      "reviewNotes": "One city outpost. Proposed further Wake County expansion is not counted. Current service and exact launch coordinates are not established by this historical report.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres"
+    },
+    {
+      "id": "flytrex-granbury",
+      "name": "Flytrex Granbury delivery outpost",
+      "where": "Granbury, Texas, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Flytrex / Causey Aviation Unmanned",
+      "reportedEquipment": "Delivery drone; model not established in cited evidence",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 32.44,
+        "longitude": -97.79
+      },
+      "reportDateLabel": "2022-07-28 source publication",
+      "description": "The report identifies Flytrex’s expansion to a Granbury delivery outpost.",
+      "source": {
+        "name": "Restaurant Dive — Julie Littman",
+        "url": "https://www.restaurantdive.com/news/flytrex-expands-drone-delivery-radius-to-service-100k-restaurant-and-retail-customers/628060/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "flytrex-granbury",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2022-07-28",
+      "sourceType": "news",
+      "reviewNotes": "One named outpost. Participating restaurant brands and expanded delivery radius do not create additional ports. Current operation remains unverified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres"
+    },
+    {
+      "id": "swoop-goondiwindi",
+      "name": "Swoop Goondiwindi medical-delivery hub",
+      "where": "Goondiwindi, Queensland, Australia",
+      "country": "Australia",
+      "region": "Oceania",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Swoop Aero and local healthcare partners",
+      "reportedEquipment": "Delivery drone; model not established in cited evidence",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": -28.55,
+        "longitude": 150.31
+      },
+      "reportDateLabel": "2021-12-08 source publication",
+      "description": "The report identifies Goondiwindi Aerodrome as the hub for a medical-delivery trial.",
+      "source": {
+        "name": "Australian Aviation — Hannah Dowling",
+        "url": "https://australianaviation.com.au/2021/12/exclusive-drones-to-begin-delivering-medicine-in-queensland/"
+      },
+      "verificationStatus": "Source-reported trial; current operation not independently verified",
+      "reportedStatus": "trial",
+      "recordScope": "centre",
+      "entityKey": "swoop-goondiwindi",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2021-12-08",
+      "sourceType": "news",
+      "reviewNotes": "One aerodrome-led trial programme. Approval and an announced start do not establish continuous operation. Kite Aero’s later purchase of Swoop assets does not verify continuation at this hub.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres",
+      "supportingSources": [
+        {
+          "name": "Kite Aero — acquisition of Swoop assets",
+          "url": "https://kite.aero/media/kite-aero-acquires-swoop-aero-assets/"
+        }
+      ]
+    },
+    {
+      "id": "droneport-sint-truiden",
+      "name": "DronePort Sint-Truiden test campus",
+      "where": "Sint-Truiden, Belgium",
+      "country": "Belgium",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "DronePort",
+      "reportedEquipment": "Multiple customer UAS; no single aircraft model assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 50.82,
+        "longitude": 5.19
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "DronePort describes its dedicated UAS flight area and take-off infrastructure.",
+      "source": {
+        "name": "DronePort",
+        "url": "https://droneport.eu/flight-areas-2/ebr-64/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "droneport-sint-truiden",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "One test campus. The Citymesh SENSE dock is excluded from this record’s counted infrastructure because the nationwide SENSE programme is already catalogued. Research/test infrastructure, not a consumer-delivery origin.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres"
+    },
+    {
+      "id": "unmanned-valley-valkenburg",
+      "name": "Unmanned Valley Valkenburg test field",
+      "where": "Valkenburg, South Holland, Netherlands",
+      "country": "Netherlands",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Unmanned Valley",
+      "reportedEquipment": "Multiple customer UAS; no single aircraft model assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 52.18,
+        "longitude": 4.43
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "The operator describes drone testing facilities at the former Valkenburg air station.",
+      "source": {
+        "name": "Unmanned Valley",
+        "url": "https://www.unmannedvalley.nl/en/faciliteiten"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "unmanned-valley-valkenburg",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "One existing test campus. A separately announced North Sea test corridor is not assumed completed or counted as another port. Research/test infrastructure, not a consumer-delivery origin.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres"
+    },
+    {
+      "id": "skyports-westcott",
+      "name": "Skyports Westcott operations and training hub",
+      "where": "Westcott, Buckinghamshire, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Skyports Drone Services",
+      "reportedEquipment": "Multiple customer UAS; no single aircraft model assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 51.85,
+        "longitude": -0.96
+      },
+      "reportDateLabel": "2025-12-17 source publication",
+      "description": "Skyports reports its purpose-built drone operations hub at Westcott Venture Park.",
+      "source": {
+        "name": "Skyports Drone Services",
+        "url": "https://skyportsdroneservices.com/2025/12/skyports-new-flagship-drone-operations-hub/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "skyports-westcott",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2025-12-17",
+      "sourceType": "operator",
+      "reviewNotes": "One campus programme. Its earlier hangar, relocation and training facilities are not separate records. Research/test infrastructure, not a consumer-delivery origin.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres"
+    },
+    {
+      "id": "uas-denmark-odense",
+      "name": "UAS Denmark Odense test centre",
+      "where": "Odense, Denmark",
+      "country": "Denmark",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "UAS Denmark / HCA Airport and partners",
+      "reportedEquipment": "Multiple customer UAS; no single aircraft model assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 55.4,
+        "longitude": 10.39
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "The operator describes a UAS test centre at HCA Airport near Odense.",
+      "source": {
+        "name": "UAS Denmark",
+        "url": "https://uasdenmark.dk/uas-test-center/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "uas-denmark-odense",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "One test centre. Its flight field, runway, workshops and individual customer campaigns are not separate ports. Research/test infrastructure, not a consumer-delivery origin.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres"
+    },
+    {
+      "id": "atlas-alpha-villacarrillo",
+      "name": "ATLAS Alpha test centre",
+      "where": "Villacarrillo, Jaén, Spain",
+      "country": "Spain",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "ATLAS / CATEC",
+      "reportedEquipment": "Multiple customer UAS; no single aircraft model assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 38.12,
+        "longitude": -3.08
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "ATLAS identifies its Alpha centre in Villacarrillo.",
+      "source": {
+        "name": "ATLAS / CATEC",
+        "url": "https://www.atlascenter.aero/en/atlas-flight-centers/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "atlas-alpha-villacarrillo",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "One of two physically distinct centres explicitly named by the operator. Runways, hangars and shared airspace are not additional records. Research/test infrastructure, not a consumer-delivery origin.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres"
+    },
+    {
+      "id": "atlas-bravo-beas",
+      "name": "ATLAS Bravo test centre",
+      "where": "Beas de Segura, Jaén, Spain",
+      "country": "Spain",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "ATLAS / CATEC",
+      "reportedEquipment": "Multiple customer UAS; no single aircraft model assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 38.25,
+        "longitude": -2.89
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "ATLAS identifies its Bravo centre at Beas de Segura.",
+      "source": {
+        "name": "ATLAS / CATEC",
+        "url": "https://www.atlascenter.aero/en/atlas-flight-centers/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "atlas-bravo-beas",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "One separate centre, distinguished from Alpha in Villacarrillo by the same operator source. Individual runways and the connecting corridor are not extra records. Research/test infrastructure, not a consumer-delivery origin.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres"
+    },
+    {
+      "id": "ciar-rozas",
+      "name": "CIAR Rozas UAS research centre",
+      "where": "Castro de Rei, Lugo, Spain",
+      "country": "Spain",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "INTA / CIAR",
+      "reportedEquipment": "Multiple customer UAS; no single aircraft model assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 43.21,
+        "longitude": -7.4
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "INTA describes UAS research and flight-testing infrastructure at Rozas aerodrome.",
+      "source": {
+        "name": "INTA",
+        "url": "https://www.inta.es/CIAR/en/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "ciar-rozas",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "One research centre. The surrounding aerodrome, hangars and individual research aircraft are not counted separately. Research/test infrastructure, not a consumer-delivery origin.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres"
+    },
+    {
+      "id": "ceus-moguer",
+      "name": "CEUS Moguer unmanned-systems test centre",
+      "where": "Moguer, Huelva, Spain",
+      "country": "Spain",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "INTA / CEUS",
+      "reportedEquipment": "Multiple customer UAS; no single aircraft model assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 37.28,
+        "longitude": -6.84
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "INTA identifies CEUS in Moguer and its ground infrastructure for unmanned aircraft.",
+      "source": {
+        "name": "INTA",
+        "url": "https://www.inta.es/INTA/en/donde-estamos/Centros-de-ensayos/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "ceus-moguer",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "One CEUS facility. The nearby CEDEA centre and wider test airspace are not added as inferred droneports. Research/test infrastructure, not a consumer-delivery origin.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres"
+    },
+    {
+      "id": "grand-sky-grand-forks",
+      "name": "GrandSKY UAS operations campus",
+      "where": "Grand Forks, North Dakota, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "GrandSKY",
+      "reportedEquipment": "Multiple customer UAS; no single aircraft model assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 47.93,
+        "longitude": -97.03
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "A test-site interview describes GrandSKY’s UAS flight operations and ground infrastructure.",
+      "source": {
+        "name": "Northern Plains UAS Test Site",
+        "url": "https://www.npuasts.com/uas-webinars/episode/grandsky"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "grand-sky-grand-forks",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "One operations campus. Tenant hangars and the wider Northern Plains test network are not additional records. Research/test infrastructure, not a consumer-delivery origin.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres"
+    },
+    {
+      "id": "pendleton-uas-range",
+      "name": "Pendleton UAS test facility",
+      "where": "Pendleton, Oregon, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "City of Pendleton / Pendleton UAS Range",
+      "reportedEquipment": "Multiple customer UAS; no single aircraft model assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 45.67,
+        "longitude": -118.79
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "The city-operated range describes its UAS testing facility and flight infrastructure.",
+      "source": {
+        "name": "Pendleton UAS Range",
+        "url": "https://www.pendletonuasrange.com/about"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "pendleton-uas-range",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "One facility programme. Sixteen test pads and the much larger coverage area do not mean sixteen microports. Research/test infrastructure, not a consumer-delivery origin.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres"
+    },
+    {
+      "id": "foremost-uas-range",
+      "name": "Foremost UAS test range",
+      "where": "Foremost, Alberta, Canada",
+      "country": "Canada",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Village of Foremost / Foremost UAS Range",
+      "reportedEquipment": "Multiple customer UAS; no single aircraft model assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 49.48,
+        "longitude": -111.44
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "The operator describes UAS test airspace supported by Foremost airport infrastructure.",
+      "source": {
+        "name": "Foremost UAS Range",
+        "url": "https://foremostuasrange.ca/airspace/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "foremost-uas-range",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "One test facility. The source does not establish uninterrupted availability or permission for public flight; runway and range volumes are not separate sites. Research/test infrastructure, not a consumer-delivery origin.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres"
+    },
+    {
+      "id": "qualia-alma",
+      "name": "Qualia Alma drone test site",
+      "where": "Alma, Quebec, Canada",
+      "country": "Canada",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Centre of Excellence on Drones / Qualia",
+      "reportedEquipment": "Multiple customer UAS; no single aircraft model assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 48.55,
+        "longitude": -71.65
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "Qualia describes a dedicated site for drone testing, training and demonstrations.",
+      "source": {
+        "name": "Qualia",
+        "url": "https://qualia.cedalma.com/en/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "qualia-alma",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "One test site. The operator contact identifies Alma; its mailing address is not treated as a verified take-off coordinate. Research/test infrastructure, not a consumer-delivery origin.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres",
+      "supportingSources": [
+        {
+          "name": "Qualia — Alma contact locality",
+          "url": "https://qualia.cedalma.com/en/contact/"
+        }
+      ]
+    },
+    {
+      "id": "andoya-drone-testing",
+      "name": "Andøya Space drone-testing programme",
+      "where": "Andøya, Nordland, Norway",
+      "country": "Norway",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Andøya Space",
+      "reportedEquipment": "Multiple customer UAS; no single aircraft model assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 69.3,
+        "longitude": 16.0
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "Andøya Space describes drone-testing campaigns supported by its facilities.",
+      "source": {
+        "name": "Andøya Space",
+        "url": "https://andoyaspace.no/news-articles/unique-drone-testing/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "andoya-drone-testing",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "One facility-led test programme. Wider range airspace and individual customer campaigns are not additional droneports. Research/test infrastructure, not a consumer-delivery origin.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres"
+    },
+    {
+      "id": "ny-uas-griffiss",
+      "name": "New York UAS Test Site Griffiss campus",
+      "where": "Rome, New York, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Oneida County / New York UAS Test Site",
+      "reportedEquipment": "Multiple customer UAS; no single aircraft model assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 43.21,
+        "longitude": -75.46
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "The FAA describes the New York UAS Test Site campus at Griffiss, including flight and indoor-test infrastructure.",
+      "source": {
+        "name": "Federal Aviation Administration",
+        "url": "https://www.faa.gov/uas/programs_partnerships/test_sites/locations"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "ny-uas-griffiss",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "One campus. SkyDome, runway access, hangars and the wider test corridor are parts of the same record, not separate microports. Research/test infrastructure, not a consumer-delivery origin.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-28-delivery-origins-and-test-centres"
     }
   ],
-  "expectedTotal": 180,
+  "expectedTotal": 210,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -4183,6 +5161,41 @@
         "brookhaven-georgia-dfr",
         "las-vegas-blue-sky",
         "lng-canada-kitimat"
+      ]
+    },
+    {
+      "id": "2026-10-28-delivery-origins-and-test-centres",
+      "recordIds": [
+        "wing-eastland",
+        "wing-hyperdome",
+        "wing-orion-springfield",
+        "wing-little-elm-walgreens",
+        "manna-tulsa-cherry-street",
+        "manna-oranmore-tesco",
+        "manna-balbriggan-millfield",
+        "manna-blanchardstown",
+        "manna-junction-6",
+        "manna-espoo-niittykumpu",
+        "flytrex-fayetteville",
+        "flytrex-raeford",
+        "flytrex-holly-springs",
+        "flytrex-durham",
+        "flytrex-granbury",
+        "swoop-goondiwindi",
+        "droneport-sint-truiden",
+        "unmanned-valley-valkenburg",
+        "skyports-westcott",
+        "uas-denmark-odense",
+        "atlas-alpha-villacarrillo",
+        "atlas-bravo-beas",
+        "ciar-rozas",
+        "ceus-moguer",
+        "grand-sky-grand-forks",
+        "pendleton-uas-range",
+        "foremost-uas-range",
+        "qualia-alma",
+        "andoya-drone-testing",
+        "ny-uas-griffiss"
       ]
     }
   ]

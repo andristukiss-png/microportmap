@@ -26,7 +26,17 @@ assert fourth==batch['releases'][3]['recordIds'] and len(fourth)==10
 fifth=json.loads((ROOT/'catalogue/fifth-batch-ids.json').read_text())
 assert fifth==batch['releases'][4]['recordIds'] and len(fifth)==10
 sixth=json.loads((ROOT/'catalogue/sixth-batch-ids.json').read_text())
-assert sixth==batch['releases'][-1]['recordIds'] and len(sixth)==30
+assert sixth==batch['releases'][5]['recordIds'] and len(sixth)==30
+seventh=json.loads((ROOT/'catalogue/seventh-batch-ids.json').read_text())
+assert seventh==batch['releases'][-1]['recordIds'] and len(seventh)==30
+prior180=json.loads((ROOT/'catalogue/prior-180-preservation.json').read_text())
+assert len(prior180)==130
+for id,digest in prior180.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 180-record release changed'
+for id in ['manna-oranmore-tesco','manna-balbriggan-millfield','manna-blanchardstown','manna-junction-6','flytrex-holly-springs']:
+ assert next(p for p in additions if p['id']==id)['reportedStatus']=='historical'
+assert sum(p['recordScope']=='test-centre' for p in additions if p['id'] in seventh)==14
 prior150=json.loads((ROOT/'catalogue/prior-150-preservation.json').read_text())
 assert len(prior150)==100
 for id,digest in prior150.items():
@@ -85,6 +95,8 @@ for p in rows:
  assert doc.canonicals==['https://microportmap.com'+route]
  if p in additions:
   assert escape(p['source']['url'],quote=True) in raw and p['sourceReviewedAt'] in raw and p['coordinateBasis'] in raw
+  for evidence in p.get('supportingSources',[]):
+   assert escape(evidence['url'],quote=True) in raw and escape(evidence['name']) in raw
   assert p['verificationStatus'] in raw and 'independently verified' in raw
   assert '/directory/?country='+p['country'].replace(' ','%20') in raw
  for a in doc.links:
@@ -97,7 +109,7 @@ for p in rows:
   if target.is_dir():assert (target/'index.html').exists()
  assert 'https://microportmap.com'+route in (ROOT/'dist/sitemap.xml').read_text()
 # Rejected input must fail before publishing: duplicate IDs/entities, unsafe source, missing evidence and invalid geography.
-for kind in ['id','entity','signature','source','status','review','latitude','longitude','date','source-type']:
+for kind in ['id','entity','signature','source','status','review','latitude','longitude','date','source-type','support-url','support-name','support-shape']:
  bad=copy.deepcopy(additions)
  if kind=='id':bad[0]['id']=seed[0]['id']
  if kind=='entity':bad[1]['entityKey']=bad[0]['entityKey']
@@ -108,13 +120,19 @@ for kind in ['id','entity','signature','source','status','review','latitude','lo
  if kind=='latitude':bad[0]['approximateMapPoint']['latitude']=91
  if kind=='longitude':bad[0]['approximateMapPoint']['longitude']=float('nan')
  if kind=='date':bad[0]['sourceReviewedAt']='not-a-date'
+ if kind=='support-url':bad[0]['supportingSources']=[{'name':'Unsafe','url':'javascript:alert(1)'}]
+ if kind=='support-name':bad[0]['supportingSources']=[{'name':'','url':'https://example.org'}]
+ if kind=='support-shape':bad[0]['supportingSources']='invalid'
  if kind=='source-type':bad[0]['sourceType']='anonymous-invention'
  try:validate(seed,bad)
  except (AssertionError,ValueError):pass
  else:raise AssertionError('Invalid input accepted: '+kind)
 # The generated template escapes source data rather than treating it as HTML.
 unsafe=copy.deepcopy(additions[0]);unsafe['name']='<img src=x onerror=alert(1)>'
+unsafe['supportingSources']=[{'name':'<script>bad()</script>','url':'https://example.org/?a=1&b=2'}]
 html=passport(unsafe,(ROOT/'src/projects/kiel/index.html').read_text())
+assert '<script>bad()</script>' not in html and '&lt;script&gt;bad()&lt;/script&gt;' in html
+assert 'https://example.org/?a=1&amp;b=2' in html
 assert '<img src=x onerror=' not in html and '&lt;img src=x onerror=' in html
 before={p.relative_to(ROOT/'dist').as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in (ROOT/'dist').rglob('*') if p.is_file()}
 subprocess.run([sys.executable,'scripts/build_catalogue.py'],cwd=ROOT,check=True)
