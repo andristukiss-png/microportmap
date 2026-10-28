@@ -7,11 +7,20 @@ ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'scripts'))
 from build_catalogue import validate,passport
 subprocess.run([sys.executable,'scripts/build_catalogue.py'],cwd=ROOT,check=True)
 seed=json.loads((ROOT/'src/data/projects.json').read_text())['records']
-additions=json.loads((ROOT/'catalogue/additions.json').read_text())['records']
+batch=json.loads((ROOT/'catalogue/additions.json').read_text());additions=batch['records']
 built=json.loads((ROOT/'dist/data/projects.json').read_text());rows=built['records']
 assert rows[:50]==seed and rows[50:]==additions
 assert built['count']==len(rows)==len({p['id'] for p in rows})
-assert len(additions)==10 and len(rows)==60
+assert len(rows)==batch['expectedTotal'] and len(additions)==batch['expectedTotal']-50
+previous=json.loads((ROOT/'catalogue/first-batch-preservation.json').read_text())
+for id,digest in previous.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Earlier reviewed addition changed'
+latest=json.loads((ROOT/'catalogue/second-batch-ids.json').read_text())
+assert latest==batch['releases'][-1]['recordIds'] and len(latest)==40
+assert next(p for p in additions if p['id']=='amazon-college-station')['reportedStatus']=='historical'
+for id in ['zipline-kisumu','zipline-karongi','droneup-rogers-5837','droneup-bentonville-100','wing-frisco-stonebrook']:
+ assert next(p for p in additions if p['id']==id)['reportedStatus']=='announced'
 assert (ROOT/'dist/data/original-50/projects.json').read_bytes()==(ROOT/'src/data/projects.json').read_bytes()
 exports=list(csv.DictReader((ROOT/'dist/data/projects.csv').open(encoding='utf-8-sig')))
 assert {p['id'] for p in exports}=={p['id'] for p in rows}
