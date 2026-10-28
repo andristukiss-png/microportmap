@@ -28,7 +28,25 @@ assert fifth==batch['releases'][4]['recordIds'] and len(fifth)==10
 sixth=json.loads((ROOT/'catalogue/sixth-batch-ids.json').read_text())
 assert sixth==batch['releases'][5]['recordIds'] and len(sixth)==30
 seventh=json.loads((ROOT/'catalogue/seventh-batch-ids.json').read_text())
-assert seventh==batch['releases'][-1]['recordIds'] and len(seventh)==30
+assert seventh==batch['releases'][6]['recordIds'] and len(seventh)==30
+eighth=json.loads((ROOT/'catalogue/eighth-batch-ids.json').read_text())
+assert eighth==batch['releases'][-1]['recordIds'] and len(eighth)==30
+prior210=json.loads((ROOT/'catalogue/prior-210-preservation.json').read_text())
+assert len(prior210)==160
+for id,digest in prior210.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 210-record release changed'
+new=[p for p in additions if p['id'] in eighth]
+retail=[p for p in new if p['id'].startswith('droneup-walmart-')]
+assert len(retail)==18 and len({p['where'] for p in retail})==18
+assert not {'droneup-walmart-2695','droneup-walmart-5299'}&set(eighth), 'Existing Wing origins counted again'
+for p in retail:
+ assert p['reportedStatus']=='historical'
+ assert any('whro.org/' in source['url'] for source in p['supportingSources']), 'Missing later partnership-status evidence'
+for id in ['healthdrone-svendborg','biogroup-bourgoin-jallieu']:
+ assert next(p for p in new if p['id']==id)['reportedStatus']=='trial'
+assert next(p for p in new if p['id']=='dpd-mont-saint-martin')['recordScope']=='receiving-terminal'
+assert next(p for p in new if p['id']=='ddc-georgina-island')['recordScope']=='network'
 prior180=json.loads((ROOT/'catalogue/prior-180-preservation.json').read_text())
 assert len(prior180)==130
 for id,digest in prior180.items():
