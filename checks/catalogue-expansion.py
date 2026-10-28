@@ -16,8 +16,19 @@ previous=json.loads((ROOT/'catalogue/first-batch-preservation.json').read_text()
 for id,digest in previous.items():
  p=next(p for p in additions if p['id']==id)
  assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Earlier reviewed addition changed'
-latest=json.loads((ROOT/'catalogue/second-batch-ids.json').read_text())
-assert latest==batch['releases'][-1]['recordIds'] and len(latest)==40
+second=json.loads((ROOT/'catalogue/second-batch-ids.json').read_text())
+assert second==batch['releases'][1]['recordIds'] and len(second)==40
+latest=json.loads((ROOT/'catalogue/third-batch-ids.json').read_text())
+assert latest==batch['releases'][-1]['recordIds'] and len(latest)==30
+prior=json.loads((ROOT/'catalogue/prior-100-preservation.json').read_text())
+assert len(prior)==50
+for id,digest in prior.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 100-record release changed'
+for id in ['wing-walmart-942','wing-walmart-5299','wing-walmart-725']:
+ assert next(p for p in additions if p['id']==id)['reportedStatus']=='announced'
+for id in ['oban-argyll-medical-trial','dhl-reit-im-winkl']:
+ assert next(p for p in additions if p['id']==id)['reportedStatus']=='historical'
 assert next(p for p in additions if p['id']=='amazon-college-station')['reportedStatus']=='historical'
 for id in ['zipline-kisumu','zipline-karongi','droneup-rogers-5837','droneup-bentonville-100','wing-frisco-stonebrook']:
  assert next(p for p in additions if p['id']==id)['reportedStatus']=='announced'
@@ -56,7 +67,7 @@ for p in rows:
   if target.is_dir():assert (target/'index.html').exists()
  assert 'https://microportmap.com'+route in (ROOT/'dist/sitemap.xml').read_text()
 # Rejected input must fail before publishing: duplicate IDs/entities, unsafe source, missing evidence and invalid geography.
-for kind in ['id','entity','signature','source','status','review','latitude','longitude','date']:
+for kind in ['id','entity','signature','source','status','review','latitude','longitude','date','source-type']:
  bad=copy.deepcopy(additions)
  if kind=='id':bad[0]['id']=seed[0]['id']
  if kind=='entity':bad[1]['entityKey']=bad[0]['entityKey']
@@ -67,6 +78,7 @@ for kind in ['id','entity','signature','source','status','review','latitude','lo
  if kind=='latitude':bad[0]['approximateMapPoint']['latitude']=91
  if kind=='longitude':bad[0]['approximateMapPoint']['longitude']=float('nan')
  if kind=='date':bad[0]['sourceReviewedAt']='not-a-date'
+ if kind=='source-type':bad[0]['sourceType']='anonymous-invention'
  try:validate(seed,bad)
  except (AssertionError,ValueError):pass
  else:raise AssertionError('Invalid input accepted: '+kind)

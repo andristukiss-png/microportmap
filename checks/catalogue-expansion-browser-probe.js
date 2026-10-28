@@ -20,7 +20,7 @@
   }else if(path==='/countries/'){
    await wait(()=>window.MicroportCountries?.getState().loaded);
    check(window.MicroportCountries.getRecords().length===expected,'Country explorer omitted records');
-   for(const country of ['Ghana','Rwanda','Kenya','Nigeria','Finland'])check(window.MicroportCountries.getVisible().includes(country),'New country absent: '+country);
+   for(const country of ['Ghana','Rwanda','Kenya','Nigeria','Finland','Singapore','Bulgaria'])check(window.MicroportCountries.getVisible().includes(country),'New country absent: '+country);
   }else if(path==='/operators/'){
    await wait(()=>window.MicroportOperators?.getState().ready);
    check(window.MicroportOperators.getRecordIds().length===expected,'Operator explorer omitted records');
@@ -29,10 +29,12 @@
    check(window.MicroportEquipment.getIds().length===expected,'Equipment explorer omitted records');
   }else if(path.startsWith('/projects/')){
    const id=path.split('/')[2];
-   if(id==='amazon-college-station')check(document.querySelector('.hero').textContent.includes('Historical project'),'Ended pilot presented as operating');
-   if(id==='zipline-kisumu')check(document.querySelector('.hero').textContent.includes('Announced / planned'),'Proposed hub presented as operating');
+   if(['amazon-college-station','oban-argyll-medical-trial','dhl-reit-im-winkl'].includes(id))check(document.querySelector('.hero').textContent.includes('Historical project'),'Ended pilot presented as operating');
+   if(['zipline-kisumu','wing-walmart-942'].includes(id))check(document.querySelector('.hero').textContent.includes('Announced / planned'),'Proposed hub presented as operating');
    await wait(()=>window.MicroportFields?.getState().ready&&window.MicroportLocation?.getState().ready&&window.MicroportPassportToolkit?.getState().loaded&&window.MicroportReview?.getState().ready&&window.MicroportQuickNav?.getState().ready&&window.MicroportEvidenceCompare?.getState().ready&&window.MicroportContrast?.getState().ready);
    check(window.MicroportFields.getState().projectId===id,'Wrong project loaded');
+   if(id==='aeronext-kosuge')check(document.querySelector('.hero').textContent.includes('Hashidate'),'Wrong Japanese depot rendered');
+   if(id==='singapore-mpa-marina-south-pier')check(document.querySelector('.hero').textContent.includes('Marina South Pier'),'Wrong Singapore dock rendered');
    check(window.MicroportFields.getState().count===10,'Field actions incomplete');
    check(window.MicroportLocation.getState().actions===10,'Location actions incomplete');
    check(window.MicroportPassportToolkit.getState().actions===10,'Toolkit actions incomplete');
