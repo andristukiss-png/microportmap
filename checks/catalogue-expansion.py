@@ -1,6 +1,7 @@
 """Verify the built catalogue, independent of the original 50-record regression fixtures."""
 import copy,csv,hashlib,importlib.util,json,re,subprocess,sys
 from html.parser import HTMLParser
+from html import escape
 from pathlib import Path
 from urllib.parse import urlsplit
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'scripts'))
@@ -19,7 +20,18 @@ for id,digest in previous.items():
 second=json.loads((ROOT/'catalogue/second-batch-ids.json').read_text())
 assert second==batch['releases'][1]['recordIds'] and len(second)==40
 latest=json.loads((ROOT/'catalogue/third-batch-ids.json').read_text())
-assert latest==batch['releases'][-1]['recordIds'] and len(latest)==30
+assert latest==batch['releases'][2]['recordIds'] and len(latest)==30
+fourth=json.loads((ROOT/'catalogue/fourth-batch-ids.json').read_text())
+assert fourth==batch['releases'][-1]['recordIds'] and len(fourth)==10
+prior130=json.loads((ROOT/'catalogue/prior-130-preservation.json').read_text())
+assert len(prior130)==80
+for id,digest in prior130.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 130-record release changed'
+for id in ['aeronext-tsuruga-arachi','inhambane-medical-drone-study']:
+ assert next(p for p in additions if p['id']==id)['reportedStatus']=='historical'
+assert next(p for p in additions if p['id']=='abu-dhabi-skygo-matternet')['reportedStatus']=='announced'
+assert next(p for p in additions if p['id']=='aeronext-shintotsukawa')['reportedStatus']=='trial'
 prior=json.loads((ROOT/'catalogue/prior-100-preservation.json').read_text())
 assert len(prior)==50
 for id,digest in prior.items():
@@ -54,7 +66,7 @@ for p in rows:
  assert doc.h1==1 and len(doc.ids)==len(set(doc.ids)),p['id']
  assert doc.canonicals==['https://microportmap.com'+route]
  if p in additions:
-  assert p['source']['url'] in raw and p['sourceReviewedAt'] in raw and p['coordinateBasis'] in raw
+  assert escape(p['source']['url'],quote=True) in raw and p['sourceReviewedAt'] in raw and p['coordinateBasis'] in raw
   assert p['verificationStatus'] in raw and 'independently verified' in raw
   assert '/directory/?country='+p['country'].replace(' ','%20') in raw
  for a in doc.links:
