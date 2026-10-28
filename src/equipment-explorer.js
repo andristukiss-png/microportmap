@@ -33,7 +33,7 @@ const heading=E('div','mpe-intro');
 const title=E('h2','','Explore reported technologies and equipment');
 title.id='mpe-title';
 heading.append(E('p','mpe-kicker','TECHNOLOGY / SOURCE-REPORTED EQUIPMENT'),title,
- E('p','mpe-lede','Explore the infrastructure categories and exact equipment descriptions recorded in 50 source-linked reports. Labels are descriptive, may overlap, and are not independent equipment certifications.'));
+ E('p','mpe-lede','Explore the infrastructure categories and exact equipment descriptions recorded in source-linked reports. Labels are descriptive, may overlap, and are not independent equipment certifications.'));
 const stats=E('div','mpe-stats');stats.id='mpe-stats';
 const filters=E('div','mpe-filters');
 const searchLabel=E('label','mpe-field');searchLabel.append(E('span','','Search reported technology'));
@@ -358,9 +358,9 @@ async function load(){
  try{
   const deadline=new Promise((_,reject)=>{timer=setTimeout(()=>{controller.abort();reject(Error('Equipment lookup timed out'));},15000);});
   const data=await Promise.race([deadline,(async()=>{const response=await fetch('/data/projects.json',{signal:controller.signal});if(!response.ok)throw Error('Unavailable');return response.json();})()]);
-  if(!Array.isArray(data.records)||data.records.length!==50||
+  if(!Array.isArray(data.records)||data.records.length<50||
      data.records.some(x=>!x||typeof x.id!=='string'||!/^[a-z0-9-]+$/.test(x.id)||typeof x.name!=='string'||!x.name.trim())||
-     new Set(data.records.map(x=>x.id)).size!==50)throw Error('Invalid catalogue');
+     new Set(data.records.map(x=>x.id)).size!==data.records.length)throw Error('Invalid catalogue');
   records=data.records.slice();restore();controls(true);prepare();
  }catch{clearData();errors.hidden=false;status.textContent='Could not load equipment research.';}
  finally{clearTimeout(timer);loading=false;retry.disabled=false;root.setAttribute('aria-busy','false');}

@@ -64,7 +64,7 @@ const summary=make('summary','mpcr-summary','Explore 10 contrasting research pro
 summary.setAttribute('aria-controls','mpcr-path-grid');root.append(summary);
 const panel=make('div','mpcr-body');
 const intro=make('p','mpcr-intro',
- 'Explore projects beyond the six most closely related references. Paths favor variety in reported countries, infrastructure categories and regions, using the original 50-record catalogue.');
+ 'Explore projects beyond the six most closely related references. Paths favor variety in reported countries, infrastructure categories and regions, using the published research catalogue.');
 const metrics=make('div','mpcr-metrics');
 const grid=make('div','mpcr-grid');grid.id='mpcr-path-grid';
 const status=make('p','mpcr-status');status.setAttribute('role','status');status.setAttribute('aria-live','polite');
@@ -138,11 +138,11 @@ function load(){
  ])
  .then(data=>{
   const records=data?.records;
-  if(!Array.isArray(records)||records.length!==50||
+  if(!Array.isArray(records)||records.length<50||
      records.some(p=>!p||typeof p.id!=='string'||!/^[a-z0-9-]+$/.test(p.id)||typeof p.name!=='string'||!p.name.trim()||
        ['country','region','infrastructureType'].some(key=>typeof p[key]!=='string'||!p[key].trim())||
        (p.source?.name!=null&&typeof p.source.name!=='string'))||
-     new Set(records.map(p=>p.id)).size!==50)throw Error('Unexpected catalogue');
+     new Set(records.map(p=>p.id)).size!==records.length)throw Error('Unexpected catalogue');
   primary=records.find(p=>p.id===primaryId);
   if(!primary)throw Error('Research record not found');
   paths=contrastPaths(records,primary);

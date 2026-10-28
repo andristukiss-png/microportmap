@@ -379,7 +379,7 @@ async function load(){
  try{
   const deadline=new Promise((_,reject)=>{timer=setTimeout(()=>{controller.abort();reject(Error('Country lookup timed out'));},15000);});
   const data=await Promise.race([deadline,(async()=>{const response=await fetch('/data/projects.json',{signal:controller.signal});if(!response.ok)throw Error('Data unavailable');return response.json();})()]);
-  if(!Array.isArray(data.records)||data.records.length!==50||data.records.some(r=>!IDs(r))||new Set(data.records.map(r=>r.id)).size!==50)throw Error('Invalid catalogue');
+  if(!Array.isArray(data.records)||data.records.length<50||data.records.some(r=>!IDs(r))||new Set(data.records.map(r=>r.id)).size!==data.records.length)throw Error('Invalid catalogue');
   records=data.records.slice();setControls(true);fill();
  }catch{clearData();errors.hidden=false;status.textContent='Could not load country research data.';}
  finally{clearTimeout(timer);isLoading=false;retry.disabled=false;root.setAttribute('aria-busy','false');}

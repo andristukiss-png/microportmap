@@ -60,10 +60,10 @@ assert colors(css)<=colors(prior_colors)
 for path,digest in baseline.items():
  # Lookup and directory scripts were intentionally revised; pin reviewed bytes
  # while retaining the original baseline for every other file.
- if path=='src/country-explorer.js':digest='c4bdab4c50ad0e46cf7ff3fa28ff1ce65ea32a73be911bd1416f396f0b3b7abd'
- if path=='src/equipment-explorer.js':digest='323e915b2ed096a4c07c953bc9af749180c11ce54036b147f531be3377ae33bc'
- if path=='src/operator-explorer.js':digest='155be1961090c79b36521aec2855ec2fff56b0792ea623428370d6d3afddaf3c'
- if path=='src/research-insights.js':digest='f31d3e5077f5586f87804b0f8acd5e3af301834d559ca6552502a2f9219ade06'
+ if path=='src/country-explorer.js':digest='4d3426b4ffec6fee889dc79f2597975b2c7081f612f8a0b20643d5d836f666ae'
+ if path=='src/equipment-explorer.js':digest='c19ce16b8ec9240969815a5ca1c247d094b558638c8ef488211793b9d2dcf568'
+ if path=='src/operator-explorer.js':digest='72874b16c0bdf721a77c894a63f254ff55760b89fe26df4e8224052e40190449'
+ if path=='src/research-insights.js':digest='f0e7b823071eaded9223f9ae1c093f05d845f1c5013045e79eff9cf364ba6f2f'
  if path=='src/project-connect.js':digest='d42373f1f21e2f325755f91e6bdf6b3b903af92d04c2e32480e3fa85ffb52fc2'
  if path=='src/site-redesign.js':digest='83ce122ac0d9f2e85f94ef3a48e9c5d816a549bed7a8afefd8bbe66ff1068549'
  if path=='src/directory-compare.js':digest='78de082c5f017c5ab3d2197a610a1b9eb49ba5798b9eb53a9e39a3797be0b7a4'

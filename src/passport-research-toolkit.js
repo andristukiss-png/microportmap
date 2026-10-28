@@ -272,9 +272,9 @@ function load(){
     if(!response.ok)throw Error('Dataset unavailable');return response.json();
   })()]).then(data=>{
     const rows=data?.records;
-    if(!Array.isArray(rows)||rows.length!==50||
+    if(!Array.isArray(rows)||rows.length<50||
       rows.some(r=>!r||typeof r.id!=='string'||!/^[a-z0-9-]+$/.test(r.id)||typeof r.name!=='string'||!r.name.trim())||
-      new Set(rows.map(r=>r.id)).size!==50)throw Error('Invalid catalogue');
+      new Set(rows.map(r=>r.id)).size!==rows.length)throw Error('Invalid catalogue');
     const matched=rows.find(r=>r.id===id);
     if(!matched)throw Error('Record missing');
     record=matched;source=sourceURL(record);

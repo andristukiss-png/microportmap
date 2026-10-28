@@ -226,8 +226,8 @@ function load(){
   if(!r.ok)throw Error('Research records unavailable');return r.json();
  }).then(data=>{
   const rows=data?.records;
-  if(!Array.isArray(rows)||rows.length!==50||rows.some(r=>!r||typeof r.id!=='string'||!/^[a-z0-9-]+$/.test(r.id)||typeof r.name!=='string'||!r.name.trim())||
-      new Set(rows.map(x=>x.id)).size!==50)throw Error('Invalid research catalog');
+  if(!Array.isArray(rows)||rows.length<50||rows.some(r=>!r||typeof r.id!=='string'||!/^[a-z0-9-]+$/.test(r.id)||typeof r.name!=='string'||!r.name.trim())||
+      new Set(rows.map(x=>x.id)).size!==rows.length)throw Error('Invalid research catalog');
   record=rows.find(r=>r.id===id);if(!record)throw Error('Project unavailable');
   restore();render();notice.textContent='';
  }).catch(()=>{

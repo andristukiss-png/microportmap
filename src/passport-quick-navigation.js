@@ -119,7 +119,7 @@ function load(){
  .then(response=>{if(!response.ok)throw Error('Catalogue unavailable');return response.json();})
  .then(data=>{
   const rows=data?.records;
-  if(!Array.isArray(rows)||rows.length!==50||rows.some(p=>!p||typeof p.id!=='string'||!/^[a-z0-9-]+$/.test(p.id)||typeof p.name!=='string'||!p.name.trim())||new Set(rows.map(p=>p.id)).size!==50)
+  if(!Array.isArray(rows)||rows.length<50||rows.some(p=>!p||typeof p.id!=='string'||!/^[a-z0-9-]+$/.test(p.id)||typeof p.name!=='string'||!p.name.trim())||new Set(rows.map(p=>p.id)).size!==rows.length)
    throw Error('Invalid catalogue');
   const record=rows.find(p=>p.id===id);if(!record)throw Error('Project unavailable');
   updateCountry(record);

@@ -1,0 +1,306 @@
+{
+  "batch": "2026-10-28-medical-logistics",
+  "reviewedAt": "2026-10-28",
+  "records": [
+    {
+      "id": "zipline-omenako",
+      "name": "Zipline Omenako medical distribution centre",
+      "where": "Omenako, Eastern Region, Ghana",
+      "country": "Ghana",
+      "region": "Africa",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Zipline International",
+      "reportedEquipment": "Medical delivery drones; model not stated in cited report",
+      "locationPrecision": "Editorial locality-level approximation: Suhum-area reference, not the distribution-centre location",
+      "approximateMapPoint": {
+        "latitude": 6.04,
+        "longitude": -0.45
+      },
+      "reportDateLabel": "Ministry launch report · publication date not displayed",
+      "description": "Ghana’s health ministry reported the launch of a medical drone delivery network at Omenako.",
+      "source": {
+        "name": "Ministry of Health, Ghana",
+        "url": "https://moh.gov.gh/ghanas-medical-drone-delivery-system-takes-off/"
+      },
+      "verificationStatus": "Historical source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "distribution-centre",
+      "entityKey": "zipline-omenako",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "Named centre in launch report; one record, not the full national network.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate."
+    },
+    {
+      "id": "zipline-mpanya",
+      "name": "Zipline Mpanya medical distribution centre",
+      "where": "Mpanya / Asante Mampong, Ghana",
+      "country": "Ghana",
+      "region": "Africa",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Zipline Ghana",
+      "reportedEquipment": "Medical delivery drones; model not stated in cited report",
+      "locationPrecision": "Editorial locality-level approximation: Asante Mampong-area reference, not the distribution-centre location",
+      "approximateMapPoint": {
+        "latitude": 7.06,
+        "longitude": -1.4
+      },
+      "reportDateLabel": "Ministry commissioning report · publication date not displayed",
+      "description": "Ghana’s health ministry reported commissioning Zipline’s second medical distribution centre at Mpanya.",
+      "source": {
+        "name": "Ministry of Health, Ghana",
+        "url": "https://moh.gov.gh/president-commissions-zipline-mpanya-at-asante-mampong/"
+      },
+      "verificationStatus": "Historical source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "distribution-centre",
+      "entityKey": "zipline-mpanya",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "Separately named centre; not a duplicate of Omenako.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate."
+    },
+    {
+      "id": "zipline-vobsi",
+      "name": "Zipline Vobsi medical distribution centre",
+      "where": "Vobsi / Walewale area, Ghana",
+      "country": "Ghana",
+      "region": "Africa",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Zipline Ghana",
+      "reportedEquipment": "Medical delivery drones; model not stated in cited report",
+      "locationPrecision": "Editorial locality-level approximation: Walewale-area reference, not the distribution-centre location",
+      "approximateMapPoint": {
+        "latitude": 10.35,
+        "longitude": -0.8
+      },
+      "reportDateLabel": "11 September 2023 operator report",
+      "description": "Zipline described its Vobsi centre supplying vaccines to hard-to-reach Ghanaian health facilities.",
+      "source": {
+        "name": "Zipline",
+        "url": "https://www.zipline.com/newsroom/zipline-ghana-remote-communities-within-reach"
+      },
+      "verificationStatus": "Historical source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "distribution-centre",
+      "entityKey": "zipline-vobsi",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2023-09-11",
+      "sourceType": "operator",
+      "reviewNotes": "Named northern distribution centre; health-facility destinations are not counted as droneports.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate."
+    },
+    {
+      "id": "zipline-kete-krachi",
+      "name": "Zipline Kete-Krachi medical distribution centre",
+      "where": "Kete-Krachi, Oti Region, Ghana",
+      "country": "Ghana",
+      "region": "Africa",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Zipline Ghana",
+      "reportedEquipment": "Medical delivery drones; model not stated in cited report",
+      "locationPrecision": "Editorial locality-level approximation: Kete-Krachi town reference, not the distribution-centre location",
+      "approximateMapPoint": {
+        "latitude": 7.8,
+        "longitude": -0.05
+      },
+      "reportDateLabel": "11 September 2023 operator report",
+      "description": "Zipline reported launching commercial deliveries from its Krachi West distribution centre on 21 March 2022.",
+      "source": {
+        "name": "Zipline",
+        "url": "https://www.zipline.com/newsroom/zipline-ghana-remote-communities-within-reach"
+      },
+      "verificationStatus": "Historical source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "distribution-centre",
+      "entityKey": "zipline-kete-krachi",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2023-09-11",
+      "sourceType": "operator",
+      "reviewNotes": "Kete-Krachi and Krachi West describe this single centre; recorded once.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate."
+    },
+    {
+      "id": "zipline-muhanga",
+      "name": "Zipline Muhanga medical distribution centre",
+      "where": "Muhanga, Rwanda",
+      "country": "Rwanda",
+      "region": "Africa",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Zipline",
+      "reportedEquipment": "Medical delivery drones; model not stated in cited report",
+      "locationPrecision": "Editorial locality-level approximation: Muhanga town reference, not the distribution-centre location",
+      "approximateMapPoint": {
+        "latitude": -2.08,
+        "longitude": 29.75
+      },
+      "reportDateLabel": "15 December 2022 operator report",
+      "description": "Zipline named Muhanga as a distribution centre supporting Rwanda’s medical delivery network.",
+      "source": {
+        "name": "Zipline",
+        "url": "https://www.zipline.com/newsroom/zipline-and-the-government-of-rwanda-announce-a-new-partnership-to-serve-the-entire-country-with-instant-logistics"
+      },
+      "verificationStatus": "Historical source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "distribution-centre",
+      "entityKey": "zipline-muhanga",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2022-12-15",
+      "sourceType": "operator",
+      "reviewNotes": "Named centre; the national network and individual hospitals are not additional records.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate."
+    },
+    {
+      "id": "zipline-kayonza",
+      "name": "Zipline Kayonza medical distribution centre",
+      "where": "Kayonza, Rwanda",
+      "country": "Rwanda",
+      "region": "Africa",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Zipline",
+      "reportedEquipment": "Medical delivery drones; model not stated in cited report",
+      "locationPrecision": "Editorial locality-level approximation: Kayonza town reference, not the distribution-centre location",
+      "approximateMapPoint": {
+        "latitude": -1.94,
+        "longitude": 30.51
+      },
+      "reportDateLabel": "15 December 2022 operator report",
+      "description": "Zipline named Kayonza as a second distribution centre supporting Rwanda’s medical delivery network.",
+      "source": {
+        "name": "Zipline",
+        "url": "https://www.zipline.com/newsroom/zipline-and-the-government-of-rwanda-announce-a-new-partnership-to-serve-the-entire-country-with-instant-logistics"
+      },
+      "verificationStatus": "Historical source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "distribution-centre",
+      "entityKey": "zipline-kayonza",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2022-12-15",
+      "sourceType": "operator",
+      "reviewNotes": "Separately named centre, not a second record for Muhanga.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate."
+    },
+    {
+      "id": "lugano-eoc-station",
+      "name": "EOC Lugano Matternet Station",
+      "where": "Lugano, Switzerland",
+      "country": "Switzerland",
+      "region": "Europe",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Matternet / Swiss Post / EOC",
+      "reportedEquipment": "Matternet Station and M2 drone",
+      "locationPrecision": "Editorial locality-level approximation: Lugano city reference, not the hospital station location",
+      "approximateMapPoint": {
+        "latitude": 46.0,
+        "longitude": 8.95
+      },
+      "reportDateLabel": "30 September 2021 deployment announcement",
+      "description": "Matternet announced a Station deployment for EOC in Lugano, with a trial before replacing human handling.",
+      "source": {
+        "name": "Matternet",
+        "url": "https://www.matternet.com/newsroom/matternet-deploys-station-in-commercial-operations-fcsh5-2skmg"
+      },
+      "verificationStatus": "Historical source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "hospital-station",
+      "entityKey": "lugano-eoc-station",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2021-09-30",
+      "sourceType": "operator",
+      "reviewNotes": "One named hospital station; no assumed station at every hospital served.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate."
+    },
+    {
+      "id": "labor-berlin-network",
+      "name": "Labor Berlin medical drone network proposal",
+      "where": "Berlin, Germany",
+      "country": "Germany",
+      "region": "Europe",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Matternet / Labor Berlin",
+      "reportedEquipment": "Matternet M2",
+      "locationPrecision": "Editorial locality-level approximation: Berlin city reference, not a launch or landing site",
+      "approximateMapPoint": {
+        "latitude": 52.52,
+        "longitude": 13.4
+      },
+      "reportDateLabel": "12 December 2023 authorization announcement",
+      "description": "Matternet reported federal authorization for a Berlin medical network; operations still awaited state-level clearance.",
+      "source": {
+        "name": "Matternet",
+        "url": "https://investor.matternet.com/news-events/press-releases/detail/93/matternet-receives-authorization-from-the-german-aviation-office-to-launch-bvlos-drone-delivery-operations-in-berlin"
+      },
+      "verificationStatus": "Announced; operation not established by this source",
+      "reportedStatus": "announced",
+      "recordScope": "network",
+      "entityKey": "labor-berlin-network",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2023-12-12",
+      "sourceType": "operator",
+      "reviewNotes": "One proposed network record, not thirteen independently evidenced hospital droneports.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate."
+    },
+    {
+      "id": "wakemed-raleigh",
+      "name": "WakeMed Raleigh medical drone campus",
+      "where": "Raleigh, North Carolina, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "UPS / Matternet / WakeMed",
+      "reportedEquipment": "Medical delivery drones; model not stated in cited hospital report",
+      "locationPrecision": "Editorial locality-level approximation: Raleigh city reference, not the hospital launch point",
+      "approximateMapPoint": {
+        "latitude": 35.78,
+        "longitude": -78.64
+      },
+      "reportDateLabel": "28 March 2019 hospital report",
+      "description": "WakeMed described medical drone flights at its Raleigh campus in collaboration with UPS and Matternet.",
+      "source": {
+        "name": "WakeMed",
+        "url": "https://www.wakemed.org/about-us/news-and-media/wakemed-blogs/2019/03/history-in-the-making-drone-transport-takes-flight-at-wakemed"
+      },
+      "verificationStatus": "Historical source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "hospital-campus",
+      "entityKey": "wakemed-raleigh",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2019-03-28",
+      "sourceType": "hospital",
+      "reviewNotes": "One campus programme; reported delivery destinations are not automatically separate ports.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate."
+    },
+    {
+      "id": "wake-forest-winston-salem",
+      "name": "Wake Forest Baptist medical drone hub",
+      "where": "Winston-Salem, North Carolina, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "UPS Flight Forward / Wake Forest Baptist Health",
+      "reportedEquipment": "Matternet M2",
+      "locationPrecision": "Editorial locality-level approximation: Winston-Salem city reference, not a hospital takeoff point",
+      "approximateMapPoint": {
+        "latitude": 36.1,
+        "longitude": -80.24
+      },
+      "reportDateLabel": "14 July 2020 hospital announcement",
+      "description": "The hospital announced a UPS Flight Forward medical delivery hub using Matternet M2 drones at its central campus.",
+      "source": {
+        "name": "Wake Forest Baptist Health",
+        "url": "https://newsroom.wakehealth.edu/news-releases/2020/07/wake-forest-baptist-health-iq-healthtech-labs-launch-drone-delivery-service-with-ups-flight-forward"
+      },
+      "verificationStatus": "Historical source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "hospital-campus",
+      "entityKey": "wake-forest-winston-salem",
+      "sourceReviewedAt": "2026-10-28",
+      "sourcePublishedAt": "2020-07-14",
+      "sourceType": "hospital",
+      "reviewNotes": "One central-campus hub, not a record for each announced route.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate."
+    }
+  ]
+}
