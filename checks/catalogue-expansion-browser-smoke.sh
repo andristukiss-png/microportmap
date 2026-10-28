@@ -7,7 +7,7 @@ mkdir -p checks/catalogue-expansion-screenshots
 cp checks/catalogue-expansion-browser-probe.js dist/__expansion_probe.js
 python3 - <<'PY'
 from pathlib import Path
-routes=['','directory','countries','operators','technologies','projects/kiel','projects/zipline-omenako','projects/labor-berlin-network','projects/lugano-eoc-station']
+routes=['','directory','countries','operators','technologies','projects/kiel','projects/zipline-omenako','projects/labor-berlin-network','projects/lugano-eoc-station','projects/amazon-college-station','projects/wing-walmart-768','projects/wing-walmart-4538','projects/wing-columbus-helsinki','projects/zipline-kisumu']
 for route in routes:
  p=Path('dist')/route/'index.html'
  p.write_text(p.read_text().replace('</body>','<output id="expansion-probe">PENDING</output><script src="/__expansion_probe.js"></script></body>',1))
@@ -16,7 +16,7 @@ python3 -m http.server 8808 --bind 127.0.0.1 --directory dist >/tmp/mp-expansion
 server=$!
 trap 'kill "$server" 2>/dev/null || true' EXIT
 for i in {1..30};do curl -fsS http://127.0.0.1:8808/data/projects.json >/dev/null 2>&1 && break;sleep .2;done
-for route in '' directory countries operators technologies projects/kiel projects/zipline-omenako projects/labor-berlin-network projects/lugano-eoc-station;do
+for route in '' directory countries operators technologies projects/kiel projects/zipline-omenako projects/labor-berlin-network projects/lugano-eoc-station projects/amazon-college-station projects/wing-walmart-768 projects/wing-walmart-4538 projects/wing-columbus-helsinki projects/zipline-kisumu;do
  name="${route//\//-}";name="${name:-atlas}"
  for spec in desktop:1440,900 mobile:390,844;do
   IFS=: read -r mode viewport <<< "$spec"
