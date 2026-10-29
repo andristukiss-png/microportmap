@@ -7295,9 +7295,182 @@
           "url": "https://touch.shio.gov.cn/jsp/zfxw_detail.jsp?id=20231228191507294"
         }
       ]
+    },
+    {
+      "id": "meituan-yitian-holiday-plaza",
+      "name": "Meituan Yitian Holiday Plaza delivery origin",
+      "where": "Yitian Holiday Plaza, Nanshan, Shenzhen, China",
+      "country": "China",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Meituan",
+      "reportedEquipment": "Delivery drones; site-specific model not assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 22.54,
+        "longitude": 113.98
+      },
+      "reportDateLabel": "2023-04-28 source publication",
+      "description": "The operator-hosted report identifies Yitian Holiday Plaza as the departure point for regular deliveries to Window of the World.",
+      "source": {
+        "name": "Meituan, reproducing Guangming Daily",
+        "url": "https://www.meituan.com/news/NN23051802000424X"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "meituan-yitian-holiday-plaza",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": "2023-04-28",
+      "sourceType": "news",
+      "reviewNotes": "One named shopping-centre origin. Window of the World is a receiving attraction, not another origin. Yitian Holiday Plaza is not Xili Yitian Holiday Li, a different commercial location mentioned in later coverage. The map is a locality reference; rooftop position and present service availability are not established.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-shenzhen-commercial-hubs"
+    },
+    {
+      "id": "meituan-haiya-mega-mall",
+      "name": "Meituan Haiya Mega Mall delivery origin",
+      "where": "Haiya Mega Mall, Xin’an, Bao’an, Shenzhen, China",
+      "country": "China",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Meituan",
+      "reportedEquipment": "Delivery drones; site-specific model not assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 22.56,
+        "longitude": 113.91
+      },
+      "reportDateLabel": "2023-12-08 source publication",
+      "description": "Shenzhen News identifies Haiya Mega Mall as the launch point of a delivery route opened in December 2023.",
+      "source": {
+        "name": "Shenzhen News",
+        "url": "https://www.sznews.com/news/content/mb/2023-12/08/content_30636242.htm"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "meituan-haiya-mega-mall",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": "2023-12-08",
+      "sourceType": "news",
+      "reviewNotes": "One named mall origin. The COFCO research centre is the receiving destination, not a second origin. Individual restaurants joining the delivery service and later routes do not add ports. The record preserves the dated opening evidence without claiming uninterrupted current service.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-shenzhen-commercial-hubs",
+      "supportingSources": [
+        {
+          "name": "Shenzhen Government Online — Bao’an logistics review, 10 October 2024",
+          "url": "https://www.sz.gov.cn/szzt2010/szdkjj/dkzx/content/post_11905801.html"
+        }
+      ]
+    },
+    {
+      "id": "meituan-baoneng-nanshan",
+      "name": "Meituan Baoneng Global Mall Nanshan origin",
+      "where": "Baoneng Global Mall, Taoyuan, Nanshan, Shenzhen, China",
+      "country": "China",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Meituan",
+      "reportedEquipment": "Delivery drones; site-specific model not assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 22.59,
+        "longitude": 113.97
+      },
+      "reportDateLabel": "2024-11-15 source publication",
+      "description": "Shenzhen News reports an operating Meituan departure facility at Baoneng Global Mall in Nanshan.",
+      "source": {
+        "name": "Shenzhen News",
+        "url": "https://www.sznews.com/news/content/2024-11/15/content_31336887.htm"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "meituan-baoneng-nanshan",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": "2024-11-15",
+      "sourceType": "news",
+      "reviewNotes": "One named commercial-area origin in Taoyuan, Nanshan; not the similarly named Luohu mall. University and office receiving points are not extra origins. The article’s multiple destination names are not used as a facility count. Joint supply with Xili Yitian Holiday Li does not merge the two origins or establish shared launch coordinates.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-shenzhen-commercial-hubs"
+    },
+    {
+      "id": "meituan-galaxy-world",
+      "name": "Meituan Galaxy WORLD delivery base",
+      "where": "Galaxy WORLD / COCO Park, Bantian, Longgang, Shenzhen, China",
+      "country": "China",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Meituan",
+      "reportedEquipment": "Delivery drones; site-specific model not assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 22.63,
+        "longitude": 114.06
+      },
+      "reportDateLabel": "2025-04-30 source publication",
+      "description": "The district reports a visit to Meituan’s Galaxy WORLD COCO Park base and observed drone deliveries in April 2025.",
+      "source": {
+        "name": "Shenzhen Government Online / Bao’an District",
+        "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_12154650.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "meituan-galaxy-world",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": "2025-04-30",
+      "sourceType": "government",
+      "reviewNotes": "One delivery base within the Bantian Galaxy WORLD complex, not the separate Futian COCO Park. The industrial park, mall, successive routes and nearby receiving cabinets are not separate bases here. Helicopter facilities and other companies in the wider low-altitude zone are outside this record. The publication district is not the facility district.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-shenzhen-commercial-hubs",
+      "supportingSources": [
+        {
+          "name": "Shenzhen Government Online / Longgang — identifies Bantian operating site, 15 August 2024",
+          "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_11499550.html"
+        }
+      ]
+    },
+    {
+      "id": "fengyi-shiyan-hub",
+      "name": "Fengyi Shiyan drone-logistics hub",
+      "where": "Shiyan, Bao’an, Shenzhen, China",
+      "country": "China",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Fengyi Technology / SF Express",
+      "reportedEquipment": "Delivery drones; site-specific model not assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 22.68,
+        "longitude": 113.94
+      },
+      "reportDateLabel": "2024-10-10 source publication",
+      "description": "Bao’an authorities describe takeoffs, landings and parcel handling at Fengyi’s Shiyan drone operations centre.",
+      "source": {
+        "name": "Shenzhen Government Online / Bao’an District",
+        "url": "https://www.sz.gov.cn/szzt2010/szdkjj/dkzx/content/post_11905801.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "fengyi-shiyan-hub",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": "2024-10-10",
+      "sourceType": "government",
+      "reviewNotes": "One named logistics hub. Aircraft, delivery routes and connected SF Express outlets are not additional ports. The Xin’an logistics centre discussed in later coverage is a different facility and is not included in this count. Shipment volumes are not treated as site counts. The map is a Shiyan locality reference, not a launch coordinate.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-shenzhen-commercial-hubs",
+      "supportingSources": [
+        {
+          "name": "Bao’an Daily / Bao’an Bay — distinguishes Shiyan and Xin’an centres, 30 June 2025",
+          "url": "https://www.baoanone.com/content193965.html"
+        }
+      ]
     }
   ],
-  "expectedTotal": 275,
+  "expectedTotal": 280,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -7592,6 +7765,16 @@
         "meituan-longhua-tianhong",
         "meituan-bailian-jinshan",
         "meituan-hopson-one"
+      ]
+    },
+    {
+      "id": "2026-10-29-shenzhen-commercial-hubs",
+      "recordIds": [
+        "meituan-yitian-holiday-plaza",
+        "meituan-haiya-mega-mall",
+        "meituan-baoneng-nanshan",
+        "meituan-galaxy-world",
+        "fengyi-shiyan-hub"
       ]
     }
   ]
