@@ -165,7 +165,9 @@ jobs:
           node checks/passport.cjs
           node checks/passport-recovery-500.cjs
       - name: Passport responsive lookup and copy recovery checks
-        run: bash checks/passport-recovery-browser-smoke.sh
+        run: |
+          python3 checks/passport-recovery-smoke-harness.py
+          bash checks/passport-recovery-browser-smoke.sh
       - name: Retain Passport Recovery 500 results and captures
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02

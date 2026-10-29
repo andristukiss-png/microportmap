@@ -7468,9 +7468,241 @@
           "url": "https://www.baoanone.com/content193965.html"
         }
       ]
+    },
+    {
+      "id": "meituan-xili-yitian-holiday-li",
+      "name": "Meituan Xili Yitian Holiday Li origin",
+      "where": "Xili Yitian Holiday Li, Nanshan, Shenzhen, China",
+      "country": "China",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Meituan",
+      "reportedEquipment": "Delivery drones; site-specific model not assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 22.58,
+        "longitude": 113.95
+      },
+      "reportDateLabel": "2023-12-19 source publication",
+      "description": "Meituan identifies Xili Yitian Holiday Li as the launch point for deliveries to Tsinghua’s Shenzhen graduate campus.",
+      "source": {
+        "name": "Meituan",
+        "url": "https://www.meituan.com/news/NN231219070003592"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "meituan-xili-yitian-holiday-li",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": "2023-12-19",
+      "sourceType": "operator",
+      "reviewNotes": "One commercial-area origin. It is separate from Yitian Holiday Plaza near Window of the World. Tsinghua and Peking University receiving points are destinations, not extra origins. Later joint supply with Baoneng does not merge the two departure sites. Current service availability is not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-multi-city-delivery-origins",
+      "supportingSources": [
+        {
+          "name": "Tsinghua Shenzhen International Graduate School — launch origin, 20 December 2023",
+          "url": "https://www.sigs.tsinghua.edu.cn/2023/1220/c1209a92893/page.htm"
+        },
+        {
+          "name": "Shenzhen News — Xili and Baoneng joint supply, 15 November 2024",
+          "url": "https://www.sznews.com/news/content/2024-11/15/content_31336887.htm"
+        }
+      ]
+    },
+    {
+      "id": "meituan-badaling-fandian",
+      "name": "Meituan Badaling Great Wall delivery origin",
+      "where": "Badaling Fandian, Badaling, Yanqing, Beijing, China",
+      "country": "China",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Meituan",
+      "reportedEquipment": "Delivery drones; site-specific model not assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 40.36,
+        "longitude": 116.0
+      },
+      "reportDateLabel": "2024-08-16 source publication",
+      "description": "Beijing Daily identifies Badaling Fandian as the launch site for the Great Wall delivery service opened in August 2024.",
+      "source": {
+        "name": "Beijing Daily",
+        "url": "https://xinwen.bjd.com.cn/content/s66bef630e4b07fbcccaee0ac.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "meituan-badaling-fandian",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": "2024-08-16",
+      "sourceType": "news",
+      "reviewNotes": "One named departure site. South Nine Tower is the original destination; later tower routes and waste-return flights are not additional origins. The source names Badaling Fandian; the map is a broad Badaling locality reference. Dated service evidence does not establish current operation or permission to fly.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-multi-city-delivery-origins",
+      "supportingSources": [
+        {
+          "name": "Meituan — Badaling service launch, 16 August 2024",
+          "url": "https://www.meituan.com/news/NN24081904700952X"
+        },
+        {
+          "name": "Beijing Daily — later route and original origin, 8 October 2024",
+          "url": "https://news.bjd.com.cn/2024/10/08/10927666.shtml"
+        }
+      ]
+    },
+    {
+      "id": "meituan-mcdonalds-longteng",
+      "name": "McDonald’s Longteng Avenue drone station",
+      "where": "McDonald’s Longteng Avenue restaurant, Xuhui, Shanghai, China",
+      "country": "China",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Meituan / McDonald’s China",
+      "reportedEquipment": "Delivery drones; site-specific model not assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 31.17,
+        "longitude": 121.46
+      },
+      "reportDateLabel": "2026-09-10 source publication",
+      "description": "McDonald’s reports an operating dedicated drone transfer station outside its Longteng Avenue restaurant.",
+      "source": {
+        "name": "McDonald’s China",
+        "url": "https://www.mcdonalds.com.cn/news/20260910-ShangHai/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "meituan-mcdonalds-longteng",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": "2026-09-10",
+      "sourceType": "operator",
+      "reviewNotes": "One restaurant departure station, explicitly described with loading equipment. The West Bund skatepark is its receiving point, not a second origin. The wider West Bund network and other partner merchants are not included in this facility count. The map is an Xuhui locality reference, not a restaurant or landing coordinate.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-multi-city-delivery-origins",
+      "supportingSources": [
+        {
+          "name": "Meituan — West Bund network context, 11 September 2026",
+          "url": "https://www.meituan.com/news/NN260911177010407"
+        }
+      ]
+    },
+    {
+      "id": "fengyi-xinan-logistics-centre",
+      "name": "Fengyi Xin’an integrated logistics centre",
+      "where": "Xin’an, Bao’an, Shenzhen, China",
+      "country": "China",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Fengyi Technology / SF Express",
+      "reportedEquipment": "Delivery drones; site-specific model not assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 22.56,
+        "longitude": 113.91
+      },
+      "reportDateLabel": "2025-02-17 source publication",
+      "description": "Bao’an authorities describe the opened Xin’an logistics centre with rooftop drone departures and ground-delivery transfers.",
+      "source": {
+        "name": "Shenzhen Government Online / Bao’an District",
+        "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_12005447.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "fengyi-xinan-logistics-centre",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": "2025-02-17",
+      "sourceType": "government",
+      "reviewNotes": "One integrated centre. Its rooftop, sorting floor, control room and ground-transfer facilities are parts of the same site. It is distinct from the Shiyan hub already catalogued. Aircraft and connected SF Express outlets are not additional sites. Shared locality map points do not establish physical co-location.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-multi-city-delivery-origins",
+      "supportingSources": [
+        {
+          "name": "Bao’an Bay — Xin’an centre visit and flight demonstration, 27 March 2026",
+          "url": "https://www.baoanone.com/content215363.html"
+        },
+        {
+          "name": "Bao’an Bay — distinguishes Xin’an and Shiyan centres, 30 June 2025",
+          "url": "https://www.baoanone.com/content193965.html"
+        }
+      ]
+    },
+    {
+      "id": "nancun-cultural-square-delivery",
+      "name": "Nancun Cultural Square delivery origin",
+      "where": "Nancun Cultural Square, Panyu, Guangzhou, China",
+      "country": "China",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Flight operator not established in the cited report",
+      "reportedEquipment": "Delivery drones; site-specific model not assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 22.99,
+        "longitude": 113.38
+      },
+      "reportDateLabel": "2024-12-08 source publication",
+      "description": "Guangzhou Daily reports a departure from the Nancun Cultural Square distribution centre for a campus-delivery service launched in December 2024.",
+      "source": {
+        "name": "Guangzhou Daily / New Flower City",
+        "url": "https://huacheng.gz-cmc.com/pages/2024/12/07/SF130382450854f5e308f7459fbf6945.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "nancun-cultural-square-delivery",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": "2024-12-08",
+      "sourceType": "news",
+      "reviewNotes": "One named distribution origin. The college receiving point is not another departure site. The report names an ordering mini-program but does not establish the flight operator; university education partners are not assumed to operate this service. Publication is 8 December; the reported launch was 7 December. Current service continuation is unverified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-multi-city-delivery-origins"
+    },
+    {
+      "id": "meituan-yifang-tiandi",
+      "name": "Meituan Yifang Tiandi delivery origin",
+      "where": "Yifang Tiandi, Longhua, Shenzhen, China",
+      "country": "China",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Meituan",
+      "reportedEquipment": "Delivery drones; site-specific model not assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 22.65,
+        "longitude": 114.02
+      },
+      "reportDateLabel": "2024-03-27 source publication",
+      "description": "Longhua authorities report Yifang Tiandi joining Meituan’s drone-delivery network in March 2024.",
+      "source": {
+        "name": "Shenzhen Government Online / Longhua District",
+        "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/mpost_11213674.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "meituan-yifang-tiandi",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": "2024-03-27",
+      "sourceType": "government",
+      "reviewNotes": "One commercial-area origin. Later government coverage identifies the Yifang Tiandi departure facility. Individual malls within the complex, brands, receiving cabinets and upgraded routes are not additional origins. This is distinct from Longhua Tianhong; the shared district does not imply a shared site.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-multi-city-delivery-origins",
+      "supportingSources": [
+        {
+          "name": "Longhua Government Online — Yifang Tiandi departure-facility image and night-delivery context",
+          "url": "https://www.szlhq.gov.cn/xxgk/xwzx/gzdt/content/post_12421432.html"
+        },
+        {
+          "name": "Longhua Government Online — Yifang Tiandi supply in expanded network, September 2026",
+          "url": "https://www.szlhq.gov.cn/lhqrmzfbgswzlhzfzxgkml/lhqrmzfbgswzlhzfzxgkml/qt/gzdt/content/post_12973748.html"
+        }
+      ]
     }
   ],
-  "expectedTotal": 280,
+  "expectedTotal": 286,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -7775,6 +8007,17 @@
         "meituan-baoneng-nanshan",
         "meituan-galaxy-world",
         "fengyi-shiyan-hub"
+      ]
+    },
+    {
+      "id": "2026-10-29-multi-city-delivery-origins",
+      "recordIds": [
+        "meituan-xili-yitian-holiday-li",
+        "meituan-badaling-fandian",
+        "meituan-mcdonalds-longteng",
+        "fengyi-xinan-logistics-centre",
+        "nancun-cultural-square-delivery",
+        "meituan-yifang-tiandi"
       ]
     }
   ]
