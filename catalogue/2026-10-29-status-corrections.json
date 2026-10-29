@@ -1,0 +1,293 @@
+{
+  "reviewedAt": "2026-10-29",
+  "source": {
+    "name": "Australian Aviation — Wing confirms Australian service cessation, 28 May 2026",
+    "url": "https://www.australianaviation.com.au/2026/05/exclusive-wing-quietly-axes-australian-drone-delivery-operations"
+  },
+  "changes": [
+    {
+      "id": "wing-grand-plaza",
+      "before": {
+        "id": "wing-grand-plaza",
+        "name": "Wing Grand Plaza rooftop delivery nest",
+        "where": "Grand Plaza shopping centre, Logan, Queensland, Australia",
+        "country": "Australia",
+        "region": "Oceania",
+        "infrastructureType": "Cargo hub",
+        "reportedOperator": "Wing / Vicinity Centres",
+        "reportedEquipment": "Delivery drones; model not specified in the cited source",
+        "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+        "approximateMapPoint": {
+          "latitude": -27.67,
+          "longitude": 153.03
+        },
+        "reportDateLabel": "2021-10-06 source publication",
+        "description": "Wing reports a rooftop delivery pilot at Grand Plaza.",
+        "source": {
+          "name": "Wing",
+          "url": "https://wing.com/news/check-out-worlds-first-rooftop-drone"
+        },
+        "verificationStatus": "Trial reported; current operation not independently verified",
+        "reportedStatus": "trial",
+        "recordScope": "retail-rooftop",
+        "entityKey": "wing-grand-plaza",
+        "sourceReviewedAt": "2026-10-28",
+        "sourcePublishedAt": "2021-10-06",
+        "sourceType": "operator",
+        "reviewNotes": "One shopping-centre rooftop origin, not separate records for each retailer participating in the pilot.",
+        "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+        "researchBatch": "2026-10-28-retail-and-logistics"
+      },
+      "after": {
+        "id": "wing-grand-plaza",
+        "name": "Wing Grand Plaza rooftop delivery nest",
+        "where": "Grand Plaza shopping centre, Logan, Queensland, Australia",
+        "country": "Australia",
+        "region": "Oceania",
+        "infrastructureType": "Cargo hub",
+        "reportedOperator": "Wing / Vicinity Centres",
+        "reportedEquipment": "Delivery drones; model not specified in the cited source",
+        "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+        "approximateMapPoint": {
+          "latitude": -27.67,
+          "longitude": 153.03
+        },
+        "reportDateLabel": "2021-10-06 source publication",
+        "description": "Wing reports a rooftop delivery pilot at Grand Plaza.",
+        "source": {
+          "name": "Wing",
+          "url": "https://wing.com/news/check-out-worlds-first-rooftop-drone"
+        },
+        "verificationStatus": "Australian delivery service cessation reported in May 2026; resumption not independently verified",
+        "reportedStatus": "historical",
+        "recordScope": "retail-rooftop",
+        "entityKey": "wing-grand-plaza",
+        "sourceReviewedAt": "2026-10-29",
+        "sourcePublishedAt": "2021-10-06",
+        "sourceType": "operator",
+        "reviewNotes": "One shopping-centre rooftop origin, not separate records for each retailer participating in the pilot. Status reviewed against Wing’s reported Australian service cessation in 2026. This does not establish an individual site closure date or removal of its infrastructure.",
+        "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+        "researchBatch": "2026-10-28-retail-and-logistics",
+        "supportingSources": [
+          {
+            "name": "Australian Aviation — Wing confirms Australian service cessation, 28 May 2026",
+            "url": "https://www.australianaviation.com.au/2026/05/exclusive-wing-quietly-axes-australian-drone-delivery-operations"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wing-eastland",
+      "before": {
+        "id": "wing-eastland",
+        "name": "Wing Eastland delivery nest",
+        "where": "Ringwood, Melbourne, Victoria, Australia",
+        "country": "Australia",
+        "region": "Oceania",
+        "infrastructureType": "Cargo hub",
+        "reportedOperator": "Wing / DoorDash / QIC",
+        "reportedEquipment": "Delivery drone; model not established in cited evidence",
+        "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+        "approximateMapPoint": {
+          "latitude": -37.82,
+          "longitude": 145.23
+        },
+        "reportDateLabel": "2024-07-17 source publication",
+        "description": "Wing reports its first Victorian delivery nest at Eastland Shopping Centre.",
+        "source": {
+          "name": "Wing",
+          "url": "https://wing.com/news/wing-melbourne-doordash"
+        },
+        "verificationStatus": "Source-reported operation; current operation not independently verified",
+        "reportedStatus": "reported-operation",
+        "recordScope": "centre",
+        "entityKey": "wing-eastland",
+        "sourceReviewedAt": "2026-10-28",
+        "sourcePublishedAt": "2024-07-17",
+        "sourceType": "operator",
+        "reviewNotes": "One shopping-centre origin. Coverage suburbs and participating merchants are not separate nests.",
+        "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+        "researchBatch": "2026-10-28-delivery-origins-and-test-centres"
+      },
+      "after": {
+        "id": "wing-eastland",
+        "name": "Wing Eastland delivery nest",
+        "where": "Ringwood, Melbourne, Victoria, Australia",
+        "country": "Australia",
+        "region": "Oceania",
+        "infrastructureType": "Cargo hub",
+        "reportedOperator": "Wing / DoorDash / QIC",
+        "reportedEquipment": "Delivery drone; model not established in cited evidence",
+        "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+        "approximateMapPoint": {
+          "latitude": -37.82,
+          "longitude": 145.23
+        },
+        "reportDateLabel": "2024-07-17 source publication",
+        "description": "Wing reports its first Victorian delivery nest at Eastland Shopping Centre.",
+        "source": {
+          "name": "Wing",
+          "url": "https://wing.com/news/wing-melbourne-doordash"
+        },
+        "verificationStatus": "Australian delivery service cessation reported in May 2026; resumption not independently verified",
+        "reportedStatus": "historical",
+        "recordScope": "centre",
+        "entityKey": "wing-eastland",
+        "sourceReviewedAt": "2026-10-29",
+        "sourcePublishedAt": "2024-07-17",
+        "sourceType": "operator",
+        "reviewNotes": "One shopping-centre origin. Coverage suburbs and participating merchants are not separate nests. Status reviewed against Wing’s reported Australian service cessation in 2026. This does not establish an individual site closure date or removal of its infrastructure.",
+        "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+        "researchBatch": "2026-10-28-delivery-origins-and-test-centres",
+        "supportingSources": [
+          {
+            "name": "Australian Aviation — Wing confirms Australian service cessation, 28 May 2026",
+            "url": "https://www.australianaviation.com.au/2026/05/exclusive-wing-quietly-axes-australian-drone-delivery-operations"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wing-hyperdome",
+      "before": {
+        "id": "wing-hyperdome",
+        "name": "Wing Hyperdome delivery hub",
+        "where": "Loganholme, Queensland, Australia",
+        "country": "Australia",
+        "region": "Oceania",
+        "infrastructureType": "Cargo hub",
+        "reportedOperator": "Wing / DoorDash / QIC",
+        "reportedEquipment": "Delivery drone; model not established in cited evidence",
+        "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+        "approximateMapPoint": {
+          "latitude": -27.69,
+          "longitude": 153.18
+        },
+        "reportDateLabel": "2023-09-19 source publication",
+        "description": "The report identifies a delivery hub using a loading area at Hyperdome Shopping Centre.",
+        "source": {
+          "name": "Business News Australia",
+          "url": "https://www.businessnewsaustralia.com/articles/wing-teams-up-with-doordash-and-qic-to-expand-drone-delivery-services-in-south-east-queensland.html"
+        },
+        "verificationStatus": "Source-reported operation; current operation not independently verified",
+        "reportedStatus": "reported-operation",
+        "recordScope": "centre",
+        "entityKey": "wing-hyperdome",
+        "sourceReviewedAt": "2026-10-28",
+        "sourcePublishedAt": "2023-09-19",
+        "sourceType": "news",
+        "reviewNotes": "One named origin, distinct from Grand Plaza and Orion Springfield. Service suburbs are not additional ports.",
+        "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+        "researchBatch": "2026-10-28-delivery-origins-and-test-centres"
+      },
+      "after": {
+        "id": "wing-hyperdome",
+        "name": "Wing Hyperdome delivery hub",
+        "where": "Loganholme, Queensland, Australia",
+        "country": "Australia",
+        "region": "Oceania",
+        "infrastructureType": "Cargo hub",
+        "reportedOperator": "Wing / DoorDash / QIC",
+        "reportedEquipment": "Delivery drone; model not established in cited evidence",
+        "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+        "approximateMapPoint": {
+          "latitude": -27.69,
+          "longitude": 153.18
+        },
+        "reportDateLabel": "2023-09-19 source publication",
+        "description": "The report identifies a delivery hub using a loading area at Hyperdome Shopping Centre.",
+        "source": {
+          "name": "Business News Australia",
+          "url": "https://www.businessnewsaustralia.com/articles/wing-teams-up-with-doordash-and-qic-to-expand-drone-delivery-services-in-south-east-queensland.html"
+        },
+        "verificationStatus": "Australian delivery service cessation reported in May 2026; resumption not independently verified",
+        "reportedStatus": "historical",
+        "recordScope": "centre",
+        "entityKey": "wing-hyperdome",
+        "sourceReviewedAt": "2026-10-29",
+        "sourcePublishedAt": "2023-09-19",
+        "sourceType": "news",
+        "reviewNotes": "One named origin, distinct from Grand Plaza and Orion Springfield. Service suburbs are not additional ports. Status reviewed against Wing’s reported Australian service cessation in 2026. This does not establish an individual site closure date or removal of its infrastructure.",
+        "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+        "researchBatch": "2026-10-28-delivery-origins-and-test-centres",
+        "supportingSources": [
+          {
+            "name": "Australian Aviation — Wing confirms Australian service cessation, 28 May 2026",
+            "url": "https://www.australianaviation.com.au/2026/05/exclusive-wing-quietly-axes-australian-drone-delivery-operations"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wing-orion-springfield",
+      "before": {
+        "id": "wing-orion-springfield",
+        "name": "Wing Orion Springfield delivery centre",
+        "where": "Springfield Central, Queensland, Australia",
+        "country": "Australia",
+        "region": "Oceania",
+        "infrastructureType": "Cargo hub",
+        "reportedOperator": "Wing / DoorDash / Mirvac",
+        "reportedEquipment": "Delivery drone; model not established in cited evidence",
+        "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+        "approximateMapPoint": {
+          "latitude": -27.68,
+          "longitude": 152.9
+        },
+        "reportDateLabel": "2023-04-20 source publication",
+        "description": "The council reports delivery service from an operations centre at Orion Springfield Central.",
+        "source": {
+          "name": "Ipswich City Council",
+          "url": "https://www.ipswich.qld.gov.au/News-Articles-Folder/2023/Drone-food-delivery-service-takes-off-in-Ipswich"
+        },
+        "verificationStatus": "Source-reported operation; current operation not independently verified",
+        "reportedStatus": "reported-operation",
+        "recordScope": "centre",
+        "entityKey": "wing-orion-springfield",
+        "sourceReviewedAt": "2026-10-28",
+        "sourcePublishedAt": "2023-04-20",
+        "sourceType": "government",
+        "reviewNotes": "One shopping-centre origin. The preceding rooftop pilot announcement and later service launch are phases of the same project.",
+        "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+        "researchBatch": "2026-10-28-delivery-origins-and-test-centres"
+      },
+      "after": {
+        "id": "wing-orion-springfield",
+        "name": "Wing Orion Springfield delivery centre",
+        "where": "Springfield Central, Queensland, Australia",
+        "country": "Australia",
+        "region": "Oceania",
+        "infrastructureType": "Cargo hub",
+        "reportedOperator": "Wing / DoorDash / Mirvac",
+        "reportedEquipment": "Delivery drone; model not established in cited evidence",
+        "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+        "approximateMapPoint": {
+          "latitude": -27.68,
+          "longitude": 152.9
+        },
+        "reportDateLabel": "2023-04-20 source publication",
+        "description": "The council reports delivery service from an operations centre at Orion Springfield Central.",
+        "source": {
+          "name": "Ipswich City Council",
+          "url": "https://www.ipswich.qld.gov.au/News-Articles-Folder/2023/Drone-food-delivery-service-takes-off-in-Ipswich"
+        },
+        "verificationStatus": "Australian delivery service cessation reported in May 2026; resumption not independently verified",
+        "reportedStatus": "historical",
+        "recordScope": "centre",
+        "entityKey": "wing-orion-springfield",
+        "sourceReviewedAt": "2026-10-29",
+        "sourcePublishedAt": "2023-04-20",
+        "sourceType": "government",
+        "reviewNotes": "One shopping-centre origin. The preceding rooftop pilot announcement and later service launch are phases of the same project. Status reviewed against Wing’s reported Australian service cessation in 2026. This does not establish an individual site closure date or removal of its infrastructure.",
+        "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+        "researchBatch": "2026-10-28-delivery-origins-and-test-centres",
+        "supportingSources": [
+          {
+            "name": "Australian Aviation — Wing confirms Australian service cessation, 28 May 2026",
+            "url": "https://www.australianaviation.com.au/2026/05/exclusive-wing-quietly-axes-australian-drone-delivery-operations"
+          }
+        ]
+      }
+    }
+  ]
+}
