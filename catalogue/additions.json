@@ -6753,9 +6753,188 @@
       "reviewNotes": "One hospital trial site. The proposed hospital vertiport remains a future element, not a completed facility. Earlier demonstrations and later phases at this campus must not create duplicate records. No routine service or actual medical payload is inferred from this flight report.",
       "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
       "researchBatch": "2026-10-29-healthcare-trial-origins"
+    },
+    {
+      "id": "isala-meppel-medical-trial",
+      "name": "Isala Meppel medical-drone trial origin",
+      "where": "Isala Meppel, Meppel, Netherlands",
+      "country": "Netherlands",
+      "region": "Europe",
+      "infrastructureType": "Medical logistics station",
+      "reportedOperator": "ANWB Medical Air Assistance / Isala and pilot partners",
+      "reportedEquipment": "Medical delivery drone; model not established in cited launch report",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 52.7,
+        "longitude": 6.19
+      },
+      "reportDateLabel": "2025-09-22 source publication",
+      "description": "Isala describes a medical-drone launch from its Meppel hospital as part of a year-long pilot with Zwolle.",
+      "source": {
+        "name": "Isala",
+        "url": "https://www.isala.nl/nieuws/proef-medische-drone-tussen-isala-zwolle-en-meppel-van-start/"
+      },
+      "verificationStatus": "Source-reported trial; current operation not independently verified",
+      "reportedStatus": "trial",
+      "recordScope": "trial-site",
+      "entityKey": "isala-meppel-medical-trial",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": "2025-09-22",
+      "sourceType": "hospital",
+      "reviewNotes": "One Meppel hospital origin. The Zwolle endpoint, flight corridor and repeated flights are not extra sites in this batch. LVNL reports an extension into 2027; continued pilot activity is not a routine nationwide delivery service.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-medical-origin-and-test-centres",
+      "supportingSources": [
+        {
+          "name": "LVNL — medical-drone pilot extension, 20 August 2026",
+          "url": "https://en.lvnl.nl/news/260820-medical-drone-flight-trial-extended-until-mid-2027"
+        }
+      ]
+    },
+    {
+      "id": "dlr-cochstedt-test-centre",
+      "name": "DLR Cochstedt uncrewed-aircraft test centre",
+      "where": "Cochstedt, Saxony-Anhalt, Germany",
+      "country": "Germany",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "German Aerospace Center (DLR)",
+      "reportedEquipment": "Multiple research and customer UAS; no single aircraft model assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 51.88,
+        "longitude": 11.41
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "DLR identifies its National Experimental Test Center for Unmanned Aircraft Systems at Cochstedt.",
+      "source": {
+        "name": "German Aerospace Center (DLR)",
+        "url": "https://www.dlr.de/en/dlr/locations-and-offices/cochstedt"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "dlr-cochstedt-test-centre",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One research/test campus. Airport infrastructure, laboratories, later security-research facilities and individual flight programmes are not separate ports. This is research infrastructure, not a consumer-delivery origin.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-medical-origin-and-test-centres"
+    },
+    {
+      "id": "snowdonia-llanbedr-test-centre",
+      "name": "Snowdonia Llanbedr drone test centre",
+      "where": "Llanbedr Airfield, Gwynedd, Wales, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Snowdonia Aerospace LLP",
+      "reportedEquipment": "Multiple customer UAS; no single aircraft model assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 52.82,
+        "longitude": -4.1
+      },
+      "reportDateLabel": "2025-10-01 source publication",
+      "description": "The operator describes the Llanbedr-based aerospace test centre and its drone-testing role.",
+      "source": {
+        "name": "Snowdonia Aerospace — press release via Radical Moves",
+        "url": "https://radicalmoves.prowly.com/427162-snowdonia-aerospace-centre-cements-status-as-leading-uk-aerospace-testing-hub-with-caa-approval-for-drone-testing"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "snowdonia-llanbedr-test-centre",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": "2025-10-01",
+      "sourceType": "operator",
+      "reviewNotes": "One shared campus. Runways, hangars, space-test facilities and customer programmes are not extra ports. The CAA directory corroborates the named site; listing or pre-assessment does not grant a visitor flight permission.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-medical-origin-and-test-centres",
+      "supportingSources": [
+        {
+          "name": "UK Civil Aviation Authority — UAS test-site directory",
+          "url": "https://www.caa.co.uk/drones/specific-category/test-and-evaluation/uas-operations-at-test-sites"
+        }
+      ]
+    },
+    {
+      "id": "national-drone-hub-predannack",
+      "name": "National Drone Hub Predannack test centre",
+      "where": "Predannack Airfield, near Mullion, Cornwall, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "WholeShip in partnership with the Royal Navy",
+      "reportedEquipment": "Multiple customer and research UAS; no single aircraft model assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 50.03,
+        "longitude": -5.24
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "WholeShip describes the National Drone Hub as a drone development and test facility; the CAA identifies its Predannack location.",
+      "source": {
+        "name": "WholeShip",
+        "url": "https://wholeship.co.uk/national-drone-hub"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "national-drone-hub-predannack",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "One test centre. Individual hangars, runways, airspace areas and flight programmes are not separate ports. Research/test infrastructure, not a public delivery or landing service. CAA listing does not establish public access or permission to fly.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-medical-origin-and-test-centres",
+      "supportingSources": [
+        {
+          "name": "UK Civil Aviation Authority — UAS test-site directory",
+          "url": "https://www.caa.co.uk/drones/specific-category/test-and-evaluation/uas-operations-at-test-sites"
+        }
+      ]
+    },
+    {
+      "id": "cloncurry-flight-test-range",
+      "name": "Cloncurry Queensland Flight Test Range",
+      "where": "Cloncurry Airport, Queensland, Australia",
+      "country": "Australia",
+      "region": "Oceania",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "QinetiQ Australia / Queensland Government / Cloncurry Shire Council",
+      "reportedEquipment": "Multiple test UAS; no single aircraft model assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": -20.71,
+        "longitude": 140.5
+      },
+      "reportDateLabel": "2020-12-02 source publication",
+      "description": "Queensland reports the opening of its Cloncurry flight-test facility and completion of its first test campaign.",
+      "source": {
+        "name": "Queensland Government",
+        "url": "https://statements.qld.gov.au/statements/91088"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "cloncurry-flight-test-range",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": "2020-12-02",
+      "sourceType": "government",
+      "reviewNotes": "One airport-based test facility. Hangars, range systems, aircraft and separate campaigns are not additional ports. A later council report records one campaign in Q1 2024–25 and an uncertain future booking pipeline; continuous availability is not established.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-medical-origin-and-test-centres",
+      "supportingSources": [
+        {
+          "name": "Cloncurry Shire Council — Q1 2024–25 operational progress report",
+          "url": "https://www.cloncurry.qld.gov.au/files/assets/public/v/1/our-council/documents/operational-plan/plan_progress_report___q1.pdf"
+        }
+      ]
     }
   ],
-  "expectedTotal": 260,
+  "expectedTotal": 265,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -7020,6 +7199,16 @@
         "skyports-a-kwadraat-turnhout",
         "san-raffaele-milan-trial",
         "sao-joao-porto-trial"
+      ]
+    },
+    {
+      "id": "2026-10-29-medical-origin-and-test-centres",
+      "recordIds": [
+        "isala-meppel-medical-trial",
+        "dlr-cochstedt-test-centre",
+        "snowdonia-llanbedr-test-centre",
+        "national-drone-hub-predannack",
+        "cloncurry-flight-test-range"
       ]
     }
   ]

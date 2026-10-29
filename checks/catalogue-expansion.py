@@ -68,7 +68,20 @@ assert ninth==batch['releases'][8]['recordIds'] and len(ninth)==10
 tenth=json.loads((ROOT/'catalogue/tenth-batch-ids.json').read_text())
 assert tenth==batch['releases'][9]['recordIds'] and len(tenth)==5
 eleventh=json.loads((ROOT/'catalogue/eleventh-batch-ids.json').read_text())
-assert eleventh==batch['releases'][-1]['recordIds'] and len(eleventh)==5
+assert eleventh==batch['releases'][10]['recordIds'] and len(eleventh)==5
+twelfth=json.loads((ROOT/'catalogue/twelfth-batch-ids.json').read_text())
+assert twelfth==batch['releases'][-1]['recordIds'] and len(twelfth)==5
+prior260=json.loads((ROOT/'catalogue/prior-260-preservation.json').read_text())
+assert len(prior260)==210
+for id,digest in prior260.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 260-record release changed'
+twelfth_rows=[p for p in additions if p['id'] in twelfth]
+assert sum(p['recordScope']=='test-centre' for p in twelfth_rows)==4
+assert next(p for p in twelfth_rows if p['id']=='isala-meppel-medical-trial')['reportedStatus']=='trial'
+assert all(p['reportedStatus']=='reported-operation' for p in twelfth_rows if p['recordScope']=='test-centre')
+assert all(p['sourceReviewedAt']=='2026-10-29' for p in twelfth_rows)
+assert 'continuous availability is not established' in next(p for p in twelfth_rows if p['id']=='cloncurry-flight-test-range')['reviewNotes']
 prior255=json.loads((ROOT/'catalogue/prior-255-preservation.json').read_text())
 assert len(prior255)==205
 for id,digest in prior255.items():
