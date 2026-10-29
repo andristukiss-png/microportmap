@@ -13,10 +13,42 @@ built=json.loads((ROOT/'dist/data/projects.json').read_text());rows=built['recor
 assert rows[:50]==seed and rows[50:]==additions
 assert built['count']==len(rows)==len({p['id'] for p in rows})
 assert len(rows)==batch['expectedTotal'] and len(additions)==batch['expectedTotal']-50
+# Reviewed corrections must match their exact after-state before restoring the
+# original record solely for historical preservation hashes.
+corrections=json.loads((ROOT/'catalogue/2026-10-29-status-corrections.json').read_text())
+updates={c['id']:c for c in corrections['changes']}
+assert len(corrections['changes'])==len(updates)==4
+assert set(updates)=={'wing-grand-plaza','wing-eastland','wing-hyperdome','wing-orion-springfield'}
+allowed={'reportedStatus','verificationStatus','sourceReviewedAt','supportingSources','reviewNotes'}
+for id,c in updates.items():
+ assert c['before']['id']==c['after']['id']==id
+ changed={k for k in set(c['before'])|set(c['after']) if c['before'].get(k)!=c['after'].get(k)}
+ assert changed==allowed, 'Correction altered unrelated fields'
+ assert c['after']['reportedStatus']=='historical'
+ assert c['after']['sourceReviewedAt']==corrections['reviewedAt']=='2026-10-29'
+ assert corrections['source'] in c['after']['supportingSources']
+def preserved_record(p):
+ if p['id'] not in updates:return p
+ c=updates[p['id']]
+ assert p==c['after'], 'Record differs from reviewed correction'
+ return c['before']
+for id in updates:
+ p=next(p for p in additions if p['id']==id)
+ preserved_record(p)
+ for field,value in [('reportedStatus','reported-operation'),('name','Unreviewed name')]:
+  bad=copy.deepcopy(p);bad[field]=value
+  try:preserved_record(bad)
+  except AssertionError:pass
+  else:raise AssertionError('Unreviewed correction accepted')
+prior250=json.loads((ROOT/'catalogue/prior-250-preservation.json').read_text())
+assert len(prior250)==200
+for id,digest in prior250.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(preserved_record(p),ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest
 previous=json.loads((ROOT/'catalogue/first-batch-preservation.json').read_text())
 for id,digest in previous.items():
  p=next(p for p in additions if p['id']==id)
- assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Earlier reviewed addition changed'
+ assert hashlib.sha256(json.dumps(preserved_record(p),ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Earlier reviewed addition changed'
 second=json.loads((ROOT/'catalogue/second-batch-ids.json').read_text())
 assert second==batch['releases'][1]['recordIds'] and len(second)==40
 latest=json.loads((ROOT/'catalogue/third-batch-ids.json').read_text())
@@ -32,12 +64,16 @@ assert seventh==batch['releases'][6]['recordIds'] and len(seventh)==30
 eighth=json.loads((ROOT/'catalogue/eighth-batch-ids.json').read_text())
 assert eighth==batch['releases'][7]['recordIds'] and len(eighth)==30
 ninth=json.loads((ROOT/'catalogue/ninth-batch-ids.json').read_text())
-assert ninth==batch['releases'][-1]['recordIds'] and len(ninth)==10
+assert ninth==batch['releases'][8]['recordIds'] and len(ninth)==10
+tenth=json.loads((ROOT/'catalogue/tenth-batch-ids.json').read_text())
+assert tenth==batch['releases'][-1]['recordIds'] and len(tenth)==5
+for id,status in [('wing-stonebriar-centre','reported-operation'),('wing-hulen-mall','reported-operation'),('wing-denton-loop-288','reported-operation'),('rigitech-coppet-laboratory','trial'),('wing-coles-ormeau','historical')]:
+ assert next(p for p in additions if p['id']==id)['reportedStatus']==status
 prior240=json.loads((ROOT/'catalogue/prior-240-preservation.json').read_text())
 assert len(prior240)==190
 for id,digest in prior240.items():
  p=next(p for p in additions if p['id']==id)
- assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 240-record release changed'
+ assert hashlib.sha256(json.dumps(preserved_record(p),ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 240-record release changed'
 ninth_rows=[p for p in additions if p['id'] in ninth]
 houston=[p for p in ninth_rows if p['id'].startswith('wing-houston-')]
 assert len(houston)==8 and len({p['where'] for p in houston})==8
@@ -48,7 +84,7 @@ prior210=json.loads((ROOT/'catalogue/prior-210-preservation.json').read_text())
 assert len(prior210)==160
 for id,digest in prior210.items():
  p=next(p for p in additions if p['id']==id)
- assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 210-record release changed'
+ assert hashlib.sha256(json.dumps(preserved_record(p),ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 210-record release changed'
 new=[p for p in additions if p['id'] in eighth]
 retail=[p for p in new if p['id'].startswith('droneup-walmart-')]
 assert len(retail)==18 and len({p['where'] for p in retail})==18
@@ -64,7 +100,7 @@ prior180=json.loads((ROOT/'catalogue/prior-180-preservation.json').read_text())
 assert len(prior180)==130
 for id,digest in prior180.items():
  p=next(p for p in additions if p['id']==id)
- assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 180-record release changed'
+ assert hashlib.sha256(json.dumps(preserved_record(p),ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 180-record release changed'
 for id in ['manna-oranmore-tesco','manna-balbriggan-millfield','manna-blanchardstown','manna-junction-6','flytrex-holly-springs']:
  assert next(p for p in additions if p['id']==id)['reportedStatus']=='historical'
 assert sum(p['recordScope']=='test-centre' for p in additions if p['id'] in seventh)==14
@@ -72,21 +108,21 @@ prior150=json.loads((ROOT/'catalogue/prior-150-preservation.json').read_text())
 assert len(prior150)==100
 for id,digest in prior150.items():
  p=next(p for p in additions if p['id']==id)
- assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 150-record release changed'
+ assert hashlib.sha256(json.dumps(preserved_record(p),ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 150-record release changed'
 for id in ['wing-walmart-charlotte-callabridge','wing-walmart-charlotte-independence','wing-nrh-bisd','zipline-dallas-forest','harford-county-dfr']:
  assert next(p for p in additions if p['id']==id)['reportedStatus']=='announced'
 prior140=json.loads((ROOT/'catalogue/prior-140-preservation.json').read_text())
 assert len(prior140)==90
 for id,digest in prior140.items():
  p=next(p for p in additions if p['id']==id)
- assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 140-record release changed'
+ assert hashlib.sha256(json.dumps(preserved_record(p),ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 140-record release changed'
 for id in ['aeronext-sakai','shinshiro-sakude-trial','nara-tsukigase-ono-ono','nara-yagyu-school','japan-post-okutama','japan-post-izushi','japan-post-iruka']:
  assert next(p for p in additions if p['id']==id)['reportedStatus']=='trial'
 prior130=json.loads((ROOT/'catalogue/prior-130-preservation.json').read_text())
 assert len(prior130)==80
 for id,digest in prior130.items():
  p=next(p for p in additions if p['id']==id)
- assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 130-record release changed'
+ assert hashlib.sha256(json.dumps(preserved_record(p),ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 130-record release changed'
 for id in ['aeronext-tsuruga-arachi','inhambane-medical-drone-study']:
  assert next(p for p in additions if p['id']==id)['reportedStatus']=='historical'
 assert next(p for p in additions if p['id']=='abu-dhabi-skygo-matternet')['reportedStatus']=='announced'
@@ -95,7 +131,7 @@ prior=json.loads((ROOT/'catalogue/prior-100-preservation.json').read_text())
 assert len(prior)==50
 for id,digest in prior.items():
  p=next(p for p in additions if p['id']==id)
- assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 100-record release changed'
+ assert hashlib.sha256(json.dumps(preserved_record(p),ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 100-record release changed'
 for id in ['wing-walmart-942','wing-walmart-5299','wing-walmart-725']:
  assert next(p for p in additions if p['id']==id)['reportedStatus']=='announced'
 for id in ['oban-argyll-medical-trial','dhl-reit-im-winkl']:
