@@ -76,7 +76,22 @@ assert thirteenth==batch['releases'][12]['recordIds'] and len(thirteenth)==5
 fourteenth=json.loads((ROOT/'catalogue/fourteenth-batch-ids.json').read_text())
 assert fourteenth==batch['releases'][13]['recordIds'] and len(fourteenth)==5
 fifteenth=json.loads((ROOT/'catalogue/fifteenth-batch-ids.json').read_text())
-assert fifteenth==batch['releases'][-1]['recordIds'] and len(fifteenth)==5
+assert fifteenth==batch['releases'][14]['recordIds'] and len(fifteenth)==5
+sixteenth=json.loads((ROOT/'catalogue/sixteenth-batch-ids.json').read_text())
+assert sixteenth==batch['releases'][-1]['recordIds'] and len(sixteenth)==6
+prior280=json.loads((ROOT/'catalogue/prior-280-preservation.json').read_text())
+assert len(prior280)==230
+for id,digest in prior280.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 280-record release changed'
+sixteenth_rows=[p for p in additions if p['id'] in sixteenth]
+assert all(p['recordScope']=='centre' and p['reportedStatus']=='reported-operation' for p in sixteenth_rows)
+assert all(p['sourceReviewedAt']=='2026-10-29' and p['country']=='China' for p in sixteenth_rows)
+assert len({p['where'] for p in sixteenth_rows})==6
+nancun=next(p for p in sixteenth_rows if p['id']=='nancun-cultural-square-delivery')
+assert 'not established' in nancun['reportedOperator'] and nancun['sourcePublishedAt']=='2024-12-08'
+assert 'Shiyan' in next(p for p in sixteenth_rows if p['id']=='fengyi-xinan-logistics-centre')['reviewNotes']
+assert 'Holiday Plaza' in next(p for p in sixteenth_rows if p['id']=='meituan-xili-yitian-holiday-li')['reviewNotes']
 prior275=json.loads((ROOT/'catalogue/prior-275-preservation.json').read_text())
 assert len(prior275)==225
 for id,digest in prior275.items():
