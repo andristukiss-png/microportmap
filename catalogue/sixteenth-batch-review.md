@@ -34,3 +34,7 @@ All records retain source-reported operation with current-operation limitations.
 ## Verification scope
 
 Preservation digests pin all 230 prior additions; original snapshot checks protect the first 50 records and 72 HTML pages. Expanded-catalogue validation covers exports, generated pages and deterministic output. Browser coverage includes all six new passports: 95 routes at desktop/mobile sizes (190 journeys).
+
+## Browser capture reliability correction
+
+The initial CI run completed all 190 catalogue journeys but an unchanged original-passport recovery probe ended at PENDING. The passport capture wrapper now uses an 18-second virtual budget and at most three fresh-profile attempts only for PENDING, matching the existing country/comparison wrappers. Assertion failures, missing results and browser process errors still fail immediately. A simulated-browser harness verifies completion, retry success, exhaustion and fail-fast paths; real Chromium remains required in CI. No product JavaScript or source HTML changes.
