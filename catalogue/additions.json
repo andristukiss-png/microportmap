@@ -6932,9 +6932,188 @@
           "url": "https://www.cloncurry.qld.gov.au/files/assets/public/v/1/our-council/documents/operational-plan/plan_progress_report___q1.pdf"
         }
       ]
+    },
+    {
+      "id": "tawhaki-kaitorete",
+      "name": "Tāwhaki Kaitorete aerospace test centre",
+      "where": "Kaitorete, Canterbury, New Zealand",
+      "country": "New Zealand",
+      "region": "Oceania",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Tāwhaki joint venture",
+      "reportedEquipment": "Multiple customer uncrewed aircraft; no single model assigned",
+      "locationPrecision": "Editorial locality-level approximation: Birdlings Flat reference, not the test-centre location",
+      "approximateMapPoint": {
+        "latitude": -43.82,
+        "longitude": 172.67
+      },
+      "reportDateLabel": "2024-02-09 source publication",
+      "description": "Tāwhaki reports the opening of its National Aerospace Centre at Kaitorete and earlier uncrewed-aircraft test activity.",
+      "source": {
+        "name": "Tāwhaki",
+        "url": "https://tawhaki.co.nz/tawhaki-national-aerospace-centre-provides-mission-critical-boost-for-aerospace-sector/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "tawhaki-kaitorete",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": "2024-02-09",
+      "sourceType": "operator",
+      "reviewNotes": "One shared aerospace campus. Its runway, planned hangars and separate customer programmes are not additional ports. Research and testing activity does not establish a passenger or parcel-delivery service. The map uses a nearby Birdlings Flat locality reference.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-aerospace-research-facilities",
+      "supportingSources": [
+        {
+          "name": "Civil Aviation Authority of New Zealand — Kaitorete research airspace, 27 June 2025",
+          "url": "https://www.aviation.govt.nz/about-us/media-releases/show/special-use-airspace/"
+        }
+      ]
+    },
+    {
+      "id": "choctaw-daisy-aviation-centre",
+      "name": "Choctaw Nation Daisy aviation test centre",
+      "where": "Daisy, Oklahoma, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Choctaw Nation of Oklahoma",
+      "reportedEquipment": "Multiple research and customer UAS; no single model assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 34.53,
+        "longitude": -95.73
+      },
+      "reportDateLabel": "2025-06-18 source publication",
+      "description": "The Choctaw Nation reports opening its Emerging Aviation Technology Center in Daisy in June 2025.",
+      "source": {
+        "name": "Choctaw Nation Business and Economic Development",
+        "url": "https://www.growchoctaw.com/news/2025/06/18/news/choctaw-nation-opens-state-of-the-art-facility-to-boost-emerging-aviation-technology/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "choctaw-daisy-aviation-centre",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": "2025-06-18",
+      "sourceType": "government",
+      "reviewNotes": "One tribally operated test campus. The Daisy Ranch name, later FAA designation, hangars and individual trials refer to the same facility rather than extra ports. This is research infrastructure; no public access or flight permission is inferred.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-aerospace-research-facilities",
+      "supportingSources": [
+        {
+          "name": "FAA — UAS test-site directory, Choctaw Nation entry",
+          "url": "https://www.faa.gov/uas/programs_partnerships/test_sites/locations"
+        }
+      ]
+    },
+    {
+      "id": "acuasi-nenana-testing-base",
+      "name": "ACUASI Nenana cargo-drone testing base",
+      "where": "Nenana Municipal Airport, Nenana, Alaska, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Alaska Fairbanks / Alaska Center for Unmanned Aircraft Systems Integration",
+      "reportedEquipment": "Windracers ULTRA",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 64.56,
+        "longitude": -149.09
+      },
+      "reportDateLabel": "2025-10-14 source publication",
+      "description": "UAF reports Windracers ULTRA test flights from its Nenana airport hangar in October 2025.",
+      "source": {
+        "name": "University of Alaska Fairbanks",
+        "url": "https://www.uaf.edu/news/acuasi-adds-new-drones-for-cargo-trials.php"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "acuasi-nenana-testing-base",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": "2025-10-14",
+      "sourceType": "research",
+      "reviewNotes": "One university testing base. The hangar, successive aircraft and proposed cargo routes are not extra sites. Test flights do not establish routine cargo service. Distinct from the Alaska DOT SOAR dock programme already catalogued.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-aerospace-research-facilities",
+      "supportingSources": [
+        {
+          "name": "UAF — Nenana hangar open-house notice, 12 September 2024",
+          "url": "https://www.uaf.edu/news/monday-open-house-set-for-acuasis-new-nenana-drone-hangar.php"
+        }
+      ]
+    },
+    {
+      "id": "virginia-tech-kentland-keas",
+      "name": "Virginia Tech Kentland aerial-systems laboratory",
+      "where": "Kentland Farm, near Blacksburg, Virginia, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Virginia Tech / Mid-Atlantic Aviation Partnership",
+      "reportedEquipment": "Multiple small research UAS; no single model assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 37.23,
+        "longitude": -80.41
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "Virginia Tech identifies the Kentland Experimental Aerial Systems laboratory, with a small-UAS runway and research hangar.",
+      "source": {
+        "name": "Virginia Tech Mid-Atlantic Aviation Partnership",
+        "url": "https://maap.ictas.vt.edu/capabilities/facilities.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "virginia-tech-kentland-keas",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One Kentland testing facility, separate from the main-campus netted Drone Park. The wider agricultural farm, individual research programmes and later campus facilities are not additional ports. The map uses a Blacksburg locality reference, not the laboratory position.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-aerospace-research-facilities"
+    },
+    {
+      "id": "virginia-tech-campus-drone-park",
+      "name": "Virginia Tech main-campus Drone Park",
+      "where": "Virginia Tech main campus, Blacksburg, Virginia, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Virginia Tech / Institute for Critical Technology and Applied Science",
+      "reportedEquipment": "Multiple small research and training drones; no single model assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 37.23,
+        "longitude": -80.41
+      },
+      "reportDateLabel": "2018-08-24 source publication",
+      "description": "Virginia Tech describes its opened netted Drone Park and research, education and training flights on the main campus.",
+      "source": {
+        "name": "Virginia Tech College of Engineering",
+        "url": "https://eng.vt.edu/magazine/stories/fall-2018/if-we-build-it-they-will-come.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "virginia-tech-campus-drone-park",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": "2018-08-24",
+      "sourceType": "research",
+      "reviewNotes": "One enclosed flight facility. The university explicitly distinguishes this park from Kentland Farm; separate courses, experiments and aircraft are not extra ports. The shared Blacksburg map point is a locality reference, not evidence that the two facilities are co-located.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-aerospace-research-facilities",
+      "supportingSources": [
+        {
+          "name": "Virginia Tech MAAP — separate Kentland and main-campus facilities",
+          "url": "https://maap.ictas.vt.edu/capabilities/facilities.html"
+        }
+      ]
     }
   ],
-  "expectedTotal": 265,
+  "expectedTotal": 270,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -7209,6 +7388,16 @@
         "snowdonia-llanbedr-test-centre",
         "national-drone-hub-predannack",
         "cloncurry-flight-test-range"
+      ]
+    },
+    {
+      "id": "2026-10-29-aerospace-research-facilities",
+      "recordIds": [
+        "tawhaki-kaitorete",
+        "choctaw-daisy-aviation-centre",
+        "acuasi-nenana-testing-base",
+        "virginia-tech-kentland-keas",
+        "virginia-tech-campus-drone-park"
       ]
     }
   ]
