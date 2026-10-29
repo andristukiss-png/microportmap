@@ -7111,9 +7111,193 @@
           "url": "https://maap.ictas.vt.edu/capabilities/facilities.html"
         }
       ]
+    },
+    {
+      "id": "meituan-coastal-city",
+      "name": "Meituan Coastal City delivery origin",
+      "where": "Coastal City commercial area, Nanshan, Shenzhen, China",
+      "country": "China",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Meituan",
+      "reportedEquipment": "Meituan delivery drones; site-specific model not established",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 22.53,
+        "longitude": 113.93
+      },
+      "reportDateLabel": "2023-09-04 source publication",
+      "description": "Meituan identifies a Coastal City-area launch point for its regular delivery route to Shenzhen Talent Park.",
+      "source": {
+        "name": "Meituan",
+        "url": "https://www.meituan.com/news/NN230904058001287"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "meituan-coastal-city",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": "2023-09-04",
+      "sourceType": "operator",
+      "reviewNotes": "One commercial-area delivery origin. The later Shenzhen Bay Park pilot is supporting route context, not a second Coastal City base. Park destinations and participating merchants are not additional origins. The map is a Nanshan locality reference, not a mall rooftop or launch coordinate.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-meituan-delivery-origins",
+      "supportingSources": [
+        {
+          "name": "Shenzhen Daily via Shenzhen Government Online — Bay Park pilot, updated 3 June 2024",
+          "url": "https://www.sz.gov.cn/en_szgov/news/infocus/LowAltitudeEconomy/Areasofapplication/logistics/content/post_11419746.html"
+        }
+      ]
+    },
+    {
+      "id": "meituan-upperhills",
+      "name": "Meituan UpperHills delivery origin",
+      "where": "UpperHills, Futian, Shenzhen, China",
+      "country": "China",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Meituan",
+      "reportedEquipment": "Meituan delivery drones; site-specific model not established",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 22.54,
+        "longitude": 114.06
+      },
+      "reportDateLabel": "2024-04-30 source publication",
+      "description": "Meituan identifies UpperHills as the origin of its delivery route to Shenzhen Central Park.",
+      "source": {
+        "name": "Meituan",
+        "url": "https://www.meituan.com/news/NN240430057006260"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "meituan-upperhills",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": "2024-04-30",
+      "sourceType": "operator",
+      "reviewNotes": "One named delivery origin. Central Park pickup cabinets and individual restaurant launches do not create extra bases. The launch source describes a park route; later reporting observes activity at the UpperHills takeoff point. Current service availability remains unverified. The map is a Futian locality reference.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-meituan-delivery-origins",
+      "supportingSources": [
+        {
+          "name": "China News Service — UpperHills takeoff-point reporting, 16 February 2026",
+          "url": "https://www.chinanews.com/cj/2026/02-16/10573274.shtml"
+        }
+      ]
+    },
+    {
+      "id": "meituan-longhua-tianhong",
+      "name": "Meituan Longhua Tianhong delivery origin",
+      "where": "Longhua Tianhong commercial area, Minzhi, Shenzhen, China",
+      "country": "China",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Meituan",
+      "reportedEquipment": "Meituan delivery drones; site-specific model not established",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 22.63,
+        "longitude": 114.03
+      },
+      "reportDateLabel": "2023-07-10 source publication",
+      "description": "Shenzhen News describes drone deliveries originating in the Longhua Tianhong shopping-centre service area.",
+      "source": {
+        "name": "Shenzhen News",
+        "url": "https://www.sznews.com/news/content/mb/2023-07/10/content_30327309.htm"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "meituan-longhua-tianhong",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": "2023-07-10",
+      "sourceType": "news",
+      "reviewNotes": "One commercial-area origin. April 2024 reporting places the actual launch point across the street in Fendouzhe Square, not on the mall roof. September 2026 reporting concerns upgraded receiving nodes in the wider network; it does not establish M-Port 3 equipment at this origin. Multiple routes and recipient cabinets are not extra origins.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-meituan-delivery-origins",
+      "supportingSources": [
+        {
+          "name": "Economic Observer — launch point in Fendouzhe Square, 11 April 2024",
+          "url": "https://www.eeo.com.cn/2024/0411/651436.shtml"
+        },
+        {
+          "name": "Longhua Government Online — network-node upgrade, 9 September 2026",
+          "url": "https://www.szlhq.gov.cn/xxgk/xwzx/gzdt/content/post_12973728.html"
+        }
+      ]
+    },
+    {
+      "id": "meituan-bailian-jinshan",
+      "name": "Meituan Bailian Jinshan delivery origin",
+      "where": "Bailian Jinshan Shopping Mall, Jinshan, Shanghai, China",
+      "country": "China",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Meituan",
+      "reportedEquipment": "Meituan delivery drones; site-specific model not established",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 30.75,
+        "longitude": 121.34
+      },
+      "reportDateLabel": "2023-05-05 source publication",
+      "description": "Shanghai authorities identify Bailian Jinshan Shopping Mall as the origin of a commercial delivery route launched in April 2023.",
+      "source": {
+        "name": "Shanghai State-owned Assets Supervision and Administration Commission",
+        "url": "https://www.gzw.sh.gov.cn/shgzw_zxzx_gqdt/20230505/0568e612c21d4b4da7adf0c9a6af01c0.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "meituan-bailian-jinshan",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": "2023-05-05",
+      "sourceType": "government",
+      "reviewNotes": "One mall-based delivery origin. The receiving cabinet near the Jinshan business-association building and the separate East China UAV test base are not part of this origin count. The record reflects the dated launch report, not independently established continuation. The map is a Jinshan locality reference.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-meituan-delivery-origins",
+      "supportingSources": []
+    },
+    {
+      "id": "meituan-hopson-one",
+      "name": "Meituan Hopson One delivery origin",
+      "where": "Hopson One, Yangpu, Shanghai, China",
+      "country": "China",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Meituan",
+      "reportedEquipment": "Meituan delivery drones; site-specific model not established",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 31.3,
+        "longitude": 121.51
+      },
+      "reportDateLabel": "2025-02-14 source publication",
+      "description": "Shanghai transport authorities report a February 2025 site visit and delivery demonstration at Meituan’s Hopson One operation.",
+      "source": {
+        "name": "Shanghai Municipal Transportation Commission",
+        "url": "https://jtw.sh.gov.cn/xydt/20250217/a1e34a82731a430d9bfe21efdc8f5b99.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "meituan-hopson-one",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": "2025-02-14",
+      "sourceType": "government",
+      "reviewNotes": "One mall-based delivery origin. The December 2023 launch report identifies takeoff from Hopson One toward Innov Center. Later routes, receiving offices and the separately discussed management centre are not additional origins here. The map is a Yangpu locality reference. Current availability is not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-meituan-delivery-origins",
+      "supportingSources": [
+        {
+          "name": "Shanghai Daily via Shanghai Information Office — Hopson One route, 28 December 2023",
+          "url": "https://touch.shio.gov.cn/jsp/zfxw_detail.jsp?id=20231228191507294"
+        }
+      ]
     }
   ],
-  "expectedTotal": 270,
+  "expectedTotal": 275,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -7398,6 +7582,16 @@
         "acuasi-nenana-testing-base",
         "virginia-tech-kentland-keas",
         "virginia-tech-campus-drone-park"
+      ]
+    },
+    {
+      "id": "2026-10-29-meituan-delivery-origins",
+      "recordIds": [
+        "meituan-coastal-city",
+        "meituan-upperhills",
+        "meituan-longhua-tianhong",
+        "meituan-bailian-jinshan",
+        "meituan-hopson-one"
       ]
     }
   ]
