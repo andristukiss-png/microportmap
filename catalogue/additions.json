@@ -6580,9 +6580,182 @@
           "url": "https://www.australianaviation.com.au/2026/05/exclusive-wing-quietly-axes-australian-drone-delivery-operations"
         }
       ]
+    },
+    {
+      "id": "caelus-edinburgh-bioquarter",
+      "name": "CAELUS Edinburgh BioQuarter trial origin",
+      "where": "Edinburgh BioQuarter, Edinburgh, Scotland, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Medical logistics station",
+      "reportedOperator": "Skyports Drone Services / Project CAELUS / NHS Lothian",
+      "reportedEquipment": "Fixed-wing delivery drone; model not established in cited report",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 55.95,
+        "longitude": -3.19
+      },
+      "reportDateLabel": "2024-09-12 source publication",
+      "description": "The project partner describes a medical-sample drone launching from a lawn at Edinburgh BioQuarter during the 2024 CAELUS trial.",
+      "source": {
+        "name": "Connected Places Catapult",
+        "url": "https://cp.catapult.org.uk/article/medical-drone-delivery-trial-takes-to-the-skies-over-scotland/"
+      },
+      "verificationStatus": "Source-reported trial; current operation not independently verified",
+      "reportedStatus": "trial",
+      "recordScope": "trial-site",
+      "entityKey": "caelus-edinburgh-bioquarter",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": "2024-09-12",
+      "sourceType": "research",
+      "reviewNotes": "One identified Edinburgh trial origin. Royal Infirmary and BioQuarter references describe the same launch campus. The Borders General Hospital endpoint, route and national CAELUS programme are not additional records in this batch. Routine service is not established.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-healthcare-trial-origins",
+      "supportingSources": [
+        {
+          "name": "Skyports — August 2024 CAELUS specimen trial",
+          "url": "https://skyportsdroneservices.com/2024/08/nhs-laboratory-specimens-delivered-by-drone-for-first-time-by-project-caelus/"
+        }
+      ]
+    },
+    {
+      "id": "mercury-stracathro-trial",
+      "name": "Stracathro Hospital medical-drone trial site",
+      "where": "Stracathro, Angus, Scotland, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Medical logistics station",
+      "reportedOperator": "Skyports / Mercury Drone Ports / NHS Tayside",
+      "reportedEquipment": "Medical delivery drone; model not established in cited evidence",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 56.78,
+        "longitude": -2.62
+      },
+      "reportDateLabel": "March 2023 committee report, printed page 55; original publication date not established",
+      "description": "The council report records successful medical-sample flights between Stracathro and Ninewells hospitals.",
+      "source": {
+        "name": "Tay Cities Region Joint Committee / Angus Council",
+        "url": "https://www.taycities.co.uk/sites/default/files/2023-03/tcrjc240323ag.pdf"
+      },
+      "verificationStatus": "Source-reported trial; current operation not independently verified",
+      "reportedStatus": "trial",
+      "recordScope": "trial-site",
+      "entityKey": "mercury-stracathro-trial",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "One hospital trial site in the Mercury programme. The regional airspace, Ninewells endpoint, Montrose corridor and future Mercury infrastructure are not separately counted. The 2023 report confirms earlier trial flights, not routine or continuing operations.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-healthcare-trial-origins",
+      "supportingSources": [
+        {
+          "name": "The Courier — Stracathro-to-Dundee trial flight report",
+          "url": "https://www.thecourier.co.uk/fp/news/angus-mearns/3758119/angus-medical-drone-flight-video/"
+        }
+      ]
+    },
+    {
+      "id": "skyports-a-kwadraat-turnhout",
+      "name": "A-kwadraat Turnhout medical-drone trial hub",
+      "where": "A-kwadraat healthcare site, Turnhout, Belgium",
+      "country": "Belgium",
+      "region": "Europe",
+      "infrastructureType": "Medical logistics station",
+      "reportedOperator": "Skyports Drone Services / A-kwadraat / AZ Turnhout",
+      "reportedEquipment": "RigiTech Eiger and Speedbird DLV-2",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 51.32,
+        "longitude": 4.94
+      },
+      "reportDateLabel": "2025-08-04 source publication",
+      "description": "Skyports identifies A-kwadraat as the central operational hub for a Kempen medical-delivery trial launched in August 2025.",
+      "source": {
+        "name": "Skyports Drone Services",
+        "url": "https://skyportsdroneservices.com/2025/08/skyports-drone-services-az-turnhout-launch-medical-drone-delivery-service-belgium/"
+      },
+      "verificationStatus": "Source-reported trial; current operation not independently verified",
+      "reportedStatus": "trial",
+      "recordScope": "centre",
+      "entityKey": "skyports-a-kwadraat-turnhout",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": "2025-08-04",
+      "sourceType": "operator",
+      "reviewNotes": "One named hub. The AZ Herentals and St Jozef endpoints, airspace receivers and the UK remote-control centre are not extra hubs in this batch. The source calls this a trial; a future permanent network is an ambition, not established operation.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-healthcare-trial-origins"
+    },
+    {
+      "id": "san-raffaele-milan-trial",
+      "name": "San Raffaele Milan hospital drone living lab",
+      "where": "San Raffaele Hospital, Milan, Italy",
+      "country": "Italy",
+      "region": "Europe",
+      "infrastructureType": "Hospital drone trial campus",
+      "reportedOperator": "San Raffaele Hospital / Flying Forward 2020 project partners",
+      "reportedEquipment": "Demonstration drones; models not established in cited report",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 45.46,
+        "longitude": 9.19
+      },
+      "reportDateLabel": "March–May 2023 demonstrations; publication date not recorded",
+      "description": "CORDIS describes medical-delivery and surveillance demonstrations at San Raffaele, including a launch beside the hospital pharmacy.",
+      "source": {
+        "name": "European Commission CORDIS",
+        "url": "https://www.cordis.europa.eu/article/id/444075-drones-to-transform-hospital-services"
+      },
+      "verificationStatus": "Source-reported trial; current operation not independently verified",
+      "reportedStatus": "trial",
+      "recordScope": "campus",
+      "entityKey": "san-raffaele-milan-trial",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "One hospital campus. Its pharmacy courtyard, delivery destinations and security demonstration are uses of the same living lab, not separate ports. March–May 2023 demonstrations do not establish a permanent hospital logistics service.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-healthcare-trial-origins",
+      "supportingSources": [
+        {
+          "name": "San Raffaele Hospital — living lab report, 16 August 2023",
+          "url": "https://www.hsr.it/news/2023/agosto/progetto-droni-trasporto-medicine"
+        }
+      ]
+    },
+    {
+      "id": "sao-joao-porto-trial",
+      "name": "São João Porto hospital drone trial site",
+      "where": "Hospital São João, Porto, Portugal",
+      "country": "Portugal",
+      "region": "Europe",
+      "infrastructureType": "Hospital drone trial campus",
+      "reportedOperator": "4LifeLAB / Unidade Local de Saúde São João / CEiiA / Eliot",
+      "reportedEquipment": "Uncrewed aircraft; model not stated in cited report",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 41.15,
+        "longitude": -8.61
+      },
+      "reportDateLabel": "2025-10-17 source publication",
+      "description": "4LifeLAB reports a drone test flight at Hospital São João within its advanced-air-mobility project.",
+      "source": {
+        "name": "4LifeLAB",
+        "url": "https://4lifelab.eu/en/drones-for-medical-emergencies-and-hospital-logistics/4lifelab-conducts-first-test-flight-with-drone-at-hospital-sao-joao/"
+      },
+      "verificationStatus": "Source-reported trial; current operation not independently verified",
+      "reportedStatus": "trial",
+      "recordScope": "trial-site",
+      "entityKey": "sao-joao-porto-trial",
+      "sourceReviewedAt": "2026-10-29",
+      "sourcePublishedAt": "2025-10-17",
+      "sourceType": "research",
+      "reviewNotes": "One hospital trial site. The proposed hospital vertiport remains a future element, not a completed facility. Earlier demonstrations and later phases at this campus must not create duplicate records. No routine service or actual medical payload is inferred from this flight report.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-29-healthcare-trial-origins"
     }
   ],
-  "expectedTotal": 255,
+  "expectedTotal": 260,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -6837,6 +7010,16 @@
         "wing-denton-loop-288",
         "rigitech-coppet-laboratory",
         "wing-coles-ormeau"
+      ]
+    },
+    {
+      "id": "2026-10-29-healthcare-trial-origins",
+      "recordIds": [
+        "caelus-edinburgh-bioquarter",
+        "mercury-stracathro-trial",
+        "skyports-a-kwadraat-turnhout",
+        "san-raffaele-milan-trial",
+        "sao-joao-porto-trial"
       ]
     }
   ]
