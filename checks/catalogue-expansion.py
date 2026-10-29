@@ -66,7 +66,20 @@ assert eighth==batch['releases'][7]['recordIds'] and len(eighth)==30
 ninth=json.loads((ROOT/'catalogue/ninth-batch-ids.json').read_text())
 assert ninth==batch['releases'][8]['recordIds'] and len(ninth)==10
 tenth=json.loads((ROOT/'catalogue/tenth-batch-ids.json').read_text())
-assert tenth==batch['releases'][-1]['recordIds'] and len(tenth)==5
+assert tenth==batch['releases'][9]['recordIds'] and len(tenth)==5
+eleventh=json.loads((ROOT/'catalogue/eleventh-batch-ids.json').read_text())
+assert eleventh==batch['releases'][-1]['recordIds'] and len(eleventh)==5
+prior255=json.loads((ROOT/'catalogue/prior-255-preservation.json').read_text())
+assert len(prior255)==205
+for id,digest in prior255.items():
+ p=next(p for p in additions if p['id']==id)
+ # This baseline includes the four reviewed corrections from release 255.
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 255-record release changed'
+for p in [p for p in additions if p['id'] in eleventh]:
+ assert p['reportedStatus']=='trial' and p['sourceReviewedAt']=='2026-10-29'
+ assert p['sourceType'] in {'government','operator','research'}
+assert next(p for p in additions if p['id']=='sao-joao-porto-trial')['country']=='Portugal'
+assert 'not a completed facility' in next(p for p in additions if p['id']=='sao-joao-porto-trial')['reviewNotes']
 for id,status in [('wing-stonebriar-centre','reported-operation'),('wing-hulen-mall','reported-operation'),('wing-denton-loop-288','reported-operation'),('rigitech-coppet-laboratory','trial'),('wing-coles-ormeau','historical')]:
  assert next(p for p in additions if p['id']==id)['reportedStatus']==status
 prior240=json.loads((ROOT/'catalogue/prior-240-preservation.json').read_text())
