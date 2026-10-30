@@ -9339,9 +9339,46 @@
           "url": "https://idsc.ethz.ch/research-dandrea/research-projects/archive/iterative-learning.html"
         }
       ]
+    },
+    {
+      "id": "caltech-cast-aerodrome",
+      "name": "Caltech CAST Aerodrome drone research arena",
+      "where": "Pasadena, California, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "California Institute of Technology / Center for Autonomous Systems and Technologies",
+      "reportedEquipment": "Research drones; fan-wall wind simulation and motion-tracking cameras",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 34.15,
+        "longitude": -118.14
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "Caltech describes the CAST Aerodrome as an indoor drone arena equipped to reproduce wind conditions and track aircraft motion for autonomous-flight research.",
+      "source": {
+        "name": "Caltech Center for Autonomous Systems and Technologies",
+        "url": "https://cast.caltech.edu/facilities"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "caltech-cast-aerodrome",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One named indoor drone research arena. The fan wall and motion-tracking equipment are parts of this facility, not separate ports. Other CAST assembly, mobility and spacecraft laboratories are not additional drone arenas. The supporting 2021 article distinguishes CAST from a separate JPL vacuum-chamber experiment for the Mars helicopter; that experiment is not counted here. The facilities page is undated, and the supporting article date is not substituted for its publication date. Broad Pasadena coordinates are an editorial locality reference, not a confirmed building or landing position. Current operations, access and flight permissions are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-caltech-cast-aerodrome",
+      "supportingSources": [
+        {
+          "name": "Caltech — CAST wind simulation and separate JPL experiment, 22 April 2021",
+          "url": "https://www.caltech.edu/about/news/how-do-you-test-a-helicopter-bound-for-mars"
+        }
+      ]
     }
   ],
-  "expectedTotal": 331,
+  "expectedTotal": 332,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -9757,6 +9794,12 @@
       "recordIds": [
         "tu-delft-cyberzoo",
         "eth-flying-machine-arena"
+      ]
+    },
+    {
+      "id": "2026-10-30-caltech-cast-aerodrome",
+      "recordIds": [
+        "caltech-cast-aerodrome"
       ]
     }
   ]

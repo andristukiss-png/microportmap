@@ -424,7 +424,7 @@ assert len({p['where'] for p in new_rows})==2
 
 # Preserve the previous release and distinguish current-source experiments from archive evidence.
 twenty_seventh=json.loads((ROOT/'catalogue/twenty-seventh-batch-ids.json').read_text())
-assert twenty_seventh==batch['releases'][-1]['recordIds'] and len(twenty_seventh)==2
+assert twenty_seventh==batch['releases'][26]['recordIds'] and len(twenty_seventh)==2
 prior329=json.loads((ROOT/'catalogue/prior-329-preservation.json').read_text())
 assert len(prior329)==279
 for id,digest in prior329.items():
@@ -436,4 +436,18 @@ arena=next(p for p in additions if p['id']=='eth-flying-machine-arena')
 assert arena['reportedStatus']=='historical' and arena['sourcePublishedAt'] is None
 assert arena['source']['url'].startswith('https://idsc.ethz.ch/')
 assert all(p['sourceReviewedAt']=='2026-10-30' and len(p['supportingSources'])==1 for p in [cyberzoo,arena])
+
+# Preserve all earlier records and the single-arena counting decision.
+twenty_eighth=json.loads((ROOT/'catalogue/twenty-eighth-batch-ids.json').read_text())
+assert twenty_eighth==batch['releases'][-1]['recordIds']==['caltech-cast-aerodrome']
+prior331=json.loads((ROOT/'catalogue/prior-331-preservation.json').read_text())
+assert len(prior331)==281
+for id,digest in prior331.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 331-record release changed'
+cast=next(p for p in additions if p['id']=='caltech-cast-aerodrome')
+assert cast['reportedStatus']=='reported-operation' and cast['sourcePublishedAt'] is None
+assert cast['recordScope']=='test-centre' and cast['sourceReviewedAt']=='2026-10-30'
+assert cast['source']['url']=='https://cast.caltech.edu/facilities'
+assert len(cast['supportingSources'])==1
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
