@@ -1,6 +1,6 @@
 {
   "batch": "2026-10-28-cumulative-reviewed-additions",
-  "reviewedAt": "2026-10-29",
+  "reviewedAt": "2026-10-30",
   "records": [
     {
       "id": "zipline-omenako",
@@ -7700,9 +7700,139 @@
           "url": "https://www.szlhq.gov.cn/lhqrmzfbgswzlhzfzxgkml/lhqrmzfbgswzlhzfzxgkml/qt/gzdt/content/post_12973748.html"
         }
       ]
+    },
+    {
+      "id": "meituan-shuguang-building",
+      "name": "Meituan Shuguang Building station",
+      "where": "Shuguang Building, Nanshan, Shenzhen, China",
+      "country": "China",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Meituan",
+      "reportedEquipment": "M-Port 3 sending/receiving station",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 22.54,
+        "longitude": 113.94
+      },
+      "reportDateLabel": "2026-09-10 source publication",
+      "description": "Shuguang Building is named as an interconnected Nanshan delivery node with sending/receiving equipment.",
+      "source": {
+        "name": "Shenzhen Government Online / Longhua District",
+        "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_12976422.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "meituan-shuguang-building",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": "2026-09-10",
+      "sourceType": "government",
+      "reviewNotes": "One named location, not one record per device. Four devices across three named locations do not establish a fourth site. Planned expansion is excluded. Exact equipment position and current availability are unverified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-bidirectional-stations-and-trial-origin"
+    },
+    {
+      "id": "meituan-xunmei-technology-plaza",
+      "name": "Meituan Xunmei Technology Plaza station",
+      "where": "Xunmei Technology Plaza, Nanshan, Shenzhen, China",
+      "country": "China",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Meituan",
+      "reportedEquipment": "M-Port 3 sending/receiving station",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 22.54,
+        "longitude": 113.94
+      },
+      "reportDateLabel": "2026-09-10 source publication",
+      "description": "Xunmei Technology Plaza is named as an interconnected Nanshan delivery node with sending/receiving equipment.",
+      "source": {
+        "name": "Shenzhen Government Online / Longhua District",
+        "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_12976422.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "meituan-xunmei-technology-plaza",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": "2026-09-10",
+      "sourceType": "government",
+      "reviewNotes": "One named location, not one record per device. Four devices across three named locations do not establish a fourth site. Planned expansion is excluded. Exact equipment position and current availability are unverified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-bidirectional-stations-and-trial-origin"
+    },
+    {
+      "id": "meituan-mixc-world",
+      "name": "Meituan MixC World station",
+      "where": "MixC World, Nanshan, Shenzhen, China",
+      "country": "China",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Meituan",
+      "reportedEquipment": "M-Port 3 sending/receiving station",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 22.54,
+        "longitude": 113.94
+      },
+      "reportDateLabel": "2026-09-10 source publication",
+      "description": "MixC World is named as an interconnected Nanshan delivery node with sending/receiving equipment.",
+      "source": {
+        "name": "Shenzhen Government Online / Longhua District",
+        "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/gqdt/content/post_12976422.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "meituan-mixc-world",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": "2026-09-10",
+      "sourceType": "government",
+      "reviewNotes": "One named location, not one record per device. Four devices across three named locations do not establish a fourth site. Planned expansion is excluded. Exact equipment position and current availability are unverified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-bidirectional-stations-and-trial-origin"
+    },
+    {
+      "id": "huangpu-red-wine-street-trial",
+      "name": "Huangpu Red Wine Culture Street trial origin",
+      "where": "Red Wine Culture Street, western Guangzhou Development District, Huangpu, Guangzhou, China",
+      "country": "China",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Flight operator not established; Yitong Zhihang named as logistics cooperation partner",
+      "reportedEquipment": "Cargo delivery drone; site-specific model not established",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 23.06,
+        "longitude": 113.51
+      },
+      "reportDateLabel": "2024-02-08 source publication",
+      "description": "Huangpu reports a cargo-drone departure from Red Wine Culture Street during the 7 February 2024 validation flight.",
+      "source": {
+        "name": "Huangpu District Government / Huangpu Media",
+        "url": "https://www.hp.gov.cn/xwzx/zwzt/hpqdkjjjqzl/dkxsy/content/post_9851949.html"
+      },
+      "verificationStatus": "Source-reported trial; current operation not independently verified",
+      "reportedStatus": "trial",
+      "recordScope": "trial-site",
+      "entityKey": "huangpu-red-wine-street-trial",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": "2024-02-08",
+      "sourceType": "government",
+      "reviewNotes": "One demonstrated departure site. Ten planned routes and their destinations are not ten operating ports. Later reports describe inbound deliveries to the street, which do not establish continued operation of this departure point. Exact pad and current service are unverified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-bidirectional-stations-and-trial-origin",
+      "supportingSources": [
+        {
+          "name": "Guangzhou Daily — later inbound delivery context, 15 February 2026",
+          "url": "https://huacheng.gz-cmc.com/pages/2026/02/15/f3d34d83ae104f1698f7c7347fd116a4.html"
+        }
+      ]
     }
   ],
-  "expectedTotal": 286,
+  "expectedTotal": 290,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -8018,6 +8148,15 @@
         "fengyi-xinan-logistics-centre",
         "nancun-cultural-square-delivery",
         "meituan-yifang-tiandi"
+      ]
+    },
+    {
+      "id": "2026-10-30-bidirectional-stations-and-trial-origin",
+      "recordIds": [
+        "meituan-shuguang-building",
+        "meituan-xunmei-technology-plaza",
+        "meituan-mixc-world",
+        "huangpu-red-wine-street-trial"
       ]
     }
   ]

@@ -78,7 +78,20 @@ assert fourteenth==batch['releases'][13]['recordIds'] and len(fourteenth)==5
 fifteenth=json.loads((ROOT/'catalogue/fifteenth-batch-ids.json').read_text())
 assert fifteenth==batch['releases'][14]['recordIds'] and len(fifteenth)==5
 sixteenth=json.loads((ROOT/'catalogue/sixteenth-batch-ids.json').read_text())
-assert sixteenth==batch['releases'][-1]['recordIds'] and len(sixteenth)==6
+assert sixteenth==batch['releases'][15]['recordIds'] and len(sixteenth)==6
+seventeenth=json.loads((ROOT/'catalogue/seventeenth-batch-ids.json').read_text())
+assert seventeenth==batch['releases'][-1]['recordIds'] and len(seventeenth)==4
+prior286=json.loads((ROOT/'catalogue/prior-286-preservation.json').read_text())
+assert len(prior286)==236
+for id,digest in prior286.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 286-record release changed'
+new_rows=[p for p in additions if p['id'] in seventeenth]
+assert all(p['sourceReviewedAt']=='2026-10-30' for p in new_rows)
+assert sum(p['reportedStatus']=='reported-operation' for p in new_rows)==3
+trial=next(p for p in new_rows if p['id']=='huangpu-red-wine-street-trial')
+assert trial['reportedStatus']=='trial' and trial['recordScope']=='trial-site'
+assert 'not established' in trial['reportedOperator']
 prior280=json.loads((ROOT/'catalogue/prior-280-preservation.json').read_text())
 assert len(prior280)==230
 for id,digest in prior280.items():
