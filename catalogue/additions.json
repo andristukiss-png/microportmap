@@ -8590,9 +8590,231 @@
       "reviewNotes": "One airport origin for the cited 2016 trial. Surveyed farms, research corridors, aircraft and the statewide Northern Plains programme are not additional sites. The article’s explicit publication line is 20 May 2016; its archive folder says 16 May. This record does not establish present-day UAS service or that the trial continues. Current facility status is not independently verified.",
       "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
       "researchBatch": "2026-10-30-research-airfields-and-training-origins"
+    },
+    {
+      "id": "kiast-yeongwol-flight-test-centre",
+      "name": "Yeongwol drone flight-test centre",
+      "where": "Yeongwol, Gangwon, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Korea Institute of Aviation Safety Technology (KIAST)",
+      "reportedEquipment": "Environmental chamber and static-thrust testing equipment; aircraft models not specified",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 37.18,
+        "longitude": 128.46
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "The official drone portal lists environmental and static-thrust testing alongside small and medium drone flight tests at Yeongwol.",
+      "source": {
+        "name": "Korean Drone Information Portal — Yeongwol",
+        "url": "https://www.droneportal.or.kr/main/web/contents/M050-01-02-01"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "kiast-yeongwol-flight-test-centre",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "The separately named Yeongwol centre is one facility; individual test chambers and aircraft are not extra sites. The source identifies 229 Deokpouhoe-gil. Current activity, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-korean-flight-test-centres",
+      "supportingSources": [
+        {
+          "name": "KIAST — named facility and address directory",
+          "url": "https://admindronetest.kiast.or.kr/drncenter/aircenter/aircenter.do"
+        }
+      ]
+    },
+    {
+      "id": "kiast-goseong-flight-test-centre",
+      "name": "Goseong drone flight-test centre",
+      "where": "Donghae-myeon, Goseong, South Gyeongsang, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Korea Institute of Aviation Safety Technology (KIAST)",
+      "reportedEquipment": "Wind-response testing equipment; aircraft models not specified",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 34.97,
+        "longitude": 128.32
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "The official drone portal lists wind-response testing and fixed-wing and medium/large drone flight tests at Goseong.",
+      "source": {
+        "name": "Korean Drone Information Portal — Goseong",
+        "url": "https://www.droneportal.or.kr/main/web/contents/M050-01-02-02"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "kiast-goseong-flight-test-centre",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "This is Goseong in South Gyeongsang, not Goseong in Gangwon. Its runway, helipad and maintenance areas belong to one centre. The source identifies 861-20 Donghae-ro. Current activity, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-korean-flight-test-centres",
+      "supportingSources": [
+        {
+          "name": "KIAST — named facility and address directory",
+          "url": "https://admindronetest.kiast.or.kr/drncenter/aircenter/aircenter.do"
+        }
+      ]
+    },
+    {
+      "id": "kiast-boeun-flight-test-centre",
+      "name": "Boeun drone flight-test centre",
+      "where": "Sanoe-myeon, Boeun, North Chungcheong, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Korea Institute of Aviation Safety Technology (KIAST)",
+      "reportedEquipment": "Electromagnetic-immunity testing equipment; aircraft models not specified",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 36.49,
+        "longitude": 127.73
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "The official drone portal lists electromagnetic-immunity testing and small-drone flight tests at Boeun.",
+      "source": {
+        "name": "Korean Drone Information Portal — Boeun",
+        "url": "https://www.droneportal.or.kr/main/web/contents/M050-01-02-03"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "kiast-boeun-flight-test-centre",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "One named Boeun centre. Its ground-test equipment and flight-test area do not create separate facilities. The source identifies 166 Sinjeong-gil. Current activity, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-korean-flight-test-centres",
+      "supportingSources": [
+        {
+          "name": "KIAST — named facility and address directory",
+          "url": "https://admindronetest.kiast.or.kr/drncenter/aircenter/aircenter.do"
+        }
+      ]
+    },
+    {
+      "id": "kiast-hwaseong-flight-test-centre",
+      "name": "Hwaseong drone flight-test centre",
+      "where": "Songsan-myeon, Hwaseong, Gyeonggi, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Korea Institute of Aviation Safety Technology (KIAST)",
+      "reportedEquipment": "Flight-load testing equipment; aircraft models not specified",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 37.21,
+        "longitude": 126.73
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "The official drone portal lists flight-load testing and drone flight-test facilities at Hwaseong.",
+      "source": {
+        "name": "Korean Drone Information Portal — Hwaseong",
+        "url": "https://www.droneportal.or.kr/main/web/contents/M050-01-02-04"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "kiast-hwaseong-flight-test-centre",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "One centre in Songsan-myeon. The two reported helipads are components of this facility, not two additional ports. The source identifies 102-50 Gongnyong-ro 488beon-gil. Current activity, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-korean-flight-test-centres",
+      "supportingSources": [
+        {
+          "name": "KIAST — named facility and address directory",
+          "url": "https://admindronetest.kiast.or.kr/drncenter/aircenter/aircenter.do"
+        }
+      ]
+    },
+    {
+      "id": "kiast-incheon-flight-test-centre",
+      "name": "Incheon drone flight-test centre",
+      "where": "Incheon, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Korea Institute of Aviation Safety Technology (KIAST)",
+      "reportedEquipment": "Flight-precision testing equipment; aircraft models not specified",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 37.46,
+        "longitude": 126.71
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "The official drone portal lists flight-precision testing near the capital region at Incheon.",
+      "source": {
+        "name": "Korean Drone Information Portal — Incheon",
+        "url": "https://www.droneportal.or.kr/main/web/contents/M050-01-02-05"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "kiast-incheon-flight-test-centre",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "The named flight-test centre at Jeongseojin-ro is counted once. The institute’s Robot Land office address and other certification facilities are not this location. District labels differ between source pages; the shared street address identifies the facility. The source identifies 194-1 Jeongseojin-ro. Current activity, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-korean-flight-test-centres",
+      "supportingSources": [
+        {
+          "name": "KIAST — named facility and address directory",
+          "url": "https://admindronetest.kiast.or.kr/drncenter/aircenter/aircenter.do"
+        }
+      ]
+    },
+    {
+      "id": "kiast-uiseong-flight-test-centre",
+      "name": "Uiseong drone flight-test centre",
+      "where": "Gaeum-myeon, Uiseong, North Gyeongsang, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Korea Institute of Aviation Safety Technology (KIAST)",
+      "reportedEquipment": "Drone flight-test support equipment; aircraft models not specified",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 36.35,
+        "longitude": 128.7
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "The official drone portal lists a drone flight-test centre with landing facilities at Uiseong.",
+      "source": {
+        "name": "Korean Drone Information Portal — Uiseong",
+        "url": "https://www.droneportal.or.kr/main/web/contents/M050-01-02-06"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "kiast-uiseong-flight-test-centre",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "One named Uiseong centre, cross-checked against KIAST’s facility directory. Its two helipads and additional test areas are parts of the same facility, not separate ports. The source identifies 497-12 Geumseonghyeonseo-ro. Current activity, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-korean-flight-test-centres",
+      "supportingSources": [
+        {
+          "name": "KIAST — named facility and address directory",
+          "url": "https://admindronetest.kiast.or.kr/drncenter/aircenter/aircenter.do"
+        }
+      ]
     }
   ],
-  "expectedTotal": 310,
+  "expectedTotal": 316,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -8957,6 +9179,17 @@
         "jornada-uas-research-airstrip",
         "skyway36-tulsa-droneport",
         "hillsboro-ndsu-agricultural-trial"
+      ]
+    },
+    {
+      "id": "2026-10-30-korean-flight-test-centres",
+      "recordIds": [
+        "kiast-yeongwol-flight-test-centre",
+        "kiast-goseong-flight-test-centre",
+        "kiast-boeun-flight-test-centre",
+        "kiast-hwaseong-flight-test-centre",
+        "kiast-incheon-flight-test-centre",
+        "kiast-uiseong-flight-test-centre"
       ]
     }
   ]
