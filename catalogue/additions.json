@@ -8997,9 +8997,133 @@
       "reviewNotes": "One documented test origin, not the whole one-north estate. The regulator’s October 2024 decision allowed photography and videography but excluded H3 flight testing and demonstrations. Historical status applies to this cited activity; it does not establish closure of PIXEL or restrictions on every other operator. The crash location is not a second site. Current site activity, access and flight permissions are not independently verified.",
       "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
       "researchBatch": "2026-10-30-asian-test-campuses-and-historical-origin"
+    },
+    {
+      "id": "ouluzone-wireless-drone-test",
+      "name": "OuluZone wireless drone test environment",
+      "where": "OuluZone, Oulu, Finland",
+      "country": "Finland",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Oulu / University of Tokyo (cited trial researchers)",
+      "reportedEquipment": "Drone-mounted local 5G base station with satellite communications; aircraft model not stated",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 65.02,
+        "longitude": 25.47
+      },
+      "reportDateLabel": "2026-05-26 source publication",
+      "description": "The university reports a completed proof-of-concept drone-mounted 5G trial at the OuluZone experimental wireless environment.",
+      "source": {
+        "name": "University of Oulu",
+        "url": "https://www.oulu.fi/en/news/researchers-university-oulu-and-university-tokyo-demonstrate-drone-mounted-5g-base-station-for"
+      },
+      "verificationStatus": "Source-reported trial; current operation not independently verified",
+      "reportedStatus": "trial",
+      "recordScope": "test-centre",
+      "entityKey": "ouluzone-wireless-drone-test",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": "2026-05-26",
+      "sourceType": "research",
+      "reviewNotes": "One named test environment. The drone, satellite link, simulated emergency scenarios and varying flight altitudes are not additional facilities. The cited researchers are not assumed to operate the entire OuluZone estate. This record establishes the reported trial, not a routine communications service. The map point represents Oulu broadly, not the OuluZone site. Current site activity, access and flight permissions are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-oulu-trial-and-planned-logistics-sites"
+    },
+    {
+      "id": "oulu-pekuri-planned-logistics",
+      "name": "Oulu Pekuri planned drone logistics site",
+      "where": "Pekuri shopping block, Oulu, Finland",
+      "country": "Finland",
+      "region": "Europe",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "City of Oulu (planned vertiports); Oamk-led project with University of Oulu and VTT",
+      "reportedEquipment": "Planned heavy cargo drone and ground robots; site-specific fleet not established",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 65.02,
+        "longitude": 25.47
+      },
+      "reportDateLabel": "Project period August 2024–July 2026; publication date not recorded",
+      "description": "The project page names this location within a proposed three-site drone logistics research and piloting environment.",
+      "source": {
+        "name": "University of Oulu",
+        "url": "https://www.oulu.fi/en/projects/drone-logistics-service-point"
+      },
+      "verificationStatus": "Announced site in cited source; implementation not independently verified",
+      "reportedStatus": "announced",
+      "recordScope": "centre",
+      "entityKey": "oulu-pekuri-planned-logistics",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One of three explicitly named planned sites: Pekuri, Torinranta and the Housing Fair area. The city-centre description is treated as Pekuri, not a fourth site. Backup locations, delivery routes, ground robots and customers are not additional ports. The project schedule ending July 2026 does not prove construction, completed flights or continued operation. The map point represents Oulu broadly, not a proposed pad. Implementation, access and flight permissions are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-oulu-trial-and-planned-logistics-sites"
+    },
+    {
+      "id": "oulu-torinranta-planned-logistics",
+      "name": "Oulu Torinranta planned drone logistics site",
+      "where": "Torinranta waterfront, Oulu, Finland",
+      "country": "Finland",
+      "region": "Europe",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "City of Oulu (planned vertiports); Oamk-led project with University of Oulu and VTT",
+      "reportedEquipment": "Planned heavy cargo drone and ground robots; site-specific fleet not established",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 65.02,
+        "longitude": 25.47
+      },
+      "reportDateLabel": "Project period August 2024–July 2026; publication date not recorded",
+      "description": "The project page names this location within a proposed three-site drone logistics research and piloting environment.",
+      "source": {
+        "name": "University of Oulu",
+        "url": "https://www.oulu.fi/en/projects/drone-logistics-service-point"
+      },
+      "verificationStatus": "Announced site in cited source; implementation not independently verified",
+      "reportedStatus": "announced",
+      "recordScope": "centre",
+      "entityKey": "oulu-torinranta-planned-logistics",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One of three explicitly named planned sites: Pekuri, Torinranta and the Housing Fair area. The city-centre description is treated as Pekuri, not a fourth site. Backup locations, delivery routes, ground robots and customers are not additional ports. The project schedule ending July 2026 does not prove construction, completed flights or continued operation. The map point represents Oulu broadly, not a proposed pad. Implementation, access and flight permissions are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-oulu-trial-and-planned-logistics-sites"
+    },
+    {
+      "id": "oulu-housing-fair-planned-logistics",
+      "name": "Oulu Housing Fair planned drone logistics site",
+      "where": "Housing Fair area, Oulu, Finland",
+      "country": "Finland",
+      "region": "Europe",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "City of Oulu (planned vertiports); Oamk-led project with University of Oulu and VTT",
+      "reportedEquipment": "Planned heavy cargo drone and ground robots; site-specific fleet not established",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 65.02,
+        "longitude": 25.47
+      },
+      "reportDateLabel": "Project period August 2024–July 2026; publication date not recorded",
+      "description": "The project page names this location within a proposed three-site drone logistics research and piloting environment.",
+      "source": {
+        "name": "University of Oulu",
+        "url": "https://www.oulu.fi/en/projects/drone-logistics-service-point"
+      },
+      "verificationStatus": "Announced site in cited source; implementation not independently verified",
+      "reportedStatus": "announced",
+      "recordScope": "centre",
+      "entityKey": "oulu-housing-fair-planned-logistics",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One of three explicitly named planned sites: Pekuri, Torinranta and the Housing Fair area. The city-centre description is treated as Pekuri, not a fourth site. Backup locations, delivery routes, ground robots and customers are not additional ports. The project schedule ending July 2026 does not prove construction, completed flights or continued operation. The map point represents Oulu broadly, not a proposed pad. Implementation, access and flight permissions are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-oulu-trial-and-planned-logistics-sites"
     }
   ],
-  "expectedTotal": 321,
+  "expectedTotal": 325,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -9385,6 +9509,15 @@
         "taiki-hospo-uav-runway",
         "kari-goheung-flight-test-centre",
         "singapore-pixel-h3-test-origin"
+      ]
+    },
+    {
+      "id": "2026-10-30-oulu-trial-and-planned-logistics-sites",
+      "recordIds": [
+        "ouluzone-wireless-drone-test",
+        "oulu-pekuri-planned-logistics",
+        "oulu-torinranta-planned-logistics",
+        "oulu-housing-fair-planned-logistics"
       ]
     }
   ]

@@ -92,7 +92,7 @@ assert twenty_first==batch['releases'][20]['recordIds'] and len(twenty_first)==5
 twenty_second=json.loads((ROOT/'catalogue/twenty-second-batch-ids.json').read_text())
 assert twenty_second==batch['releases'][21]['recordIds'] and len(twenty_second)==6
 twenty_third=json.loads((ROOT/'catalogue/twenty-third-batch-ids.json').read_text())
-assert twenty_third==batch['releases'][-1]['recordIds'] and len(twenty_third)==5
+assert twenty_third==batch['releases'][22]['recordIds'] and len(twenty_third)==5
 prior316=json.loads((ROOT/'catalogue/prior-316-preservation.json').read_text())
 assert len(prior316)==266
 for id,digest in prior316.items():
@@ -382,3 +382,17 @@ subprocess.run([sys.executable,'scripts/build_catalogue.py'],cwd=ROOT,check=True
 after={p.relative_to(ROOT/'dist').as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in (ROOT/'dist').rglob('*') if p.is_file()}
 assert before==after,'Build must be deterministic'
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
+
+# Preserve the full previous release and distinguish planned sites from a completed trial.
+twenty_fourth=json.loads((ROOT/'catalogue/twenty-fourth-batch-ids.json').read_text())
+assert twenty_fourth==batch['releases'][-1]['recordIds'] and len(twenty_fourth)==4
+prior321=json.loads((ROOT/'catalogue/prior-321-preservation.json').read_text())
+assert len(prior321)==271
+for id,digest in prior321.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 321-record release changed'
+new_rows=[p for p in additions if p['id'] in twenty_fourth]
+assert all(p['country']=='Finland' and p['sourceReviewedAt']=='2026-10-30' for p in new_rows)
+assert len({p['where'] for p in new_rows})==4
+assert sum(p['reportedStatus']=='announced' and p['sourcePublishedAt'] is None for p in new_rows)==3
+assert next(p for p in new_rows if p['id']=='ouluzone-wireless-drone-test')['reportedStatus']=='trial'
