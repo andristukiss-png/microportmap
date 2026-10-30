@@ -82,7 +82,20 @@ assert sixteenth==batch['releases'][15]['recordIds'] and len(sixteenth)==6
 seventeenth=json.loads((ROOT/'catalogue/seventeenth-batch-ids.json').read_text())
 assert seventeenth==batch['releases'][16]['recordIds'] and len(seventeenth)==4
 eighteenth=json.loads((ROOT/'catalogue/eighteenth-batch-ids.json').read_text())
-assert eighteenth==batch['releases'][-1]['recordIds'] and len(eighteenth)==4
+assert eighteenth==batch['releases'][17]['recordIds'] and len(eighteenth)==4
+nineteenth=json.loads((ROOT/'catalogue/nineteenth-batch-ids.json').read_text())
+assert nineteenth==batch['releases'][-1]['recordIds'] and len(nineteenth)==6
+prior294=json.loads((ROOT/'catalogue/prior-294-preservation.json').read_text())
+assert len(prior294)==244
+for id,digest in prior294.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 294-record release changed'
+nineteenth_rows=[p for p in additions if p['id'] in nineteenth]
+assert all(p['sourceReviewedAt']=='2026-10-30' and p['reportedStatus']=='historical' and p['recordScope']=='centre' for p in nineteenth_rows)
+assert len({p['where'] for p in nineteenth_rows})==6
+assert all(any('vcij-droneup' in v['url'] for v in p['supportingSources']) for p in nineteenth_rows)
+assert 'Belt Line' in next(p for p in nineteenth_rows if p['id']=='droneup-walmart-2976')['reviewNotes']
+assert 'Research Drive' in next(p for p in nineteenth_rows if p['id']=='droneup-walmart-2974')['reviewNotes']
 prior290=json.loads((ROOT/'catalogue/prior-290-preservation.json').read_text())
 assert len(prior290)==240
 for id,digest in prior290.items():
