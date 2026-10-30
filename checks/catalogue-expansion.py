@@ -90,7 +90,22 @@ assert twentieth==batch['releases'][19]['recordIds'] and len(twentieth)==5
 twenty_first=json.loads((ROOT/'catalogue/twenty-first-batch-ids.json').read_text())
 assert twenty_first==batch['releases'][20]['recordIds'] and len(twenty_first)==5
 twenty_second=json.loads((ROOT/'catalogue/twenty-second-batch-ids.json').read_text())
-assert twenty_second==batch['releases'][-1]['recordIds'] and len(twenty_second)==6
+assert twenty_second==batch['releases'][21]['recordIds'] and len(twenty_second)==6
+twenty_third=json.loads((ROOT/'catalogue/twenty-third-batch-ids.json').read_text())
+assert twenty_third==batch['releases'][-1]['recordIds'] and len(twenty_third)==5
+prior316=json.loads((ROOT/'catalogue/prior-316-preservation.json').read_text())
+assert len(prior316)==266
+for id,digest in prior316.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 316-record release changed'
+twenty_third_rows=[p for p in additions if p['id'] in twenty_third]
+assert all(p['sourceReviewedAt']=='2026-10-30' and p['region']=='Asia' for p in twenty_third_rows)
+assert len({p['where'] for p in twenty_third_rows})==5
+pixel=next(p for p in twenty_third_rows if p['id']=='singapore-pixel-h3-test-origin')
+assert pixel['reportedStatus']=='historical' and pixel['sourcePublishedAt']=='2024-10-25'
+assert next(p for p in twenty_third_rows if p['id']=='taiki-hospo-uav-runway')['sourcePublishedAt']=='2026-10-04'
+assert all('F-REI' in p['reportedOperator'] for p in twenty_third_rows if p['id'].startswith('fukushima-rtf-'))
+assert sum(p['recordScope']=='test-centre' for p in twenty_third_rows)==4
 prior310=json.loads((ROOT/'catalogue/prior-310-preservation.json').read_text())
 assert len(prior310)==260
 for id,digest in prior310.items():
