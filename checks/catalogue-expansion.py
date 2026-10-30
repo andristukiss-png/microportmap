@@ -381,11 +381,10 @@ before={p.relative_to(ROOT/'dist').as_posix():hashlib.sha256(p.read_bytes()).hex
 subprocess.run([sys.executable,'scripts/build_catalogue.py'],cwd=ROOT,check=True)
 after={p.relative_to(ROOT/'dist').as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in (ROOT/'dist').rglob('*') if p.is_file()}
 assert before==after,'Build must be deterministic'
-print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
 
 # Preserve the full previous release and distinguish planned sites from a completed trial.
 twenty_fourth=json.loads((ROOT/'catalogue/twenty-fourth-batch-ids.json').read_text())
-assert twenty_fourth==batch['releases'][-1]['recordIds'] and len(twenty_fourth)==4
+assert twenty_fourth==batch['releases'][23]['recordIds'] and len(twenty_fourth)==4
 prior321=json.loads((ROOT/'catalogue/prior-321-preservation.json').read_text())
 assert len(prior321)==271
 for id,digest in prior321.items():
@@ -396,3 +395,17 @@ assert all(p['country']=='Finland' and p['sourceReviewedAt']=='2026-10-30' for p
 assert len({p['where'] for p in new_rows})==4
 assert sum(p['reportedStatus']=='announced' and p['sourcePublishedAt'] is None for p in new_rows)==3
 assert next(p for p in new_rows if p['id']=='ouluzone-wireless-drone-test')['reportedStatus']=='trial'
+
+# The next batch adds two campuses, not their component facilities or programmes.
+twenty_fifth=json.loads((ROOT/'catalogue/twenty-fifth-batch-ids.json').read_text())
+assert twenty_fifth==batch['releases'][-1]['recordIds'] and len(twenty_fifth)==2
+prior325=json.loads((ROOT/'catalogue/prior-325-preservation.json').read_text())
+assert len(prior325)==275
+for id,digest in prior325.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 325-record release changed'
+new_rows=[p for p in additions if p['id'] in twenty_fifth]
+assert {p['country'] for p in new_rows}=={'Netherlands','Switzerland'}
+assert all(p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' and p['sourcePublishedAt'] is None for p in new_rows)
+assert all(p['sourceReviewedAt']=='2026-10-30' and len(p['supportingSources'])==2 for p in new_rows)
+print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
