@@ -86,7 +86,21 @@ assert eighteenth==batch['releases'][17]['recordIds'] and len(eighteenth)==4
 nineteenth=json.loads((ROOT/'catalogue/nineteenth-batch-ids.json').read_text())
 assert nineteenth==batch['releases'][18]['recordIds'] and len(nineteenth)==6
 twentieth=json.loads((ROOT/'catalogue/twentieth-batch-ids.json').read_text())
-assert twentieth==batch['releases'][-1]['recordIds'] and len(twentieth)==5
+assert twentieth==batch['releases'][19]['recordIds'] and len(twentieth)==5
+twenty_first=json.loads((ROOT/'catalogue/twenty-first-batch-ids.json').read_text())
+assert twenty_first==batch['releases'][-1]['recordIds'] and len(twenty_first)==5
+prior305=json.loads((ROOT/'catalogue/prior-305-preservation.json').read_text())
+assert len(prior305)==255
+for id,digest in prior305.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 305-record release changed'
+twenty_first_rows=[p for p in additions if p['id'] in twenty_first]
+assert all(p['sourceReviewedAt']=='2026-10-30' for p in twenty_first_rows)
+assert len({p['where'] for p in twenty_first_rows})==5
+hillsboro=next(p for p in twenty_first_rows if p['id']=='hillsboro-ndsu-agricultural-trial')
+assert hillsboro['reportedStatus']=='trial' and hillsboro['recordScope']=='trial-site' and hillsboro['sourcePublishedAt']=='2016-05-20'
+assert sum(p['recordScope']=='test-centre' for p in twenty_first_rows)==4
+assert next(p for p in twenty_first_rows if p['id']=='jornada-uas-research-airstrip')['sourcePublishedAt']=='2014-04-01'
 prior300=json.loads((ROOT/'catalogue/prior-300-preservation.json').read_text())
 assert len(prior300)==250
 for id,digest in prior300.items():
