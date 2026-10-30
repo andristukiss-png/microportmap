@@ -88,7 +88,19 @@ assert nineteenth==batch['releases'][18]['recordIds'] and len(nineteenth)==6
 twentieth=json.loads((ROOT/'catalogue/twentieth-batch-ids.json').read_text())
 assert twentieth==batch['releases'][19]['recordIds'] and len(twentieth)==5
 twenty_first=json.loads((ROOT/'catalogue/twenty-first-batch-ids.json').read_text())
-assert twenty_first==batch['releases'][-1]['recordIds'] and len(twenty_first)==5
+assert twenty_first==batch['releases'][20]['recordIds'] and len(twenty_first)==5
+twenty_second=json.loads((ROOT/'catalogue/twenty-second-batch-ids.json').read_text())
+assert twenty_second==batch['releases'][-1]['recordIds'] and len(twenty_second)==6
+prior310=json.loads((ROOT/'catalogue/prior-310-preservation.json').read_text())
+assert len(prior310)==260
+for id,digest in prior310.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 310-record release changed'
+twenty_second_rows=[p for p in additions if p['id'] in twenty_second]
+assert all(p['sourceReviewedAt']=='2026-10-30' and p['country']=='South Korea' and p['region']=='Asia' and p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' and p['sourcePublishedAt'] is None for p in twenty_second_rows)
+assert len({p['source']['url'] for p in twenty_second_rows})==6
+assert len({p['where'] for p in twenty_second_rows})==6
+assert 'South Gyeongsang' in next(p for p in twenty_second_rows if p['id']=='kiast-goseong-flight-test-centre')['where']
 prior305=json.loads((ROOT/'catalogue/prior-305-preservation.json').read_text())
 assert len(prior305)==255
 for id,digest in prior305.items():
