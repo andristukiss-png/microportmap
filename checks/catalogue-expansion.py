@@ -84,7 +84,19 @@ assert seventeenth==batch['releases'][16]['recordIds'] and len(seventeenth)==4
 eighteenth=json.loads((ROOT/'catalogue/eighteenth-batch-ids.json').read_text())
 assert eighteenth==batch['releases'][17]['recordIds'] and len(eighteenth)==4
 nineteenth=json.loads((ROOT/'catalogue/nineteenth-batch-ids.json').read_text())
-assert nineteenth==batch['releases'][-1]['recordIds'] and len(nineteenth)==6
+assert nineteenth==batch['releases'][18]['recordIds'] and len(nineteenth)==6
+twentieth=json.loads((ROOT/'catalogue/twentieth-batch-ids.json').read_text())
+assert twentieth==batch['releases'][-1]['recordIds'] and len(twentieth)==5
+prior300=json.loads((ROOT/'catalogue/prior-300-preservation.json').read_text())
+assert len(prior300)==250
+for id,digest in prior300.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 300-record release changed'
+twentieth_rows=[p for p in additions if p['id'] in twentieth]
+assert all(p['sourceReviewedAt']=='2026-10-30' and p['reportedStatus']=='reported-operation' and p['recordScope']=='test-centre' for p in twentieth_rows)
+assert len({p['where'] for p in twentieth_rows})==5
+assert next(p for p in twentieth_rows if p['id']=='umd-st-marys-uroc')['sourcePublishedAt']=='2022-10-20'
+assert all(p['sourcePublishedAt'] is None for p in twentieth_rows if p['id']!='umd-st-marys-uroc')
 prior294=json.loads((ROOT/'catalogue/prior-294-preservation.json').read_text())
 assert len(prior294)==244
 for id,digest in prior294.items():
