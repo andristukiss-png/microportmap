@@ -9121,9 +9121,91 @@
       "reviewNotes": "One of three explicitly named planned sites: Pekuri, Torinranta and the Housing Fair area. The city-centre description is treated as Pekuri, not a fourth site. Backup locations, delivery routes, ground robots and customers are not additional ports. The project schedule ending July 2026 does not prove construction, completed flights or continued operation. The map point represents Oulu broadly, not a proposed pad. Implementation, access and flight permissions are not independently verified.",
       "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
       "researchBatch": "2026-10-30-oulu-trial-and-planned-logistics-sites"
+    },
+    {
+      "id": "nlr-marknesse-drone-centre",
+      "name": "NLR Marknesse Drone Centre",
+      "where": "Marknesse, Netherlands",
+      "country": "Netherlands",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Royal Netherlands Aerospace Centre (NLR)",
+      "reportedEquipment": "Research fixed-wing, helicopter, multi-rotor and hybrid UAVs; fleet availability not independently verified",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 52.71,
+        "longitude": 5.86
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "NLR describes a dedicated Marknesse environment for experimental UAV flight tests, evaluations and demonstrations, including a runway and simulated urban testing area.",
+      "source": {
+        "name": "Royal Netherlands Aerospace Centre",
+        "url": "https://www.nlr.org/newsroom/facility/nlr-drone-centre/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "nlr-marknesse-drone-centre",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One Marknesse campus. The runway, restricted airspace, DigiCity container environment, workshops and aircraft fleet are components, not additional ports. The QRDF initiative uses the same broader NLR research infrastructure and is not counted as another physical site. Published DigiCity container counts differ between sources and are not treated as a verified current inventory. The broad Marknesse map point is not the campus or runway position. Current operations, access and flight permissions are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-marknesse-and-payerne-test-environments",
+      "supportingSources": [
+        {
+          "name": "NLR — DigiCity located within the Marknesse Drone Centre, 7 December 2023",
+          "url": "https://www.nlr.org/newsroom/nieuws/experimenting-in-a-simulated-urban-area-with-drone-digicity/"
+        },
+        {
+          "name": "NLR — QRDF launch and existing campus infrastructure, 21 May 2025",
+          "url": "https://www.nlr.org/newsroom/nieuws/qrdf-launch/"
+        }
+      ]
+    },
+    {
+      "id": "swiss-aeropole-payerne-tests",
+      "name": "Swiss aeropole Payerne drone test environment",
+      "where": "Payerne, Switzerland",
+      "country": "Switzerland",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "swiss aeropole SA / Payerne Airport civil operations",
+      "reportedEquipment": "Drone test platforms vary by campaign; site-specific fleet not established",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 46.82,
+        "longitude": 6.94
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "Swiss aeropole describes support for drone manufacturers and research teams conducting flight-test campaigns at Payerne Airport, using its runway, hangars and coordinated test environment.",
+      "source": {
+        "name": "swiss aeropole",
+        "url": "https://www.swissaeropole.com/en/white-paper-drone/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "swiss-aeropole-payerne-tests",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "One Payerne flight-test environment. The technology park, civil airport services, runway, hangars and different test packages are not separate droneports. The source’s cumulative test-flight figure covers broader aviation experience and is not a count of drone flights or sites. This record relies on the public landing page and flight-test service page; the email-gated white paper was not accessed. Broad Payerne coordinates are not a runway or landing position. Current operations, access and flight permissions are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-marknesse-and-payerne-test-environments",
+      "supportingSources": [
+        {
+          "name": "swiss aeropole — flight and ground test services",
+          "url": "https://www.swissaeropole.com/en/flight-tests/"
+        },
+        {
+          "name": "swiss aeropole — technology park and civil airport responsibilities",
+          "url": "https://www.swissaeropole.com/en/"
+        }
+      ]
     }
   ],
-  "expectedTotal": 325,
+  "expectedTotal": 327,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -9518,6 +9600,13 @@
         "oulu-pekuri-planned-logistics",
         "oulu-torinranta-planned-logistics",
         "oulu-housing-fair-planned-logistics"
+      ]
+    },
+    {
+      "id": "2026-10-30-marknesse-and-payerne-test-environments",
+      "recordIds": [
+        "nlr-marknesse-drone-centre",
+        "swiss-aeropole-payerne-tests"
       ]
     }
   ]
