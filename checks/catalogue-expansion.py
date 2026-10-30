@@ -80,7 +80,19 @@ assert fifteenth==batch['releases'][14]['recordIds'] and len(fifteenth)==5
 sixteenth=json.loads((ROOT/'catalogue/sixteenth-batch-ids.json').read_text())
 assert sixteenth==batch['releases'][15]['recordIds'] and len(sixteenth)==6
 seventeenth=json.loads((ROOT/'catalogue/seventeenth-batch-ids.json').read_text())
-assert seventeenth==batch['releases'][-1]['recordIds'] and len(seventeenth)==4
+assert seventeenth==batch['releases'][16]['recordIds'] and len(seventeenth)==4
+eighteenth=json.loads((ROOT/'catalogue/eighteenth-batch-ids.json').read_text())
+assert eighteenth==batch['releases'][-1]['recordIds'] and len(eighteenth)==4
+prior290=json.loads((ROOT/'catalogue/prior-290-preservation.json').read_text())
+assert len(prior290)==240
+for id,digest in prior290.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 290-record release changed'
+eighteenth_rows=[p for p in additions if p['id'] in eighteenth]
+assert all(p['sourceReviewedAt']=='2026-10-30' and p['reportedStatus']=='reported-operation' for p in eighteenth_rows)
+assert sum(p['recordScope']=='test-centre' for p in eighteenth_rows)==2
+assert sum(p['recordScope']=='centre' for p in eighteenth_rows)==2
+assert all('five kilometres' in p['reviewNotes'] for p in eighteenth_rows if p['recordScope']=='test-centre')
 prior286=json.loads((ROOT/'catalogue/prior-286-preservation.json').read_text())
 assert len(prior286)==236
 for id,digest in prior286.items():

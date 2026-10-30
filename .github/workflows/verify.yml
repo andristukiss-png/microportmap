@@ -148,7 +148,9 @@ jobs:
           python3 checks/research-insights-50-audit.py
           node checks/insights-reliability-500.cjs
       - name: Research Insights responsive recovery and export checks
-        run: bash checks/insights-reliability-browser-smoke.sh
+        run: |
+          python3 checks/insights-reliability-smoke-harness.py
+          bash checks/insights-reliability-browser-smoke.sh
       - name: Retain Insights Recovery 500 results and captures
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
