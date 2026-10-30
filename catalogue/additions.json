@@ -9203,9 +9203,71 @@
           "url": "https://www.swissaeropole.com/en/"
         }
       ]
+    },
+    {
+      "id": "michigan-m-air-net",
+      "name": "University of Michigan M-Air Net",
+      "where": "Ann Arbor, Michigan, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Michigan",
+      "reportedEquipment": "Research UAVs and quadcopters; site-specific fleet not established",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 42.28,
+        "longitude": -83.74
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "Michigan Robotics describes M-Air Net as an outdoor netted facility for UAV flight research and teaching in realistic weather, with a staging pavilion and motion capture infrastructure.",
+      "source": {
+        "name": "Michigan Robotics",
+        "url": "https://robotics.umich.edu/about/facilities/m-air/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "michigan-m-air-net",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One named outdoor flight enclosure. The staging pavilion, cameras and research aircraft are components, not additional ports. Nearby wind tunnels, the Aerospace Department and the Ford Robotics Building are not counted from this source. The source describes research use, not a public droneport or a delivery service. Broad Ann Arbor coordinates are not the enclosure position. Current operations, access and flight permissions are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-michigan-and-penn-flight-enclosures"
+    },
+    {
+      "id": "penn-perch-flight-test-campus",
+      "name": "Penn PERCH aerial robotics test campus",
+      "where": "Pennovation Center, Philadelphia, Pennsylvania, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Pennsylvania / GRASP Laboratory",
+      "reportedEquipment": "Research UAVs and micro-aerial vehicles; fleet varies by research group",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 39.95,
+        "longitude": -75.16
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "Penn describes indoor UAV experimentation and an outdoor netted aerial-vehicle test area at PERCH within the Pennovation Center.",
+      "source": {
+        "name": "University of Pennsylvania GRASP Laboratory",
+        "url": "https://www.grasp.upenn.edu/about/facilities/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "penn-perch-flight-test-campus",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One PERCH campus record covering its indoor and outdoor flight-test areas. Research groups, cameras, fabrication equipment, aircraft fleets and the GRASP Treehouse do not generate extra ports. GRASP occupies multiple locations; this record is specifically PERCH, not every GRASP laboratory or the separate Levine Hall spaces. Broad Philadelphia coordinates are not the campus or flight-enclosure position. Current operations, access and flight permissions are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-michigan-and-penn-flight-enclosures"
     }
   ],
-  "expectedTotal": 327,
+  "expectedTotal": 329,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -9607,6 +9669,13 @@
       "recordIds": [
         "nlr-marknesse-drone-centre",
         "swiss-aeropole-payerne-tests"
+      ]
+    },
+    {
+      "id": "2026-10-30-michigan-and-penn-flight-enclosures",
+      "recordIds": [
+        "michigan-m-air-net",
+        "penn-perch-flight-test-campus"
       ]
     }
   ]
