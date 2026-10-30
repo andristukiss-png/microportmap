@@ -9265,9 +9265,83 @@
       "reviewNotes": "One PERCH campus record covering its indoor and outdoor flight-test areas. Research groups, cameras, fabrication equipment, aircraft fleets and the GRASP Treehouse do not generate extra ports. GRASP occupies multiple locations; this record is specifically PERCH, not every GRASP laboratory or the separate Levine Hall spaces. Broad Philadelphia coordinates are not the campus or flight-enclosure position. Current operations, access and flight permissions are not independently verified.",
       "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
       "researchBatch": "2026-10-30-michigan-and-penn-flight-enclosures"
+    },
+    {
+      "id": "tu-delft-cyberzoo",
+      "name": "TU Delft Cyberzoo drone research environment",
+      "where": "Delft, Netherlands",
+      "country": "Netherlands",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Delft University of Technology / MAVLab",
+      "reportedEquipment": "Bee-Nav research drone in cited experiments; wider fleet not established",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 52.01,
+        "longitude": 4.36
+      },
+      "reportDateLabel": "2026-05-13 source publication",
+      "description": "MAVLab reports successful indoor drone-navigation experiments in TU Delft’s Cyberzoo as part of its Bee-Nav research.",
+      "source": {
+        "name": "TU Delft MAVLab",
+        "url": "https://mavlab.tudelft.nl/honeybees-teach-drones-how-to-navigate/"
+      },
+      "verificationStatus": "Source-reported trial; current operation not independently verified",
+      "reportedStatus": "trial",
+      "recordScope": "test-centre",
+      "entityKey": "tu-delft-cyberzoo",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": "2026-05-13",
+      "sourceType": "research",
+      "reviewNotes": "One named indoor research environment. The 2019 racing experiment and 2026 navigation experiment refer to the same Cyberzoo, not separate facilities. The 2026 source also describes outdoor work at the already catalogued Unmanned Valley in Valkenburg; that is not another new record. Unnamed hangars, greenhouse examples, routes and individual flight starts are not additional ports. Broad Delft coordinates are not a building or landing position. Current operations, access and flight permissions are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-cyberzoo-trial-and-eth-archive",
+      "supportingSources": [
+        {
+          "name": "TU Delft MAVLab — earlier Cyberzoo racing experiment, 27 May 2019",
+          "url": "https://mavlab.tudelft.nl/the-worlds-smallest-autonomous-racing-drone/"
+        }
+      ]
+    },
+    {
+      "id": "eth-flying-machine-arena",
+      "name": "ETH Zurich Flying Machine Arena historical research site",
+      "where": "Zurich, Switzerland",
+      "country": "Switzerland",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "ETH Zurich / Institute for Dynamic Systems and Control, D’Andrea research group",
+      "reportedEquipment": "Research quadrocopters in archived experiments; current fleet not established",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 47.38,
+        "longitude": 8.54
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "ETH’s project archive describes the Flying Machine Arena as an indoor autonomous-systems research space, with archived accounts of quadrocopter experiments.",
+      "source": {
+        "name": "ETH Zurich Institute for Dynamic Systems and Control",
+        "url": "https://idsc.ethz.ch/research-dandrea/research-projects/archive.html"
+      },
+      "verificationStatus": "Archived research activity; current site use not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "test-centre",
+      "entityKey": "eth-flying-machine-arena",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One historical research arena. Archived learning, flight-control and construction projects do not create additional sites. Historical status reflects the archived evidence, which ETH says is no longer updated; it does not establish a closure date or the current condition of the space. The former external arena domain now displays unrelated commercial drone material and is not used as evidence. The broad Zurich point represents the institutional locality, not a confirmed room, building or landing position. Current operations and access are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-cyberzoo-trial-and-eth-archive",
+      "supportingSources": [
+        {
+          "name": "ETH Zurich — archived iterative-learning experiments",
+          "url": "https://idsc.ethz.ch/research-dandrea/research-projects/archive/iterative-learning.html"
+        }
+      ]
     }
   ],
-  "expectedTotal": 329,
+  "expectedTotal": 331,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -9676,6 +9750,13 @@
       "recordIds": [
         "michigan-m-air-net",
         "penn-perch-flight-test-campus"
+      ]
+    },
+    {
+      "id": "2026-10-30-cyberzoo-trial-and-eth-archive",
+      "recordIds": [
+        "tu-delft-cyberzoo",
+        "eth-flying-machine-arena"
       ]
     }
   ]
