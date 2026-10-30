@@ -8812,9 +8812,194 @@
           "url": "https://admindronetest.kiast.or.kr/drncenter/aircenter/aircenter.do"
         }
       ]
+    },
+    {
+      "id": "fukushima-rtf-minamisoma",
+      "name": "Fukushima RTF Minamisoma aerial test campus",
+      "where": "Minamisoma, Fukushima, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "F-REI / Fukushima Robot Test Field",
+      "reportedEquipment": "Research UAVs; site-specific fleet not established",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 37.64,
+        "longitude": 140.96
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "RTF identifies an unmanned-aircraft testing area within its Minamisoma campus.",
+      "source": {
+        "name": "Fukushima Robot Test Field",
+        "url": "https://rtf.f-rei.go.jp/about-rtf/about/overview"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "fukushima-rtf-minamisoma",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One physical campus. Its runway, hangar, heliport and netted testing area are components, not extra ports. Namie is a separate site within the same programme. The 2025 integration into F-REI changes institutional responsibility, not the number of sites. Current site activity, access and flight permissions are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-asian-test-campuses-and-historical-origin",
+      "supportingSources": [
+        {
+          "name": "Fukushima Prefecture — integration into F-REI on 1 April 2025",
+          "url": "https://www.pref.fukushima.jp/sec/11015e/frei-reikei.html"
+        },
+        {
+          "name": "FIPO — two-site RTF brochure, historical facility description",
+          "url": "https://www.fipo.or.jp/assets/pdf/public-relations/robot_test_field_202109en.pdf"
+        }
+      ]
+    },
+    {
+      "id": "fukushima-rtf-namie",
+      "name": "Fukushima RTF Namie runway test site",
+      "where": "Namie, Fukushima, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "F-REI / Fukushima Robot Test Field",
+      "reportedEquipment": "Research UAVs; site-specific fleet not established",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 37.49,
+        "longitude": 141.0
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "RTF identifies a separate runway for long-distance flight testing in Namie’s Tanashio industrial park.",
+      "source": {
+        "name": "Fukushima Robot Test Field",
+        "url": "https://rtf.f-rei.go.jp/about-rtf/about/overview"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "fukushima-rtf-namie",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One runway site, distinct from the Minamisoma campus. The attached hangar and connecting flight corridor are not additional ports. The 2025 integration into F-REI does not create another facility. Current site activity, access and flight permissions are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-asian-test-campuses-and-historical-origin",
+      "supportingSources": [
+        {
+          "name": "Fukushima Prefecture — integration into F-REI on 1 April 2025",
+          "url": "https://www.pref.fukushima.jp/sec/11015e/frei-reikei.html"
+        },
+        {
+          "name": "FIPO — two-site RTF brochure, historical facility description",
+          "url": "https://www.fipo.or.jp/assets/pdf/public-relations/robot_test_field_202109en.pdf"
+        }
+      ]
+    },
+    {
+      "id": "taiki-hospo-uav-runway",
+      "name": "Taiki Hokkaido Spaceport UAV test runway",
+      "where": "Taiki, Hokkaido, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "SPACE COTAN (concession operator); Taiki Town facilities",
+      "reportedEquipment": "Research UAVs and drones; site-specific models not established",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 42.5,
+        "longitude": 143.28
+      },
+      "reportDateLabel": "2026-10-04 source publication",
+      "description": "The operator reports drone use of the Taiki runway and its assumption of facility operations in October 2026.",
+      "source": {
+        "name": "Hokkaido Spaceport / SPACE COTAN",
+        "url": "https://hokkaidospaceport.com/en/news/2306"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "taiki-hospo-uav-runway",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": "2026-10-04",
+      "sourceType": "operator",
+      "reviewNotes": "One runway-based research facility. Older Taiki Aerospace Park and JAXA research-field descriptions are not counted as additional ports here. The runway extension, hangars, rocket launch complexes and exhibition building do not create extra drone facilities. The source publication is 4 October; the operating transition took effect 1 October 2026. Current site activity, access and flight permissions are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-asian-test-campuses-and-historical-origin",
+      "supportingSources": [
+        {
+          "name": "HOSPO — runway available for UAV and drone testing",
+          "url": "https://hokkaidospaceport.com/en/runway/"
+        },
+        {
+          "name": "JAXA — Taiki research-field context, older runway description",
+          "url": "https://global.jaxa.jp/about/centers/taiki/index.html"
+        }
+      ]
+    },
+    {
+      "id": "kari-goheung-flight-test-centre",
+      "name": "KARI Goheung flight performance test centre",
+      "where": "Goheung, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Korea Aerospace Research Institute (KARI)",
+      "reportedEquipment": "Research UAVs; site-specific fleet not established",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 34.61,
+        "longitude": 127.28
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "KARI describes a Goheung centre supporting aircraft and drone development through ground and flight testing.",
+      "source": {
+        "name": "Korea Aerospace Research Institute",
+        "url": "https://www.kari.re.kr/eng/contents/158"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "kari-goheung-flight-test-centre",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One test campus at 305 Cheomdan Mirae-ro. Multiple runways, UAV hangars, later expansions and UAM demonstration areas are components, not new ports. Goheung is distinct from the existing KIAST Goseong centre; Naro space-launch infrastructure is not counted here. Current site activity, access and flight permissions are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-asian-test-campuses-and-historical-origin"
+    },
+    {
+      "id": "singapore-pixel-h3-test-origin",
+      "name": "PIXEL one-north historical H3 drone-test origin",
+      "where": "one-north, Singapore",
+      "country": "Singapore",
+      "region": "Asia",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "H3 Dynamics (cited 2024 test operator)",
+      "reportedEquipment": "Modified Hexadrone TUNDRA 2 in cited test",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 1.3,
+        "longitude": 103.79
+      },
+      "reportDateLabel": "2024-10-25 source publication",
+      "description": "CAAS documents H3 Dynamics test flights from the PIXEL building in July 2024 and later restrictions on that operator’s testing activities.",
+      "source": {
+        "name": "Civil Aviation Authority of Singapore",
+        "url": "https://www.caas.gov.sg/resources/media-and-publication/newsroom/caas-completes-investigation-into-unmanned-aircraft-incident/"
+      },
+      "verificationStatus": "Historical test activity; current site use not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "singapore-pixel-h3-test-origin",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": "2024-10-25",
+      "sourceType": "government",
+      "reviewNotes": "One documented test origin, not the whole one-north estate. The regulator’s October 2024 decision allowed photography and videography but excluded H3 flight testing and demonstrations. Historical status applies to this cited activity; it does not establish closure of PIXEL or restrictions on every other operator. The crash location is not a second site. Current site activity, access and flight permissions are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-asian-test-campuses-and-historical-origin"
     }
   ],
-  "expectedTotal": 316,
+  "expectedTotal": 321,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -9190,6 +9375,16 @@
         "kiast-hwaseong-flight-test-centre",
         "kiast-incheon-flight-test-centre",
         "kiast-uiseong-flight-test-centre"
+      ]
+    },
+    {
+      "id": "2026-10-30-asian-test-campuses-and-historical-origin",
+      "recordIds": [
+        "fukushima-rtf-minamisoma",
+        "fukushima-rtf-namie",
+        "taiki-hospo-uav-runway",
+        "kari-goheung-flight-test-centre",
+        "singapore-pixel-h3-test-origin"
       ]
     }
   ]
