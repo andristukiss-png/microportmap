@@ -61,3 +61,9 @@ The original source and export snapshot is available under `/data/original-50/` 
 Vercel builds from the repository root using `vercel.json`; output is `dist/`. Deploying only `src/` will omit additions. The build is deterministic and does not contact source websites or geocode during deployment.
 
 The 29 October 2026 review also corrects four Australian Wing records to historical, with linked cessation evidence and an exact before/after correction ledger. The other 246 prior records remain unchanged.
+
+### Catalogue browser coverage
+
+Browser verification derives its routes from the built catalogue: every passport plus the atlas, directory, countries, operators and technologies views. Four independent CI shards cover each route once at desktop and mobile sizes. At 321 records this is 326 routes and 652 journeys; new records join automatically. Every shard must pass. Only a pending probe may retry, with three attempts maximum; assertion failures, missing results, browser errors and missing screenshots fail the check. Browser profiles and the temporary HTTP server are cleaned up after execution.
+
+Run `bash checks/catalogue-expansion-browser-smoke.sh` for the full local browser suite, or set `CATALOGUE_SHARD_INDEX` (zero-based) and `CATALOGUE_SHARD_COUNT` to run one partition. Run `python3 checks/catalogue-browser-runner-test.py` after building to verify partition coverage and failure handling without Chromium.
