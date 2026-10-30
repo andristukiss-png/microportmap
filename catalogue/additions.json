@@ -8423,9 +8423,176 @@
       "reviewNotes": "One airport-based test facility, not the statewide Nevada UAS programme or Reno-Tahoe International Airport. The airport operator is identified; this does not assign every research flight to that operator. Based aircraft and airport businesses are not additional ports. Current activity, public access and flight permissions are not independently verified.",
       "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
       "researchBatch": "2026-10-30-us-research-flight-facilities"
+    },
+    {
+      "id": "nmsu-las-cruces-uas-hangar",
+      "name": "NMSU Las Cruces airport UAS facility",
+      "where": "Las Cruces International Airport, New Mexico, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "NMSU Physical Science Laboratory",
+      "reportedEquipment": "Research UAS; site-specific fleet not established",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 32.31,
+        "longitude": -106.78
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "NMSU identifies a hangar at Las Cruces International Airport dedicated to unmanned-aircraft operations.",
+      "source": {
+        "name": "New Mexico State University Physical Science Laboratory",
+        "url": "https://psl.nmsu.edu/divisions/unmanned-aerial-systems.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "nmsu-las-cruces-uas-hangar",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One airport-based facility. The wider NMSU test-site airspace, remote operations and university office address are not extra facilities. This airport hangar is distinct from the main-campus training field and the Jornada airstrip. Current facility status is not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-research-airfields-and-training-origins",
+      "supportingSources": [
+        {
+          "name": "FAA — NMSU airport facility cross-check",
+          "url": "https://www.faa.gov/uas/programs_partnerships/test_sites/locations"
+        }
+      ]
+    },
+    {
+      "id": "nmsu-campus-uas-training-field",
+      "name": "NMSU main-campus UAS training field",
+      "where": "NMSU main campus, Las Cruces, New Mexico, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "New Mexico State University",
+      "reportedEquipment": "Training UAS; models not specified",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 32.28,
+        "longitude": -106.75
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "NMSU describes a designated practice and training field on the southeastern part of its main campus.",
+      "source": {
+        "name": "New Mexico State University",
+        "url": "https://safety.nmsu.edu/uas-operations/faqs/training-field.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "nmsu-campus-uas-training-field",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One campus field, separate from the airport hangar and Jornada airstrip. Individual classes and practice flights are not extra sites. University notification, insurance and pilot requirements still apply; a listing is not public access or flight permission. Current facility status is not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-research-airfields-and-training-origins"
+    },
+    {
+      "id": "jornada-uas-research-airstrip",
+      "name": "Jornada Experimental Range UAS research airstrip",
+      "where": "Jornada Experimental Range, north of Las Cruces, New Mexico, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "USDA Agricultural Research Service / NMSU flight-test support",
+      "reportedEquipment": "Bat 4; Bat 3 also described",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 32.57,
+        "longitude": -106.8
+      },
+      "reportDateLabel": "2014-04-01 source publication",
+      "description": "A USDA-hosted research account describes repeated vegetation-imaging flights from the Jornada Experimental Range airstrip.",
+      "source": {
+        "name": "USDA Agricultural Research Service / NMSU account",
+        "url": "https://www.ars.usda.gov/plains-area/las-cruces-nm/range-management-research/docs/uas-for-remote-sensing/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "jornada-uas-research-airstrip",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": "2014-04-01",
+      "sourceType": "government",
+      "reviewNotes": "One documented airstrip used for research, separate from NMSU’s Las Cruces airport hangar and campus training field. Survey plots, repeated flights and ground-control equipment are not extra ports. The dated account establishes past research activity, not continued operation today. Current facility status is not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-research-airfields-and-training-origins"
+    },
+    {
+      "id": "skyway36-tulsa-droneport",
+      "name": "Skyway 36 Tulsa droneport",
+      "where": "Tulsa, Oklahoma, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Osage Nation / Osage LLC; OSU research partner",
+      "reportedEquipment": "Research UAS; site-specific fleet not established",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 36.15,
+        "longitude": -95.99
+      },
+      "reportDateLabel": "2023-06-30 source publication",
+      "description": "OSU reports research already taking place at the Skyway 36 droneport in Tulsa.",
+      "source": {
+        "name": "Oklahoma State University",
+        "url": "https://news.okstate.edu/articles/communications/2023/osu_partners_take_oklahomas_aerospace_and_aviation_leadership_to_next_level"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "skyway36-tulsa-droneport",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": "2023-06-30",
+      "sourceType": "research",
+      "reviewNotes": "One airport-based droneport, distinct from OSU’s Glencoe UAFS. Skyway Range is the wider connected programme, not another facility at this location. Hangar renovations, industrial space, testing equipment and later upgrades are not additional ports. Current facility status is not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-research-airfields-and-training-origins",
+      "supportingSources": [
+        {
+          "name": "Skyway Range — Skyway 36 location and facility description",
+          "url": "https://www.skywayrange.com/"
+        }
+      ]
+    },
+    {
+      "id": "hillsboro-ndsu-agricultural-trial",
+      "name": "Hillsboro airport agricultural UAS trial base",
+      "where": "Hillsboro, North Dakota, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "NDSU / Elbit Systems of America / Hillsboro Airport Authority research collaboration",
+      "reportedEquipment": "Hermes 450",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 47.4,
+        "longitude": -97.06
+      },
+      "reportDateLabel": "2016-05-20 source publication",
+      "description": "NDSU reports an agricultural-imaging research aircraft based at Hillsboro Municipal Airport for its study.",
+      "source": {
+        "name": "North Dakota State University",
+        "url": "https://www.ag.ndsu.edu/news/newsreleases/2016/may-16-2016/ndsu-testing-large-uas-role-in-agriculture"
+      },
+      "verificationStatus": "Source-reported trial; current operation not independently verified",
+      "reportedStatus": "trial",
+      "recordScope": "trial-site",
+      "entityKey": "hillsboro-ndsu-agricultural-trial",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": "2016-05-20",
+      "sourceType": "research",
+      "reviewNotes": "One airport origin for the cited 2016 trial. Surveyed farms, research corridors, aircraft and the statewide Northern Plains programme are not additional sites. The article’s explicit publication line is 20 May 2016; its archive folder says 16 May. This record does not establish present-day UAS service or that the trial continues. Current facility status is not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-research-airfields-and-training-origins"
     }
   ],
-  "expectedTotal": 305,
+  "expectedTotal": 310,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -8780,6 +8947,16 @@
         "umd-st-marys-uroc",
         "umd-fearless-flight-facility",
         "reno-stead-uas-test-facility"
+      ]
+    },
+    {
+      "id": "2026-10-30-research-airfields-and-training-origins",
+      "recordIds": [
+        "nmsu-las-cruces-uas-hangar",
+        "nmsu-campus-uas-training-field",
+        "jornada-uas-research-airstrip",
+        "skyway36-tulsa-droneport",
+        "hillsboro-ndsu-agricultural-trial"
       ]
     }
   ]
