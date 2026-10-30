@@ -8256,9 +8256,176 @@
           "url": "https://www.walmart.com/store/426-colony-tx"
         }
       ]
+    },
+    {
+      "id": "nasa-wallops-uas-airfield",
+      "name": "NASA Wallops UAS airfield research facility",
+      "where": "Wallops area, Virginia, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "NASA",
+      "reportedEquipment": "Research UAS; site-specific fleet not established",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 37.94,
+        "longitude": -75.47
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "NASA describes airfield facilities supporting both crewed aircraft and unmanned aircraft operations.",
+      "source": {
+        "name": "NASA",
+        "url": "https://www.nasa.gov/wallops/airfield-operations/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "nasa-wallops-uas-airfield",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "One airfield research campus. Hangars, runways, individual test events and aircraft are not separate ports. Space-launch infrastructure is not counted as another drone facility. Current activity, public access and flight permissions are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-us-research-flight-facilities"
+    },
+    {
+      "id": "osu-glencoe-uafs",
+      "name": "OSU Unmanned Aircraft Flight Station",
+      "where": "Glencoe area, Oklahoma, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Oklahoma State University",
+      "reportedEquipment": "Research UAS; site-specific fleet not established",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 36.23,
+        "longitude": -96.93
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "OSU identifies its Unmanned Aircraft Flight Station as an operating Skyway Range node with a runway and hangar.",
+      "source": {
+        "name": "Oklahoma State University",
+        "url": "https://go.okstate.edu/aerospace/centers/skyway-range"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "osu-glencoe-uafs",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One named flight station, not the entire Skyway network. The university event page identifies the station at 4015 N Clay Road near Glencoe. Other nodes, proposed range extensions and flight corridors are not additional records in this batch. Current activity, public access and flight permissions are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-us-research-flight-facilities",
+      "supportingSources": [
+        {
+          "name": "OSU Speedfest — named station location",
+          "url": "https://speedfest.okstate.edu/Speedfest_XIV/Speedfest_XIV_Event_day.html"
+        }
+      ]
+    },
+    {
+      "id": "umd-st-marys-uroc",
+      "name": "UMD UAS Research and Operations Center",
+      "where": "California, St. Mary’s County, Maryland, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Maryland",
+      "reportedEquipment": "Research UAS; site-specific fleet not established",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 38.3,
+        "longitude": -76.51
+      },
+      "reportDateLabel": "2022-10-20 source publication",
+      "description": "UMD reports research and flight operations from its headquarters at St. Mary’s County Regional Airport.",
+      "source": {
+        "name": "University of Maryland",
+        "url": "https://uroc.umd.edu/news/story/test-site-becomes-umd-uas-research-and-operations-center"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "umd-st-marys-uroc",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": "2022-10-20",
+      "sourceType": "research",
+      "reviewNotes": "The former UMD UAS Test Site and renamed UROC are the same facility, counted once. Proposed Chesapeake Bay routes and organ-delivery recipients are not extra sites. This airport base is distinct from the College Park-area Fearless Flight Facility. Current activity, public access and flight permissions are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-us-research-flight-facilities"
+    },
+    {
+      "id": "umd-fearless-flight-facility",
+      "name": "UMD Fearless Flight Facility",
+      "where": "College Park area, Maryland, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Maryland",
+      "reportedEquipment": "Research UAS; site-specific fleet not established",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 38.99,
+        "longitude": -76.94
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "UMD describes an outdoor laboratory for unmanned-aircraft testing and research.",
+      "source": {
+        "name": "University of Maryland",
+        "url": "https://aero.umd.edu/research/fearless-flight-facility-f3"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "umd-fearless-flight-facility",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One netted research enclosure in the UMD Discovery District near College Park. It is distinct from UROC at St. Mary’s County Regional Airport. Individual research projects and laboratory partners do not create extra facilities. Current activity, public access and flight permissions are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-us-research-flight-facilities",
+      "supportingSources": [
+        {
+          "name": "UMD — facility opening and Discovery District location",
+          "url": "https://eng.umd.edu/release/umd-opens-outdoor-flight-laboratory-to-advance-autonomy-robotics"
+        }
+      ]
+    },
+    {
+      "id": "reno-stead-uas-test-facility",
+      "name": "Reno-Stead UAS test facility",
+      "where": "Reno-Stead area, Nevada, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Reno-Tahoe Airport Authority (airport operator)",
+      "reportedEquipment": "Research UAS; site-specific fleet not established",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 39.65,
+        "longitude": -119.88
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "The airport authority identifies Reno-Stead Airport as an unmanned-aircraft test range.",
+      "source": {
+        "name": "Reno-Tahoe Airport Authority",
+        "url": "https://www.renoairport.com/airport-authority/stead-airport/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "reno-stead-uas-test-facility",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "One airport-based test facility, not the statewide Nevada UAS programme or Reno-Tahoe International Airport. The airport operator is identified; this does not assign every research flight to that operator. Based aircraft and airport businesses are not additional ports. Current activity, public access and flight permissions are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-us-research-flight-facilities"
     }
   ],
-  "expectedTotal": 300,
+  "expectedTotal": 305,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -8603,6 +8770,16 @@
         "droneup-walmart-3015",
         "droneup-walmart-5021",
         "droneup-walmart-426"
+      ]
+    },
+    {
+      "id": "2026-10-30-us-research-flight-facilities",
+      "recordIds": [
+        "nasa-wallops-uas-airfield",
+        "osu-glencoe-uafs",
+        "umd-st-marys-uroc",
+        "umd-fearless-flight-facility",
+        "reno-stead-uas-test-facility"
       ]
     }
   ]
