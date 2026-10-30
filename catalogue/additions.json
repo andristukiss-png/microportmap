@@ -7830,9 +7830,173 @@
           "url": "https://huacheng.gz-cmc.com/pages/2026/02/15/f3d34d83ae104f1698f7c7347fd116a4.html"
         }
       ]
+    },
+    {
+      "id": "meituan-futian-coco-park",
+      "name": "Meituan Futian COCO Park delivery origin",
+      "where": "Futian Galaxy COCO Park commercial area, Shenzhen, China",
+      "country": "China",
+      "region": "Asia",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Meituan",
+      "reportedEquipment": "Delivery drones; site-specific model not assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 22.54,
+        "longitude": 114.06
+      },
+      "reportDateLabel": "2024-10-25 source publication",
+      "description": "National Business Daily records Meituan identifying Futian COCO Park as the launch area for deliveries to Futian checkpoint.",
+      "source": {
+        "name": "National Business Daily",
+        "url": "https://www.nbd.com.cn/articles/2024-10-25/3608041.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "meituan-futian-coco-park",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": "2024-10-25",
+      "sourceType": "news",
+      "reviewNotes": "One commercial-area origin, distinct from Galaxy WORLD in Bantian and the original Futian traffic-dock network. The checkpoint and Xiangmi Park are recipients, not extra origins. The report also documents courier fallback; a listed service does not guarantee a drone delivery. Current availability is unverified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-retail-docks-and-distinct-test-fields",
+      "supportingSources": [
+        {
+          "name": "Shenzhen Port Office — checkpoint service launch, 23 October 2024",
+          "url": "https://ka.sz.gov.cn/xxgk/qt/zyts/content/post_11658965.html"
+        },
+        {
+          "name": "Shenzhen News — later COCO Park departure to Xiangmi Park, 13 October 2025",
+          "url": "https://www.sznews.com/news/content/2025-10/13/content_31713963.htm"
+        }
+      ]
+    },
+    {
+      "id": "flytrex-capriottis-frisco",
+      "name": "Flytrex Capriotti’s Frisco rooftop dock",
+      "where": "Capriotti’s at the Frisco–Little Elm border, Texas, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Flytrex / Causey Aviation Unmanned network",
+      "reportedEquipment": "Flytrex rooftop takeoff and landing dock; aircraft model not assigned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 33.15,
+        "longitude": -96.89
+      },
+      "reportDateLabel": "2026-09-22 source publication",
+      "description": "Dallas Innovates identifies a Capriotti’s restaurant at the Frisco–Little Elm border with an installed Flytrex rooftop dock.",
+      "source": {
+        "name": "Dallas Innovates",
+        "url": "https://dallasinnovates.com/flytrex-parks-drone-docks-on-restaurant-rooftops-to-feed-faster-deliveries/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "centre",
+      "entityKey": "flytrex-capriottis-frisco",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": "2026-09-22",
+      "sourceType": "news",
+      "reviewNotes": "One named restaurant dock, not the entire Frisco delivery zone. Distinct from existing Wing Walmart, Walgreens and mall facilities. The restaurant directory supports locality context, not independent dock verification. Exact rooftop position, site-specific aircraft and current availability remain unverified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-retail-docks-and-distinct-test-fields",
+      "supportingSources": [
+        {
+          "name": "Capriotti’s — Frisco restaurant directory",
+          "url": "https://capriottis.com/location/frisco-34516355"
+        },
+        {
+          "name": "Dallas Innovates — article date in delivery archive",
+          "url": "https://dallasinnovates.com/tag/drone-delivery/"
+        }
+      ]
+    },
+    {
+      "id": "longgang-integrated-test-base",
+      "name": "Longgang integrated low-altitude test base",
+      "where": "Xinkeng site, Baishitang, Pingdi, Longgang, Shenzhen, China",
+      "country": "China",
+      "region": "Asia",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Longgang District / Shenzhen Special Economic Zone Construction and Development Group",
+      "reportedEquipment": "Multi-aircraft research and flight-test infrastructure",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 22.78,
+        "longitude": 114.3
+      },
+      "reportDateLabel": "2024-12-18 source publication",
+      "description": "Longgang authorities report that the integrated test base was delivered and has supported company flight testing.",
+      "source": {
+        "name": "Shenzhen Government Online / Longgang District",
+        "url": "https://www.sz.gov.cn/szzt2010/szdkjj/cyfz/content/post_11905700.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "longgang-integrated-test-base",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": "2024-12-18",
+      "sourceType": "government",
+      "reviewNotes": "One test base, including its earlier test-field identity and upgrades. Pads, runway, planned certification centres and phase-two proposals are not extra facilities. The separate Dayun park field is documented about five kilometres away. Research infrastructure does not establish public delivery service or flight permission.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-retail-docks-and-distinct-test-fields",
+      "supportingSources": [
+        {
+          "name": "Longgang Government — distinguishes the two fields, 9 February 2023",
+          "url": "https://www.lg.gov.cn/bmzz/czj/xxgk/gyqy/zdxm/content/post_10418816.html"
+        },
+        {
+          "name": "People’s Daily Shenzhen — operator and upgraded base, 24 June 2024",
+          "url": "https://sz.people.com.cn/n2/2024/0624/c202846-40888928.html"
+        },
+        {
+          "name": "Shenzhen Development and Reform Commission — phase two remains a proposal, 14 September 2026",
+          "url": "https://fgw.sz.gov.cn/ztzl/qtztzl/szscjmyjjfzzhfwpt/xmtj/xmjzbtjxm/szstj/xmtj/content/post_12980056.html"
+        }
+      ]
+    },
+    {
+      "id": "dayun-industrial-park-test-field",
+      "name": "Dayun industrial park small-drone test field",
+      "where": "Dayun UAV Industrial Park, 26 Fuxin Road, Pingdi, Longgang, Shenzhen, China",
+      "country": "China",
+      "region": "Asia",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Longgang District Industrial Investment Service Group; individual flight operators vary",
+      "reportedEquipment": "Small-drone flight-test field",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 22.78,
+        "longitude": 114.3
+      },
+      "reportDateLabel": "2026-08-26 source publication",
+      "description": "The district enterprise describes an approximately 3,000-square-metre drone test field inside Dayun UAV Industrial Park.",
+      "source": {
+        "name": "Longgang District Industrial Investment Service Group",
+        "url": "https://www.lg.gov.cn/bmzz/qcfjt/xxgk/ywjs/xmzs/content/post_12955506.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "dayun-industrial-park-test-field",
+      "sourceReviewedAt": "2026-10-30",
+      "sourcePublishedAt": "2026-08-26",
+      "sourceType": "operator",
+      "reviewNotes": "One on-site test field. Government documentation distinguishes it from the larger Xinkeng test base about five kilometres away. Tenant companies, buildings and aircraft are not extra facilities. Shared Pingdi locality map points do not mean physical co-location. Current access and flight permission are unverified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-30-retail-docks-and-distinct-test-fields",
+      "supportingSources": [
+        {
+          "name": "Longgang Government — park address and separate test-field locations, 9 February 2023",
+          "url": "https://www.lg.gov.cn/bmzz/czj/xxgk/gyqy/zdxm/content/post_10418816.html"
+        }
+      ]
     }
   ],
-  "expectedTotal": 290,
+  "expectedTotal": 294,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -8157,6 +8321,15 @@
         "meituan-xunmei-technology-plaza",
         "meituan-mixc-world",
         "huangpu-red-wine-street-trial"
+      ]
+    },
+    {
+      "id": "2026-10-30-retail-docks-and-distinct-test-fields",
+      "recordIds": [
+        "meituan-futian-coco-park",
+        "flytrex-capriottis-frisco",
+        "longgang-integrated-test-base",
+        "dayun-industrial-park-test-field"
       ]
     }
   ]
