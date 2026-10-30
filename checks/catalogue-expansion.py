@@ -411,7 +411,7 @@ assert all(p['sourceReviewedAt']=='2026-10-30' and len(p['supportingSources'])==
 
 # Preserve prior research and keep flight enclosures scoped to two facilities.
 twenty_sixth=json.loads((ROOT/'catalogue/twenty-sixth-batch-ids.json').read_text())
-assert twenty_sixth==batch['releases'][-1]['recordIds'] and len(twenty_sixth)==2
+assert twenty_sixth==batch['releases'][25]['recordIds'] and len(twenty_sixth)==2
 prior327=json.loads((ROOT/'catalogue/prior-327-preservation.json').read_text())
 assert len(prior327)==277
 for id,digest in prior327.items():
@@ -421,4 +421,19 @@ new_rows=[p for p in additions if p['id'] in twenty_sixth]
 assert all(p['country']=='United States' and p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' for p in new_rows)
 assert all(p['sourceReviewedAt']=='2026-10-30' and p['sourcePublishedAt'] is None for p in new_rows)
 assert len({p['where'] for p in new_rows})==2
+
+# Preserve the previous release and distinguish current-source experiments from archive evidence.
+twenty_seventh=json.loads((ROOT/'catalogue/twenty-seventh-batch-ids.json').read_text())
+assert twenty_seventh==batch['releases'][-1]['recordIds'] and len(twenty_seventh)==2
+prior329=json.loads((ROOT/'catalogue/prior-329-preservation.json').read_text())
+assert len(prior329)==279
+for id,digest in prior329.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 329-record release changed'
+cyberzoo=next(p for p in additions if p['id']=='tu-delft-cyberzoo')
+assert cyberzoo['reportedStatus']=='trial' and cyberzoo['sourcePublishedAt']=='2026-05-13'
+arena=next(p for p in additions if p['id']=='eth-flying-machine-arena')
+assert arena['reportedStatus']=='historical' and arena['sourcePublishedAt'] is None
+assert arena['source']['url'].startswith('https://idsc.ethz.ch/')
+assert all(p['sourceReviewedAt']=='2026-10-30' and len(p['supportingSources'])==1 for p in [cyberzoo,arena])
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
