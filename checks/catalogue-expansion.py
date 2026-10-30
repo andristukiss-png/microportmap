@@ -398,7 +398,7 @@ assert next(p for p in new_rows if p['id']=='ouluzone-wireless-drone-test')['rep
 
 # The next batch adds two campuses, not their component facilities or programmes.
 twenty_fifth=json.loads((ROOT/'catalogue/twenty-fifth-batch-ids.json').read_text())
-assert twenty_fifth==batch['releases'][-1]['recordIds'] and len(twenty_fifth)==2
+assert twenty_fifth==batch['releases'][24]['recordIds'] and len(twenty_fifth)==2
 prior325=json.loads((ROOT/'catalogue/prior-325-preservation.json').read_text())
 assert len(prior325)==275
 for id,digest in prior325.items():
@@ -408,4 +408,17 @@ new_rows=[p for p in additions if p['id'] in twenty_fifth]
 assert {p['country'] for p in new_rows}=={'Netherlands','Switzerland'}
 assert all(p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' and p['sourcePublishedAt'] is None for p in new_rows)
 assert all(p['sourceReviewedAt']=='2026-10-30' and len(p['supportingSources'])==2 for p in new_rows)
+
+# Preserve prior research and keep flight enclosures scoped to two facilities.
+twenty_sixth=json.loads((ROOT/'catalogue/twenty-sixth-batch-ids.json').read_text())
+assert twenty_sixth==batch['releases'][-1]['recordIds'] and len(twenty_sixth)==2
+prior327=json.loads((ROOT/'catalogue/prior-327-preservation.json').read_text())
+assert len(prior327)==277
+for id,digest in prior327.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 327-record release changed'
+new_rows=[p for p in additions if p['id'] in twenty_sixth]
+assert all(p['country']=='United States' and p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' for p in new_rows)
+assert all(p['sourceReviewedAt']=='2026-10-30' and p['sourcePublishedAt'] is None for p in new_rows)
+assert len({p['where'] for p in new_rows})==2
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
