@@ -29,3 +29,7 @@ Longgang Vanke remains deferred: government and research sources identify the co
 ## Validation scope
 
 Preservation hashes protect all 240 earlier additions; existing checks protect the original 50 records and 72 HTML pages. Browser coverage adds all four passports: 103 routes at desktop/mobile sizes, or 206 journeys. Records remain source-reported, with editorial locality coordinates and no independent confirmation of current operations.
+
+## Browser capture correction
+
+Initial CI passed all 206 catalogue journeys but stopped when the unchanged Research Insights probe was captured while still PENDING. Its wrapper now follows the passport wrapper: a larger DOM-capture budget and at most three fresh-profile attempts for PENDING only. Assertion failures, missing results and browser errors still fail immediately. A simulated-browser harness verifies those branches and cleanup; actual UI behavior remains covered by Chromium CI.
