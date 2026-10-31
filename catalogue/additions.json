@@ -9675,9 +9675,83 @@
       "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
       "researchBatch": "2026-10-31-macquarie-and-canberra-research",
       "supportingSources": []
+    },
+    {
+      "id": "federation-gippsland-flight-lab",
+      "name": "Federation University Gippsland indoor flight lab",
+      "where": "Churchill, Victoria, Australia",
+      "country": "Australia",
+      "region": "Oceania",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Federation University Australia",
+      "reportedEquipment": "Research drone, onboard photographic sensors and netted indoor flight arena",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": -38.31,
+        "longitude": 146.42
+      },
+      "reportDateLabel": "4 November 2025",
+      "description": "Federation University reports an indoor drone flight laboratory at its Gippsland campus for aerial robotics research.",
+      "source": {
+        "name": "Federation University — Indoor flight lab clears the way for advanced aerial robotics",
+        "url": "https://www.federation.edu.au/about/news/news/indoor-flight-lab-clears-the-way-for-advanced-aerial-robotics/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "federation-gippsland-flight-lab",
+      "sourceReviewedAt": "2026-10-31",
+      "sourcePublishedAt": "2025-11-04",
+      "sourceType": "research",
+      "reviewNotes": "One indoor laboratory at the Gippsland campus in Churchill. The research drone, control algorithms and potential future applications are not separate sites. The source reports completed laboratory work and repeated drone tests, not a public drone delivery service. Broad Churchill coordinates do not identify a laboratory room or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-31-gippsland-and-houston-research",
+      "supportingSources": [
+        {
+          "name": "Federation University — Gippsland campus location",
+          "url": "https://www.federation.edu.au/about/locations/gippsland"
+        }
+      ]
+    },
+    {
+      "id": "houston-alaic-flight-arena",
+      "name": "University of Houston ALAIC flight arena",
+      "where": "Houston, Texas, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Houston / Laboratory for Advanced Learning, Artificial Intelligence and Control",
+      "reportedEquipment": "ANT-X and Crazyflie research drones, motion capture, ground control station and constrained test rigs",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 29.76,
+        "longitude": -95.37
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "The University of Houston laboratory describes a netted indoor flight arena equipped for drone control and navigation experiments.",
+      "source": {
+        "name": "University of Houston — ALAIC Flight Arena",
+        "url": "https://cescon.me.uh.edu/facilities/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "houston-alaic-flight-arena",
+      "sourceReviewedAt": "2026-10-31",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One laboratory flight arena, distinct from Houston-area retail delivery hubs. Individual drones, ground robots, test rigs and wind-generation equipment are not extra facilities. The contact page distinguishes the laboratory location from the director’s office; the office is not counted as another site. The facility page is undated and its copyright year is not a publication date. Broad Houston coordinates are an editorial city reference, not the laboratory building or a landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-31-gippsland-and-houston-research",
+      "supportingSources": [
+        {
+          "name": "University of Houston — ALAIC laboratory location",
+          "url": "https://cescon.me.uh.edu/contact/"
+        }
+      ]
     }
   ],
-  "expectedTotal": 340,
+  "expectedTotal": 342,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -10132,6 +10206,13 @@
       "recordIds": [
         "macquarie-indoor-flight-facility",
         "unsw-canberra-lirta"
+      ]
+    },
+    {
+      "id": "2026-10-31-gippsland-and-houston-research",
+      "recordIds": [
+        "federation-gippsland-flight-lab",
+        "houston-alaic-flight-arena"
       ]
     }
   ]

@@ -505,7 +505,7 @@ assert all(p['recordScope']=='test-centre' and len(p['supportingSources'])==1 fo
 
 # Preserve earlier records and distinguish relocation from source publication.
 thirty_third=json.loads((ROOT/'catalogue/thirty-third-batch-ids.json').read_text())
-assert thirty_third==batch['releases'][-1]['recordIds'] and len(thirty_third)==2
+assert thirty_third==batch['releases'][32]['recordIds'] and len(thirty_third)==2
 prior338=json.loads((ROOT/'catalogue/prior-338-preservation.json').read_text())
 assert len(prior338)==288
 for id,digest in prior338.items():
@@ -515,4 +515,18 @@ new_australian=[p for p in additions if p['id'] in thirty_third]
 assert all(p['country']=='Australia' and p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' for p in new_australian)
 assert next(p for p in new_australian if p['id']=='macquarie-indoor-flight-facility')['sourcePublishedAt'] is None
 assert next(p for p in new_australian if p['id']=='unsw-canberra-lirta')['sourcePublishedAt']=='2026-05-12'
+
+# Distinct university arenas; no extra sites from equipment or office addresses.
+thirty_fourth=json.loads((ROOT/'catalogue/thirty-fourth-batch-ids.json').read_text())
+assert thirty_fourth==batch['releases'][-1]['recordIds'] and len(thirty_fourth)==2
+prior340=json.loads((ROOT/'catalogue/prior-340-preservation.json').read_text())
+assert len(prior340)==290
+for id,digest in prior340.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 340-record release changed'
+new_labs=[p for p in additions if p['id'] in thirty_fourth]
+assert {p['country'] for p in new_labs}=={'Australia','United States'}
+assert all(p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' and len(p['supportingSources'])==1 for p in new_labs)
+assert next(p for p in new_labs if p['id']=='houston-alaic-flight-arena')['sourcePublishedAt'] is None
+assert next(p for p in new_labs if p['id']=='federation-gippsland-flight-lab')['sourcePublishedAt']=='2025-11-04'
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
