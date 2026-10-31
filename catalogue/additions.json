@@ -9532,9 +9532,83 @@
           "url": "https://www.buffalo.edu/home/ub_at_a_glance/our-campuses.html"
         }
       ]
+    },
+    {
+      "id": "royal-holloway-omnidrome",
+      "name": "Royal Holloway Omnidrome drone testing hangar",
+      "where": "Egham, Surrey, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Royal Holloway, University of London / Omnidrome Research and Innovation Centre",
+      "reportedEquipment": "Research drones and sensors; tracking and indoor GPS upgrades described as planned",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 51.43,
+        "longitude": -0.55
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "Royal Holloway describes an operational indoor hangar for drone research and testing at its Omnidrome centre.",
+      "source": {
+        "name": "Royal Holloway — Omnidrome infrastructure",
+        "url": "https://www.royalholloway.ac.uk/research-and-education/research/research-institutes-and-centres/omnidrome-research-and-innovation-centre/infrastructure/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "royal-holloway-omnidrome",
+      "sourceReviewedAt": "2026-10-31",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One named hangar on the Egham campus. The earlier planning announcement and later infrastructure description refer to the same facility. Additional outdoor areas are described as being evaluated; they are not separate confirmed sites here. Planned camera tracking and indoor GPS repeaters are not presented as installed equipment. Completion in August 2023 is not a publication date; the undated primary page retains an unknown publication date. The centre’s ground and water robots and support vehicle are not additional droneports. Broad Egham coordinates are an editorial locality reference, not the hangar or a landing position. Current operations, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-31-omnidrome-and-flyart-research",
+      "supportingSources": [
+        {
+          "name": "Royal Holloway — Egham planning announcement, 1 February 2023",
+          "url": "https://www.royalholloway.ac.uk/about-us/more/local-community/news-and-updates/planning-permission-granted-for-new-electric-drone-testing-and-training-facility-at-royal-holloway/"
+        }
+      ]
+    },
+    {
+      "id": "polimi-flyart-arena",
+      "name": "Politecnico di Milano FlyART research flight arena",
+      "where": "Milan, Italy",
+      "country": "Italy",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Politecnico di Milano / Department of Aerospace Science and Technology",
+      "reportedEquipment": "Multirotor research platforms, motion capture and instrumented experimental rigs",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 45.46,
+        "longitude": 9.19
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "Politecnico di Milano describes FlyART as an indoor arena for experimental UAV research and teaching, with motion tracking and multirotor test equipment.",
+      "source": {
+        "name": "Politecnico di Milano — FlyART experimental facility",
+        "url": "https://www.aero.polimi.it/en/experimental-labs/flyart-flying-arena-for-rotorcraft-technologies"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "polimi-flyart-arena",
+      "sourceReviewedAt": "2026-10-31",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One named university flight arena. Its motion-capture volume, instrumented rigs, individual aircraft, partner projects and summer-school activities are not separate sites. Distinct from the San Raffaele Milan hospital drone trial already catalogued. The primary page is undated; dates on related magazine articles are not treated as its publication date. Milan is the institutional locality; the broad map point does not identify a confirmed arena room, building, campus position or landing coordinate. Current operations, public access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-31-omnidrome-and-flyart-research",
+      "supportingSources": [
+        {
+          "name": "Politecnico di Milano — aerospace department and laboratory context",
+          "url": "https://www.aero.polimi.it/en/"
+        }
+      ]
     }
   ],
-  "expectedTotal": 336,
+  "expectedTotal": 338,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -9975,6 +10049,13 @@
       "id": "2026-10-31-buffalo-soar-research-enclosure",
       "recordIds": [
         "buffalo-soar-research-enclosure"
+      ]
+    },
+    {
+      "id": "2026-10-31-omnidrome-and-flyart-research",
+      "recordIds": [
+        "royal-holloway-omnidrome",
+        "polimi-flyart-arena"
       ]
     }
   ]
