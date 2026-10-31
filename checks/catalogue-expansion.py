@@ -439,7 +439,7 @@ assert all(p['sourceReviewedAt']=='2026-10-30' and len(p['supportingSources'])==
 
 # Preserve all earlier records and the single-arena counting decision.
 twenty_eighth=json.loads((ROOT/'catalogue/twenty-eighth-batch-ids.json').read_text())
-assert twenty_eighth==batch['releases'][-1]['recordIds']==['caltech-cast-aerodrome']
+assert twenty_eighth==batch['releases'][27]['recordIds']==['caltech-cast-aerodrome']
 prior331=json.loads((ROOT/'catalogue/prior-331-preservation.json').read_text())
 assert len(prior331)==281
 for id,digest in prior331.items():
@@ -450,4 +450,17 @@ assert cast['reportedStatus']=='reported-operation' and cast['sourcePublishedAt'
 assert cast['recordScope']=='test-centre' and cast['sourceReviewedAt']=='2026-10-30'
 assert cast['source']['url']=='https://cast.caltech.edu/facilities'
 assert len(cast['supportingSources'])==1
+
+# One DTU arena; earlier catalogue remains unchanged.
+twenty_ninth=json.loads((ROOT/'catalogue/twenty-ninth-batch-ids.json').read_text())
+assert twenty_ninth==batch['releases'][-1]['recordIds']==['dtu-asta-lyngby']
+prior332=json.loads((ROOT/'catalogue/prior-332-preservation.json').read_text())
+assert len(prior332)==282
+for id,digest in prior332.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 332-record release changed'
+asta=next(p for p in additions if p['id']=='dtu-asta-lyngby')
+assert asta['reportedStatus']=='reported-operation' and asta['sourcePublishedAt'] is None
+assert asta['recordScope']=='test-centre' and asta['sourceReviewedAt']=='2026-10-31'
+assert asta['source']['url']=='https://asta.dtu.dk/' and asta['country']=='Denmark'
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
