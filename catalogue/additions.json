@@ -9376,9 +9376,46 @@
           "url": "https://www.caltech.edu/about/news/how-do-you-test-a-helicopter-bound-for-mars"
         }
       ]
+    },
+    {
+      "id": "dtu-asta-lyngby",
+      "name": "DTU ASTA autonomous systems research arena",
+      "where": "Kongens Lyngby, Denmark",
+      "country": "Denmark",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Technical University of Denmark / DTU ASTA",
+      "reportedEquipment": "Aerial robotic systems; motion-capture cameras and indoor test space",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 55.77,
+        "longitude": 12.5
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "DTU describes ASTA as a shared indoor arena for aerial, ground and aquatic robotics, with open flight-test space and motion tracking.",
+      "source": {
+        "name": "Technical University of Denmark — DTU ASTA",
+        "url": "https://asta.dtu.dk/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "dtu-asta-lyngby",
+      "sourceReviewedAt": "2026-10-31",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One named research arena in Kongens Lyngby. The open space, motion-capture area and pool are parts of the same facility; courses, research projects and individual robots are not additional ports. Distinct from the already catalogued UAS Denmark airport test centre near Odense. The primary facilities and usage pages are undated, so publication dates remain unknown. The older CCAS page displays an update date, not an established original publication date. Broad Kongens Lyngby coordinates are an editorial locality reference, not a building or landing position. Source-described research use does not independently verify present operations, access or flight permission.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-31-dtu-asta-research-arena",
+      "supportingSources": [
+        {
+          "name": "DTU ASTA — facility usage and research projects",
+          "url": "https://asta.dtu.dk/Facility-usage"
+        }
+      ]
     }
   ],
-  "expectedTotal": 332,
+  "expectedTotal": 333,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -9800,6 +9837,12 @@
       "id": "2026-10-30-caltech-cast-aerodrome",
       "recordIds": [
         "caltech-cast-aerodrome"
+      ]
+    },
+    {
+      "id": "2026-10-31-dtu-asta-research-arena",
+      "recordIds": [
+        "dtu-asta-lyngby"
       ]
     }
   ]
