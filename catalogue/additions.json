@@ -9749,9 +9749,146 @@
           "url": "https://cescon.me.uh.edu/contact/"
         }
       ]
+    },
+    {
+      "id": "cdu-katherine-air-f",
+      "name": "CDU Katherine Airspace Integration Research Facility",
+      "where": "Katherine, Northern Territory, Australia",
+      "country": "Australia",
+      "region": "Oceania",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Charles Darwin University / North Australia Centre for Autonomous Systems",
+      "reportedEquipment": "UAV test systems, communications, operations room and maintenance facilities",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": -14.47,
+        "longitude": 132.26
+      },
+      "reportDateLabel": "9 September 2025",
+      "description": "CDU reports the launch of AIR-F at Katherine Rural Campus for drone testing, research and training.",
+      "source": {
+        "name": "Charles Darwin University — AIR-F launch report",
+        "url": "https://www.cdu.edu.au/news/new-test-flight-facility-lets-drone-operators-test-tech-extreme-conditions"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "cdu-katherine-air-f",
+      "sourceReviewedAt": "2026-10-31",
+      "sourcePublishedAt": "2025-09-09",
+      "sourceType": "research",
+      "reviewNotes": "One research facility. The surrounding test area, individual aircraft and other NACAS projects are not extra ports. Broad Katherine coordinates do not mark the rural campus or a flight boundary. Source statements about aviation approvals are not treated as current permission for visitors. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-31-katherine-naples-klagenfurt-research",
+      "supportingSources": []
+    },
+    {
+      "id": "naples-prisma-flare",
+      "name": "University of Naples Federico II FLARE flight arena",
+      "where": "Naples, Italy",
+      "country": "Italy",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Naples Federico II / PRISMA Team",
+      "reportedEquipment": "Multirotor research drones and OptiTrack motion capture",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 40.85,
+        "longitude": 14.27
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "PRISMA describes FLARE as an enclosed arena for aerial robotics experiments at the San Giovanni a Teduccio Complex.",
+      "source": {
+        "name": "University of Naples Federico II — PRISMA FLARE",
+        "url": "https://prisma.dieti.unina.it/index.php/facilities/flying-arena"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "naples-prisma-flare",
+      "sourceReviewedAt": "2026-10-31",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One flight arena. The venue is the San Giovanni a Teduccio Complex; the general Via Claudio footer address is not assigned to this arena. Other PRISMA laboratories and individual drone rigs are not additional flight sites here. The primary page is undated. Broad Naples coordinates do not mark a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-31-katherine-naples-klagenfurt-research",
+      "supportingSources": []
+    },
+    {
+      "id": "klagenfurt-indoor-drone-hall",
+      "name": "University of Klagenfurt indoor Drone Hall",
+      "where": "Lakeside Science & Technology Park, Klagenfurt, Austria",
+      "country": "Austria",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Klagenfurt / Control of Networked Systems",
+      "reportedEquipment": "Research drones, optical tracking cameras and cable robot",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 46.62,
+        "longitude": 14.31
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "The university describes an indoor Drone Hall for drone research at Lakeside Science & Technology Park.",
+      "source": {
+        "name": "University of Klagenfurt — drone infrastructure",
+        "url": "https://www.aau.at/en/research/research-profile/research-infrastructure/drone-infrastructure/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "klagenfurt-indoor-drone-hall",
+      "sourceReviewedAt": "2026-10-31",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One indoor hall, physically distinct from the outdoor ODSA enclosure. Dronehub is the shared research programme, not a third site. The December 2019 unveiling is not the undated page’s publication date. The shared broad Klagenfurt map point does not imply the two arenas occupy the same structure. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-31-katherine-naples-klagenfurt-research",
+      "supportingSources": []
+    },
+    {
+      "id": "klagenfurt-outdoor-odsa",
+      "name": "University of Klagenfurt Outdoor Drone Space Austria",
+      "where": "Lakeside Science & Technology Park, Klagenfurt, Austria",
+      "country": "Austria",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Klagenfurt / Control of Networked Systems",
+      "reportedEquipment": "Research drones, net enclosure and optical tracking",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 46.62,
+        "longitude": 14.31
+      },
+      "reportDateLabel": "3 June 2026",
+      "description": "The university describes ODSA as a completed outdoor drone research facility at Lakeside Park.",
+      "source": {
+        "name": "University of Klagenfurt — Performing Drones and completed ODSA",
+        "url": "https://www.aau.at/blog/performing-drones-performances-von-tanzenden-koerpern-und-drohnen-im-outdoor-drone-space-austria/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "klagenfurt-outdoor-odsa",
+      "sourceReviewedAt": "2026-10-31",
+      "sourcePublishedAt": "2026-06-03",
+      "sourceType": "research",
+      "reviewNotes": "One outdoor enclosure, distinct from the indoor hall. The June 2026 article explicitly describes completion after the December 2025 construction-stage report. Planned performances are not counted as proof they occurred or as extra facilities. Broad Klagenfurt coordinates are not the arena or a landing position. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-31-katherine-naples-klagenfurt-research",
+      "supportingSources": [
+        {
+          "name": "University of Klagenfurt — indoor and outdoor infrastructure",
+          "url": "https://www.aau.at/en/research/research-profile/research-infrastructure/drone-infrastructure/"
+        },
+        {
+          "name": "University of Klagenfurt — ODSA construction stage, 15 December 2025",
+          "url": "https://www.aau.at/en/blog/outdoor-drone-space-austria-odsa-der-universitaet-klagenfurt-vor-fertigstellung/"
+        }
+      ]
     }
   ],
-  "expectedTotal": 342,
+  "expectedTotal": 346,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -10213,6 +10350,15 @@
       "recordIds": [
         "federation-gippsland-flight-lab",
         "houston-alaic-flight-arena"
+      ]
+    },
+    {
+      "id": "2026-10-31-katherine-naples-klagenfurt-research",
+      "recordIds": [
+        "cdu-katherine-air-f",
+        "naples-prisma-flare",
+        "klagenfurt-indoor-drone-hall",
+        "klagenfurt-outdoor-odsa"
       ]
     }
   ]
