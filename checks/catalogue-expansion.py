@@ -466,7 +466,7 @@ assert asta['source']['url']=='https://asta.dtu.dk/' and asta['country']=='Denma
 
 # Preserve earlier research and keep the indoor and outdoor Bristol sites distinct.
 thirtieth=json.loads((ROOT/'catalogue/thirtieth-batch-ids.json').read_text())
-assert thirtieth==batch['releases'][-1]['recordIds'] and len(thirtieth)==2
+assert thirtieth==batch['releases'][29]['recordIds'] and len(thirtieth)==2
 prior333=json.loads((ROOT/'catalogue/prior-333-preservation.json').read_text())
 assert len(prior333)==283
 for id,digest in prior333.items():
@@ -476,4 +476,17 @@ bristol=[p for p in additions if p['id'] in thirtieth]
 assert len({p['where'] for p in bristol})==2
 assert all(p['reportedStatus']=='reported-operation' and p['sourcePublishedAt'] is None and p['sourceReviewedAt']=='2026-10-31' for p in bristol)
 assert all(p['recordScope']=='test-centre' and p['country']=='United Kingdom' and p['supportingSources'] for p in bristol)
+
+# Distinguish the university enclosure from the unrelated SOAR dock programme.
+thirty_first=json.loads((ROOT/'catalogue/thirty-first-batch-ids.json').read_text())
+assert thirty_first==batch['releases'][-1]['recordIds']==['buffalo-soar-research-enclosure']
+prior335=json.loads((ROOT/'catalogue/prior-335-preservation.json').read_text())
+assert len(prior335)==285
+for id,digest in prior335.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 335-record release changed'
+soar=next(p for p in additions if p['id']=='buffalo-soar-research-enclosure')
+assert soar['reportedStatus']=='reported-operation' and soar['sourcePublishedAt'] is None
+assert soar['recordScope']=='test-centre' and soar['sourceReviewedAt']=='2026-10-31'
+assert soar['where']=='Amherst, New York, United States' and len(soar['supportingSources'])==2
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')

@@ -9491,9 +9491,50 @@
           "url": "https://www.bristol.ac.uk/research/centres/bristol-aerospace-research-centre/facilities/"
         }
       ]
+    },
+    {
+      "id": "buffalo-soar-research-enclosure",
+      "name": "University at Buffalo SOAR drone research enclosure",
+      "where": "Amherst, New York, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University at Buffalo",
+      "reportedEquipment": "Research UAVs in a netted flight-testing structure; aircraft models not specified",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 42.98,
+        "longitude": -78.8
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "The University at Buffalo identifies SOAR as a netted research facility for testing uncrewed aircraft on its North Campus.",
+      "source": {
+        "name": "University at Buffalo — SOAR building profile",
+        "url": "https://www.buffalo.edu/administrative-services/managing-facilities/planning-designing-and-construction/building-profiles/profile-host-page.host.html/content/shared/university/page-content/facilities/soar.detail.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "buffalo-soar-research-enclosure",
+      "sourceReviewedAt": "2026-10-31",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One named netted research structure on North Campus in Amherst. The September 2021 demonstration announcement and the building profile describe the same facility. Individual aircraft, research teams and potential applications are not additional sites. This SOAR name is unrelated to the Alaska DOT autonomous dock programme already in the catalogue. November 2020 is the profile’s construction-completion date, not its publication date; the dated supporting announcement does not replace the undated primary source. Source statements about regulatory treatment are not adopted as current legal or flight-permission advice. The broad Amherst point is an editorial locality reference, not the structure or a landing coordinate. Current operation and access are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-31-buffalo-soar-research-enclosure",
+      "supportingSources": [
+        {
+          "name": "University at Buffalo — SOAR demonstration announcement, 28 September 2021",
+          "url": "https://www.buffalo.edu/news/releases/2021/09/037.html"
+        },
+        {
+          "name": "University at Buffalo — North Campus locality",
+          "url": "https://www.buffalo.edu/home/ub_at_a_glance/our-campuses.html"
+        }
+      ]
     }
   ],
-  "expectedTotal": 335,
+  "expectedTotal": 336,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -9928,6 +9969,12 @@
       "recordIds": [
         "bristol-robotics-flight-arena",
         "bristol-fenswood-field-research"
+      ]
+    },
+    {
+      "id": "2026-10-31-buffalo-soar-research-enclosure",
+      "recordIds": [
+        "buffalo-soar-research-enclosure"
       ]
     }
   ]
