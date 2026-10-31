@@ -479,7 +479,7 @@ assert all(p['recordScope']=='test-centre' and p['country']=='United Kingdom' an
 
 # Distinguish the university enclosure from the unrelated SOAR dock programme.
 thirty_first=json.loads((ROOT/'catalogue/thirty-first-batch-ids.json').read_text())
-assert thirty_first==batch['releases'][-1]['recordIds']==['buffalo-soar-research-enclosure']
+assert thirty_first==batch['releases'][30]['recordIds']==['buffalo-soar-research-enclosure']
 prior335=json.loads((ROOT/'catalogue/prior-335-preservation.json').read_text())
 assert len(prior335)==285
 for id,digest in prior335.items():
@@ -489,4 +489,17 @@ soar=next(p for p in additions if p['id']=='buffalo-soar-research-enclosure')
 assert soar['reportedStatus']=='reported-operation' and soar['sourcePublishedAt'] is None
 assert soar['recordScope']=='test-centre' and soar['sourceReviewedAt']=='2026-10-31'
 assert soar['where']=='Amherst, New York, United States' and len(soar['supportingSources'])==2
+
+# Two research arenas, with no inferred outdoor sites or installed planned equipment.
+thirty_second=json.loads((ROOT/'catalogue/thirty-second-batch-ids.json').read_text())
+assert thirty_second==batch['releases'][-1]['recordIds'] and len(thirty_second)==2
+prior336=json.loads((ROOT/'catalogue/prior-336-preservation.json').read_text())
+assert len(prior336)==286
+for id,digest in prior336.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 336-record release changed'
+new_arenas=[p for p in additions if p['id'] in thirty_second]
+assert {p['country'] for p in new_arenas}=={'United Kingdom','Italy'}
+assert all(p['reportedStatus']=='reported-operation' and p['sourcePublishedAt'] is None and p['sourceReviewedAt']=='2026-10-31' for p in new_arenas)
+assert all(p['recordScope']=='test-centre' and len(p['supportingSources'])==1 for p in new_arenas)
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
