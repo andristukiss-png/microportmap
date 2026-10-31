@@ -453,7 +453,7 @@ assert len(cast['supportingSources'])==1
 
 # One DTU arena; earlier catalogue remains unchanged.
 twenty_ninth=json.loads((ROOT/'catalogue/twenty-ninth-batch-ids.json').read_text())
-assert twenty_ninth==batch['releases'][-1]['recordIds']==['dtu-asta-lyngby']
+assert twenty_ninth==batch['releases'][28]['recordIds']==['dtu-asta-lyngby']
 prior332=json.loads((ROOT/'catalogue/prior-332-preservation.json').read_text())
 assert len(prior332)==282
 for id,digest in prior332.items():
@@ -463,4 +463,17 @@ asta=next(p for p in additions if p['id']=='dtu-asta-lyngby')
 assert asta['reportedStatus']=='reported-operation' and asta['sourcePublishedAt'] is None
 assert asta['recordScope']=='test-centre' and asta['sourceReviewedAt']=='2026-10-31'
 assert asta['source']['url']=='https://asta.dtu.dk/' and asta['country']=='Denmark'
+
+# Preserve earlier research and keep the indoor and outdoor Bristol sites distinct.
+thirtieth=json.loads((ROOT/'catalogue/thirtieth-batch-ids.json').read_text())
+assert thirtieth==batch['releases'][-1]['recordIds'] and len(thirtieth)==2
+prior333=json.loads((ROOT/'catalogue/prior-333-preservation.json').read_text())
+assert len(prior333)==283
+for id,digest in prior333.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 333-record release changed'
+bristol=[p for p in additions if p['id'] in thirtieth]
+assert len({p['where'] for p in bristol})==2
+assert all(p['reportedStatus']=='reported-operation' and p['sourcePublishedAt'] is None and p['sourceReviewedAt']=='2026-10-31' for p in bristol)
+assert all(p['recordScope']=='test-centre' and p['country']=='United Kingdom' and p['supportingSources'] for p in bristol)
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')

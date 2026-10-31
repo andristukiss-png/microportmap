@@ -9413,9 +9413,87 @@
           "url": "https://asta.dtu.dk/Facility-usage"
         }
       ]
+    },
+    {
+      "id": "bristol-robotics-flight-arena",
+      "name": "Bristol Robotics Laboratory indoor flight arena",
+      "where": "Frenchay, Bristol, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Bristol Robotics Laboratory / University of Bristol and UWE Bristol",
+      "reportedEquipment": "Research aerial vehicles and Vicon motion-tracking cameras",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 51.5,
+        "longitude": -2.52
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "The University of Bristol identifies a camera-equipped indoor arena at Bristol Robotics Laboratory for developing and testing aerial robotic systems.",
+      "source": {
+        "name": "University of Bristol — aerospace research facilities",
+        "url": "https://www.bristol.ac.uk/research/centres/bristol-aerospace-research-centre/facilities/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "bristol-robotics-flight-arena",
+      "sourceReviewedAt": "2026-10-31",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One indoor flight arena at the joint Bristol Robotics Laboratory. Vehicle assembly, electronics and bench-test areas are supporting facilities, not additional ports. The separately named Fenswood Farm outdoor site is a distinct research location. Course projects and individual aircraft are not additional sites. Source pages are undated; no publication date is inferred from copyright years or course start dates. The broad Frenchay point is an editorial locality reference, not a room, building or landing coordinate. Current operations, public access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-31-bristol-indoor-and-field-research",
+      "supportingSources": [
+        {
+          "name": "Bristol Robotics Laboratory — joint partnership and Frenchay location",
+          "url": "https://www.bristolroboticslab.com/"
+        },
+        {
+          "name": "University of Bristol — aerial robotics course and flight-test facilities",
+          "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-aerial-robotics/"
+        }
+      ]
+    },
+    {
+      "id": "bristol-fenswood-field-research",
+      "name": "Bristol Fenswood Farm outdoor drone research site",
+      "where": "Long Ashton, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Bristol",
+      "reportedEquipment": "Research drones; aircraft models not specified in cited facility pages",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 51.43,
+        "longitude": -2.66
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "The University of Bristol identifies drone robotics and automated flight among research uses of its Fenswood Farm site in Long Ashton.",
+      "source": {
+        "name": "University of Bristol — Fenswood Farm research facility",
+        "url": "https://www.bristol.ac.uk/gardens/research/fenswood-farm/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "bristol-fenswood-field-research",
+      "sourceReviewedAt": "2026-10-31",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One named outdoor research site, distinct from the Bristol Robotics Laboratory indoor arena at Frenchay. Fields, woodland, glasshouses, buildings and individual experiments do not create additional droneports. University pages give different land-area totals, so no acreage, flight boundary or airspace entitlement is assigned. The historical closure of Long Ashton Research Station is not treated as closure of present Fenswood research activity. Undated facility pages retain unknown publication dates. The broad Long Ashton point is an editorial locality reference, not a launch position or surveyed perimeter. Current operations, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-31-bristol-indoor-and-field-research",
+      "supportingSources": [
+        {
+          "name": "University of Bristol — outdoor drone testing at Fenswood",
+          "url": "https://www.bristol.ac.uk/research/centres/bristol-aerospace-research-centre/facilities/"
+        }
+      ]
     }
   ],
-  "expectedTotal": 333,
+  "expectedTotal": 335,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -9843,6 +9921,13 @@
       "id": "2026-10-31-dtu-asta-research-arena",
       "recordIds": [
         "dtu-asta-lyngby"
+      ]
+    },
+    {
+      "id": "2026-10-31-bristol-indoor-and-field-research",
+      "recordIds": [
+        "bristol-robotics-flight-arena",
+        "bristol-fenswood-field-research"
       ]
     }
   ]
