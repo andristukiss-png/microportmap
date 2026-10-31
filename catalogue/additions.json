@@ -9606,9 +9606,78 @@
           "url": "https://www.aero.polimi.it/en/"
         }
       ]
+    },
+    {
+      "id": "macquarie-indoor-flight-facility",
+      "name": "Macquarie University indoor drone flight facility",
+      "where": "Sydney, New South Wales, Australia",
+      "country": "Australia",
+      "region": "Oceania",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Macquarie University / Advanced Drone Systems Research Centre",
+      "reportedEquipment": "Research drones and indoor positioning systems",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": -33.87,
+        "longitude": 151.21
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "Macquarie University reports an indoor drone research facility at its main campus, supporting autonomous flight experiments.",
+      "source": {
+        "name": "Macquarie University — New flight facility",
+        "url": "https://www.mq.edu.au/research/research-centres-institutes-and-initiatives/advanced-drone-systems/news/stories/new-flight-facility"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "macquarie-indoor-flight-facility",
+      "sourceReviewedAt": "2026-10-31",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One facility following a December 2025 relocation; the earlier space is not counted separately. The move date is not the undated page’s publication date. Campus context is Wallumattagal, not the separate City campus. Sydney coordinates indicate the broad locality, not the campus or flight room. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-31-macquarie-and-canberra-research",
+      "supportingSources": [
+        {
+          "name": "Macquarie University — main campus location context",
+          "url": "https://www.mq.edu.au/about/locations"
+        }
+      ]
+    },
+    {
+      "id": "unsw-canberra-lirta",
+      "name": "UNSW Canberra Large-scale Indoor Robotics Test Arena",
+      "where": "Canberra, Australian Capital Territory, Australia",
+      "country": "Australia",
+      "region": "Oceania",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "UNSW Canberra",
+      "reportedEquipment": "Research drones, ground robots and motion-capture systems",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": -35.28,
+        "longitude": 149.13
+      },
+      "reportDateLabel": "12 May 2026",
+      "description": "UNSW describes LIRTA at Canberra City as an enclosed arena used for aerial and ground robotics research.",
+      "source": {
+        "name": "UNSW — Canberra robotics ecosystem, Luke Garner",
+        "url": "https://www.unsw.edu.au/news/2026/05/how-canberras-robotics-ecosystem-is-healing-humans-building-swarms-and-defying-gravity"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "unsw-canberra-lirta",
+      "sourceReviewedAt": "2026-10-31",
+      "sourcePublishedAt": "2026-05-12",
+      "sourceType": "research",
+      "reviewNotes": "One named arena at UNSW Canberra City, distinct from the former Wing Mitchell delivery warehouse. Research projects, individual aircraft, visiting teams and rehabilitation experiments are not separate drone facilities. The source displays 12 May 2026 as its publication date. Broad Canberra coordinates do not identify the arena building or a landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-10-31-macquarie-and-canberra-research",
+      "supportingSources": []
     }
   ],
-  "expectedTotal": 338,
+  "expectedTotal": 340,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -10056,6 +10125,13 @@
       "recordIds": [
         "royal-holloway-omnidrome",
         "polimi-flyart-arena"
+      ]
+    },
+    {
+      "id": "2026-10-31-macquarie-and-canberra-research",
+      "recordIds": [
+        "macquarie-indoor-flight-facility",
+        "unsw-canberra-lirta"
       ]
     }
   ]
