@@ -492,7 +492,7 @@ assert soar['where']=='Amherst, New York, United States' and len(soar['supportin
 
 # Two research arenas, with no inferred outdoor sites or installed planned equipment.
 thirty_second=json.loads((ROOT/'catalogue/thirty-second-batch-ids.json').read_text())
-assert thirty_second==batch['releases'][-1]['recordIds'] and len(thirty_second)==2
+assert thirty_second==batch['releases'][31]['recordIds'] and len(thirty_second)==2
 prior336=json.loads((ROOT/'catalogue/prior-336-preservation.json').read_text())
 assert len(prior336)==286
 for id,digest in prior336.items():
@@ -502,4 +502,17 @@ new_arenas=[p for p in additions if p['id'] in thirty_second]
 assert {p['country'] for p in new_arenas}=={'United Kingdom','Italy'}
 assert all(p['reportedStatus']=='reported-operation' and p['sourcePublishedAt'] is None and p['sourceReviewedAt']=='2026-10-31' for p in new_arenas)
 assert all(p['recordScope']=='test-centre' and len(p['supportingSources'])==1 for p in new_arenas)
+
+# Preserve earlier records and distinguish relocation from source publication.
+thirty_third=json.loads((ROOT/'catalogue/thirty-third-batch-ids.json').read_text())
+assert thirty_third==batch['releases'][-1]['recordIds'] and len(thirty_third)==2
+prior338=json.loads((ROOT/'catalogue/prior-338-preservation.json').read_text())
+assert len(prior338)==288
+for id,digest in prior338.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 338-record release changed'
+new_australian=[p for p in additions if p['id'] in thirty_third]
+assert all(p['country']=='Australia' and p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' for p in new_australian)
+assert next(p for p in new_australian if p['id']=='macquarie-indoor-flight-facility')['sourcePublishedAt'] is None
+assert next(p for p in new_australian if p['id']=='unsw-canberra-lirta')['sourcePublishedAt']=='2026-05-12'
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
