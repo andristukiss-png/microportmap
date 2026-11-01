@@ -549,7 +549,7 @@ assert len(new_facilities['klagenfurt-outdoor-odsa']['supportingSources'])==2
 
 # Distinct Delft facilities and a source-qualified Kamenz hangar.
 thirty_sixth=json.loads((ROOT/'catalogue/thirty-sixth-batch-ids.json').read_text())
-assert thirty_sixth==batch['releases'][-1]['recordIds'] and len(thirty_sixth)==3
+assert thirty_sixth==batch['releases'][35]['recordIds'] and len(thirty_sixth)==3
 prior346=json.loads((ROOT/'catalogue/prior-346-preservation.json').read_text())
 assert len(prior346)==296
 for id,digest in prior346.items():
@@ -561,4 +561,18 @@ assert new36['miteb-kamenz-hangar']['sourcePublishedAt']=='2026-10-22'
 assert new36['miteb-kamenz-hangar']['where']=='Kamenz, Saxony, Germany'
 assert all(new36[id]['sourcePublishedAt'] is None for id in ['tu-delft-mobile-robotics-lab','tu-delft-swarming-lab'])
 assert all(len(p['supportingSources'])==1 for p in new36.values())
+
+# University arenas retain unknown dates and unfinished-construction context.
+thirty_seventh=json.loads((ROOT/'catalogue/thirty-seventh-batch-ids.json').read_text())
+assert thirty_seventh==batch['releases'][-1]['recordIds'] and len(thirty_seventh)==3
+prior349=json.loads((ROOT/'catalogue/prior-349-preservation.json').read_text())
+assert len(prior349)==299
+for id,digest in prior349.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 349-record release changed'
+new37={p['id']:p for p in additions if p['id'] in thirty_seventh}
+assert all(p['sourceReviewedAt']=='2026-11-01' and p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' and p['country']=='United States' for p in new37.values())
+assert new37['johns-hopkins-robodrome']['sourcePublishedAt']=='2026-07-14'
+assert 'completion and additional netting were still planned' in new37['johns-hopkins-robodrome']['reviewNotes']
+assert all(new37[id]['sourcePublishedAt'] is None for id in ['ut-knoxville-asl-flight-arena','alabama-ascl-flight-arena'])
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
