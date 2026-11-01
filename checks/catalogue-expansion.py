@@ -578,7 +578,7 @@ assert all(new37[id]['sourcePublishedAt'] is None for id in ['ut-knoxville-asl-f
 
 # Three distinct European research arenas; publication dates remain unknown.
 thirty_eighth=json.loads((ROOT/'catalogue/thirty-eighth-batch-ids.json').read_text())
-assert thirty_eighth==batch['releases'][-1]['recordIds'] and len(thirty_eighth)==3
+assert thirty_eighth==batch['releases'][37]['recordIds'] and len(thirty_eighth)==3
 prior352=json.loads((ROOT/'catalogue/prior-352-preservation.json').read_text())
 assert len(prior352)==302
 for id,digest in prior352.items():
@@ -589,4 +589,19 @@ assert all(p['sourceReviewedAt']=='2026-11-01' and p['recordScope']=='test-centr
 assert new38['tum-garching-flying-systems-lab']['where']=='Garching bei München, Germany'
 assert 'contact office is not asserted to be the arena room' in new38['epfl-lis-flight-arena']['reviewNotes']
 assert all(len(p['supportingSources'])==1 for p in new38.values())
+
+# A combined Brest facility and distinct Raleigh indoor/outdoor research sites.
+thirty_ninth=json.loads((ROOT/'catalogue/thirty-ninth-batch-ids.json').read_text())
+assert thirty_ninth==batch['releases'][-1]['recordIds'] and len(thirty_ninth)==3
+prior355=json.loads((ROOT/'catalogue/prior-355-preservation.json').read_text())
+assert len(prior355)==305
+for id,digest in prior355.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 355-record release changed'
+new39={p['id']:p for p in additions if p['id'] in thirty_ninth}
+assert all(p['sourceReviewedAt']=='2026-11-01' and p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' for p in new39.values())
+assert new39['ensta-brest-air-sea-facility']['sourcePublishedAt']=='2026-06-24'
+assert new39['nc-state-lake-wheeler-uas-field']['sourcePublishedAt']=='2021-11-09'
+assert new39['nc-state-aeris-indoor-arena']['sourcePublishedAt'] is None
+assert 'not counted or assumed complete' in new39['nc-state-aeris-indoor-arena']['reviewNotes']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')

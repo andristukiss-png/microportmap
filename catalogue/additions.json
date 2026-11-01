@@ -10222,9 +10222,119 @@
           "url": "https://srl.cit.tum.de/teaching/w23/rmilpracticals"
         }
       ]
+    },
+    {
+      "id": "ensta-brest-air-sea-facility",
+      "name": "ENSTA Brest air-sea experimental facility",
+      "where": "Brest, France",
+      "country": "France",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "ENSTA, Brest campus",
+      "reportedEquipment": "Drone enclosure, freshwater test basin and measurement equipment",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 48.39,
+        "longitude": -4.49
+      },
+      "reportDateLabel": "24 June 2026",
+      "description": "ENSTA reports the inauguration of a combined basin and drone enclosure for air, surface and underwater research.",
+      "source": {
+        "name": "ENSTA — air-sea facility inauguration",
+        "url": "https://www.ensta.fr/actualites/inauguration-du-bassin-dexperimentation-air-mer-unique-en-europe"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "ensta-brest-air-sea-facility",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": "2026-06-24",
+      "sourceType": "research",
+      "reviewNotes": "One combined research facility, not separate records for the basin, enclosure, robots or research programmes. The primary release and reported inauguration share the date 24 June 2026. The campus is Brest, not the Paris-Saclay address also listed by the institution. Research capability does not establish public access or an operational delivery port. Broad city coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-brest-and-raleigh-research",
+      "supportingSources": [
+        {
+          "name": "ENSTA — air-sea experimental platform",
+          "url": "https://www.ensta.fr/recherche-et-innovation/decouvrir-la-recherche/plateformes-experimentales/bassin-dexperimentation-air-mer"
+        }
+      ]
+    },
+    {
+      "id": "nc-state-aeris-indoor-arena",
+      "name": "NC State AERIS indoor flight arena",
+      "where": "Raleigh, North Carolina, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "North Carolina State University / AERIS Laboratory",
+      "reportedEquipment": "Research drones, Vicon motion capture and gust-generation equipment",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 35.78,
+        "longitude": -78.64
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "NC State describes an indoor flight arena used for autonomous systems and drone experiments.",
+      "source": {
+        "name": "NC State AERIS — facilities",
+        "url": "https://research.csc.ncsu.edu/aerislab/about/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "nc-state-aeris-indoor-arena",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One indoor arena, distinct from the separately described Lake Wheeler outdoor testing site. The additional flying cage described as coming online in summer 2026 is not counted or assumed complete. Individual drones and the wind generator are equipment, not sites. The undated page retains an unknown publication date; the exact arena room is not established. Broad city coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-brest-and-raleigh-research",
+      "supportingSources": []
+    },
+    {
+      "id": "nc-state-lake-wheeler-uas-field",
+      "name": "NC State Lake Wheeler drone research field",
+      "where": "Raleigh, North Carolina, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "North Carolina State University / AERPAW research partners",
+      "reportedEquipment": "Research multicopters, wireless test nodes and field instrumentation",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 35.78,
+        "longitude": -78.64
+      },
+      "reportDateLabel": "9 November 2021",
+      "description": "NC State’s launch report identifies Lake Wheeler Field Laboratory as a site in its aerial wireless research testbed.",
+      "source": {
+        "name": "NC State — AERPAW research testbed launch",
+        "url": "https://news.ncsu.edu/2021/11/pawr-program-announces-launch-of-aerpaw-testbed-for-advanced-research-on-wireless-connectivity-and-unmanned-aerial-vehicles/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "nc-state-lake-wheeler-uas-field",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": "2021-11-09",
+      "sourceType": "research",
+      "reviewNotes": "One outdoor field research site. AERPAW and AERIS use of Lake Wheeler is not counted twice, nor are towers, radio nodes, drones or mobile trailers separate sites. The platform spans other locations; this record covers only Lake Wheeler. Planned expansion and dated source statements do not establish present completion or permission. The broad Raleigh point does not locate the farm boundary. Broad city coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-brest-and-raleigh-research",
+      "supportingSources": [
+        {
+          "name": "AERPAW — deployment areas and Lake Wheeler drone experiments",
+          "url": "https://aerpaw.org/deployment-areas/"
+        },
+        {
+          "name": "NC State AERIS — separate indoor and outdoor facilities",
+          "url": "https://research.csc.ncsu.edu/aerislab/about/"
+        }
+      ]
     }
   ],
-  "expectedTotal": 355,
+  "expectedTotal": 358,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -10719,6 +10829,14 @@
         "enac-toulouse-flight-arena",
         "epfl-lis-flight-arena",
         "tum-garching-flying-systems-lab"
+      ]
+    },
+    {
+      "id": "2026-11-01-brest-and-raleigh-research",
+      "recordIds": [
+        "ensta-brest-air-sea-facility",
+        "nc-state-aeris-indoor-arena",
+        "nc-state-lake-wheeler-uas-field"
       ]
     }
   ]
