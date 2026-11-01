@@ -9997,9 +9997,123 @@
           "url": "https://www.tudelft.nl/en/ae/organisation/departments/control-and-operations/facilities/drone-facilities"
         }
       ]
+    },
+    {
+      "id": "johns-hopkins-robodrome",
+      "name": "Johns Hopkins Robodrome research arena",
+      "where": "Baltimore, Maryland, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Johns Hopkins University / Laboratory for Computational Sensing and Robotics",
+      "reportedEquipment": "Research drones, motion-capture cameras and netted experimental space",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 39.29,
+        "longitude": -76.61
+      },
+      "reportDateLabel": "14 July 2026",
+      "description": "Johns Hopkins reports drone experiments in its new Robodrome, a converted office space in the Stieff Silver Building.",
+      "source": {
+        "name": "Johns Hopkins LCSR — new drone arena",
+        "url": "https://lcsr.jhu.edu/news/new-drone-arena-helps-scientists-design-aerial-robots-for-cities-and-spaceflight/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "johns-hopkins-robodrome",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": "2026-07-14",
+      "sourceType": "research",
+      "reviewNotes": "The July report describes drone use while completion and additional netting were still planned for the fall semester. Reported operation refers to that research use, not proof of a fully completed facility. One arena, not multiple aircraft or proposed planetary applications. The institution’s footer address is not the arena location. Broad Baltimore coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-us-university-flight-arenas",
+      "supportingSources": []
+    },
+    {
+      "id": "ut-knoxville-asl-flight-arena",
+      "name": "UT Knoxville ASL drone flight arena",
+      "where": "Knoxville, Tennessee, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Tennessee, Knoxville / Autonomous Systems Laboratory",
+      "reportedEquipment": "Research drones, high-speed motion-capture cameras and a netted flight arena",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 35.96,
+        "longitude": -83.92
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "The Autonomous Systems Laboratory describes a dedicated drone flight arena within its Knoxville campus research facility.",
+      "source": {
+        "name": "UT Knoxville ASL — facilities",
+        "url": "https://volweb.utk.edu/~zwang124/res_facility.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "ut-knoxville-asl-flight-arena",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One netted arena within the laboratory, not separate sites for cameras, simulation equipment or individual drones. The undated facilities page does not establish a publication or opening date; copyright is not publication. The group’s contact office is not asserted to be the arena room. Broad Knoxville coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-us-university-flight-arenas",
+      "supportingSources": [
+        {
+          "name": "UT Knoxville ASL — institutional affiliation",
+          "url": "https://volweb.utk.edu/~zwang124/index.html"
+        }
+      ]
+    },
+    {
+      "id": "alabama-ascl-flight-arena",
+      "name": "University of Alabama ASCL flight arena",
+      "where": "Tuscaloosa, Alabama, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Alabama / Autonomous Systems and Control Laboratory",
+      "reportedEquipment": "Drones, VTOL aircraft and OptiTrack motion capture",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 33.21,
+        "longitude": -87.57
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "The department describes a dedicated flight arena for experimental validation of control and learning algorithms.",
+      "source": {
+        "name": "University of Alabama Aerospace Engineering and Mechanics — laboratories",
+        "url": "https://aem.eng.ua.edu/research/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "alabama-ascl-flight-arena",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One flight arena associated with Pan Zhao’s laboratory. Other departmental laboratories and individual aircraft are not counted as additional sites. The departmental name ASCL is retained; the linked faculty research website uses Controls and Autonomy Lab. The page is undated and copyright is not publication. Faculty office information does not locate the arena. Broad Tuscaloosa coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-us-university-flight-arenas",
+      "supportingSources": [
+        {
+          "name": "University of Alabama — Pan Zhao faculty profile",
+          "url": "https://eng.ua.edu/eng-directory/dr-pan-zhao/"
+        },
+        {
+          "name": "Faculty-linked Controls and Autonomy Lab",
+          "url": "https://cal.eng.ua.edu/"
+        },
+        {
+          "name": "University of Alabama Engineering — Tuscaloosa campus context",
+          "url": "https://eng.ua.edu/about/contact-us/"
+        }
+      ]
     }
   ],
-  "expectedTotal": 349,
+  "expectedTotal": 352,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -10478,6 +10592,14 @@
         "miteb-kamenz-hangar",
         "tu-delft-mobile-robotics-lab",
         "tu-delft-swarming-lab"
+      ]
+    },
+    {
+      "id": "2026-11-01-us-university-flight-arenas",
+      "recordIds": [
+        "johns-hopkins-robodrome",
+        "ut-knoxville-asl-flight-arena",
+        "alabama-ascl-flight-arena"
       ]
     }
   ]
