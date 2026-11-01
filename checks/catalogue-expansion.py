@@ -718,7 +718,7 @@ assert 'separately listed' in new46['illinois-urbana-stock-pavilion']['reviewNot
 
 # European research facilities: proposed tracking, integrated areas and lab scope explicit.
 forty_seventh=json.loads((ROOT/'catalogue/forty-seventh-batch-ids.json').read_text())
-assert forty_seventh==batch['releases'][-1]['recordIds'] and len(forty_seventh)==3
+assert forty_seventh==batch['releases'][46]['recordIds'] and len(forty_seventh)==3
 prior379=json.loads((ROOT/'catalogue/prior-379-preservation.json').read_text())
 assert len(prior379)==329
 for id,digest in prior379.items():
@@ -730,4 +730,20 @@ assert new47['ctu-prague-indoor-flight-arena']['country']=='Czech Republic'
 assert 'not assumed installed' in new47['ctu-prague-indoor-flight-arena']['reviewNotes']
 assert 'not four sites' in new47['naitec-estella-logistics-lab']['reviewNotes']
 assert 'not a documented dedicated flight arena' in new47['sintef-trondheim-drone-laboratory']['reviewNotes']
+
+# University arenas distinguished from already catalogued off-campus facilities.
+forty_eighth=json.loads((ROOT/'catalogue/forty-eighth-batch-ids.json').read_text())
+assert forty_eighth==batch['releases'][-1]['recordIds'] and len(forty_eighth)==3
+prior382=json.loads((ROOT/'catalogue/prior-382-preservation.json').read_text())
+assert len(prior382)==332
+for id,digest in prior382.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 382-record release changed'
+new48={p['id']:p for p in additions if p['id'] in forty_eighth}
+assert all(p['sourceReviewedAt']=='2026-11-01' and p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' and p['sourceType']=='research' and p['country']=='United States' for p in new48.values())
+assert new48['northeastern-boston-exp-drone-cage']['sourcePublishedAt']=='2025-08-29'
+assert new48['cmu-pittsburgh-scaife-drone-arena']['sourcePublishedAt'] is None
+assert new48['oru-tulsa-tandy-drone-arena']['sourcePublishedAt']=='2024-11-08'
+assert 'distinct from the existing Burlington' in new48['northeastern-boston-exp-drone-cage']['reviewNotes']
+assert 'distinct from the Hazelwood' in new48['cmu-pittsburgh-scaife-drone-arena']['reviewNotes']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
