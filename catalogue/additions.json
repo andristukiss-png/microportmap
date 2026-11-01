@@ -10428,9 +10428,110 @@
       "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
       "researchBatch": "2026-11-01-pittsburgh-coruna-hamburg-research",
       "supportingSources": []
+    },
+    {
+      "id": "uc-cincinnati-digital-futures-cage",
+      "name": "UC Cincinnati Digital Futures drone research cage",
+      "where": "Cincinnati, Ohio, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Cincinnati / Digital Futures",
+      "reportedEquipment": "Research drones, protective flight cage and lidar-based experimental equipment",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 39.1,
+        "longitude": -84.51
+      },
+      "reportDateLabel": "29 October 2026",
+      "description": "UC reports drone experiments inside a netted cage in the Digital Futures high-bay laboratory.",
+      "source": {
+        "name": "University of Cincinnati — drone research at Digital Futures",
+        "url": "https://www.uc.edu/news/articles/2026/10/uc-drones-sound-damage-can-tell-if-damaged-prevent-crash.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "uc-cincinnati-digital-futures-cage",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": "2026-10-29",
+      "sourceType": "research",
+      "reviewNotes": "One research cage, distinct from Cincinnati Police drone docks already catalogued. The mock warehouse is a laboratory experiment, not proof of deployment in a working commercial warehouse. Research partners, individual aircraft and proposed drone-in-a-box applications are not additional operating sites. The university footer address does not locate this cage. Broad city coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-cincinnati-san-diego-burlington-research",
+      "supportingSources": []
+    },
+    {
+      "id": "uc-san-diego-aerodrome",
+      "name": "UC San Diego outdoor research Aerodrome",
+      "where": "San Diego, California, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of California San Diego / Contextual Robotics Institute",
+      "reportedEquipment": "Research UAVs and outdoor mesh flight enclosure",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 32.72,
+        "longitude": -117.16
+      },
+      "reportDateLabel": "25 January 2018",
+      "description": "UC San Diego reports opening an outdoor drone test enclosure beside its Powell Structures Lab.",
+      "source": {
+        "name": "UC San Diego Jacobs School — Aerodrome opening",
+        "url": "https://jacobsschool.ucsd.edu/news/release/2460?id=2460"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "uc-san-diego-aerodrome",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": "2018-01-25",
+      "sourceType": "research",
+      "reviewNotes": "One outdoor research enclosure. The 2018 article’s proposed indoor expansion is not counted or assumed completed. The later facility page describes motion capture added in 2022; equipment upgrades do not create another site. The dates for construction, inauguration and instrumentation describe different events. The linked Agile Safety Lab schedule is not treated as a second Aerodrome record. Broad city coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-cincinnati-san-diego-burlington-research",
+      "supportingSources": [
+        {
+          "name": "UCSD Aerodrome — facility description and instrumentation",
+          "url": "https://ucsd-aerodrome.github.io/"
+        }
+      ]
+    },
+    {
+      "id": "northeastern-burlington-ecuas",
+      "name": "Northeastern Burlington ECUAS drone research facility",
+      "where": "Burlington, Massachusetts, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Northeastern University / Kostas Research Institute",
+      "reportedEquipment": "Connected indoor anechoic chamber and outdoor netted drone enclosure",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 42.5,
+        "longitude": -71.2
+      },
+      "reportDateLabel": "8 April 2019",
+      "description": "Northeastern reports opening a drone research facility connecting an indoor chamber with an outdoor enclosure in Burlington.",
+      "source": {
+        "name": "Northeastern Global News — Burlington drone facility opening",
+        "url": "https://news.northeastern.edu/2019/04/08/northeastern-university-in-partnership-with-the-navy-and-air-force-opens-state-of-the-art-drone-testing-facility-on-its-burlington-campus/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "northeastern-burlington-ecuas",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": "2019-04-08",
+      "sourceType": "research",
+      "reviewNotes": "One connected research facility, not separate records for its chamber, enclosure or flight corridor. Institutional names and research partners are not additional sites. The historical opening report does not establish present schedules, access or regulatory permissions. Burlington means Massachusetts, not another city with the same name. No precise street address is assigned from differing institutional directory entries. Broad city coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-cincinnati-san-diego-burlington-research",
+      "supportingSources": []
     }
   ],
-  "expectedTotal": 361,
+  "expectedTotal": 364,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -10941,6 +11042,14 @@
         "cmu-hazelwood-ric-drone-cage",
         "itg-coruna-experimentation-centre",
         "hsu-hamburg-inspection-drone-cage"
+      ]
+    },
+    {
+      "id": "2026-11-01-cincinnati-san-diego-burlington-research",
+      "recordIds": [
+        "uc-cincinnati-digital-futures-cage",
+        "uc-san-diego-aerodrome",
+        "northeastern-burlington-ecuas"
       ]
     }
   ]
