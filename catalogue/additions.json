@@ -10111,9 +10111,120 @@
           "url": "https://eng.ua.edu/about/contact-us/"
         }
       ]
+    },
+    {
+      "id": "enac-toulouse-flight-arena",
+      "name": "ENAC Toulouse Occitanie Drone Flight Arena",
+      "where": "Toulouse, France",
+      "country": "France",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "École Nationale de l’Aviation Civile (ENAC)",
+      "reportedEquipment": "Research drones, optical tracking cameras and embedded-system test equipment",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 43.6,
+        "longitude": 1.44
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "ENAC describes an instrumented indoor flight arena for drone and embedded-system experiments.",
+      "source": {
+        "name": "ENAC — Drone Flight Arena Toulouse Occitanie",
+        "url": "https://www.enac.fr/en/drone-flight-arena-toulouse-occitanie-0"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "enac-toulouse-flight-arena",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One research arena with associated workshops and integration space. The institution’s other campuses listed in the page footer are not additional drone facilities. Simulated traffic, individual aircraft and collaborating organisations do not add sites. A stated demonstration capacity does not establish present visitor access. Publication date is not recorded. Broad city coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-european-university-flight-arenas",
+      "supportingSources": [
+        {
+          "name": "ENAC DRONES research platform",
+          "url": "https://drones.recherche.enac.fr/"
+        }
+      ]
+    },
+    {
+      "id": "epfl-lis-flight-arena",
+      "name": "EPFL LIS instrumented flight arena",
+      "where": "Lausanne, Switzerland",
+      "country": "Switzerland",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "EPFL / Laboratory of Intelligent Systems",
+      "reportedEquipment": "Research drones, an open wind tunnel and motion tracking",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 46.52,
+        "longitude": 6.63
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "EPFL’s Laboratory of Intelligent Systems describes an instrumented flight arena supporting aerial robotics research.",
+      "source": {
+        "name": "EPFL LIS — research facilities in open positions",
+        "url": "https://www.epfl.ch/labs/lis/open-positions/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "epfl-lis-flight-arena",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One arena identified in an undated recruitment page, not a count of aircraft or advertised positions. The laboratory homepage supports Lausanne institutional context; its contact office is not asserted to be the arena room. Wind-tunnel and tracking equipment are part of the facility, not extra sites. The listing does not establish that recruitment is still open. Publication date is not recorded. Broad city coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-european-university-flight-arenas",
+      "supportingSources": [
+        {
+          "name": "EPFL LIS — laboratory identity and Lausanne context",
+          "url": "https://www.epfl.ch/labs/lis/"
+        }
+      ]
+    },
+    {
+      "id": "tum-garching-flying-systems-lab",
+      "name": "TUM Garching Flying Systems Lab",
+      "where": "Garching bei München, Germany",
+      "country": "Germany",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Technical University of Munich / Munich Institute of Robotics and Machine Intelligence",
+      "reportedEquipment": "Research drones and Vicon motion capture",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 48.25,
+        "longitude": 11.65
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "TUM describes a flight research laboratory for unmanned aerial systems with motion tracking in Garching.",
+      "source": {
+        "name": "TUM MIRMI — Flying Systems Lab",
+        "url": "https://www.mirmi.tum.de/en/mirmi/research/labs/flying-systems-lab/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "tum-garching-flying-systems-lab",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One laboratory at Carl-Zeiss-Straße in Garching. The Flying Systems Lab, its Mobile Systems Arena and the Flying Systems Arena named in the teaching page are treated as one facility, not separate records. The course’s Munich main-office venue is not the flight arena. The winter 2023/24 course period is not a publication date or proof of present scheduling. Publication date is not recorded. Broad city coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-european-university-flight-arenas",
+      "supportingSources": [
+        {
+          "name": "TUM — winter 2023/24 course location for Flying Systems Arena",
+          "url": "https://srl.cit.tum.de/teaching/w23/rmilpracticals"
+        }
+      ]
     }
   ],
-  "expectedTotal": 352,
+  "expectedTotal": 355,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -10600,6 +10711,14 @@
         "johns-hopkins-robodrome",
         "ut-knoxville-asl-flight-arena",
         "alabama-ascl-flight-arena"
+      ]
+    },
+    {
+      "id": "2026-11-01-european-university-flight-arenas",
+      "recordIds": [
+        "enac-toulouse-flight-arena",
+        "epfl-lis-flight-arena",
+        "tum-garching-flying-systems-lab"
       ]
     }
   ]

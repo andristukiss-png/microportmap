@@ -564,7 +564,7 @@ assert all(len(p['supportingSources'])==1 for p in new36.values())
 
 # University arenas retain unknown dates and unfinished-construction context.
 thirty_seventh=json.loads((ROOT/'catalogue/thirty-seventh-batch-ids.json').read_text())
-assert thirty_seventh==batch['releases'][-1]['recordIds'] and len(thirty_seventh)==3
+assert thirty_seventh==batch['releases'][36]['recordIds'] and len(thirty_seventh)==3
 prior349=json.loads((ROOT/'catalogue/prior-349-preservation.json').read_text())
 assert len(prior349)==299
 for id,digest in prior349.items():
@@ -575,4 +575,18 @@ assert all(p['sourceReviewedAt']=='2026-11-01' and p['recordScope']=='test-centr
 assert new37['johns-hopkins-robodrome']['sourcePublishedAt']=='2026-07-14'
 assert 'completion and additional netting were still planned' in new37['johns-hopkins-robodrome']['reviewNotes']
 assert all(new37[id]['sourcePublishedAt'] is None for id in ['ut-knoxville-asl-flight-arena','alabama-ascl-flight-arena'])
+
+# Three distinct European research arenas; publication dates remain unknown.
+thirty_eighth=json.loads((ROOT/'catalogue/thirty-eighth-batch-ids.json').read_text())
+assert thirty_eighth==batch['releases'][-1]['recordIds'] and len(thirty_eighth)==3
+prior352=json.loads((ROOT/'catalogue/prior-352-preservation.json').read_text())
+assert len(prior352)==302
+for id,digest in prior352.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 352-record release changed'
+new38={p['id']:p for p in additions if p['id'] in thirty_eighth}
+assert all(p['sourceReviewedAt']=='2026-11-01' and p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' and p['region']=='Europe' and p['sourcePublishedAt'] is None for p in new38.values())
+assert new38['tum-garching-flying-systems-lab']['where']=='Garching bei München, Germany'
+assert 'contact office is not asserted to be the arena room' in new38['epfl-lis-flight-arena']['reviewNotes']
+assert all(len(p['supportingSources'])==1 for p in new38.values())
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
