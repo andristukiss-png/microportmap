@@ -733,7 +733,7 @@ assert 'not a documented dedicated flight arena' in new47['sintef-trondheim-dron
 
 # University arenas distinguished from already catalogued off-campus facilities.
 forty_eighth=json.loads((ROOT/'catalogue/forty-eighth-batch-ids.json').read_text())
-assert forty_eighth==batch['releases'][-1]['recordIds'] and len(forty_eighth)==3
+assert forty_eighth==batch['releases'][47]['recordIds'] and len(forty_eighth)==3
 prior382=json.loads((ROOT/'catalogue/prior-382-preservation.json').read_text())
 assert len(prior382)==332
 for id,digest in prior382.items():
@@ -746,4 +746,19 @@ assert new48['cmu-pittsburgh-scaife-drone-arena']['sourcePublishedAt'] is None
 assert new48['oru-tulsa-tandy-drone-arena']['sourcePublishedAt']=='2024-11-08'
 assert 'distinct from the existing Burlington' in new48['northeastern-boston-exp-drone-cage']['reviewNotes']
 assert 'distinct from the Hazelwood' in new48['cmu-pittsburgh-scaife-drone-arena']['reviewNotes']
+
+# Separate facilities, honest dates and preservation of the prior release.
+forty_ninth=json.loads((ROOT/'catalogue/forty-ninth-batch-ids.json').read_text())
+assert forty_ninth==batch['releases'][-1]['recordIds'] and len(forty_ninth)==3
+prior385=json.loads((ROOT/'catalogue/prior-385-preservation.json').read_text())
+assert len(prior385)==335
+for id,digest in prior385.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 385-record release changed'
+new49={p['id']:p for p in additions if p['id'] in forty_ninth}
+assert all(p['sourceReviewedAt']=='2026-11-01' and p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' and p['sourceType']=='research' and p['sourcePublishedAt'] is None for p in new49.values())
+assert new49['sherbrooke-3it-drone-flight-room']['country']=='Canada'
+assert 'distinct from the Reno-Stead' in new49['unr-reno-applied-research-drone-arena']['reviewNotes']
+assert 'original cage closed' in new49['csueb-hayward-braddock-drone-lab']['reviewNotes']
+assert 'submitted 13 October 2025' in new49['csueb-hayward-braddock-drone-lab']['reportDateLabel']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
