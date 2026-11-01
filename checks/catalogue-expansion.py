@@ -607,7 +607,7 @@ assert 'not counted or assumed complete' in new39['nc-state-aeris-indoor-arena']
 
 # Three separately located research sites; historical page updates are not publication dates.
 fortieth=json.loads((ROOT/'catalogue/fortieth-batch-ids.json').read_text())
-assert fortieth==batch['releases'][-1]['recordIds'] and len(fortieth)==3
+assert fortieth==batch['releases'][39]['recordIds'] and len(fortieth)==3
 prior358=json.loads((ROOT/'catalogue/prior-358-preservation.json').read_text())
 assert len(prior358)==308
 for id,digest in prior358.items():
@@ -619,4 +619,20 @@ assert new40['cmu-hazelwood-ric-drone-cage']['sourcePublishedAt']=='2026-02-27'
 assert all(new40[id]['sourcePublishedAt'] is None for id in ['itg-coruna-experimentation-centre','hsu-hamburg-inspection-drone-cage'])
 assert 'last changed 15 April 2021' in new40['hsu-hamburg-inspection-drone-cage']['reviewNotes']
 assert 'not separate records' in new40['itg-coruna-experimentation-centre']['reviewNotes']
+
+# Three US research enclosures, with historical expansion limits retained.
+forty_first=json.loads((ROOT/'catalogue/forty-first-batch-ids.json').read_text())
+assert forty_first==batch['releases'][-1]['recordIds'] and len(forty_first)==3
+prior361=json.loads((ROOT/'catalogue/prior-361-preservation.json').read_text())
+assert len(prior361)==311
+for id,digest in prior361.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 361-record release changed'
+new41={p['id']:p for p in additions if p['id'] in forty_first}
+assert all(p['sourceReviewedAt']=='2026-11-01' and p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' and p['country']=='United States' for p in new41.values())
+assert new41['uc-cincinnati-digital-futures-cage']['sourcePublishedAt']=='2026-10-29'
+assert new41['uc-san-diego-aerodrome']['sourcePublishedAt']=='2018-01-25'
+assert new41['northeastern-burlington-ecuas']['sourcePublishedAt']=='2019-04-08'
+assert 'not counted or assumed completed' in new41['uc-san-diego-aerodrome']['reviewNotes']
+assert 'distinct from Cincinnati Police' in new41['uc-cincinnati-digital-futures-cage']['reviewNotes']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
