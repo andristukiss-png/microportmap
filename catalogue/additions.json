@@ -9886,9 +9886,120 @@
           "url": "https://www.aau.at/en/blog/outdoor-drone-space-austria-odsa-der-universitaet-klagenfurt-vor-fertigstellung/"
         }
       ]
+    },
+    {
+      "id": "miteb-kamenz-hangar",
+      "name": "MITEB Kamenz unmanned-airship research hangar",
+      "where": "Kamenz, Saxony, Germany",
+      "country": "Germany",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "MITEB GmbH",
+      "reportedEquipment": "Unmanned lighter-than-air research aircraft and electric motor-glider development",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 51.27,
+        "longitude": 14.09
+      },
+      "reportDateLabel": "22 October 2026",
+      "description": "A university report describes MITEB’s new Kamenz hangar for aircraft experimentation, including unmanned airships.",
+      "source": {
+        "name": "Politecnico di Milano — MITEB hangar opening",
+        "url": "https://www.aero.polimi.it/it/magazine/daer-participation-in-grand-opening-of-miteb-hangar-for-airship-research-kamenz-germany"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "miteb-kamenz-hangar",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": "2026-10-22",
+      "sourceType": "research",
+      "reviewNotes": "One hangar and associated technical facility, not the whole airport or a count of aircraft. The university article’s Saxony-Anhalt attribution conflicts with the municipal account; the record uses Saxony from the city’s account. The September opening is separate from the October publication date. Future production plans do not establish current serial manufacturing. Broad Kamenz coordinates are not the hangar or a landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-kamenz-and-delft-research",
+      "supportingSources": [
+        {
+          "name": "City of Kamenz — MITEB opening and Saxony context",
+          "url": "https://www.kamenz.de/ausfuehrliche-nachricht/wenn-science-fiction-zur-realitaet-wird.html"
+        }
+      ]
+    },
+    {
+      "id": "tu-delft-mobile-robotics-lab",
+      "name": "TU Delft Mobile Robotics Lab flight arena",
+      "where": "Delft, Netherlands",
+      "country": "Netherlands",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "TU Delft / Cognitive Robotics / Autonomous Multi-Robots Lab",
+      "reportedEquipment": "Research quadcopters, Vicon motion tracking and video recording",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 52.01,
+        "longitude": 4.36
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "TU Delft describes an aerial and terrestrial robot arena for robotics experiments.",
+      "source": {
+        "name": "TU Delft Research Portal — Mobile Robotics Lab",
+        "url": "https://research.tudelft.nl/en/equipments/mobile-robotics-lab/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "tu-delft-mobile-robotics-lab",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One arena in the Mechanical Engineering building’s F-wing, as identified by the research group. Distinct from the Aerospace Aircraft Hall Cyberzoo and the Science Centre Swarming Lab. Ground robots, individual drones and recording systems do not add sites. The page is undated; copyright is not publication. The shared broad Delft map point does not locate any laboratory room. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-kamenz-and-delft-research",
+      "supportingSources": [
+        {
+          "name": "TU Delft AMR research group — laboratory location and equipment",
+          "url": "https://autonomousrobots.nl/robots/"
+        }
+      ]
+    },
+    {
+      "id": "tu-delft-swarming-lab",
+      "name": "TU Delft Science Centre Swarming Lab",
+      "where": "Delft, Netherlands",
+      "country": "Netherlands",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "TU Delft Science Centre / TU Delft research partners / Emergent Swarm Solutions",
+      "reportedEquipment": "Crazyflie research drones and Flapper Nimble+ platform",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 52.01,
+        "longitude": 4.36
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "The Science Centre describes a Swarming Lab with aerial robotics test and demonstration facilities.",
+      "source": {
+        "name": "TU Delft Science Centre — Swarming Lab",
+        "url": "https://www.tudelft.nl/sciencecentre/maken/robotlab/swarming-lab"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "tu-delft-swarming-lab",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One laboratory, distinct from the Mechanical Engineering Mobile Robotics Lab and the Aerospace Cyberzoo. Partner organisations, swarm members and future robot types do not create additional sites. The 2023 project start and planned public exhibition are not publication dates or proof of present visitor access. The undated page retains an unknown publication date. Broad Delft coordinates do not locate the facility. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-kamenz-and-delft-research",
+      "supportingSources": [
+        {
+          "name": "TU Delft — separate drone research facilities",
+          "url": "https://www.tudelft.nl/en/ae/organisation/departments/control-and-operations/facilities/drone-facilities"
+        }
+      ]
     }
   ],
-  "expectedTotal": 346,
+  "expectedTotal": 349,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -10359,6 +10470,14 @@
         "naples-prisma-flare",
         "klagenfurt-indoor-drone-hall",
         "klagenfurt-outdoor-odsa"
+      ]
+    },
+    {
+      "id": "2026-11-01-kamenz-and-delft-research",
+      "recordIds": [
+        "miteb-kamenz-hangar",
+        "tu-delft-mobile-robotics-lab",
+        "tu-delft-swarming-lab"
       ]
     }
   ]
