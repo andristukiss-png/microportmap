@@ -11072,9 +11072,119 @@
           "url": "https://digitalag.illinois.edu/2024-safer-ag-workshop/i-farm-saferag-exhibition/"
         }
       ]
+    },
+    {
+      "id": "ctu-prague-indoor-flight-arena",
+      "name": "CTU Prague indoor flight arena",
+      "where": "Prague, Czech Republic",
+      "country": "Czech Republic",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Czech Technical University / Faculty of Electrical Engineering",
+      "reportedEquipment": "Indoor UAV teaching and research arena; fixed-wing and rotary-wing platforms",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 50.08,
+        "longitude": 14.44
+      },
+      "reportDateLabel": "Undated research facility page",
+      "description": "CTU describes an indoor flight arena for UAV research, development and pilot training.",
+      "source": {
+        "name": "Czech Technical University — NavLIS facilities",
+        "url": "https://aerospace.fel.cvut.cz/NavLIS"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "ctu-prague-indoor-flight-arena",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One arena, linked to the Drone Academy at Dejvice. The course notice locates it at T2:H1-34; the researcher’s office address is not the arena room. The proposed camera tracking system is not assumed installed. Historical course dates and schedules do not establish current availability or publication dates. The instrumentation lab, student teams and individual aircraft do not add drone sites. Publication date is not displayed. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-prague-estella-trondheim-research",
+      "supportingSources": [
+        {
+          "name": "Czech Technical University — arena location in course notice",
+          "url": "https://meas.fel.cvut.cz/node/173"
+        },
+        {
+          "name": "Czech Technical University — Drone Academy historical programme",
+          "url": "https://aerospace.fel.cvut.cz/droneacademy"
+        }
+      ]
+    },
+    {
+      "id": "naitec-estella-logistics-lab",
+      "name": "NAITEC Estella-Lizarra Logistics Lab",
+      "where": "Estella-Lizarra, Navarre, Spain",
+      "country": "Spain",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "NAITEC Technology Centre",
+      "reportedEquipment": "Indoor drone enclosure, UWB positioning, control centre and pilot logistics micro-hub",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 42.67,
+        "longitude": -2.03
+      },
+      "reportDateLabel": "Undated research facility page",
+      "description": "NAITEC describes a drone logistics test lab in the Estella-Lizarra area with indoor and outdoor experimentation spaces.",
+      "source": {
+        "name": "NAITEC — Logistics Lab",
+        "url": "https://www.naitec.es/en/infrastructure-and-equipment/logistics-lab/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "naitec-estella-logistics-lab",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One integrated lab, also presented as NaVEAC Drive-Lab Logistics Lab. The enclosure, control centre, mini-warehouse and workshop are not four sites. Pamplona and Noáin office listings are not the lab’s location; the separate urban test-bed listing is not counted here. The source’s broad outdoor-flight claim is not treated as regulatory authorization or verified access. Publication date is not displayed. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-prague-estella-trondheim-research",
+      "supportingSources": [
+        {
+          "name": "NAITEC — infrastructure directory and branch locations",
+          "url": "https://www.naitec.es/en/infrastructure-and-equipment/"
+        }
+      ]
+    },
+    {
+      "id": "sintef-trondheim-drone-laboratory",
+      "name": "SINTEF Trondheim Drone Laboratory",
+      "where": "Trondheim, Norway",
+      "country": "Norway",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "SINTEF Industry",
+      "reportedEquipment": "Drone development tools, custom and commercial UAVs, mapping sensors and simulation resources",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 63.43,
+        "longitude": 10.4
+      },
+      "reportDateLabel": "Undated research facility page",
+      "description": "SINTEF describes a drone hardware and software development laboratory at Lerkendal in Trondheim.",
+      "source": {
+        "name": "SINTEF — Drone Laboratory",
+        "url": "https://www.sintef.no/en/all-laboratories/drone-laboratory/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "sintef-trondheim-drone-laboratory",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One development laboratory, not a documented dedicated flight arena or public landing site. The source explicitly locates the lab in Trondheim. Aircraft, sensors, simulations and field applications do not establish additional permanent sites. The stated application for beyond-visual-line-of-sight permission is not an issued approval. Differing prototype payload descriptions are not reconciled into a verified specification. Publication date is not displayed. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-prague-estella-trondheim-research",
+      "supportingSources": []
     }
   ],
-  "expectedTotal": 379,
+  "expectedTotal": 382,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -11633,6 +11743,14 @@
         "toronto-myhal-flight-arena",
         "umd-college-park-brin-drone-lab",
         "illinois-urbana-stock-pavilion"
+      ]
+    },
+    {
+      "id": "2026-11-01-prague-estella-trondheim-research",
+      "recordIds": [
+        "ctu-prague-indoor-flight-arena",
+        "naitec-estella-logistics-lab",
+        "sintef-trondheim-drone-laboratory"
       ]
     }
   ]

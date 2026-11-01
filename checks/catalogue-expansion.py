@@ -701,7 +701,7 @@ assert 'does not authorize airfield use' in new45['csu-fort-collins-christman-ai
 
 # Distinct university flight spaces; facility aliases and office addresses do not add sites.
 forty_sixth=json.loads((ROOT/'catalogue/forty-sixth-batch-ids.json').read_text())
-assert forty_sixth==batch['releases'][-1]['recordIds'] and len(forty_sixth)==3
+assert forty_sixth==batch['releases'][45]['recordIds'] and len(forty_sixth)==3
 prior376=json.loads((ROOT/'catalogue/prior-376-preservation.json').read_text())
 assert len(prior376)==326
 for id,digest in prior376.items():
@@ -715,4 +715,19 @@ assert new46['umd-college-park-brin-drone-lab']['sourcePublishedAt'] is None
 assert new46['illinois-urbana-stock-pavilion']['sourcePublishedAt'] is None
 assert 'manager’s IDEA Factory office' in new46['umd-college-park-brin-drone-lab']['reviewNotes']
 assert 'separately listed' in new46['illinois-urbana-stock-pavilion']['reviewNotes']
+
+# European research facilities: proposed tracking, integrated areas and lab scope explicit.
+forty_seventh=json.loads((ROOT/'catalogue/forty-seventh-batch-ids.json').read_text())
+assert forty_seventh==batch['releases'][-1]['recordIds'] and len(forty_seventh)==3
+prior379=json.loads((ROOT/'catalogue/prior-379-preservation.json').read_text())
+assert len(prior379)==329
+for id,digest in prior379.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 379-record release changed'
+new47={p['id']:p for p in additions if p['id'] in forty_seventh}
+assert all(p['sourceReviewedAt']=='2026-11-01' and p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' and p['sourceType']=='research' and p['sourcePublishedAt'] is None and p['region']=='Europe' for p in new47.values())
+assert new47['ctu-prague-indoor-flight-arena']['country']=='Czech Republic'
+assert 'not assumed installed' in new47['ctu-prague-indoor-flight-arena']['reviewNotes']
+assert 'not four sites' in new47['naitec-estella-logistics-lab']['reviewNotes']
+assert 'not a documented dedicated flight arena' in new47['sintef-trondheim-drone-laboratory']['reviewNotes']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
