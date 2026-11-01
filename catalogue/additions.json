@@ -10630,9 +10630,115 @@
       "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
       "researchBatch": "2026-11-01-sheffield-manchester-research",
       "supportingSources": []
+    },
+    {
+      "id": "liverpool-dif-extreme-environment-lab",
+      "name": "Liverpool DIF Extreme Environment Laboratory",
+      "where": "Liverpool, England, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Liverpool / Digital Innovation Facility",
+      "reportedEquipment": "Indoor aerial and ground robot testing facility",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 53.41,
+        "longitude": -2.98
+      },
+      "reportDateLabel": "Undated university facility page",
+      "description": "Liverpool describes a multi-storey indoor laboratory for developing and testing aerial and ground robots.",
+      "source": {
+        "name": "University of Liverpool Digital Innovation Facility — Extreme Environment Lab",
+        "url": "https://digitalinnovationfacility.com/facilities/extreme-environment-lab/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "liverpool-dif-extreme-environment-lab",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One laboratory within the Digital Innovation Facility, not one site per storey or one per robot. Other DIF laboratories, the Virtual Engineering Centre and the umbrella IDEAS institute are not additional drone locations. The university opening gallery reports a May 2022 event; that event date is not assigned as the publication date of this undated facility page. No exact drone model or current equipment inventory is asserted. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-liverpool-nottingham-cranfield-research",
+      "supportingSources": [
+        {
+          "name": "University of Liverpool — Digital Innovation Facility opening gallery",
+          "url": "https://news.liverpool.ac.uk/2022/05/26/gallery-digital-innovation-facility-opening/"
+        }
+      ]
+    },
+    {
+      "id": "ntu-robotics-test-arena",
+      "name": "Nottingham Trent Robotics Test Arena",
+      "where": "Nottingham, England, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Nottingham Trent University / School of Science and Technology",
+      "reportedEquipment": "Research and educational drones with motion capture and drone tracking",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 52.95,
+        "longitude": -1.15
+      },
+      "reportDateLabel": "Undated university facility page",
+      "description": "Nottingham Trent describes a robotics arena with drone tracking for teaching and experimental flight research.",
+      "source": {
+        "name": "Nottingham Trent University — Robotics Test Arena",
+        "url": "https://www.ntu.ac.uk/study-and-courses/courses/our-facilities/robotics-test-arena"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "ntu-robotics-test-arena",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One arena appearing in both computer science and engineering facility listings; these are not two locations. Drone categories, robotic dogs and ground swarms are equipment rather than additional sites. The Engineering Building directory links this arena, but the shared Shakespeare Street footer is not treated as the arena address. Its 2017 building opening date is not an arena opening date or the publication date of the undated arena page. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-liverpool-nottingham-cranfield-research",
+      "supportingSources": [
+        {
+          "name": "Nottingham Trent University — Engineering Building facilities directory",
+          "url": "https://www.ntu.ac.uk/study-and-courses/courses/our-facilities/engineering-building"
+        }
+      ]
+    },
+    {
+      "id": "cranfield-drone-flight-arena",
+      "name": "Cranfield University Drone Flight Arena",
+      "where": "Cranfield, Bedfordshire, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Cranfield University",
+      "reportedEquipment": "Drone research arena; prototype aircraft used in reported testing",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 52.07,
+        "longitude": -0.61
+      },
+      "reportDateLabel": "10 December 2025",
+      "description": "Cranfield reports testing an emergency aircraft design in its Drone Flight Arena.",
+      "source": {
+        "name": "Cranfield University — emergency flyer design competition progress",
+        "url": "https://www.cranfield.ac.uk/press/news-2025/cranfield-emergency-flyer-design-through-to-next-stage-of-global-competition"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "cranfield-drone-flight-arena",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": "2025-12-10",
+      "sourceType": "research",
+      "reviewNotes": "One university test arena, not an operating emergency transport base. The aircraft prototype, research partners and competition entries are not separate sites. Planned full-scale flights in December 2026 and at NASA Ames in 2027 are not assumed completed or counted as operating facilities. The report does not establish the exact arena room, boundaries or current equipment inventory. The publication date is not an arena opening date. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-liverpool-nottingham-cranfield-research",
+      "supportingSources": []
     }
   ],
-  "expectedTotal": 367,
+  "expectedTotal": 370,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -11159,6 +11265,14 @@
         "sheffield-kroto-drone-lab",
         "sheffield-diamond-drone-enclosure",
         "manchester-aerospace-tracking-arena"
+      ]
+    },
+    {
+      "id": "2026-11-01-liverpool-nottingham-cranfield-research",
+      "recordIds": [
+        "liverpool-dif-extreme-environment-lab",
+        "ntu-robotics-test-arena",
+        "cranfield-drone-flight-arena"
       ]
     }
   ]

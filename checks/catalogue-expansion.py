@@ -638,7 +638,7 @@ assert 'distinct from Cincinnati Police' in new41['uc-cincinnati-digital-futures
 
 # Distinct Sheffield teaching/research spaces and Manchester tracking arena.
 forty_second=json.loads((ROOT/'catalogue/forty-second-batch-ids.json').read_text())
-assert forty_second==batch['releases'][-1]['recordIds'] and len(forty_second)==3
+assert forty_second==batch['releases'][41]['recordIds'] and len(forty_second)==3
 prior364=json.loads((ROOT/'catalogue/prior-364-preservation.json').read_text())
 assert len(prior364)==314
 for id,digest in prior364.items():
@@ -651,4 +651,20 @@ assert new42['sheffield-diamond-drone-enclosure']['sourcePublishedAt'] is None
 assert new42['manchester-aerospace-tracking-arena']['sourcePublishedAt']=='2026-10-05'
 assert 'different camera count' in new42['sheffield-kroto-drone-lab']['reviewNotes']
 assert 'distinct from the Kroto' in new42['sheffield-diamond-drone-enclosure']['reviewNotes']
+
+# Three university arenas with equipment, institutional aliases and future flights separated.
+forty_third=json.loads((ROOT/'catalogue/forty-third-batch-ids.json').read_text())
+assert forty_third==batch['releases'][-1]['recordIds'] and len(forty_third)==3
+prior367=json.loads((ROOT/'catalogue/prior-367-preservation.json').read_text())
+assert len(prior367)==317
+for id,digest in prior367.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 367-record release changed'
+new43={p['id']:p for p in additions if p['id'] in forty_third}
+assert all(p['sourceReviewedAt']=='2026-11-01' and p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' and p['country']=='United Kingdom' for p in new43.values())
+assert new43['liverpool-dif-extreme-environment-lab']['sourcePublishedAt'] is None
+assert new43['ntu-robotics-test-arena']['sourcePublishedAt'] is None
+assert new43['cranfield-drone-flight-arena']['sourcePublishedAt']=='2025-12-10'
+assert 'not assumed completed' in new43['cranfield-drone-flight-arena']['reviewNotes']
+assert 'not two locations' in new43['ntu-robotics-test-arena']['reviewNotes']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
