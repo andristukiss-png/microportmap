@@ -670,7 +670,7 @@ assert 'not two locations' in new43['ntu-robotics-test-arena']['reviewNotes']
 
 # University cages and an operator lab; historic closure and mailing locality caveats.
 forty_fourth=json.loads((ROOT/'catalogue/forty-fourth-batch-ids.json').read_text())
-assert forty_fourth==batch['releases'][-1]['recordIds'] and len(forty_fourth)==3
+assert forty_fourth==batch['releases'][43]['recordIds'] and len(forty_fourth)==3
 prior370=json.loads((ROOT/'catalogue/prior-370-preservation.json').read_text())
 assert len(prior370)==320
 for id,digest in prior370.items():
@@ -684,4 +684,18 @@ assert new44['matrix-beavercreek-drone-lab']['sourcePublishedAt'] is None
 assert new44['matrix-beavercreek-drone-lab']['sourceType']=='operator'
 assert 'does not establish current closure or reopening' in new44['uw-seattle-bowman-flight-arena']['reviewNotes']
 assert 'two sites' in new44['matrix-beavercreek-drone-lab']['reviewNotes']
+
+# University test sites: one facility each, with uncertain dimensions and dates explicit.
+forty_fifth=json.loads((ROOT/'catalogue/forty-fifth-batch-ids.json').read_text())
+assert forty_fifth==batch['releases'][-1]['recordIds'] and len(forty_fifth)==3
+prior373=json.loads((ROOT/'catalogue/prior-373-preservation.json').read_text())
+assert len(prior373)==323
+for id,digest in prior373.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 373-record release changed'
+new45={p['id']:p for p in additions if p['id'] in forty_fifth}
+assert all(p['sourceReviewedAt']=='2026-11-01' and p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' and p['country']=='United States' and p['sourceType']=='research' and p['sourcePublishedAt'] is None for p in new45.values())
+assert 'different enclosure heights' in new45['unt-denton-uaam-test-facility']['reviewNotes']
+assert 'different arena dimensions' in new45['illinois-urbana-flying-arena']['reviewNotes']
+assert 'does not authorize airfield use' in new45['csu-fort-collins-christman-airfield']['reviewNotes']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
