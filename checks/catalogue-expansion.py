@@ -687,7 +687,7 @@ assert 'two sites' in new44['matrix-beavercreek-drone-lab']['reviewNotes']
 
 # University test sites: one facility each, with uncertain dimensions and dates explicit.
 forty_fifth=json.loads((ROOT/'catalogue/forty-fifth-batch-ids.json').read_text())
-assert forty_fifth==batch['releases'][-1]['recordIds'] and len(forty_fifth)==3
+assert forty_fifth==batch['releases'][44]['recordIds'] and len(forty_fifth)==3
 prior373=json.loads((ROOT/'catalogue/prior-373-preservation.json').read_text())
 assert len(prior373)==323
 for id,digest in prior373.items():
@@ -698,4 +698,21 @@ assert all(p['sourceReviewedAt']=='2026-11-01' and p['recordScope']=='test-centr
 assert 'different enclosure heights' in new45['unt-denton-uaam-test-facility']['reviewNotes']
 assert 'different arena dimensions' in new45['illinois-urbana-flying-arena']['reviewNotes']
 assert 'does not authorize airfield use' in new45['csu-fort-collins-christman-airfield']['reviewNotes']
+
+# Distinct university flight spaces; facility aliases and office addresses do not add sites.
+forty_sixth=json.loads((ROOT/'catalogue/forty-sixth-batch-ids.json').read_text())
+assert forty_sixth==batch['releases'][-1]['recordIds'] and len(forty_sixth)==3
+prior376=json.loads((ROOT/'catalogue/prior-376-preservation.json').read_text())
+assert len(prior376)==326
+for id,digest in prior376.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 376-record release changed'
+new46={p['id']:p for p in additions if p['id'] in forty_sixth}
+assert all(p['sourceReviewedAt']=='2026-11-01' and p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' and p['sourceType']=='research' for p in new46.values())
+assert new46['toronto-myhal-flight-arena']['sourcePublishedAt']=='2023-06-08'
+assert new46['toronto-myhal-flight-arena']['country']=='Canada'
+assert new46['umd-college-park-brin-drone-lab']['sourcePublishedAt'] is None
+assert new46['illinois-urbana-stock-pavilion']['sourcePublishedAt'] is None
+assert 'manager’s IDEA Factory office' in new46['umd-college-park-brin-drone-lab']['reviewNotes']
+assert 'separately listed' in new46['illinois-urbana-stock-pavilion']['reviewNotes']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
