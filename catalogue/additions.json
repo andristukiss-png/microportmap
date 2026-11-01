@@ -10953,9 +10953,128 @@
           "url": "https://dronecenter.colostate.edu/"
         }
       ]
+    },
+    {
+      "id": "toronto-myhal-flight-arena",
+      "name": "University of Toronto Myhal flight arena",
+      "where": "Toronto, Ontario, Canada",
+      "country": "Canada",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Toronto / Robotics Institute",
+      "reportedEquipment": "Indoor drone flight arena, Vicon motion capture and research quadcopters",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 43.65,
+        "longitude": -79.38
+      },
+      "reportDateLabel": "8 June 2023",
+      "description": "Toronto reports teaching and flight tests in the Myhal Centre’s indoor drone arena.",
+      "source": {
+        "name": "University of Toronto — Flying Through Obstacles",
+        "url": "https://www.utias.utoronto.ca/news/flying-through-obstacles-the-gravity-defying-course-on-unmanned-aerial-systems/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "toronto-myhal-flight-arena",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": "2023-06-08",
+      "sourceType": "research",
+      "reviewNotes": "One fifth-level arena. The building page identifies the two-storey drone space as the Norris Walker 5T7 Robotics Laboratory; these descriptions are treated as one facility. Courses, student teams, computing equipment and aircraft do not add sites. The article’s Dufferin Street institutional footer is not the Myhal arena location. Proposed applications do not establish deployed services. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-toronto-brin-stock-pavilion-research",
+      "supportingSources": [
+        {
+          "name": "University of Toronto — Myhal Centre, level 5",
+          "url": "https://www.engineering.utoronto.ca/myhal-centre-for-engineering-innovation-entrepreneurship/"
+        }
+      ]
+    },
+    {
+      "id": "umd-college-park-brin-drone-lab",
+      "name": "UMD Brin Family Aerial Robotics Lab",
+      "where": "College Park, Maryland, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Maryland / Maryland Robotics Center",
+      "reportedEquipment": "Netted indoor flight-test area, Vicon motion capture and drone maintenance workbench",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 38.98,
+        "longitude": -76.94
+      },
+      "reportDateLabel": "Undated university facility page",
+      "description": "Maryland describes a shared indoor drone-test lab in the Brendan Iribe Center.",
+      "source": {
+        "name": "University of Maryland — Brin Family Aerial Robotics Lab",
+        "url": "https://facilities.robotics.umd.edu/dronelab/home.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "umd-college-park-brin-drone-lab",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One lab, also called the Robotics Drone Lab. Its contact page distinguishes the lab in the Brendan Iribe Center from the manager’s IDEA Factory office. The outdoor Fearless Flight Facility and the St. Mary’s UROC are separate existing records. Workbenches and other robotics labs are not additional sites here. Publication date is not displayed; the copyright year is not a publication date. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-toronto-brin-stock-pavilion-research",
+      "supportingSources": [
+        {
+          "name": "University of Maryland — drone lab location",
+          "url": "https://facilities.robotics.umd.edu/dronelab/contact.html"
+        },
+        {
+          "name": "University of Maryland — separate robotics facilities",
+          "url": "https://robotics.umd.edu/facilities"
+        }
+      ]
+    },
+    {
+      "id": "illinois-urbana-stock-pavilion",
+      "name": "University of Illinois Stock Pavilion aerial test space",
+      "where": "Urbana, Illinois, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Illinois Urbana-Champaign / Center for Autonomy",
+      "reportedEquipment": "Indoor aerial and ground robotics test space with motion capture",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 40.11,
+        "longitude": -88.21
+      },
+      "reportDateLabel": "Undated university facility page",
+      "description": "Illinois lists Stock Pavilion as a motion-captured space for aerial and ground experiments.",
+      "source": {
+        "name": "University of Illinois — Center for Autonomy facilities",
+        "url": "https://autonomy.illinois.edu/facilities"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "illinois-urbana-stock-pavilion",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One shared test space at Stock Pavilion, separately listed from the smaller Autonomy Arena already in the catalogue. Published space and motion-capture dimensions differ in scope, so no exact usable flight volume is inferred. The 2024 exhibition page supports the venue’s Urbana location; its planned demonstrations, exhibitors and event date do not establish additional permanent sites or the facility page’s publication date. Publication date is not displayed. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-toronto-brin-stock-pavilion-research",
+      "supportingSources": [
+        {
+          "name": "University of Illinois — director’s description of Stock Pavilion testing",
+          "url": "https://autonomy.illinois.edu/education/meng/director-message"
+        },
+        {
+          "name": "University of Illinois — Stock Pavilion exhibition venue",
+          "url": "https://digitalag.illinois.edu/2024-safer-ag-workshop/i-farm-saferag-exhibition/"
+        }
+      ]
     }
   ],
-  "expectedTotal": 376,
+  "expectedTotal": 379,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -11506,6 +11625,14 @@
         "unt-denton-uaam-test-facility",
         "illinois-urbana-flying-arena",
         "csu-fort-collins-christman-airfield"
+      ]
+    },
+    {
+      "id": "2026-11-01-toronto-brin-stock-pavilion-research",
+      "recordIds": [
+        "toronto-myhal-flight-arena",
+        "umd-college-park-brin-drone-lab",
+        "illinois-urbana-stock-pavilion"
       ]
     }
   ]
