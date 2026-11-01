@@ -1,0 +1,18 @@
+# Fifty-third sourced expansion: Stockholm, Ghent and Lisbon
+
+Reviewed 1 November 2026. Three additions bring the catalogue to 400 records across 44 countries; 600 remain toward 1,000. All prior 397 records remain unchanged.
+
+## Source decisions
+
+- **KTH Stockholm Smart Mobility Lab drone testing**: [primary source](https://www.kth.se/dcs/research/control-of-transport/smart-mobility-lab/projects). One shared mobility research laboratory. Trucks, mobile robots and research concept vehicles are platforms, not additional flight facilities. The ITRL directory corroborates drone research and the Stockholm institutional location; historical course material places SML on Drottning Kristinas vag. No exact present-day arena room is asserted. This is not the temporary Digital Futures Drone Arena event at the Reactor Hall. The primary page was last changed on 26 November 2014; that is not an explicit publication or opening date. Supporting ITRL information was updated in April 2025. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.
+  - [KTH ITRL — labs and research platforms](https://www.itrl.kth.se/research/labs/labs-and-research-platforms-1.785072)
+  - [KTH — Smart Mobility Lab contact](https://www.kth.se/dcs/research/control-of-transport/smart-mobility-lab)
+  - [KTH course instructions — historical SML location](https://www.kth.se/social/files/54b66f4ef276546e40200f58/homework%2Binstructions.pdf)
+- **Ghent IDLab Industrial IoT drone testbed**: [primary source](https://idlab.ugent.be/resources/industrial-iot-lab). One Industrial IoT testbed. The open drone-test space, warehouse racks, localization anchors and production area are components of the same laboratory, not additional sites. The source directly identifies Ghent. Listed drone models and charging research do not establish public landing infrastructure. The facility page is undated. Its cited 2019 paper is supporting evidence, not the facility-page publication or opening date; the conference location in Paris is not the testbed location. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.
+  - [Ghent University bibliography — warehouse experiments using AGVs and drones](https://biblio.ugent.be/publication/8642394)
+- **Tecnico Lisbon IDMEC Robotics Arena**: [primary source](https://csi.idmec.tecnico.ulisboa.pt/laboratories/). One IDMEC Robotics Arena. The LAETA infrastructure directory identifies this arena under IDMEC Lisbon, corroborating the locality beyond the centre contact address. Other laboratories on the same page are not additional drone facilities. No exact room is established. A separate Tecnico report describes flight tests at Taguspark; that report is not used to relocate or add a second site here. The facility description is undated. Direct page retrieval timed out during review, but indexed primary-source text and the associated-laboratory directory supplied the arena description. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.
+  - [LAETA — Robotics Arena at IDMEC Lisbon](https://www.laeta.pt/en/laboratories/)
+
+## Verification scope
+
+Canonical hashes preserve all 347 prior additions; existing snapshots preserve the original 50 records and 72 HTML pages. Browser coverage includes 405 routes at two sizes (810 journeys). Checks cover source-date limits, counting scope, exports and deterministic builds.
