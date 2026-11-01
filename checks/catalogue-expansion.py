@@ -795,7 +795,7 @@ assert 'distinct from the City Campus' in new51['auckland-newmarket-wind-tunnel-
 
 # Swedish facilities, separate lab identities and conservative source dates.
 fifty_second=json.loads((ROOT/'catalogue/fifty-second-batch-ids.json').read_text())
-assert fifty_second==batch['releases'][-1]['recordIds'] and len(fifty_second)==3
+assert fifty_second==batch['releases'][51]['recordIds'] and len(fifty_second)==3
 prior394=json.loads((ROOT/'catalogue/prior-394-preservation.json').read_text())
 assert len(prior394)==344
 for id,digest in prior394.items():
@@ -808,4 +808,19 @@ for id in ['ltu-lulea-concept-drone-arena','ltu-lulea-frost-drone-arena']:
  assert new52[id]['sourcePublishedAt']=='2019-03-11'
  assert 'Directory entry' in new52[id]['reportDateLabel']
  assert 'separately listed' in new52[id]['reviewNotes']
+
+# Shared research arenas: dates and preservation.
+fifty_third=json.loads((ROOT/'catalogue/fifty-third-batch-ids.json').read_text())
+assert fifty_third==batch['releases'][-1]['recordIds'] and len(fifty_third)==3
+prior397=json.loads((ROOT/'catalogue/prior-397-preservation.json').read_text())
+assert len(prior397)==347
+for id,digest in prior397.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 397-record release changed'
+new53={p['id']:p for p in additions if p['id'] in fifty_third}
+assert {p['country'] for p in new53.values()}=={'Sweden','Belgium','Portugal'}
+assert all(p['sourcePublishedAt'] is None and p['sourceReviewedAt']=='2026-11-01' and p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' and p['sourceType']=='research' for p in new53.values())
+assert 'last changed' in new53['kth-stockholm-smart-mobility-flight-lab']['reviewNotes']
+assert 'Paris is not' in new53['ugent-ghent-iiot-drone-testbed']['reviewNotes']
+assert 'timed out' in new53['tecnico-lisbon-idmec-robotics-arena']['reviewNotes']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
