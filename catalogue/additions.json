@@ -10332,9 +10332,105 @@
           "url": "https://research.csc.ncsu.edu/aerislab/about/"
         }
       ]
+    },
+    {
+      "id": "cmu-hazelwood-ric-drone-cage",
+      "name": "CMU Hazelwood Robotics Innovation Center drone cage",
+      "where": "Pittsburgh, Pennsylvania, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Carnegie Mellon University / Robotics Innovation Center",
+      "reportedEquipment": "Dedicated drone flight cage within an outdoor robotics testing area",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 40.44,
+        "longitude": -80.0
+      },
+      "reportDateLabel": "27 February 2026",
+      "description": "CMU’s opening report describes a dedicated drone cage within the Robotics Innovation Center’s outdoor testing area.",
+      "source": {
+        "name": "Carnegie Mellon University — Robotics Innovation Center opening",
+        "url": "https://www.cmu.edu/ric/updates/opening.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "cmu-hazelwood-ric-drone-cage",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": "2026-02-27",
+      "sourceType": "research",
+      "reviewNotes": "One drone research facility at Hazelwood Green. The surrounding robotics grounds, indoor testing floor, tenants and planned accelerator are not counted as additional drone sites. The reported center opening does not establish a current cage booking or flight schedule. The university’s Forbes Avenue footer address is not asserted to locate the cage. Broad city coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-pittsburgh-coruna-hamburg-research",
+      "supportingSources": []
+    },
+    {
+      "id": "itg-coruna-experimentation-centre",
+      "name": "ITG A Coruña aerial experimentation site",
+      "where": "A Coruña, Galicia, Spain",
+      "country": "Spain",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "ITG Technology Centre",
+      "reportedEquipment": "Outdoor netted flight cage, adjacent drone vertiport and mobile control equipment",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 43.36,
+        "longitude": -8.41
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "ITG describes a flight cage and adjacent vertiport at its Advanced Experimentation Centre in A Coruña.",
+      "source": {
+        "name": "ITG — Advanced Experimentation Centre visitor guide",
+        "url": "https://itg.es/en/visit-advanced-experimentation-centre/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "itg-coruna-experimentation-centre",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One research site at Cidade das TIC, not separate records for the cage, adjacent vertiport or mobile operations vehicle. The visitor guide describes an active workplace with arranged visits; it does not establish unrestricted public access. Its reported late-2023 inauguration and 2025 service expansion are not publication dates. The undated page retains an unknown publication date. Headquarters and Vigo footer addresses are not this site. Broad city coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-pittsburgh-coruna-hamburg-research",
+      "supportingSources": []
+    },
+    {
+      "id": "hsu-hamburg-inspection-drone-cage",
+      "name": "HSU Hamburg inspection-drone research cage",
+      "where": "Hamburg, Germany",
+      "country": "Germany",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Helmut-Schmidt University / Institute of Control Engineering",
+      "reportedEquipment": "Automated inspection drone, flight cage and motion capture",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 53.55,
+        "longitude": 10.0
+      },
+      "reportDateLabel": "Publication date not recorded",
+      "description": "HSU describes testing an automated aircraft-inspection drone in a laboratory flight cage with motion capture.",
+      "source": {
+        "name": "Helmut-Schmidt University — AI Inspection Drone",
+        "url": "https://www.hsu-hh.de/rt/en/forschung/ai-inspection-drone"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "hsu-hamburg-inspection-drone-cage",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One university laboratory cage, not an airline operating site or separate facilities for project partners. The page says last changed 15 April 2021; this is retained as historical source context, not converted into a publication date. The publication date remains unknown. Present project activity is not established by the old description. The institutional contact address supports Hamburg context but does not identify a cage room. Broad city coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-pittsburgh-coruna-hamburg-research",
+      "supportingSources": []
     }
   ],
-  "expectedTotal": 358,
+  "expectedTotal": 361,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -10837,6 +10933,14 @@
         "ensta-brest-air-sea-facility",
         "nc-state-aeris-indoor-arena",
         "nc-state-lake-wheeler-uas-field"
+      ]
+    },
+    {
+      "id": "2026-11-01-pittsburgh-coruna-hamburg-research",
+      "recordIds": [
+        "cmu-hazelwood-ric-drone-cage",
+        "itg-coruna-experimentation-centre",
+        "hsu-hamburg-inspection-drone-cage"
       ]
     }
   ]
