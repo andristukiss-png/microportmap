@@ -11292,9 +11292,120 @@
       "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
       "researchBatch": "2026-11-01-boston-scaife-tulsa-research",
       "supportingSources": []
+    },
+    {
+      "id": "unr-reno-applied-research-drone-arena",
+      "name": "University of Nevada Reno Applied Research drone arena",
+      "where": "Reno, Nevada, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Nevada, Reno / Nevada Center for Applied Research",
+      "reportedEquipment": "Indoor high-bay drone arena and camera tracking",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 39.53,
+        "longitude": -119.81
+      },
+      "reportDateLabel": "Undated university facility page",
+      "description": "NCAR describes a drone-testing arena within the Applied Research Facility on the university main campus.",
+      "source": {
+        "name": "University of Nevada, Reno — NCAR infrastructure",
+        "url": "https://www.unr.edu/ncar/infrastructure"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "unr-reno-applied-research-drone-arena",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One campus arena, distinct from the Reno-Stead airport test facility already catalogued. The balcony, tracking equipment and other laboratories are not separate drone sites. No dedicated aircraft fleet or arena dimensions are established. Publication date is not displayed. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-reno-braddock-sherbrooke-research",
+      "supportingSources": [
+        {
+          "name": "University of Nevada, Reno — Applied Research Facility",
+          "url": "https://www.unr.edu/ncar/infrastructure/arf"
+        }
+      ]
+    },
+    {
+      "id": "csueb-hayward-braddock-drone-lab",
+      "name": "Cal State East Bay Braddock drone lab",
+      "where": "Hayward, California, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "California State University, East Bay / Engineering and Computer Science",
+      "reportedEquipment": "Shared quadcopter and drone laboratory",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 37.67,
+        "longitude": -122.08
+      },
+      "reportDateLabel": "Report submitted 13 October 2025; publication date not displayed",
+      "description": "A university assessment report describes a drone laboratory opened in the Braddock Center following closure of an earlier cage.",
+      "source": {
+        "name": "Cal State East Bay — Computer Engineering annual report",
+        "url": "https://www.csueastbay.edu/csci/files/docs/assessment/semesters/annual-reports/2024-2025-annual-reports/bscmpe-capr_2024-2025-final.pdf"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "csueb-hayward-braddock-drone-lab",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One replacement laboratory, not two operating sites. The report mentions a functional drone cage but also says the original cage closed and a new shared lab opened in Braddock; the new cage layout and precise room are not established. VBT 230 electronics-lab plans do not establish another drone facility. The cover says submitted 13 October 2025, not published on that date, and its academic-year labels are inconsistent. Publication date remains unknown. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-reno-braddock-sherbrooke-research",
+      "supportingSources": [
+        {
+          "name": "Cal State East Bay — Hayward campus map identifying Braddock Center",
+          "url": "https://www.csueastbay.edu/about/files/docs/hayward-hills-campus-map.pdf"
+        }
+      ]
+    },
+    {
+      "id": "sherbrooke-3it-drone-flight-room",
+      "name": "Université de Sherbrooke 3IT drone flight room",
+      "where": "Sherbrooke, Québec, Canada",
+      "country": "Canada",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Université de Sherbrooke / Interdisciplinary Institute for Technological Innovation",
+      "reportedEquipment": "Indoor flight room and motion-capture instrumentation",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 45.4,
+        "longitude": -71.89
+      },
+      "reportDateLabel": "Undated university facility page",
+      "description": "The university describes an instrumented indoor room for drone flight and robotics experiments at 3IT.",
+      "source": {
+        "name": "Université de Sherbrooke — 3IT robotics facilities",
+        "url": "https://www.usherbrooke.ca/3it/en/technological-ecosystem/robotics"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "sherbrooke-3it-drone-flight-room",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One flight room within the robotics platform. Observation, telehealth and recording rooms are supporting or different-use spaces, not additional drone sites. The institute location is supported by its contact page; general university campus addresses do not locate the flight room. Published room dimensions are source claims, not independently measured flight capacity. Publication date is not displayed. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-reno-braddock-sherbrooke-research",
+      "supportingSources": [
+        {
+          "name": "Université de Sherbrooke — 3IT location",
+          "url": "https://www.usherbrooke.ca/3it/en/contact-us"
+        }
+      ]
     }
   ],
-  "expectedTotal": 385,
+  "expectedTotal": 388,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -11869,6 +11980,14 @@
         "northeastern-boston-exp-drone-cage",
         "cmu-pittsburgh-scaife-drone-arena",
         "oru-tulsa-tandy-drone-arena"
+      ]
+    },
+    {
+      "id": "2026-11-01-reno-braddock-sherbrooke-research",
+      "recordIds": [
+        "unr-reno-applied-research-drone-arena",
+        "csueb-hayward-braddock-drone-lab",
+        "sherbrooke-3it-drone-flight-room"
       ]
     }
   ]
