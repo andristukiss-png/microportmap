@@ -749,7 +749,7 @@ assert 'distinct from the Hazelwood' in new48['cmu-pittsburgh-scaife-drone-arena
 
 # Separate facilities, honest dates and preservation of the prior release.
 forty_ninth=json.loads((ROOT/'catalogue/forty-ninth-batch-ids.json').read_text())
-assert forty_ninth==batch['releases'][-1]['recordIds'] and len(forty_ninth)==3
+assert forty_ninth==batch['releases'][48]['recordIds'] and len(forty_ninth)==3
 prior385=json.loads((ROOT/'catalogue/prior-385-preservation.json').read_text())
 assert len(prior385)==335
 for id,digest in prior385.items():
@@ -761,4 +761,19 @@ assert new49['sherbrooke-3it-drone-flight-room']['country']=='Canada'
 assert 'distinct from the Reno-Stead' in new49['unr-reno-applied-research-drone-arena']['reviewNotes']
 assert 'original cage closed' in new49['csueb-hayward-braddock-drone-lab']['reviewNotes']
 assert 'submitted 13 October 2025' in new49['csueb-hayward-braddock-drone-lab']['reportDateLabel']
+
+# Physical flight rooms, unknown publication dates and unchanged prior records.
+fiftieth=json.loads((ROOT/'catalogue/fiftieth-batch-ids.json').read_text())
+assert fiftieth==batch['releases'][-1]['recordIds'] and len(fiftieth)==3
+prior388=json.loads((ROOT/'catalogue/prior-388-preservation.json').read_text())
+assert len(prior388)==338
+for id,digest in prior388.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 388-record release changed'
+new50={p['id']:p for p in additions if p['id'] in fiftieth}
+assert all(p['sourceReviewedAt']=='2026-11-01' and p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' and p['sourceType']=='research' and p['sourcePublishedAt'] is None for p in new50.values())
+assert new50['technion-haifa-mrs-flight-room']['country']=='Israel'
+assert 'office address' in new50['technion-haifa-mrs-flight-room']['reviewNotes']
+assert 'no second site' in new50['unipi-pisa-raasl-flight-room']['reviewNotes']
+assert 'physical-flight evidence' in new50['msu-denver-uas-flight-laboratory']['reviewNotes']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')

@@ -11403,9 +11403,128 @@
           "url": "https://www.usherbrooke.ca/3it/en/contact-us"
         }
       ]
+    },
+    {
+      "id": "unipi-pisa-raasl-flight-room",
+      "name": "University of Pisa RAASL flight room",
+      "where": "Pisa, Tuscany, Italy",
+      "country": "Italy",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Pisa / Department of Information Engineering",
+      "reportedEquipment": "Netted indoor flight room, Vicon tracking and research drones",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 43.72,
+        "longitude": 10.4
+      },
+      "reportDateLabel": "Undated university facility page",
+      "description": "The university lists a protected indoor flight room for RAASL drone experiments, with motion tracking.",
+      "source": {
+        "name": "University of Pisa — robotics research laboratories",
+        "url": "https://www.aut.ing.unipi.it/index.php/ricerca"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "unipi-pisa-raasl-flight-room",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One departmental flight room. Prototype-assembly, ground-vehicle, marine and other robotics laboratories on the page are not additional drone facilities. Earlier research refers to a DII LARS flight room; no second site is inferred from the laboratory acronym. Published dimensions and aircraft lists are source claims, not independently checked capacity or fleet availability. The department address supports Pisa as the locality, not the exact flight-room position. Publication date is not displayed. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-pisa-denver-haifa-research",
+      "supportingSources": [
+        {
+          "name": "University of Pisa — Department of Information Engineering location",
+          "url": "https://www.dii.unipi.it/"
+        },
+        {
+          "name": "University of Pisa researchers — indoor flight experiments",
+          "url": "https://www.mdpi.com/2218-6581/9/4/110"
+        }
+      ]
+    },
+    {
+      "id": "msu-denver-uas-flight-laboratory",
+      "name": "MSU Denver UAS flight laboratory",
+      "where": "Denver, Colorado, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Metropolitan State University of Denver / Aviation and Aerospace Science",
+      "reportedEquipment": "Indoor flight cage, UAS simulators and ground-control training",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 39.74,
+        "longitude": -104.99
+      },
+      "reportDateLabel": "Undated university facility page",
+      "description": "MSU Denver describes a UAS teaching laboratory with an indoor flight cage alongside simulation and data-analysis resources.",
+      "source": {
+        "name": "MSU Denver — Aeronautics and Aerospace Systems Laboratories",
+        "url": "https://www.msudenver.edu/aviation-aerospace/aerospace-and-aerospace-systems-laboratories/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "msu-denver-uas-flight-laboratory",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One UAS teaching facility. The flight cage is the physical-flight evidence; simulators, ground-control stations and certificate courses do not create extra sites. Other aviation and satellite laboratories on the page are not droneports. The departmental contact address does not establish the cage room. The March 2024 curriculum-guide edition corroborates the facility but is not the undated webpage publication date or a verified opening date. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-pisa-denver-haifa-research",
+      "supportingSources": [
+        {
+          "name": "MSU Denver — March 2024 curriculum guide, page 12",
+          "url": "https://www.msudenver.edu/wp-content/uploads/2024/03/23-24-AVS-Curriculum-Guidelines-TSv20.pdf"
+        }
+      ]
+    },
+    {
+      "id": "technion-haifa-mrs-flight-room",
+      "name": "Technion Haifa multi-robot flight room",
+      "where": "Haifa, Israel",
+      "country": "Israel",
+      "region": "Middle East",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Technion / Electrical and Computer Engineering, Multi-Robot Systems Lab",
+      "reportedEquipment": "Indoor room for robotic and drone experiments",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 32.79,
+        "longitude": 34.99
+      },
+      "reportDateLabel": "Undated university facility page",
+      "description": "Technion’s infrastructure directory lists a flight room for robot and drone experiments under Kiril Solovey in Electrical and Computer Engineering.",
+      "source": {
+        "name": "Technion Research Infrastructure — researcher technologies",
+        "url": "https://ri.technion.ac.il/researchers-technologies/?sort%5B15%5D=asc"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "technion-haifa-mrs-flight-room",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One listed flight room, not an additional facility for the adjacent autonomous-car and drone equipment entry. The researcher and lab pages establish the institutional context and Haifa locality. Zisapel 717 is an office address, not an asserted flight-room location. No room dimensions, aircraft fleet size or tracking system are established by the listing. Publication date is not displayed; the directory listing does not independently establish present operation. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-pisa-denver-haifa-research",
+      "supportingSources": [
+        {
+          "name": "Kiril Solovey — institutional affiliation and Haifa office",
+          "url": "https://kirilsol.github.io/"
+        },
+        {
+          "name": "Technion Multi-Robot Systems Lab — research group",
+          "url": "https://mrstechnion.github.io/"
+        }
+      ]
     }
   ],
-  "expectedTotal": 388,
+  "expectedTotal": 391,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -11988,6 +12107,14 @@
         "unr-reno-applied-research-drone-arena",
         "csueb-hayward-braddock-drone-lab",
         "sherbrooke-3it-drone-flight-room"
+      ]
+    },
+    {
+      "id": "2026-11-01-pisa-denver-haifa-research",
+      "recordIds": [
+        "unipi-pisa-raasl-flight-room",
+        "msu-denver-uas-flight-laboratory",
+        "technion-haifa-mrs-flight-room"
       ]
     }
   ]
