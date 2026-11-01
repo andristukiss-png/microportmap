@@ -11182,9 +11182,119 @@
       "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
       "researchBatch": "2026-11-01-prague-estella-trondheim-research",
       "supportingSources": []
+    },
+    {
+      "id": "northeastern-boston-exp-drone-cage",
+      "name": "Northeastern Boston EXP drone cage",
+      "where": "Boston, Massachusetts, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Northeastern University / Institute for Experiential Robotics",
+      "reportedEquipment": "Indoor drone cage and OptiTrack motion capture",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 42.36,
+        "longitude": -71.06
+      },
+      "reportDateLabel": "29 August 2025",
+      "description": "Northeastern reports faculty and student use of the drone cage in EXP’s robotics bay on its Boston campus.",
+      "source": {
+        "name": "Northeastern University — drone teaching in EXP",
+        "url": "https://news.northeastern.edu/2025/08/29/faculty-staff/how-to-fly-drones-beginner-tips/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "northeastern-boston-exp-drone-cage",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": "2025-08-29",
+      "sourceType": "research",
+      "reviewNotes": "One Boston enclosure, distinct from the existing Burlington ECUAS facility. The institute’s equipment list supports the cage and motion capture; other robots, fabrication equipment and research groups are not extra drone sites. General beginner advice in the article does not establish site-specific access or flight authorization. No precise cage position is inferred from the institute’s building address. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-boston-scaife-tulsa-research",
+      "supportingSources": [
+        {
+          "name": "Northeastern Institute for Experiential Robotics — equipment",
+          "url": "https://robotics.northeastern.edu/our-equipment/"
+        },
+        {
+          "name": "Northeastern Institute for Experiential Robotics — Boston EXP location",
+          "url": "https://robotics.northeastern.edu/contact/"
+        }
+      ]
+    },
+    {
+      "id": "cmu-pittsburgh-scaife-drone-arena",
+      "name": "CMU Scaife Hall drone arena",
+      "where": "Pittsburgh, Pennsylvania, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Carnegie Mellon University / College of Engineering",
+      "reportedEquipment": "Indoor high-bay drone arena",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 40.44,
+        "longitude": -80.0
+      },
+      "reportDateLabel": "Undated university facility page",
+      "description": "Carnegie Mellon describes an indoor drone arena in the completed Scaife Hall engineering building.",
+      "source": {
+        "name": "Carnegie Mellon University — Scaife Hall",
+        "url": "https://www.cmu.edu/cdfd/buildings/scaife/index.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "cmu-pittsburgh-scaife-drone-arena",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One arena at Scaife Hall on the Oakland campus, distinct from the Hazelwood Robotics Innovation Center cage already catalogued. The eleven other laboratories are not eleven drone sites. The building’s total floor area is not the arena’s flight area. The stated 2023 building completion is not a publication date or an independently verified arena opening date. Publication date is not displayed. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-boston-scaife-tulsa-research",
+      "supportingSources": [
+        {
+          "name": "Carnegie Mellon College of Engineering — facilities directory",
+          "url": "https://engineering.cmu.edu/research/facilities.html"
+        }
+      ]
+    },
+    {
+      "id": "oru-tulsa-tandy-drone-arena",
+      "name": "Oral Roberts University Tandy drone arena",
+      "where": "Tulsa, Oklahoma, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Oral Roberts University / Computing and Mathematics",
+      "reportedEquipment": "Drone flying zone and supporting control room",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 36.15,
+        "longitude": -95.99
+      },
+      "reportDateLabel": "8 November 2024",
+      "description": "ORU reports a drone arena within its expanded Tandy Computing and Mathematics Labs.",
+      "source": {
+        "name": "Oral Roberts University — Tandy Labs expansion",
+        "url": "https://oru.edu/news/oru_news/2024/oru-celebrates-ribbon-cutting-tandy-lab.php"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "oru-tulsa-tandy-drone-arena",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": "2024-11-08",
+      "sourceType": "research",
+      "reviewNotes": "One educational arena, not separate sites for the flying zone, control room or other Tandy laboratories. The university’s report describes the completed expansion; its other computing and science labs are not additional drone facilities. The grant funded the wider expansion, not an asserted drone-only budget. This university facility is distinct from the Tulsa delivery airbase and Skyway 36 droneport already catalogued. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-boston-scaife-tulsa-research",
+      "supportingSources": []
     }
   ],
-  "expectedTotal": 382,
+  "expectedTotal": 385,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -11751,6 +11861,14 @@
         "ctu-prague-indoor-flight-arena",
         "naitec-estella-logistics-lab",
         "sintef-trondheim-drone-laboratory"
+      ]
+    },
+    {
+      "id": "2026-11-01-boston-scaife-tulsa-research",
+      "recordIds": [
+        "northeastern-boston-exp-drone-cage",
+        "cmu-pittsburgh-scaife-drone-arena",
+        "oru-tulsa-tandy-drone-arena"
       ]
     }
   ]
