@@ -654,7 +654,7 @@ assert 'distinct from the Kroto' in new42['sheffield-diamond-drone-enclosure']['
 
 # Three university arenas with equipment, institutional aliases and future flights separated.
 forty_third=json.loads((ROOT/'catalogue/forty-third-batch-ids.json').read_text())
-assert forty_third==batch['releases'][-1]['recordIds'] and len(forty_third)==3
+assert forty_third==batch['releases'][42]['recordIds'] and len(forty_third)==3
 prior367=json.loads((ROOT/'catalogue/prior-367-preservation.json').read_text())
 assert len(prior367)==317
 for id,digest in prior367.items():
@@ -667,4 +667,21 @@ assert new43['ntu-robotics-test-arena']['sourcePublishedAt'] is None
 assert new43['cranfield-drone-flight-arena']['sourcePublishedAt']=='2025-12-10'
 assert 'not assumed completed' in new43['cranfield-drone-flight-arena']['reviewNotes']
 assert 'not two locations' in new43['ntu-robotics-test-arena']['reviewNotes']
+
+# University cages and an operator lab; historic closure and mailing locality caveats.
+forty_fourth=json.loads((ROOT/'catalogue/forty-fourth-batch-ids.json').read_text())
+assert forty_fourth==batch['releases'][-1]['recordIds'] and len(forty_fourth)==3
+prior370=json.loads((ROOT/'catalogue/prior-370-preservation.json').read_text())
+assert len(prior370)==320
+for id,digest in prior370.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 370-record release changed'
+new44={p['id']:p for p in additions if p['id'] in forty_fourth}
+assert all(p['sourceReviewedAt']=='2026-11-01' and p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' and p['country']=='United States' for p in new44.values())
+assert new44['csulb-pack-drone-cage']['sourcePublishedAt']=='2025-11-24'
+assert new44['uw-seattle-bowman-flight-arena']['sourcePublishedAt']=='2020-11-23'
+assert new44['matrix-beavercreek-drone-lab']['sourcePublishedAt'] is None
+assert new44['matrix-beavercreek-drone-lab']['sourceType']=='operator'
+assert 'does not establish current closure or reopening' in new44['uw-seattle-bowman-flight-arena']['reviewNotes']
+assert 'two sites' in new44['matrix-beavercreek-drone-lab']['reviewNotes']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
