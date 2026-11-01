@@ -11522,9 +11522,132 @@
           "url": "https://mrstechnion.github.io/"
         }
       ]
+    },
+    {
+      "id": "stevens-hoboken-sas-flight-range",
+      "name": "Stevens Hoboken SAS indoor flight range",
+      "where": "Hoboken, New Jersey, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Stevens Institute of Technology / Safe Autonomous Systems Lab",
+      "reportedEquipment": "Indoor flight arena, Vicon tracking and multirotor research platforms",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 40.74,
+        "longitude": -74.03
+      },
+      "reportDateLabel": "Undated research facility page",
+      "description": "The Stevens SAS Lab describes an enclosed indoor flight arena used for aerial and ground-robot experiments.",
+      "source": {
+        "name": "Stevens Safe Autonomous Systems Lab — equipment",
+        "url": "https://saslabstevens.github.io/equipment.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "stevens-hoboken-sas-flight-range",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One indoor range. The lab equipment page gives a Hoboken contact location and the university report independently identifies the flying range. The faculty office listing is not another facility. Listed drone models, computation stations and a printer do not add sites. Marine robotics and drone-detection projects in the broader university article are not extra flight facilities. The equipment page is undated; its 2019 copyright is not a publication or opening date. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-hoboken-auckland-research",
+      "supportingSources": [
+        {
+          "name": "Stevens Institute of Technology — drone research and indoor flying range",
+          "url": "https://www.stevens.edu/news/exploring-improved-drone-designs-defenses"
+        },
+        {
+          "name": "Stevens Institute of Technology — SAS director affiliation",
+          "url": "https://www.stevens.edu/profile/hjafarne"
+        }
+      ]
+    },
+    {
+      "id": "auckland-city-motion-capture-flight-lab",
+      "name": "University of Auckland City Campus flight lab",
+      "where": "City Campus, Auckland, New Zealand",
+      "country": "New Zealand",
+      "region": "Oceania",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Auckland / Mechanical and Mechatronics Engineering",
+      "reportedEquipment": "Netted indoor drone flight area and Vicon motion capture",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": -36.85,
+        "longitude": 174.76
+      },
+      "reportDateLabel": "Undated research facility page",
+      "description": "The drone research group identifies a protected flight-test area in the City Campus Motion Capture Laboratory.",
+      "source": {
+        "name": "University of Auckland Drone Technology Research Group — facilities",
+        "url": "https://dtrg.org/facilities/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "auckland-city-motion-capture-flight-lab",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One City Campus flight laboratory, distinct from the Newmarket wind tunnel. Motion Capture Lab and drone flight-test area describe the same facility. Other research groups using shared motion-capture space do not establish additional sites. The university facilities page corroborates Vicon equipment and drone research. Published dimensions are source claims, not a measured capacity. The facilities page is undated; competition dates do not establish its publication or the laboratory opening. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-hoboken-auckland-research",
+      "supportingSources": [
+        {
+          "name": "University of Auckland — dynamics and control facilities",
+          "url": "https://www.auckland.ac.nz/en/engineering/our-research/engineering-research/research-areas-and-facilities/dynamics-and-control.html"
+        },
+        {
+          "name": "Drone Technology Research Group — university affiliation",
+          "url": "https://dtrg.org/"
+        }
+      ]
+    },
+    {
+      "id": "auckland-newmarket-wind-tunnel-drone-testing",
+      "name": "University of Auckland Newmarket drone wind-tunnel testing",
+      "where": "Newmarket, Auckland, New Zealand",
+      "country": "New Zealand",
+      "region": "Oceania",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Auckland / Mechanical and Mechatronics Engineering",
+      "reportedEquipment": "Boundary Layer Wind Tunnel and drone motion-capture instrumentation",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": -36.87,
+        "longitude": 174.78
+      },
+      "reportDateLabel": "1 September 2026",
+      "description": "A university report describes drones and UAVs being flown with motion capture inside the Boundary Layer Wind Tunnel.",
+      "source": {
+        "name": "University of Auckland — drone flights in the wind tunnel",
+        "url": "https://www.auckland.ac.nz/en/news/2026/09/01/my-space-wind-tunnel.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "auckland-newmarket-wind-tunnel-drone-testing",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": "2026-09-01",
+      "sourceType": "research",
+      "reviewNotes": "One shared research tunnel at Newmarket, distinct from the City Campus flight laboratory. It supports drone experiments alongside other aerodynamic testing; it is not a public landing facility. Bike rigs, model-vehicle areas and building-test sections are not separate drone sites. Sources differ on tunnel dimensions and maximum speed, so no reconciled performance specification is asserted. The 2015 tunnel construction date is not this report publication date or a verified start of drone testing. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-hoboken-auckland-research",
+      "supportingSources": [
+        {
+          "name": "University of Auckland — Wind Tunnel Hall and Newmarket location",
+          "url": "https://www.auckland.ac.nz/en/engineering/our-research/engineering-research/research-areas-and-facilities/wind-tunnel-hall.html"
+        },
+        {
+          "name": "University of Auckland Drone Technology Research Group — separate campus facilities",
+          "url": "https://dtrg.org/facilities/"
+        }
+      ]
     }
   ],
-  "expectedTotal": 391,
+  "expectedTotal": 394,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -12115,6 +12238,14 @@
         "unipi-pisa-raasl-flight-room",
         "msu-denver-uas-flight-laboratory",
         "technion-haifa-mrs-flight-room"
+      ]
+    },
+    {
+      "id": "2026-11-01-hoboken-auckland-research",
+      "recordIds": [
+        "stevens-hoboken-sas-flight-range",
+        "auckland-city-motion-capture-flight-lab",
+        "auckland-newmarket-wind-tunnel-drone-testing"
       ]
     }
   ]

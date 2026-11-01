@@ -764,7 +764,7 @@ assert 'submitted 13 October 2025' in new49['csueb-hayward-braddock-drone-lab'][
 
 # Physical flight rooms, unknown publication dates and unchanged prior records.
 fiftieth=json.loads((ROOT/'catalogue/fiftieth-batch-ids.json').read_text())
-assert fiftieth==batch['releases'][-1]['recordIds'] and len(fiftieth)==3
+assert fiftieth==batch['releases'][49]['recordIds'] and len(fiftieth)==3
 prior388=json.loads((ROOT/'catalogue/prior-388-preservation.json').read_text())
 assert len(prior388)==338
 for id,digest in prior388.items():
@@ -776,4 +776,20 @@ assert new50['technion-haifa-mrs-flight-room']['country']=='Israel'
 assert 'office address' in new50['technion-haifa-mrs-flight-room']['reviewNotes']
 assert 'no second site' in new50['unipi-pisa-raasl-flight-room']['reviewNotes']
 assert 'physical-flight evidence' in new50['msu-denver-uas-flight-laboratory']['reviewNotes']
+
+# Separate campus facilities and source-date limits.
+fifty_first=json.loads((ROOT/'catalogue/fifty-first-batch-ids.json').read_text())
+assert fifty_first==batch['releases'][-1]['recordIds'] and len(fifty_first)==3
+prior391=json.loads((ROOT/'catalogue/prior-391-preservation.json').read_text())
+assert len(prior391)==341
+for id,digest in prior391.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 391-record release changed'
+new51={p['id']:p for p in additions if p['id'] in fifty_first}
+assert all(p['sourceReviewedAt']=='2026-11-01' and p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' and p['sourceType']=='research' for p in new51.values())
+assert new51['stevens-hoboken-sas-flight-range']['sourcePublishedAt'] is None
+assert new51['auckland-city-motion-capture-flight-lab']['sourcePublishedAt'] is None
+assert new51['auckland-newmarket-wind-tunnel-drone-testing']['sourcePublishedAt']=='2026-09-01'
+assert 'distinct from the Newmarket' in new51['auckland-city-motion-capture-flight-lab']['reviewNotes']
+assert 'distinct from the City Campus' in new51['auckland-newmarket-wind-tunnel-drone-testing']['reviewNotes']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
