@@ -811,7 +811,7 @@ for id in ['ltu-lulea-concept-drone-arena','ltu-lulea-frost-drone-arena']:
 
 # Shared research arenas: dates and preservation.
 fifty_third=json.loads((ROOT/'catalogue/fifty-third-batch-ids.json').read_text())
-assert fifty_third==batch['releases'][-1]['recordIds'] and len(fifty_third)==3
+assert fifty_third==batch['releases'][52]['recordIds'] and len(fifty_third)==3
 prior397=json.loads((ROOT/'catalogue/prior-397-preservation.json').read_text())
 assert len(prior397)==347
 for id,digest in prior397.items():
@@ -823,4 +823,19 @@ assert all(p['sourcePublishedAt'] is None and p['sourceReviewedAt']=='2026-11-01
 assert 'last changed' in new53['kth-stockholm-smart-mobility-flight-lab']['reviewNotes']
 assert 'Paris is not' in new53['ugent-ghent-iiot-drone-testbed']['reviewNotes']
 assert 'timed out' in new53['tecnico-lisbon-idmec-robotics-arena']['reviewNotes']
+
+# Shared research arenas: dates and preservation.
+fifty_fourth=json.loads((ROOT/'catalogue/fifty-fourth-batch-ids.json').read_text())
+assert fifty_fourth==batch['releases'][-1]['recordIds'] and len(fifty_fourth)==3
+prior400=json.loads((ROOT/'catalogue/prior-400-preservation.json').read_text())
+assert len(prior400)==350
+for id,digest in prior400.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 400-record release changed'
+new54={p['id']:p for p in additions if p['id'] in fifty_fourth}
+assert {p['country'] for p in new54.values()}=={'Germany','Spain','Netherlands'}
+assert all(p['sourcePublishedAt'] is None and p['sourceReviewedAt']=='2026-11-01' and p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' and p['sourceType']=='research' for p in new54.values())
+assert 'approval-free' in new54['dlr-braunschweig-drone-cage']['reviewNotes']
+assert 'subsystem validation' in new54['burgos-milanera-drone-laboratory']['reviewNotes']
+assert 'No dedicated arena' in new54['twente-enschede-itc-uav-lab']['reviewNotes']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')

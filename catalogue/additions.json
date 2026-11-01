@@ -11891,9 +11891,119 @@
           "url": "https://www.laeta.pt/en/laboratories/"
         }
       ]
+    },
+    {
+      "id": "dlr-braunschweig-drone-cage",
+      "name": "DLR Braunschweig drone cage",
+      "where": "Braunschweig, Germany",
+      "country": "Germany",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "German Aerospace Center / Institute of Flight Guidance",
+      "reportedEquipment": "Netted outdoor UAS flight-test enclosure",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 52.27,
+        "longitude": 10.52
+      },
+      "reportDateLabel": "Undated facility description",
+      "description": "DLR identifies a net-enclosed flight-test space for prototype unmanned aircraft at its Braunschweig site.",
+      "source": {
+        "name": "DLR — Drone Cage",
+        "url": "https://www.dlr.de/en/fl/research-transfer/air-traffic-validation-center/airport-research-facilities/dronecage"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "dlr-braunschweig-drone-cage",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One Braunschweig drone cage, part of the wider FLYBOTS infrastructure. The associated university wind tunnel and mobile detection equipment are not counted as additional sites. The separately located Cochstedt test centre is not this enclosure. Source statements about aircraft weight and approval-free testing are not independently verified flight authorization. The facility page is undated; the supporting inauguration report does not establish its publication date. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-braunschweig-burgos-enschede-research",
+      "supportingSources": [
+        {
+          "name": "TU Braunschweig — FLYBOTS inauguration and component locations",
+          "url": "https://magazin.tu-braunschweig.de/en/pi-post/unique-drone-test-field-inaugurated-in-braunschweig/"
+        }
+      ]
+    },
+    {
+      "id": "burgos-milanera-drone-laboratory",
+      "name": "University of Burgos La Milanera drone laboratory",
+      "where": "Burgos, Spain",
+      "country": "Spain",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Burgos / JRU Drones",
+      "reportedEquipment": "Experimental multirotors, avionics integration and prototype test benches",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 42.34,
+        "longitude": -3.7
+      },
+      "reportDateLabel": "Undated facility description",
+      "description": "The university identifies a UAS prototyping and research laboratory at its La Milanera campus.",
+      "source": {
+        "name": "University of Burgos — Drone Technology Laboratory",
+        "url": "https://www.ubu.es/escuela-politecnica-superior/informacion-general/recursos-materiales/laboratorio-de-tecnologia-de-drones-jru"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "burgos-milanera-drone-laboratory",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One drone technology laboratory in a shared pavilion. Adjacent hydrogen and ground-robotics laboratories, individual aircraft and application areas do not add drone sites. This record describes prototyping and subsystem validation; the source does not establish a dedicated flight arena or public landing facility. The page explicitly distinguishes research applications from operational authorization and commercial availability. Its 27 October 2026 last-update date is not a stated publication or opening date. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-braunschweig-burgos-enschede-research",
+      "supportingSources": []
+    },
+    {
+      "id": "twente-enschede-itc-uav-lab",
+      "name": "University of Twente ITC UAV Lab",
+      "where": "Enschede, Netherlands",
+      "country": "Netherlands",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Twente / Faculty ITC",
+      "reportedEquipment": "Research UAV fleet with multispectral, thermal, hyperspectral and LiDAR sensors",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 52.22,
+        "longitude": 6.9
+      },
+      "reportDateLabel": "Undated facility description",
+      "description": "ITC lists a UAV laboratory supporting sensor research, drone technology testing and flight-related education.",
+      "source": {
+        "name": "University of Twente ITC — UAV Lab",
+        "url": "https://www.utwente.nl/en/itc/facilities/drone-lab/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "twente-enschede-itc-uav-lab",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One ITC UAV laboratory, also described as DroneLab. The UAV Centre collaboration and individual aircraft or sensors do not establish additional facilities. ITC facilities and contact pages establish the Enschede institutional base; staff office numbers are not flight-test rooms. No dedicated arena or local launch site is asserted. The Twente Airport and Safety Campus test environments are not this record. The directly retrieved page shows a 20 October 2026 update, while indexed text retains an earlier update and equipment list; no exact fleet inventory or publication date is inferred. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-braunschweig-burgos-enschede-research",
+      "supportingSources": [
+        {
+          "name": "ITC — geospatial laboratory directory",
+          "url": "https://www.utwente.nl/en/itc/facilities/"
+        },
+        {
+          "name": "ITC — Enschede visiting address",
+          "url": "https://www.utwente.nl/en/itc/about-itc/contact/"
+        }
+      ]
     }
   ],
-  "expectedTotal": 400,
+  "expectedTotal": 403,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -12508,6 +12618,14 @@
         "kth-stockholm-smart-mobility-flight-lab",
         "ugent-ghent-iiot-drone-testbed",
         "tecnico-lisbon-idmec-robotics-arena"
+      ]
+    },
+    {
+      "id": "2026-11-01-braunschweig-burgos-enschede-research",
+      "recordIds": [
+        "dlr-braunschweig-drone-cage",
+        "burgos-milanera-drone-laboratory",
+        "twente-enschede-itc-uav-lab"
       ]
     }
   ]
