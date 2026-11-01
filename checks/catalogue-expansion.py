@@ -592,7 +592,7 @@ assert all(len(p['supportingSources'])==1 for p in new38.values())
 
 # A combined Brest facility and distinct Raleigh indoor/outdoor research sites.
 thirty_ninth=json.loads((ROOT/'catalogue/thirty-ninth-batch-ids.json').read_text())
-assert thirty_ninth==batch['releases'][-1]['recordIds'] and len(thirty_ninth)==3
+assert thirty_ninth==batch['releases'][38]['recordIds'] and len(thirty_ninth)==3
 prior355=json.loads((ROOT/'catalogue/prior-355-preservation.json').read_text())
 assert len(prior355)==305
 for id,digest in prior355.items():
@@ -604,4 +604,19 @@ assert new39['ensta-brest-air-sea-facility']['sourcePublishedAt']=='2026-06-24'
 assert new39['nc-state-lake-wheeler-uas-field']['sourcePublishedAt']=='2021-11-09'
 assert new39['nc-state-aeris-indoor-arena']['sourcePublishedAt'] is None
 assert 'not counted or assumed complete' in new39['nc-state-aeris-indoor-arena']['reviewNotes']
+
+# Three separately located research sites; historical page updates are not publication dates.
+fortieth=json.loads((ROOT/'catalogue/fortieth-batch-ids.json').read_text())
+assert fortieth==batch['releases'][-1]['recordIds'] and len(fortieth)==3
+prior358=json.loads((ROOT/'catalogue/prior-358-preservation.json').read_text())
+assert len(prior358)==308
+for id,digest in prior358.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 358-record release changed'
+new40={p['id']:p for p in additions if p['id'] in fortieth}
+assert all(p['sourceReviewedAt']=='2026-11-01' and p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' for p in new40.values())
+assert new40['cmu-hazelwood-ric-drone-cage']['sourcePublishedAt']=='2026-02-27'
+assert all(new40[id]['sourcePublishedAt'] is None for id in ['itg-coruna-experimentation-centre','hsu-hamburg-inspection-drone-cage'])
+assert 'last changed 15 April 2021' in new40['hsu-hamburg-inspection-drone-cage']['reviewNotes']
+assert 'not separate records' in new40['itg-coruna-experimentation-centre']['reviewNotes']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
