@@ -10736,9 +10736,115 @@
       "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
       "researchBatch": "2026-11-01-liverpool-nottingham-cranfield-research",
       "supportingSources": []
+    },
+    {
+      "id": "csulb-pack-drone-cage",
+      "name": "Cal State Long Beach PACK Lab drone cage",
+      "where": "Long Beach, California, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "California State University Long Beach / PACK Lab",
+      "reportedEquipment": "Netted drone cage, research UAVs and optical motion tracking",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 33.77,
+        "longitude": -118.19
+      },
+      "reportDateLabel": "24 November 2025",
+      "description": "Cal State Long Beach reports a netted drone cage and motion tracking at its PACK Lab.",
+      "source": {
+        "name": "California State University Long Beach — autonomous robot research",
+        "url": "https://www.csulb.edu/news/article/csulb-students-train-autonomous-robots-for-real-world-rescue"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "csulb-pack-drone-cage",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": "2025-11-24",
+      "sourceType": "research",
+      "reviewNotes": "One research cage. The micro-swarm, individual aircraft, ground vehicles and indoor driving range are not additional drone sites. Proposed rescue and wildfire applications are research aims, not reported emergency deployments. The article’s planned college modernization is not assumed complete. University and lab names refer to the same facility; the general campus footer does not locate the cage. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-long-beach-seattle-beavercreek-research",
+      "supportingSources": []
+    },
+    {
+      "id": "uw-seattle-bowman-flight-arena",
+      "name": "University of Washington Bowman drone flight arena",
+      "where": "Seattle, Washington, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Washington / Aeronautics and Astronautics",
+      "reportedEquipment": "Indoor UAV flight arena; Argo research octocopter in the historical report",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 47.61,
+        "longitude": -122.33
+      },
+      "reportDateLabel": "23 November 2020",
+      "description": "Washington reports testing the Argo research drone at its Bowman facility before the March 2020 pandemic closure.",
+      "source": {
+        "name": "University of Washington Aero and Astro — Peering into snow",
+        "url": "https://www.aa.washington.edu/news/article/2020-11-23/peering-snow"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "uw-seattle-bowman-flight-arena",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": "2020-11-23",
+      "sourceType": "research",
+      "reviewNotes": "One historical laboratory flight arena, supported by the university’s 2019 facilities description. The March 2020 access closure is historical and does not establish current closure or reopening. Mount Baker field flights, glacier survey locations and the aircraft itself are not extra permanent facilities. The department’s other buildings are not aliases for Bowman. No current room access or equipment inventory is inferred. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-long-beach-seattle-beavercreek-research",
+      "supportingSources": [
+        {
+          "name": "University of Washington — 2019 self-study, Bowman Building description on page 67",
+          "url": "https://www.aa.washington.edu/files/about/ABET/2019_SelfStudy_ABET-FINAL_AA_06272019.pdf"
+        }
+      ]
+    },
+    {
+      "id": "matrix-beavercreek-drone-lab",
+      "name": "Matrix Research Beavercreek Drone Lab",
+      "where": "Beavercreek / Dayton area, Ohio, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Matrix Research",
+      "reportedEquipment": "Outdoor drone flight cage and supporting UAS configuration building",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 39.71,
+        "longitude": -84.06
+      },
+      "reportDateLabel": "Undated operator facility page",
+      "description": "Matrix Research describes an outdoor drone test cage with a supporting configuration and observation building.",
+      "source": {
+        "name": "Matrix Research — Drone Lab",
+        "url": "https://www.matrixresearch.com/capabilities/drone-lab"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "matrix-beavercreek-drone-lab",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "One operator-reported lab, not separate sites for the cage, supporting building or rental aircraft. The facilities page places the company in Beavercreek while the mailing address says Dayton; one broad locality reference is used without treating those names as two sites or assigning a precise cage location. Advertised pilot qualifications and rental services do not establish public access, flight authorization or independent verification. Publication date is not displayed. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-long-beach-seattle-beavercreek-research",
+      "supportingSources": [
+        {
+          "name": "Matrix Research — facilities and Beavercreek location",
+          "url": "https://www.matrixresearch.com/about/facility"
+        }
+      ]
     }
   ],
-  "expectedTotal": 370,
+  "expectedTotal": 373,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -11273,6 +11379,14 @@
         "liverpool-dif-extreme-environment-lab",
         "ntu-robotics-test-arena",
         "cranfield-drone-flight-arena"
+      ]
+    },
+    {
+      "id": "2026-11-01-long-beach-seattle-beavercreek-research",
+      "recordIds": [
+        "csulb-pack-drone-cage",
+        "uw-seattle-bowman-flight-arena",
+        "matrix-beavercreek-drone-lab"
       ]
     }
   ]
