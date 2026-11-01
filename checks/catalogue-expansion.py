@@ -532,7 +532,7 @@ assert next(p for p in new_labs if p['id']=='federation-gippsland-flight-lab')['
 
 # Preserve existing records and distinguish indoor/outdoor structures and source dates.
 thirty_fifth=json.loads((ROOT/'catalogue/thirty-fifth-batch-ids.json').read_text())
-assert thirty_fifth==batch['releases'][-1]['recordIds'] and len(thirty_fifth)==4
+assert thirty_fifth==batch['releases'][34]['recordIds'] and len(thirty_fifth)==4
 prior342=json.loads((ROOT/'catalogue/prior-342-preservation.json').read_text())
 assert len(prior342)==292
 for id,digest in prior342.items():
@@ -546,4 +546,19 @@ assert new_facilities['naples-prisma-flare']['sourcePublishedAt'] is None
 assert new_facilities['klagenfurt-indoor-drone-hall']['sourcePublishedAt'] is None
 assert new_facilities['klagenfurt-outdoor-odsa']['sourcePublishedAt']=='2026-06-03'
 assert len(new_facilities['klagenfurt-outdoor-odsa']['supportingSources'])==2
+
+# Distinct Delft facilities and a source-qualified Kamenz hangar.
+thirty_sixth=json.loads((ROOT/'catalogue/thirty-sixth-batch-ids.json').read_text())
+assert thirty_sixth==batch['releases'][-1]['recordIds'] and len(thirty_sixth)==3
+prior346=json.loads((ROOT/'catalogue/prior-346-preservation.json').read_text())
+assert len(prior346)==296
+for id,digest in prior346.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 346-record release changed'
+new36={p['id']:p for p in additions if p['id'] in thirty_sixth}
+assert all(p['sourceReviewedAt']=='2026-11-01' and p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' for p in new36.values())
+assert new36['miteb-kamenz-hangar']['sourcePublishedAt']=='2026-10-22'
+assert new36['miteb-kamenz-hangar']['where']=='Kamenz, Saxony, Germany'
+assert all(new36[id]['sourcePublishedAt'] is None for id in ['tu-delft-mobile-robotics-lab','tu-delft-swarming-lab'])
+assert all(len(p['supportingSources'])==1 for p in new36.values())
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
