@@ -10842,9 +10842,120 @@
           "url": "https://www.matrixresearch.com/about/facility"
         }
       ]
+    },
+    {
+      "id": "unt-denton-uaam-test-facility",
+      "name": "UNT Denton Advanced Air Mobility Test Facility",
+      "where": "Denton, Texas, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of North Texas",
+      "reportedEquipment": "Outdoor netted UAV test enclosure",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 33.21,
+        "longitude": -97.13
+      },
+      "reportDateLabel": "Undated university facility page",
+      "description": "UNT reports opening its outdoor drone test enclosure at Discovery Park in spring 2024.",
+      "source": {
+        "name": "University of North Texas — Advanced Air Mobility Test Facility",
+        "url": "https://uaam.unt.edu/index.html"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "unt-denton-uaam-test-facility",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One facility: the university’s Test Center and Test Facility names refer to the same enclosure. Separate university pages report different enclosure heights, so no exact height is asserted. The spring 2024 opening is an event date, not a publication date. University mailing addresses and the separate Denton delivery hubs are not this test enclosure. Publication date is not displayed. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-denton-urbana-fort-collins-research",
+      "supportingSources": [
+        {
+          "name": "University of North Texas — current facilities",
+          "url": "https://research.unt.edu/ciims/facilities.html"
+        }
+      ]
+    },
+    {
+      "id": "illinois-urbana-flying-arena",
+      "name": "University of Illinois Urbana flying arena",
+      "where": "Urbana, Illinois, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Illinois Urbana-Champaign / Center for Autonomy",
+      "reportedEquipment": "Indoor aerial robot arena, safety netting, cushioned floor and Vicon motion capture",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 40.11,
+        "longitude": -88.21
+      },
+      "reportDateLabel": "Undated university facility page",
+      "description": "Illinois describes an indoor aerial robot arena used for drone and ground-robot experiments.",
+      "source": {
+        "name": "University of Illinois — Flying Arena Lab Manual",
+        "url": "https://autonomy.illinois.edu/facilities/flying-arena-lab-manual"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "illinois-urbana-flying-arena",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One arena, with a supporting builders area. Center for Autonomy and Intelligent Robotics Laboratory references are institutional history, not separate sites. The lab manual and facility directory give different arena dimensions; no exact dimensions are asserted. Stock Pavilion and other listed university spaces are not counted in this record. The institutional footer is not treated as the arena’s precise address. Publication date is not displayed. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-denton-urbana-fort-collins-research",
+      "supportingSources": [
+        {
+          "name": "University of Illinois — Center for Autonomy facilities",
+          "url": "https://autonomy.illinois.edu/facilities"
+        }
+      ]
+    },
+    {
+      "id": "csu-fort-collins-christman-airfield",
+      "name": "CSU Christman Airfield UAS research facility",
+      "where": "Fort Collins, Colorado, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Colorado State University / CSU Drone Center",
+      "reportedEquipment": "Shared airfield for UAS testing and training; runway and aircraft monitoring",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 40.59,
+        "longitude": -105.08
+      },
+      "reportDateLabel": "Undated university facility page",
+      "description": "CSU describes Christman Airfield as a shared crewed and uncrewed aviation testing, training and research site.",
+      "source": {
+        "name": "Colorado State University — Christman Airfield Use",
+        "url": "https://dronecenter.colostate.edu/christman-airfield-use/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "csu-fort-collins-christman-airfield",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One airfield, not separate sites for the runway, training area, weather equipment or Drone Center services. Historical ownership and management dates are not publication dates. Source-reported waivers, registrations and reopening announcements are not independently verified current permissions. The university says prior approval is required; this research record does not authorize airfield use. Publication date is not displayed. Broad locality coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-denton-urbana-fort-collins-research",
+      "supportingSources": [
+        {
+          "name": "Colorado State University — Drone Center",
+          "url": "https://dronecenter.colostate.edu/"
+        }
+      ]
     }
   ],
-  "expectedTotal": 373,
+  "expectedTotal": 376,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -11387,6 +11498,14 @@
         "csulb-pack-drone-cage",
         "uw-seattle-bowman-flight-arena",
         "matrix-beavercreek-drone-lab"
+      ]
+    },
+    {
+      "id": "2026-11-01-denton-urbana-fort-collins-research",
+      "recordIds": [
+        "unt-denton-uaam-test-facility",
+        "illinois-urbana-flying-arena",
+        "csu-fort-collins-christman-airfield"
       ]
     }
   ]
