@@ -779,7 +779,7 @@ assert 'physical-flight evidence' in new50['msu-denver-uas-flight-laboratory']['
 
 # Separate campus facilities and source-date limits.
 fifty_first=json.loads((ROOT/'catalogue/fifty-first-batch-ids.json').read_text())
-assert fifty_first==batch['releases'][-1]['recordIds'] and len(fifty_first)==3
+assert fifty_first==batch['releases'][50]['recordIds'] and len(fifty_first)==3
 prior391=json.loads((ROOT/'catalogue/prior-391-preservation.json').read_text())
 assert len(prior391)==341
 for id,digest in prior391.items():
@@ -792,4 +792,20 @@ assert new51['auckland-city-motion-capture-flight-lab']['sourcePublishedAt'] is 
 assert new51['auckland-newmarket-wind-tunnel-drone-testing']['sourcePublishedAt']=='2026-09-01'
 assert 'distinct from the Newmarket' in new51['auckland-city-motion-capture-flight-lab']['reviewNotes']
 assert 'distinct from the City Campus' in new51['auckland-newmarket-wind-tunnel-drone-testing']['reviewNotes']
+
+# Swedish facilities, separate lab identities and conservative source dates.
+fifty_second=json.loads((ROOT/'catalogue/fifty-second-batch-ids.json').read_text())
+assert fifty_second==batch['releases'][-1]['recordIds'] and len(fifty_second)==3
+prior394=json.loads((ROOT/'catalogue/prior-394-preservation.json').read_text())
+assert len(prior394)==344
+for id,digest in prior394.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 394-record release changed'
+new52={p['id']:p for p in additions if p['id'] in fifty_second}
+assert all(p['country']=='Sweden' and p['sourceReviewedAt']=='2026-11-01' and p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' and p['sourceType']=='research' for p in new52.values())
+assert new52['lund-ljungbyhed-uas-lab']['sourcePublishedAt'] is None
+for id in ['ltu-lulea-concept-drone-arena','ltu-lulea-frost-drone-arena']:
+ assert new52[id]['sourcePublishedAt']=='2019-03-11'
+ assert 'Directory entry' in new52[id]['reportDateLabel']
+ assert 'separately listed' in new52[id]['reviewNotes']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
