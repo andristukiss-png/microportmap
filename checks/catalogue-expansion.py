@@ -622,7 +622,7 @@ assert 'not separate records' in new40['itg-coruna-experimentation-centre']['rev
 
 # Three US research enclosures, with historical expansion limits retained.
 forty_first=json.loads((ROOT/'catalogue/forty-first-batch-ids.json').read_text())
-assert forty_first==batch['releases'][-1]['recordIds'] and len(forty_first)==3
+assert forty_first==batch['releases'][40]['recordIds'] and len(forty_first)==3
 prior361=json.loads((ROOT/'catalogue/prior-361-preservation.json').read_text())
 assert len(prior361)==311
 for id,digest in prior361.items():
@@ -635,4 +635,20 @@ assert new41['uc-san-diego-aerodrome']['sourcePublishedAt']=='2018-01-25'
 assert new41['northeastern-burlington-ecuas']['sourcePublishedAt']=='2019-04-08'
 assert 'not counted or assumed completed' in new41['uc-san-diego-aerodrome']['reviewNotes']
 assert 'distinct from Cincinnati Police' in new41['uc-cincinnati-digital-futures-cage']['reviewNotes']
+
+# Distinct Sheffield teaching/research spaces and Manchester tracking arena.
+forty_second=json.loads((ROOT/'catalogue/forty-second-batch-ids.json').read_text())
+assert forty_second==batch['releases'][-1]['recordIds'] and len(forty_second)==3
+prior364=json.loads((ROOT/'catalogue/prior-364-preservation.json').read_text())
+assert len(prior364)==314
+for id,digest in prior364.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 364-record release changed'
+new42={p['id']:p for p in additions if p['id'] in forty_second}
+assert all(p['sourceReviewedAt']=='2026-11-01' and p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' and p['country']=='United Kingdom' for p in new42.values())
+assert new42['sheffield-kroto-drone-lab']['sourcePublishedAt'] is None
+assert new42['sheffield-diamond-drone-enclosure']['sourcePublishedAt'] is None
+assert new42['manchester-aerospace-tracking-arena']['sourcePublishedAt']=='2026-10-05'
+assert 'different camera count' in new42['sheffield-kroto-drone-lab']['reviewNotes']
+assert 'distinct from the Kroto' in new42['sheffield-diamond-drone-enclosure']['reviewNotes']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')

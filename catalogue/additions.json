@@ -10529,9 +10529,110 @@
       "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
       "researchBatch": "2026-11-01-cincinnati-san-diego-burlington-research",
       "supportingSources": []
+    },
+    {
+      "id": "sheffield-kroto-drone-lab",
+      "name": "Sheffield Kroto Sound and Motion Capture Lab",
+      "where": "Sheffield, England, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Sheffield / Sheffield Robotics",
+      "reportedEquipment": "Indoor small-drone research space, Vicon motion capture and microphone array",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 53.38,
+        "longitude": -1.47
+      },
+      "reportDateLabel": "Undated university facility page",
+      "description": "Sheffield describes a laboratory suitable for small drones, with motion capture and a separate control room.",
+      "source": {
+        "name": "University of Sheffield — Sound and Motion Capture Lab",
+        "url": "https://sheffield.ac.uk/sheffieldrobotics/kroto-research-institute-flying-lab"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "sheffield-kroto-drone-lab",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One lab in the Kroto building, distinct from the Diamond teaching enclosure. The supporting equipment page identifies the Kroto workspace but reports a different camera count from the lab page; no exact current count is asserted. The separate Mining Block camera system is not counted as another drone facility without specific flight evidence. The control room and equipment are not additional sites. Publication date is not displayed; copyright and crawl dates are not publication dates. Broad city coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-sheffield-manchester-research",
+      "supportingSources": [
+        {
+          "name": "University of Sheffield — Vicon systems and Kroto workspace",
+          "url": "https://sheffield.ac.uk/sheffieldrobotics/sheffield-robotics-facilities/vicon-mx-motion-capture-system"
+        }
+      ]
+    },
+    {
+      "id": "sheffield-diamond-drone-enclosure",
+      "name": "Sheffield Diamond drone teaching enclosure",
+      "where": "Sheffield, England, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "University of Sheffield / Diamond Engineering",
+      "reportedEquipment": "Netted flight-training area and commercial UAS drones",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 53.38,
+        "longitude": -1.47
+      },
+      "reportDateLabel": "Undated university facility page",
+      "description": "Sheffield lists a netted drone training area within its Diamond aerospace teaching laboratory.",
+      "source": {
+        "name": "University of Sheffield — Aerospace Lab Simulation and Propulsion",
+        "url": "https://sheffield.ac.uk/engineering/diamond-engineering/our-facilities/aerospace-lab-simulation-propulsion"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "sheffield-diamond-drone-enclosure",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "One physical flight enclosure in the Diamond aerospace laboratory, Room 1.05, distinct from the Kroto research lab. Software simulators, teaching aircraft and jet engines do not create extra drone sites. The page describes teaching and testing capability, not a commercial delivery hub. Publication date is not displayed; unrelated open-day dates and the university footer are not source dates or the exact enclosure location. Broad city coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-sheffield-manchester-research",
+      "supportingSources": []
+    },
+    {
+      "id": "manchester-aerospace-tracking-arena",
+      "name": "Manchester Aerospace Systems Laboratory drone arena",
+      "where": "Manchester, England, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "The University of Manchester / Aerospace Systems Laboratory",
+      "reportedEquipment": "Research drones and indoor tracking arena; model not specified",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 53.48,
+        "longitude": -2.24
+      },
+      "reportDateLabel": "5 October 2026",
+      "description": "Manchester reports a live drone demonstration inside the Aerospace Systems Laboratory tracking arena.",
+      "source": {
+        "name": "The University of Manchester — sustainable transport research showcase",
+        "url": "https://www.manchester.ac.uk/about/news/manchester-transport-research-and-innovation/"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "manchester-aerospace-tracking-arena",
+      "sourceReviewedAt": "2026-11-01",
+      "sourcePublishedAt": "2026-10-05",
+      "sourceType": "research",
+      "reviewNotes": "One indoor drone research arena. The six facilities visited during the transport showcase are not six drone sites. The article does not identify a precise room or aircraft model. The Engineering Building panel venue and the general Oxford Road footer do not independently locate the arena. Publication date is the news report date, not an asserted facility opening date. Broad city coordinates are not a building or landing point. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-01-sheffield-manchester-research",
+      "supportingSources": []
     }
   ],
-  "expectedTotal": 364,
+  "expectedTotal": 367,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -11050,6 +11151,14 @@
         "uc-cincinnati-digital-futures-cage",
         "uc-san-diego-aerodrome",
         "northeastern-burlington-ecuas"
+      ]
+    },
+    {
+      "id": "2026-11-01-sheffield-manchester-research",
+      "recordIds": [
+        "sheffield-kroto-drone-lab",
+        "sheffield-diamond-drone-enclosure",
+        "manchester-aerospace-tracking-arena"
       ]
     }
   ]
