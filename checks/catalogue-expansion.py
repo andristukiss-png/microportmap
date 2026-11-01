@@ -518,7 +518,7 @@ assert next(p for p in new_australian if p['id']=='unsw-canberra-lirta')['source
 
 # Distinct university arenas; no extra sites from equipment or office addresses.
 thirty_fourth=json.loads((ROOT/'catalogue/thirty-fourth-batch-ids.json').read_text())
-assert thirty_fourth==batch['releases'][-1]['recordIds'] and len(thirty_fourth)==2
+assert thirty_fourth==batch['releases'][33]['recordIds'] and len(thirty_fourth)==2
 prior340=json.loads((ROOT/'catalogue/prior-340-preservation.json').read_text())
 assert len(prior340)==290
 for id,digest in prior340.items():
@@ -529,4 +529,21 @@ assert {p['country'] for p in new_labs}=={'Australia','United States'}
 assert all(p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' and len(p['supportingSources'])==1 for p in new_labs)
 assert next(p for p in new_labs if p['id']=='houston-alaic-flight-arena')['sourcePublishedAt'] is None
 assert next(p for p in new_labs if p['id']=='federation-gippsland-flight-lab')['sourcePublishedAt']=='2025-11-04'
+
+# Preserve existing records and distinguish indoor/outdoor structures and source dates.
+thirty_fifth=json.loads((ROOT/'catalogue/thirty-fifth-batch-ids.json').read_text())
+assert thirty_fifth==batch['releases'][-1]['recordIds'] and len(thirty_fifth)==4
+prior342=json.loads((ROOT/'catalogue/prior-342-preservation.json').read_text())
+assert len(prior342)==292
+for id,digest in prior342.items():
+ p=next(p for p in additions if p['id']==id)
+ assert hashlib.sha256(json.dumps(p,ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest, 'Prior 342-record release changed'
+new_facilities={p['id']:p for p in additions if p['id'] in thirty_fifth}
+assert {p['country'] for p in new_facilities.values()}=={'Australia','Italy','Austria'}
+assert all(p['recordScope']=='test-centre' and p['reportedStatus']=='reported-operation' for p in new_facilities.values())
+assert new_facilities['cdu-katherine-air-f']['sourcePublishedAt']=='2025-09-09'
+assert new_facilities['naples-prisma-flare']['sourcePublishedAt'] is None
+assert new_facilities['klagenfurt-indoor-drone-hall']['sourcePublishedAt'] is None
+assert new_facilities['klagenfurt-outdoor-odsa']['sourcePublishedAt']=='2026-06-03'
+assert len(new_facilities['klagenfurt-outdoor-odsa']['supportingSources'])==2
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
