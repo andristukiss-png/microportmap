@@ -920,4 +920,11 @@ assert len(prior464)==414
 for id,digest in prior464.items():
  assert hashlib.sha256(json.dumps(by_id[id],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest
 assert all(by_id[id]['country']=='Canada' and by_id[id]['reportedStatus']=='historical' for id in canadian_ids)
+swedish_ids=json.loads((ROOT/'catalogue/sixty-fourth-batch-ids.json').read_text())
+assert swedish_ids==batch['releases'][63]['recordIds'] and len(set(swedish_ids))==6
+prior469=json.loads((ROOT/'catalogue/prior-469-preservation.json').read_text())
+assert len(prior469)==419
+for id,digest in prior469.items():
+ assert hashlib.sha256(json.dumps(by_id[id],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest
+assert all(by_id[id]['country']=='Sweden' and by_id[id]['recordScope']=='dispatch-site' for id in swedish_ids)
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')

@@ -14430,9 +14430,216 @@
       "coordinateBasis": "Editorial locality reference. Rounded community coordinates do not identify a launch or landing pad.",
       "researchBatch": "2026-11-02-canadian-cargo-trials",
       "supportingSources": []
+    },
+    {
+      "id": "sweden-kungalv-aed-station",
+      "name": "Kungälv defibrillator drone station",
+      "where": "Kungälv, Västra Götaland, Sweden",
+      "country": "Sweden",
+      "region": "Europe",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Västra Götalandsregionen prehospital drone project",
+      "reportedEquipment": "Drone equipped with an automated external defibrillator (AED)",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 57.87,
+        "longitude": 11.98
+      },
+      "reportDateLabel": "Regional project page updated 4 November 2024",
+      "description": "The regional health authority identifies Kungälv as one of five places where it stationed drones for its prehospital programme.",
+      "source": {
+        "name": "Västra Götalandsregionen — Prehospitala projekt",
+        "url": "https://www.vgregion.se/ov/innovationsplattformen/varden/innovationsprojekt/dronare2/pagaende-projekt/prehospitala-projekt/"
+      },
+      "verificationStatus": "Source-reported deployment; present operating status not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "dispatch-site",
+      "entityKey": "sweden-kungalv-aed-station",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "Figure 1 of the 2020 feasibility study maps a hangar in this study area. The source documents deployment at locality level. It does not establish current readiness, public access or an exact landing point.",
+      "coordinateBasis": "Editorial locality reference. Rounded coordinates mark the named locality only, not a hangar address.",
+      "researchBatch": "2026-11-02-swedish-defibrillator-drone-stations",
+      "supportingSources": [
+        {
+          "name": "Schierbeck et al. — European Heart Journal, Figure 1: study hangars",
+          "url": "https://doi.org/10.1093/eurheartj/ehab498"
+        }
+      ]
+    },
+    {
+      "id": "sweden-torslanda-aed-station",
+      "name": "Torslanda defibrillator drone station",
+      "where": "Torslanda, Västra Götaland, Sweden",
+      "country": "Sweden",
+      "region": "Europe",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Västra Götalandsregionen prehospital drone project",
+      "reportedEquipment": "Drone equipped with an automated external defibrillator (AED)",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 57.72,
+        "longitude": 11.77
+      },
+      "reportDateLabel": "Regional project page updated 4 November 2024",
+      "description": "The regional health authority identifies Torslanda as one of five places where it stationed drones for its prehospital programme.",
+      "source": {
+        "name": "Västra Götalandsregionen — Prehospitala projekt",
+        "url": "https://www.vgregion.se/ov/innovationsplattformen/varden/innovationsprojekt/dronare2/pagaende-projekt/prehospitala-projekt/"
+      },
+      "verificationStatus": "Source-reported deployment; present operating status not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "dispatch-site",
+      "entityKey": "sweden-torslanda-aed-station",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "Figure 1 of the 2020 feasibility study maps a hangar in this study area. The source documents deployment at locality level. It does not establish current readiness, public access or an exact landing point.",
+      "coordinateBasis": "Editorial locality reference. Rounded coordinates mark the named locality only, not a hangar address.",
+      "researchBatch": "2026-11-02-swedish-defibrillator-drone-stations",
+      "supportingSources": [
+        {
+          "name": "Schierbeck et al. — European Heart Journal, Figure 1: study hangars",
+          "url": "https://doi.org/10.1093/eurheartj/ehab498"
+        }
+      ]
+    },
+    {
+      "id": "sweden-fiskeback-aed-station",
+      "name": "Fiskebäck defibrillator drone station",
+      "where": "Fiskebäck, Västra Götaland, Sweden",
+      "country": "Sweden",
+      "region": "Europe",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Västra Götalandsregionen prehospital drone project",
+      "reportedEquipment": "Drone equipped with an automated external defibrillator (AED)",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 57.65,
+        "longitude": 11.85
+      },
+      "reportDateLabel": "Regional project page updated 4 November 2024",
+      "description": "The regional health authority identifies Fiskebäck as one of five places where it stationed drones for its prehospital programme.",
+      "source": {
+        "name": "Västra Götalandsregionen — Prehospitala projekt",
+        "url": "https://www.vgregion.se/ov/innovationsplattformen/varden/innovationsprojekt/dronare2/pagaende-projekt/prehospitala-projekt/"
+      },
+      "verificationStatus": "Source-reported deployment; present operating status not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "dispatch-site",
+      "entityKey": "sweden-fiskeback-aed-station",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "Figure 1 of the 2020 feasibility study maps a hangar in this study area. The source documents deployment at locality level. It does not establish current readiness, public access or an exact landing point.",
+      "coordinateBasis": "Editorial locality reference. Rounded coordinates mark the named locality only, not a hangar address.",
+      "researchBatch": "2026-11-02-swedish-defibrillator-drone-stations",
+      "supportingSources": [
+        {
+          "name": "Schierbeck et al. — European Heart Journal, Figure 1: study hangars",
+          "url": "https://doi.org/10.1093/eurheartj/ehab498"
+        }
+      ]
+    },
+    {
+      "id": "sweden-trollhattan-aed-station",
+      "name": "Trollhättan defibrillator drone station",
+      "where": "Trollhättan, Västra Götaland, Sweden",
+      "country": "Sweden",
+      "region": "Europe",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Västra Götalandsregionen prehospital drone project",
+      "reportedEquipment": "Drone equipped with an automated external defibrillator (AED)",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 58.28,
+        "longitude": 12.29
+      },
+      "reportDateLabel": "Regional project page updated 4 November 2024",
+      "description": "The regional health authority identifies Trollhättan as one of five places where it stationed drones for its prehospital programme.",
+      "source": {
+        "name": "Västra Götalandsregionen — Prehospitala projekt",
+        "url": "https://www.vgregion.se/ov/innovationsplattformen/varden/innovationsprojekt/dronare2/pagaende-projekt/prehospitala-projekt/"
+      },
+      "verificationStatus": "Source-reported deployment; present operating status not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "dispatch-site",
+      "entityKey": "sweden-trollhattan-aed-station",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "The source documents deployment at locality level. It does not establish current readiness, public access or an exact landing point.",
+      "coordinateBasis": "Editorial locality reference. Rounded coordinates mark the named locality only, not a hangar address.",
+      "researchBatch": "2026-11-02-swedish-defibrillator-drone-stations",
+      "supportingSources": []
+    },
+    {
+      "id": "sweden-vanersborg-aed-station",
+      "name": "Vänersborg defibrillator drone station",
+      "where": "Vänersborg, Västra Götaland, Sweden",
+      "country": "Sweden",
+      "region": "Europe",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Västra Götalandsregionen prehospital drone project",
+      "reportedEquipment": "Drone equipped with an automated external defibrillator (AED)",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 58.38,
+        "longitude": 12.32
+      },
+      "reportDateLabel": "Regional project page updated 4 November 2024",
+      "description": "The regional health authority identifies Vänersborg as one of five places where it stationed drones for its prehospital programme.",
+      "source": {
+        "name": "Västra Götalandsregionen — Prehospitala projekt",
+        "url": "https://www.vgregion.se/ov/innovationsplattformen/varden/innovationsprojekt/dronare2/pagaende-projekt/prehospitala-projekt/"
+      },
+      "verificationStatus": "Source-reported deployment; present operating status not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "dispatch-site",
+      "entityKey": "sweden-vanersborg-aed-station",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "The source documents deployment at locality level. It does not establish current readiness, public access or an exact landing point.",
+      "coordinateBasis": "Editorial locality reference. Rounded coordinates mark the named locality only, not a hangar address.",
+      "researchBatch": "2026-11-02-swedish-defibrillator-drone-stations",
+      "supportingSources": []
+    },
+    {
+      "id": "sweden-ostersund-aed-station",
+      "name": "Östersund defibrillator drone station",
+      "where": "Östersund, Jämtland, Sweden",
+      "country": "Sweden",
+      "region": "Europe",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Everdrone in cooperation with Green Flyway",
+      "reportedEquipment": "Everdrone EMADE system with an AED-equipped drone and hangar",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 63.18,
+        "longitude": 14.64
+      },
+      "reportDateLabel": "20 April 2022",
+      "description": "Everdrone reported launching an AED drone system with a hangar in Östersund in April 2022, following test flights.",
+      "source": {
+        "name": "Everdrone — Östersund system launch",
+        "url": "https://everdrone.com/news-article/everdrone-emade-system-live-and-ready-to-help-save-lives-in-ostersund-sweden"
+      },
+      "verificationStatus": "Source-reported deployment; present operating status not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "dispatch-site",
+      "entityKey": "sweden-ostersund-aed-station",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2022-04-20",
+      "sourceType": "operator",
+      "reviewNotes": "The source documents deployment at locality level. It does not establish current readiness, public access or an exact landing point.",
+      "coordinateBasis": "Editorial locality reference. Rounded coordinates mark the named locality only, not a hangar address.",
+      "researchBatch": "2026-11-02-swedish-defibrillator-drone-stations",
+      "supportingSources": []
     }
   ],
-  "expectedTotal": 469,
+  "expectedTotal": 475,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -15166,6 +15373,17 @@
         "canada-duncan-mobile-pharmacy",
         "canada-moosonee-cargo-pilot",
         "canada-moose-factory-cargo-pilot"
+      ]
+    },
+    {
+      "id": "2026-11-02-swedish-defibrillator-drone-stations",
+      "recordIds": [
+        "sweden-kungalv-aed-station",
+        "sweden-torslanda-aed-station",
+        "sweden-fiskeback-aed-station",
+        "sweden-trollhattan-aed-station",
+        "sweden-vanersborg-aed-station",
+        "sweden-ostersund-aed-station"
       ]
     }
   ]
