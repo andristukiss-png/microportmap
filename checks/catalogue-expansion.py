@@ -904,4 +904,13 @@ for id,digest in prior442.items():
  assert hashlib.sha256(json.dumps(by_id[id],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest
 assert sum(by_id[id]['sourcePublishedAt']=='2026-02-11' for id in phc_ids)==11
 assert all(by_id[id]['recordScope']=='trial-site' and by_id[id]['reportedStatus']=='historical' for id in phc_ids)
+# Two named dispatch hubs and eight logged return sites; exclude surveyed-only locations.
+drots_ids=json.loads((ROOT/'catalogue/sixty-second-batch-ids.json').read_text())
+assert drots_ids==batch['releases'][61]['recordIds'] and len(drots_ids)==10
+prior454=json.loads((ROOT/'catalogue/prior-454-preservation.json').read_text())
+assert len(prior454)==404
+for id,digest in prior454.items():
+ assert hashlib.sha256(json.dumps(by_id[id],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest
+assert sum(id.endswith('-hub') for id in drots_ids)==2
+assert all(by_id[id]['country']=='Nepal' and by_id[id]['reportedStatus']=='historical' for id in drots_ids)
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')

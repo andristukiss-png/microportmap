@@ -13890,9 +13890,379 @@
           "url": "https://www.icmr.gov.in/icmrobject/custom_data/pdf/annual-reports/ICMR_AR_English_2021_22_1.pdf"
         }
       ]
+    },
+    {
+      "id": "nepal-drots-pyuthan-hub",
+      "name": "Pyuthan District Hospital drone laboratory hub",
+      "where": "Pyuthan, Pyuthan district, Nepal",
+      "country": "Nepal",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "DrOTS collaboration: Birat Nepal Medical Trust / Nepal Flying Labs and project partners",
+      "reportedEquipment": "Medical cargo drone with a sample carrier",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 28.1,
+        "longitude": 82.85
+      },
+      "reportDateLabel": "Undated project report with 2019 flight logs",
+      "description": "Pyuthan District Hospital was one of two testing hubs that dispatched drones to rural health posts and received sputum specimens for tuberculosis diagnosis.",
+      "source": {
+        "name": "DrOTS project report — operations, route tables and Annex 3 flight log",
+        "url": "https://we-robotics.files.svdcdn.com/production/assets/Documents-Reports-PDF/DroTS-Report.pdf"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "nepal-drots-pyuthan-hub",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "The report identifies four operating routes from this hub: Dharmawati, Maranthana, Majhkot, Addapata. Dispatch and laboratory receipt are counted as one site. This is a historical project record; no present timetable or public access is established.",
+      "coordinateBasis": "Editorial locality reference. Rounded X/Y locations from section 4.1 of the DrOTS report; not surveyed pad coordinates.",
+      "researchBatch": "2026-11-02-nepal-drots-flight-log",
+      "supportingSources": [
+        {
+          "name": "Birat Nepal Medical Trust — annual report 2023/24, DrOTS project context",
+          "url": "https://bnmtnepal.org.np/wp-content/uploads/2024/11/annual-report-2023-24-web.pdf"
+        }
+      ]
+    },
+    {
+      "id": "nepal-drots-dharmawati-health-post",
+      "name": "Dharmawati health post specimen return",
+      "where": "Dharmawati, Pyuthan district, Nepal",
+      "country": "Nepal",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "DrOTS collaboration: Birat Nepal Medical Trust / Nepal Flying Labs and project partners",
+      "reportedEquipment": "Medical cargo drone with a sample carrier",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 28.13,
+        "longitude": 82.9
+      },
+      "reportDateLabel": "Undated project report with 2019 flight logs",
+      "description": "The DrOTS flight log records a return from Dharmawati to Pyuthan District Hospital on 16 December 2019 as part of the sputum collection service.",
+      "source": {
+        "name": "DrOTS project report — operations, route tables and Annex 3 flight log",
+        "url": "https://we-robotics.files.svdcdn.com/production/assets/Documents-Reports-PDF/DroTS-Report.pdf"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "nepal-drots-dharmawati-health-post",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "Annex 3 entry PH42 identifies this paired flight and records samples. The count belongs to the logged trip, not a current service rate. This is a historical project record; no present timetable or public access is established.",
+      "coordinateBasis": "Editorial locality reference. Rounded X/Y locations from section 4.1 of the DrOTS report; not surveyed pad coordinates.",
+      "researchBatch": "2026-11-02-nepal-drots-flight-log",
+      "supportingSources": [
+        {
+          "name": "Birat Nepal Medical Trust — annual report 2023/24, DrOTS project context",
+          "url": "https://bnmtnepal.org.np/wp-content/uploads/2024/11/annual-report-2023-24-web.pdf"
+        }
+      ]
+    },
+    {
+      "id": "nepal-drots-maranthana-health-post",
+      "name": "Maranthana health post specimen return",
+      "where": "Maranthana, Pyuthan district, Nepal",
+      "country": "Nepal",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "DrOTS collaboration: Birat Nepal Medical Trust / Nepal Flying Labs and project partners",
+      "reportedEquipment": "Medical cargo drone with a sample carrier",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 28.12,
+        "longitude": 82.91
+      },
+      "reportDateLabel": "Undated project report with 2019 flight logs",
+      "description": "The DrOTS flight log records a return from Maranthana to Pyuthan District Hospital on 16 December 2019 as part of the sputum collection service.",
+      "source": {
+        "name": "DrOTS project report — operations, route tables and Annex 3 flight log",
+        "url": "https://we-robotics.files.svdcdn.com/production/assets/Documents-Reports-PDF/DroTS-Report.pdf"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "nepal-drots-maranthana-health-post",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "Annex 3 entry PH43 identifies this paired flight and records samples. The count belongs to the logged trip, not a current service rate. This is a historical project record; no present timetable or public access is established.",
+      "coordinateBasis": "Editorial locality reference. Rounded X/Y locations from section 4.1 of the DrOTS report; not surveyed pad coordinates.",
+      "researchBatch": "2026-11-02-nepal-drots-flight-log",
+      "supportingSources": [
+        {
+          "name": "Birat Nepal Medical Trust — annual report 2023/24, DrOTS project context",
+          "url": "https://bnmtnepal.org.np/wp-content/uploads/2024/11/annual-report-2023-24-web.pdf"
+        }
+      ]
+    },
+    {
+      "id": "nepal-drots-majhkot-health-post",
+      "name": "Majhkot health post specimen return",
+      "where": "Majhkot, Pyuthan district, Nepal",
+      "country": "Nepal",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "DrOTS collaboration: Birat Nepal Medical Trust / Nepal Flying Labs and project partners",
+      "reportedEquipment": "Medical cargo drone with a sample carrier",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 28.15,
+        "longitude": 82.85
+      },
+      "reportDateLabel": "Undated project report with 2019 flight logs",
+      "description": "The DrOTS flight log records a return from Majhkot to Pyuthan District Hospital on 11 December 2019 as part of the sputum collection service.",
+      "source": {
+        "name": "DrOTS project report — operations, route tables and Annex 3 flight log",
+        "url": "https://we-robotics.files.svdcdn.com/production/assets/Documents-Reports-PDF/DroTS-Report.pdf"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "nepal-drots-majhkot-health-post",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "Annex 3 entry PH41 identifies this paired flight and records samples. The count belongs to the logged trip, not a current service rate. This is a historical project record; no present timetable or public access is established.",
+      "coordinateBasis": "Editorial locality reference. Rounded X/Y locations from section 4.1 of the DrOTS report; not surveyed pad coordinates.",
+      "researchBatch": "2026-11-02-nepal-drots-flight-log",
+      "supportingSources": [
+        {
+          "name": "Birat Nepal Medical Trust — annual report 2023/24, DrOTS project context",
+          "url": "https://bnmtnepal.org.np/wp-content/uploads/2024/11/annual-report-2023-24-web.pdf"
+        }
+      ]
+    },
+    {
+      "id": "nepal-drots-addapata-health-post",
+      "name": "Addapata health post specimen return",
+      "where": "Addapata, Pyuthan district, Nepal",
+      "country": "Nepal",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "DrOTS collaboration: Birat Nepal Medical Trust / Nepal Flying Labs and project partners",
+      "reportedEquipment": "Medical cargo drone with a sample carrier",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 28.11,
+        "longitude": 82.82
+      },
+      "reportDateLabel": "Undated project report with 2019 flight logs",
+      "description": "The DrOTS flight log records a return from Addapata to Pyuthan District Hospital on 9 December 2019 as part of the sputum collection service.",
+      "source": {
+        "name": "DrOTS project report — operations, route tables and Annex 3 flight log",
+        "url": "https://we-robotics.files.svdcdn.com/production/assets/Documents-Reports-PDF/DroTS-Report.pdf"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "nepal-drots-addapata-health-post",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "Annex 3 entry PH39 identifies this paired flight and records samples. The count belongs to the logged trip, not a current service rate. This is a historical project record; no present timetable or public access is established.",
+      "coordinateBasis": "Editorial locality reference. Rounded X/Y locations from section 4.1 of the DrOTS report; not surveyed pad coordinates.",
+      "researchBatch": "2026-11-02-nepal-drots-flight-log",
+      "supportingSources": [
+        {
+          "name": "Birat Nepal Medical Trust — annual report 2023/24, DrOTS project context",
+          "url": "https://bnmtnepal.org.np/wp-content/uploads/2024/11/annual-report-2023-24-web.pdf"
+        }
+      ]
+    },
+    {
+      "id": "nepal-drots-bhingri-hub",
+      "name": "Bhingri Primary Health Centre drone laboratory hub",
+      "where": "Bhingri, Pyuthan district, Nepal",
+      "country": "Nepal",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "DrOTS collaboration: Birat Nepal Medical Trust / Nepal Flying Labs and project partners",
+      "reportedEquipment": "Medical cargo drone with a sample carrier",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 28.14,
+        "longitude": 82.71
+      },
+      "reportDateLabel": "Undated project report with 2019 flight logs",
+      "description": "Bhingri Primary Health Centre was one of two testing hubs that dispatched drones to rural health posts and received sputum specimens for tuberculosis diagnosis.",
+      "source": {
+        "name": "DrOTS project report — operations, route tables and Annex 3 flight log",
+        "url": "https://we-robotics.files.svdcdn.com/production/assets/Documents-Reports-PDF/DroTS-Report.pdf"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "nepal-drots-bhingri-hub",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "The report identifies four operating routes from this hub: Shotre, Barjiwang, Saari, Gothiwang. Dispatch and laboratory receipt are counted as one site. This is a historical project record; no present timetable or public access is established.",
+      "coordinateBasis": "Editorial locality reference. Rounded X/Y locations from section 4.1 of the DrOTS report; not surveyed pad coordinates.",
+      "researchBatch": "2026-11-02-nepal-drots-flight-log",
+      "supportingSources": [
+        {
+          "name": "Birat Nepal Medical Trust — annual report 2023/24, DrOTS project context",
+          "url": "https://bnmtnepal.org.np/wp-content/uploads/2024/11/annual-report-2023-24-web.pdf"
+        }
+      ]
+    },
+    {
+      "id": "nepal-drots-shotre-health-post",
+      "name": "Shotre health post specimen return",
+      "where": "Shotre, Pyuthan district, Nepal",
+      "country": "Nepal",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "DrOTS collaboration: Birat Nepal Medical Trust / Nepal Flying Labs and project partners",
+      "reportedEquipment": "Medical cargo drone with a sample carrier",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 28.14,
+        "longitude": 82.72
+      },
+      "reportDateLabel": "Undated project report with 2019 flight logs",
+      "description": "The DrOTS flight log records a return from Shotre to Bhingri Primary Health Centre on 24 December 2019 as part of the sputum collection service.",
+      "source": {
+        "name": "DrOTS project report — operations, route tables and Annex 3 flight log",
+        "url": "https://we-robotics.files.svdcdn.com/production/assets/Documents-Reports-PDF/DroTS-Report.pdf"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "nepal-drots-shotre-health-post",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "Annex 3 entry BH58 identifies this paired flight and records samples. The count belongs to the logged trip, not a current service rate. This is a historical project record; no present timetable or public access is established.",
+      "coordinateBasis": "Editorial locality reference. Rounded X/Y locations from section 4.1 of the DrOTS report; not surveyed pad coordinates.",
+      "researchBatch": "2026-11-02-nepal-drots-flight-log",
+      "supportingSources": [
+        {
+          "name": "Birat Nepal Medical Trust — annual report 2023/24, DrOTS project context",
+          "url": "https://bnmtnepal.org.np/wp-content/uploads/2024/11/annual-report-2023-24-web.pdf"
+        }
+      ]
+    },
+    {
+      "id": "nepal-drots-barjiwang-health-post",
+      "name": "Barjiwang health post specimen return",
+      "where": "Barjiwang, Pyuthan district, Nepal",
+      "country": "Nepal",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "DrOTS collaboration: Birat Nepal Medical Trust / Nepal Flying Labs and project partners",
+      "reportedEquipment": "Medical cargo drone with a sample carrier",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 28.13,
+        "longitude": 82.77
+      },
+      "reportDateLabel": "Undated project report with 2019 flight logs",
+      "description": "The DrOTS flight log records a return from Barjiwang to Bhingri Primary Health Centre on 10 December 2019 as part of the sputum collection service.",
+      "source": {
+        "name": "DrOTS project report — operations, route tables and Annex 3 flight log",
+        "url": "https://we-robotics.files.svdcdn.com/production/assets/Documents-Reports-PDF/DroTS-Report.pdf"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "nepal-drots-barjiwang-health-post",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "Annex 3 entry BH51 identifies this paired flight and records samples. The count belongs to the logged trip, not a current service rate. The log also uses Barjibang for the same route. This is a historical project record; no present timetable or public access is established.",
+      "coordinateBasis": "Editorial locality reference. Rounded X/Y locations from section 4.1 of the DrOTS report; not surveyed pad coordinates.",
+      "researchBatch": "2026-11-02-nepal-drots-flight-log",
+      "supportingSources": [
+        {
+          "name": "Birat Nepal Medical Trust — annual report 2023/24, DrOTS project context",
+          "url": "https://bnmtnepal.org.np/wp-content/uploads/2024/11/annual-report-2023-24-web.pdf"
+        }
+      ]
+    },
+    {
+      "id": "nepal-drots-saari-health-post",
+      "name": "Saari health post specimen return",
+      "where": "Saari, Pyuthan district, Nepal",
+      "country": "Nepal",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "DrOTS collaboration: Birat Nepal Medical Trust / Nepal Flying Labs and project partners",
+      "reportedEquipment": "Medical cargo drone with a sample carrier",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 28.18,
+        "longitude": 82.7
+      },
+      "reportDateLabel": "Undated project report with 2019 flight logs",
+      "description": "The DrOTS flight log records a return from Saari to Bhingri Primary Health Centre on 15 December 2019 as part of the sputum collection service.",
+      "source": {
+        "name": "DrOTS project report — operations, route tables and Annex 3 flight log",
+        "url": "https://we-robotics.files.svdcdn.com/production/assets/Documents-Reports-PDF/DroTS-Report.pdf"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "nepal-drots-saari-health-post",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "Annex 3 entry BH53 identifies this paired flight and records samples. The count belongs to the logged trip, not a current service rate. This is a historical project record; no present timetable or public access is established.",
+      "coordinateBasis": "Editorial locality reference. Rounded X/Y locations from section 4.1 of the DrOTS report; not surveyed pad coordinates.",
+      "researchBatch": "2026-11-02-nepal-drots-flight-log",
+      "supportingSources": [
+        {
+          "name": "Birat Nepal Medical Trust — annual report 2023/24, DrOTS project context",
+          "url": "https://bnmtnepal.org.np/wp-content/uploads/2024/11/annual-report-2023-24-web.pdf"
+        }
+      ]
+    },
+    {
+      "id": "nepal-drots-gothiwang-health-post",
+      "name": "Gothiwang health post specimen return",
+      "where": "Gothiwang, Pyuthan district, Nepal",
+      "country": "Nepal",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "DrOTS collaboration: Birat Nepal Medical Trust / Nepal Flying Labs and project partners",
+      "reportedEquipment": "Medical cargo drone with a sample carrier",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 28.11,
+        "longitude": 82.75
+      },
+      "reportDateLabel": "Undated project report with 2019 flight logs",
+      "description": "The DrOTS flight log records a return from Gothiwang to Bhingri Primary Health Centre on 15 December 2019 as part of the sputum collection service.",
+      "source": {
+        "name": "DrOTS project report — operations, route tables and Annex 3 flight log",
+        "url": "https://we-robotics.files.svdcdn.com/production/assets/Documents-Reports-PDF/DroTS-Report.pdf"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "nepal-drots-gothiwang-health-post",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "Annex 3 entry BH52 identifies this paired flight and records samples. The count belongs to the logged trip, not a current service rate. The log also uses Gothibang for the same route. This is a historical project record; no present timetable or public access is established.",
+      "coordinateBasis": "Editorial locality reference. Rounded X/Y locations from section 4.1 of the DrOTS report; not surveyed pad coordinates.",
+      "researchBatch": "2026-11-02-nepal-drots-flight-log",
+      "supportingSources": [
+        {
+          "name": "Birat Nepal Medical Trust — annual report 2023/24, DrOTS project context",
+          "url": "https://bnmtnepal.org.np/wp-content/uploads/2024/11/annual-report-2023-24-web.pdf"
+        }
+      ]
     }
   ],
-  "expectedTotal": 454,
+  "expectedTotal": 464,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -14601,6 +14971,21 @@
         "telangana-munipampula-phc",
         "telangana-addagudur-phc",
         "mokokchung-cmo-idrone-trial"
+      ]
+    },
+    {
+      "id": "2026-11-02-nepal-drots-flight-log",
+      "recordIds": [
+        "nepal-drots-pyuthan-hub",
+        "nepal-drots-dharmawati-health-post",
+        "nepal-drots-maranthana-health-post",
+        "nepal-drots-majhkot-health-post",
+        "nepal-drots-addapata-health-post",
+        "nepal-drots-bhingri-hub",
+        "nepal-drots-shotre-health-post",
+        "nepal-drots-barjiwang-health-post",
+        "nepal-drots-saari-health-post",
+        "nepal-drots-gothiwang-health-post"
       ]
     }
   ]
