@@ -876,4 +876,14 @@ for id,digest in prior418.items():
  assert hashlib.sha256(json.dumps(by_id[id],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest
 assert all(by_id[id]['reportedStatus']=='historical' and by_id[id]['recordScope']=='trial-site' for id in return_ids)
 assert 'simulated samples' in by_id['lilongwe-area-25-drone-trial']['reportedEquipment']
+# A service launch is distinct from a documented flight, and a receiving site counts only with return cargo evidence.
+india_ids=json.loads((ROOT/'catalogue/fifty-ninth-batch-ids.json').read_text())
+assert india_ids==batch['releases'][58]['recordIds'] and len(india_ids)==14
+prior421=json.loads((ROOT/'catalogue/prior-421-preservation.json').read_text())
+assert len(prior421)==371
+for id,digest in prior421.items():
+ assert hashlib.sha256(json.dumps(by_id[id],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest
+assert sum(by_id[id]['sourcePublishedAt']=='2024-10-29' for id in india_ids)==11
+assert all(by_id[id]['country']=='India' for id in india_ids)
+assert 'blood samples' in by_id['tangi-chc-sample-return']['description']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
