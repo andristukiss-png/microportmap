@@ -13398,9 +13398,501 @@
       "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
       "researchBatch": "2026-11-02-india-clinical-cargo-flights",
       "supportingSources": []
+    },
+    {
+      "id": "telangana-gundala-phc",
+      "name": "Gundala Primary Health Centre TB transport study",
+      "where": "Gundala, Yadadri Bhuvanagiri district, Telangana, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "ICMR i-DRONE study / AIIMS Bibinagar coordination",
+      "reportedEquipment": "Medical sample transport drones; no aircraft assigned to this centre in the report",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 17.51,
+        "longitude": 79.29
+      },
+      "reportDateLabel": "Study published 11 February 2026",
+      "description": "The study map places Gundala Primary Health Centre in the Alair TB unit group. The research team used drones to move sputum collected at peripheral facilities to diagnostic units.",
+      "source": {
+        "name": "Kamble et al. — Drone-based sputum transport for TB diagnosis, Figure 1 and methods",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12991481/"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "telangana-gundala-phc",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2026-02-11",
+      "sourceType": "research",
+      "reviewNotes": "One named study facility in Figure 1. The paper documents the intervention across its network; it does not give a flight manifest, sample count or dedicated pad for Gundala. Its affiliated subcentres are not separately counted. The marker is a broad locality reference, not a facility coordinate or a verified landing point.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-telangana-phcs-mokokchung",
+      "supportingSources": [
+        {
+          "name": "ICMR — Telangana TB transport feasibility study",
+          "url": "https://idrone.icmr.org.in/phasedes/7/"
+        },
+        {
+          "name": "Telangana district government — health facilities directory",
+          "url": "https://yadadri.telangana.gov.in/health/"
+        }
+      ]
+    },
+    {
+      "id": "telangana-rajapet-phc",
+      "name": "Rajapet Primary Health Centre TB transport study",
+      "where": "Rajapet, Yadadri Bhuvanagiri district, Telangana, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "ICMR i-DRONE study / AIIMS Bibinagar coordination",
+      "reportedEquipment": "Medical sample transport drones; no aircraft assigned to this centre in the report",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 17.73,
+        "longitude": 78.92
+      },
+      "reportDateLabel": "Study published 11 February 2026",
+      "description": "The study map places Rajapet Primary Health Centre in the Alair TB unit group. The research team used drones to move sputum collected at peripheral facilities to diagnostic units.",
+      "source": {
+        "name": "Kamble et al. — Drone-based sputum transport for TB diagnosis, Figure 1 and methods",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12991481/"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "telangana-rajapet-phc",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2026-02-11",
+      "sourceType": "research",
+      "reviewNotes": "One named study facility in Figure 1. The paper documents the intervention across its network; it does not give a flight manifest, sample count or dedicated pad for Rajapet. Its affiliated subcentres are not separately counted. The marker is a broad locality reference, not a facility coordinate or a verified landing point.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-telangana-phcs-mokokchung",
+      "supportingSources": [
+        {
+          "name": "ICMR — Telangana TB transport feasibility study",
+          "url": "https://idrone.icmr.org.in/phasedes/7/"
+        },
+        {
+          "name": "Telangana district government — health facilities directory",
+          "url": "https://yadadri.telangana.gov.in/health/"
+        }
+      ]
+    },
+    {
+      "id": "telangana-thurkapally-phc",
+      "name": "Thurkapally Primary Health Centre TB transport study",
+      "where": "Thurkapally, Yadadri Bhuvanagiri district, Telangana, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "ICMR i-DRONE study / AIIMS Bibinagar coordination",
+      "reportedEquipment": "Medical sample transport drones; no aircraft assigned to this centre in the report",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 17.66,
+        "longitude": 78.83
+      },
+      "reportDateLabel": "Study published 11 February 2026",
+      "description": "The study map places Thurkapally Primary Health Centre in the Bhongir TB unit group. The research team used drones to move sputum collected at peripheral facilities to diagnostic units.",
+      "source": {
+        "name": "Kamble et al. — Drone-based sputum transport for TB diagnosis, Figure 1 and methods",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12991481/"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "telangana-thurkapally-phc",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2026-02-11",
+      "sourceType": "research",
+      "reviewNotes": "One named study facility in Figure 1. The paper documents the intervention across its network; it does not give a flight manifest, sample count or dedicated pad for Thurkapally. Its affiliated subcentres are not separately counted. The map abbreviates this centre as M Thurkapally. The marker is a broad locality reference, not a facility coordinate or a verified landing point.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-telangana-phcs-mokokchung",
+      "supportingSources": [
+        {
+          "name": "ICMR — Telangana TB transport feasibility study",
+          "url": "https://idrone.icmr.org.in/phasedes/7/"
+        },
+        {
+          "name": "Telangana district government — health facilities directory",
+          "url": "https://yadadri.telangana.gov.in/health/"
+        }
+      ]
+    },
+    {
+      "id": "telangana-bommalaramaram-phc",
+      "name": "Bommalaramaram Primary Health Centre TB transport study",
+      "where": "Bommalaramaram, Yadadri Bhuvanagiri district, Telangana, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "ICMR i-DRONE study / AIIMS Bibinagar coordination",
+      "reportedEquipment": "Medical sample transport drones; no aircraft assigned to this centre in the report",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 17.59,
+        "longitude": 78.76
+      },
+      "reportDateLabel": "Study published 11 February 2026",
+      "description": "The study map places Bommalaramaram Primary Health Centre in the Bhongir TB unit group. The research team used drones to move sputum collected at peripheral facilities to diagnostic units.",
+      "source": {
+        "name": "Kamble et al. — Drone-based sputum transport for TB diagnosis, Figure 1 and methods",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12991481/"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "telangana-bommalaramaram-phc",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2026-02-11",
+      "sourceType": "research",
+      "reviewNotes": "One named study facility in Figure 1. The paper documents the intervention across its network; it does not give a flight manifest, sample count or dedicated pad for Bommalaramaram. Its affiliated subcentres are not separately counted. The marker is a broad locality reference, not a facility coordinate or a verified landing point.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-telangana-phcs-mokokchung",
+      "supportingSources": [
+        {
+          "name": "ICMR — Telangana TB transport feasibility study",
+          "url": "https://idrone.icmr.org.in/phasedes/7/"
+        },
+        {
+          "name": "Telangana district government — health facilities directory",
+          "url": "https://yadadri.telangana.gov.in/health/"
+        }
+      ]
+    },
+    {
+      "id": "telangana-kondamadugu-phc",
+      "name": "Kondamadugu Primary Health Centre TB transport study",
+      "where": "Kondamadugu, Yadadri Bhuvanagiri district, Telangana, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "ICMR i-DRONE study / AIIMS Bibinagar coordination",
+      "reportedEquipment": "Medical sample transport drones; no aircraft assigned to this centre in the report",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 17.49,
+        "longitude": 78.77
+      },
+      "reportDateLabel": "Study published 11 February 2026",
+      "description": "The study map places Kondamadugu Primary Health Centre in the Bhongir TB unit group. The research team used drones to move sputum collected at peripheral facilities to diagnostic units.",
+      "source": {
+        "name": "Kamble et al. — Drone-based sputum transport for TB diagnosis, Figure 1 and methods",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12991481/"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "telangana-kondamadugu-phc",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2026-02-11",
+      "sourceType": "research",
+      "reviewNotes": "One named study facility in Figure 1. The paper documents the intervention across its network; it does not give a flight manifest, sample count or dedicated pad for Kondamadugu. Its affiliated subcentres are not separately counted. The marker is a broad locality reference, not a facility coordinate or a verified landing point.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-telangana-phcs-mokokchung",
+      "supportingSources": [
+        {
+          "name": "ICMR — Telangana TB transport feasibility study",
+          "url": "https://idrone.icmr.org.in/phasedes/7/"
+        },
+        {
+          "name": "Telangana district government — health facilities directory",
+          "url": "https://yadadri.telangana.gov.in/health/"
+        }
+      ]
+    },
+    {
+      "id": "telangana-bollepally-phc",
+      "name": "Bollepally Primary Health Centre TB transport study",
+      "where": "Bollepally, Yadadri Bhuvanagiri district, Telangana, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "ICMR i-DRONE study / AIIMS Bibinagar coordination",
+      "reportedEquipment": "Medical sample transport drones; no aircraft assigned to this centre in the report",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 17.41,
+        "longitude": 78.93
+      },
+      "reportDateLabel": "Study published 11 February 2026",
+      "description": "The study map places Bollepally Primary Health Centre in the Bhongir TB unit group. The research team used drones to move sputum collected at peripheral facilities to diagnostic units.",
+      "source": {
+        "name": "Kamble et al. — Drone-based sputum transport for TB diagnosis, Figure 1 and methods",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12991481/"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "telangana-bollepally-phc",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2026-02-11",
+      "sourceType": "research",
+      "reviewNotes": "One named study facility in Figure 1. The paper documents the intervention across its network; it does not give a flight manifest, sample count or dedicated pad for Bollepally. Its affiliated subcentres are not separately counted. The marker is a broad locality reference, not a facility coordinate or a verified landing point.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-telangana-phcs-mokokchung",
+      "supportingSources": [
+        {
+          "name": "ICMR — Telangana TB transport feasibility study",
+          "url": "https://idrone.icmr.org.in/phasedes/7/"
+        },
+        {
+          "name": "Telangana district government — health facilities directory",
+          "url": "https://yadadri.telangana.gov.in/health/"
+        }
+      ]
+    },
+    {
+      "id": "telangana-pochampally-phc",
+      "name": "Pochampally Primary Health Centre TB transport study",
+      "where": "Pochampally, Yadadri Bhuvanagiri district, Telangana, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "ICMR i-DRONE study / AIIMS Bibinagar coordination",
+      "reportedEquipment": "Medical sample transport drones; no aircraft assigned to this centre in the report",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 17.35,
+        "longitude": 78.82
+      },
+      "reportDateLabel": "Study published 11 February 2026",
+      "description": "The study map places Pochampally Primary Health Centre in the Choutuppal TB unit group. The research team used drones to move sputum collected at peripheral facilities to diagnostic units.",
+      "source": {
+        "name": "Kamble et al. — Drone-based sputum transport for TB diagnosis, Figure 1 and methods",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12991481/"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "telangana-pochampally-phc",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2026-02-11",
+      "sourceType": "research",
+      "reviewNotes": "One named study facility in Figure 1. The paper documents the intervention across its network; it does not give a flight manifest, sample count or dedicated pad for Pochampally. Its affiliated subcentres are not separately counted. The marker is a broad locality reference, not a facility coordinate or a verified landing point.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-telangana-phcs-mokokchung",
+      "supportingSources": [
+        {
+          "name": "ICMR — Telangana TB transport feasibility study",
+          "url": "https://idrone.icmr.org.in/phasedes/7/"
+        },
+        {
+          "name": "Telangana district government — health facilities directory",
+          "url": "https://yadadri.telangana.gov.in/health/"
+        }
+      ]
+    },
+    {
+      "id": "telangana-narayanpur-phc",
+      "name": "Narayanpur Primary Health Centre TB transport study",
+      "where": "Narayanpur, Yadadri Bhuvanagiri district, Telangana, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "ICMR i-DRONE study / AIIMS Bibinagar coordination",
+      "reportedEquipment": "Medical sample transport drones; no aircraft assigned to this centre in the report",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 17.16,
+        "longitude": 78.88
+      },
+      "reportDateLabel": "Study published 11 February 2026",
+      "description": "The study map places Narayanpur Primary Health Centre in the Choutuppal TB unit group. The research team used drones to move sputum collected at peripheral facilities to diagnostic units.",
+      "source": {
+        "name": "Kamble et al. — Drone-based sputum transport for TB diagnosis, Figure 1 and methods",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12991481/"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "telangana-narayanpur-phc",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2026-02-11",
+      "sourceType": "research",
+      "reviewNotes": "One named study facility in Figure 1. The paper documents the intervention across its network; it does not give a flight manifest, sample count or dedicated pad for Narayanpur. Its affiliated subcentres are not separately counted. The marker is a broad locality reference, not a facility coordinate or a verified landing point.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-telangana-phcs-mokokchung",
+      "supportingSources": [
+        {
+          "name": "ICMR — Telangana TB transport feasibility study",
+          "url": "https://idrone.icmr.org.in/phasedes/7/"
+        },
+        {
+          "name": "Telangana district government — health facilities directory",
+          "url": "https://yadadri.telangana.gov.in/health/"
+        }
+      ]
+    },
+    {
+      "id": "telangana-varkatpally-phc",
+      "name": "Varkatpally Primary Health Centre TB transport study",
+      "where": "Varkatpally, Yadadri Bhuvanagiri district, Telangana, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "ICMR i-DRONE study / AIIMS Bibinagar coordination",
+      "reportedEquipment": "Medical sample transport drones; no aircraft assigned to this centre in the report",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 17.34,
+        "longitude": 78.94
+      },
+      "reportDateLabel": "Study published 11 February 2026",
+      "description": "The study map places Varkatpally Primary Health Centre in the Ramannapet TB unit group. The research team used drones to move sputum collected at peripheral facilities to diagnostic units.",
+      "source": {
+        "name": "Kamble et al. — Drone-based sputum transport for TB diagnosis, Figure 1 and methods",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12991481/"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "telangana-varkatpally-phc",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2026-02-11",
+      "sourceType": "research",
+      "reviewNotes": "One named study facility in Figure 1. The paper documents the intervention across its network; it does not give a flight manifest, sample count or dedicated pad for Varkatpally. Its affiliated subcentres are not separately counted. The marker is a broad locality reference, not a facility coordinate or a verified landing point.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-telangana-phcs-mokokchung",
+      "supportingSources": [
+        {
+          "name": "ICMR — Telangana TB transport feasibility study",
+          "url": "https://idrone.icmr.org.in/phasedes/7/"
+        },
+        {
+          "name": "Telangana district government — health facilities directory",
+          "url": "https://yadadri.telangana.gov.in/health/"
+        }
+      ]
+    },
+    {
+      "id": "telangana-munipampula-phc",
+      "name": "Munipampula Primary Health Centre TB transport study",
+      "where": "Munipampula, Yadadri Bhuvanagiri district, Telangana, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "ICMR i-DRONE study / AIIMS Bibinagar coordination",
+      "reportedEquipment": "Medical sample transport drones; no aircraft assigned to this centre in the report",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 17.32,
+        "longitude": 79.15
+      },
+      "reportDateLabel": "Study published 11 February 2026",
+      "description": "The study map places Munipampula Primary Health Centre in the Ramannapet TB unit group. The research team used drones to move sputum collected at peripheral facilities to diagnostic units.",
+      "source": {
+        "name": "Kamble et al. — Drone-based sputum transport for TB diagnosis, Figure 1 and methods",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12991481/"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "telangana-munipampula-phc",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2026-02-11",
+      "sourceType": "research",
+      "reviewNotes": "One named study facility in Figure 1. The paper documents the intervention across its network; it does not give a flight manifest, sample count or dedicated pad for Munipampula. Its affiliated subcentres are not separately counted. The marker is a broad locality reference, not a facility coordinate or a verified landing point.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-telangana-phcs-mokokchung",
+      "supportingSources": [
+        {
+          "name": "ICMR — Telangana TB transport feasibility study",
+          "url": "https://idrone.icmr.org.in/phasedes/7/"
+        },
+        {
+          "name": "Telangana district government — health facilities directory",
+          "url": "https://yadadri.telangana.gov.in/health/"
+        }
+      ]
+    },
+    {
+      "id": "telangana-addagudur-phc",
+      "name": "Addagudur Primary Health Centre TB transport study",
+      "where": "Addagudur, Yadadri Bhuvanagiri district, Telangana, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "ICMR i-DRONE study / AIIMS Bibinagar coordination",
+      "reportedEquipment": "Medical sample transport drones; no aircraft assigned to this centre in the report",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 17.4,
+        "longitude": 79.37
+      },
+      "reportDateLabel": "Study published 11 February 2026",
+      "description": "The study map places Addagudur Primary Health Centre in the Ramannapet TB unit group. The research team used drones to move sputum collected at peripheral facilities to diagnostic units.",
+      "source": {
+        "name": "Kamble et al. — Drone-based sputum transport for TB diagnosis, Figure 1 and methods",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12991481/"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "telangana-addagudur-phc",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2026-02-11",
+      "sourceType": "research",
+      "reviewNotes": "One named study facility in Figure 1. The paper documents the intervention across its network; it does not give a flight manifest, sample count or dedicated pad for Addagudur. Its affiliated subcentres are not separately counted. The marker is a broad locality reference, not a facility coordinate or a verified landing point.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-telangana-phcs-mokokchung",
+      "supportingSources": [
+        {
+          "name": "ICMR — Telangana TB transport feasibility study",
+          "url": "https://idrone.icmr.org.in/phasedes/7/"
+        },
+        {
+          "name": "Telangana district government — health facilities directory",
+          "url": "https://yadadri.telangana.gov.in/health/"
+        }
+      ]
+    },
+    {
+      "id": "mokokchung-cmo-idrone-trial",
+      "name": "Mokokchung district medical office drone trial",
+      "where": "Mokokchung, Nagaland, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "ICMR i-DRONE / Nagaland state health authorities",
+      "reportedEquipment": "Drone used in medical supply feasibility study; model unspecified",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 26.32,
+        "longitude": 94.51
+      },
+      "reportDateLabel": "State release dated 14 December 2021",
+      "description": "Nagaland’s information department identifies the Chief Medical Officer’s Office as the starting point for the 14 December 2021 launch to Longsa Primary Health Centre.",
+      "source": {
+        "name": "Nagaland DIPR — i-DRONE launch at Mokokchung",
+        "url": "https://ipr.nagaland.gov.in/icmr-drone-resource-and-outreach-launched-mokokchung"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "mokokchung-cmo-idrone-trial",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2021-12-14",
+      "sourceType": "government",
+      "reviewNotes": "ICMR describes the origin more broadly as the district health centre. These accounts refer to the same launch, counted once. The state notice does not specify the consignment on that particular flight. Longsa is not separately counted as a dispatch site. The marker is a broad locality reference, not a facility coordinate or a verified landing point.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-telangana-phcs-mokokchung",
+      "supportingSources": [
+        {
+          "name": "ICMR — North East implementation study",
+          "url": "https://idrone.icmr.org.in/phasedes/3/"
+        },
+        {
+          "name": "ICMR — 2021–22 annual report",
+          "url": "https://www.icmr.gov.in/icmrobject/custom_data/pdf/annual-reports/ICMR_AR_English_2021_22_1.pdf"
+        }
+      ]
     }
   ],
-  "expectedTotal": 442,
+  "expectedTotal": 454,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -14092,6 +14584,23 @@
         "sonipat-shroff-corneal-dispatch",
         "karkala-tma-pai-tissue-dispatch",
         "batahidia-char-diagnostic-dispatch"
+      ]
+    },
+    {
+      "id": "2026-11-02-telangana-phcs-mokokchung",
+      "recordIds": [
+        "telangana-gundala-phc",
+        "telangana-rajapet-phc",
+        "telangana-thurkapally-phc",
+        "telangana-bommalaramaram-phc",
+        "telangana-kondamadugu-phc",
+        "telangana-bollepally-phc",
+        "telangana-pochampally-phc",
+        "telangana-narayanpur-phc",
+        "telangana-varkatpally-phc",
+        "telangana-munipampula-phc",
+        "telangana-addagudur-phc",
+        "mokokchung-cmo-idrone-trial"
       ]
     }
   ]

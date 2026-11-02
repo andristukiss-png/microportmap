@@ -895,4 +895,13 @@ for id,digest in prior435.items():
  assert hashlib.sha256(json.dumps(by_id[id],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest
 assert all(by_id[id]['country']=='India' and by_id[id]['reportedStatus']=='historical' for id in clinical_ids)
 assert 'diagnostic reports' in by_id['jhalma-report-return']['description']
+# Eleven named PHCs, not every subcentre, plus a single Nagaland trial origin.
+phc_ids=json.loads((ROOT/'catalogue/sixty-first-batch-ids.json').read_text())
+assert phc_ids==batch['releases'][60]['recordIds'] and len(phc_ids)==12
+prior442=json.loads((ROOT/'catalogue/prior-442-preservation.json').read_text())
+assert len(prior442)==392
+for id,digest in prior442.items():
+ assert hashlib.sha256(json.dumps(by_id[id],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest
+assert sum(by_id[id]['sourcePublishedAt']=='2026-02-11' for id in phc_ids)==11
+assert all(by_id[id]['recordScope']=='trial-site' and by_id[id]['reportedStatus']=='historical' for id in phc_ids)
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
