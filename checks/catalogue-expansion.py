@@ -867,4 +867,13 @@ for id,digest in prior412.items():
  assert hashlib.sha256(json.dumps(by_id[id],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest
 assert [by_id[id]['reportedStatus'] for id in medical_ids]==['reported-operation']*2+['historical']*4
 assert by_id['widjifake-health-centre-return']['recordScope']=='trial-site'
+# Preserve historical records; distinguish carried supplies from simulated diagnostic samples.
+return_ids=json.loads((ROOT/'catalogue/fifty-eighth-batch-ids.json').read_text())
+assert return_ids==batch['releases'][57]['recordIds'] and len(return_ids)==3
+prior418=json.loads((ROOT/'catalogue/prior-418-preservation.json').read_text())
+assert len(prior418)==368
+for id,digest in prior418.items():
+ assert hashlib.sha256(json.dumps(by_id[id],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest
+assert all(by_id[id]['reportedStatus']=='historical' and by_id[id]['recordScope']=='trial-site' for id in return_ids)
+assert 'simulated samples' in by_id['lilongwe-area-25-drone-trial']['reportedEquipment']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
