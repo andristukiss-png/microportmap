@@ -848,4 +848,14 @@ for id,digest in prior403.items():
  assert hashlib.sha256(json.dumps(by_id[id],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest
 assert [by_id[id]['reportedStatus'] for id in latest_ids]==['reported-operation','historical','announced']
 assert [by_id[id]['sourcePublishedAt'] for id in latest_ids]==[None,'2022-07-26','2026-03-20']
+# Count each named FAA proposal once; retain the existing Clermont record.
+fl_ids=json.loads((ROOT/'catalogue/fifty-sixth-batch-ids.json').read_text())
+assert fl_ids==batch['releases'][55]['recordIds'] and len(fl_ids)==6
+prior406=json.loads((ROOT/'catalogue/prior-406-preservation.json').read_text())
+assert len(prior406)==356
+for id,digest in prior406.items():
+ assert hashlib.sha256(json.dumps(by_id[id],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest
+assert len({by_id[id]['where'] for id in fl_ids})==6
+assert all(by_id[id]['reportedStatus']=='announced' and by_id[id]['recordScope']=='delivery-hub' for id in fl_ids)
+assert all('Johns Lake' not in by_id[id]['where'] for id in fl_ids)
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')

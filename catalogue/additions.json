@@ -1,6 +1,6 @@
 {
   "batch": "2026-10-28-cumulative-reviewed-additions",
-  "reviewedAt": "2026-10-30",
+  "reviewedAt": "2026-11-02",
   "records": [
     {
       "id": "zipline-omenako",
@@ -12116,9 +12116,231 @@
           "url": "https://projekte.rheinisches-revier.de/bewilligte-projekte/projektdetails/center-for-vertical-mobility-cvm"
         }
       ]
+    },
+    {
+      "id": "wing-fl-largo-missouri",
+      "name": "Largo Missouri Avenue proposed drone delivery hub",
+      "where": "990 Missouri Ave N, Largo, Florida, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Wing Aviation (proposed)",
+      "reportedEquipment": "Wing Hummingbird aircraft proposed for the regional programme; site deployment unconfirmed",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 27.91,
+        "longitude": -82.79
+      },
+      "reportDateLabel": "May 2025 final environmental assessment",
+      "description": "The FAA lists the Walmart at 990 Missouri Ave N in Largo as a proposed origin for Wing drone deliveries.",
+      "source": {
+        "name": "FAA — Central Florida final environmental assessment, Table 2.2-1",
+        "url": "https://www.faa.gov/sites/faa.gov/files/06272025_Final_EA_Wing_Central_Florida.pdf"
+      },
+      "verificationStatus": "Proposed site in environmental review; opening and deliveries not established",
+      "reportedStatus": "announced",
+      "recordScope": "delivery-hub",
+      "entityKey": "wing-fl-largo-missouri",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "One proposed nest at the named Missouri Avenue store. The FAA lists it separately from the other initial sites. The address identifies the proposal; the map marker represents the city only. The regional decision does not show installation, first flight, present service or public access at this address.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-florida-proposed-delivery-nests",
+      "supportingSources": [
+        {
+          "name": "FAA — Central Florida environmental decision, 30 May 2025",
+          "url": "https://www.faa.gov/uas/advanced_operations/nepa_and_drones/20250530_Wing_Central_FL_EA_FONSI-ROD_Signed.pdf"
+        }
+      ]
+    },
+    {
+      "id": "wing-fl-brandon-causeway",
+      "name": "Brandon Causeway Boulevard proposed drone delivery hub",
+      "where": "11110 Causeway Blvd, Brandon, Florida, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Wing Aviation (proposed)",
+      "reportedEquipment": "Wing Hummingbird aircraft proposed for the regional programme; site deployment unconfirmed",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 27.94,
+        "longitude": -82.29
+      },
+      "reportDateLabel": "May 2025 final environmental assessment",
+      "description": "The FAA lists the Walmart at 11110 Causeway Blvd in Brandon as a proposed origin for Wing drone deliveries.",
+      "source": {
+        "name": "FAA — Central Florida final environmental assessment, Table 2.2-1",
+        "url": "https://www.faa.gov/sites/faa.gov/files/06272025_Final_EA_Wing_Central_Florida.pdf"
+      },
+      "verificationStatus": "Proposed site in environmental review; opening and deliveries not established",
+      "reportedStatus": "announced",
+      "recordScope": "delivery-hub",
+      "entityKey": "wing-fl-brandon-causeway",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "One proposed nest at the named Causeway Boulevard store. The FAA lists it separately from the other initial sites. The address identifies the proposal; the map marker represents the city only. The regional decision does not show installation, first flight, present service or public access at this address.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-florida-proposed-delivery-nests",
+      "supportingSources": [
+        {
+          "name": "FAA — Central Florida environmental decision, 30 May 2025",
+          "url": "https://www.faa.gov/uas/advanced_operations/nepa_and_drones/20250530_Wing_Central_FL_EA_FONSI-ROD_Signed.pdf"
+        }
+      ]
+    },
+    {
+      "id": "wing-fl-plant-city-redman",
+      "name": "Plant City James L Redman Parkway proposed drone delivery hub",
+      "where": "2601 James L Redman Pkwy, Plant City, Florida, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Wing Aviation (proposed)",
+      "reportedEquipment": "Wing Hummingbird aircraft proposed for the regional programme; site deployment unconfirmed",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 28.02,
+        "longitude": -82.11
+      },
+      "reportDateLabel": "May 2025 final environmental assessment",
+      "description": "The FAA lists the Walmart at 2601 James L Redman Pkwy in Plant City as a proposed origin for Wing drone deliveries.",
+      "source": {
+        "name": "FAA — Central Florida final environmental assessment, Table 2.2-1",
+        "url": "https://www.faa.gov/sites/faa.gov/files/06272025_Final_EA_Wing_Central_Florida.pdf"
+      },
+      "verificationStatus": "Proposed site in environmental review; opening and deliveries not established",
+      "reportedStatus": "announced",
+      "recordScope": "delivery-hub",
+      "entityKey": "wing-fl-plant-city-redman",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "One proposed nest at the named James L Redman Parkway store. The FAA lists it separately from the other initial sites. The address identifies the proposal; the map marker represents the city only. The regional decision does not show installation, first flight, present service or public access at this address.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-florida-proposed-delivery-nests",
+      "supportingSources": [
+        {
+          "name": "FAA — Central Florida environmental decision, 30 May 2025",
+          "url": "https://www.faa.gov/uas/advanced_operations/nepa_and_drones/20250530_Wing_Central_FL_EA_FONSI-ROD_Signed.pdf"
+        }
+      ]
+    },
+    {
+      "id": "wing-fl-orlando-turkey-lake",
+      "name": "Orlando Turkey Lake Road proposed drone delivery hub",
+      "where": "8990 Turkey Lake Rd, Orlando, Florida, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Wing Aviation (proposed)",
+      "reportedEquipment": "Wing Hummingbird aircraft proposed for the regional programme; site deployment unconfirmed",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 28.54,
+        "longitude": -81.38
+      },
+      "reportDateLabel": "May 2025 final environmental assessment",
+      "description": "The FAA lists the Walmart at 8990 Turkey Lake Rd in Orlando as a proposed origin for Wing drone deliveries.",
+      "source": {
+        "name": "FAA — Central Florida final environmental assessment, Table 2.2-1",
+        "url": "https://www.faa.gov/sites/faa.gov/files/06272025_Final_EA_Wing_Central_Florida.pdf"
+      },
+      "verificationStatus": "Proposed site in environmental review; opening and deliveries not established",
+      "reportedStatus": "announced",
+      "recordScope": "delivery-hub",
+      "entityKey": "wing-fl-orlando-turkey-lake",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "One proposed nest at the named Turkey Lake Road store. The FAA lists it separately from the other initial sites. The address identifies the proposal; the map marker represents the city only. The regional decision does not show installation, first flight, present service or public access at this address.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-florida-proposed-delivery-nests",
+      "supportingSources": [
+        {
+          "name": "FAA — Central Florida environmental decision, 30 May 2025",
+          "url": "https://www.faa.gov/uas/advanced_operations/nepa_and_drones/20250530_Wing_Central_FL_EA_FONSI-ROD_Signed.pdf"
+        }
+      ]
+    },
+    {
+      "id": "wing-fl-orlando-east-colonial",
+      "name": "Orlando East Colonial Drive proposed drone delivery hub",
+      "where": "11250 E Colonial Dr, Orlando, Florida, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Wing Aviation (proposed)",
+      "reportedEquipment": "Wing Hummingbird aircraft proposed for the regional programme; site deployment unconfirmed",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 28.54,
+        "longitude": -81.38
+      },
+      "reportDateLabel": "May 2025 final environmental assessment",
+      "description": "The FAA lists the Walmart at 11250 E Colonial Dr in Orlando as a proposed origin for Wing drone deliveries.",
+      "source": {
+        "name": "FAA — Central Florida final environmental assessment, Table 2.2-1",
+        "url": "https://www.faa.gov/sites/faa.gov/files/06272025_Final_EA_Wing_Central_Florida.pdf"
+      },
+      "verificationStatus": "Proposed site in environmental review; opening and deliveries not established",
+      "reportedStatus": "announced",
+      "recordScope": "delivery-hub",
+      "entityKey": "wing-fl-orlando-east-colonial",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "One proposed nest at the named East Colonial Drive store. The FAA lists it separately from the other initial sites. The address identifies the proposal; the map marker represents the city only. The regional decision does not show installation, first flight, present service or public access at this address.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-florida-proposed-delivery-nests",
+      "supportingSources": [
+        {
+          "name": "FAA — Central Florida environmental decision, 30 May 2025",
+          "url": "https://www.faa.gov/uas/advanced_operations/nepa_and_drones/20250530_Wing_Central_FL_EA_FONSI-ROD_Signed.pdf"
+        }
+      ]
+    },
+    {
+      "id": "wing-fl-kissimmee-old-lake-wilson",
+      "name": "Kissimmee Old Lake Wilson Road proposed drone delivery hub",
+      "where": "2855 N Old Lake Wilson Rd, Kissimmee, Florida, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Cargo hub",
+      "reportedOperator": "Wing Aviation (proposed)",
+      "reportedEquipment": "Wing Hummingbird aircraft proposed for the regional programme; site deployment unconfirmed",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 28.29,
+        "longitude": -81.41
+      },
+      "reportDateLabel": "May 2025 final environmental assessment",
+      "description": "The FAA lists the Walmart at 2855 N Old Lake Wilson Rd in Kissimmee as a proposed origin for Wing drone deliveries.",
+      "source": {
+        "name": "FAA — Central Florida final environmental assessment, Table 2.2-1",
+        "url": "https://www.faa.gov/sites/faa.gov/files/06272025_Final_EA_Wing_Central_Florida.pdf"
+      },
+      "verificationStatus": "Proposed site in environmental review; opening and deliveries not established",
+      "reportedStatus": "announced",
+      "recordScope": "delivery-hub",
+      "entityKey": "wing-fl-kissimmee-old-lake-wilson",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "One proposed nest at the named Old Lake Wilson Road store. The FAA lists it separately from the other initial sites. The address identifies the proposal; the map marker represents the city only. The regional decision does not show installation, first flight, present service or public access at this address.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-florida-proposed-delivery-nests",
+      "supportingSources": [
+        {
+          "name": "FAA — Central Florida environmental decision, 30 May 2025",
+          "url": "https://www.faa.gov/uas/advanced_operations/nepa_and_drones/20250530_Wing_Central_FL_EA_FONSI-ROD_Signed.pdf"
+        }
+      ]
     }
   ],
-  "expectedTotal": 406,
+  "expectedTotal": 412,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -12749,6 +12971,17 @@
         "twente-airport-unmanned-test-site",
         "tecnico-oeiras-taguspark-flight-arena",
         "aldenhoven-center-for-vertical-mobility"
+      ]
+    },
+    {
+      "id": "2026-11-02-florida-proposed-delivery-nests",
+      "recordIds": [
+        "wing-fl-largo-missouri",
+        "wing-fl-brandon-causeway",
+        "wing-fl-plant-city-redman",
+        "wing-fl-orlando-turkey-lake",
+        "wing-fl-orlando-east-colonial",
+        "wing-fl-kissimmee-old-lake-wilson"
       ]
     }
   ]
