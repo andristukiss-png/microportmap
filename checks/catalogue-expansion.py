@@ -826,7 +826,7 @@ assert 'timed out' in new53['tecnico-lisbon-idmec-robotics-arena']['reviewNotes'
 
 # Shared research arenas: dates and preservation.
 fifty_fourth=json.loads((ROOT/'catalogue/fifty-fourth-batch-ids.json').read_text())
-assert fifty_fourth==batch['releases'][-1]['recordIds'] and len(fifty_fourth)==3
+assert fifty_fourth==batch['releases'][53]['recordIds'] and len(fifty_fourth)==3
 prior400=json.loads((ROOT/'catalogue/prior-400-preservation.json').read_text())
 assert len(prior400)==350
 for id,digest in prior400.items():
@@ -838,4 +838,14 @@ assert all(p['sourcePublishedAt'] is None and p['sourceReviewedAt']=='2026-11-01
 assert 'approval-free' in new54['dlr-braunschweig-drone-cage']['reviewNotes']
 assert 'subsystem validation' in new54['burgos-milanera-drone-laboratory']['reviewNotes']
 assert 'No dedicated arena' in new54['twente-enschede-itc-uav-lab']['reviewNotes']
+# Preserve the previous catalogue and distinguish operating, historical and announced sites.
+latest_ids=json.loads((ROOT/'catalogue/fifty-fifth-batch-ids.json').read_text())
+assert latest_ids==batch['releases'][54]['recordIds']
+prior403=json.loads((ROOT/'catalogue/prior-403-preservation.json').read_text())
+assert len(prior403)==353
+by_id={p['id']:p for p in additions}
+for id,digest in prior403.items():
+ assert hashlib.sha256(json.dumps(by_id[id],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest
+assert [by_id[id]['reportedStatus'] for id in latest_ids]==['reported-operation','historical','announced']
+assert [by_id[id]['sourcePublishedAt'] for id in latest_ids]==[None,'2022-07-26','2026-03-20']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
