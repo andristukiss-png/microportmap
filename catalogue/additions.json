@@ -12001,9 +12001,124 @@
           "url": "https://www.utwente.nl/en/itc/about-itc/contact/"
         }
       ]
+    },
+    {
+      "id": "twente-airport-unmanned-test-site",
+      "name": "Twente Airport unmanned flight test site",
+      "where": "Enschede, Netherlands",
+      "country": "Netherlands",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Twente Airport",
+      "reportedEquipment": "Airport test area for experimental unmanned aircraft",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 52.22,
+        "longitude": 6.9
+      },
+      "reportDateLabel": "Undated airport facility description",
+      "description": "Twente Airport describes an airport test environment for experimental drones at Technology Base.",
+      "source": {
+        "name": "Twente Airport — unmanned systems",
+        "url": "https://www.twente-airport.nl/en/unmanned-systems"
+      },
+      "verificationStatus": "Source-reported operation; current operation not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "entityKey": "twente-airport-unmanned-test-site",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "The airport site is separate from the university ITC UAV Lab. Space53 is a cluster associated with the airport, not another site. The demonstration programme describes a fictitious hospital and simulated missions; neither is evidence of a hospital port or routine deliveries. The dated integration of Space53 is not the facility-page publication date. Coordinates represent the locality only. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-enschede-oeiras-aldenhoven",
+      "supportingSources": [
+        {
+          "name": "Twente Airport — AMU-LED demonstration scenarios",
+          "url": "https://www.twente-airport.nl/en/news/test-flights-of-transport-drones-from-twente-airport-and-over-urban-area-enschede"
+        }
+      ]
+    },
+    {
+      "id": "tecnico-oeiras-taguspark-flight-arena",
+      "name": "Técnico Taguspark flight arena",
+      "where": "Oeiras, Portugal",
+      "country": "Portugal",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Instituto Superior Técnico / Institute for Systems and Robotics",
+      "reportedEquipment": "Drone research arena and experimental sensor communications",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 38.69,
+        "longitude": -9.31
+      },
+      "reportDateLabel": "26 July 2022",
+      "description": "Técnico reported drone-system testing in the flight arena on its Taguspark campus during the FirePuma research project.",
+      "source": {
+        "name": "Técnico — FirePuma research at Taguspark",
+        "url": "https://tecnico.ulisboa.pt/pt/noticias/projeto-do-tecnico-ajuda-a-vigiar-incendios/"
+      },
+      "verificationStatus": "Historical test activity; current site use not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "test-centre",
+      "entityKey": "tecnico-oeiras-taguspark-flight-arena",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2022-07-26",
+      "sourceType": "research",
+      "reviewNotes": "This is the Taguspark campus arena in Oeiras, distinct from the IDMEC Robotics Arena recorded in Lisbon. The 2022 article distinguishes tests in the arena from successful simulation and planned field flights. It does not establish a deployed wildfire surveillance service. Coordinates represent the locality only. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-enschede-oeiras-aldenhoven",
+      "supportingSources": [
+        {
+          "name": "ISR — research laboratory locations",
+          "url": "https://isr.tecnico.ulisboa.pt/contacts/"
+        },
+        {
+          "name": "Técnico Oeiras — Taguspark campus",
+          "url": "https://oeiras.tecnico.ulisboa.pt/en/2023/11/03/algerian-delegation-visits-the-taguspark-campus/"
+        }
+      ]
+    },
+    {
+      "id": "aldenhoven-center-for-vertical-mobility",
+      "name": "Aldenhoven Center for Vertical Mobility",
+      "where": "Aldenhoven, Germany",
+      "country": "Germany",
+      "region": "Europe",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "RWTH Aachen University (project lead)",
+      "reportedEquipment": "Planned vertical-flight research and testing infrastructure",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 50.9,
+        "longitude": 6.28
+      },
+      "reportDateLabel": "20 March 2026",
+      "description": "A March 2026 report documents the start of construction of a permanent vertical-mobility research centre beside the Aldenhoven Testing Center.",
+      "source": {
+        "name": "Aldenhoven Testing Center — groundbreaking for the CVM",
+        "url": "https://www.aldenhoven-testing-center.de/en/blog/groundbreaking-ceremony-for-the-center-for-vertical-mobility-cvm-in-aldenhoven.html"
+      },
+      "verificationStatus": "Announced in source; operational commencement not established",
+      "reportedStatus": "announced",
+      "recordScope": "test-centre",
+      "entityKey": "aldenhoven-center-for-vertical-mobility",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2026-03-20",
+      "sourceType": "operator",
+      "reviewNotes": "The report was published on 20 March and dates the groundbreaking to 17 March. Construction does not establish commissioning or current flight operations at the permanent facility. The adjacent automotive testing centre is a separate site; temporary infrastructure and planned components are not counted as additional ports. Coordinates represent the locality only. Current operation, access and flight permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-enschede-oeiras-aldenhoven",
+      "supportingSources": [
+        {
+          "name": "Rheinisches Revier — CVM programme and scope",
+          "url": "https://projekte.rheinisches-revier.de/bewilligte-projekte/projektdetails/center-for-vertical-mobility-cvm"
+        }
+      ]
     }
   ],
-  "expectedTotal": 403,
+  "expectedTotal": 406,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -12626,6 +12741,14 @@
         "dlr-braunschweig-drone-cage",
         "burgos-milanera-drone-laboratory",
         "twente-enschede-itc-uav-lab"
+      ]
+    },
+    {
+      "id": "2026-11-02-enschede-oeiras-aldenhoven",
+      "recordIds": [
+        "twente-airport-unmanned-test-site",
+        "tecnico-oeiras-taguspark-flight-arena",
+        "aldenhoven-center-for-vertical-mobility"
       ]
     }
   ]
