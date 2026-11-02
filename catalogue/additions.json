@@ -12338,9 +12338,231 @@
           "url": "https://www.faa.gov/uas/advanced_operations/nepa_and_drones/20250530_Wing_Central_FL_EA_FONSI-ROD_Signed.pdf"
         }
       ]
+    },
+    {
+      "id": "wingcopter-kasungu-district-hospital",
+      "name": "Kasungu District Hospital medical drone pickup",
+      "where": "Kasungu, Malawi",
+      "country": "Malawi",
+      "region": "Africa",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Wingcopter",
+      "reportedEquipment": "Medical delivery drones; specific aircraft model not established for this pickup",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": -13.03,
+        "longitude": 33.48
+      },
+      "reportDateLabel": "Undated operator account",
+      "description": "Wingcopter identifies Kasungu District Hospital as a pickup point for medicines and vaccines distributed by drone.",
+      "source": {
+        "name": "Wingcopter — Malawi operations",
+        "url": "https://wsd.wingcopter.com/malawi-operations"
+      },
+      "verificationStatus": "Source-reported activity; present operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "hospital campus",
+      "entityKey": "wingcopter-kasungu-district-hospital",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "The existing Kasungu Aerodrome record describes a testing corridor, not this hospital. The operator documents the hospital pickup, not a dedicated pad, a site-level flight count or a current timetable. The map point represents the locality, not an exact launch or landing point.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-medical-drone-logistics",
+      "supportingSources": [
+        {
+          "name": "Wingcopter — on-demand medical delivery project",
+          "url": "https://wingcopter.com/project/malawi_medical_delivery"
+        }
+      ]
+    },
+    {
+      "id": "wingcopter-ntchisi-district-hospital",
+      "name": "Ntchisi District Hospital medical drone pickup",
+      "where": "Ntchisi, Malawi",
+      "country": "Malawi",
+      "region": "Africa",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Wingcopter",
+      "reportedEquipment": "Medical delivery drones; specific aircraft model not established for this pickup",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": -13.36,
+        "longitude": 33.92
+      },
+      "reportDateLabel": "Undated operator account",
+      "description": "Wingcopter identifies Ntchisi District Hospital as a pickup point for medicines and vaccines distributed by drone.",
+      "source": {
+        "name": "Wingcopter — Malawi operations",
+        "url": "https://wsd.wingcopter.com/malawi-operations"
+      },
+      "verificationStatus": "Source-reported activity; present operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "hospital campus",
+      "entityKey": "wingcopter-ntchisi-district-hospital",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "The operator lists Ntchisi separately from Kasungu District Hospital. The operator documents the hospital pickup, not a dedicated pad, a site-level flight count or a current timetable. The map point represents the locality, not an exact launch or landing point.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-medical-drone-logistics",
+      "supportingSources": [
+        {
+          "name": "Wingcopter — on-demand medical delivery project",
+          "url": "https://wingcopter.com/project/malawi_medical_delivery"
+        }
+      ]
+    },
+    {
+      "id": "mbandaka-epi-vaccine-dispatch",
+      "name": "Mbandaka EPI vaccine distribution centre",
+      "where": "Mbandaka, Democratic Republic of the Congo",
+      "country": "Democratic Republic of the Congo",
+      "region": "Africa",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Swoop Aero / provincial immunization programme / VillageReach",
+      "reportedEquipment": "Electric fixed-wing vertical-takeoff delivery drones",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 0.05,
+        "longitude": 18.26
+      },
+      "reportDateLabel": "Phase 1 report submitted 31 October 2019",
+      "description": "VillageReach identifies the immunization programme’s Mbandaka distribution centre as the departure site for vaccine flights to Widjifake.",
+      "source": {
+        "name": "VillageReach — DRC Phase 1 final report",
+        "url": "https://www.villagereach.org/wp-content/uploads/2020/10/DRC-Phase-1-Drone-Report_for-VR-website_with-deliverables.pdf"
+      },
+      "verificationStatus": "Source-reported activity; present operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "distribution-centre",
+      "entityKey": "mbandaka-epi-vaccine-dispatch",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "Mbandaka airport coordinated traffic; it was not the reported dispatch site. This entry describes the 2019 trial, not current routine service. The map point represents the locality, not an exact launch or landing point.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-medical-drone-logistics",
+      "supportingSources": [
+        {
+          "name": "VillageReach — Drones for Health in the DRC",
+          "url": "https://www.villagereach.org/project/drones-for-health-in-the-drc/"
+        }
+      ]
+    },
+    {
+      "id": "widjifake-health-centre-return",
+      "name": "Widjifake health centre drone return site",
+      "where": "Widjifake, Bikoro health zone, Democratic Republic of the Congo",
+      "country": "Democratic Republic of the Congo",
+      "region": "Africa",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Swoop Aero / provincial immunization programme / VillageReach",
+      "reportedEquipment": "Electric fixed-wing vertical-takeoff delivery drones",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": -0.23,
+        "longitude": 18.27
+      },
+      "reportDateLabel": "Phase 1 report submitted 31 October 2019",
+      "description": "The health centre received vaccines by drone and dispatched specimens on a documented return flight to Mbandaka.",
+      "source": {
+        "name": "VillageReach — DRC Phase 1 final report",
+        "url": "https://www.villagereach.org/wp-content/uploads/2020/10/DRC-Phase-1-Drone-Report_for-VR-website_with-deliverables.pdf"
+      },
+      "verificationStatus": "Source-reported activity; present operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "widjifake-health-centre-return",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "Counted because the operator flew return cargo from this site. Downstream facilities reached by motorcycle are excluded. This entry describes the 2019 trial, not current routine service. The map point represents the locality, not an exact launch or landing point.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-medical-drone-logistics",
+      "supportingSources": [
+        {
+          "name": "VillageReach — Drones for Health in the DRC",
+          "url": "https://www.villagereach.org/project/drones-for-health-in-the-drc/"
+        }
+      ]
+    },
+    {
+      "id": "takara-efate-medical-drone-trial",
+      "name": "Takara airstrip drone trial origin",
+      "where": "Takara, North Efate, Vanuatu",
+      "country": "Vanuatu",
+      "region": "Oceania",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Swoop Aero (logged flights) / Vanuatu Ministry of Health",
+      "reportedEquipment": "Trial delivery drone",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": -17.54,
+        "longitude": 168.45
+      },
+      "reportDateLabel": "Operator report dated 2 May 2019",
+      "description": "Swoop Aero logged outbound and return trial legs at Takara in December 2018. UNICEF identified the old airstrip as the test origin.",
+      "source": {
+        "name": "Swoop Aero — Vanuatu project final report, hosted by UNICEF",
+        "url": "https://www.unicef.org/innovation/media/11951/file/Reference%203.7.%20Project%20Final%20Report_SWOOP%20AERO.pdf"
+      },
+      "verificationStatus": "Source-reported activity; present operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "takara-efate-medical-drone-trial",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "These were trial flights. The record does not assert that patients received vaccinations at the airstrip or that a routine service followed. The map point represents the locality, not an exact launch or landing point.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-medical-drone-logistics",
+      "supportingSources": [
+        {
+          "name": "UNICEF — launch of the North Efate trials",
+          "url": "https://www.unicef.org/pacificislands/press-releases/drones-take-vanuatu-sky-test-last-mile-vaccine-delivery-children"
+        }
+      ]
+    },
+    {
+      "id": "vaemali-epi-vaccine-base",
+      "name": "Vaemali vaccine dispatch base",
+      "where": "Vaemali, Epi Island, Vanuatu",
+      "country": "Vanuatu",
+      "region": "Oceania",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Swoop Aero / Vanuatu health workers",
+      "reportedEquipment": "On-demand medical delivery drone",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": -16.59,
+        "longitude": 168.19
+      },
+      "reportDateLabel": "Operator report dated 2 May 2019",
+      "description": "Swoop Aero describes vaccine requests placed with its Vaemali base and fulfilled by drone for immunization visits.",
+      "source": {
+        "name": "Swoop Aero — Vanuatu project final report, hosted by UNICEF",
+        "url": "https://www.unicef.org/innovation/media/11951/file/Reference%203.7.%20Project%20Final%20Report_SWOOP%20AERO.pdf"
+      },
+      "verificationStatus": "Source-reported activity; present operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "distribution-centre",
+      "entityKey": "vaemali-epi-vaccine-base",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "This is a dispatch base on Epi. Schools visited by nurses are not counted as separate sites. The previously listed Dillon’s Bay trial took place on Erromango. The map point represents the locality, not an exact launch or landing point.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-medical-drone-logistics",
+      "supportingSources": [
+        {
+          "name": "UNICEF — Vanuatu vaccine delivery programme",
+          "url": "https://www.unicef.org/innovation/drones/vanuatu-commercial-contracts-for-vaccine-delivery"
+        }
+      ]
     }
   ],
-  "expectedTotal": 412,
+  "expectedTotal": 418,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -12982,6 +13204,17 @@
         "wing-fl-orlando-turkey-lake",
         "wing-fl-orlando-east-colonial",
         "wing-fl-kissimmee-old-lake-wilson"
+      ]
+    },
+    {
+      "id": "2026-11-02-medical-drone-logistics",
+      "recordIds": [
+        "wingcopter-kasungu-district-hospital",
+        "wingcopter-ntchisi-district-hospital",
+        "mbandaka-epi-vaccine-dispatch",
+        "widjifake-health-centre-return",
+        "takara-efate-medical-drone-trial",
+        "vaemali-epi-vaccine-base"
       ]
     }
   ]

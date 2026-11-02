@@ -858,4 +858,13 @@ for id,digest in prior406.items():
 assert len({by_id[id]['where'] for id in fl_ids})==6
 assert all(by_id[id]['reportedStatus']=='announced' and by_id[id]['recordScope']=='delivery-hub' for id in fl_ids)
 assert all('Johns Lake' not in by_id[id]['where'] for id in fl_ids)
+# Preserve all prior records and the distinction between a reported pickup and a historical trial.
+medical_ids=json.loads((ROOT/'catalogue/fifty-seventh-batch-ids.json').read_text())
+assert medical_ids==batch['releases'][56]['recordIds'] and len(medical_ids)==6
+prior412=json.loads((ROOT/'catalogue/prior-412-preservation.json').read_text())
+assert len(prior412)==362
+for id,digest in prior412.items():
+ assert hashlib.sha256(json.dumps(by_id[id],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest
+assert [by_id[id]['reportedStatus'] for id in medical_ids]==['reported-operation']*2+['historical']*4
+assert by_id['widjifake-health-centre-return']['recordScope']=='trial-site'
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
