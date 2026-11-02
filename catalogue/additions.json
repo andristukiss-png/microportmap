@@ -14260,9 +14260,179 @@
           "url": "https://bnmtnepal.org.np/wp-content/uploads/2024/11/annual-report-2023-24-web.pdf"
         }
       ]
+    },
+    {
+      "id": "canada-fraser-lake-medicine-centre",
+      "name": "Fraser Lake Medicine Centre drone trial",
+      "where": "Fraser Lake, British Columbia, Canada",
+      "country": "Canada",
+      "region": "North America",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Drone Delivery Canada with UBC and community partners",
+      "reportedEquipment": "Sparrow drone and DroneSpot infrastructure",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 54.06,
+        "longitude": -124.85
+      },
+      "reportDateLabel": "2026-06-25",
+      "description": "The project identifies the medicine centre as the Fraser Lake endpoint for flights testing medical cargo transport to Stellat’en First Nation.",
+      "source": {
+        "name": "Stellat’en First Nation — Drone Transport Initiative",
+        "url": "https://www.stellaten.ca/drone-transport-initiative/"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "canada-fraser-lake-medicine-centre",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2026-06-25",
+      "sourceType": "operator",
+      "reviewNotes": "Phase I used surrogate medical cargo. Flight totals refer to the route; current service and the exact pad location are unconfirmed.",
+      "coordinateBasis": "Editorial locality reference. Rounded community coordinates do not identify a launch or landing pad.",
+      "researchBatch": "2026-11-02-canadian-cargo-trials",
+      "supportingSources": [
+        {
+          "name": "Drone Delivery Canada — two-way route and DroneSpots",
+          "url": "https://www.newswire.ca/news-releases/drone-delivery-canada-announces-approval-for-commercial-bvlos-drone-delivery-operations-for-ubc-s-remote-communities-dti-program-810341026.html"
+        }
+      ]
+    },
+    {
+      "id": "canada-stellaten-dronespot",
+      "name": "Stellat’en First Nation drone trial site",
+      "where": "Stellat’en First Nation, British Columbia, Canada",
+      "country": "Canada",
+      "region": "North America",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Drone Delivery Canada with UBC and community partners",
+      "reportedEquipment": "Sparrow drone and DroneSpot infrastructure",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 54.05,
+        "longitude": -124.92
+      },
+      "reportDateLabel": "2026-06-25",
+      "description": "The project established a dedicated drone site in the community, paired with Fraser Lake for medical transport trials.",
+      "source": {
+        "name": "Stellat’en First Nation — Drone Transport Initiative",
+        "url": "https://www.stellaten.ca/drone-transport-initiative/"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "canada-stellaten-dronespot",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2026-06-25",
+      "sourceType": "operator",
+      "reviewNotes": "Phase I used surrogate medical cargo. Flight totals refer to the route; current service and the exact pad location are unconfirmed.",
+      "coordinateBasis": "Editorial locality reference. Rounded community coordinates do not identify a launch or landing pad.",
+      "researchBatch": "2026-11-02-canadian-cargo-trials",
+      "supportingSources": [
+        {
+          "name": "Drone Delivery Canada — two-way route and DroneSpots",
+          "url": "https://www.newswire.ca/news-releases/drone-delivery-canada-announces-approval-for-commercial-bvlos-drone-delivery-operations-for-ubc-s-remote-communities-dti-program-810341026.html"
+        }
+      ]
+    },
+    {
+      "id": "canada-duncan-mobile-pharmacy",
+      "name": "Duncan mobile pharmacy drone dispatch",
+      "where": "Duncan, British Columbia, Canada",
+      "country": "Canada",
+      "region": "North America",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "InDro Robotics with London Drugs and Canada Post",
+      "reportedEquipment": "Cargo drone",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 48.78,
+        "longitude": -123.71
+      },
+      "reportDateLabel": "2019-08-29",
+      "description": "On 19 August 2019 the trial team dispatched emergency medication from a mobile London Drugs facility in Duncan to Salt Spring Island.",
+      "source": {
+        "name": "London Drugs — emergency medication flight trial",
+        "url": "https://www.globenewswire.com/news-release/2019/08/29/1908548/0/en/london-drugs-canada-post-and-indro-robotics-successfully-test-drone-delivery-of-emergency-medications-over-pacific-ocean.html"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "canada-duncan-mobile-pharmacy",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2019-08-29",
+      "sourceType": "operator",
+      "reviewNotes": "A temporary dispatch location; the source does not identify a permanent drone facility or a continuing delivery service.",
+      "coordinateBasis": "Editorial locality reference. Rounded community coordinates do not identify a launch or landing pad.",
+      "researchBatch": "2026-11-02-canadian-cargo-trials",
+      "supportingSources": []
+    },
+    {
+      "id": "canada-moosonee-cargo-pilot",
+      "name": "Moosonee cargo drone pilot",
+      "where": "Moosonee, Ontario, Canada",
+      "country": "Canada",
+      "region": "North America",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "Drone Delivery Canada",
+      "reportedEquipment": "Sparrow X1000 drone and FLYTE system",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 51.27,
+        "longitude": -80.64
+      },
+      "reportDateLabel": "2018-10-03",
+      "description": "Drone Delivery Canada reported loaded trial flights from Moosonee to Moose Factory and back during its September 2018 pilot.",
+      "source": {
+        "name": "Drone Delivery Canada — Moosonee and Moose Factory pilot",
+        "url": "https://www.newswire.ca/news-releases/r-e-p-e-a-t----drone-delivery-canada-integrates-into-controlled-airspace-in-moosonee-and-moose-factory-in-beyond-visual-line-of-sight-pilot-project-695015601.html"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "canada-moosonee-cargo-pilot",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2018-10-03",
+      "sourceType": "operator",
+      "reviewNotes": "The operator identifies both communities and two-way cargo flights. It does not identify an airport terminal as the dispatch point or establish a current service.",
+      "coordinateBasis": "Editorial locality reference. Rounded community coordinates do not identify a launch or landing pad.",
+      "researchBatch": "2026-11-02-canadian-cargo-trials",
+      "supportingSources": []
+    },
+    {
+      "id": "canada-moose-factory-cargo-pilot",
+      "name": "Moose Factory cargo drone pilot",
+      "where": "Moose Factory, Ontario, Canada",
+      "country": "Canada",
+      "region": "North America",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "Drone Delivery Canada",
+      "reportedEquipment": "Sparrow X1000 drone and FLYTE system",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 51.26,
+        "longitude": -80.61
+      },
+      "reportDateLabel": "2018-10-03",
+      "description": "Drone Delivery Canada reported loaded trial flights from Moose Factory to Moosonee and back during its September 2018 pilot.",
+      "source": {
+        "name": "Drone Delivery Canada — Moosonee and Moose Factory pilot",
+        "url": "https://www.newswire.ca/news-releases/r-e-p-e-a-t----drone-delivery-canada-integrates-into-controlled-airspace-in-moosonee-and-moose-factory-in-beyond-visual-line-of-sight-pilot-project-695015601.html"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "canada-moose-factory-cargo-pilot",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2018-10-03",
+      "sourceType": "operator",
+      "reviewNotes": "The operator identifies both communities and two-way cargo flights. It does not identify an airport terminal as the dispatch point or establish a current service.",
+      "coordinateBasis": "Editorial locality reference. Rounded community coordinates do not identify a launch or landing pad.",
+      "researchBatch": "2026-11-02-canadian-cargo-trials",
+      "supportingSources": []
     }
   ],
-  "expectedTotal": 464,
+  "expectedTotal": 469,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -14986,6 +15156,16 @@
         "nepal-drots-barjiwang-health-post",
         "nepal-drots-saari-health-post",
         "nepal-drots-gothiwang-health-post"
+      ]
+    },
+    {
+      "id": "2026-11-02-canadian-cargo-trials",
+      "recordIds": [
+        "canada-fraser-lake-medicine-centre",
+        "canada-stellaten-dronespot",
+        "canada-duncan-mobile-pharmacy",
+        "canada-moosonee-cargo-pilot",
+        "canada-moose-factory-cargo-pilot"
       ]
     }
   ]
