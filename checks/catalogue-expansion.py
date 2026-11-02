@@ -886,4 +886,13 @@ for id,digest in prior421.items():
 assert sum(by_id[id]['sourcePublishedAt']=='2024-10-29' for id in india_ids)==11
 assert all(by_id[id]['country']=='India' for id in india_ids)
 assert 'blood samples' in by_id['tangi-chc-sample-return']['description']
+# Named cargo origins only; retain old records and historical evidence limits.
+clinical_ids=json.loads((ROOT/'catalogue/sixtieth-batch-ids.json').read_text())
+assert clinical_ids==batch['releases'][59]['recordIds'] and len(clinical_ids)==7
+prior435=json.loads((ROOT/'catalogue/prior-435-preservation.json').read_text())
+assert len(prior435)==385
+for id,digest in prior435.items():
+ assert hashlib.sha256(json.dumps(by_id[id],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest
+assert all(by_id[id]['country']=='India' and by_id[id]['reportedStatus']=='historical' for id in clinical_ids)
+assert 'diagnostic reports' in by_id['jhalma-report-return']['description']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')

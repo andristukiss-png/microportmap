@@ -13129,9 +13129,278 @@
           "url": "https://www.icmr.gov.in/icmrobject/custom_data/pdf/annual-reports/ICMR_AR_English_2021_22_1.pdf"
         }
       ]
+    },
+    {
+      "id": "keylong-medical-dispatch",
+      "name": "Keylong Regional Hospital drone trial",
+      "where": "Keylong, Himachal Pradesh, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "ICMR feasibility study / participating health facilities",
+      "reportedEquipment": "Medical logistics drone used in the feasibility study",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 32.57,
+        "longitude": 77.03
+      },
+      "reportDateLabel": "Study published 10 December 2024",
+      "description": "The study records medicines sent from Keylong Regional Hospital to Tholang Primary Health Centre.",
+      "source": {
+        "name": "Aggarwal et al. — Himalayan medical drone feasibility study, Table 2",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11816105/"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "hospital campus",
+      "entityKey": "keylong-medical-dispatch",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2024-12-10",
+      "sourceType": "research",
+      "reviewNotes": "The separate Kachrang dry run is not counted as a medical delivery. The marker represents the locality only; it does not identify a launch pad or establish current access or service.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-india-clinical-cargo-flights",
+      "supportingSources": [
+        {
+          "name": "ICMR — Keylong feasibility study",
+          "url": "https://idrone.icmr.org.in/phasedes/5/"
+        },
+        {
+          "name": "ICMR i-DRONE — project flight photographs and captions",
+          "url": "https://idrone.icmr.org.in/"
+        }
+      ]
+    },
+    {
+      "id": "shansha-medical-dispatch",
+      "name": "Shansha Community Health Centre drone trial",
+      "where": "Shansha, Himachal Pradesh, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "ICMR feasibility study / participating health facilities",
+      "reportedEquipment": "Medical logistics drone used in the feasibility study",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 32.62,
+        "longitude": 76.9
+      },
+      "reportDateLabel": "Study published 10 December 2024",
+      "description": "The study records a drone taking medicines from Shansha to Tholang, including iron–folic acid and an antibiotic.",
+      "source": {
+        "name": "Aggarwal et al. — Himalayan medical drone feasibility study, Table 2",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11816105/"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "hospital campus",
+      "entityKey": "shansha-medical-dispatch",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2024-12-10",
+      "sourceType": "research",
+      "reviewNotes": "This is the Shansha departure on a distinct route, not another name for the Keylong hospital. The marker represents the locality only; it does not identify a launch pad or establish current access or service.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-india-clinical-cargo-flights",
+      "supportingSources": [
+        {
+          "name": "ICMR — Keylong feasibility study",
+          "url": "https://idrone.icmr.org.in/phasedes/5/"
+        },
+        {
+          "name": "ICMR i-DRONE — project flight photographs and captions",
+          "url": "https://idrone.icmr.org.in/"
+        }
+      ]
+    },
+    {
+      "id": "tholang-sample-dispatch",
+      "name": "Tholang Primary Health Centre drone trial",
+      "where": "Tholang, Himachal Pradesh, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "ICMR feasibility study / participating health facilities",
+      "reportedEquipment": "Medical logistics drone used in the feasibility study",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 32.58,
+        "longitude": 76.96
+      },
+      "reportDateLabel": "Study published 10 December 2024",
+      "description": "Tholang sent diagnostic material back on the Keylong route and dispatched medicines to Jhalma in the same feasibility study.",
+      "source": {
+        "name": "Aggarwal et al. — Himalayan medical drone feasibility study, Table 2",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11816105/"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "hospital campus",
+      "entityKey": "tholang-sample-dispatch",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2024-12-10",
+      "sourceType": "research",
+      "reviewNotes": "The study records sputum and blood samples on the return leg. Both roles belong to one facility. The marker represents the locality only; it does not identify a launch pad or establish current access or service.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-india-clinical-cargo-flights",
+      "supportingSources": [
+        {
+          "name": "ICMR — Keylong feasibility study",
+          "url": "https://idrone.icmr.org.in/phasedes/5/"
+        },
+        {
+          "name": "ICMR i-DRONE — project flight photographs and captions",
+          "url": "https://idrone.icmr.org.in/"
+        }
+      ]
+    },
+    {
+      "id": "jhalma-report-return",
+      "name": "Jhalma Primary Health Centre drone trial",
+      "where": "Jhalma, Himachal Pradesh, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "ICMR feasibility study / participating health facilities",
+      "reportedEquipment": "Medical logistics drone used in the feasibility study",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 32.64,
+        "longitude": 76.86
+      },
+      "reportDateLabel": "Study published 10 December 2024",
+      "description": "Table 2 records medicines delivered from Tholang to Jhalma and diagnostic reports carried on the return leg.",
+      "source": {
+        "name": "Aggarwal et al. — Himalayan medical drone feasibility study, Table 2",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11816105/"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "hospital campus",
+      "entityKey": "jhalma-report-return",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2024-12-10",
+      "sourceType": "research",
+      "reviewNotes": "It is the documented return of reports, not receipt of medicines, that supports this record. No specimen shipment from Jhalma is inferred. The marker represents the locality only; it does not identify a launch pad or establish current access or service.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-india-clinical-cargo-flights",
+      "supportingSources": [
+        {
+          "name": "ICMR — Keylong feasibility study",
+          "url": "https://idrone.icmr.org.in/phasedes/5/"
+        },
+        {
+          "name": "ICMR i-DRONE — project flight photographs and captions",
+          "url": "https://idrone.icmr.org.in/"
+        }
+      ]
+    },
+    {
+      "id": "sonipat-shroff-corneal-dispatch",
+      "name": "Sonipat eye hospital corneal tissue dispatch",
+      "where": "Sonipat, Haryana, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "ICMR / Dr. Shroff’s Charity Eye Hospital / AIIMS study",
+      "reportedEquipment": "Drone used for corneal tissue transport",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 28.99,
+        "longitude": 77.02
+      },
+      "reportDateLabel": "25 March 2025 ministry release",
+      "description": "The ministry reports that a drone carried corneal tissue from the Sonipat centre of Dr. Shroff’s Charity Eye Hospital to the National Cancer Institute at AIIMS Jhajjar.",
+      "source": {
+        "name": "India Ministry of Health and Family Welfare — cornea transport feasibility study",
+        "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2114748&lang=2&reg=48"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "hospital campus",
+      "entityKey": "sonipat-shroff-corneal-dispatch",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2025-03-25",
+      "sourceType": "government",
+      "reviewNotes": "The completed shipment establishes Sonipat as an origin. The study also considered amniotic grafts, but this record does not assert that one was flown on this trip. The marker represents the locality only; it does not identify a launch pad or establish current access or service.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-india-clinical-cargo-flights",
+      "supportingSources": []
+    },
+    {
+      "id": "karkala-tma-pai-tissue-dispatch",
+      "name": "Karkala Dr. TMA Pai Rotary Hospital tissue dispatch",
+      "where": "Karkala, Karnataka, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "ICMR / Manipal Academy of Higher Education study",
+      "reportedEquipment": "Drone carrying a surgical pathology specimen",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 13.21,
+        "longitude": 75.0
+      },
+      "reportDateLabel": "Undated ICMR project gallery; inauguration scheduled for April 2024",
+      "description": "ICMR documents the aircraft taking off at Dr. TMA Pai Hospital in Karkala with a specimen bound for KMC Manipal.",
+      "source": {
+        "name": "ICMR i-DRONE — project flight photographs and captions",
+        "url": "https://idrone.icmr.org.in/"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "hospital campus",
+      "entityKey": "karkala-tma-pai-tissue-dispatch",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "The university identifies the collaborating Karkala facility as Dr. TMA Pai Rotary Hospital. The inauguration venue in Manipal is not treated as the departure site. The marker represents the locality only; it does not identify a launch pad or establish current access or service.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-india-clinical-cargo-flights",
+      "supportingSources": [
+        {
+          "name": "ICMR — Karnataka pathology transport study",
+          "url": "https://idrone.icmr.org.in/phasedes/6/"
+        },
+        {
+          "name": "MAHE — project inauguration and participating hospitals",
+          "url": "https://www.manipal.edu/mu/news-events/inaugural-ceremony-of-icmr-joint-venture-drone-project.html"
+        }
+      ]
+    },
+    {
+      "id": "batahidia-char-diagnostic-dispatch",
+      "name": "Batahidia Char health camp sample dispatch",
+      "where": "Batahidia Char, Kamrup district, Assam, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "AIIMS Guwahati / Kamrup district health collaboration",
+      "reportedEquipment": "Medical drone carrying diagnostic samples",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 26.15,
+        "longitude": 91.29
+      },
+      "reportDateLabel": "11 December 2024 ministry release",
+      "description": "At the 10 December 2024 health camp, patient samples collected at Batahidia Char Primary Health Centre were flown to AIIMS Guwahati for testing.",
+      "source": {
+        "name": "India Ministry of Health and Family Welfare — Kamrup health camp",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2083266&lang=2&reg=48"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "hospital campus",
+      "entityKey": "batahidia-char-diagnostic-dispatch",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2024-12-11",
+      "sourceType": "government",
+      "reviewNotes": "The camp was held on 10 December; the ministry published its account the following day. AIIMS Guwahati already has a separate programme record and is not added again. The marker represents the locality only; it does not identify a launch pad or establish current access or service.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-india-clinical-cargo-flights",
+      "supportingSources": []
     }
   ],
-  "expectedTotal": 435,
+  "expectedTotal": 442,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -13811,6 +14080,18 @@
         "aiims-bhubaneswar-blood-dispatch",
         "tangi-chc-sample-return",
         "bishnupur-district-hospital-vaccine-dispatch"
+      ]
+    },
+    {
+      "id": "2026-11-02-india-clinical-cargo-flights",
+      "recordIds": [
+        "keylong-medical-dispatch",
+        "shansha-medical-dispatch",
+        "tholang-sample-dispatch",
+        "jhalma-report-return",
+        "sonipat-shroff-corneal-dispatch",
+        "karkala-tma-pai-tissue-dispatch",
+        "batahidia-char-diagnostic-dispatch"
       ]
     }
   ]
