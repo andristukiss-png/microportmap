@@ -12560,9 +12560,120 @@
           "url": "https://www.unicef.org/innovation/drones/vanuatu-commercial-contracts-for-vaccine-delivery"
         }
       ]
+    },
+    {
+      "id": "burumba-medical-return-site",
+      "name": "Burumba medical drone return site",
+      "where": "Burumba, Epi Island, Vanuatu",
+      "country": "Vanuatu",
+      "region": "Oceania",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Swoop Aero / Vanuatu health workers",
+      "reportedEquipment": "Swoop Aero medical delivery drone; model not established for this flight",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": -16.71,
+        "longitude": 168.13
+      },
+      "reportDateLabel": "Operator report dated 2 May 2019",
+      "description": "Swoop Aero’s March 2019 case study describes health workers sending malaria tests from Burumba to Vaemali by drone.",
+      "source": {
+        "name": "Swoop Aero — Vanuatu project final report, hosted by UNICEF",
+        "url": "https://www.unicef.org/innovation/media/11951/file/Reference%203.7.%20Project%20Final%20Report_SWOOP%20AERO.pdf"
+      },
+      "verificationStatus": "Source-reported activity; present operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "burumba-medical-return-site",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "This site dispatched cargo. The report’s 18 March case study and flight log distinguish loaded returns from flights with no payload. No dedicated pad, standing service or current access is established. The log also spells Burumba as Barumba; it is counted once.",
+      "coordinateBasis": "Editorial locality reference. Rounded from the locality listed in the Ministry tender; not a surveyed launch or landing point.",
+      "researchBatch": "2026-11-02-epi-return-flights-lilongwe",
+      "supportingSources": [
+        {
+          "name": "Vanuatu Ministry of Health — Epi and Shepherd Islands tender, facility list",
+          "url": "https://www.unicef.org/innovation/media/11926/file/Reference%203.2%20RFT%20MoH%20S1721-2%20Epi%20Shepherd.pdf"
+        }
+      ]
+    },
+    {
+      "id": "port-quimie-medical-return-site",
+      "name": "Port Quimie medical drone return site",
+      "where": "Port Quimie, Epi Island, Vanuatu",
+      "country": "Vanuatu",
+      "region": "Oceania",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Swoop Aero / Vanuatu health workers",
+      "reportedEquipment": "Swoop Aero medical delivery drone; model not established for this flight",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": -16.79,
+        "longitude": 168.36
+      },
+      "reportDateLabel": "Operator report dated 2 May 2019",
+      "description": "Swoop Aero’s March 2019 case study describes health workers sending iron supplements from Port Quimie to Vaemali by drone.",
+      "source": {
+        "name": "Swoop Aero — Vanuatu project final report, hosted by UNICEF",
+        "url": "https://www.unicef.org/innovation/media/11951/file/Reference%203.7.%20Project%20Final%20Report_SWOOP%20AERO.pdf"
+      },
+      "verificationStatus": "Source-reported activity; present operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "port-quimie-medical-return-site",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "This site dispatched cargo. The report’s 18 March case study and flight log distinguish loaded returns from flights with no payload. No dedicated pad, standing service or current access is established.",
+      "coordinateBasis": "Editorial locality reference. Rounded from the locality listed in the Ministry tender; not a surveyed launch or landing point.",
+      "researchBatch": "2026-11-02-epi-return-flights-lilongwe",
+      "supportingSources": [
+        {
+          "name": "Vanuatu Ministry of Health — Epi and Shepherd Islands tender, facility list",
+          "url": "https://www.unicef.org/innovation/media/11926/file/Reference%203.2%20RFT%20MoH%20S1721-2%20Epi%20Shepherd.pdf"
+        }
+      ]
+    },
+    {
+      "id": "lilongwe-area-25-drone-trial",
+      "name": "Lilongwe Area 25 Health Centre drone trial",
+      "where": "Area 25, Lilongwe, Malawi",
+      "country": "Malawi",
+      "region": "Africa",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Malawi Government / UNICEF, with Matternet aircraft support",
+      "reportedEquipment": "Matternet transport drone carrying simulated samples",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": -13.96,
+        "longitude": 33.78
+      },
+      "reportDateLabel": "UNICEF account datelined 14 March 2016",
+      "description": "A March 2016 feasibility flight took simulated samples from a community health centre to Kamuzu Central Hospital laboratory. The project presentation identifies the centre as Area 25.",
+      "source": {
+        "name": "UNICEF — Drone Testing for HIV Early Infant Diagnosis",
+        "url": "https://www.unicef.org/innovation/stories/drone-testing-hiv-early-infant-diagnosis"
+      },
+      "verificationStatus": "Source-reported activity; present operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "lilongwe-area-25-drone-trial",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "Historical trial origin. The report documents a successful flight with simulated samples, not clinical specimen delivery or a routine diagnostic service. Kamuzu is the destination on this leg; it is not added as another launch site. The marker represents Lilongwe only.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-epi-return-flights-lilongwe",
+      "supportingSources": [
+        {
+          "name": "UNICEF project presentation hosted by ICAO — Area 25 and Kamuzu study locations",
+          "url": "https://www.icao.int/Meetings/RPAS2017/Documents/Presentations/1.2.2_SAKA-UNICEF_UAVs%20in%20Humanitarian%20Response%20in%20Malawi.pdf"
+        }
+      ]
     }
   ],
-  "expectedTotal": 418,
+  "expectedTotal": 421,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -13215,6 +13326,14 @@
         "widjifake-health-centre-return",
         "takara-efate-medical-drone-trial",
         "vaemali-epi-vaccine-base"
+      ]
+    },
+    {
+      "id": "2026-11-02-epi-return-flights-lilongwe",
+      "recordIds": [
+        "burumba-medical-return-site",
+        "port-quimie-medical-return-site",
+        "lilongwe-area-25-drone-trial"
       ]
     }
   ]

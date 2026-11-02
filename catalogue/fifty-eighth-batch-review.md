@@ -1,0 +1,9 @@
+# Medical return flights and a diagnostic transport trial
+
+Reviewed 2 November 2026. All three records describe historical trials. Neither receipt alone nor an empty return flight was counted as evidence of a cargo dispatch site.
+
+**Burumba medical drone return site**. Swoop Aero’s March 2019 case study describes health workers sending malaria tests from Burumba to Vaemali by drone. This site dispatched cargo. The report’s 18 March case study and flight log distinguish loaded returns from flights with no payload. No dedicated pad, standing service or current access is established. The log also spells Burumba as Barumba; it is counted once. [Primary evidence](https://www.unicef.org/innovation/media/11951/file/Reference%203.7.%20Project%20Final%20Report_SWOOP%20AERO.pdf).
+
+**Port Quimie medical drone return site**. Swoop Aero’s March 2019 case study describes health workers sending iron supplements from Port Quimie to Vaemali by drone. This site dispatched cargo. The report’s 18 March case study and flight log distinguish loaded returns from flights with no payload. No dedicated pad, standing service or current access is established. [Primary evidence](https://www.unicef.org/innovation/media/11951/file/Reference%203.7.%20Project%20Final%20Report_SWOOP%20AERO.pdf).
+
+**Lilongwe Area 25 Health Centre drone trial**. A March 2016 feasibility flight took simulated samples from a community health centre to Kamuzu Central Hospital laboratory. The project presentation identifies the centre as Area 25. Historical trial origin. The report documents a successful flight with simulated samples, not clinical specimen delivery or a routine diagnostic service. Kamuzu is the destination on this leg; it is not added as another launch site. The marker represents Lilongwe only. [Primary evidence](https://www.unicef.org/innovation/stories/drone-testing-hiv-early-infant-diagnosis).
