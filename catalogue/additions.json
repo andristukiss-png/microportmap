@@ -12671,9 +12671,467 @@
           "url": "https://www.icao.int/Meetings/RPAS2017/Documents/Presentations/1.2.2_SAKA-UNICEF_UAVs%20in%20Humanitarian%20Response%20in%20Malawi.pdf"
         }
       ]
+    },
+    {
+      "id": "aiims-rishikesh-drone-service",
+      "name": "AIIMS Rishikesh medical drone programme",
+      "where": "Rishikesh, Uttarakhand, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "AIIMS Rishikesh (named institution; flight operator unspecified)",
+      "reportedEquipment": "Healthcare drones; site-specific aircraft and payload not identified",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 30.09,
+        "longitude": 78.27
+      },
+      "reportDateLabel": "29 October 2024 ministry release",
+      "description": "The Indian health ministry names AIIMS Rishikesh in its October 2024 launch of healthcare drone services at eleven institutions.",
+      "source": {
+        "name": "India Ministry of Health and Family Welfare — launch of drone services at 11 institutions",
+        "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2069266&lang=2&reg=48"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "hospital campus",
+      "entityKey": "aiims-rishikesh-drone-service",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2024-10-29",
+      "sourceType": "government",
+      "reviewNotes": "One named institutional programme. The national release does not document a flight manifest, a dedicated pad, delivery frequency or continuing availability at this campus. The separately launched helicopter emergency service is excluded. The map point represents the locality rather than a surveyed flight position.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-india-medical-drone-sites",
+      "supportingSources": []
+    },
+    {
+      "id": "aiims-bibinagar-drone-service",
+      "name": "AIIMS Bibinagar medical drone programme",
+      "where": "Bibinagar, Telangana, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "AIIMS Bibinagar (named institution; flight operator unspecified)",
+      "reportedEquipment": "Healthcare drones; site-specific aircraft and payload not identified",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 17.47,
+        "longitude": 78.8
+      },
+      "reportDateLabel": "29 October 2024 ministry release",
+      "description": "The Indian health ministry names AIIMS Bibinagar in its October 2024 launch of healthcare drone services at eleven institutions.",
+      "source": {
+        "name": "India Ministry of Health and Family Welfare — launch of drone services at 11 institutions",
+        "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2069266&lang=2&reg=48"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "hospital campus",
+      "entityKey": "aiims-bibinagar-drone-service",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2024-10-29",
+      "sourceType": "government",
+      "reviewNotes": "One named institutional programme. The national release does not document a flight manifest, a dedicated pad, delivery frequency or continuing availability at this campus. The map point represents the locality rather than a surveyed flight position.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-india-medical-drone-sites",
+      "supportingSources": []
+    },
+    {
+      "id": "aiims-guwahati-drone-service",
+      "name": "AIIMS Guwahati medical drone programme",
+      "where": "Guwahati, Assam, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "AIIMS Guwahati (named institution; flight operator unspecified)",
+      "reportedEquipment": "Healthcare drones; site-specific aircraft and payload not identified",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 26.18,
+        "longitude": 91.74
+      },
+      "reportDateLabel": "29 October 2024 ministry release",
+      "description": "The Indian health ministry names AIIMS Guwahati in its October 2024 launch of healthcare drone services at eleven institutions.",
+      "source": {
+        "name": "India Ministry of Health and Family Welfare — launch of drone services at 11 institutions",
+        "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2069266&lang=2&reg=48"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "hospital campus",
+      "entityKey": "aiims-guwahati-drone-service",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2024-10-29",
+      "sourceType": "government",
+      "reviewNotes": "One named institutional programme. The national release does not document a flight manifest, a dedicated pad, delivery frequency or continuing availability at this campus. The map point represents the locality rather than a surveyed flight position.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-india-medical-drone-sites",
+      "supportingSources": []
+    },
+    {
+      "id": "aiims-bhopal-drone-service",
+      "name": "AIIMS Bhopal medical drone programme",
+      "where": "Bhopal, Madhya Pradesh, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "AIIMS Bhopal (named institution; flight operator unspecified)",
+      "reportedEquipment": "Healthcare drones; site-specific aircraft and payload not identified",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 23.26,
+        "longitude": 77.41
+      },
+      "reportDateLabel": "29 October 2024 ministry release",
+      "description": "The Indian health ministry names AIIMS Bhopal in its October 2024 launch of healthcare drone services at eleven institutions.",
+      "source": {
+        "name": "India Ministry of Health and Family Welfare — launch of drone services at 11 institutions",
+        "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2069266&lang=2&reg=48"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "hospital campus",
+      "entityKey": "aiims-bhopal-drone-service",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2024-10-29",
+      "sourceType": "government",
+      "reviewNotes": "One named institutional programme. The national release does not document a flight manifest, a dedicated pad, delivery frequency or continuing availability at this campus. The map point represents the locality rather than a surveyed flight position.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-india-medical-drone-sites",
+      "supportingSources": []
+    },
+    {
+      "id": "aiims-jodhpur-drone-service",
+      "name": "AIIMS Jodhpur medical drone programme",
+      "where": "Jodhpur, Rajasthan, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "AIIMS Jodhpur (named institution; flight operator unspecified)",
+      "reportedEquipment": "Healthcare drones; site-specific aircraft and payload not identified",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 26.24,
+        "longitude": 73.02
+      },
+      "reportDateLabel": "29 October 2024 ministry release",
+      "description": "The Indian health ministry names AIIMS Jodhpur in its October 2024 launch of healthcare drone services at eleven institutions.",
+      "source": {
+        "name": "India Ministry of Health and Family Welfare — launch of drone services at 11 institutions",
+        "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2069266&lang=2&reg=48"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "hospital campus",
+      "entityKey": "aiims-jodhpur-drone-service",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2024-10-29",
+      "sourceType": "government",
+      "reviewNotes": "One named institutional programme. The national release does not document a flight manifest, a dedicated pad, delivery frequency or continuing availability at this campus. The map point represents the locality rather than a surveyed flight position.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-india-medical-drone-sites",
+      "supportingSources": []
+    },
+    {
+      "id": "aiims-patna-drone-service",
+      "name": "AIIMS Patna medical drone programme",
+      "where": "Patna, Bihar, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "AIIMS Patna (named institution; flight operator unspecified)",
+      "reportedEquipment": "Healthcare drones; site-specific aircraft and payload not identified",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 25.59,
+        "longitude": 85.14
+      },
+      "reportDateLabel": "29 October 2024 ministry release",
+      "description": "The Indian health ministry names AIIMS Patna in its October 2024 launch of healthcare drone services at eleven institutions.",
+      "source": {
+        "name": "India Ministry of Health and Family Welfare — launch of drone services at 11 institutions",
+        "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2069266&lang=2&reg=48"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "hospital campus",
+      "entityKey": "aiims-patna-drone-service",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2024-10-29",
+      "sourceType": "government",
+      "reviewNotes": "One named institutional programme. The national release does not document a flight manifest, a dedicated pad, delivery frequency or continuing availability at this campus. The map point represents the locality rather than a surveyed flight position.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-india-medical-drone-sites",
+      "supportingSources": []
+    },
+    {
+      "id": "aiims-bilaspur-drone-service",
+      "name": "AIIMS Bilaspur medical drone programme",
+      "where": "Bilaspur, Himachal Pradesh, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "AIIMS Bilaspur (named institution; flight operator unspecified)",
+      "reportedEquipment": "Healthcare drones; site-specific aircraft and payload not identified",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 31.33,
+        "longitude": 76.76
+      },
+      "reportDateLabel": "29 October 2024 ministry release",
+      "description": "The Indian health ministry names AIIMS Bilaspur in its October 2024 launch of healthcare drone services at eleven institutions.",
+      "source": {
+        "name": "India Ministry of Health and Family Welfare — launch of drone services at 11 institutions",
+        "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2069266&lang=2&reg=48"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "hospital campus",
+      "entityKey": "aiims-bilaspur-drone-service",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2024-10-29",
+      "sourceType": "government",
+      "reviewNotes": "One named institutional programme. The national release does not document a flight manifest, a dedicated pad, delivery frequency or continuing availability at this campus. The map point represents the locality rather than a surveyed flight position.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-india-medical-drone-sites",
+      "supportingSources": []
+    },
+    {
+      "id": "aiims-raebareli-drone-service",
+      "name": "AIIMS Raebareli medical drone programme",
+      "where": "Raebareli, Uttar Pradesh, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "AIIMS Raebareli (named institution; flight operator unspecified)",
+      "reportedEquipment": "Healthcare drones; site-specific aircraft and payload not identified",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 26.23,
+        "longitude": 81.24
+      },
+      "reportDateLabel": "29 October 2024 ministry release",
+      "description": "The Indian health ministry names AIIMS Raebareli in its October 2024 launch of healthcare drone services at eleven institutions.",
+      "source": {
+        "name": "India Ministry of Health and Family Welfare — launch of drone services at 11 institutions",
+        "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2069266&lang=2&reg=48"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "hospital campus",
+      "entityKey": "aiims-raebareli-drone-service",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2024-10-29",
+      "sourceType": "government",
+      "reviewNotes": "One named institutional programme. The national release does not document a flight manifest, a dedicated pad, delivery frequency or continuing availability at this campus. The map point represents the locality rather than a surveyed flight position.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-india-medical-drone-sites",
+      "supportingSources": []
+    },
+    {
+      "id": "aiims-raipur-drone-service",
+      "name": "AIIMS Raipur medical drone programme",
+      "where": "Raipur, Chhattisgarh, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "AIIMS Raipur (named institution; flight operator unspecified)",
+      "reportedEquipment": "Healthcare drones; site-specific aircraft and payload not identified",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 21.25,
+        "longitude": 81.63
+      },
+      "reportDateLabel": "29 October 2024 ministry release",
+      "description": "The Indian health ministry names AIIMS Raipur in its October 2024 launch of healthcare drone services at eleven institutions.",
+      "source": {
+        "name": "India Ministry of Health and Family Welfare — launch of drone services at 11 institutions",
+        "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2069266&lang=2&reg=48"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "hospital campus",
+      "entityKey": "aiims-raipur-drone-service",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2024-10-29",
+      "sourceType": "government",
+      "reviewNotes": "One named institutional programme. The national release does not document a flight manifest, a dedicated pad, delivery frequency or continuing availability at this campus. The map point represents the locality rather than a surveyed flight position.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-india-medical-drone-sites",
+      "supportingSources": []
+    },
+    {
+      "id": "rims-imphal-drone-service",
+      "name": "RIMS Imphal medical drone programme",
+      "where": "Imphal, Manipur, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "RIMS Imphal (named institution; flight operator unspecified)",
+      "reportedEquipment": "Healthcare drones; site-specific aircraft and payload not identified",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 24.82,
+        "longitude": 93.94
+      },
+      "reportDateLabel": "29 October 2024 ministry release",
+      "description": "The Indian health ministry names RIMS Imphal in its October 2024 launch of healthcare drone services at eleven institutions.",
+      "source": {
+        "name": "India Ministry of Health and Family Welfare — launch of drone services at 11 institutions",
+        "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2069266&lang=2&reg=48"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "hospital campus",
+      "entityKey": "rims-imphal-drone-service",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2024-10-29",
+      "sourceType": "government",
+      "reviewNotes": "One named institutional programme. The national release does not document a flight manifest, a dedicated pad, delivery frequency or continuing availability at this campus. The map point represents the locality rather than a surveyed flight position.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-india-medical-drone-sites",
+      "supportingSources": []
+    },
+    {
+      "id": "aiims-mangalagiri-drone-service",
+      "name": "AIIMS Mangalagiri medical drone programme",
+      "where": "Mangalagiri, Andhra Pradesh, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "AIIMS Mangalagiri (named institution; flight operator unspecified)",
+      "reportedEquipment": "Healthcare drones; site-specific aircraft and payload not identified",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 16.43,
+        "longitude": 80.57
+      },
+      "reportDateLabel": "29 October 2024 ministry release",
+      "description": "The Indian health ministry names AIIMS Mangalagiri in its October 2024 launch of healthcare drone services at eleven institutions.",
+      "source": {
+        "name": "India Ministry of Health and Family Welfare — launch of drone services at 11 institutions",
+        "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2069266&lang=2&reg=48"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "hospital campus",
+      "entityKey": "aiims-mangalagiri-drone-service",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2024-10-29",
+      "sourceType": "government",
+      "reviewNotes": "One named institutional programme. The national release does not document a flight manifest, a dedicated pad, delivery frequency or continuing availability at this campus. The map point represents the locality rather than a surveyed flight position.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-india-medical-drone-sites",
+      "supportingSources": []
+    },
+    {
+      "id": "aiims-bhubaneswar-blood-dispatch",
+      "name": "AIIMS Bhubaneswar blood dispatch site",
+      "where": "Bhubaneswar, Odisha, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "AIIMS Bhubaneswar (reported service)",
+      "reportedEquipment": "Medical delivery drone; model not specified",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 20.3,
+        "longitude": 85.82
+      },
+      "reportDateLabel": "25 January 2024 ministry release",
+      "description": "The ministry reports that the inaugural flight carried a unit of blood from AIIMS Bhubaneswar to the Tangi Community Health Centre in January 2024.",
+      "source": {
+        "name": "India Ministry of Health and Family Welfare — AIIMS Bhubaneswar commissions drone health service",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1999705&lang=2&reg=48"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "hospital campus",
+      "entityKey": "aiims-bhubaneswar-blood-dispatch",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2024-01-25",
+      "sourceType": "government",
+      "reviewNotes": "One documented dispatch site. The inaugural flight is evidence of a completed movement on this route; it does not establish present schedules or routine capacity. The map point represents the locality rather than a surveyed flight position.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-india-medical-drone-sites",
+      "supportingSources": []
+    },
+    {
+      "id": "tangi-chc-sample-return",
+      "name": "Tangi Community Health Centre sample return site",
+      "where": "Tangi, Khordha district, Odisha, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "AIIMS Bhubaneswar service / Tangi Community Health Centre",
+      "reportedEquipment": "Medical delivery drone; model not specified",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 19.93,
+        "longitude": 85.4
+      },
+      "reportDateLabel": "25 January 2024 ministry release",
+      "description": "After delivering blood to Tangi, the drone collected blood samples there for the return trip to AIIMS Bhubaneswar.",
+      "source": {
+        "name": "India Ministry of Health and Family Welfare — AIIMS Bhubaneswar commissions drone health service",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1999705&lang=2&reg=48"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "hospital campus",
+      "entityKey": "tangi-chc-sample-return",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2024-01-25",
+      "sourceType": "government",
+      "reviewNotes": "The return cargo supports counting the health centre separately from the departure hospital. Receipt alone would not qualify. No flight frequency or dedicated pad is established. The map point represents the locality rather than a surveyed flight position.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-india-medical-drone-sites",
+      "supportingSources": [
+        {
+          "name": "Khordha district hospital — community health centre directory",
+          "url": "https://khordha.dhhodisha.in/index.php/Dhq/page/34/CommunityHealthCenter"
+        }
+      ]
+    },
+    {
+      "id": "bishnupur-district-hospital-vaccine-dispatch",
+      "name": "Bishnupur District Hospital vaccine dispatch site",
+      "where": "Bishnupur, Manipur, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Indian Council of Medical Research / i-DRONE programme",
+      "reportedEquipment": "Vaccine delivery drone; model not identified",
+      "locationPrecision": "Editorial locality-level approximation; not the launch, landing or facility coordinates",
+      "approximateMapPoint": {
+        "latitude": 24.63,
+        "longitude": 93.76
+      },
+      "reportDateLabel": "4 October 2021 ministry release",
+      "description": "The ministry reports a completed COVID-19 vaccine flight from Bishnupur District Hospital to Karang Island for use at the primary health centre.",
+      "source": {
+        "name": "India Ministry of Health and Family Welfare — i-Drone vaccine delivery launch",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1760806&lang=2&reg=48"
+      },
+      "verificationStatus": "Source-reported historical activity; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "hospital campus",
+      "entityKey": "bishnupur-district-hospital-vaccine-dispatch",
+      "sourceReviewedAt": "2026-11-02",
+      "sourcePublishedAt": "2021-10-04",
+      "sourceType": "government",
+      "reviewNotes": "The 2021 dispatch is distinct from the later RIMS Imphal service announcement. The Karang destination is not counted separately without evidence of dispatch. National programme totals are not attributed to this hospital. The map point represents the locality rather than a surveyed flight position.",
+      "coordinateBasis": "Editorial locality reference. Not extracted from the source, not surveyed, and not a landing coordinate.",
+      "researchBatch": "2026-11-02-india-medical-drone-sites",
+      "supportingSources": [
+        {
+          "name": "ICMR — 2021–22 annual report, i-DRONE study",
+          "url": "https://www.icmr.gov.in/icmrobject/custom_data/pdf/annual-reports/ICMR_AR_English_2021_22_1.pdf"
+        }
+      ]
     }
   ],
-  "expectedTotal": 421,
+  "expectedTotal": 435,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -13334,6 +13792,25 @@
         "burumba-medical-return-site",
         "port-quimie-medical-return-site",
         "lilongwe-area-25-drone-trial"
+      ]
+    },
+    {
+      "id": "2026-11-02-india-medical-drone-sites",
+      "recordIds": [
+        "aiims-rishikesh-drone-service",
+        "aiims-bibinagar-drone-service",
+        "aiims-guwahati-drone-service",
+        "aiims-bhopal-drone-service",
+        "aiims-jodhpur-drone-service",
+        "aiims-patna-drone-service",
+        "aiims-bilaspur-drone-service",
+        "aiims-raebareli-drone-service",
+        "aiims-raipur-drone-service",
+        "rims-imphal-drone-service",
+        "aiims-mangalagiri-drone-service",
+        "aiims-bhubaneswar-blood-dispatch",
+        "tangi-chc-sample-return",
+        "bishnupur-district-hospital-vaccine-dispatch"
       ]
     }
   ]
