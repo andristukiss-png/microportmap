@@ -913,4 +913,11 @@ for id,digest in prior454.items():
  assert hashlib.sha256(json.dumps(by_id[id],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest
 assert sum(id.endswith('-hub') for id in drots_ids)==2
 assert all(by_id[id]['country']=='Nepal' and by_id[id]['reportedStatus']=='historical' for id in drots_ids)
+canadian_ids=json.loads((ROOT/'catalogue/sixty-third-batch-ids.json').read_text())
+assert canadian_ids==batch['releases'][62]['recordIds'] and len(canadian_ids)==5
+prior464=json.loads((ROOT/'catalogue/prior-464-preservation.json').read_text())
+assert len(prior464)==414
+for id,digest in prior464.items():
+ assert hashlib.sha256(json.dumps(by_id[id],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest
+assert all(by_id[id]['country']=='Canada' and by_id[id]['reportedStatus']=='historical' for id in canadian_ids)
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
