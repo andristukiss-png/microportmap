@@ -955,4 +955,11 @@ assert len(prior486)==436
 for id,digest in prior486.items():
  assert hashlib.sha256(json.dumps(by_id[id],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest
 assert all(by_id[id]['country']=='Japan' for id in goto_dispatch_ids)
+jp_cargo_ids=json.loads((ROOT/'catalogue/sixty-ninth-batch-ids.json').read_text())
+assert jp_cargo_ids==batch['releases'][68]['recordIds'] and len(set(jp_cargo_ids))==10
+prior490=json.loads((ROOT/'catalogue/prior-490-preservation.json').read_text())
+assert len(prior490)==440
+for id,digest in prior490.items():
+ assert hashlib.sha256(json.dumps(by_id[id],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest
+assert all(by_id[id]['country']=='Japan' and by_id[id]['reportedStatus']=='historical' for id in jp_cargo_ids)
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')

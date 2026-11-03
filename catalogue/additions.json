@@ -15157,9 +15157,344 @@
           "url": "https://www.ncctv.co.jp/news/article/16366213"
         }
       ]
+    },
+    {
+      "id": "japan-hachijo-plaza",
+      "name": "Hachijō Plaza Park delivery trial",
+      "where": "Hachijō, Tokyo, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "Aeronext with local project partners",
+      "reportedEquipment": "AirTruck",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 33.11,
+        "longitude": 139.79
+      },
+      "reportDateLabel": "February 2023",
+      "description": "Staff brought orders from local shops by road to Hachijō Plaza Park, where an AirTruck took off for two island delivery locations.",
+      "source": {
+        "name": "Aeronext — Hachijō Plaza Park delivery trial",
+        "url": "https://aeronext.co.jp/news/hachijotown_poc/"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "japan-hachijo-plaza",
+      "sourceReviewedAt": "2026-11-03",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "The reported flight total includes tests. Neither the supplying shops nor the recipients are counted as launch sites.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-03-japan-cargo-and-relief-origins",
+      "supportingSources": []
+    },
+    {
+      "id": "japan-iwate-mori-arena",
+      "name": "Iwate Mori no Arena relief exercise",
+      "where": "Iwate Town, Iwate, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "NEXT DELIVERY",
+      "reportedEquipment": "AirTruck",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 39.97,
+        "longitude": 141.21
+      },
+      "reportDateLabel": "16 February 2023",
+      "description": "An AirTruck departed Mori no Arena during a simulated disaster and carried supplies and a message to an elementary school.",
+      "source": {
+        "name": "Aeronext — Iwate Mori no Arena relief exercise",
+        "url": "https://aeronext.co.jp/news/iwatetown_poc/"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "japan-iwate-mori-arena",
+      "sourceReviewedAt": "2026-11-03",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "The medicine package was an empty demonstration box. This was an exercise rather than an emergency deployment.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-03-japan-cargo-and-relief-origins",
+      "supportingSources": []
+    },
+    {
+      "id": "japan-hioki-ogi-hall",
+      "name": "Hioki community hall shopping trial",
+      "where": "Hioki, Kagoshima, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "NEXT DELIVERY",
+      "reportedEquipment": "AirTruck",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 31.63,
+        "longitude": 130.4
+      },
+      "reportDateLabel": "February 2023",
+      "description": "Aeronext identifies 荻自治公民館 as the takeoff point for a shopping trial. A drone carried food purchased at a supermarket to residents at another community hall.",
+      "source": {
+        "name": "Aeronext — Hioki community hall shopping trial",
+        "url": "https://aeronext.co.jp/achievements/kagoshima/"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "japan-hioki-ogi-hall",
+      "sourceReviewedAt": "2026-11-03",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "The marker represents Hioki; the supermarket was a supplier, not the documented launch site.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-03-japan-cargo-and-relief-origins",
+      "supportingSources": []
+    },
+    {
+      "id": "japan-yamagawa-port-market",
+      "name": "Yamagawa Port market freight trial",
+      "where": "Yamagawa, Ibusuki, Kagoshima, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "NEXT DELIVERY",
+      "reportedEquipment": "Cargo drone",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 31.2,
+        "longitude": 130.64
+      },
+      "reportDateLabel": "February 2023",
+      "description": "Seafood left the Yamagawa Port roadside market by drone for a handoff near Yamagawa Station. The shipment continued by rail toward Hakata.",
+      "source": {
+        "name": "Aeronext — Yamagawa Port market freight trial",
+        "url": "https://aeronext.co.jp/achievements/kagoshima/"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "japan-yamagawa-port-market",
+      "sourceReviewedAt": "2026-11-03",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "The source distinguishes fish flown by drone from an oversized fish sent by road. The route to Hakata was not a drone flight.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-03-japan-cargo-and-relief-origins",
+      "supportingSources": []
+    },
+    {
+      "id": "japan-suetsugu-park",
+      "name": "Suetsugu Park document delivery trial",
+      "where": "Matsue, Shimane, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "NEXT DELIVERY",
+      "reportedEquipment": "ACSL PF4",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.47,
+        "longitude": 133.05
+      },
+      "reportDateLabel": "October 2026",
+      "description": "Municipal documents were loaded near Matsue City Hall for the Suetsugu Park route to the Tamayu branch office.",
+      "source": {
+        "name": "Aeronext — Suetsugu Park document delivery trial",
+        "url": "https://aeronext.co.jp/news/matsue-drone-poc/"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "japan-suetsugu-park",
+      "sourceReviewedAt": "2026-11-03",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "This entry covers the park origin of the document phase, not the separate prepared-meal flights.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-03-japan-cargo-and-relief-origins",
+      "supportingSources": []
+    },
+    {
+      "id": "japan-matsue-morzwell",
+      "name": "Morzwell prepared-meal dispatch trial",
+      "where": "Matsue, Shimane, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "NEXT DELIVERY",
+      "reportedEquipment": "DJI FC30",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.47,
+        "longitude": 133.05
+      },
+      "reportDateLabel": "October 2026",
+      "description": "Aeronext documents a loaded FC30 preparing to take off at the Morzwell base in the meal-delivery phase of the Matsue trial.",
+      "source": {
+        "name": "Aeronext — Morzwell prepared-meal dispatch trial",
+        "url": "https://aeronext.co.jp/news/matsue-drone-poc/"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "japan-matsue-morzwell",
+      "sourceReviewedAt": "2026-11-03",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "The two delivery routes share one dispatch base. The city-level point does not locate a particular facility entrance.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-03-japan-cargo-and-relief-origins",
+      "supportingSources": []
+    },
+    {
+      "id": "japan-nakatsugawa-landslide",
+      "name": "Nakatsugawa landslide relief launch site",
+      "where": "Nakatsugawa, Chichibu, Saitama, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "Aeronext and the & Project partners",
+      "reportedEquipment": "Cargo delivery drone",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.96,
+        "longitude": 138.81
+      },
+      "reportDateLabel": "January–March 2023",
+      "description": "Crews loaded supplies at a temporary launch site on the approach to the landslide. Drones served residents cut off by the road disruption.",
+      "source": {
+        "name": "Aeronext — Nakatsugawa landslide relief launch site",
+        "url": "https://aeronext.co.jp/achievements/andproject/"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "dispatch-site",
+      "entityKey": "japan-nakatsugawa-landslide",
+      "sourceReviewedAt": "2026-11-03",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "The project describes the site relative to the landslide. The Tokyo remote-control location and road collection point are not additional flight origins.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-03-japan-cargo-and-relief-origins",
+      "supportingSources": [
+        {
+          "name": "KDDI SmartDrone — completion of the winter service",
+          "url": "https://kddi.smartdrone.co.jp/news/release/1995/"
+        }
+      ]
+    },
+    {
+      "id": "japan-wajima-cultural-hall",
+      "name": "Wajima City Cultural Hall earthquake relief dispatch",
+      "where": "Wajima, Ishikawa, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "NEXT DELIVERY with Aeronext, ACSL and JUIDA",
+      "reportedEquipment": "AirTruck",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 37.39,
+        "longitude": 136.9
+      },
+      "reportDateLabel": "January 2024",
+      "description": "Following the Noto Peninsula earthquake, drones carried medicine from the cultural hall to an isolated school shelter.",
+      "source": {
+        "name": "Aeronext — Wajima City Cultural Hall earthquake relief dispatch",
+        "url": "https://aeronext.co.jp/achievements/wajima/"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "dispatch-site",
+      "entityKey": "japan-wajima-cultural-hall",
+      "sourceReviewedAt": "2026-11-03",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "This relief flight was separate from the September flood response and from the prefecture’s inspection dock programme.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-03-japan-cargo-and-relief-origins",
+      "supportingSources": [
+        {
+          "name": "ACSL — Wajima dispatch origin and flight",
+          "url": "https://www.acsl.co.jp/news-release/press-release/3378/"
+        }
+      ]
+    },
+    {
+      "id": "japan-unyu-fishing-port",
+      "name": "Unyū fishing port flood relief dispatch",
+      "where": "Unyū, Wajima, Ishikawa, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "NEXT DELIVERY",
+      "reportedEquipment": "AirTruck",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 37.4,
+        "longitude": 136.85
+      },
+      "reportDateLabel": "27 September 2024",
+      "description": "A drone dispatched food and drinks from Unyū fishing port to an isolated community hall after flooding.",
+      "source": {
+        "name": "Aeronext — Unyū fishing port flood relief dispatch",
+        "url": "https://aeronext.co.jp/news/noto_transportation_drone/"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "dispatch-site",
+      "entityKey": "japan-unyu-fishing-port",
+      "sourceReviewedAt": "2026-11-03",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "The aircraft were brought from other depots. This record counts only the local departure point for the relief flight.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-03-japan-cargo-and-relief-origins",
+      "supportingSources": []
+    },
+    {
+      "id": "japan-tenryu-former-school",
+      "name": "Former Tenryū Junior High School relief exercise",
+      "where": "Tenryū, Nagano, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "NEXT DELIVERY",
+      "reportedEquipment": "AirTruck",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.28,
+        "longitude": 137.85
+      },
+      "reportDateLabel": "22 October 2026",
+      "description": "A disaster-preparedness exercise used the former junior high school grounds as the departure point for a drinking-water delivery to the current school.",
+      "source": {
+        "name": "Aeronext — Former Tenryū Junior High School relief exercise",
+        "url": "https://aeronext.co.jp/news/tenryu-drone-workshop/"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "japan-tenryu-former-school",
+      "sourceReviewedAt": "2026-11-03",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "Contemporaneous reporting identifies the direction of flight. The wider list of candidate landing sites was a plan, not a set of completed launches.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-03-japan-cargo-and-relief-origins",
+      "supportingSources": [
+        {
+          "name": "Minami Shinshu — witnessed flight from the former school",
+          "url": "https://minamishinshu.jp/2026/10/24/990035/"
+        }
+      ]
     }
   ],
-  "expectedTotal": 490,
+  "expectedTotal": 500,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -15939,6 +16274,21 @@
         "japan-tamanoura-clinic",
         "japan-aokata-oso-relay",
         "japan-tomie-port-relay"
+      ]
+    },
+    {
+      "id": "2026-11-03-japan-cargo-and-relief-origins",
+      "recordIds": [
+        "japan-hachijo-plaza",
+        "japan-iwate-mori-arena",
+        "japan-hioki-ogi-hall",
+        "japan-yamagawa-port-market",
+        "japan-suetsugu-park",
+        "japan-matsue-morzwell",
+        "japan-nakatsugawa-landslide",
+        "japan-wajima-cultural-hall",
+        "japan-unyu-fishing-port",
+        "japan-tenryu-former-school"
       ]
     }
   ]
