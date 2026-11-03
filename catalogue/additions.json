@@ -14913,9 +14913,115 @@
           "url": "https://www.hel.fi/en/news/drones-deliver-medical-supplies-to-a-health-station"
         }
       ]
+    },
+    {
+      "id": "hamburg-droneport-spreehafen",
+      "name": "dronePORT Hamburg",
+      "where": "Kleiner Grasbrook, Hamburg, Germany",
+      "country": "Germany",
+      "region": "Europe",
+      "infrastructureType": "Port operations",
+      "reportedOperator": "Hamburg Port Authority (CITYAM flights)",
+      "reportedEquipment": "DJI Dock 1 and Matrice aircraft",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 53.52,
+        "longitude": 10.0
+      },
+      "reportDateLabel": "Report: December 2025; flights: 2024",
+      "description": "The Hamburg Port Authority used its dronePORT site for CITYAM demonstration flights. The project documented the installed dock and a pad used for takeoff and landing.",
+      "source": {
+        "name": "CITYAM final report — Hamburg flight log and landing pad",
+        "url": "https://interreg-baltic.eu/wp-content/uploads/2025/12/Deliverable-2.2-Final.docx.pdf"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "hamburg-droneport-spreehafen",
+      "sourceReviewedAt": "2026-11-03",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "The flight log covers several locations. Only the named dronePORT facility is counted here; the entry does not establish public access.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-03-hamburg-stockholm-flight-sites",
+      "supportingSources": [
+        {
+          "name": "Hamburg Port Authority — dronePORT opening and location",
+          "url": "https://www.hamburg-port-authority.de/en/aktuelles-presse/default-1ea639afa258ee4d0d841cff5c0b6d6d"
+        }
+      ]
+    },
+    {
+      "id": "stockholm-farsta-swimming-hall",
+      "name": "Farsta swimming hall rooftop drone dock",
+      "where": "Farsta, Stockholm, Sweden",
+      "country": "Sweden",
+      "region": "Europe",
+      "infrastructureType": "Drone docking station",
+      "reportedOperator": "Nokia Drone Networks for the City of Stockholm",
+      "reportedEquipment": "Automated rooftop docking station and drone",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 59.24,
+        "longitude": 18.09
+      },
+      "reportDateLabel": "Report: December 2025; flights: October 2025",
+      "description": "Nokia used a dock on the municipal swimming hall roof for remote vertical test flights during the October 2025 pilot.",
+      "source": {
+        "name": "CITYAM final report — Farsta rooftop installation",
+        "url": "https://interreg-baltic.eu/wp-content/uploads/2025/12/Deliverable-2.2-Final.docx.pdf"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "stockholm-farsta-swimming-hall",
+      "sourceReviewedAt": "2026-11-03",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "The test established that the rooftop system could launch and recover the drone. It does not establish routine emergency response or surveillance operations.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-03-hamburg-stockholm-flight-sites",
+      "supportingSources": []
+    },
+    {
+      "id": "hamburg-medifly-bundeswehr-hospital",
+      "name": "Bundeswehr Hospital Hamburg Medifly launch site",
+      "where": "Wandsbek-Gartenstadt, Hamburg, Germany",
+      "country": "Germany",
+      "region": "Europe",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Medifly Hamburg project team",
+      "reportedEquipment": "Medical transport drone",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 53.59,
+        "longitude": 10.08
+      },
+      "reportDateLabel": "Project report dated 24 March 2020",
+      "description": "Medifly tested the transport of medical samples from the hospital’s helipad to the pathology department at Marienkrankenhaus.",
+      "source": {
+        "name": "Medifly Hamburg project report — flight evaluation",
+        "url": "https://edocs.tib.eu/files/e01fn21/1750939207.pdf"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "hamburg-medifly-bundeswehr-hospital",
+      "sourceReviewedAt": "2026-11-03",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "The receiving pathology department is not counted as a second sample-dispatch site. The trial is not evidence of a continuing medical transport service.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-03-hamburg-stockholm-flight-sites",
+      "supportingSources": [
+        {
+          "name": "City of Hamburg — completed Medifly test flights",
+          "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bvm/aktuelles/pressemeldungen/medifly-192340"
+        }
+      ]
     }
   ],
-  "expectedTotal": 483,
+  "expectedTotal": 486,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -15678,6 +15784,14 @@
         "finland-lahnalahdenpuisto-pharmacy",
         "finland-kaivopuisto-airmour",
         "finland-kylasaari-stara"
+      ]
+    },
+    {
+      "id": "2026-11-03-hamburg-stockholm-flight-sites",
+      "recordIds": [
+        "hamburg-droneport-spreehafen",
+        "stockholm-farsta-swimming-hall",
+        "hamburg-medifly-bundeswehr-hospital"
       ]
     }
   ]
