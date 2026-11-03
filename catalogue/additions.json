@@ -14807,9 +14807,115 @@
       "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
       "researchBatch": "2026-11-03-norwegian-drone-dispatch",
       "supportingSources": []
+    },
+    {
+      "id": "finland-lahnalahdenpuisto-pharmacy",
+      "name": "Lahnalahdenpuisto trial launch site",
+      "where": "Lahnalahdenpuisto, Helsinki, Finland",
+      "country": "Finland",
+      "region": "Europe",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Third Space Automation Oy with project partners",
+      "reportedEquipment": "DJI M600 delivery drone",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 60.16,
+        "longitude": 24.87
+      },
+      "reportDateLabel": "5 October 2021",
+      "description": "In August 2021 the team flew orders from the Lauttasaari pharmacy to Saukontori Square. The flight team identified Lahnalahdenpuisto park as the launch site.",
+      "source": {
+        "name": "City of Helsinki — pharmacy-product delivery trial",
+        "url": "https://testbed.hel.fi/en/smart-mobility/various-delivery-pilot-projects-in-jatkasaari-helsinki-in-the-autumn/"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "finland-lahnalahdenpuisto-pharmacy",
+      "sourceReviewedAt": "2026-11-03",
+      "sourcePublishedAt": "2021-10-05",
+      "sourceType": "government",
+      "reviewNotes": "No medications were carried. The pharmacy supplied the goods; the square was the collection point.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-03-helsinki-health-delivery-trials",
+      "supportingSources": [
+        {
+          "name": "Flyby Guys — launch park and aircraft",
+          "url": "https://www.flybyguys.com/news/flyby-guys-lead-delivery-of-pharmacy-products-by-drone-bvlos-in-helsinki"
+        }
+      ]
+    },
+    {
+      "id": "finland-kaivopuisto-airmour",
+      "name": "Kaivopuisto trial launch site",
+      "where": "Kaivopuisto, Helsinki, Finland",
+      "country": "Finland",
+      "region": "Europe",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "AiRMOUR project partners; flight operator not identified by EASA",
+      "reportedEquipment": "Drone carrying an epinephrine auto-injector in a scripted exercise",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 60.15,
+        "longitude": 24.96
+      },
+      "reportDateLabel": "Demonstration: April 2023",
+      "description": "EASA identifies Kaivopuisto as the mainland takeoff site for an AiRMOUR demonstration flight to Suomenlinna in April 2023.",
+      "source": {
+        "name": "EASA — AiRMOUR Helsinki demonstration",
+        "url": "https://www.easa.europa.eu/en/helsinki-fire-monitoring-rescue-services-and-delivery-emergency-medical-products-using-drones"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "finland-kaivopuisto-airmour",
+      "sourceReviewedAt": "2026-11-03",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "The allergic emergency was scripted. The account does not establish treatment of an actual patient or routine service.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-03-helsinki-health-delivery-trials",
+      "supportingSources": []
+    },
+    {
+      "id": "finland-kylasaari-stara",
+      "name": "Kyläsaari Stara warehouse trial origin",
+      "where": "Kyläsaari Stara warehouse, Helsinki, Finland",
+      "country": "Finland",
+      "region": "Europe",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Aviant with Stara, Forum Virium Helsinki and city partners",
+      "reportedEquipment": "Cargo drone carrying healthcare supplies",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 60.2,
+        "longitude": 24.98
+      },
+      "reportDateLabel": "Pilot flights: November 2025",
+      "description": "Aviant flew healthcare supplies from Stara’s Kyläsaari warehouse to the Laajasalo health station in a municipal logistics trial.",
+      "source": {
+        "name": "Interreg Baltic Sea Region — Helsinki pilot results",
+        "url": "https://interreg-baltic.eu/project-pilots/helsinki-pilot-2025/"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "finland-kylasaari-stara",
+      "sourceReviewedAt": "2026-11-03",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "Aviant supervised the flights remotely from Oslo with ground staff in Helsinki. The warehouse is the physical origin; the report describes a trial.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-03-helsinki-health-delivery-trials",
+      "supportingSources": [
+        {
+          "name": "City of Helsinki — dispatch warehouse and route",
+          "url": "https://www.hel.fi/en/news/drones-deliver-medical-supplies-to-a-health-station"
+        }
+      ]
     }
   ],
-  "expectedTotal": 480,
+  "expectedTotal": 483,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -15564,6 +15670,14 @@
         "norway-lillehammer-kyte",
         "norway-roros-home-care",
         "norway-mongstad-offshore-cargo"
+      ]
+    },
+    {
+      "id": "2026-11-03-helsinki-health-delivery-trials",
+      "recordIds": [
+        "finland-lahnalahdenpuisto-pharmacy",
+        "finland-kaivopuisto-airmour",
+        "finland-kylasaari-stara"
       ]
     }
   ]
