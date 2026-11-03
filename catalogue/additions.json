@@ -15019,9 +15019,147 @@
           "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bvm/aktuelles/pressemeldungen/medifly-192340"
         }
       ]
+    },
+    {
+      "id": "japan-fukue-sora-iina",
+      "name": "Sora-iina Fukue launch and recovery base",
+      "where": "Fukue Island, Gotō, Nagasaki, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Sora-iina",
+      "reportedEquipment": "Zipline fixed-wing drones, catapult and recovery equipment",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 32.68,
+        "longitude": 128.84
+      },
+      "reportDateLabel": "Base completed April 2022; subsequent operator account",
+      "description": "Toyota Tsusho describes a fixed-wing base on Fukue Island used to dispatch pharmaceuticals and other goods to island communities.",
+      "source": {
+        "name": "Toyota Tsusho — Fukue launch and recovery base",
+        "url": "https://www.toyota-tsusho.com/english/about/project/25.html"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "dispatch-site",
+      "entityKey": "japan-fukue-sora-iina",
+      "sourceReviewedAt": "2026-11-03",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "Separate from the 2021 ANA / Wingcopter Fukue–Hisaka trial. Neither the number of routes nor the number of aircraft is counted as additional sites.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-03-goto-medical-dispatch-sites",
+      "supportingSources": [
+        {
+          "name": "Toyota Tsusho — completion of the Fukue base",
+          "url": "https://www.toyota-tsusho.com/english/press/detail/220421_005908.html"
+        }
+      ]
+    },
+    {
+      "id": "japan-tamanoura-clinic",
+      "name": "Tamanoura clinic prescription dispatch trial",
+      "where": "Tamanoura, Gotō, Nagasaki, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Sora-iina",
+      "reportedEquipment": "Vertical-takeoff multicopter",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 32.62,
+        "longitude": 128.61
+      },
+      "reportDateLabel": "10 February 2025",
+      "description": "A multicopter took off from a clinic in Tamanoura and delivered prescription drugs to a mobile clinic after a remote medical consultation.",
+      "source": {
+        "name": "Toyota Tsusho — Tamanoura demonstration",
+        "url": "https://www.toyota-tsusho.com/english/press/detail/250210_006531.html"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "japan-tamanoura-clinic",
+      "sourceReviewedAt": "2026-11-03",
+      "sourcePublishedAt": "2025-02-10",
+      "sourceType": "operator",
+      "reviewNotes": "The mobile clinic was the destination. The flight demonstrates a specific delivery, not continuing service from the clinic.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-03-goto-medical-dispatch-sites",
+      "supportingSources": []
+    },
+    {
+      "id": "japan-aokata-oso-relay",
+      "name": "Aokata medical cargo relay site",
+      "where": "Aokata, Shinkamigoto, Nagasaki, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Sora-iina",
+      "reportedEquipment": "Fixed-wing delivery drone and onward multicopter",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 32.98,
+        "longitude": 129.06
+      },
+      "reportDateLabel": "Trial: 20 November 2025; prefectural update: 27 February 2026",
+      "description": "At a relay point near the Ōso Catholic Church parking area, a fixed-wing drop was transferred to a multicopter for onward flights.",
+      "source": {
+        "name": "Nagasaki Prefecture — Shinkamigoto flight routes",
+        "url": "https://www.pref.nagasaki.jp/doc/page-763935.html"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "japan-aokata-oso-relay",
+      "sourceReviewedAt": "2026-11-03",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "One departure site served a hospital and the town hall. The church itself is not identified as the operator.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-03-goto-medical-dispatch-sites",
+      "supportingSources": []
+    },
+    {
+      "id": "japan-tomie-port-relay",
+      "name": "Tomie Port park medical cargo relay",
+      "where": "Tomie, Gotō, Nagasaki, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Sora-iina",
+      "reportedEquipment": "ACSL PF2-CAT3 multicopter",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 32.61,
+        "longitude": 128.77
+      },
+      "reportDateLabel": "Trial: 19 February 2026",
+      "description": "A multicopter took off from the Tomie Port park carrying pharmaceuticals to the roof of Tomie Hospital after a fixed-wing handoff.",
+      "source": {
+        "name": "ACSL — Tomie medical delivery demonstration",
+        "url": "https://www.acsl.co.jp/en/news-release/press-release/4573/"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "japan-tomie-port-relay",
+      "sourceReviewedAt": "2026-11-03",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "The park is identified in contemporaneous local reporting; ACSL documents the transfer and the receiving hospital. The hospital is not a second launch site.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-03-goto-medical-dispatch-sites",
+      "supportingSources": [
+        {
+          "name": "Nagasaki Culture Telecasting — departure from Tomie Port park",
+          "url": "https://www.ncctv.co.jp/news/article/16366213"
+        }
+      ]
     }
   ],
-  "expectedTotal": 486,
+  "expectedTotal": 490,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -15792,6 +15930,15 @@
         "hamburg-droneport-spreehafen",
         "stockholm-farsta-swimming-hall",
         "hamburg-medifly-bundeswehr-hospital"
+      ]
+    },
+    {
+      "id": "2026-11-03-goto-medical-dispatch-sites",
+      "recordIds": [
+        "japan-fukue-sora-iina",
+        "japan-tamanoura-clinic",
+        "japan-aokata-oso-relay",
+        "japan-tomie-port-relay"
       ]
     }
   ]
