@@ -1,6 +1,6 @@
 {
   "batch": "2026-10-28-cumulative-reviewed-additions",
-  "reviewedAt": "2026-11-02",
+  "reviewedAt": "2026-11-03",
   "records": [
     {
       "id": "zipline-omenako",
@@ -14637,9 +14637,179 @@
       "coordinateBasis": "Editorial locality reference. Rounded coordinates mark the named locality only, not a hangar address.",
       "researchBatch": "2026-11-02-swedish-defibrillator-drone-stations",
       "supportingSources": []
+    },
+    {
+      "id": "norway-ski-airport-aviant",
+      "name": "Aviant Ski Airport delivery base",
+      "where": "Ski, Norway",
+      "country": "Norway",
+      "region": "Europe",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "Aviant",
+      "reportedEquipment": "Food delivery drone",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 59.72,
+        "longitude": 10.84
+      },
+      "reportDateLabel": "Undated operator description, reviewed November 2026",
+      "description": "Aviant identifies its base at Ski Airport as the place where restaurant orders are prepared for onward delivery by drone.",
+      "source": {
+        "name": "Aviant — Ski delivery base operations",
+        "url": "https://jobs.aviant.no/jobs/8325241-driver-for-drone-deliveries"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "dispatch-site",
+      "entityKey": "norway-ski-airport-aviant",
+      "sourceReviewedAt": "2026-11-03",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "The report identifies the airport but not a public collection point or a specific pad.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-03-norwegian-drone-dispatch",
+      "supportingSources": [
+        {
+          "name": "Aviant — service in Ski",
+          "url": "https://www.aviant.no/"
+        }
+      ]
+    },
+    {
+      "id": "norway-trondheim-kyte",
+      "name": "Kyte Trondheim home delivery hub",
+      "where": "Trondheim, Norway",
+      "country": "Norway",
+      "region": "Europe",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "Aviant / Kyte",
+      "reportedEquipment": "Autonomous delivery drone with winch",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 63.43,
+        "longitude": 10.4
+      },
+      "reportDateLabel": "Project period: December 2022–2023",
+      "description": "Aviant describes orders leaving its Trondheim hub by drone, with packages lowered at the delivery destination.",
+      "source": {
+        "name": "Aviant — Kyte in Trondheim",
+        "url": "https://www.aviant.no/project/kyte"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "dispatch-site",
+      "entityKey": "norway-trondheim-kyte",
+      "sourceReviewedAt": "2026-11-03",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "The hub is described at city level. The listed restaurant partners are not additional drone bases; the separate SINTEF laboratory is not this delivery project.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-03-norwegian-drone-dispatch",
+      "supportingSources": []
+    },
+    {
+      "id": "norway-lillehammer-kyte",
+      "name": "Kyte Lillehammer delivery base",
+      "where": "Lillehammer, Norway",
+      "country": "Norway",
+      "region": "Europe",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "Aviant / Kyte",
+      "reportedEquipment": "Delivery drone",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 61.12,
+        "longitude": 10.47
+      },
+      "reportDateLabel": "20 February 2024",
+      "description": "Shifter reported the launch of a Kyte delivery base near the Lysgårdsbakkene ski jumps in Lillehammer for deliveries to the Sjusjøen area.",
+      "source": {
+        "name": "Shifter — interview with the Aviant co-founder",
+        "url": "https://www.shifter.no/nyheter/drone-grnderne-flyr-inn-mat-og-snus-til-hyttefolket/311750"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "dispatch-site",
+      "entityKey": "norway-lillehammer-kyte",
+      "sourceReviewedAt": "2026-11-03",
+      "sourcePublishedAt": "2024-02-20",
+      "sourceType": "news",
+      "reviewNotes": "The report locates the base near the ski jumps; it does not identify a precise pad or establish service after that ski season.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-03-norwegian-drone-dispatch",
+      "supportingSources": []
+    },
+    {
+      "id": "norway-roros-home-care",
+      "name": "Røros home-care drone dispatch base",
+      "where": "Røros, Norway",
+      "country": "Norway",
+      "region": "Europe",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Aviant with Røros Municipality and Green Flyway",
+      "reportedEquipment": "Cargo drone and charging infrastructure",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 62.57,
+        "longitude": 11.38
+      },
+      "reportDateLabel": "Project report, 2025",
+      "description": "The project report identifies a base at St. Olav’s Røros where food packages were picked up for home-care delivery routes to Glåmos and Brekken.",
+      "source": {
+        "name": "Green Flyway — project report, section 4.3",
+        "url": "https://greenflyway.no/wp-content/uploads/2025/04/Drone-project-report2025.pdf"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "dispatch-site",
+      "entityKey": "norway-roros-home-care",
+      "sourceReviewedAt": "2026-11-03",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "The report also names Øverhagaen in describing the routes. Only one Røros origin is counted, with no claim about the precise launch building.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-03-norwegian-drone-dispatch",
+      "supportingSources": [
+        {
+          "name": "Aviant — Røros home-care project",
+          "url": "https://www.aviant.no/project/roros-kommune"
+        }
+      ]
+    },
+    {
+      "id": "norway-mongstad-offshore-cargo",
+      "name": "Mongstad offshore drone trial origin",
+      "where": "Mongstad, Norway",
+      "country": "Norway",
+      "region": "Europe",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "Nordic Unmanned for Equinor",
+      "reportedEquipment": "Schiebel Camcopter S-100",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 60.81,
+        "longitude": 5.03
+      },
+      "reportDateLabel": "28 August 2020",
+      "description": "Equinor reports that Nordic Unmanned flew a lifeboat-system component from its Mongstad base to the offshore Troll A platform in a 2020 freight trial.",
+      "source": {
+        "name": "Equinor — Mongstad to Troll A freight flight",
+        "url": "https://www.equinor.com/news/archive/20200828-drone-transport-troll"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "dispatch-site",
+      "entityKey": "norway-mongstad-offshore-cargo",
+      "sourceReviewedAt": "2026-11-03",
+      "sourcePublishedAt": "2020-08-28",
+      "sourceType": "operator",
+      "reviewNotes": "Troll A is identified as the delivery destination. This record concerns the onshore origin and does not establish a scheduled offshore service.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-03-norwegian-drone-dispatch",
+      "supportingSources": []
     }
   ],
-  "expectedTotal": 475,
+  "expectedTotal": 480,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -15384,6 +15554,16 @@
         "sweden-trollhattan-aed-station",
         "sweden-vanersborg-aed-station",
         "sweden-ostersund-aed-station"
+      ]
+    },
+    {
+      "id": "2026-11-03-norwegian-drone-dispatch",
+      "recordIds": [
+        "norway-ski-airport-aviant",
+        "norway-trondheim-kyte",
+        "norway-lillehammer-kyte",
+        "norway-roros-home-care",
+        "norway-mongstad-offshore-cargo"
       ]
     }
   ]
