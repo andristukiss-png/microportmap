@@ -927,4 +927,11 @@ assert len(prior469)==419
 for id,digest in prior469.items():
  assert hashlib.sha256(json.dumps(by_id[id],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest
 assert all(by_id[id]['country']=='Sweden' and by_id[id]['recordScope']=='dispatch-site' for id in swedish_ids)
+norwegian_ids=json.loads((ROOT/'catalogue/sixty-fifth-batch-ids.json').read_text())
+assert norwegian_ids==batch['releases'][64]['recordIds'] and len(set(norwegian_ids))==5
+prior475=json.loads((ROOT/'catalogue/prior-475-preservation.json').read_text())
+assert len(prior475)==425
+for id,digest in prior475.items():
+ assert hashlib.sha256(json.dumps(by_id[id],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest
+assert all(by_id[id]['country']=='Norway' and by_id[id]['recordScope']=='dispatch-site' for id in norwegian_ids)
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
