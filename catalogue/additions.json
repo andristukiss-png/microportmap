@@ -15748,9 +15748,233 @@
       "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
       "researchBatch": "2026-11-03-japan-mountain-island-and-postal-trials",
       "supportingSources": []
+    },
+    {
+      "id": "japan-miwa-post-office",
+      "name": "Miwa Post Office logistics rehearsal",
+      "where": "Hase, Ina, Nagano, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "Blue Innovation, University of Tokyo and postal trial partners",
+      "reportedEquipment": "ACSL-PF1",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.81,
+        "longitude": 138.08
+      },
+      "reportDateLabel": "November 2017",
+      "description": "The test paired Miwa Post Office with the Minami Alps Mura Hase roadside station. The postal end dispatched a box containing an order slip; the return load was merchandise.",
+      "source": {
+        "name": "Japan MLIT — integrated droneport test results",
+        "url": "https://www.mlit.go.jp/common/001215391.pdf"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "japan-miwa-post-office",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "reviewNotes": "The public demonstration was stopped after an aircraft anomaly. The report attributes successful validation to earlier rehearsals. Only the previously unlisted postal end is added.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-04-japan-retail-postal-and-mountain-dispatch",
+      "supportingSources": []
+    },
+    {
+      "id": "japan-livin-yokosuka",
+      "name": "LIVIN Yokosuka island delivery dispatch",
+      "where": "Yokosuka, Kanagawa, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "Rakuten and Seiyu",
+      "reportedEquipment": "Delivery drone",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.27,
+        "longitude": 139.69
+      },
+      "reportDateLabel": "July–September 2019",
+      "description": "The store supplied drone orders for visitors to Sarushima, including groceries and barbecue supplies.",
+      "source": {
+        "name": "Rakuten Drone — Yokosuka island deliveries",
+        "url": "https://drone.rakuten.co.jp/cases/20190704/"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "retail dispatch site",
+      "entityKey": "japan-livin-yokosuka",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": "2019-07-04",
+      "sourceType": "operator",
+      "reviewNotes": "The mainland store counts once. The seasonal service report does not establish current dispatches.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-04-japan-retail-postal-and-mountain-dispatch",
+      "supportingSources": []
+    },
+    {
+      "id": "japan-lawson-minamisoma-odaka",
+      "name": "Lawson Minamisoma-Odaka delivery dispatch",
+      "where": "Odaka, Minamisoma, Fukushima, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "Rakuten and Lawson",
+      "reportedEquipment": "Delivery drone",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 37.56,
+        "longitude": 141.0
+      },
+      "reportDateLabel": "October 2017–March 2018",
+      "description": "Residents ordered goods that flew from the Lawson store to a designated pickup location in Odaka.",
+      "source": {
+        "name": "Rakuten Drone — Minamisoma delivery service",
+        "url": "https://drone.rakuten.co.jp/cases/20171031/"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "retail dispatch site",
+      "entityKey": "japan-lawson-minamisoma-odaka",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": "2017-10-31",
+      "sourceType": "operator",
+      "reviewNotes": "The retailer is distinct from Odaka Post Office. The approximate locality marker is not a building or launch coordinate.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-04-japan-retail-postal-and-mountain-dispatch",
+      "supportingSources": []
+    },
+    {
+      "id": "japan-maxvalu-ugata",
+      "name": "MaxValu Ugata island supply dispatch",
+      "where": "Shima, Mie, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "Rakuten and retail partners",
+      "reportedEquipment": "Delivery drone",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.33,
+        "longitude": 136.83
+      },
+      "reportDateLabel": "6–22 January 2021",
+      "description": "Drone flights carried orders from the Ugata supermarket to residents of Masaki Island.",
+      "source": {
+        "name": "Rakuten Drone — Masaki Island delivery service",
+        "url": "https://drone.rakuten.co.jp/cases/20210106/"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "retail dispatch site",
+      "entityKey": "japan-maxvalu-ugata",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": "2021-01-06",
+      "sourceType": "operator",
+      "reviewNotes": "The island is a receiving location. Repeated flights from the same supermarket count as one dispatch site.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-04-japan-retail-postal-and-mountain-dispatch",
+      "supportingSources": []
+    },
+    {
+      "id": "japan-sarukura-lodge",
+      "name": "Sarukura-so mountain supply dispatch",
+      "where": "Hakuba, Nagano, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "Hakuba mountain drone logistics council and Rakuten",
+      "reportedEquipment": "Cargo drone",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.75,
+        "longitude": 137.79
+      },
+      "reportDateLabel": "August–September 2020",
+      "description": "Fruit and medicines flew from Sarukura-so to two higher mountain lodges.",
+      "source": {
+        "name": "Rakuten Drone — Hakuba mountain supplies",
+        "url": "https://drone.rakuten.co.jp/cases/other/"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "japan-sarukura-lodge",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "One lodge dispatched both routes. This is a separate origin from the Kurobishi and Happo-Ike trial.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-04-japan-retail-postal-and-mountain-dispatch",
+      "supportingSources": []
+    },
+    {
+      "id": "japan-otaki-onsen",
+      "name": "Otaki Onsen roadside station delivery trial",
+      "where": "Chichibu, Saitama, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "JP Rakuten Logistics and local partners",
+      "reportedEquipment": "Cargo drone with 7 kg payload capacity",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.95,
+        "longitude": 138.94
+      },
+      "reportDateLabel": "7–17 November 2022",
+      "description": "Packed lunches and drinks flew from the roadside station to the Futase Dam management office.",
+      "source": {
+        "name": "Rakuten Drone — remotely supervised Chichibu deliveries",
+        "url": "https://drone.rakuten.co.jp/cases/20221220/"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "japan-otaki-onsen",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": "2022-12-20",
+      "sourceType": "operator",
+      "reviewNotes": "The dam office received the loads. The named origin distinguishes this route from the Urayama Dam trial.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-04-japan-retail-postal-and-mountain-dispatch",
+      "supportingSources": []
+    },
+    {
+      "id": "japan-prologis-ichikawa-3",
+      "name": "Prologis Park Ichikawa 3 delivery trial",
+      "where": "Shiohama, Ichikawa, Chiba, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "JP Rakuten Logistics",
+      "reportedEquipment": "CIRC and JP Rakuten Logistics cargo drone",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.67,
+        "longitude": 139.94
+      },
+      "reportDateLabel": "1–16 December 2021",
+      "description": "Ordered emergency supplies and medicines flew from the logistics facility parking lot to a residential tower rooftop in Chiba.",
+      "source": {
+        "name": "Japan Post — Ichikawa to Chiba delivery trial",
+        "url": "https://www.post.japanpost.jp/notification/pressrelease/2022/00_honsha/0111_01_01.pdf"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "japan-prologis-ichikawa-3",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": "2022-01-11",
+      "sourceType": "operator",
+      "reviewNotes": "The rooftop heliport received the deliveries. The dispatch site was the parking lot in Ichikawa.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-04-japan-retail-postal-and-mountain-dispatch",
+      "supportingSources": []
     }
   ],
-  "expectedTotal": 508,
+  "expectedTotal": 515,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -16558,6 +16782,18 @@
         "japan-wake-interchange-park",
         "japan-urayama-dam",
         "japan-higashi-innai-hall"
+      ]
+    },
+    {
+      "id": "2026-11-04-japan-retail-postal-and-mountain-dispatch",
+      "recordIds": [
+        "japan-miwa-post-office",
+        "japan-livin-yokosuka",
+        "japan-lawson-minamisoma-odaka",
+        "japan-maxvalu-ugata",
+        "japan-sarukura-lodge",
+        "japan-otaki-onsen",
+        "japan-prologis-ichikawa-3"
       ]
     }
   ]
