@@ -15972,9 +15972,105 @@
       "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
       "researchBatch": "2026-11-04-japan-retail-postal-and-mountain-dispatch",
       "supportingSources": []
+    },
+    {
+      "id": "japan-makurase",
+      "name": "Makurase community supply trial",
+      "where": "Makurase, Tsuwano, Shimane, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "KDDI SmartDrone and NEXT DELIVERY",
+      "reportedEquipment": "AirTruck",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.53,
+        "longitude": 131.85
+      },
+      "reportDateLabel": "19–21 December 2023",
+      "description": "Flights carried food and emergency supplies from near the community complex construction site in Makurase to two locations in Ikemura.",
+      "source": {
+        "name": "Aeronext — Tsuwano delivery results",
+        "url": "https://aeronext.co.jp/news/tsuwanotown-poc/"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "japan-makurase",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": "2023-12-25",
+      "sourceType": "operator",
+      "reviewNotes": "The trial used one temporary origin. Neither the receiving park nor the community hall is counted as a launch site.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-04-japan-community-dispatch",
+      "supportingSources": []
+    },
+    {
+      "id": "japan-kokuzo-satoyama",
+      "name": "Kokuzo Satoyama Park delivery trial",
+      "where": "Nomi, Ishikawa, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "NEXT DELIVERY and Nomi City",
+      "reportedEquipment": "AirTruck",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.42,
+        "longitude": 136.55
+      },
+      "reportDateLabel": "28 March 2024",
+      "description": "A car brought a curry meal to the park, where the drone took off for the Japan Advanced Institute of Science and Technology sports ground.",
+      "source": {
+        "name": "Aeronext — Nomi delivery trial",
+        "url": "https://aeronext.co.jp/news/nomi_poc/"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "japan-kokuzo-satoyama",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": "2024-04-03",
+      "sourceType": "operator",
+      "reviewNotes": "Only the park dispatched the aircraft. The restaurant supplied the meal and the university received it.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-04-japan-community-dispatch",
+      "supportingSources": []
+    },
+    {
+      "id": "japan-hikariura-tunnel",
+      "name": "Hikariura Tunnel earthquake relief dispatch",
+      "where": "Hikariura, Wajima, Ishikawa, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "Aeronext, NEXT DELIVERY and relief partners",
+      "reportedEquipment": "Cargo drone",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 37.4,
+        "longitude": 136.88
+      },
+      "reportDateLabel": "11 January 2024",
+      "description": "The response team dispatched prescription medicines from the Hikariura Tunnel area to the Nishiho community hall after the Noto Peninsula earthquake.",
+      "source": {
+        "name": "Joint response report — Noto Peninsula earthquake relief",
+        "url": "https://f.irbank.net/pr/20240208/140120240208529330.pdf"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "temporary relief dispatch site",
+      "entityKey": "japan-hikariura-tunnel",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": "2024-02-08",
+      "sourceType": "operator",
+      "reviewNotes": "The report names a separate origin from Wajima City Cultural Hall. The locality marker does not identify a particular tunnel portal.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-04-japan-community-dispatch",
+      "supportingSources": []
     }
   ],
-  "expectedTotal": 515,
+  "expectedTotal": 518,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -16794,6 +16890,14 @@
         "japan-sarukura-lodge",
         "japan-otaki-onsen",
         "japan-prologis-ichikawa-3"
+      ]
+    },
+    {
+      "id": "2026-11-04-japan-community-dispatch",
+      "recordIds": [
+        "japan-makurase",
+        "japan-kokuzo-satoyama",
+        "japan-hikariura-tunnel"
       ]
     }
   ]
