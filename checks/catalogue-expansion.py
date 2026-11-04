@@ -969,4 +969,11 @@ assert len(prior500)==450
 for id,digest in prior500.items():
  assert hashlib.sha256(json.dumps(by_id[id],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest
 assert all(by_id[id]['country']=='Japan' and by_id[id]['reportedStatus']=='historical' for id in mountain_island_ids)
+dispatch_ids=json.loads((ROOT/'catalogue/seventy-first-batch-ids.json').read_text())
+assert dispatch_ids==batch['releases'][70]['recordIds'] and len(set(dispatch_ids))==7
+prior508=json.loads((ROOT/'catalogue/prior-508-preservation.json').read_text())
+assert len(prior508)==458
+for id,digest in prior508.items():
+ assert hashlib.sha256(json.dumps(by_id[id],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==digest
+assert all(by_id[id]['reportedStatus']=='historical' for id in dispatch_ids)
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
