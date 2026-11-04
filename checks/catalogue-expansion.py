@@ -979,4 +979,6 @@ assert all(by_id[id]['reportedStatus']=='historical' for id in dispatch_ids)
 # Preserve the 465 additions preceding the community dispatch release.
 assert hashlib.sha256(json.dumps(additions[:465],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='40d60b5c346e4ab0b457aecad343605aff2ae7455d4cf3afe447aaa9792c58b3'
 assert batch['releases'][71]['recordIds']==['japan-makurase', 'japan-kokuzo-satoyama', 'japan-hikariura-tunnel']
+assert hashlib.sha256(json.dumps(additions[:468],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='170857890bb025f59b87f4c98fe01ccf005c7cdf181a7f29ab5b2d3da4c3a83a'
+assert batch['releases'][72]['recordIds']==['japan-yoshinoya-komatsu', 'japan-tateishi-park', 'japan-kawazu-materials-warehouse', 'japan-yanagida-gymnasium']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
