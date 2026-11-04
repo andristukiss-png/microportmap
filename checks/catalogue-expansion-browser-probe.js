@@ -15,7 +15,11 @@
    const search=document.getElementById('search');search.value='Zipline';search.dispatchEvent(new Event('input',{bubbles:true}));
    check(window.mpFilteredRecords.length===catalogue.records.filter(p=>window.MicroportSearch.matches(p,'Zipline')).length,'Zipline records not searchable');
    search.value='Amazon';search.dispatchEvent(new Event('input',{bubbles:true}));
-   check(window.mpFilteredRecords.length===14,'Amazon origins missing or duplicated');
+   const amazonIds=new Set(window.mpFilteredRecords.map(p=>p.id));
+   const expectedAmazon=catalogue.records.filter(p=>window.MicroportSearch.matches(p,'Amazon'));
+   check(amazonIds.size===window.mpFilteredRecords.length && amazonIds.size===expectedAmazon.length && expectedAmazon.every(p=>amazonIds.has(p.id)),'Amazon search results missing or duplicated');
+   for(const id of ['amazon-college-station','peru-contamana-football-field','peru-pampa-hermosa-sample-return'])check(amazonIds.has(id),'Amazon company or geographic result missing: '+id);
+   check(!amazonIds.has('sierra-leone-njala-test-runway'),'Unrelated runway matched Amazon search');
    search.value='';search.dispatchEvent(new Event('input',{bubbles:true}));
   }else if(path==='/countries/'){
    await wait(()=>window.MicroportCountries?.getState().loaded);
