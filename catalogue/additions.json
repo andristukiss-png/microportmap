@@ -16462,9 +16462,115 @@
       "coordinateBasis": "Editorial locality reference. Rounded locality marker, not a surveyed takeoff or landing position.",
       "researchBatch": "2026-11-04-njala-and-amazon-flight-trials",
       "supportingSources": []
+    },
+    {
+      "id": "dominican-republic-bohechio-hospital",
+      "name": "Bohechío Hospital medical droneport",
+      "where": "Bohechío, San Juan Province, Dominican Republic",
+      "country": "Dominican Republic",
+      "region": "North America",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Dominican Republic Flying Labs and WeRobotics",
+      "reportedEquipment": "DJI Matrice 600 adapted for cargo",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 18.78,
+        "longitude": -70.99
+      },
+      "reportDateLabel": "June–July 2019",
+      "description": "The hospital droneport dispatched medicines to health facilities in Los Montacitos and El Coco during a rural delivery project.",
+      "source": {
+        "name": "Dominican Republic Flying Labs — rural medicines delivery",
+        "url": "https://flyinglabs.org/assets/Use-cases/PDFs/Dominican-Republic-_Project-Use-Case_Delivering-essential-medicines-to-rural-health-facilities.pdf"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "hospital dispatch site",
+      "entityKey": "dominican-republic-bohechio-hospital",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "The report explicitly identifies the hospital as the droneport. The two clinics are destinations of these deliveries, not additional origins in this batch.",
+      "coordinateBasis": "Editorial locality reference. Rounded locality marker, not a surveyed takeoff or landing position.",
+      "researchBatch": "2026-11-04-hospital-dispatch-sites",
+      "supportingSources": [
+        {
+          "name": "WeRobotics — medical delivery field report",
+          "url": "https://werobotics.org/assets/Documents-Reports-PDF/Cargo-Drone-Field-Tests-for-Pfizer-2019.pdf"
+        }
+      ]
+    },
+    {
+      "id": "india-jengjal-hospital",
+      "name": "Jengjal Sub-Divisional Hospital drone station",
+      "where": "Jengjal, West Garo Hills, Meghalaya, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Meghalaya Health Systems Strengthening Project and TechEagle",
+      "reportedEquipment": "TechEagle Vertiplane X3",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 25.64,
+        "longitude": 90.33
+      },
+      "reportDateLabel": "5 December 2022 inaugural delivery",
+      "description": "The first official flight from the hospital station carried medicines to Padeldoba Primary Health Centre. The state later published operating data for the network.",
+      "source": {
+        "name": "Government of Meghalaya — Jengjal launch report",
+        "url": "https://www.meghalaya.gov.in/sites/default/files/press_release/Meghalaya_Launched_its_First_Drone_Station_5th_Dec_2022.pdf"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "hospital dispatch site",
+      "entityKey": "india-jengjal-hospital",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": "2022-12-05",
+      "sourceType": "government",
+      "reviewNotes": "One dispatch station is counted. The network’s listed spokes do not each establish a separate origin; the published flight does not confirm the station’s present status.",
+      "coordinateBasis": "Editorial locality reference. Rounded locality marker, not a surveyed takeoff or landing position.",
+      "researchBatch": "2026-11-04-hospital-dispatch-sites",
+      "supportingSources": [
+        {
+          "name": "Meghalaya Health Systems Strengthening Project — network and operating data",
+          "url": "https://www.meghssp.org/meghalaya-drone-delivery-network"
+        }
+      ]
+    },
+    {
+      "id": "india-vikarabad-district-hospital",
+      "name": "Vikarabad District Hospital cargo trial",
+      "where": "Vikarabad, Telangana, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Telangana Medicines from the Sky trial partners",
+      "reportedEquipment": "Cargo drone; model not identified in launch report",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 17.34,
+        "longitude": 77.9
+      },
+      "reportDateLabel": "9 September 2021",
+      "description": "The trial report identifies the district hospital as the origin of flights carrying boxes toward nearby primary healthcare centres.",
+      "source": {
+        "name": "Deccan Herald — Vikarabad trial flights",
+        "url": "https://www.deccanherald.com/india/telangana-becomes-first-state-to-launch-drone-trials-for-deliveries-1028758.html"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "hospital dispatch site",
+      "entityKey": "india-vikarabad-district-hospital",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": "2021-09-09",
+      "sourceType": "news",
+      "reviewNotes": "The parade ground hosted the ceremony. The article distinguishes it from the hospital departure point and does not establish routine deliveries.",
+      "coordinateBasis": "Editorial locality reference. Rounded locality marker, not a surveyed takeoff or landing position.",
+      "researchBatch": "2026-11-04-hospital-dispatch-sites",
+      "supportingSources": []
     }
   ],
-  "expectedTotal": 530,
+  "expectedTotal": 533,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -17324,6 +17430,14 @@
         "sierra-leone-njala-test-runway",
         "peru-contamana-football-field",
         "peru-pampa-hermosa-sample-return"
+      ]
+    },
+    {
+      "id": "2026-11-04-hospital-dispatch-sites",
+      "recordIds": [
+        "dominican-republic-bohechio-hospital",
+        "india-jengjal-hospital",
+        "india-vikarabad-district-hospital"
       ]
     }
   ]

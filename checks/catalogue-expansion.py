@@ -987,4 +987,6 @@ assert hashlib.sha256(json.dumps(additions[:474],sort_keys=True,ensure_ascii=Fal
 assert batch['releases'][74]['recordIds']==['bhutan-thimphu-referral-hospital', 'madagascar-maroantsetra-health-base', 'vanuatu-melsisi-vaccine-base']
 assert hashlib.sha256(json.dumps(additions[:477],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='10fe5401b4fc5846ff4c5a17b28185b3c8b9623b36b290ff0d92dc68290db62f'
 assert batch['releases'][75]['recordIds']==['sierra-leone-njala-test-runway', 'peru-contamana-football-field', 'peru-pampa-hermosa-sample-return']
+assert hashlib.sha256(json.dumps(additions[:480],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='9f40d4ffaa9fe3a6ead150cfb2a629386851027b00f53397a0e570aa6fc3970f'
+assert batch['releases'][76]['recordIds']==['dominican-republic-bohechio-hospital', 'india-jengjal-hospital', 'india-vikarabad-district-hospital']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
