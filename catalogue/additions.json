@@ -16068,9 +16068,137 @@
       "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
       "researchBatch": "2026-11-04-japan-community-dispatch",
       "supportingSources": []
+    },
+    {
+      "id": "japan-yoshinoya-komatsu",
+      "name": "Yoshinoya Komatsu restaurant dispatch trial",
+      "where": "Imaemachi, Komatsu, Ishikawa, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "NEXT DELIVERY and Yoshinoya",
+      "reportedEquipment": "AirTruck",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.38,
+        "longitude": 136.44
+      },
+      "reportDateLabel": "12 September 2023",
+      "description": "Staff loaded boxed beef bowls at the Yoshinoya restaurant for nine flights to the canoe boathouse at Lake Kiba.",
+      "source": {
+        "name": "Aeronext — Komatsu restaurant flight results",
+        "url": "https://aeronext.co.jp/news/yoshinoyapoc-komatsucity/"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "japan-yoshinoya-komatsu",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": "2023-09-13",
+      "sourceType": "operator",
+      "reviewNotes": "The restaurant was the dispatch origin, distinct from the previously recorded Honobono Shoto depot. The boathouse received the meals.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-04-japan-meal-and-relief-flights",
+      "supportingSources": []
+    },
+    {
+      "id": "japan-tateishi-park",
+      "name": "Tateishi Park hospital meal dispatch trial",
+      "where": "Akiya, Yokosuka, Kanagawa, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "Aeronext, ACCESS, Demae-can and Yoshinoya",
+      "reportedEquipment": "Meal delivery drone",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.24,
+        "longitude": 139.6
+      },
+      "reportDateLabel": "10 June 2021",
+      "description": "A courier brought boxed lunches to Tateishi Park for drone delivery to the roof of Yokosuka Municipal Hospital.",
+      "source": {
+        "name": "Aeronext — Yokosuka hospital lunch trial",
+        "url": "https://aeronext.co.jp/news/yokosuka_flyingbeefbowl/"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "japan-tateishi-park",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": "2021-06-10",
+      "sourceType": "operator",
+      "reviewNotes": "The food truck prepared the meals and the hospital received them. The park is separate from the LIVIN Yokosuka island dispatch site.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-04-japan-meal-and-relief-flights",
+      "supportingSources": []
+    },
+    {
+      "id": "japan-kawazu-materials-warehouse",
+      "name": "Kawazu Construction materials warehouse relief exercise",
+      "where": "Mitsukuri, Shimoda, Shizuoka, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "KDDI SmartDrone, NEXT DELIVERY and Shimoda City",
+      "reportedEquipment": "AirTruck",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.73,
+        "longitude": 138.94
+      },
+      "reportDateLabel": "11–14 March 2024",
+      "description": "An exercise flight from the materials warehouse to the Iriya area carried a satellite phone and a box representing medicine.",
+      "source": {
+        "name": "Shimoda City and partners — disaster logistics exercise",
+        "url": "https://nextdelivery.aeronext.co.jp/wp-content/uploads/2024/03/97cdaf4f32b9bd5919a64bb96443b897-1.pdf"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "japan-kawazu-materials-warehouse",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": "2024-03-22",
+      "sourceType": "operator",
+      "reviewNotes": "This was a disaster drill, not a delivery of actual medicine. The separate aerial survey is not counted as another dispatch site.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-04-japan-meal-and-relief-flights",
+      "supportingSources": []
+    },
+    {
+      "id": "japan-yanagida-gymnasium",
+      "name": "Yanagida Gymnasium earthquake relief dispatch",
+      "where": "Yanagida, Noto, Ishikawa, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "NEXT DELIVERY and Aeronext",
+      "reportedEquipment": "AirTruck",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 37.37,
+        "longitude": 137.09
+      },
+      "reportDateLabel": "14 January 2024",
+      "description": "Four round trips from the gymnasium delivered cleansing wipes and sweet bread to an isolated elder-care facility after the earthquake.",
+      "source": {
+        "name": "Joint response report — Noto earthquake relief, annex",
+        "url": "https://aeronext.co.jp/wp-content/uploads/2024/02/%E3%80%90%E5%88%A5%E6%B7%BB%E8%B3%87%E6%96%99%E3%80%91%E4%BB%A4%E5%92%8C6%E5%B9%B4%E8%83%BD%E7%99%BB%E5%8D%8A%E5%B3%B6%E5%9C%B0%E9%9C%87%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E9%96%A2%E9%80%A35%E7%A4%BE%E3%81%AE%E5%88%9D%E6%9C%9F%E7%81%BD%E5%AE%B3%E6%99%82%E6%94%AF%E6%8F%B4%E6%B4%BB%E5%8B%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "temporary relief dispatch site",
+      "entityKey": "japan-yanagida-gymnasium",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": "2024-02-08",
+      "sourceType": "operator",
+      "reviewNotes": "The gymnasium was a temporary relief origin in Noto Town, separate from the documented Wajima flights. Four trips count once.",
+      "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
+      "researchBatch": "2026-11-04-japan-meal-and-relief-flights",
+      "supportingSources": []
     }
   ],
-  "expectedTotal": 518,
+  "expectedTotal": 522,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -16898,6 +17026,15 @@
         "japan-makurase",
         "japan-kokuzo-satoyama",
         "japan-hikariura-tunnel"
+      ]
+    },
+    {
+      "id": "2026-11-04-japan-meal-and-relief-flights",
+      "recordIds": [
+        "japan-yoshinoya-komatsu",
+        "japan-tateishi-park",
+        "japan-kawazu-materials-warehouse",
+        "japan-yanagida-gymnasium"
       ]
     }
   ]
