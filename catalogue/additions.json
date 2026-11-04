@@ -16196,9 +16196,78 @@
       "coordinateBasis": "Editorial locality reference. Rounded map point for the locality, not a surveyed takeoff point.",
       "researchBatch": "2026-11-04-japan-meal-and-relief-flights",
       "supportingSources": []
+    },
+    {
+      "id": "mongolia-national-transfusion-center",
+      "name": "Ulaanbaatar National Center for Transfusion Medicine",
+      "where": "Ulaanbaatar, Mongolia",
+      "country": "Mongolia",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Mongolian Smart Drone Delivery (MSDD)",
+      "reportedEquipment": "Blood-product delivery drone; fleet model not specified in the seven-month report",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 47.92,
+        "longitude": 106.92
+      },
+      "reportDateLabel": "Seven months ending November 2025; reported March 2026",
+      "description": "Aeronext reports 422 blood-product deliveries from the national transfusion centre over seven months. It reports routes established to 14 city hospitals.",
+      "source": {
+        "name": "Aeronext — seven months of blood-product deliveries",
+        "url": "https://aeronext.com/news/422-drone-deliveries-in-mongolia/"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "medical dispatch centre",
+      "entityKey": "mongolia-national-transfusion-center",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": "2026-03-03",
+      "sourceType": "operator",
+      "reviewNotes": "One named dispatch centre is counted. Established routes do not demonstrate a launch site at each hospital. The 2023 trial from this centre is earlier evidence for the same origin.",
+      "coordinateBasis": "Editorial locality reference. Ulaanbaatar city marker shared by both records; not a surveyed launch point.",
+      "researchBatch": "2026-11-04-ulaanbaatar-medical-and-food-dispatch",
+      "supportingSources": [
+        {
+          "name": "Aeronext — initial transfusion centre trial",
+          "url": "https://aeronext.com/achievements/mongolia/"
+        }
+      ]
+    },
+    {
+      "id": "mongolia-city-hall-branch",
+      "name": "Ulaanbaatar City Hall branch office food delivery trial",
+      "where": "Ulaanbaatar, Mongolia",
+      "country": "Mongolia",
+      "region": "Asia",
+      "infrastructureType": "Cargo logistics",
+      "reportedOperator": "Mongolian Smart Drone Delivery, TOK TOK and project partners",
+      "reportedEquipment": "ACSL PF4",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 47.92,
+        "longitude": 106.92
+      },
+      "reportDateLabel": "25 July 2025",
+      "description": "An aircraft carrying six restaurant dishes left a City Hall branch office parking lot for Newcom Group’s suburban Summer House.",
+      "source": {
+        "name": "Aeronext — Ulaanbaatar food delivery flight",
+        "url": "https://aeronext.com/news/mongolia_fooddelivery/"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "mongolia-city-hall-branch",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": "2025-08-15",
+      "sourceType": "operator",
+      "reviewNotes": "The branch office lot was the reported launch site; the restaurant supplied food and the Summer House received it. The source does not give a street address for the lot.",
+      "coordinateBasis": "Editorial locality reference. Ulaanbaatar city marker shared by both records; not a surveyed launch point.",
+      "researchBatch": "2026-11-04-ulaanbaatar-medical-and-food-dispatch",
+      "supportingSources": []
     }
   ],
-  "expectedTotal": 522,
+  "expectedTotal": 524,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -17035,6 +17104,13 @@
         "japan-tateishi-park",
         "japan-kawazu-materials-warehouse",
         "japan-yanagida-gymnasium"
+      ]
+    },
+    {
+      "id": "2026-11-04-ulaanbaatar-medical-and-food-dispatch",
+      "recordIds": [
+        "mongolia-national-transfusion-center",
+        "mongolia-city-hall-branch"
       ]
     }
   ]
