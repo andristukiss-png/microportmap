@@ -16366,9 +16366,105 @@
       "coordinateBasis": "Editorial locality reference. Rounded locality marker, not a surveyed takeoff or landing position.",
       "researchBatch": "2026-11-04-health-logistics-field-studies",
       "supportingSources": []
+    },
+    {
+      "id": "sierra-leone-njala-test-runway",
+      "name": "Njala humanitarian drone test runway",
+      "where": "Njala, Moyamba District, Sierra Leone",
+      "country": "Sierra Leone",
+      "region": "Africa",
+      "infrastructureType": "Drone research and test facility",
+      "reportedOperator": "Sierra Leone Directorate of Science, Technology and Innovation with UNICEF and Njala University",
+      "reportedEquipment": "Test drones; aircraft model not specified",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 8.2,
+        "longitude": -12.06
+      },
+      "reportDateLabel": "29 November 2019",
+      "description": "Drones took off from a 250-metre runway during the opening demonstration of the Njala test corridor on university land.",
+      "source": {
+        "name": "UNICEF — Njala corridor launch and test flights",
+        "url": "https://www.unicef.org/wca/press-releases/drones-good-corridor-launched-drones-take-flight-deliver-medicine-remote-areas"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "test runway",
+      "entityKey": "sierra-leone-njala-test-runway",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": "2019-12-03",
+      "sourceType": "operator",
+      "reviewNotes": "The runway is counted once. UNICEF describes a capability demonstration; this does not establish regular medical delivery or public access.",
+      "coordinateBasis": "Editorial locality reference. Rounded locality marker, not a surveyed takeoff or landing position.",
+      "researchBatch": "2026-11-04-njala-and-amazon-flight-trials",
+      "supportingSources": []
+    },
+    {
+      "id": "peru-contamana-football-field",
+      "name": "Contamana football field medical cargo trial",
+      "where": "Contamana, Loreto, Peru",
+      "country": "Peru",
+      "region": "South America",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Peru Flying Labs and WeRobotics",
+      "reportedEquipment": "Event 38 E384 fixed-wing drone",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": -7.35,
+        "longitude": -75.02
+      },
+      "reportDateLabel": "December 2016; field report February 2017",
+      "description": "The team hand-launched an aircraft carrying chilled antivenom from the town football field to Pampa Hermosa for a simulated snakebite response.",
+      "source": {
+        "name": "WeRobotics — Amazon cargo field trials",
+        "url": "https://werobotics.org/assets/blog/2017/02/WeRobotics-Amazon-Rainforest-Cargo-Drones-Report.pdf"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "peru-contamana-football-field",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "The football field was the outbound launch site, rather than the health centre supplying the trial. The exercise did not document treatment of an actual snakebite patient.",
+      "coordinateBasis": "Editorial locality reference. Rounded locality marker, not a surveyed takeoff or landing position.",
+      "researchBatch": "2026-11-04-njala-and-amazon-flight-trials",
+      "supportingSources": []
+    },
+    {
+      "id": "peru-pampa-hermosa-sample-return",
+      "name": "Pampa Hermosa blood sample return trial",
+      "where": "Pampa Hermosa, Ucayali Province, Loreto, Peru",
+      "country": "Peru",
+      "region": "South America",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Peru Flying Labs and WeRobotics",
+      "reportedEquipment": "Event 38 E384 fixed-wing drone",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": -7.2,
+        "longitude": -75.29
+      },
+      "reportDateLabel": "December 2016; field report February 2017",
+      "description": "After the antivenom flight, the team launched a night return flight from Pampa Hermosa carrying a blood sample to Contamana.",
+      "source": {
+        "name": "WeRobotics — Amazon cargo field trials",
+        "url": "https://werobotics.org/assets/blog/2017/02/WeRobotics-Amazon-Rainforest-Cargo-Drones-Report.pdf"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "peru-pampa-hermosa-sample-return",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "Pampa Hermosa counts because a new payload departed from it. The aircraft overshot the intended field and landed in a tree; the report says the sample was recovered intact.",
+      "coordinateBasis": "Editorial locality reference. Rounded locality marker, not a surveyed takeoff or landing position.",
+      "researchBatch": "2026-11-04-njala-and-amazon-flight-trials",
+      "supportingSources": []
     }
   ],
-  "expectedTotal": 527,
+  "expectedTotal": 530,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -17220,6 +17316,14 @@
         "bhutan-thimphu-referral-hospital",
         "madagascar-maroantsetra-health-base",
         "vanuatu-melsisi-vaccine-base"
+      ]
+    },
+    {
+      "id": "2026-11-04-njala-and-amazon-flight-trials",
+      "recordIds": [
+        "sierra-leone-njala-test-runway",
+        "peru-contamana-football-field",
+        "peru-pampa-hermosa-sample-return"
       ]
     }
   ]
