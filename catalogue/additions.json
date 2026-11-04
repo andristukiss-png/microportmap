@@ -16568,9 +16568,115 @@
       "coordinateBasis": "Editorial locality reference. Rounded locality marker, not a surveyed takeoff or landing position.",
       "researchBatch": "2026-11-04-hospital-dispatch-sites",
       "supportingSources": []
+    },
+    {
+      "id": "tanzania-mwanza-medical-stores",
+      "name": "Mwanza Medical Stores Department dispatch trial",
+      "where": "Mwanza, Tanzania",
+      "country": "Tanzania",
+      "region": "Africa",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Wingcopter, DHL and GIZ",
+      "reportedEquipment": "DHL Parcelcopter 4.0",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": -2.52,
+        "longitude": 32.9
+      },
+      "reportDateLabel": "Six-month pilot reported in October 2018",
+      "description": "The Medical Stores Department sent medicines by drone across Lake Victoria to Nansio District Hospital on Ukerewe Island.",
+      "source": {
+        "name": "Wingcopter — Lake Victoria medical delivery pilot",
+        "url": "https://wingcopter.com/project/tanzania-medical-delivery"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "medical dispatch base",
+      "entityKey": "tanzania-mwanza-medical-stores",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "This record counts the mainland dispatch site. The trial report does not establish a continuing scheduled service.",
+      "coordinateBasis": "Editorial locality reference. Rounded locality marker, not a surveyed takeoff or landing position.",
+      "researchBatch": "2026-11-04-lake-victoria-and-zomba-medical-flights",
+      "supportingSources": [
+        {
+          "name": "DHL — 2018 Deliver Future pilot results",
+          "url": "https://group.dhl.com/en/media-relations/press-releases/2018/rapid-response-from-the-air-medicines-successfully-delivered-using-a-parcel-drone-in-east-africa.html"
+        }
+      ]
+    },
+    {
+      "id": "tanzania-nansio-district-hospital",
+      "name": "Nansio District Hospital sample return trial",
+      "where": "Nansio, Ukerewe Island, Tanzania",
+      "country": "Tanzania",
+      "region": "Africa",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Wingcopter, DHL and GIZ",
+      "reportedEquipment": "DHL Parcelcopter 4.0",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": -2.11,
+        "longitude": 33.09
+      },
+      "reportDateLabel": "Six-month pilot reported in October 2018",
+      "description": "Return flights carried blood and laboratory samples from the island hospital to the mainland for analysis.",
+      "source": {
+        "name": "Wingcopter — Lake Victoria medical delivery pilot",
+        "url": "https://wingcopter.com/project/tanzania-medical-delivery"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "hospital dispatch site",
+      "entityKey": "tanzania-nansio-district-hospital",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "The hospital counts separately from Mwanza because the operator documents a new payload departing from the island. The marker identifies the town, not a surveyed landing pad.",
+      "coordinateBasis": "Editorial locality reference. Rounded locality marker, not a surveyed takeoff or landing position.",
+      "researchBatch": "2026-11-04-lake-victoria-and-zomba-medical-flights",
+      "supportingSources": [
+        {
+          "name": "DHL — 2018 Deliver Future pilot results",
+          "url": "https://group.dhl.com/en/media-relations/press-releases/2018/rapid-response-from-the-air-medicines-successfully-delivered-using-a-parcel-drone-in-east-africa.html"
+        }
+      ]
+    },
+    {
+      "id": "malawi-matawale-hospital",
+      "name": "Matawale Hospital polio vaccine dispatch",
+      "where": "Zomba, Malawi",
+      "country": "Malawi",
+      "region": "Africa",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Swoop Aero with Malawi health authorities and UNICEF",
+      "reportedEquipment": "Medical delivery drone; model not stated",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": -15.39,
+        "longitude": 35.32
+      },
+      "reportDateLabel": "2023 polio vaccination campaign",
+      "description": "UNICEF describes a drone taking off at Matawale Hospital and delivering chilled polio vaccine to Magomero Health Centre in 13 minutes.",
+      "source": {
+        "name": "UNICEF Malawi — vaccine flight from Matawale Hospital",
+        "url": "https://www.unicef.org/malawi/stories/drones-fly-stop-polio-malawi"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "hospital dispatch site",
+      "entityKey": "malawi-matawale-hospital",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": "2023-08-01",
+      "sourceType": "news",
+      "reviewNotes": "Magomero is documented as the receiving facility. The wider network described in the article is not counted as additional dispatch sites.",
+      "coordinateBasis": "Editorial locality reference. Rounded locality marker, not a surveyed takeoff or landing position.",
+      "researchBatch": "2026-11-04-lake-victoria-and-zomba-medical-flights",
+      "supportingSources": []
     }
   ],
-  "expectedTotal": 533,
+  "expectedTotal": 536,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -17438,6 +17544,14 @@
         "dominican-republic-bohechio-hospital",
         "india-jengjal-hospital",
         "india-vikarabad-district-hospital"
+      ]
+    },
+    {
+      "id": "2026-11-04-lake-victoria-and-zomba-medical-flights",
+      "recordIds": [
+        "tanzania-mwanza-medical-stores",
+        "tanzania-nansio-district-hospital",
+        "malawi-matawale-hospital"
       ]
     }
   ]
