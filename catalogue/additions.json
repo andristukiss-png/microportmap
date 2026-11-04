@@ -16265,9 +16265,110 @@
       "coordinateBasis": "Editorial locality reference. Ulaanbaatar city marker shared by both records; not a surveyed launch point.",
       "researchBatch": "2026-11-04-ulaanbaatar-medical-and-food-dispatch",
       "supportingSources": []
+    },
+    {
+      "id": "bhutan-thimphu-referral-hospital",
+      "name": "Thimphu national referral hospital quadcopter trial",
+      "where": "Jigme Dorji Wangchuck National Referral Hospital, Thimphu, Bhutan",
+      "country": "Bhutan",
+      "region": "Asia",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Matternet with Bhutanese health authorities and WHO",
+      "reportedEquipment": "Matternet quadcopters",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 27.47,
+        "longitude": 89.64
+      },
+      "reportDateLabel": "August 2014",
+      "description": "Matternet demonstrated quadcopters at the national referral hospital as part of a pilot to connect remote health units.",
+      "source": {
+        "name": "Bhutan News Network — Thimphu hospital pilot",
+        "url": "https://bhutannewsnetwork.com/2014/08/silicon-valley-chooses-bhutan-for-drones-tests/"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "entityKey": "bhutan-thimphu-referral-hospital",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": "2014-08-07",
+      "sourceType": "news",
+      "reviewNotes": "The record describes a field trial. The number of completed flights and routine delivery of patient supplies are not established; the three unnamed units are not counted.",
+      "coordinateBasis": "Editorial locality reference. Rounded locality marker, not a surveyed takeoff or landing position.",
+      "researchBatch": "2026-11-04-health-logistics-field-studies",
+      "supportingSources": [
+        {
+          "name": "FSD — Drones in Humanitarian Action, Bhutan pilot",
+          "url": "https://fsd.ch/wp-content/uploads/2022/02/Drones-in-Humanitarian-Action.pdf"
+        }
+      ]
+    },
+    {
+      "id": "madagascar-maroantsetra-health-base",
+      "name": "Maroantsetra medical supply dispatch base",
+      "where": "Maroantsetra, Madagascar",
+      "country": "Madagascar",
+      "region": "Africa",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Aerial Metric with PSI/IMPACT and health partners",
+      "reportedEquipment": "Cargo drones",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": -15.43,
+        "longitude": 49.74
+      },
+      "reportDateLabel": "October 2021 mid-term evaluation",
+      "description": "Supply supervisors moved packed orders to Aerial Metric’s takeoff point in Maroantsetra. The evaluation reports that the IMPACT pilot served 36 communes.",
+      "source": {
+        "name": "ME&A — USAID/Madagascar health drone pilot evaluation",
+        "url": "https://ghevals.meandahq.com/wp-content/uploads/2022/12/GHEVALS_009_UAV_PILOT_REPORT_211018_508.pdf"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "medical dispatch base",
+      "entityKey": "madagascar-maroantsetra-health-base",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "reviewNotes": "The USAID and Global Fund activities shared a takeoff point. Neither the separate stock warehouse nor the receiving communes are counted here.",
+      "coordinateBasis": "Editorial locality reference. Rounded locality marker, not a surveyed takeoff or landing position.",
+      "researchBatch": "2026-11-04-health-logistics-field-studies",
+      "supportingSources": []
+    },
+    {
+      "id": "vanuatu-melsisi-vaccine-base",
+      "name": "Melsisi vaccine distribution and launch base",
+      "where": "Melsisi, Pentecost Island, Vanuatu",
+      "country": "Vanuatu",
+      "region": "Oceania",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Wingcopter with Vanuatu health authorities and UNICEF",
+      "reportedEquipment": "Wingcopter 178 Heavy Lift",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": -15.73,
+        "longitude": 168.13
+      },
+      "reportDateLabel": "2019 Pentecost Island field operation",
+      "description": "The project stored, charged and launched its aircraft at one distribution centre in Melsisi. At receiving points the aircraft lowered supplies by cable and returned to base.",
+      "source": {
+        "name": "Wingcopter — final vaccine delivery report hosted by UNICEF",
+        "url": "https://www.unicef.org/innovation/media/11956/file/Reference%203.8.%20Project%20Final%20Report_WINGCOPTER.pdf"
+      },
+      "verificationStatus": "Source-reported activity; current operating status and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "medical dispatch base",
+      "entityKey": "vanuatu-melsisi-vaccine-base",
+      "sourceReviewedAt": "2026-11-04",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "reviewNotes": "The final report identifies Melsisi as the origin of all flights in this deployment. Its vaccine drop-off locations are not additional launch bases.",
+      "coordinateBasis": "Editorial locality reference. Rounded locality marker, not a surveyed takeoff or landing position.",
+      "researchBatch": "2026-11-04-health-logistics-field-studies",
+      "supportingSources": []
     }
   ],
-  "expectedTotal": 524,
+  "expectedTotal": 527,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -17111,6 +17212,14 @@
       "recordIds": [
         "mongolia-national-transfusion-center",
         "mongolia-city-hall-branch"
+      ]
+    },
+    {
+      "id": "2026-11-04-health-logistics-field-studies",
+      "recordIds": [
+        "bhutan-thimphu-referral-hospital",
+        "madagascar-maroantsetra-health-base",
+        "vanuatu-melsisi-vaccine-base"
       ]
     }
   ]
