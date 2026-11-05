@@ -17124,9 +17124,46 @@
       "description": "Windracers identifies St Mary’s Airport as the island endpoint of the completed return-flight airbridge. The university also documents a mobile control centre there.",
       "reviewNotes": "One island airport trial site, supported by return-flight and control-centre evidence. The 2020 Land’s End link is not counted as another St Mary’s site. No inter-island delivery destinations are added.",
       "entityKey": "st-marys-scilly-airbridge-trial"
+    },
+    {
+      "id": "st-merryn-ultra-flight-trial",
+      "entityKey": "st-merryn-ultra-flight-trial",
+      "name": "St Merryn ULTRA flight testing",
+      "where": "St Merryn Airfield, Cornwall, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Drone flight-test airfield",
+      "locationPrecision": "Approximate airfield reference; not a takeoff or landing coordinate",
+      "verificationStatus": "Source-reported historical testing; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "sourceReviewedAt": "2026-11-05",
+      "sourceType": "news",
+      "sourcePublishedAt": "2020-05-20",
+      "source": {
+        "name": "Business Cornwall — New venture taking to the skies",
+        "url": "https://businesscornwall.co.uk/news-by-industry/public-sector-news-categories/2020/05/new-venture-taking-to-the-skies/"
+      },
+      "coordinateBasis": "Editorial locality reference. Rounded airfield marker from Mapcarta, not a surveyed drone stand or facility boundary.",
+      "researchBatch": "2026-11-05-st-merryn-flight-testing",
+      "supportingSources": [
+        {
+          "name": "Cornwall Space Cluster — Future Flight Systems brochure, St Merryn section",
+          "url": "https://www.cornwallspacecluster.co.uk/wp-content/uploads/2024/09/CSC-UAS-Bro_Web-2024_1.1.pdf"
+        }
+      ],
+      "reportedOperator": "Windracers / University of Southampton flight-test collaboration",
+      "reportedEquipment": "Windracers ULTRA fixed-wing drone",
+      "reportDateLabel": "November 2019 tests described in cluster brochure; news report published 20 May 2020",
+      "approximateMapPoint": {
+        "latitude": 50.5,
+        "longitude": -4.98
+      },
+      "description": "Business Cornwall reports demonstration flights at St Merryn to test ULTRA aircraft upgrades. Cornwall Space Cluster separately identifies November 2019 tests with Windracers and Southampton.",
+      "reviewNotes": "One named airfield testing site, distinct from Perranporth and Land’s End. Multiple demonstrations and airfield aliases are not separate facilities. Historical flight evidence does not establish present booking availability."
     }
   ],
-  "expectedTotal": 549,
+  "expectedTotal": 550,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -18045,6 +18082,12 @@
       "recordIds": [
         "perranporth-airbridge-trial",
         "st-marys-scilly-airbridge-trial"
+      ]
+    },
+    {
+      "id": "2026-11-05-st-merryn-flight-testing",
+      "recordIds": [
+        "st-merryn-ultra-flight-trial"
       ]
     }
   ]
