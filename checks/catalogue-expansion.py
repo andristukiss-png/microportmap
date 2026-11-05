@@ -1000,4 +1000,9 @@ assert hashlib.sha256(json.dumps(additions[:488],sort_keys=True,ensure_ascii=Fal
 assert batch['releases'][79]['recordIds']==['royal-mail-kirkwall-airport-trial', 'royal-mail-tingwall-airport-trial']
 assert all(by_id[id]['reportedStatus']=='historical' and by_id[id]['recordScope']=='trial-site' for id in batch['releases'][79]['recordIds'])
 assert by_id['royal-mail-tingwall-airport-trial']['sourcePublishedAt'] is None
+# Preserve prior records and retain the distinction between delivery and payload research.
+assert hashlib.sha256(json.dumps(additions[:490],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='6576384adee219f3c53ba2ff1d3908bafb06ff6b09ed06fa99f213e91c85ba18'
+assert batch['releases'][80]['recordIds']==['thorney-island-baker-barracks-trial', 'lands-end-airport-insulin-trial', 'west-wellow-insulin-flight-trial']
+assert all(by_id[id]['reportedStatus']=='historical' for id in batch['releases'][80]['recordIds'])
+assert all(by_id[id]['sourcePublishedAt'] is None for id in ['lands-end-airport-insulin-trial','west-wellow-insulin-flight-trial'])
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')

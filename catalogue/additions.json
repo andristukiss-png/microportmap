@@ -16826,9 +16826,105 @@
         }
       ],
       "entityKey": "royal-mail-tingwall-airport-trial"
+    },
+    {
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Medical drone trial site",
+      "locationPrecision": "Approximate locality only; not a takeoff or landing coordinate",
+      "verificationStatus": "Source-reported historical trial; current service and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "sourceReviewedAt": "2026-11-05",
+      "coordinateBasis": "Editorial locality reference. Rounded locality marker, not a surveyed facility boundary or launch position.",
+      "researchBatch": "2026-11-05-english-medical-flight-trials",
+      "id": "thorney-island-baker-barracks-trial",
+      "name": "Baker Barracks medical drone trial origin",
+      "where": "Thorney Island, West Sussex, United Kingdom",
+      "approximateMapPoint": {
+        "latitude": 50.82,
+        "longitude": -0.92
+      },
+      "reportedOperator": "Skylift / Apian with Boots",
+      "reportedEquipment": "Skylift electric vertical-takeoff-and-landing UAV",
+      "reportDateLabel": "July 2022 prescription delivery; source published 27 July 2022",
+      "description": "Boots reports a completed prescription-medicine flight from Baker Barracks on Thorney Island to St Mary’s Hospital on the Isle of Wight.",
+      "source": {
+        "name": "Boots — completed prescription delivery trial",
+        "url": "https://www.boots-uk.com/newsroom/news-item/boots-completes-drone-delivery-of-prescription-medicines-in-uk-first/"
+      },
+      "sourceType": "operator",
+      "sourcePublishedAt": "2022-07-27",
+      "reviewNotes": "Counts the named departure base once. St Mary’s and the pharmacies receiving the medicines are not additional origins. Other trials at the same barracks are not separately counted.",
+      "supportingSources": [],
+      "entityKey": "thorney-island-baker-barracks-trial"
+    },
+    {
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Medical drone trial site",
+      "locationPrecision": "Approximate locality only; not a takeoff or landing coordinate",
+      "verificationStatus": "Source-reported historical trial; current service and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "sourceReviewedAt": "2026-11-05",
+      "coordinateBasis": "Editorial locality reference. Rounded locality marker, not a surveyed facility boundary or launch position.",
+      "researchBatch": "2026-11-05-english-medical-flight-trials",
+      "id": "lands-end-airport-insulin-trial",
+      "name": "Land’s End Airport insulin flight trial",
+      "where": "Near St Just, Cornwall, United Kingdom",
+      "approximateMapPoint": {
+        "latitude": 50.12,
+        "longitude": -5.68
+      },
+      "reportedOperator": "University of Southampton / Windracers",
+      "reportedEquipment": "Windracers ULTRA TD-1 fixed-wing UAV",
+      "reportDateLabel": "November–December 2020 trial programme; source page undated",
+      "description": "The university records an insulin research flight from Land’s End Airport to the Isles of Scilly and back during its 2020 trials.",
+      "source": {
+        "name": "University of Southampton E-drone — flight trial record",
+        "url": "https://generic.wordpress.soton.ac.uk/edrone/about-drones/drone-flight-trials/"
+      },
+      "sourceType": "research",
+      "sourcePublishedAt": null,
+      "reviewNotes": "One named airport origin. The research payload does not establish a patient delivery service. No island dispatch site is inferred from the return-flight description.",
+      "supportingSources": [],
+      "entityKey": "lands-end-airport-insulin-trial"
+    },
+    {
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Medical drone trial site",
+      "locationPrecision": "Approximate locality only; not a takeoff or landing coordinate",
+      "verificationStatus": "Source-reported historical trial; current service and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "sourceReviewedAt": "2026-11-05",
+      "coordinateBasis": "Editorial locality reference. Rounded locality marker, not a surveyed facility boundary or launch position.",
+      "researchBatch": "2026-11-05-english-medical-flight-trials",
+      "id": "west-wellow-insulin-flight-trial",
+      "name": "West Wellow insulin flight trial site",
+      "where": "West Wellow, Hampshire, United Kingdom",
+      "approximateMapPoint": {
+        "latitude": 50.97,
+        "longitude": -1.58
+      },
+      "reportedOperator": "University of Southampton / Motion Robotics",
+      "reportedEquipment": "Motion Robotics Arty multicopter",
+      "reportDateLabel": "December 2020 flights; source page undated",
+      "description": "The university documents six insulin test flights at West Wellow in December 2020 using an Arty multicopter.",
+      "source": {
+        "name": "University of Southampton E-drone — flight trial record",
+        "url": "https://generic.wordpress.soton.ac.uk/edrone/about-drones/drone-flight-trials/"
+      },
+      "sourceType": "research",
+      "sourcePublishedAt": null,
+      "reviewNotes": "One locality-scoped research trial site. The source does not name a permanent facility or establish a routine delivery operation. The marker represents West Wellow only.",
+      "supportingSources": [],
+      "entityKey": "west-wellow-insulin-flight-trial"
     }
   ],
-  "expectedTotal": 540,
+  "expectedTotal": 543,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -17718,6 +17814,14 @@
       "recordIds": [
         "royal-mail-kirkwall-airport-trial",
         "royal-mail-tingwall-airport-trial"
+      ]
+    },
+    {
+      "id": "2026-11-05-english-medical-flight-trials",
+      "recordIds": [
+        "thorney-island-baker-barracks-trial",
+        "lands-end-airport-insulin-trial",
+        "west-wellow-insulin-flight-trial"
       ]
     }
   ]
