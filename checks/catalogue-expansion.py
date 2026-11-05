@@ -1005,4 +1005,8 @@ assert hashlib.sha256(json.dumps(additions[:490],sort_keys=True,ensure_ascii=Fal
 assert batch['releases'][80]['recordIds']==['thorney-island-baker-barracks-trial', 'lands-end-airport-insulin-trial', 'west-wellow-insulin-flight-trial']
 assert all(by_id[id]['reportedStatus']=='historical' for id in batch['releases'][80]['recordIds'])
 assert all(by_id[id]['sourcePublishedAt'] is None for id in ['lands-end-airport-insulin-trial','west-wellow-insulin-flight-trial'])
+# Preserve the prior release and keep undated research sources separate from trial dates.
+assert hashlib.sha256(json.dumps(additions[:493],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='42a1f23086b1e1d5c2232e9f8e15ae9f2cf0d188ea04d2078baed95218016357'
+assert batch['releases'][81]['recordIds']==['keevil-medical-payload-trial', 'henstridge-blood-payload-trial']
+assert all(by_id[id]['reportedStatus']=='historical' and by_id[id]['sourcePublishedAt'] is None for id in batch['releases'][81]['recordIds'])
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
