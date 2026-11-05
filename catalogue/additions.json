@@ -17161,9 +17161,50 @@
       },
       "description": "Business Cornwall reports demonstration flights at St Merryn to test ULTRA aircraft upgrades. Cornwall Space Cluster separately identifies November 2019 tests with Windracers and Southampton.",
       "reviewNotes": "One named airfield testing site, distinct from Perranporth and Land’s End. Multiple demonstrations and airfield aliases are not separate facilities. Historical flight evidence does not establish present booking availability."
+    },
+    {
+      "id": "marwell-conservation-flight-trial",
+      "entityKey": "marwell-conservation-flight-trial",
+      "name": "Marwell conservation drone trials",
+      "where": "Marwell Zoo, near Winchester, Hampshire, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Conservation drone trial site",
+      "locationPrecision": "Approximate zoo reference; not a takeoff or landing coordinate",
+      "verificationStatus": "Source-reported historical research; current operations not independently verified; public drone filming prohibited by site policy",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "sourceReviewedAt": "2026-11-05",
+      "sourceType": "research",
+      "sourcePublishedAt": "2021-12-08",
+      "source": {
+        "name": "University of Southampton — Drones being trialed to support wildlife conservation",
+        "url": "https://www.southampton.ac.uk/news/2021/11/marwell-drones-conservation.page"
+      },
+      "coordinateBasis": "Editorial locality reference. Rounded zoo marker from Wikidata, not a surveyed flight area or launch point.",
+      "researchBatch": "2026-11-05-marwell-conservation-trials",
+      "supportingSources": [
+        {
+          "name": "Marwell Wildlife — conservation technology trials, 31 October 2024",
+          "url": "https://www.marwell.org.uk/zoo-news/how-modern-innovation-is-shaping-the-future-of-conservation/"
+        },
+        {
+          "name": "Marwell Wildlife — media and drone-filming policy",
+          "url": "https://www.marwell.org.uk/media/"
+        }
+      ],
+      "reportedOperator": "University of Southampton / SotonUAV with Marwell Wildlife",
+      "reportedEquipment": "Multirotor UAV with visual and thermal cameras and AudioMoth acoustic sensors",
+      "reportDateLabel": "October–November 2021 flights; university report published 8 December 2021",
+      "approximateMapPoint": {
+        "latitude": 50.99,
+        "longitude": -1.28
+      },
+      "description": "Southampton reports research flights at Marwell to evaluate aerial wildlife monitoring. A later Marwell report confirms further zoo-based trials as the technology developed.",
+      "reviewNotes": "One zoo-scoped research site. Repeated flights and individual paddocks are not separate facilities. Overseas deployment plans are not counted. Research trials do not confer public flight permission; Marwell prohibits drone filming over its land."
     }
   ],
-  "expectedTotal": 550,
+  "expectedTotal": 551,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -18088,6 +18129,12 @@
       "id": "2026-11-05-st-merryn-flight-testing",
       "recordIds": [
         "st-merryn-ultra-flight-trial"
+      ]
+    },
+    {
+      "id": "2026-11-05-marwell-conservation-trials",
+      "recordIds": [
+        "marwell-conservation-flight-trial"
       ]
     }
   ]

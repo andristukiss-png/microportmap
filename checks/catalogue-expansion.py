@@ -1021,4 +1021,8 @@ assert all(by_id[id]['reportedStatus']=='historical' and by_id[id]['sourcePublis
 assert hashlib.sha256(json.dumps(additions[:499],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='299bdd29c6e1c144de1471ced2a232b387ef648b808ae39e5573f6f0ac7a5898'
 assert batch['releases'][84]['recordIds']==['st-merryn-ultra-flight-trial']
 assert by_id['st-merryn-ultra-flight-trial']['reportedStatus']=='historical'
+# Preserve all earlier additions and historical Marwell trial scope.
+assert hashlib.sha256(json.dumps(additions[:500],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='7700318f558234b482c9e7544406a3eca92efd92cb06118a37b2aa480588d2f3'
+assert batch['releases'][85]['recordIds']==['marwell-conservation-flight-trial']
+assert by_id['marwell-conservation-flight-trial']['reportedStatus']=='historical'
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
