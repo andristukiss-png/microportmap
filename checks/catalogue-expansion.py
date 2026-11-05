@@ -1034,4 +1034,9 @@ assert hashlib.sha256(json.dumps(additions[:502],sort_keys=True,ensure_ascii=Fal
 assert batch['releases'][87]['recordIds']==['swindon-dronetex-testing-centre']
 assert by_id['swindon-dronetex-testing-centre']['reportedStatus']=='reported-operation'
 assert by_id['swindon-dronetex-testing-centre']['sourcePublishedAt']=='2026-06-12'
+# Preserve all prior additions and historical Twinwoods test-centre scope.
+assert hashlib.sha256(json.dumps(additions[:503],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='f5821de57ca6a3c23fb669b4fd0477fd8ab2cc0c08925c901fd36c714ed88f6d'
+assert batch['releases'][88]['recordIds']==['blue-bear-twinwoods-flight-test-centre']
+assert by_id['blue-bear-twinwoods-flight-test-centre']['reportedStatus']=='historical'
+assert by_id['blue-bear-twinwoods-flight-test-centre']['sourcePublishedAt']=='2019-08-29'
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')

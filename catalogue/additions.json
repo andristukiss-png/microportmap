@@ -17271,9 +17271,46 @@
       },
       "description": "The Ministry of Defence reports opening the Uncrewed Systems Centre at DroneTEX in Swindon on 12 June 2026. Panattoni identifies the indoor testing facility at its Swindon park.",
       "reviewNotes": "One testing centre, counted once under its DroneTEX and Uncrewed Systems Centre names. Separate from the Tekever Spectrum factory and proposed Wroughton testing activity. The reported opening does not establish current booking availability or public access."
+    },
+    {
+      "id": "blue-bear-twinwoods-flight-test-centre",
+      "entityKey": "blue-bear-twinwoods-flight-test-centre",
+      "name": "Blue Bear Twinwoods flight-test centre",
+      "where": "Twinwoods, near Oakley, Bedfordshire, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Drone flight-test centre",
+      "locationPrecision": "Approximate Oakley locality reference; not a launch point or airspace boundary",
+      "verificationStatus": "Source-reported historical testing; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-05",
+      "sourceType": "operator",
+      "sourcePublishedAt": "2019-08-29",
+      "source": {
+        "name": "Blue Bear — 5G flight test at Twinwoods",
+        "url": "https://bbsr.co.uk/news/blue-bear-completes-another-uk-first-in-5g"
+      },
+      "coordinateBasis": "Editorial locality reference. Rounded Oakley-area marker, not an exact airfield, takeoff location or permitted flight area.",
+      "researchBatch": "2026-11-05-twinwoods-flight-testing",
+      "supportingSources": [
+        {
+          "name": "Cranfield University — NBEC radar research, 31 January 2020",
+          "url": "https://www.cranfield.ac.uk/press/news-2020/innovative-radar-technology-accelerates-progress-of-airspace-research-facility"
+        }
+      ],
+      "reportedOperator": "Blue Bear Systems Research",
+      "reportedEquipment": "Agristart UAV used in the reported 5G control test",
+      "reportDateLabel": "Flight reported 29 August 2019; exact flight date not stated",
+      "approximateMapPoint": {
+        "latitude": 52.17,
+        "longitude": -0.53
+      },
+      "description": "Blue Bear reports an Agristart UAV test at its Twinwoods centre, with control transferred to an operator at Kingston University after takeoff. A local safety pilot supervised takeoff and landing within visual line of sight.",
+      "reviewNotes": "One physical test centre. The remote control location and NBEC corridor are not additional records. Distinct from the existing Cranfield University Drone Flight Arena. Historical evidence does not establish present service availability or flight permission."
     }
   ],
-  "expectedTotal": 553,
+  "expectedTotal": 554,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -18216,6 +18253,12 @@
       "id": "2026-11-05-swindon-dronetex-centre",
       "recordIds": [
         "swindon-dronetex-testing-centre"
+      ]
+    },
+    {
+      "id": "2026-11-05-twinwoods-flight-testing",
+      "recordIds": [
+        "blue-bear-twinwoods-flight-test-centre"
       ]
     }
   ]
