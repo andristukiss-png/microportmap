@@ -16986,9 +16986,73 @@
       "description": "The university records three flights at Henstridge in December 2022 to investigate the effects of drone flight on packed red blood cells.",
       "reviewNotes": "One locality-scoped research site. The flight log names Henstridge but does not identify a specific launch facility. No patient delivery service is inferred.",
       "entityKey": "henstridge-blood-payload-trial"
+    },
+    {
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Medical drone trial airfield",
+      "locationPrecision": "Approximate airfield reference; not a takeoff or landing coordinate",
+      "verificationStatus": "Source-reported historical trial; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "sourceReviewedAt": "2026-11-05",
+      "sourceType": "research",
+      "sourcePublishedAt": "2020-05-13",
+      "source": {
+        "name": "University of Southampton — first medical-equipment delivery to the Isle of Wight",
+        "url": "https://www.southampton.ac.uk/news/2020/05/drone-trial-delivery.page"
+      },
+      "coordinateBasis": "Editorial locality reference. Approximate airfield marker, rounded from an airfield reference; not a surveyed drone stand or facility boundary.",
+      "researchBatch": "2026-11-05-solent-airfield-medical-trial",
+      "supportingSources": [],
+      "reportedOperator": "University of Southampton / Windracers with Solent Transport",
+      "reportedEquipment": "Windracers ULTRA fixed-wing drone",
+      "reportDateLabel": "9 May 2020 trial; report published 13 May 2020",
+      "id": "lee-on-solent-medical-trial",
+      "name": "Lee-on-Solent medical drone trial",
+      "where": "Lee-on-Solent Airfield, Hampshire, United Kingdom",
+      "approximateMapPoint": {
+        "latitude": 50.82,
+        "longitude": -1.21
+      },
+      "description": "The university reports a medical-equipment flight from Lee-on-Solent to Binstead on 9 May 2020, followed by a return to the mainland.",
+      "reviewNotes": "One airfield trial site with a documented mobile control centre. Solent Airport and Lee-on-Solent are treated as one location. Distinct from the Thorney Island trial site.",
+      "entityKey": "lee-on-solent-medical-trial"
+    },
+    {
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Medical drone trial airfield",
+      "locationPrecision": "Approximate airfield reference; not a takeoff or landing coordinate",
+      "verificationStatus": "Source-reported historical trial; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "sourceReviewedAt": "2026-11-05",
+      "sourceType": "research",
+      "sourcePublishedAt": "2020-05-13",
+      "source": {
+        "name": "University of Southampton — first medical-equipment delivery to the Isle of Wight",
+        "url": "https://www.southampton.ac.uk/news/2020/05/drone-trial-delivery.page"
+      },
+      "coordinateBasis": "Editorial locality reference. Approximate airfield marker, rounded from an airfield reference; not a surveyed drone stand or facility boundary.",
+      "researchBatch": "2026-11-05-solent-airfield-medical-trial",
+      "supportingSources": [],
+      "reportedOperator": "University of Southampton / Windracers with Solent Transport",
+      "reportedEquipment": "Windracers ULTRA fixed-wing drone",
+      "reportDateLabel": "9 May 2020 trial; report published 13 May 2020",
+      "id": "binstead-medical-trial",
+      "name": "Binstead medical drone trial",
+      "where": "Binstead Airfield, Isle of Wight, United Kingdom",
+      "approximateMapPoint": {
+        "latitude": 50.72,
+        "longitude": -1.2
+      },
+      "description": "The university reports unloading specimen-carrier cases at Binstead, onward road delivery to hospital, and the drone returning to the mainland.",
+      "reviewNotes": "One airfield trial site with a documented mobile control centre and return departure, not merely a delivery destination. Binsted Farm is an alternative source spelling. The hospital reached by road is not counted.",
+      "entityKey": "binstead-medical-trial"
     }
   ],
-  "expectedTotal": 545,
+  "expectedTotal": 547,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -17893,6 +17957,13 @@
       "recordIds": [
         "keevil-medical-payload-trial",
         "henstridge-blood-payload-trial"
+      ]
+    },
+    {
+      "id": "2026-11-05-solent-airfield-medical-trial",
+      "recordIds": [
+        "lee-on-solent-medical-trial",
+        "binstead-medical-trial"
       ]
     }
   ]
