@@ -1017,4 +1017,8 @@ assert all(by_id[id]['reportedStatus']=='historical' and by_id[id]['sourcePublis
 assert hashlib.sha256(json.dumps(additions[:497],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='778ff376ef64a84b335bc93742dee895bc089ac990fc5aaf1de02d0c59e3ef6e'
 assert batch['releases'][83]['recordIds']==['perranporth-airbridge-trial', 'st-marys-scilly-airbridge-trial']
 assert all(by_id[id]['reportedStatus']=='historical' and by_id[id]['sourcePublishedAt'] is None for id in batch['releases'][83]['recordIds'])
+# Preserve all earlier additions and the historical St Merryn testing scope.
+assert hashlib.sha256(json.dumps(additions[:499],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='299bdd29c6e1c144de1471ced2a232b387ef648b808ae39e5573f6f0ac7a5898'
+assert batch['releases'][84]['recordIds']==['st-merryn-ultra-flight-trial']
+assert by_id['st-merryn-ultra-flight-trial']['reportedStatus']=='historical'
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
