@@ -16922,9 +16922,73 @@
       "reviewNotes": "One locality-scoped research trial site. The source does not name a permanent facility or establish a routine delivery operation. The marker represents West Wellow only.",
       "supportingSources": [],
       "entityKey": "west-wellow-insulin-flight-trial"
+    },
+    {
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Medical drone trial site",
+      "locationPrecision": "Approximate locality only; not a takeoff or landing coordinate",
+      "verificationStatus": "Source-reported historical research; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "sourceReviewedAt": "2026-11-05",
+      "sourceType": "research",
+      "sourcePublishedAt": null,
+      "source": {
+        "name": "University of Southampton E-drone — flight trial record",
+        "url": "https://generic.wordpress.soton.ac.uk/edrone/about-drones/drone-flight-trials/"
+      },
+      "coordinateBasis": "Editorial locality reference. Rounded village marker, not a surveyed flight site or facility boundary.",
+      "researchBatch": "2026-11-05-keevil-henstridge-payload-trials",
+      "supportingSources": [],
+      "id": "keevil-medical-payload-trial",
+      "name": "Keevil medical payload flight trial",
+      "where": "Keevil, Wiltshire, United Kingdom",
+      "approximateMapPoint": {
+        "latitude": 51.32,
+        "longitude": -2.11
+      },
+      "reportedOperator": "University of Southampton / Modini research collaboration",
+      "reportedEquipment": "Multicopter; model not stated",
+      "reportDateLabel": "October 2022 trials; source page undated",
+      "description": "The university records 60 short flights at Keevil to study drone transport of monoclonal antibody samples in October 2022.",
+      "reviewNotes": "One locality-scoped research site. Flights are experiments, not separate facilities. The source does not identify a permanent delivery station or establish routine service.",
+      "entityKey": "keevil-medical-payload-trial"
+    },
+    {
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Medical drone trial site",
+      "locationPrecision": "Approximate locality only; not a takeoff or landing coordinate",
+      "verificationStatus": "Source-reported historical research; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "sourceReviewedAt": "2026-11-05",
+      "sourceType": "research",
+      "sourcePublishedAt": null,
+      "source": {
+        "name": "University of Southampton E-drone — flight trial record",
+        "url": "https://generic.wordpress.soton.ac.uk/edrone/about-drones/drone-flight-trials/"
+      },
+      "coordinateBasis": "Editorial locality reference. Rounded village marker, not a surveyed flight site or facility boundary.",
+      "researchBatch": "2026-11-05-keevil-henstridge-payload-trials",
+      "supportingSources": [],
+      "id": "henstridge-blood-payload-trial",
+      "name": "Henstridge blood payload flight trial",
+      "where": "Henstridge, Somerset, United Kingdom",
+      "approximateMapPoint": {
+        "latitude": 50.98,
+        "longitude": -2.39
+      },
+      "reportedOperator": "University of Southampton with MOD / DSTL; flight operator not specified",
+      "reportedEquipment": "Drone platform not identified in cited trial summary",
+      "reportDateLabel": "December 2022 trials; source page undated",
+      "description": "The university records three flights at Henstridge in December 2022 to investigate the effects of drone flight on packed red blood cells.",
+      "reviewNotes": "One locality-scoped research site. The flight log names Henstridge but does not identify a specific launch facility. No patient delivery service is inferred.",
+      "entityKey": "henstridge-blood-payload-trial"
     }
   ],
-  "expectedTotal": 543,
+  "expectedTotal": 545,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -17822,6 +17886,13 @@
         "thorney-island-baker-barracks-trial",
         "lands-end-airport-insulin-trial",
         "west-wellow-insulin-flight-trial"
+      ]
+    },
+    {
+      "id": "2026-11-05-keevil-henstridge-payload-trials",
+      "recordIds": [
+        "keevil-medical-payload-trial",
+        "henstridge-blood-payload-trial"
       ]
     }
   ]
