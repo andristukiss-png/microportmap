@@ -1013,4 +1013,8 @@ assert all(by_id[id]['reportedStatus']=='historical' and by_id[id]['sourcePublis
 assert hashlib.sha256(json.dumps(additions[:495],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='27de221778efe90fc1da5c92941862593b8e013ae3bfb54a765c768e27e52d99'
 assert batch['releases'][82]['recordIds']==['lee-on-solent-medical-trial', 'binstead-medical-trial']
 assert all(by_id[id]['reportedStatus']=='historical' and by_id[id]['sourcePublishedAt']=='2020-05-13' for id in batch['releases'][82]['recordIds'])
+# Preserve the previous release and historical Scilly airbridge scope.
+assert hashlib.sha256(json.dumps(additions[:497],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='778ff376ef64a84b335bc93742dee895bc089ac990fc5aaf1de02d0c59e3ef6e'
+assert batch['releases'][83]['recordIds']==['perranporth-airbridge-trial', 'st-marys-scilly-airbridge-trial']
+assert all(by_id[id]['reportedStatus']=='historical' and by_id[id]['sourcePublishedAt'] is None for id in batch['releases'][83]['recordIds'])
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')

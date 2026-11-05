@@ -17050,9 +17050,83 @@
       "description": "The university reports unloading specimen-carrier cases at Binstead, onward road delivery to hospital, and the drone returning to the mainland.",
       "reviewNotes": "One airfield trial site with a documented mobile control centre and return departure, not merely a delivery destination. Binsted Farm is an alternative source spelling. The hospital reached by road is not counted.",
       "entityKey": "binstead-medical-trial"
+    },
+    {
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Cargo drone trial airfield",
+      "locationPrecision": "Approximate airfield reference; not a takeoff or landing coordinate",
+      "verificationStatus": "Source-reported historical trial; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "sourceReviewedAt": "2026-11-05",
+      "sourceType": "operator",
+      "sourcePublishedAt": null,
+      "source": {
+        "name": "Windracers — ACP-2021-025 stakeholder letter, page 3, hosted by the CAA",
+        "url": "https://airspacechange.caa.co.uk/documents/download/3336"
+      },
+      "coordinateBasis": "Editorial locality reference. Rounded airfield marker from OurAirports, not a surveyed drone stand or facility boundary.",
+      "researchBatch": "2026-11-05-scilly-airbridge-airfields",
+      "supportingSources": [
+        {
+          "name": "University of Southampton — Royal Mail drone trials, 10 May 2021",
+          "url": "https://www.southampton.ac.uk/news/2021/04/royal-mail-drones.page"
+        }
+      ],
+      "reportedOperator": "Windracers / University of Southampton with Royal Mail and DronePrep",
+      "reportedEquipment": "Windracers ULTRA fixed-wing drone",
+      "reportDateLabel": "2021 trial; operator letter has no displayed publication date",
+      "id": "perranporth-airbridge-trial",
+      "name": "Perranporth drone airbridge trial",
+      "where": "Perranporth Airfield, Cornwall, United Kingdom",
+      "approximateMapPoint": {
+        "latitude": 50.33,
+        "longitude": -5.18
+      },
+      "description": "Windracers reports four weeks of scheduled return flights between Perranporth Airfield and St Mary’s Airport during the Isles of Scilly airbridge trial.",
+      "reviewNotes": "One mainland airfield trial site. Perranporth is distinct from Land’s End Airport. The completed airbridge is separated from proposed Scottish routes elsewhere in the letter.",
+      "entityKey": "perranporth-airbridge-trial"
+    },
+    {
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Cargo drone trial airfield",
+      "locationPrecision": "Approximate airfield reference; not a takeoff or landing coordinate",
+      "verificationStatus": "Source-reported historical trial; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "sourceReviewedAt": "2026-11-05",
+      "sourceType": "operator",
+      "sourcePublishedAt": null,
+      "source": {
+        "name": "Windracers — ACP-2021-025 stakeholder letter, page 3, hosted by the CAA",
+        "url": "https://airspacechange.caa.co.uk/documents/download/3336"
+      },
+      "coordinateBasis": "Editorial locality reference. Rounded airfield marker from OurAirports, not a surveyed drone stand or facility boundary.",
+      "researchBatch": "2026-11-05-scilly-airbridge-airfields",
+      "supportingSources": [
+        {
+          "name": "University of Southampton — Royal Mail drone trials, 10 May 2021",
+          "url": "https://www.southampton.ac.uk/news/2021/04/royal-mail-drones.page"
+        }
+      ],
+      "reportedOperator": "Windracers / University of Southampton with Royal Mail and DronePrep",
+      "reportedEquipment": "Windracers ULTRA fixed-wing drone",
+      "reportDateLabel": "2021 trial; operator letter has no displayed publication date",
+      "id": "st-marys-scilly-airbridge-trial",
+      "name": "St Mary’s Airport drone airbridge trial",
+      "where": "St Mary’s Airport, Isles of Scilly, United Kingdom",
+      "approximateMapPoint": {
+        "latitude": 49.91,
+        "longitude": -6.29
+      },
+      "description": "Windracers identifies St Mary’s Airport as the island endpoint of the completed return-flight airbridge. The university also documents a mobile control centre there.",
+      "reviewNotes": "One island airport trial site, supported by return-flight and control-centre evidence. The 2020 Land’s End link is not counted as another St Mary’s site. No inter-island delivery destinations are added.",
+      "entityKey": "st-marys-scilly-airbridge-trial"
     }
   ],
-  "expectedTotal": 547,
+  "expectedTotal": 549,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -17964,6 +18038,13 @@
       "recordIds": [
         "lee-on-solent-medical-trial",
         "binstead-medical-trial"
+      ]
+    },
+    {
+      "id": "2026-11-05-scilly-airbridge-airfields",
+      "recordIds": [
+        "perranporth-airbridge-trial",
+        "st-marys-scilly-airbridge-trial"
       ]
     }
   ]
