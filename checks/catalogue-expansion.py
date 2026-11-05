@@ -991,4 +991,8 @@ assert hashlib.sha256(json.dumps(additions[:480],sort_keys=True,ensure_ascii=Fal
 assert batch['releases'][76]['recordIds']==['dominican-republic-bohechio-hospital', 'india-jengjal-hospital', 'india-vikarabad-district-hospital']
 assert hashlib.sha256(json.dumps(additions[:483],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='19ad175fb4a8b432c519c661ec684230fb6ff6fc13738869910eb38f7c1f3586'
 assert batch['releases'][77]['recordIds']==['tanzania-mwanza-medical-stores', 'tanzania-nansio-district-hospital', 'malawi-matawale-hospital']
+# Preserve the previous release and the historical scope of the Scottish trials.
+assert hashlib.sha256(json.dumps(additions[:486],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='d4407dfb97779b69811a39e232da7c46ac479d6b4d45fc6b535e1ef9680b46d9'
+assert batch['releases'][78]['recordIds']==['caelus-borders-general-hospital', 'caelus-crosshouse-hospital']
+assert all(by_id[id]['reportedStatus']=='historical' and by_id[id]['recordScope']=='trial-site' for id in batch['releases'][78]['recordIds'])
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')

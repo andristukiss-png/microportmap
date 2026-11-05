@@ -1,6 +1,6 @@
 {
   "batch": "2026-10-28-cumulative-reviewed-additions",
-  "reviewedAt": "2026-11-04",
+  "reviewedAt": "2026-11-05",
   "records": [
     {
       "id": "zipline-omenako",
@@ -16674,9 +16674,87 @@
       "coordinateBasis": "Editorial locality reference. Rounded locality marker, not a surveyed takeoff or landing position.",
       "researchBatch": "2026-11-04-lake-victoria-and-zomba-medical-flights",
       "supportingSources": []
+    },
+    {
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Project CAELUS consortium / NHS Scotland",
+      "reportedEquipment": "Medical delivery drone; model not established in cited report",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "verificationStatus": "Source-reported historical trial; current service and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "sourceReviewedAt": "2026-11-05",
+      "coordinateBasis": "Editorial locality reference. Rounded town or village marker, not a surveyed hospital launch or landing position.",
+      "researchBatch": "2026-11-05-scottish-hospital-flight-trials",
+      "id": "caelus-borders-general-hospital",
+      "name": "Borders General Hospital CAELUS flight trial",
+      "where": "Melrose, Scotland, United Kingdom",
+      "approximateMapPoint": {
+        "latitude": 55.6,
+        "longitude": -2.73
+      },
+      "reportDateLabel": "Summer 2024 trial; source published 12 September 2024",
+      "description": "Connected Places Catapult reports three weeks of drone flights to and from Borders General Hospital during the summer 2024 medical logistics trial.",
+      "source": {
+        "name": "Connected Places Catapult — Scottish medical drone trial",
+        "url": "https://cp.catapult.org.uk/article/medical-drone-delivery-trial-takes-to-the-skies-over-scotland/"
+      },
+      "sourcePublishedAt": "2024-09-12",
+      "sourceType": "research",
+      "reviewNotes": "The report explicitly documents flights from this hospital as well as arrivals. Counted once as a trial site, separately from the existing Edinburgh BioQuarter origin. Payload details are reported at trial level; no claim is made that every departure carried patient samples.",
+      "supportingSources": [
+        {
+          "name": "Skyports — August 2024 CAELUS specimen trial",
+          "url": "https://skyportsdroneservices.com/2024/08/nhs-laboratory-specimens-delivered-by-drone-for-first-time-by-project-caelus/"
+        },
+        {
+          "name": "Scottish Ambulance Service — CAELUS2 completion, FOI 25-006",
+          "url": "https://www.scottishambulance.com/contact-us/freedom-of-information/foi-requests/foi-25-006-aed-drones/"
+        }
+      ],
+      "entityKey": "caelus-borders-general-hospital"
+    },
+    {
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Medical logistics",
+      "reportedOperator": "Project CAELUS consortium / NHS Scotland",
+      "reportedEquipment": "Medical delivery drone; model not established in cited report",
+      "locationPrecision": "Approximate locality only; not a landing coordinate",
+      "verificationStatus": "Source-reported historical trial; current service and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "sourceReviewedAt": "2026-11-05",
+      "coordinateBasis": "Editorial locality reference. Rounded town or village marker, not a surveyed hospital launch or landing position.",
+      "researchBatch": "2026-11-05-scottish-hospital-flight-trials",
+      "id": "caelus-crosshouse-hospital",
+      "name": "University Hospital Crosshouse CAELUS flight trial",
+      "where": "Crosshouse, near Kilmarnock, Scotland, United Kingdom",
+      "approximateMapPoint": {
+        "latitude": 55.61,
+        "longitude": -4.55
+      },
+      "reportDateLabel": "Three-week 2024 trial; source published 23 October 2024",
+      "description": "AGS Airports reports live drone flights from University Hospital Crosshouse to Arran War Memorial Hospital during a three-week trial involving laboratory specimens.",
+      "source": {
+        "name": "AGS Airports — Crosshouse to Arran flight trial",
+        "url": "https://www.glasgowairport.com/media-centre/2024/nhs-laboratory-specimens-delivered-over-firth-of-clyde-by-drone-for-first-time-by-project-caelus/"
+      },
+      "sourcePublishedAt": "2024-10-23",
+      "sourceType": "operator",
+      "reviewNotes": "Counts the named mainland trial origin once. Blood-product delivery scenarios were simulated. Arran is not added as a separate dispatch site because this source does not clearly establish return cargo departures. The reported trial does not establish routine service.",
+      "supportingSources": [
+        {
+          "name": "Scottish Ambulance Service — CAELUS2 completion, FOI 25-006",
+          "url": "https://www.scottishambulance.com/contact-us/freedom-of-information/foi-requests/foi-25-006-aed-drones/"
+        }
+      ],
+      "entityKey": "caelus-crosshouse-hospital"
     }
   ],
-  "expectedTotal": 536,
+  "expectedTotal": 538,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -17552,6 +17630,13 @@
         "tanzania-mwanza-medical-stores",
         "tanzania-nansio-district-hospital",
         "malawi-matawale-hospital"
+      ]
+    },
+    {
+      "id": "2026-11-05-scottish-hospital-flight-trials",
+      "recordIds": [
+        "caelus-borders-general-hospital",
+        "caelus-crosshouse-hospital"
       ]
     }
   ]
