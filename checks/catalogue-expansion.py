@@ -1044,4 +1044,9 @@ assert hashlib.sha256(json.dumps(additions[:504],sort_keys=True,ensure_ascii=Fal
 assert batch['releases'][89]['recordIds']==['portland-dca-test-centre']
 assert by_id['portland-dca-test-centre']['reportedStatus']=='reported-operation'
 assert by_id['portland-dca-test-centre']['sourcePublishedAt']=='2026-04-17'
+# Preserve all prior additions and the single Radnor range scope.
+assert hashlib.sha256(json.dumps(additions[:505],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='37e8c93fca0405b62325cd375984fa9363d4c84fd185dca1e921a7094de724bf'
+assert batch['releases'][90]['recordIds']==['radnor-range-drone-test-site']
+assert by_id['radnor-range-drone-test-site']['reportedStatus']=='reported-operation'
+assert by_id['radnor-range-drone-test-site']['sourcePublishedAt'] is None
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')

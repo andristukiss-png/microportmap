@@ -17345,9 +17345,50 @@
       },
       "description": "HeliOperations reports launching the Drone Certification Agency at Portland Heliport to support drone development, evaluation and flight testing. The CAA separately lists the Osprey Quay location among its pre-assessed UAS test sites.",
       "reviewNotes": "One heliport-based testing centre. Nearby maritime test areas are not separate records. The source-reported facility and CAA listing do not establish public access, current booking availability or permission for a particular flight."
+    },
+    {
+      "id": "radnor-range-drone-test-site",
+      "entityKey": "radnor-range-drone-test-site",
+      "name": "Radnor Range drone test site",
+      "where": "Harley Dingle, New Radnor, Powys, Wales, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Drone testing and evaluation range",
+      "locationPrecision": "Approximate range-locality reference; not an entrance, launch point or flight boundary",
+      "verificationStatus": "Source-reported testing facility; current operation and booking availability not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-05",
+      "sourceType": "operator",
+      "sourcePublishedAt": null,
+      "source": {
+        "name": "Radnor Range — Unmanned Air Systems testing",
+        "url": "https://www.radnor.org.uk/services/drones-counter-drone-and-unmanned-air-systems-uas/"
+      },
+      "coordinateBasis": "Editorial locality reference. Rounded from the operator contact page location to indicate the range locality, not a surveyed boundary or access coordinate.",
+      "researchBatch": "2026-11-05-radnor-drone-testing",
+      "supportingSources": [
+        {
+          "name": "Radnor Range — contact page distinguishing range and office",
+          "url": "https://www.radnor.org.uk/contact-us/"
+        },
+        {
+          "name": "Radnor Range — site information, May 2022",
+          "url": "https://www.radnor.org.uk/wp-content/uploads/2023/07/Radnor-Range-Information-Pack-May-2022.pdf"
+        }
+      ],
+      "reportedOperator": "Radnor Range Limited",
+      "reportedEquipment": "UAS test range with workshops and support facilities; no single aircraft model assigned",
+      "reportDateLabel": "Undated operator service page; reviewed 5 November 2026",
+      "approximateMapPoint": {
+        "latitude": 52.24,
+        "longitude": -3.17
+      },
+      "description": "Radnor Range describes a facility for drone testing and evaluation, with flight-test environments, workshops and logistical support. The operator states that public access is prohibited.",
+      "reviewNotes": "One range complex, separate from the administrative office in Presteigne. Individual trials areas, corridors and service offerings are not additional sites. The page has no stated publication date; its October 2019 demonstration reference does not date the whole facility. Current bookings and flight permissions remain unverified."
     }
   ],
-  "expectedTotal": 555,
+  "expectedTotal": 556,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -18302,6 +18343,12 @@
       "id": "2026-11-05-portland-drone-testing",
       "recordIds": [
         "portland-dca-test-centre"
+      ]
+    },
+    {
+      "id": "2026-11-05-radnor-drone-testing",
+      "recordIds": [
+        "radnor-range-drone-test-site"
       ]
     }
   ]
