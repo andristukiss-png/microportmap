@@ -1025,4 +1025,8 @@ assert by_id['st-merryn-ultra-flight-trial']['reportedStatus']=='historical'
 assert hashlib.sha256(json.dumps(additions[:500],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='7700318f558234b482c9e7544406a3eca92efd92cb06118a37b2aa480588d2f3'
 assert batch['releases'][85]['recordIds']==['marwell-conservation-flight-trial']
 assert by_id['marwell-conservation-flight-trial']['reportedStatus']=='historical'
+# Preserve the previous release and historical South Terras survey scope.
+assert hashlib.sha256(json.dumps(additions[:501],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='d380f000543af658cede45fdc4e76bebc2a920af55c2435722255c1ce08ff427'
+assert batch['releases'][86]['recordIds']==['south-terras-radiation-survey']
+assert by_id['south-terras-radiation-survey']['reportedStatus']=='historical'
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')

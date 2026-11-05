@@ -17202,9 +17202,41 @@
       },
       "description": "Southampton reports research flights at Marwell to evaluate aerial wildlife monitoring. A later Marwell report confirms further zoo-based trials as the technology developed.",
       "reviewNotes": "One zoo-scoped research site. Repeated flights and individual paddocks are not separate facilities. Overseas deployment plans are not counted. Research trials do not confer public flight permission; Marwell prohibits drone filming over its land."
+    },
+    {
+      "id": "south-terras-radiation-survey",
+      "entityKey": "south-terras-radiation-survey",
+      "name": "South Terras drone radiation survey",
+      "where": "South Terras mine area, St Stephen-in-Brannel, Cornwall, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Environmental drone research site",
+      "locationPrecision": "Approximate mine-area reference; not a takeoff or landing coordinate",
+      "verificationStatus": "Source-reported historical research; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "sourceReviewedAt": "2026-11-05",
+      "sourceType": "research",
+      "sourcePublishedAt": "2023-06-28",
+      "source": {
+        "name": "Woodbridge et al. — Airborne gamma-ray mapping using fixed-wing VTOL uncrewed aerial vehicles",
+        "url": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2023.1137763/full"
+      },
+      "coordinateBasis": "Editorial locality reference. Rounded mine-area marker from Mapcarta, not a surveyed flight boundary or launch point.",
+      "researchBatch": "2026-11-05-south-terras-survey-trial",
+      "supportingSources": [],
+      "reportedOperator": "University of Bristol research team with ImiTec technology collaboration",
+      "reportedEquipment": "WingtraOne Gen One VTOL UAV with AARM gamma-spectrometry payload",
+      "reportDateLabel": "2022 survey flights; paper published 28 June 2023",
+      "approximateMapPoint": {
+        "latitude": 50.34,
+        "longitude": -4.9
+      },
+      "description": "The study reports five WingtraOne survey flights around South Terras in 2022 to evaluate airborne radiation mapping over a legacy mine area.",
+      "reviewNotes": "One mine-area research site. Multiple survey sectors, takeoff positions and earlier studies do not create separate records. Distinct from Fenswood Farm and the St Just coastal trials. No permanent drone facility or public flight access is inferred."
     }
   ],
-  "expectedTotal": 551,
+  "expectedTotal": 552,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -18135,6 +18167,12 @@
       "id": "2026-11-05-marwell-conservation-trials",
       "recordIds": [
         "marwell-conservation-flight-trial"
+      ]
+    },
+    {
+      "id": "2026-11-05-south-terras-survey-trial",
+      "recordIds": [
+        "south-terras-radiation-survey"
       ]
     }
   ]
