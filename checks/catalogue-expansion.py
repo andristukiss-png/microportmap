@@ -995,4 +995,9 @@ assert batch['releases'][77]['recordIds']==['tanzania-mwanza-medical-stores', 't
 assert hashlib.sha256(json.dumps(additions[:486],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='d4407dfb97779b69811a39e232da7c46ac479d6b4d45fc6b535e1ef9680b46d9'
 assert batch['releases'][78]['recordIds']==['caelus-borders-general-hospital', 'caelus-crosshouse-hospital']
 assert all(by_id[id]['reportedStatus']=='historical' and by_id[id]['recordScope']=='trial-site' for id in batch['releases'][78]['recordIds'])
+# Preserve the previous release and distinguish the two airport trial origins.
+assert hashlib.sha256(json.dumps(additions[:488],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='0b9f7213f24591374a41edcb65d69a64c1e047689b6baa80f44e86f93fa7ee28'
+assert batch['releases'][79]['recordIds']==['royal-mail-kirkwall-airport-trial', 'royal-mail-tingwall-airport-trial']
+assert all(by_id[id]['reportedStatus']=='historical' and by_id[id]['recordScope']=='trial-site' for id in batch['releases'][79]['recordIds'])
+assert by_id['royal-mail-tingwall-airport-trial']['sourcePublishedAt'] is None
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
