@@ -17234,9 +17234,46 @@
       },
       "description": "The study reports five WingtraOne survey flights around South Terras in 2022 to evaluate airborne radiation mapping over a legacy mine area.",
       "reviewNotes": "One mine-area research site. Multiple survey sectors, takeoff positions and earlier studies do not create separate records. Distinct from Fenswood Farm and the St Just coastal trials. No permanent drone facility or public flight access is inferred."
+    },
+    {
+      "id": "swindon-dronetex-testing-centre",
+      "entityKey": "swindon-dronetex-testing-centre",
+      "name": "Swindon DroneTEX testing centre",
+      "where": "Panattoni Park, Swindon, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Indoor drone testing centre",
+      "locationPrecision": "Approximate Swindon locality reference; not a facility entrance or flight boundary",
+      "verificationStatus": "Source-reported opening; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-05",
+      "sourceType": "government",
+      "sourcePublishedAt": "2026-06-12",
+      "source": {
+        "name": "Ministry of Defence — Swindon drone testing centre opening",
+        "url": "https://www.gov.uk/government/news/europes-largest-drone-testing-centre-opens-in-swindon-to-boost-defence-innovation"
+      },
+      "coordinateBasis": "Editorial locality reference. Rounded Swindon city marker, not an exact building, entrance or flight coordinate.",
+      "researchBatch": "2026-11-05-swindon-dronetex-centre",
+      "supportingSources": [
+        {
+          "name": "Panattoni — facility opening at Panattoni Park Swindon, 24 June 2026",
+          "url": "https://panattonieurope.com/en/newsroom/panattoni-welcomes-secretary-of-state"
+        }
+      ],
+      "reportedOperator": "UK Ministry of Defence / Uncrewed Systems Centre",
+      "reportedEquipment": "Uncrewed systems testing; no single aircraft model assigned to this record",
+      "reportDateLabel": "Opened 12 June 2026; Ministry of Defence report published the same day",
+      "approximateMapPoint": {
+        "latitude": 51.56,
+        "longitude": -1.78
+      },
+      "description": "The Ministry of Defence reports opening the Uncrewed Systems Centre at DroneTEX in Swindon on 12 June 2026. Panattoni identifies the indoor testing facility at its Swindon park.",
+      "reviewNotes": "One testing centre, counted once under its DroneTEX and Uncrewed Systems Centre names. Separate from the Tekever Spectrum factory and proposed Wroughton testing activity. The reported opening does not establish current booking availability or public access."
     }
   ],
-  "expectedTotal": 552,
+  "expectedTotal": 553,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -18173,6 +18210,12 @@
       "id": "2026-11-05-south-terras-survey-trial",
       "recordIds": [
         "south-terras-radiation-survey"
+      ]
+    },
+    {
+      "id": "2026-11-05-swindon-dronetex-centre",
+      "recordIds": [
+        "swindon-dronetex-testing-centre"
       ]
     }
   ]
