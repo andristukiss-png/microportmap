@@ -1029,4 +1029,9 @@ assert by_id['marwell-conservation-flight-trial']['reportedStatus']=='historical
 assert hashlib.sha256(json.dumps(additions[:501],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='d380f000543af658cede45fdc4e76bebc2a920af55c2435722255c1ce08ff427'
 assert batch['releases'][86]['recordIds']==['south-terras-radiation-survey']
 assert by_id['south-terras-radiation-survey']['reportedStatus']=='historical'
+# Preserve all prior additions and the distinct DroneTEX facility scope.
+assert hashlib.sha256(json.dumps(additions[:502],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='ba95419912e7eb225a9384a699a3b0f2e39d0e2e281933678682bf33eded7d81'
+assert batch['releases'][87]['recordIds']==['swindon-dronetex-testing-centre']
+assert by_id['swindon-dronetex-testing-centre']['reportedStatus']=='reported-operation'
+assert by_id['swindon-dronetex-testing-centre']['sourcePublishedAt']=='2026-06-12'
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
