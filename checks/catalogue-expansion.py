@@ -1039,4 +1039,9 @@ assert hashlib.sha256(json.dumps(additions[:503],sort_keys=True,ensure_ascii=Fal
 assert batch['releases'][88]['recordIds']==['blue-bear-twinwoods-flight-test-centre']
 assert by_id['blue-bear-twinwoods-flight-test-centre']['reportedStatus']=='historical'
 assert by_id['blue-bear-twinwoods-flight-test-centre']['sourcePublishedAt']=='2019-08-29'
+# Preserve all prior additions and the Portland heliport-based facility scope.
+assert hashlib.sha256(json.dumps(additions[:504],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='3c47426fea32d61f96046e540ac130487c7b1a39ebba122eb56fb55a907725e7'
+assert batch['releases'][89]['recordIds']==['portland-dca-test-centre']
+assert by_id['portland-dca-test-centre']['reportedStatus']=='reported-operation'
+assert by_id['portland-dca-test-centre']['sourcePublishedAt']=='2026-04-17'
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
