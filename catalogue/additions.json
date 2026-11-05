@@ -17308,9 +17308,46 @@
       },
       "description": "Blue Bear reports an Agristart UAV test at its Twinwoods centre, with control transferred to an operator at Kingston University after takeoff. A local safety pilot supervised takeoff and landing within visual line of sight.",
       "reviewNotes": "One physical test centre. The remote control location and NBEC corridor are not additional records. Distinct from the existing Cranfield University Drone Flight Arena. Historical evidence does not establish present service availability or flight permission."
+    },
+    {
+      "id": "portland-dca-test-centre",
+      "entityKey": "portland-dca-test-centre",
+      "name": "Portland Drone Certification Agency test centre",
+      "where": "Portland Heliport, Osprey Quay, Dorset, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Drone testing and evaluation centre",
+      "locationPrecision": "Approximate northern Portland locality reference; not a runway point or test-area boundary",
+      "verificationStatus": "Source-reported facility launch; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-05",
+      "sourceType": "operator",
+      "sourcePublishedAt": "2026-04-17",
+      "source": {
+        "name": "HeliOperations — Drone Certification Agency launch",
+        "url": "https://helioperations.co/blog/drone-certification-agency/"
+      },
+      "coordinateBasis": "Editorial locality reference. Rounded northern Portland marker, not an exact launch position, building entrance or authorised flight area.",
+      "researchBatch": "2026-11-05-portland-drone-testing",
+      "supportingSources": [
+        {
+          "name": "UK Civil Aviation Authority — pre-assessed UAS test sites",
+          "url": "https://www.caa.co.uk/drones/specific-category/test-and-evaluation/uas-operations-at-test-sites"
+        }
+      ],
+      "reportedOperator": "Drone Certification Agency, alongside HeliOperations",
+      "reportedEquipment": "UAS testing infrastructure and hangarage; no single aircraft model assigned",
+      "reportDateLabel": "Facility launch reported 17 April 2026",
+      "approximateMapPoint": {
+        "latitude": 50.57,
+        "longitude": -2.45
+      },
+      "description": "HeliOperations reports launching the Drone Certification Agency at Portland Heliport to support drone development, evaluation and flight testing. The CAA separately lists the Osprey Quay location among its pre-assessed UAS test sites.",
+      "reviewNotes": "One heliport-based testing centre. Nearby maritime test areas are not separate records. The source-reported facility and CAA listing do not establish public access, current booking availability or permission for a particular flight."
     }
   ],
-  "expectedTotal": 554,
+  "expectedTotal": 555,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -18259,6 +18296,12 @@
       "id": "2026-11-05-twinwoods-flight-testing",
       "recordIds": [
         "blue-bear-twinwoods-flight-test-centre"
+      ]
+    },
+    {
+      "id": "2026-11-05-portland-drone-testing",
+      "recordIds": [
+        "portland-dca-test-centre"
       ]
     }
   ]
