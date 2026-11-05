@@ -16752,9 +16752,83 @@
         }
       ],
       "entityKey": "caelus-crosshouse-hospital"
+    },
+    {
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Postal logistics",
+      "reportedOperator": "Windracers / Royal Mail",
+      "reportedEquipment": "Windracers ULTRA",
+      "locationPrecision": "Approximate locality only; not a runway or landing coordinate",
+      "verificationStatus": "Source-reported historical trial; current service and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "sourceReviewedAt": "2026-11-05",
+      "sourceType": "operator",
+      "coordinateBasis": "Editorial locality reference. Rounded settlement marker, not a surveyed airport takeoff or landing position.",
+      "researchBatch": "2026-11-05-scottish-airport-mail-trials",
+      "id": "royal-mail-kirkwall-airport-trial",
+      "name": "Kirkwall Airport Royal Mail drone trial",
+      "where": "Kirkwall, Orkney, Scotland, United Kingdom",
+      "approximateMapPoint": {
+        "latitude": 58.98,
+        "longitude": -2.96
+      },
+      "reportDateLabel": "October 2021 two-week trial; source published 6 October 2021",
+      "description": "The airport operator documents Kirkwall Airport as the origin for a two-week Windracers trial carrying Royal Mail post to North Ronaldsay.",
+      "source": {
+        "name": "Highlands and Islands Airports — Kirkwall postal drone trial",
+        "url": "https://www.hial.co.uk/news/article/53/trials-to-deliver-remote-community-s-mail-by-lower-emission-drone-launched-at-kirkwall-airport"
+      },
+      "sourcePublishedAt": "2021-10-06",
+      "reviewNotes": "One named airport dispatch origin in the 2021 trial. This is distinct from the existing Stromness hub and the Kirkwall road-transfer point described in that hub record. North Ronaldsay is not separately counted from a statement of aircraft capacity or intended return mail.",
+      "supportingSources": [
+        {
+          "name": "Royal Mail — retrospective account of island drone trials",
+          "url": "https://www.royalmail.com/sustainability/environment/drones-connecting-remote-communities-across-the-uk"
+        }
+      ],
+      "entityKey": "royal-mail-kirkwall-airport-trial"
+    },
+    {
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Postal logistics",
+      "reportedOperator": "Windracers / Royal Mail",
+      "reportedEquipment": "Windracers fixed-wing delivery UAV",
+      "locationPrecision": "Approximate locality only; not a runway or landing coordinate",
+      "verificationStatus": "Source-reported historical trial; current service and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "sourceReviewedAt": "2026-11-05",
+      "sourceType": "operator",
+      "coordinateBasis": "Editorial locality reference. Rounded settlement marker, not a surveyed airport takeoff or landing position.",
+      "researchBatch": "2026-11-05-scottish-airport-mail-trials",
+      "id": "royal-mail-tingwall-airport-trial",
+      "name": "Tingwall Airport Royal Mail drone trial",
+      "where": "Tingwall, Shetland, Scotland, United Kingdom",
+      "approximateMapPoint": {
+        "latitude": 60.17,
+        "longitude": -1.23
+      },
+      "reportDateLabel": "Spring 2022 trial; Royal Mail page undated, contemporary report dated 1 April 2022",
+      "description": "Royal Mail reports test flights delivering mail from Tingwall Airport to Unst. A contemporary Shetland report identifies Windracers operating trial departures from the airport.",
+      "source": {
+        "name": "Royal Mail — Shetland postal drone trial",
+        "url": "https://www.royalmail.com/sustainability/environment/drones-connecting-remote-communities-across-the-uk"
+      },
+      "sourcePublishedAt": null,
+      "reviewNotes": "Counts the named Shetland airport once. Tingwall in Orkney is a different locality. The undated Royal Mail retrospective is paired with dated local reporting. Unst is not separately counted without evidence identifying a return cargo dispatch site.",
+      "supportingSources": [
+        {
+          "name": "Shetland News — Tingwall trial flights, 1 April 2022",
+          "url": "https://www.shetnews.co.uk/2022/04/01/drone-test-flights-take-mail-from-tingwall-to-unst/"
+        }
+      ],
+      "entityKey": "royal-mail-tingwall-airport-trial"
     }
   ],
-  "expectedTotal": 538,
+  "expectedTotal": 540,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -17637,6 +17711,13 @@
       "recordIds": [
         "caelus-borders-general-hospital",
         "caelus-crosshouse-hospital"
+      ]
+    },
+    {
+      "id": "2026-11-05-scottish-airport-mail-trials",
+      "recordIds": [
+        "royal-mail-kirkwall-airport-trial",
+        "royal-mail-tingwall-airport-trial"
       ]
     }
   ]
