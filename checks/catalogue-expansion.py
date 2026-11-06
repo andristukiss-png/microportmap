@@ -1054,4 +1054,10 @@ assert hashlib.sha256(json.dumps(additions[:506],sort_keys=True,ensure_ascii=Fal
 assert batch['releases'][91]['recordIds']==['avonmouth-npas-flight-trial']
 assert by_id['avonmouth-npas-flight-trial']['reportedStatus']=='historical'
 assert by_id['avonmouth-npas-flight-trial']['sourcePublishedAt'] is None
+# Preserve prior additions and distinguish historical Draycott from Goodwood facilities.
+assert hashlib.sha256(json.dumps(additions[:507],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='af1cf552aca5b0cd946e23b7ee6fca975802dc42204ebe6a408e08e44bb78ef5'
+assert batch['releases'][92]['recordIds']==['draycott-student-uav-test-site','goodwood-aviation-innovation-centre']
+assert by_id['draycott-student-uav-test-site']['reportedStatus']=='historical'
+assert by_id['draycott-student-uav-test-site']['sourcePublishedAt']=='2009-01-07'
+assert by_id['goodwood-aviation-innovation-centre']['sourcePublishedAt'] is None
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')

@@ -17427,9 +17427,82 @@
       },
       "description": "NPAS reports more than 130 flying hours during July–December 2025 trials operating from Avonmouth Port. NATS identifies Avonmouth Heliport as the base for the later phase of the trial.",
       "reviewNotes": "One port-based trial origin. Avonmouth Port and Avonmouth Heliport refer to the same counted trial site; trial airspace sectors are not additional records. This documents completed trials, not a verified ongoing police drone service. The undated retrospective is separate from the dated launch report."
+    },
+    {
+      "country": "United Kingdom",
+      "region": "Europe",
+      "sourceReviewedAt": "2026-11-06",
+      "researchBatch": "2026-11-06-draycott-goodwood-flight-sites",
+      "id": "draycott-student-uav-test-site",
+      "entityKey": "draycott-student-uav-test-site",
+      "name": "Draycott student UAV test site",
+      "where": "Draycott Airfield, near Swindon, United Kingdom",
+      "infrastructureType": "Historical UAV flight-test site",
+      "locationPrecision": "Approximate Swindon locality reference; not an airfield or launch coordinate",
+      "verificationStatus": "Source-reported historical test flight; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "sourceType": "research",
+      "sourcePublishedAt": "2009-01-07",
+      "source": {
+        "name": "University of Southampton — student UAV competition flight",
+        "url": "https://www.southampton.ac.uk/news/2009/01/students-reach-for-the-skies-to-beat-european-competition.page"
+      },
+      "coordinateBasis": "Editorial locality reference. Rounded Swindon marker based on the source locality, not a surveyed airfield or takeoff point.",
+      "supportingSources": [],
+      "reportedOperator": "University of Southampton student engineering team",
+      "reportedEquipment": "Student-designed UAV with university-developed autopilot and telemetry",
+      "reportDateLabel": "Test flight reported 7 January 2009; exact flight date not stated",
+      "approximateMapPoint": {
+        "latitude": 51.56,
+        "longitude": -1.78
+      },
+      "description": "The University of Southampton reports that its student team successfully flew a UAV design at Draycott Airfield near Swindon during a European design competition.",
+      "reviewNotes": "One historical test-flight site. The report date is not asserted as the flight date. Distinct from the Swindon DroneTEX facility and proposed Wroughton activity; no permanent drone centre is inferred."
+    },
+    {
+      "country": "United Kingdom",
+      "region": "Europe",
+      "sourceReviewedAt": "2026-11-06",
+      "researchBatch": "2026-11-06-draycott-goodwood-flight-sites",
+      "id": "goodwood-aviation-innovation-centre",
+      "entityKey": "goodwood-aviation-innovation-centre",
+      "name": "Goodwood Aviation Innovation Centre",
+      "where": "Goodwood Aerodrome, near Chichester, West Sussex, United Kingdom",
+      "infrastructureType": "Drone development and flight-test centre",
+      "locationPrecision": "Approximate Chichester locality reference; not an aerodrome entrance or flight boundary",
+      "verificationStatus": "Source-described testing facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceType": "operator",
+      "sourcePublishedAt": null,
+      "source": {
+        "name": "Aviation Innovation Centre — Goodwood facilities",
+        "url": "https://aviationinnovationcentre.com/"
+      },
+      "coordinateBasis": "Editorial locality reference. Rounded Chichester marker, not a runway, launch point or authorised flight area.",
+      "supportingSources": [
+        {
+          "name": "Aviation Innovation Centre — joint venture partners",
+          "url": "https://aviationinnovationcentre.com/about/"
+        },
+        {
+          "name": "Connected Places Catapult — Goodwood trial host announcement, 30 March 2021",
+          "url": "https://cp.catapult.org.uk/news/the-uk-government-drones-pathfinder-programme-announces-the-addition-of-a-new-pathfinder-project/"
+        }
+      ],
+      "reportedOperator": "Goodwood Aerodrome and Across Safety Development joint venture",
+      "reportedEquipment": "Controlled ground area, hangar space and optical/infrared tracking facilities",
+      "reportDateLabel": "Operator facilities page undated; 2021 trial-host announcement is separate evidence",
+      "approximateMapPoint": {
+        "latitude": 50.84,
+        "longitude": -0.78
+      },
+      "description": "The operator describes a centre at Goodwood Aerodrome providing facilities and support for drone development and flight testing. Connected Places Catapult separately named it as a planned trial host in March 2021.",
+      "reviewNotes": "One aerodrome-based centre. Hangars, testing services and trial projects are not additional sites. Displayed site-maintenance timestamps do not establish original publication dates. The 2021 announcement alone does not prove completed flights or current availability."
     }
   ],
-  "expectedTotal": 557,
+  "expectedTotal": 559,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -18396,6 +18469,13 @@
       "id": "2026-11-06-avonmouth-police-flight-trial",
       "recordIds": [
         "avonmouth-npas-flight-trial"
+      ]
+    },
+    {
+      "id": "2026-11-06-draycott-goodwood-flight-sites",
+      "recordIds": [
+        "draycott-student-uav-test-site",
+        "goodwood-aviation-innovation-centre"
       ]
     }
   ]
