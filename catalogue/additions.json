@@ -17500,9 +17500,83 @@
       },
       "description": "The operator describes a centre at Goodwood Aerodrome providing facilities and support for drone development and flight testing. Connected Places Catapult separately named it as a planned trial host in March 2021.",
       "reviewNotes": "One aerodrome-based centre. Hangars, testing services and trial projects are not additional sites. Displayed site-maintenance timestamps do not establish original publication dates. The 2021 announcement alone does not prove completed flights or current availability."
+    },
+    {
+      "country": "United Kingdom",
+      "region": "Europe",
+      "sourceReviewedAt": "2026-11-06",
+      "researchBatch": "2026-11-06-west-wales-west-freugh-testing",
+      "id": "west-wales-airport-uas-testing",
+      "entityKey": "west-wales-airport-uas-testing",
+      "name": "West Wales Airport UAS testing site",
+      "where": "West Wales Airport, Aberporth area, Ceredigion, Wales, United Kingdom",
+      "infrastructureType": "Airport-based drone testing centre",
+      "locationPrecision": "Approximate Aberporth locality reference; not an airport or launch coordinate",
+      "verificationStatus": "Source-reported testing activity; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceType": "operator",
+      "sourcePublishedAt": "2025-07-18",
+      "source": {
+        "name": "TEKEVER — West Wales Airport acquisition and testing activity",
+        "url": "https://www.tekever.com/news/tekever-acquires-west-wales-airport-to-advance-uk-and-nato-defence-capabilities/"
+      },
+      "coordinateBasis": "Editorial locality reference. Rounded Aberporth marker, not a runway, hangar or authorised flight area.",
+      "supportingSources": [
+        {
+          "name": "TEKEVER news index — dates acquisition report 18 July 2025",
+          "url": "https://www.tekever.com/news/"
+        }
+      ],
+      "reportedOperator": "TEKEVER / West Wales Airport",
+      "reportedEquipment": "UAS test facilities; TEKEVER AR3 research and development reported",
+      "reportDateLabel": "Testing reported since 2023; acquisition report dated 18 July 2025 in operator news index",
+      "approximateMapPoint": {
+        "latitude": 52.13,
+        "longitude": -4.54
+      },
+      "description": "TEKEVER reports testing unmanned systems at West Wales Airport since 2023 and acquiring the airport in July 2025. The same report describes further expansion plans, kept separate from the documented testing activity.",
+      "reviewNotes": "One airport testing site. Airport aliases, hangars, customer projects and expansion plans do not create additional records. Distinct from Llanbedr, Predannack and the separately recorded Swindon facilities. Current availability is not inferred from the acquisition report."
+    },
+    {
+      "country": "United Kingdom",
+      "region": "Europe",
+      "sourceReviewedAt": "2026-11-06",
+      "researchBatch": "2026-11-06-west-wales-west-freugh-testing",
+      "id": "west-freugh-uas-trial-site",
+      "entityKey": "west-freugh-uas-trial-site",
+      "name": "West Freugh UAS trial site",
+      "where": "West Freugh, near Stranraer, Dumfries and Galloway, Scotland, United Kingdom",
+      "infrastructureType": "Historical UAS testing range",
+      "locationPrecision": "Approximate Stranraer locality reference; not a launch position or range boundary",
+      "verificationStatus": "Source-reported historical trial; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "sourceType": "government",
+      "sourcePublishedAt": "2015-05-26",
+      "source": {
+        "name": "Dstl — Bristow 15 UAS trial at West Freugh",
+        "url": "https://www.gov.uk/government/news/dstl-bristow-trial-develops-future-protection-against-hostile-uas"
+      },
+      "coordinateBasis": "Editorial locality reference. Rounded Stranraer marker for the nearby West Freugh site, not a surveyed range, runway or launch point.",
+      "supportingSources": [
+        {
+          "name": "QinetiQ — West Freugh location",
+          "url": "https://www.qinetiq.com/en/westfreugh/where-we-are"
+        }
+      ],
+      "reportedOperator": "Defence Science and Technology Laboratory, supported by QinetiQ and trial partners",
+      "reportedEquipment": "Small unmanned aircraft used in the reported trial; individual models not specified",
+      "reportDateLabel": "May 2015 trials; government report published 26 May 2015",
+      "approximateMapPoint": {
+        "latitude": 54.9,
+        "longitude": -5.03
+      },
+      "description": "Dstl reports UAS flight trials at West Freugh in May 2015, supported by QinetiQ. The record documents the historical test location without asserting current drone operations.",
+      "reviewNotes": "One historical range-based trial site. Individual sorties, participants and test areas are not separate records. The source dates the trial to May 2015 but does not establish exact flight dates. Current bookings and public access remain unverified."
     }
   ],
-  "expectedTotal": 559,
+  "expectedTotal": 561,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -18476,6 +18550,13 @@
       "recordIds": [
         "draycott-student-uav-test-site",
         "goodwood-aviation-innovation-centre"
+      ]
+    },
+    {
+      "id": "2026-11-06-west-wales-west-freugh-testing",
+      "recordIds": [
+        "west-wales-airport-uas-testing",
+        "west-freugh-uas-trial-site"
       ]
     }
   ]
