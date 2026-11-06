@@ -1071,4 +1071,11 @@ assert hashlib.sha256(json.dumps(additions[:511],sort_keys=True,ensure_ascii=Fal
 assert batch['releases'][94]['recordIds']==['shannon-fmci-drone-port']
 assert by_id['shannon-fmci-drone-port']['sourcePublishedAt'] is None
 assert by_id['shannon-fmci-drone-port']['reportedStatus']=='reported-operation'
+# Preserve earlier additions and retain historical scope for Irish island trials.
+assert hashlib.sha256(json.dumps(additions[:512],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='8d11b618f97f2aa691d87f6c66d51839184af4235cc6e1e6cfb86b17a9394abd'
+assert batch['releases'][95]['recordIds']==['connemara-airport-diabetes-trial', 'roonagh-pier-postal-trial']
+assert by_id['connemara-airport-diabetes-trial']['reportedStatus']=='historical'
+assert by_id['connemara-airport-diabetes-trial']['sourcePublishedAt']=='2019-09-16'
+assert by_id['roonagh-pier-postal-trial']['reportedStatus']=='historical'
+assert by_id['roonagh-pier-postal-trial']['sourcePublishedAt']=='2018-07-06'
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
