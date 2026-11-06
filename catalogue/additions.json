@@ -1,6 +1,6 @@
 {
   "batch": "2026-10-28-cumulative-reviewed-additions",
-  "reviewedAt": "2026-11-05",
+  "reviewedAt": "2026-11-06",
   "records": [
     {
       "id": "zipline-omenako",
@@ -17386,9 +17386,50 @@
       },
       "description": "Radnor Range describes a facility for drone testing and evaluation, with flight-test environments, workshops and logistical support. The operator states that public access is prohibited.",
       "reviewNotes": "One range complex, separate from the administrative office in Presteigne. Individual trials areas, corridors and service offerings are not additional sites. The page has no stated publication date; its October 2019 demonstration reference does not date the whole facility. Current bookings and flight permissions remain unverified."
+    },
+    {
+      "id": "avonmouth-npas-flight-trial",
+      "entityKey": "avonmouth-npas-flight-trial",
+      "name": "Avonmouth NPAS drone trial base",
+      "where": "Avonmouth Port and Heliport, Bristol, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Heliport-based drone trial site",
+      "locationPrecision": "Approximate Avonmouth locality reference; not a helipad coordinate or trial airspace boundary",
+      "verificationStatus": "Source-reported historical trials; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "sourceReviewedAt": "2026-11-06",
+      "sourceType": "government",
+      "sourcePublishedAt": null,
+      "source": {
+        "name": "National Police Air Service — projects and completed UAS trials",
+        "url": "https://www.npas.police.uk/what-we-do/projects-2"
+      },
+      "coordinateBasis": "Editorial locality reference. Rounded Avonmouth-area marker, not an exact launch point, port entrance or authorised flight area.",
+      "researchBatch": "2026-11-06-avonmouth-police-flight-trial",
+      "supportingSources": [
+        {
+          "name": "NATS — AIP Supplement 094/2025 identifying Avonmouth Heliport",
+          "url": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2025-10-16/html/eSUP/EG-eSUP-2025-094-en-GB.html"
+        },
+        {
+          "name": "NPAS — trial launch report, 3 August 2025",
+          "url": "https://www.npas.police.uk/news/trials-begin-uncrewed-aircraft"
+        }
+      ],
+      "reportedOperator": "National Police Air Service with Schiebel, NATS and CAA trial partners",
+      "reportedEquipment": "Schiebel CAMCOPTER S-100 UAS",
+      "reportDateLabel": "July–December 2025 trials; undated retrospective reviewed 6 November 2026",
+      "approximateMapPoint": {
+        "latitude": 51.5,
+        "longitude": -2.7
+      },
+      "description": "NPAS reports more than 130 flying hours during July–December 2025 trials operating from Avonmouth Port. NATS identifies Avonmouth Heliport as the base for the later phase of the trial.",
+      "reviewNotes": "One port-based trial origin. Avonmouth Port and Avonmouth Heliport refer to the same counted trial site; trial airspace sectors are not additional records. This documents completed trials, not a verified ongoing police drone service. The undated retrospective is separate from the dated launch report."
     }
   ],
-  "expectedTotal": 556,
+  "expectedTotal": 557,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -18349,6 +18390,12 @@
       "id": "2026-11-05-radnor-drone-testing",
       "recordIds": [
         "radnor-range-drone-test-site"
+      ]
+    },
+    {
+      "id": "2026-11-06-avonmouth-police-flight-trial",
+      "recordIds": [
+        "avonmouth-npas-flight-trial"
       ]
     }
   ]

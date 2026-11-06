@@ -1049,4 +1049,9 @@ assert hashlib.sha256(json.dumps(additions[:505],sort_keys=True,ensure_ascii=Fal
 assert batch['releases'][90]['recordIds']==['radnor-range-drone-test-site']
 assert by_id['radnor-range-drone-test-site']['reportedStatus']=='reported-operation'
 assert by_id['radnor-range-drone-test-site']['sourcePublishedAt'] is None
+# Preserve all earlier additions and the historical Avonmouth trial scope.
+assert hashlib.sha256(json.dumps(additions[:506],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='ad1ee065898180a0c69ead20cc2ceae03c1db6d3b2258816d77c0071de1d8db8'
+assert batch['releases'][91]['recordIds']==['avonmouth-npas-flight-trial']
+assert by_id['avonmouth-npas-flight-trial']['reportedStatus']=='historical'
+assert by_id['avonmouth-npas-flight-trial']['sourcePublishedAt'] is None
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
