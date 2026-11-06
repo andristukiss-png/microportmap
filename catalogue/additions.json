@@ -17611,9 +17611,71 @@
       "researchBatch": "2026-11-06-shannon-fmci-drone-port",
       "reviewNotes": "One FMCI drone testing facility, not separate records for its landing zones, office, fleet or wider campus. The 2022 date refers to the campus opening, not a verified drone-port opening. Earlier passenger-vertiport plans do not establish passenger service. Current bookings, flight permissions and access remain unverified.",
       "coordinateBasis": "Editorial locality reference. Rounded Shannon marker, not a surveyed facility, flight area or landing point."
+    },
+    {
+      "country": "Ireland",
+      "region": "Europe",
+      "sourceReviewedAt": "2026-11-06",
+      "researchBatch": "2026-11-06-irish-island-trial-origins",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "verificationStatus": "Source-reported historical trial; current service and access not independently verified",
+      "coordinateBasis": "Editorial locality reference. Rounded locality marker, not a surveyed launch point or authorised flight area.",
+      "id": "connemara-airport-diabetes-trial",
+      "name": "Connemara Airport diabetes drone trial",
+      "where": "Connemara Airport, Inverin / Indreabhan area, County Galway, Ireland",
+      "infrastructureType": "Historical medical drone trial origin",
+      "reportedOperator": "NUI Galway project with Survey Drones Ireland, Wingcopter and partners",
+      "reportedEquipment": "Wingcopter 178 Heavy Lift with insulated parcel box",
+      "locationPrecision": "Approximate Inverin locality reference; not an airport launch coordinate",
+      "approximateMapPoint": {
+        "latitude": 53.24,
+        "longitude": -9.43
+      },
+      "reportDateLabel": "September 2019 trial; university report published 16 September 2019",
+      "description": "NUI Galway reports launching a drone from Connemara Airport to deliver diabetes medicines to Inis Mor during a research trial. The mission also involved collection of a blood sample.",
+      "source": {
+        "name": "University of Galway — Diabetes Drone mission report",
+        "url": "https://universityofgalway.ie/about-us/news-and-events/news-archive/2019/september/nui-galway-makes-aviation-history-by-completing-the-worlds-first-diabetes-drone-mission-from-mainland-to-aran-islands.html"
+      },
+      "sourcePublishedAt": "2019-09-16",
+      "sourceType": "research",
+      "reviewNotes": "One named mainland launch site. The university, pharmacy, partners and island destination are not additional records in this release. The source publication date is not asserted as the flight date. Historical proof of concept, not a current emergency-delivery service.",
+      "entityKey": "connemara-airport-diabetes-trial"
+    },
+    {
+      "country": "Ireland",
+      "region": "Europe",
+      "sourceReviewedAt": "2026-11-06",
+      "researchBatch": "2026-11-06-irish-island-trial-origins",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "verificationStatus": "Source-reported historical trial; current service and access not independently verified",
+      "coordinateBasis": "Editorial locality reference. Rounded locality marker, not a surveyed launch point or authorised flight area.",
+      "id": "roonagh-pier-postal-trial",
+      "name": "Roonagh Pier postal drone trial",
+      "where": "Roonagh Pier, near Louisburgh, County Mayo, Ireland",
+      "infrastructureType": "Historical postal drone trial origin",
+      "reportedOperator": "An Post",
+      "reportedEquipment": "Parcel delivery drone; model not stated in cited report",
+      "locationPrecision": "Approximate Louisburgh locality reference; not the pier or launch coordinate",
+      "approximateMapPoint": {
+        "latitude": 53.76,
+        "longitude": -9.8
+      },
+      "reportDateLabel": "July 2018 trial; news report published 6 July 2018",
+      "description": "The Irish Times quotes An Post confirming a parcel test flight from Roonagh Pier to Clare Island. The report describes a trial alongside the regular postal service.",
+      "source": {
+        "name": "The Irish Times — An Post parcel drone trial",
+        "url": "https://www.irishtimes.com/news/social-affairs/an-post-delivers-parcel-by-drone-to-island-off-mayo-1.3556747"
+      },
+      "sourcePublishedAt": "2018-07-06",
+      "sourceType": "news",
+      "reviewNotes": "One named dispatch origin supported by an attributed An Post statement in original reporting. Clare Island is the recipient and is not counted separately. This record does not establish a permanent drone station or present postal-drone service.",
+      "entityKey": "roonagh-pier-postal-trial"
     }
   ],
-  "expectedTotal": 562,
+  "expectedTotal": 564,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -18600,6 +18662,13 @@
       "id": "2026-11-06-shannon-fmci-drone-port",
       "recordIds": [
         "shannon-fmci-drone-port"
+      ]
+    },
+    {
+      "id": "2026-11-06-irish-island-trial-origins",
+      "recordIds": [
+        "connemara-airport-diabetes-trial",
+        "roonagh-pier-postal-trial"
       ]
     }
   ]
