@@ -1060,4 +1060,10 @@ assert batch['releases'][92]['recordIds']==['draycott-student-uav-test-site','go
 assert by_id['draycott-student-uav-test-site']['reportedStatus']=='historical'
 assert by_id['draycott-student-uav-test-site']['sourcePublishedAt']=='2009-01-07'
 assert by_id['goodwood-aviation-innovation-centre']['sourcePublishedAt'] is None
+# Preserve earlier additions and distinguish West Wales activity from historical West Freugh trials.
+assert hashlib.sha256(json.dumps(additions[:509],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='e03860122bfca099b075c1b49895d3bd658fce3c64b8642be20460ddb13b9b88'
+assert batch['releases'][93]['recordIds']==['west-wales-airport-uas-testing','west-freugh-uas-trial-site']
+assert by_id['west-freugh-uas-trial-site']['reportedStatus']=='historical'
+assert by_id['west-freugh-uas-trial-site']['sourcePublishedAt']=='2015-05-26'
+assert by_id['west-wales-airport-uas-testing']['sourcePublishedAt']=='2025-07-18'
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
