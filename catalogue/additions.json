@@ -17574,9 +17574,46 @@
       },
       "description": "Dstl reports UAS flight trials at West Freugh in May 2015, supported by QinetiQ. The record documents the historical test location without asserting current drone operations.",
       "reviewNotes": "One historical range-based trial site. Individual sorties, participants and test areas are not separate records. The source dates the trial to May 2015 but does not establish exact flight dates. Current bookings and public access remain unverified."
+    },
+    {
+      "id": "shannon-fmci-drone-port",
+      "entityKey": "shannon-fmci-drone-port",
+      "name": "FMCI Shannon drone port",
+      "where": "Shannon, County Clare, Ireland",
+      "country": "Ireland",
+      "region": "Europe",
+      "infrastructureType": "Drone testing port",
+      "reportedOperator": "Future Mobility Campus Ireland (FMCI)",
+      "reportedEquipment": "UAS testing facilities with dedicated take-off and landing zones; operator lists DJI Mavic 2 Pro and Matrice 300 RTK aircraft",
+      "locationPrecision": "Approximate Shannon locality reference; not the drone port or a landing coordinate",
+      "approximateMapPoint": {
+        "latitude": 52.71,
+        "longitude": -8.87
+      },
+      "reportDateLabel": "Operator facility page undated; government campus-opening report dated 15 July 2022",
+      "description": "FMCI describes a dedicated drone testing port adjacent to Shannon Airport, with take-off and landing zones and support for unmanned-aircraft research. The wider campus opening was reported by the Irish government in July 2022.",
+      "source": {
+        "name": "Future Mobility Campus Ireland — Drone Port",
+        "url": "https://fmci.ie/drone-port/"
+      },
+      "supportingSources": [
+        {
+          "name": "Department of Enterprise — Shannon campus opening, 15 July 2022",
+          "url": "https://www.enterprise.gov.ie/en/news-and-events/department-news/2022/july/19072022%201.html"
+        }
+      ],
+      "verificationStatus": "Operator-reported facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-06",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-06-shannon-fmci-drone-port",
+      "reviewNotes": "One FMCI drone testing facility, not separate records for its landing zones, office, fleet or wider campus. The 2022 date refers to the campus opening, not a verified drone-port opening. Earlier passenger-vertiport plans do not establish passenger service. Current bookings, flight permissions and access remain unverified.",
+      "coordinateBasis": "Editorial locality reference. Rounded Shannon marker, not a surveyed facility, flight area or landing point."
     }
   ],
-  "expectedTotal": 561,
+  "expectedTotal": 562,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -18557,6 +18594,12 @@
       "recordIds": [
         "west-wales-airport-uas-testing",
         "west-freugh-uas-trial-site"
+      ]
+    },
+    {
+      "id": "2026-11-06-shannon-fmci-drone-port",
+      "recordIds": [
+        "shannon-fmci-drone-port"
       ]
     }
   ]

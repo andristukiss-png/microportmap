@@ -1066,4 +1066,9 @@ assert batch['releases'][93]['recordIds']==['west-wales-airport-uas-testing','we
 assert by_id['west-freugh-uas-trial-site']['reportedStatus']=='historical'
 assert by_id['west-freugh-uas-trial-site']['sourcePublishedAt']=='2015-05-26'
 assert by_id['west-wales-airport-uas-testing']['sourcePublishedAt']=='2025-07-18'
+# Preserve all earlier additions and keep the undated facility source distinct from the campus opening.
+assert hashlib.sha256(json.dumps(additions[:511],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='10a7363872c3e01882287bd6b2f694d78684edbf8db40ee93c934a7c6692cccf'
+assert batch['releases'][94]['recordIds']==['shannon-fmci-drone-port']
+assert by_id['shannon-fmci-drone-port']['sourcePublishedAt'] is None
+assert by_id['shannon-fmci-drone-port']['reportedStatus']=='reported-operation'
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
