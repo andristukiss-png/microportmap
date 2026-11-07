@@ -17809,9 +17809,46 @@
       "researchBatch": "2026-11-07-waterford-uflyte-testing",
       "reviewNotes": "One airport-based research site. The five tests, coastal flight areas, participating organisations and university premises are not extra records. Source dates refer to reports rather than exact flight dates. No current emergency-response service, test booking or public access is inferred.",
       "coordinateBasis": "Editorial locality reference. Rounded Waterford city marker, not a surveyed airport, runway or launch point."
+    },
+    {
+      "id": "kirkbride-enefftech-training-facility",
+      "entityKey": "kirkbride-enefftech-training-facility",
+      "name": "Kirkbride Enefftech drone training facility",
+      "where": "Former RAF Kirkbride, Kirkbride, Cumbria, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Airfield drone training facility",
+      "reportedOperator": "Enefftech UAV Services",
+      "reportedEquipment": "Practical UAV training areas; site-specific aircraft models not stated",
+      "locationPrecision": "Approximate Kirkbride village reference; not an airfield launch coordinate",
+      "approximateMapPoint": {
+        "latitude": 54.9,
+        "longitude": -3.2
+      },
+      "reportDateLabel": "Operator training page; publication date not displayed",
+      "description": "Enefftech identifies former RAF Kirkbride as the location for its practical drone training, describing airfield facilities for flight exercises and operational planning.",
+      "source": {
+        "name": "Enefftech — Drone training at RAF Kirkbride",
+        "url": "https://esl-4.com/drone-training-uk/"
+      },
+      "supportingSources": [
+        {
+          "name": "Enefftech — Kirkbride training and testing facility",
+          "url": "https://esl-4.com/uav-services-cumbria-facility/"
+        }
+      ],
+      "verificationStatus": "Operator-reported training facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-07",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-07-kirkbride-drone-training",
+      "reviewNotes": "One airfield-based training facility. Courses, flight zones and operator client sites are not additional records. No opening date, current course availability, regulatory approval or exclusivity claim is independently established. The former RAF name identifies the location, not current military operation.",
+      "coordinateBasis": "Editorial locality reference. Rounded Kirkbride village marker, not a surveyed airfield, runway or launch point."
     }
   ],
-  "expectedTotal": 568,
+  "expectedTotal": 569,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -18824,6 +18861,12 @@
       "id": "2026-11-07-waterford-uflyte-testing",
       "recordIds": [
         "waterford-airport-uflyte-trials"
+      ]
+    },
+    {
+      "id": "2026-11-07-kirkbride-drone-training",
+      "recordIds": [
+        "kirkbride-enefftech-training-facility"
       ]
     }
   ]

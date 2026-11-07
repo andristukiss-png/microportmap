@@ -1095,4 +1095,9 @@ assert hashlib.sha256(json.dumps(additions[:517],sort_keys=True,ensure_ascii=Fal
 assert batch['releases'][98]['recordIds']==['waterford-airport-uflyte-trials']
 assert by_id['waterford-airport-uflyte-trials']['reportedStatus']=='historical'
 assert by_id['waterford-airport-uflyte-trials']['sourcePublishedAt']=='2018-09-21'
+# Preserve earlier additions and retain the undated operator source for Kirkbride.
+assert hashlib.sha256(json.dumps(additions[:518],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='f159005f259a192110a375801164ffcf8c7ae7ccedd2b8d585c8c381fc36e20d'
+assert batch['releases'][99]['recordIds']==['kirkbride-enefftech-training-facility']
+assert by_id['kirkbride-enefftech-training-facility']['sourcePublishedAt'] is None
+assert by_id['kirkbride-enefftech-training-facility']['reportedStatus']=='reported-operation'
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
