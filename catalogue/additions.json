@@ -17710,9 +17710,71 @@
       "researchBatch": "2026-11-07-moneygall-delivery-base",
       "reviewNotes": "One plaza-based dispatch site. Shops, pharmacy, homes and individual flights are not separate records. Distinct from the existing Oranmore and Dublin-area Manna bases. The CTO retrospectively describes leaving Moneygall; no present delivery availability or exact closure date is inferred.",
       "coordinateBasis": "Editorial locality reference. Rounded Moneygall marker, not a surveyed launch pad or authorised flight area."
+    },
+    {
+      "country": "Ireland",
+      "region": "Europe",
+      "sourceReviewedAt": "2026-11-07",
+      "researchBatch": "2026-11-07-moorock-newcastle-testing",
+      "sourcePublishedAt": null,
+      "coordinateBasis": "Editorial locality reference. Rounded locality marker, not a surveyed test site, runway or authorised flight area.",
+      "id": "manna-moorock-test-facility",
+      "name": "Manna Moorock drone test facility",
+      "where": "Moorock, County Offaly, Ireland",
+      "infrastructureType": "Drone flight testing facility",
+      "reportedOperator": "Manna Air Delivery; Vodafone as connectivity test partner",
+      "reportedEquipment": "Manna delivery drone used in mobile-connectivity proof of concept; model not stated",
+      "locationPrecision": "Approximate Ballycumber-area reference for Moorock; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 53.32,
+        "longitude": -7.68
+      },
+      "reportDateLabel": "Vodafone test report; publication date not displayed on retrieved page",
+      "description": "Vodafone identifies Manna’s Moorock facility as the site of a completed mobile-connected drone test. The record describes one testing facility, without treating a proof of concept as a public delivery service.",
+      "source": {
+        "name": "Vodafone — Manna drone home-delivery test",
+        "url": "https://www.vodafone.com/news/newsroom/technology/vodafone-and-manna-reach-new-heights-with-drone-home-delivery-test"
+      },
+      "verificationStatus": "Partner-reported testing facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceType": "operator",
+      "reviewNotes": "One named test facility, distinct from Manna’s Moneygall, Oranmore and Dublin-area delivery bases. Test flights and connectivity systems are not additional records. No exact trial date, public booking availability or current operating schedule is inferred.",
+      "entityKey": "manna-moorock-test-facility"
+    },
+    {
+      "country": "Ireland",
+      "region": "Europe",
+      "sourceReviewedAt": "2026-11-07",
+      "researchBatch": "2026-11-07-moorock-newcastle-testing",
+      "sourcePublishedAt": null,
+      "coordinateBasis": "Editorial locality reference. Rounded locality marker, not a surveyed test site, runway or authorised flight area.",
+      "id": "newcastle-airfield-rapid-trials",
+      "name": "Newcastle Airfield RAPID drone trials",
+      "where": "Newcastle Airfield, Newcastle, County Wicklow, Ireland",
+      "infrastructureType": "Historical airfield drone trial site",
+      "reportedOperator": "RAPID research consortium",
+      "reportedEquipment": "DJI Matrice 300 RTK and Mavic-family drones reported for the trial campaign",
+      "locationPrecision": "Approximate Newcastle village reference; not an airfield launch coordinate",
+      "approximateMapPoint": {
+        "latitude": 53.07,
+        "longitude": -6.06
+      },
+      "reportDateLabel": "Tests dated 5–6 April 2022; page publication date not displayed",
+      "description": "The RAPID project documents drone tests at Newcastle Airfield on 5–6 April 2022, including autonomous landing and aircraft-detection work. The record retains historical trial scope.",
+      "source": {
+        "name": "RAPID project — Newcastle Airfield test report",
+        "url": "https://rapid2020.eu/test-site-ireland/"
+      },
+      "verificationStatus": "Research-reported historical trial; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "sourceType": "research",
+      "reviewNotes": "One named airfield test site. The nearby bridge survey location, individual tests and project partners are not separate records. Event dates are distinguished from the undated page publication. This is Newcastle in County Wicklow, not Newcastle Airport in England.",
+      "entityKey": "newcastle-airfield-rapid-trials"
     }
   ],
-  "expectedTotal": 565,
+  "expectedTotal": 567,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -18712,6 +18774,13 @@
       "id": "2026-11-07-moneygall-delivery-base",
       "recordIds": [
         "manna-moneygall-obama-plaza"
+      ]
+    },
+    {
+      "id": "2026-11-07-moorock-newcastle-testing",
+      "recordIds": [
+        "manna-moorock-test-facility",
+        "newcastle-airfield-rapid-trials"
       ]
     }
   ]
