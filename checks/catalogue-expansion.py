@@ -1090,4 +1090,9 @@ assert by_id['manna-moorock-test-facility']['sourcePublishedAt'] is None
 assert by_id['manna-moorock-test-facility']['reportedStatus']=='reported-operation'
 assert by_id['newcastle-airfield-rapid-trials']['sourcePublishedAt'] is None
 assert by_id['newcastle-airfield-rapid-trials']['reportedStatus']=='historical'
+# Preserve earlier additions and retain historical Waterford trial scope.
+assert hashlib.sha256(json.dumps(additions[:517],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='e1b3ed7c12b160f4bcf13a4a214007f33cb98ffb6bb9649e705a164beaf075de'
+assert batch['releases'][98]['recordIds']==['waterford-airport-uflyte-trials']
+assert by_id['waterford-airport-uflyte-trials']['reportedStatus']=='historical'
+assert by_id['waterford-airport-uflyte-trials']['sourcePublishedAt']=='2018-09-21'
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
