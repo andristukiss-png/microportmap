@@ -1,6 +1,6 @@
 {
   "batch": "2026-10-28-cumulative-reviewed-additions",
-  "reviewedAt": "2026-11-06",
+  "reviewedAt": "2026-11-07",
   "records": [
     {
       "id": "zipline-omenako",
@@ -17673,9 +17673,46 @@
       "sourceType": "news",
       "reviewNotes": "One named dispatch origin supported by an attributed An Post statement in original reporting. Clare Island is the recipient and is not counted separately. This record does not establish a permanent drone station or present postal-drone service.",
       "entityKey": "roonagh-pier-postal-trial"
+    },
+    {
+      "id": "manna-moneygall-obama-plaza",
+      "entityKey": "manna-moneygall-obama-plaza",
+      "name": "Manna Moneygall Barack Obama Plaza base",
+      "where": "Barack Obama Plaza, Moneygall, County Offaly, Ireland",
+      "country": "Ireland",
+      "region": "Europe",
+      "infrastructureType": "Historical drone delivery base",
+      "reportedOperator": "Manna Aero",
+      "reportedEquipment": "Manna delivery drones; site-specific model not stated in cited report",
+      "locationPrecision": "Approximate Moneygall locality reference; not a plaza launch coordinate",
+      "approximateMapPoint": {
+        "latitude": 52.88,
+        "longitude": -7.96
+      },
+      "reportDateLabel": "2020 delivery trial; Reuters report published 18 May 2020",
+      "description": "Reuters reports Manna deliveries of medicines and essential goods in Moneygall during the 2020 pandemic. A later presentation by Manna’s CTO explicitly identifies Barack Obama Plaza as the drone base.",
+      "source": {
+        "name": "Reuters via RTE — Moneygall delivery trial",
+        "url": "https://www.rte.ie/news/coronavirus/2020/0518/1139080-drone-deliveries-covid19/"
+      },
+      "supportingSources": [
+        {
+          "name": "Manna CTO Alan Hicks — UXDX EMEA 2022 presentation transcript",
+          "url": "https://uxdx.com/session/iterating-with-hardware-challenges-in-building-a-drone-delivery-product/"
+        }
+      ],
+      "verificationStatus": "Source-reported historical delivery base; current service and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "sourceReviewedAt": "2026-11-07",
+      "sourcePublishedAt": "2020-05-18",
+      "sourceType": "news",
+      "researchBatch": "2026-11-07-moneygall-delivery-base",
+      "reviewNotes": "One plaza-based dispatch site. Shops, pharmacy, homes and individual flights are not separate records. Distinct from the existing Oranmore and Dublin-area Manna bases. The CTO retrospectively describes leaving Moneygall; no present delivery availability or exact closure date is inferred.",
+      "coordinateBasis": "Editorial locality reference. Rounded Moneygall marker, not a surveyed launch pad or authorised flight area."
     }
   ],
-  "expectedTotal": 564,
+  "expectedTotal": 565,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -18669,6 +18706,12 @@
       "recordIds": [
         "connemara-airport-diabetes-trial",
         "roonagh-pier-postal-trial"
+      ]
+    },
+    {
+      "id": "2026-11-07-moneygall-delivery-base",
+      "recordIds": [
+        "manna-moneygall-obama-plaza"
       ]
     }
   ]

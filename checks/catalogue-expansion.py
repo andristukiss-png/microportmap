@@ -1078,4 +1078,9 @@ assert by_id['connemara-airport-diabetes-trial']['reportedStatus']=='historical'
 assert by_id['connemara-airport-diabetes-trial']['sourcePublishedAt']=='2019-09-16'
 assert by_id['roonagh-pier-postal-trial']['reportedStatus']=='historical'
 assert by_id['roonagh-pier-postal-trial']['sourcePublishedAt']=='2018-07-06'
+# Preserve earlier additions and retain historical scope for the Moneygall base.
+assert hashlib.sha256(json.dumps(additions[:514],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='1fe60421e831a940a1565a612fa360e2d270a8f644c50324fccfde1e2e49b8f7'
+assert batch['releases'][96]['recordIds']==['manna-moneygall-obama-plaza']
+assert by_id['manna-moneygall-obama-plaza']['reportedStatus']=='historical'
+assert by_id['manna-moneygall-obama-plaza']['sourcePublishedAt']=='2020-05-18'
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
