@@ -1083,4 +1083,11 @@ assert hashlib.sha256(json.dumps(additions[:514],sort_keys=True,ensure_ascii=Fal
 assert batch['releases'][96]['recordIds']==['manna-moneygall-obama-plaza']
 assert by_id['manna-moneygall-obama-plaza']['reportedStatus']=='historical'
 assert by_id['manna-moneygall-obama-plaza']['sourcePublishedAt']=='2020-05-18'
+# Preserve earlier additions and distinguish the two Irish testing records.
+assert hashlib.sha256(json.dumps(additions[:515],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='6bd151fe74c7e9006eecae6399c08ab924a7069e75f6e0db4cc50df509784776'
+assert batch['releases'][97]['recordIds']==['manna-moorock-test-facility', 'newcastle-airfield-rapid-trials']
+assert by_id['manna-moorock-test-facility']['sourcePublishedAt'] is None
+assert by_id['manna-moorock-test-facility']['reportedStatus']=='reported-operation'
+assert by_id['newcastle-airfield-rapid-trials']['sourcePublishedAt'] is None
+assert by_id['newcastle-airfield-rapid-trials']['reportedStatus']=='historical'
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
