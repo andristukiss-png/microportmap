@@ -1100,4 +1100,9 @@ assert hashlib.sha256(json.dumps(additions[:518],sort_keys=True,ensure_ascii=Fal
 assert batch['releases'][99]['recordIds']==['kirkbride-enefftech-training-facility']
 assert by_id['kirkbride-enefftech-training-facility']['sourcePublishedAt'] is None
 assert by_id['kirkbride-enefftech-training-facility']['reportedStatus']=='reported-operation'
+# Preserve earlier additions and count York's indoor/rooftop spaces as one facility.
+assert hashlib.sha256(json.dumps(additions[:519],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='22628e51c562e00e5553bde846c4e5d8576dfd64bc2547d5639a98c42797b73e'
+assert batch['releases'][100]['recordIds']==['york-safe-autonomy-drone-facility']
+assert by_id['york-safe-autonomy-drone-facility']['sourcePublishedAt'] is None
+assert by_id['york-safe-autonomy-drone-facility']['reportedStatus']=='reported-operation'
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')

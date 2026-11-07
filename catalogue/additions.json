@@ -17846,9 +17846,50 @@
       "researchBatch": "2026-11-07-kirkbride-drone-training",
       "reviewNotes": "One airfield-based training facility. Courses, flight zones and operator client sites are not additional records. No opening date, current course availability, regulatory approval or exclusivity claim is independently established. The former RAF name identifies the location, not current military operation.",
       "coordinateBasis": "Editorial locality reference. Rounded Kirkbride village marker, not a surveyed airfield, runway or launch point."
+    },
+    {
+      "id": "york-safe-autonomy-drone-facility",
+      "entityKey": "york-safe-autonomy-drone-facility",
+      "name": "York Institute for Safe Autonomy drone facility",
+      "where": "University of York Campus East, York, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "University indoor and rooftop drone research facility",
+      "reportedOperator": "University of York — Institute for Safe Autonomy",
+      "reportedEquipment": "Indoor UAS test space with camera tracking; rooftop drone take-off and landing space",
+      "locationPrecision": "Approximate York locality reference; not a laboratory or rooftop coordinate",
+      "approximateMapPoint": {
+        "latitude": 53.96,
+        "longitude": -1.08
+      },
+      "reportDateLabel": "Facility page undated; institute launch report published 20 February 2024",
+      "description": "The University of York describes an indoor space for testing drones and a rooftop area suitable for drone take-off and landing at its Institute for Safe Autonomy. Both are counted within one research facility.",
+      "source": {
+        "name": "University of York — Laboratories and test spaces",
+        "url": "https://www.york.ac.uk/safe-autonomy/facilities/laboratories-and-test-spaces/"
+      },
+      "supportingSources": [
+        {
+          "name": "University of York — Institute launch, 20 February 2024",
+          "url": "https://www.york.ac.uk/news-and-events/news/2024/events/institute-for-safe-autonomy-launches/"
+        },
+        {
+          "name": "University of York — Campus East institute building",
+          "url": "https://www.york.ac.uk/campus-investment/completed-projects/york-institute-for-safe-autonomy/"
+        }
+      ],
+      "verificationStatus": "University-reported research facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-07",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-07-york-safe-autonomy",
+      "reviewNotes": "One institute facility, not separate records for the indoor room, rooftop, tracking cameras or other robotics laboratories. The 2024 institute launch report does not establish an exact drone-space opening date. Current bookings, public access and flight permissions remain unverified.",
+      "coordinateBasis": "Editorial locality reference. Rounded York city marker, not a surveyed building, rooftop or launch point."
     }
   ],
-  "expectedTotal": 569,
+  "expectedTotal": 570,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -18867,6 +18908,12 @@
       "id": "2026-11-07-kirkbride-drone-training",
       "recordIds": [
         "kirkbride-enefftech-training-facility"
+      ]
+    },
+    {
+      "id": "2026-11-07-york-safe-autonomy",
+      "recordIds": [
+        "york-safe-autonomy-drone-facility"
       ]
     }
   ]
