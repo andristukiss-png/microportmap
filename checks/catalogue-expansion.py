@@ -1105,4 +1105,9 @@ assert hashlib.sha256(json.dumps(additions[:519],sort_keys=True,ensure_ascii=Fal
 assert batch['releases'][100]['recordIds']==['york-safe-autonomy-drone-facility']
 assert by_id['york-safe-autonomy-drone-facility']['sourcePublishedAt'] is None
 assert by_id['york-safe-autonomy-drone-facility']['reportedStatus']=='reported-operation'
+# Preserve earlier additions and the undated Loughborough laboratory source.
+assert hashlib.sha256(json.dumps(additions[:520],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='136d923be90e86df79dd181f3c415d06429a1dbf011e2d7b5ebc4cf4105a599b'
+assert batch['releases'][101]['recordIds']==['loughborough-autonomous-systems-flight-lab']
+assert by_id['loughborough-autonomous-systems-flight-lab']['sourcePublishedAt'] is None
+assert by_id['loughborough-autonomous-systems-flight-lab']['reportedStatus']=='reported-operation'
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
