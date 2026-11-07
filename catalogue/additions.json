@@ -17772,9 +17772,46 @@
       "sourceType": "research",
       "reviewNotes": "One named airfield test site. The nearby bridge survey location, individual tests and project partners are not separate records. Event dates are distinguished from the undated page publication. This is Newcastle in County Wicklow, not Newcastle Airport in England.",
       "entityKey": "newcastle-airfield-rapid-trials"
+    },
+    {
+      "id": "waterford-airport-uflyte-trials",
+      "entityKey": "waterford-airport-uflyte-trials",
+      "name": "Waterford Airport U-Flyte drone trials",
+      "where": "Waterford Airport, County Waterford, Ireland",
+      "country": "Ireland",
+      "region": "Europe",
+      "infrastructureType": "Historical airport drone testing base",
+      "reportedOperator": "Maynooth University U-Flyte partnership with Airbus and Waterford Airport support",
+      "reportedEquipment": "Research drones including a long-endurance vertical-take-off aircraft; model not specified in cited report",
+      "locationPrecision": "Approximate Waterford locality reference; not an airport launch coordinate",
+      "approximateMapPoint": {
+        "latitude": 52.26,
+        "longitude": -7.11
+      },
+      "reportDateLabel": "September 2018 trials; university report published 21 September 2018",
+      "description": "Maynooth University reports completed search-and-rescue and airspace-integration tests from U-Flyte’s primary flight-testing base at Waterford Airport in September 2018. The record documents historical research activity.",
+      "source": {
+        "name": "Maynooth University — U-Flyte search-and-rescue trials",
+        "url": "https://www.maynoothuniversity.ie/news-events/maynooth-university-s-u-flyte-tests-ground-breaking-search-and-rescue-drone-technology-applications"
+      },
+      "supportingSources": [
+        {
+          "name": "Irish Aviation Authority — U-Flyte test report, 28 September 2018",
+          "url": "https://www.iaa.ie/media/2018/09/28/maynooth-university-s-u-flyte-tests-ground-breaking-search-and-rescue-drone-technology-applications"
+        }
+      ],
+      "verificationStatus": "Research-reported historical testing base; current operation and access not independently verified",
+      "reportedStatus": "historical",
+      "recordScope": "trial-site",
+      "sourceReviewedAt": "2026-11-07",
+      "sourcePublishedAt": "2018-09-21",
+      "sourceType": "research",
+      "researchBatch": "2026-11-07-waterford-uflyte-testing",
+      "reviewNotes": "One airport-based research site. The five tests, coastal flight areas, participating organisations and university premises are not extra records. Source dates refer to reports rather than exact flight dates. No current emergency-response service, test booking or public access is inferred.",
+      "coordinateBasis": "Editorial locality reference. Rounded Waterford city marker, not a surveyed airport, runway or launch point."
     }
   ],
-  "expectedTotal": 567,
+  "expectedTotal": 568,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -18781,6 +18818,12 @@
       "recordIds": [
         "manna-moorock-test-facility",
         "newcastle-airfield-rapid-trials"
+      ]
+    },
+    {
+      "id": "2026-11-07-waterford-uflyte-testing",
+      "recordIds": [
+        "waterford-airport-uflyte-trials"
       ]
     }
   ]
