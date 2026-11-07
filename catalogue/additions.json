@@ -17887,9 +17887,40 @@
       "researchBatch": "2026-11-07-york-safe-autonomy",
       "reviewNotes": "One institute facility, not separate records for the indoor room, rooftop, tracking cameras or other robotics laboratories. The 2024 institute launch report does not establish an exact drone-space opening date. Current bookings, public access and flight permissions remain unverified.",
       "coordinateBasis": "Editorial locality reference. Rounded York city marker, not a surveyed building, rooftop or launch point."
+    },
+    {
+      "id": "loughborough-autonomous-systems-flight-lab",
+      "entityKey": "loughborough-autonomous-systems-flight-lab",
+      "name": "Loughborough Autonomous Systems Laboratory flight facility",
+      "where": "Loughborough University, Loughborough, Leicestershire, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "University indoor flight testing laboratory",
+      "reportedOperator": "Loughborough University — Aeronautical and Automotive Engineering",
+      "reportedEquipment": "Indoor flight test environments with Vicon optical tracking; small helicopters, fixed-wing aircraft and autopilot development equipment",
+      "locationPrecision": "Approximate Loughborough locality reference; not a laboratory coordinate",
+      "approximateMapPoint": {
+        "latitude": 52.77,
+        "longitude": -1.21
+      },
+      "reportDateLabel": "University facility page; publication date not displayed",
+      "description": "Loughborough University lists indoor flight testing with optical tracking within its Autonomous Systems Laboratory. The record covers one departmental research facility.",
+      "source": {
+        "name": "Loughborough University — Aeronautical and Automotive Engineering facilities",
+        "url": "https://www.lboro.ac.uk/departments/aae/facilities/"
+      },
+      "verificationStatus": "University-reported flight research facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-07",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-07-loughborough-flight-laboratory",
+      "reviewNotes": "One named laboratory, not separate records for tracking cameras, aircraft, ground vehicles or autopilot equipment. The departmental contact address does not independently establish the flight room. No opening date or present booking availability is inferred. Other departmental simulators and wind tunnels are not counted.",
+      "coordinateBasis": "Editorial locality reference. Rounded Loughborough marker, not a surveyed building, laboratory or launch point."
     }
   ],
-  "expectedTotal": 570,
+  "expectedTotal": 571,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -18914,6 +18945,12 @@
       "id": "2026-11-07-york-safe-autonomy",
       "recordIds": [
         "york-safe-autonomy-drone-facility"
+      ]
+    },
+    {
+      "id": "2026-11-07-loughborough-flight-laboratory",
+      "recordIds": [
+        "loughborough-autonomous-systems-flight-lab"
       ]
     }
   ]
