@@ -1150,4 +1150,19 @@ assert by_id['gipsa-moca-indoor-aviary']['sourcePublishedAt']=='2026-03-24'
 assert all(by_id[id]['sourcePublishedAt'] is None for id in accepted_second if id not in ['upc-castelldefels-dronelab','gipsa-moca-indoor-aviary'])
 assert by_id['oit-hirakata-dx-field']['where']=='Hirakata, Japan'
 assert by_id['jbnu-jeonju-irdl-flight-room']['where']=='Jeonju, South Korea'
+# Preserve all 612 previous records and reconcile the third fifty-task ledger.
+assert hashlib.sha256(json.dumps(additions[:562],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='6874748fb1c924b3bdae5fc535100a7a11bca5f496626a38f16616baf5dbb641'
+fifty_third=json.loads((ROOT/'catalogue/2026-11-08-third-fifty-task-review.json').read_text())
+assert fifty_third['completedTasks']==50 and [t['task'] for t in fifty_third['tasks']]==list(range(1,51))
+assert all(t['reviewStatus']=='completed' and t['sourceUrls'] and t['reason'] for t in fifty_third['tasks'])
+accepted_third=[t['recordId'] for t in fifty_third['tasks'] if t['decision']=='accepted']
+assert accepted_third==batch['releases'][106]['recordIds'] and len(accepted_third)==fifty_third['acceptedRecords']==17
+assert sum(t['decision']=='deferred' for t in fifty_third['tasks'])==fifty_third['deferredCandidates']==24
+assert sum(t['decision']=='excluded-overlap' for t in fifty_third['tasks'])==fifty_third['excludedOverlaps']==9
+assert all(t['recordId'] is None for t in fifty_third['tasks'] if t['decision']!='accepted')
+dated_third={'mranti-bukit-jalil-area-57':'2023-07-23','sejong-seoul-gwanggaeto-flight-room':'2022-03-25','dji-yongin-flight-arena':'2016-08-17','tokyo-itabashi-drone-field':'2024-10-02','nmt-socorro-skeen-drone-room':'2022-02-02','fahari-nairobi-drone-cage':'2022-06-10'}
+assert all(by_id[id]['sourcePublishedAt']==dated_third.get(id) for id in accepted_third)
+assert by_id['aichi-nagoya-port-south-5-test-field']['where']=='Chita, Aichi, Japan'
+assert 'paused' in by_id['japan-kawachi-drone-field']['reviewNotes']
+assert 'without hangars, electricity or water' in by_id['shizuoka-miho-drone-test-airfield']['reviewNotes']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')

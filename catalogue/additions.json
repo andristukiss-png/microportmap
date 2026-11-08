@@ -19235,9 +19235,572 @@
           "url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-vision-automation-control"
         }
       ]
+    },
+    {
+      "id": "sejong-seoul-gwanggaeto-flight-room",
+      "entityKey": "sejong-seoul-gwanggaeto-flight-room",
+      "name": "Sejong University Gwanggaeto indoor flight test room",
+      "where": "Seoul, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Sejong University",
+      "reportedEquipment": "Indoor swarm-flight test room on Gwanggaeto Hall’s eleventh floor",
+      "locationPrecision": "Approximate Seoul locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 37.55,
+        "longitude": 127.07
+      },
+      "reportDateLabel": "Source report published 2022-03-25",
+      "description": "Sejong University describes an indoor drone test room established in 2019 for swarm-flight experiments without GPS.",
+      "source": {
+        "name": "Sejong University — facility evidence",
+        "url": "https://www.sejong.ac.kr/news/newsletter/news.do?article.offset=400&articleLimit=10&articleNo=799174&mode=view"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": "2022-03-25",
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-flight-and-training-candidates",
+      "reviewNotes": "One Gwanggaeto indoor room. The separately described rooftop and guidance-control laboratory are not counted. The 2019 establishment year differs from the 2022 report date.",
+      "coordinateBasis": "Editorial locality reference. Rounded Seoul marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "dji-yongin-flight-arena",
+      "entityKey": "dji-yongin-flight-arena",
+      "name": "DJI Yongin indoor flight arena",
+      "where": "Yongin, Gyeonggi, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "DJI Korea",
+      "reportedEquipment": "Indoor drone arena with training circuit and maintenance space",
+      "locationPrecision": "Approximate Yongin, Gyeonggi locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 37.24,
+        "longitude": 127.18
+      },
+      "reportDateLabel": "Source report published 2016-08-17",
+      "description": "DJI reported opening its Korean indoor flight arena to the public in August 2016. Its advance announcement identifies Yongin as the location.",
+      "source": {
+        "name": "DJI Korea — facility evidence",
+        "url": "https://www.dji.com/media-center/announcements/dji-arena-officially-opens-in-korea"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": "2016-08-17",
+      "sourceType": "operator",
+      "researchBatch": "2026-11-08-fifty-flight-and-training-candidates",
+      "reviewNotes": "One Yongin arena. The Seoul retail store is a different site and is excluded. The 2016 report does not establish present bookings, opening hours or continued service.",
+      "coordinateBasis": "Editorial locality reference. Rounded Yongin, Gyeonggi marker, not a surveyed building, flight boundary or launch point.",
+      "supportingSources": [
+        {
+          "name": "DJI — Yongin location announcement",
+          "url": "https://www.dji.com/newsroom/news/dji-opens-its-first-drone-arena-in-korea"
+        }
+      ]
+    },
+    {
+      "id": "sinclair-dayton-indoor-flying-pavilion",
+      "entityKey": "sinclair-dayton-indoor-flying-pavilion",
+      "name": "Sinclair Dayton Indoor Flying Pavilion",
+      "where": "Dayton, Ohio, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Sinclair College",
+      "reportedEquipment": "Purpose-built 3,200-square-foot indoor flying pavilion",
+      "locationPrecision": "Approximate Dayton, Ohio locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 39.76,
+        "longitude": -84.19
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Sinclair describes its Indoor Flying Pavilion as a space for UAS training, testing and applied research at its Dayton centre.",
+      "source": {
+        "name": "Sinclair College — facility evidence",
+        "url": "https://uas.sinclair.edu/center-overview/indoor-flying-pavilion/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-flight-and-training-candidates",
+      "reviewNotes": "One pavilion. The separately named Indoor Flight Range, simulation laboratories and external operating authorizations are not additional records in this review.",
+      "coordinateBasis": "Editorial locality reference. Rounded Dayton, Ohio marker, not a surveyed building, flight boundary or launch point.",
+      "supportingSources": [
+        {
+          "name": "Sinclair — Dayton centre overview",
+          "url": "https://uas.sinclair.edu/center-overview/"
+        }
+      ]
+    },
+    {
+      "id": "singapore-pandan-uafa",
+      "entityKey": "singapore-pandan-uafa",
+      "name": "Pandan Reservoir unmanned aircraft flying area",
+      "where": "Pandan Reservoir, Singapore",
+      "country": "Singapore",
+      "region": "Asia",
+      "infrastructureType": "Designated unmanned aircraft flying area",
+      "reportedOperator": "Civil Aviation Authority of Singapore",
+      "reportedEquipment": "Designated reservoir flying area with tables and benches",
+      "locationPrecision": "Approximate Pandan Reservoir locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 1.32,
+        "longitude": 103.74
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "CAAS identifies a designated unmanned-aircraft flying area over Pandan Reservoir, with amenities for preparing aircraft.",
+      "source": {
+        "name": "Civil Aviation Authority of Singapore — facility evidence",
+        "url": "https://www.caas.gov.sg/unmanned-aircraft/no-fly-zones-and-ua-flying-areas/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "flying-area",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-08-fifty-flight-and-training-candidates",
+      "reviewNotes": "One reservoir flying area, distinct from Dover Road. No water-sector dock is inferred. The source revision date is not an original publication date; this record does not grant flight permission.",
+      "coordinateBasis": "Editorial locality reference. Rounded Pandan Reservoir marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "singapore-dover-road-uafa",
+      "entityKey": "singapore-dover-road-uafa",
+      "name": "Dover Road unmanned aircraft flying area",
+      "where": "Dover Road, Singapore",
+      "country": "Singapore",
+      "region": "Asia",
+      "infrastructureType": "Designated unmanned aircraft flying area",
+      "reportedOperator": "Civil Aviation Authority of Singapore",
+      "reportedEquipment": "Designated open-land flying area with shared workbenches",
+      "locationPrecision": "Approximate Dover Road locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 1.31,
+        "longitude": 103.78
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "CAAS identifies Dover Road as a separate unmanned-aircraft flying area on open land.",
+      "source": {
+        "name": "Civil Aviation Authority of Singapore — facility evidence",
+        "url": "https://www.caas.gov.sg/unmanned-aircraft/no-fly-zones-and-ua-flying-areas/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "flying-area",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-08-fifty-flight-and-training-candidates",
+      "reviewNotes": "One Dover Road area, separate from Pandan Reservoir and the PIXEL one-north trial origin. Source rules and closures may change; the record is not flight authorization.",
+      "coordinateBasis": "Editorial locality reference. Rounded Dover Road marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "mranti-bukit-jalil-area-57",
+      "entityKey": "mranti-bukit-jalil-area-57",
+      "name": "MRANTI Area 57 drone testing campus",
+      "where": "Bukit Jalil, Kuala Lumpur, Malaysia",
+      "country": "Malaysia",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "MRANTI",
+      "reportedEquipment": "Drone runway, netted test area, hangar and supporting laboratories",
+      "locationPrecision": "Approximate Bukit Jalil, Kuala Lumpur locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 3.05,
+        "longitude": 101.69
+      },
+      "reportDateLabel": "Source report published 2023-07-23",
+      "description": "Malaysia’s science ministry describes Area 57 at MRANTI Park as a five-acre drone research, testing and training site with a netted flying area.",
+      "source": {
+        "name": "MOSTI — Area 57 infrastructure report",
+        "url": "https://www.mosti.gov.my/berita/pertandingan-dron-multi-gp-pemilihan-peringkat-antarabangsa-2023/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": "2023-07-23",
+      "sourceType": "government",
+      "researchBatch": "2026-11-08-fifty-flight-and-training-candidates",
+      "reviewNotes": "One Area 57 campus. The runway, netted area, workshops and participating training companies are grouped. The event occurred on 9 July 2023; the ministry page was published on 23 July.",
+      "coordinateBasis": "Editorial locality reference. Rounded Bukit Jalil, Kuala Lumpur marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "japan-kawachi-drone-field",
+      "entityKey": "japan-kawachi-drone-field",
+      "name": "Drone Field KAWACHI",
+      "where": "Kawachi, Ibaraki, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "iRobotics",
+      "reportedEquipment": "Former-gym indoor flight space and associated outdoor test field",
+      "locationPrecision": "Approximate Kawachi, Ibaraki locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.88,
+        "longitude": 140.24
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "iRobotics describes an integrated drone test facility in Kawachi, including an indoor flight space in a former gymnasium and outdoor testing provision.",
+      "source": {
+        "name": "iRobotics — facility evidence",
+        "url": "https://irobotics.jp/kawachi/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-08-fifty-flight-and-training-candidates",
+      "reviewNotes": "One Kawachi facility. The operator says one-off use is unavailable and new annual-use applications are paused. Outdoor route segments, research rooms and accommodation are not extra sites.",
+      "coordinateBasis": "Editorial locality reference. Rounded Kawachi, Ibaraki marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "ffc-higashi-kawaguchi-flight-field",
+      "entityKey": "ffc-higashi-kawaguchi-flight-field",
+      "name": "FFC Higashi-Kawaguchi indoor drone flight field",
+      "where": "Kawaguchi, Saitama, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone training facility",
+      "reportedOperator": "FFC Higashi-Kawaguchi Drone Flight Field",
+      "reportedEquipment": "Indoor drone practice area using a futsal facility",
+      "locationPrecision": "Approximate Kawaguchi, Saitama locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.81,
+        "longitude": 139.72
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The facility describes an indoor drone practice field at Higashi-Kawaguchi, with artificial turf and weather-protected training space.",
+      "source": {
+        "name": "FFC Higashi-Kawaguchi Drone Flight Field — facility evidence",
+        "url": "https://www.h-kawadff.com/maintenance"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-08-fifty-flight-and-training-candidates",
+      "reviewNotes": "One indoor venue at 6-6-11 Higashi-Kawaguchi. Court subdivisions and training sessions are not extra sites; no current reservation availability is asserted.",
+      "coordinateBasis": "Editorial locality reference. Rounded Kawaguchi, Saitama marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "aichi-nagoya-port-south-5-test-field",
+      "entityKey": "aichi-nagoya-port-south-5-test-field",
+      "name": "Aichi Nagoya Port South District 5 drone test field",
+      "where": "Chita, Aichi, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone test field",
+      "reportedOperator": "Aichi Robot Industry Cluster Promotion Council",
+      "reportedEquipment": "Outdoor drone demonstration field at Nagoya Port South District 5",
+      "locationPrecision": "Approximate Chita, Aichi locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.0,
+        "longitude": 136.86
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Aichi Prefecture lists Nagoya Port South District 5 in Chita as a drone demonstration field offered to members of its robotics industry council.",
+      "source": {
+        "name": "Aichi Prefecture — drone test-field applications",
+        "url": "https://www.pref.aichi.jp/soshiki/jisedai/mujinhikoujikken.html"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-08-fifty-flight-and-training-candidates",
+      "reviewNotes": "One field at 5 Midorihama-cho, Chita, despite the Nagoya Port name. The Yahagi River centre is a separate lead. September 2026 is a revision date, not original publication.",
+      "coordinateBasis": "Editorial locality reference. Rounded Chita, Aichi marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "toyokawa-hashio-drone-test-field",
+      "entityKey": "toyokawa-hashio-drone-test-field",
+      "name": "Toyokawa Hashio Sports Plaza drone test field",
+      "where": "Toyokawa, Aichi, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone test field",
+      "reportedOperator": "Toyokawa City / Higashi-Mikawa Drone River Council",
+      "reportedEquipment": "Outdoor drone demonstration area at Hashio Sports Plaza",
+      "locationPrecision": "Approximate Toyokawa, Aichi locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.83,
+        "longitude": 137.38
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Toyokawa City identifies Hashio Sports Plaza as a drone demonstration site with an application process and site-specific flying guidance.",
+      "source": {
+        "name": "Toyokawa City / Higashi-Mikawa Drone River Council — facility evidence",
+        "url": "https://www.city.toyokawa.lg.jp/soshiki/sangyokankyo/shokokanko/2/8/1/1/3179.html"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-08-fifty-flight-and-training-candidates",
+      "reviewNotes": "One Hashio site. Conflicting area figures in the city and prefectural summaries are omitted. The closed agricultural training-centre arena is not included. The city page date is a revision.",
+      "coordinateBasis": "Editorial locality reference. Rounded Toyokawa, Aichi marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "tokyo-itabashi-drone-field",
+      "entityKey": "tokyo-itabashi-drone-field",
+      "name": "Itabashi Drone Field",
+      "where": "Itabashi, Tokyo, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JUIDA / Blue innovation",
+      "reportedEquipment": "Netted flight field and R&D spaces within a logistics campus",
+      "locationPrecision": "Approximate Itabashi, Tokyo locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.75,
+        "longitude": 139.71
+      },
+      "reportDateLabel": "Source report published 2024-10-02",
+      "description": "The developers reported opening Itabashi Drone Field at MFLP–LOGIFRONT Tokyo Itabashi in October 2024 for drone research, demonstrations and training.",
+      "source": {
+        "name": "Mitsui Fudosan and partners — Itabashi Drone Field opening",
+        "url": "https://www.mitsuifudosan.co.jp/english/corporate/news/2024/1002_02/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": "2024-10-02",
+      "sourceType": "operator",
+      "researchBatch": "2026-11-08-fifty-flight-and-training-candidates",
+      "reviewNotes": "One logistics-campus test facility. The net field, warehouse research spaces, training academy and on-site drone ports are grouped; tenants and equipment are not separate sites.",
+      "coordinateBasis": "Editorial locality reference. Rounded Itabashi, Tokyo marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "nmt-socorro-skeen-drone-room",
+      "entityKey": "nmt-socorro-skeen-drone-room",
+      "name": "New Mexico Tech Skeen Library drone room",
+      "where": "Socorro, New Mexico, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "New Mexico Tech",
+      "reportedEquipment": "Indoor drone cage within Skeen Library’s VR/AR room",
+      "locationPrecision": "Approximate Socorro, New Mexico locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.06,
+        "longitude": -106.89
+      },
+      "reportDateLabel": "Source report published 2022-02-02",
+      "description": "New Mexico Tech reported that its Skeen Library room includes a drone cage for student learning and research, alongside simulation and virtual-reality equipment.",
+      "source": {
+        "name": "New Mexico Tech — facility evidence",
+        "url": "https://www.nmt.edu/academics/mecheng/news_article/ThunderDrone.php"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": "2022-02-02",
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-flight-and-training-candidates",
+      "reviewNotes": "One room on Skeen Library’s second floor. The simulator and mini drone museum are not flight sites. The report describes a late-2020 opening and was published in February 2022.",
+      "coordinateBasis": "Editorial locality reference. Rounded Socorro, New Mexico marker, not a surveyed building, flight boundary or launch point.",
+      "supportingSources": [
+        {
+          "name": "New Mexico Tech — Skeen Library location",
+          "url": "https://www.nmt.edu/library/help.php"
+        }
+      ]
+    },
+    {
+      "id": "fahari-nairobi-drone-cage",
+      "entityKey": "fahari-nairobi-drone-cage",
+      "name": "Fahari Nairobi drone cage",
+      "where": "Nairobi, Kenya",
+      "country": "Kenya",
+      "region": "Africa",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Fahari Aviation",
+      "reportedEquipment": "Enclosed drone training and testing facility",
+      "locationPrecision": "Approximate Nairobi locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": -1.29,
+        "longitude": 36.82
+      },
+      "reportDateLabel": "Source report published 2022-06-10",
+      "description": "Aviation Week reported the launch of Fahari Aviation’s drone cage in Nairobi for training and equipment testing. Kenya Airways lists the launch among its 2022 milestones.",
+      "source": {
+        "name": "Aviation Week — Fahari drone cage launch",
+        "url": "https://aviationweek.com/aerospace/fahari-aviation-launches-first-drone-cage-facility-kenya"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": "2022-06-10",
+      "sourceType": "news",
+      "researchBatch": "2026-11-08-fifty-flight-and-training-candidates",
+      "reviewNotes": "One Nairobi enclosure. The drone club is a community programme, not a second site. No specific campus address is inferred; current access and continued operation remain unverified.",
+      "coordinateBasis": "Editorial locality reference. Rounded Nairobi marker, not a surveyed building, flight boundary or launch point.",
+      "supportingSources": [
+        {
+          "name": "Kenya Airways — 2022 facility milestone",
+          "url": "https://corporate.kenya-airways.com/en/about-us/milestones/awards-achievements/"
+        }
+      ]
+    },
+    {
+      "id": "korea-siheung-drone-training-centre",
+      "entityKey": "korea-siheung-drone-training-centre",
+      "name": "Siheung drone education and training centre",
+      "where": "Siheung, Gyeonggi, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone training facility",
+      "reportedOperator": "Korea Transportation Safety Authority",
+      "reportedEquipment": "Outdoor practical flight-training grounds and supporting classrooms",
+      "locationPrecision": "Approximate Siheung, Gyeonggi locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 37.38,
+        "longitude": 126.8
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Korea’s Drone Information Portal identifies a dedicated drone training centre in Siheung with outdoor practice lanes and indoor instruction facilities.",
+      "source": {
+        "name": "Korean Drone Information Portal — training centre",
+        "url": "https://www.droneportal.or.kr/main/web/contents/M050-01-06"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-08-fifty-flight-and-training-candidates",
+      "reviewNotes": "One Siheung centre. Multiple practice lanes, storage rooms and classrooms are grouped. The portal’s ministry and KIAST footer addresses are not used as the facility location.",
+      "coordinateBasis": "Editorial locality reference. Rounded Siheung, Gyeonggi marker, not a surveyed building, flight boundary or launch point.",
+      "supportingSources": [
+        {
+          "name": "Korea Transportation Safety Authority — Siheung training location",
+          "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=02020400"
+        }
+      ]
+    },
+    {
+      "id": "korea-gimcheon-drone-qualification-centre",
+      "entityKey": "korea-gimcheon-drone-qualification-centre",
+      "name": "Gimcheon drone qualification test centre",
+      "where": "Gimcheon, Gyeongbuk, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone qualification test centre",
+      "reportedOperator": "Korea Transportation Safety Authority",
+      "reportedEquipment": "Practical drone examination grounds and a 350-metre takeoff/landing strip",
+      "locationPrecision": "Approximate Gimcheon, Gyeongbuk locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.14,
+        "longitude": 128.11
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Korea’s detailed Drone Information Portal facility page lists Gimcheon’s drone qualification centre, including four practical-test areas and a takeoff and landing strip.",
+      "source": {
+        "name": "Korean Drone Information Portal — practical examination facilities",
+        "url": "https://www.droneportal.or.kr/main/web/contents/M050-01-05"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-08-fifty-flight-and-training-candidates",
+      "reviewNotes": "One Gimcheon centre. The detailed page reports construction completed in December 2023, superseding an older overview snippet marked planned. Test lanes and the separate Hwaseong centre are not recounted.",
+      "coordinateBasis": "Editorial locality reference. Rounded Gimcheon, Gyeongbuk marker, not a surveyed building, flight boundary or launch point.",
+      "supportingSources": [
+        {
+          "name": "Korea Transportation Safety Authority — drone centre organization",
+          "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=06020402"
+        }
+      ]
+    },
+    {
+      "id": "toyohashi-industrial-training-flight-field",
+      "entityKey": "toyohashi-industrial-training-flight-field",
+      "name": "Toyohashi Industrial Human Resources Development Center flight field",
+      "where": "Toyohashi, Aichi, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone training facility",
+      "reportedOperator": "Toyohashi City",
+      "reportedEquipment": "Indoor field identified for drone flying",
+      "locationPrecision": "Approximate Toyohashi, Aichi locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.77,
+        "longitude": 137.39
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Toyohashi City describes an indoor drone-flying field within its Industrial Human Resources Development Center.",
+      "source": {
+        "name": "Toyohashi City — industrial training centre",
+        "url": "https://www.city.toyohashi.lg.jp/49919.htm"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-08-fifty-flight-and-training-candidates",
+      "reviewNotes": "One indoor field at Jinno-Shinden-cho, Shinowari 1-3. Driving courses, forklift space and lecture rooms are not additional drone facilities. The city-hall footer address is not the site.",
+      "coordinateBasis": "Editorial locality reference. Rounded Toyohashi, Aichi marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "shizuoka-miho-drone-test-airfield",
+      "entityKey": "shizuoka-miho-drone-test-airfield",
+      "name": "Shizuoka Miho Airfield drone test site",
+      "where": "Miho, Shizuoka, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone test airfield",
+      "reportedOperator": "Shizuoka City",
+      "reportedEquipment": "Airfield offered for drone-development test flights",
+      "locationPrecision": "Approximate Miho, Shizuoka locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.02,
+        "longitude": 138.52
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Shizuoka City describes using Miho Airfield for next-generation air-mobility development, including applications for drone test flights under its management from July 2025.",
+      "source": {
+        "name": "Shizuoka City — facility evidence",
+        "url": "https://www.city.shizuoka.lg.jp/s7524/s013063.html"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-08-fifty-flight-and-training-candidates",
+      "reviewNotes": "One Miho airfield. The city describes interim facilities without hangars, electricity or water. Applications require review; no approval is implied. April 2026 is a page revision, not publication.",
+      "coordinateBasis": "Editorial locality reference. Rounded Miho, Shizuoka marker, not a surveyed building, flight boundary or launch point."
     }
   ],
-  "expectedTotal": 612,
+  "expectedTotal": 629,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -20329,6 +20892,28 @@
         "jbnu-jeonju-irdl-flight-room",
         "imperial-london-vicon-flight-arena",
         "ait-vienna-aerial-systems-lab"
+      ]
+    },
+    {
+      "id": "2026-11-08-fifty-flight-and-training-candidates",
+      "recordIds": [
+        "sejong-seoul-gwanggaeto-flight-room",
+        "dji-yongin-flight-arena",
+        "sinclair-dayton-indoor-flying-pavilion",
+        "singapore-pandan-uafa",
+        "singapore-dover-road-uafa",
+        "mranti-bukit-jalil-area-57",
+        "japan-kawachi-drone-field",
+        "ffc-higashi-kawaguchi-flight-field",
+        "aichi-nagoya-port-south-5-test-field",
+        "toyokawa-hashio-drone-test-field",
+        "tokyo-itabashi-drone-field",
+        "nmt-socorro-skeen-drone-room",
+        "fahari-nairobi-drone-cage",
+        "korea-siheung-drone-training-centre",
+        "korea-gimcheon-drone-qualification-centre",
+        "toyohashi-industrial-training-flight-field",
+        "shizuoka-miho-drone-test-airfield"
       ]
     }
   ]
