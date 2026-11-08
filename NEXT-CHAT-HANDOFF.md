@@ -1,12 +1,12 @@
 # Current catalogue continuation — 8 November 2026
 
-Repository: https://github.com/andristukiss-png/microportmap, branch main. The old no-repository statements below are historical. User requests adding the next locations and authorizes routine decisions without repeated permission. Continue location research, not synthetic task-count inflation.
+Repository: https://github.com/andristukiss-png/microportmap, branch main. Historical no-repository statements below are superseded. User authorizes routine research, additions and publication without repeated questions. Continue credible locations, not synthetic task counts.
 
-Batch 110 reviews 50 Japanese location candidates: 29 accepted, 15 deferred, six existing-site overlaps. Build total: 689 (50 original records + 639 additions), 53 countries, 311 remaining to 1,000. See catalogue/one-hundred-tenth-batch-review.md and catalogue/2026-11-08-sixth-fifty-task-review.json for exact decisions and sources. Earlier 660 records are preserved.
+Batch 111: 50 candidate reviews, 15 accepted, 33 deferred, two overlaps. Total 704 records (50 original + 654 additions), 53 countries, 296 remaining to 1,000. See catalogue/one-hundred-eleventh-batch-review.md and the seventh-fifty-task ledger. All 689 earlier records are preserved. PR and CI contain actual publication status; these files alone do not establish deployment.
 
-Use scripts/build_catalogue.py and deploy dist/, never src/ alone. Run checks/catalogue-expansion.py and checks/catalogue-browser-runner-test.py; GitHub Actions covers 694 routes at desktop/mobile sizes. PR and CI contain actual publication status; the existence of these source files alone does not establish deployment.
+Build with scripts/build_catalogue.py and deploy dist/, never src/. Run checks/catalogue-expansion.py and checks/catalogue-browser-runner-test.py. CI covers 709 routes / 1,418 desktop-mobile journeys. Vercel Git integration builds main automatically. Public site: https://microportmap.com.
 
-New sites include dedicated drone fields, municipal research plots and explicitly described shared or recreational venues. Do not turn courts or rental plots into extra locations. Sekido Yokohama's old field and new centre are one site. Muramoto Sakai and its Tondabayashi field are distinct. Nose Kogen street-number disagreement is deliberately unresolved. ZOZOPARK's operator link now redirects to SMBC FIELD; current drone-use continuity needs follow-up. TK and GAP150 primary text was indexed despite direct-fetch failures. Undated pages retain null original publication dates; municipal update dates are labelled separately. No operation, access or flight permission is independently verified.
+Takinoue sports fields form one campus. Akebono and the FPV school are separate. Bibai Sky Park differs from the agricultural dock; KDDI Yoshino and Yamato differ from the SkyHub depot. Maiko's 2026 season ended; Yoichi is seasonal. Takinoue trial-use descriptions and Akebono's inconsistent indoor-area wording are explicit. Technology Farm Nishinosato's directory PDF points to Sapporo Dome; do not add from that mismatched evidence. Generic properties and distributed inspection assets remain deferred. Source dates are null, map points approximate, current access and operations unverified.
 
 ---
 
