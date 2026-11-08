@@ -1,0 +1,62 @@
+# Batch 112: Japan practice venues
+
+Reviewed 8 November 2026: 50 candidate decisions, 24 accepted locations, 24 deferred leads and two overlaps. Total: 728 records in 53 countries; 272 remaining to 1,000. All 704 earlier records are preserved.
+
+Accepted entries have operator or government evidence for a named drone practice or training venue. Campus subareas are grouped. Unresolved field addresses, unavailable primary details and generic potential-use properties remain deferred. Sunny Aeropark matches the existing Yokohama Hodogaya record; Taiki Spaceport is already represented.
+
+Liberdade's Hiroshima-branded field is in Yamaguchi. Koriyama explicitly suspends indoor use. Seasonal resort records do not imply current availability. SGFC uses indexed operator evidence because direct retrieval was blocked. The Takizawa article has an explicit publication date; other publication dates remain null. Municipal-area map markers are deliberately approximate, not navigable facility or launch coordinates. Sources establish reported facilities, not independently verified current access or operations.
+
+Ledger: [2026-11-08-eighth-fifty-task-review.json](2026-11-08-eighth-fifty-task-review.json). The build generates 733 browser routes / 1,466 desktop-mobile journeys. Actual CI and deployment results belong in the pull request.
+
+| Task | Candidate | Decision | Evidence and scope |
+| --- | --- | --- | --- |
+| 1 | ASKHIM Chikuzen drone field | accepted | [Source](https://www.askhim.jp/contents/category/map-price/). One field; the navigation address is an approach reference, not a second site. |
+| 2 | ASKHIM Yamaga drone field | accepted | [Source](https://www.askhim.jp/contents/category/map-price/). Separate from Chikuzen; the administrative office is not counted. |
+| 3 | Oshino Sky Sports drone practice field | accepted | [Source](https://www.oshinosky.com/%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E7%B7%B4%E7%BF%92%E5%A0%B4). One shared site; hang-gliding facilities are not a separate drone location. |
+| 4 | Kobe Seiko Ono Training Center | accepted | [Source](https://www.kobeseiko.co.jp/drone_field_school.html). One campus. Differing street suffixes on company pages do not justify multiple records. |
+| 5 | SGFC Sky Ground | accepted | [Source](https://sgfc.jimdofree.com/). Indexed operator evidence reviewed; direct retrieval was blocked. Distinct from the Fujinomiya Mt. Fuji Sky Ground. |
+| 6 | DPCA Uji training centre | deferred | [Source](https://dpcajapan.org/information/%E5%8D%94%E4%BC%9A%E6%A6%82%E8%A6%81/). Named outdoor centre, but venue-level address and campus identity remain unresolved in reviewed primary evidence. |
+| 7 | DPCA Kyoto station indoor centre | deferred | [Source](https://dpcajapan.org/information/%E5%8D%94%E4%BC%9A%E6%A6%82%E8%A6%81/). Named indoor centre; headquarters and classroom addresses are not sufficient to establish the separate flight venue. |
+| 8 | Nanten Ginowan | deferred | [Source](https://www.nanten-dpark.net/license/class1.html). Primary page describes the indoor venue as preparing, without a confirmed operating field. |
+| 9 | Nanten Nago | deferred | [Source](https://www.nanten-dpark.net/license/class1.html). Training locality listed, but no individually identified venue in reviewed evidence. |
+| 10 | Nanten Nishihara | deferred | [Source](https://www.nanten-dpark.net/license/class1.html). Training locality listed, but no individually identified venue in reviewed evidence. |
+| 11 | Airfield Ai | deferred | [Source](https://www.air-f-ai.biz/). Primary website returned 404; older directory and opening-news leads do not resolve present facility identity. |
+| 12 | Tenzan drone field | deferred | [Source](https://www.tenzan-resort.co.jp/). Old resort lead with closure reporting; no usable primary evidence establishing a current drone venue. |
+| 13 | DRONE X Yuasa | deferred | [Source](https://www.dronex-kj.com/). Primary website could not be retrieved; dedicated field identity remains unconfirmed. |
+| 14 | Asahi Tenguston drone field | deferred | [Source](https://www.asahi-tengusuton.com/). Resort website timed out and municipal evidence reports closure; do not imply active drone operations. |
+| 15 | Drone Resort Minami Atami | accepted | [Source](https://www.izunokodo.org/). One venue at Shimotaga; the surrounding forest is not counted as multiple fields. |
+| 16 | Drone Resort Izu no Komichi | deferred | [Source](https://www.sorapota.net/). Older name/domain lead; relationship to Minami Atami unresolved, so no additional location counted. |
+| 17 | Skynet Fukuoka | deferred | [Source](https://www.skynet.fukuoka.jp/). Primary site unavailable; a club contact does not establish an individually located field. |
+| 18 | Yokohama Sunny Aeropark | excluded-overlap | [Source](https://drone-yokohama.com/access.html). Same Imaicho 1221 site already represented by japan-yokohama-hodogaya-pilot-field. |
+| 19 | Aeromax RC | deferred | [Source](https://www.aeromaxrc.jp/). Primary page unavailable; venue identity and drone-specific scope remain unresolved. |
+| 20 | Oiwa Flower Garden | deferred | [Source](https://www.ohiwafg.com/). Primary page unavailable; venue identity and drone-specific scope remain unresolved. |
+| 21 | drone-park.jp venue lead | deferred | [Source](https://www.drone-park.jp/). Primary page unavailable; venue identity and drone-specific scope remain unresolved. |
+| 22 | Sky Park Japan Yogo drone fields | accepted | [Source](https://skyparkjapan.com/). One resort campus, grouping both courses. Green-season availability requires confirmation. |
+| 23 | Taiki Hokkaido Spaceport | excluded-overlap | [Source](https://www.pref.hokkaido.lg.jp/fs/1/3/1/7/0/3/9/3/_/%E3%80%90%E5%A4%A7%E6%A8%B9%E7%94%BA%E3%80%91%E5%8C%97%E6%B5%B7%E9%81%93%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%88.pdf). Already represented by taiki-hospo-uav-runway; runway and support buildings form one site. |
+| 24 | Sarabetsu municipal drone training field | accepted | [Source](https://www.harp.lg.jp/opendata/dataset/1873/resource/4961/%E3%80%90%E6%9B%B4%E5%88%A5%E6%9D%91%E3%80%91%E6%9D%91%E6%9C%89%E5%9C%B0.pdf). One training area, grouping adjacent plots 57-1 and 57-2; no on-site power is reported. |
+| 25 | Universal Memorial Soroan | deferred | [Source](https://www.harp.lg.jp/opendata/dataset/1873/resource/8719/%E3%80%90%E9%9F%B3%E6%9B%B4%E7%94%BA%E3%80%91%E3%83%A6%E3%83%8B%E3%83%90%E3%83%BC%E3%82%B5%E3%83%AB%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB_%E7%B4%A0%E6%B5%AA%E5%BA%B5.pdf). Image-only detail sheet could not be read as text; drone-specific scope unconfirmed. |
+| 26 | Former Sembiri Junior High School | deferred | [Source](https://www.pref.hokkaido.lg.jp/fs/1/3/1/7/0/4/2/6/_/%E3%80%90%E6%9C%AC%E5%88%A5%E7%94%BA%E3%80%91%E6%97%A7%E4%BB%99%E7%BE%8E%E9%87%8C%E4%B8%AD%E5%AD%A6%E6%A0%A1.pdf). RC club use is reported, but drone training is only a potential use. |
+| 27 | Former Nishikami Otofuke School | deferred | [Source](https://www.pref.hokkaido.lg.jp/fs/1/3/1/7/0/4/6/3/_/%E3%80%90%E5%A3%AB%E5%B9%8C%E7%94%BA%E3%80%91%E6%97%A7%E8%A5%BF%E4%B8%8A%E9%9F%B3%E6%9B%B4%E5%B0%8F%E5%AD%A6%E6%A0%A1.pdf). Former school offered for business reuse; no established drone venue demonstrated. |
+| 28 | Ezo Deer Factory Camp | deferred | [Source](https://www.harp.lg.jp/opendata/dataset/1873/resource/5666/%E3%80%90%E7%99%BD%E7%B3%A0%E7%94%BA%E3%80%91%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97%E5%A0%B4.pdf). Shared camping and industrial property offered for tests; a configured drone field is not established. |
+| 29 | Tsurui ball grounds | deferred | [Source](https://www.harp.lg.jp/opendata/dataset/1873/resource/5930/%E3%80%90%E9%B6%B4%E5%B1%85%E6%9D%91%E3%80%91%E9%87%8E%E7%90%83%E5%A0%B4%E3%82%B0%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89.pdf). General sports grounds offered for tests, without dedicated drone-facility evidence. |
+| 30 | Former Kuchoro Chuo School | deferred | [Source](https://www.pref.hokkaido.lg.jp/fs/1/3/1/7/0/4/6/9/_/%E3%80%90%E6%A8%99%E8%8C%B6%E7%94%BA%E3%80%91%E6%97%A7%E4%B9%85%E8%91%97%E5%91%82%E4%B8%AD%E5%A4%AE%E5%B0%8F%E4%B8%AD%E5%AD%A6%E6%A0%A1%28%E6%A0%A1%E8%88%8E%E3%80%81%E4%BD%93%E8%82%B2%E9%A4%A8%E3%80%81%E3%82%B0%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89%29.pdf). Generic former-school test property requiring utility reinstatement. |
+| 31 | Former Yayoi School | deferred | [Source](https://www.pref.hokkaido.lg.jp/fs/1/3/1/7/0/4/7/0/_/%E3%80%90%E6%A8%99%E8%8C%B6%E7%94%BA%E3%80%91%E6%97%A7%E5%BC%A5%E6%A0%84%E5%B0%8F%E5%AD%A6%E6%A0%A1%28%E6%A0%A1%E8%88%8E%E3%80%81%E4%BD%93%E8%82%B2%E9%A4%A8%E3%80%81%E3%82%B0%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89%29.pdf). Generic former-school property; established drone operations not demonstrated. |
+| 32 | Nemuro Sogo Driving School drone training campus | accepted | [Source](https://www.pref.hokkaido.lg.jp/fs/1/3/1/7/0/3/9/4/_/%E3%80%90%E6%A0%B9%E5%AE%A4%E5%B8%82%E3%80%91%E8%87%AA%E5%8B%95%E8%BB%8A%E5%AD%A6%E6%A0%A1%E6%95%B7%E5%9C%B0.pdf). One shared campus at Honio 102, grouping indoor and outdoor practice areas. |
+| 33 | Bonfim Ochiai Minami-Nagasaki Drone Sky Field | accepted | [Source](https://www.bonfim.co.jp/drone/access). One shared sports venue at iTerrace, Minami-Nagasaki 4-5-20; both courts grouped. |
+| 34 | Fut Messe Omiya drone courts | accepted | [Source](https://www.fut-messe.com/drone/). One venue at Kushihikicho 2-574-1; shared courts grouped. |
+| 35 | Fut Messe Kawaguchi Motogo drone courts | accepted | [Source](https://www.fut-messe.com/drone/). One venue at Motogo 2-15-3; distinct from Omiya. |
+| 36 | STW Soragaku Wakayama training campus | accepted | [Source](https://stworld.jp/feature/drone/field/). One campus at Naka 649-2; field, rooftop and hard-court areas grouped. |
+| 37 | Drone Shop Sendai Aobayama practice field | accepted | [Source](https://ds-sendai.jp/event/aobayama). One field; access is limited to eligible prior training customers. The city marker is not the shop or flight-area location. |
+| 38 | Drocan Nikkawa drone field | accepted | [Source](https://drone-camp-nikkawa.com/). One shared campsite venue at Nikkawa Sateyama 8-21. Training services are not extra locations. |
+| 39 | Takatsue Drone Field | accepted | [Source](https://aizu-kougen.jp/drone-field/). One seasonal resort field; the page excludes the winter ski season and requires local accommodation. |
+| 40 | Drone Drone Iwaki practice field | accepted | [Source](https://drone-iwaki.com/). One field at Kitsunezuka Nishihara 42; designated launch areas are grouped. |
+| 41 | Drone Fukuoka indoor venue | accepted | [Source](https://dronefukuoka.com/). One shared sports venue at Kanenokuma 1-43-43; court subdivisions are not separate sites. |
+| 42 | FREIHEIT Nagoya indoor practice venue | accepted | [Source](https://freiheit-drone.pro/). One venue associated with Nakasu-cho 194; company services and remote courses are not additional facilities. |
+| 43 | Fuji Calm drone test field | deferred | [Source](https://fujicalm.jp/outdoor.html). Current primary page describes general outdoor training space but does not confirm the directory-listed drone field. |
+| 44 | Koriyama Drone Park | accepted | [Source](https://koriyamadronepark.com/free/shisetru). One park. The source expressly suspends indoor use; no active indoor facility is claimed. |
+| 45 | ITH Hachinohe Drone Arena | deferred | [Source](https://ith-jp.com/drone-arena/). Operator service page names the arena, but detailed venue retrieval repeatedly timed out; address and scope remain unresolved. |
+| 46 | Drone Field Takizawa | accepted | [Source](https://drone-0.com/dronefield-takizawa-introduction/). One field, grouping beginner, play and adventure areas. Publication is explicitly dated 8 April 2023. |
+| 47 | Liberdade Drone Field Hiroshima | accepted | [Source](https://www.liberdade.co.jp/dronefield/). Despite Hiroshima in its name, the primary address is in Yamaguchi. One field, not the Hiroshima office. |
+| 48 | HD Base Hiroshima | deferred | [Source](https://hd-service.jp/service.html). Primary page retrieval failed; directory-listed venue identity remains unconfirmed. |
+| 49 | Tateyama Sanroku Drone Park | accepted | [Source](https://www.tateyama36.co.jp/). One seasonal ski-resort venue; other resort activities and slopes are not additional drone fields. |
+| 50 | IOX-AROSA Drone Park | accepted | [Source](https://iox-arosa.jp/archives/66). One resort park, grouping alternative flight areas. Listed season ends in late November; availability is unverified. |
