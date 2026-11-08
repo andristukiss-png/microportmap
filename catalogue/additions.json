@@ -19798,9 +19798,368 @@
       "researchBatch": "2026-11-08-fifty-flight-and-training-candidates",
       "reviewNotes": "One Miho airfield. The city describes interim facilities without hangars, electricity or water. Applications require review; no approval is implied. April 2026 is a page revision, not publication.",
       "coordinateBasis": "Editorial locality reference. Rounded Miho, Shizuoka marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "sydney-marulan-uav-test-farm",
+      "entityKey": "sydney-marulan-uav-test-farm",
+      "name": "University of Sydney Marulan UAV test farm",
+      "where": "Marulan, New South Wales, Australia",
+      "country": "Australia",
+      "region": "Oceania",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "University of Sydney",
+      "reportedEquipment": "University-farm outdoor UAV flight-test area",
+      "locationPrecision": "Approximate Marulan, New South Wales locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": -34.71,
+        "longitude": 150.0
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The University of Sydney identifies a UAV flight-testing facility at its farm in Marulan, separate from its indoor aeronautical laboratory in Sydney.",
+      "source": {
+        "name": "University of Sydney — facility evidence",
+        "url": "https://www.sydney.edu.au/engineering/our-research/laboratories-and-facilities/aerospace-mechanical-and-mechatronic-facilities.html"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-international-test-centre-candidates",
+      "reviewNotes": "One Marulan field facility. The existing Sydney record covers an indoor laboratory and explicitly excludes this farm. Airspace size and historical approval statements are not represented as present flight permission.",
+      "coordinateBasis": "Editorial locality reference. Rounded Marulan, New South Wales marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "sares-valkeakoski-uas-test-centre",
+      "entityKey": "sares-valkeakoski-uas-test-centre",
+      "name": "Säres-Center UAS testing facility",
+      "where": "Valkeakoski, Finland",
+      "country": "Finland",
+      "region": "Europe",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "SäRes Analysing and Testing Area",
+      "reportedEquipment": "Outdoor test grounds and indoor flight platform",
+      "locationPrecision": "Approximate Valkeakoski locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 61.26,
+        "longitude": 24.03
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "FUAVE identifies Säres-Center as an established UAS testing environment with permanent infrastructure and indoor and outdoor flight facilities.",
+      "source": {
+        "name": "SäRes Analysing and Testing Area — facility evidence",
+        "url": "https://www.fuave.fi/test-areas/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-international-test-centre-candidates",
+      "reviewNotes": "One integrated centre. Indoor and outdoor areas are grouped. The operator supplies Valkeakoski location context.",
+      "coordinateBasis": "Editorial locality reference. Rounded Valkeakoski marker, not a surveyed building, flight boundary or launch point.",
+      "supportingSources": [
+        {
+          "name": "Säres — operator and location context",
+          "url": "https://sares.fi/sata-mukana-hakathonissa/"
+        }
+      ]
+    },
+    {
+      "id": "bofors-karlskoga-uas-test-centre",
+      "entityKey": "bofors-karlskoga-uas-test-centre",
+      "name": "Bofors Test Center UAS testing facility",
+      "where": "Karlskoga, Sweden",
+      "country": "Sweden",
+      "region": "Europe",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Bofors Test Center",
+      "reportedEquipment": "UAS test grounds and supporting workshops",
+      "locationPrecision": "Approximate Karlskoga locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 59.33,
+        "longitude": 14.52
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Bofors Test Center describes facilities for small and medium unmanned-aircraft development testing, demonstrations and training at its Karlskoga site.",
+      "source": {
+        "name": "Bofors Test Center — facility evidence",
+        "url": "https://www.testcenter.se/services/uas-testing/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-08-fifty-international-test-centre-candidates",
+      "reviewNotes": "One test-centre record. Individual ranges, workshops and equipment are not additional sites. The broad locality marker does not identify a test position. Operator approval claims do not establish current access or permission.",
+      "coordinateBasis": "Editorial locality reference. Rounded Karlskoga marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "dutch-drone-centre-aviolanda",
+      "entityKey": "dutch-drone-centre-aviolanda",
+      "name": "Dutch Drone Centre Aviolanda test campus",
+      "where": "Hoogerheide / Woensdrecht, Netherlands",
+      "country": "Netherlands",
+      "region": "Europe",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Dutch Drone Centre Aviolanda",
+      "reportedEquipment": "Dronelab flight area and adjacent airbase test facilities",
+      "locationPrecision": "Approximate Hoogerheide / Woensdrecht locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 51.42,
+        "longitude": 4.33
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Dutch Drone Centre Aviolanda identifies a Dronelab flight area at Aviolanda Aerospace and an adjacent Woensdrecht Airbase test area with shared support facilities.",
+      "source": {
+        "name": "Dutch Drone Centre Aviolanda — facility evidence",
+        "url": "https://www.dutchdronecentre.eu/index.php/en/location"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-08-fifty-international-test-centre-candidates",
+      "reviewNotes": "One linked Aviolanda campus record combining the Dronelab and adjacent airbase facilities. Internal flight volumes are not separate sites. The separately listed Deelen airbase is outside this record. No current operational authorization is inferred.",
+      "coordinateBasis": "Editorial locality reference. Rounded Hoogerheide / Woensdrecht marker, not a surveyed building, flight boundary or launch point.",
+      "supportingSources": [
+        {
+          "name": "Dutch Drone Centre — testing and training role",
+          "url": "https://www.dutchdronecentre.eu/index.php/en"
+        }
+      ]
+    },
+    {
+      "id": "ntnu-agdenes-uav-test-field",
+      "entityKey": "ntnu-agdenes-uav-test-field",
+      "name": "NTNU Agdenes UAV test field",
+      "where": "Agdenes, Norway",
+      "country": "Norway",
+      "region": "Europe",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Norwegian University of Science and Technology",
+      "reportedEquipment": "Airfield used as the university UAV laboratory’s primary outdoor test field",
+      "locationPrecision": "Approximate Agdenes locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 63.58,
+        "longitude": 9.71
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "NTNU identifies Agdenes airfield as its primary UAV test field, separately from the university’s Trondheim workshop and other operating locations.",
+      "source": {
+        "name": "Norwegian University of Science and Technology — facility evidence",
+        "url": "https://www.itk.ntnu.no/english/lab/unmanned"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-international-test-centre-candidates",
+      "reviewNotes": "One Agdenes field. The campus workshop and other places named in the laboratory overview are not included. The locality marker is not a runway or launch coordinate.",
+      "coordinateBasis": "Editorial locality reference. Rounded Agdenes marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "itg-ancora-san-cibrao",
+      "entityKey": "itg-ancora-san-cibrao",
+      "name": "ITG ANCORA coastal drone test centre",
+      "where": "San Cibrao, Cervo, Lugo, Spain",
+      "country": "Spain",
+      "region": "Europe",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Galicia Institute of Technology (ITG)",
+      "reportedEquipment": "Coastal flight pad, hangar and supporting office",
+      "locationPrecision": "Approximate San Cibrao, Cervo, Lugo locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 43.7,
+        "longitude": -7.44
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "ITG documents its ANCORA drone test centre in San Cibrao and reports completed demonstrations involving light UAVs and coordinated coastal operations.",
+      "source": {
+        "name": "Galicia Institute of Technology (ITG) — facility evidence",
+        "url": "https://ancora.itg.es/en/home"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-international-test-centre-candidates",
+      "reviewNotes": "One coastal test campus. Its flight pad, hangar, automated-hangar demonstration and individual use cases are grouped. ITG’s registered address in A Coruña is not this facility’s location. Current access and flight permission remain unverified.",
+      "coordinateBasis": "Editorial locality reference. Rounded San Cibrao, Cervo, Lugo marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "inta-cedea-el-arenosillo",
+      "entityKey": "inta-cedea-el-arenosillo",
+      "name": "INTA CEDEA El Arenosillo UAS test centre",
+      "where": "Mazagón, Huelva, Spain",
+      "country": "Spain",
+      "region": "Europe",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "INTA",
+      "reportedEquipment": "Research centre supporting unmanned-aircraft development tests",
+      "locationPrecision": "Approximate Mazagón, Huelva locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 37.13,
+        "longitude": -6.83
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "INTA identifies unmanned-aircraft development testing at CEDEA El Arenosillo and states that the separate CEUS centre is approximately ten kilometres away.",
+      "source": {
+        "name": "INTA — facility evidence",
+        "url": "https://www.inta.es/INTA/en/donde-estamos/Centros-de-ensayos/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-08-fifty-international-test-centre-candidates",
+      "reviewNotes": "One CEDEA site. INTA explicitly distinguishes it geographically from the existing CEUS Moguer record despite their integrated programme. Other research activities and test areas are not extra records. The 2024 CEUS development date is not this source’s publication date.",
+      "coordinateBasis": "Editorial locality reference. Rounded Mazagón, Huelva marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "vastervik-airport-drone-test-centre",
+      "entityKey": "vastervik-airport-drone-test-centre",
+      "name": "Västervik Airport drone test centre",
+      "where": "Västervik, Sweden",
+      "country": "Sweden",
+      "region": "Europe",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Västervik Drone Science Park / Västervik Municipality",
+      "reportedEquipment": "Airport-based drone testing and demonstration facilities",
+      "locationPrecision": "Approximate Västervik locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 57.76,
+        "longitude": 16.64
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Västervik Drone Science Park identifies Västervik Airport as the base for its unmanned-system testing and demonstrations and reports drone activity there since 2014.",
+      "source": {
+        "name": "Västervik Drone Science Park / Västervik Municipality — facility evidence",
+        "url": "https://www.vastervikdsp.com/uxs-test-demo/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-08-fifty-international-test-centre-candidates",
+      "reviewNotes": "One airport facility, including the Drone Center Sweden identity. Wider geographical zones and off-airport demonstrations are not additional bases. Inconsistent airspace-area figures are omitted. The 2014 activity year is not a publication date.",
+      "coordinateBasis": "Editorial locality reference. Rounded Västervik marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "bcn-moia-drone-test-centre",
+      "entityKey": "bcn-moia-drone-test-centre",
+      "name": "BCN Drone Center Moià test site",
+      "where": "Moià, Barcelona, Spain",
+      "country": "Spain",
+      "region": "Europe",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "BCN Drone Center / CATUAV",
+      "reportedEquipment": "Dedicated UAS airfield with workshops and supporting rooms",
+      "locationPrecision": "Approximate Moià, Barcelona locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 41.81,
+        "longitude": 2.1
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "BCN Drone Center describes its dedicated drone airfield and supporting facilities at Moià, and reports hosted flight tests and training activities.",
+      "source": {
+        "name": "BCN Drone Center / CATUAV — facility evidence",
+        "url": "https://www.barcelonadronecenter.com/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-08-fifty-international-test-centre-candidates",
+      "reviewNotes": "One Moià test campus. The Barcelona branding does not locate it at Barcelona airport or the city port. Workshops, training rooms, hangars and temporary off-site assignments are not extra records.",
+      "coordinateBasis": "Editorial locality reference. Rounded Moià, Barcelona marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "tamu-rellis-uas-flight-test-facility",
+      "entityKey": "tamu-rellis-uas-flight-test-facility",
+      "name": "Texas A&M RELLIS UAS flight-test facility",
+      "where": "Bryan, Texas, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Texas A&M Vehicle Systems and Control Laboratory",
+      "reportedEquipment": "Off-campus UAS flight-test hangar and runway access",
+      "locationPrecision": "Approximate Bryan, Texas locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 30.67,
+        "longitude": -96.37
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Texas A&M’s Vehicle Systems and Control Laboratory identifies an offsite UAS flight-testing facility at RELLIS, the former Bryan Air Force Base, with hangar and runway access.",
+      "source": {
+        "name": "Texas A&M Vehicle Systems and Control Laboratory — facility evidence",
+        "url": "https://vscl.tamu.edu/facility/uas-flight-testing-facility/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-international-test-centre-candidates",
+      "reviewNotes": "One RELLIS site, also called Riverside Campus in the directions. The main university campus, individual runway segments and student demonstrations are not extra records. No current booking or operational approval is implied.",
+      "coordinateBasis": "Editorial locality reference. Rounded Bryan, Texas marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "skelleftea-hammarangen-droneport",
+      "entityKey": "skelleftea-hammarangen-droneport",
+      "name": "Skellefteå Droneport",
+      "where": "Skellefteå, Sweden",
+      "country": "Sweden",
+      "region": "Europe",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Skellefteå Municipality / Skellefteå Airport",
+      "reportedEquipment": "Dedicated drone flight pad and heated hangar",
+      "locationPrecision": "Approximate Skellefteå locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 64.75,
+        "longitude": 20.95
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Arctic Aviation Hub describes the completed Skellefteå Droneport, with a flight pad, heated hangar and supporting workspaces for drone testing and development.",
+      "source": {
+        "name": "Skellefteå Municipality / Skellefteå Airport — facility evidence",
+        "url": "https://arcticaviationhub.com/skelleftea-droneport/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-08-fifty-international-test-centre-candidates",
+      "reviewNotes": "One city-side droneport. The hub’s airport and educational campus are separate leads and are not counted here. Its Innovation Park contact address is not treated as the flight site. The municipality identifies the droneport at Hammarängen.",
+      "coordinateBasis": "Editorial locality reference. Rounded Skellefteå marker, not a surveyed building, flight boundary or launch point.",
+      "supportingSources": [
+        {
+          "name": "Skellefteå Municipality — Hammarängen location",
+          "url": "https://skelleftea.se/society-expo-2026/en/society-expo-2026/participation/projects/projects/droneport"
+        }
+      ]
     }
   ],
-  "expectedTotal": 629,
+  "expectedTotal": 640,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -20914,6 +21273,22 @@
         "korea-gimcheon-drone-qualification-centre",
         "toyohashi-industrial-training-flight-field",
         "shizuoka-miho-drone-test-airfield"
+      ]
+    },
+    {
+      "id": "2026-11-08-fifty-international-test-centre-candidates",
+      "recordIds": [
+        "sydney-marulan-uav-test-farm",
+        "sares-valkeakoski-uas-test-centre",
+        "bofors-karlskoga-uas-test-centre",
+        "dutch-drone-centre-aviolanda",
+        "ntnu-agdenes-uav-test-field",
+        "itg-ancora-san-cibrao",
+        "inta-cedea-el-arenosillo",
+        "vastervik-airport-drone-test-centre",
+        "bcn-moia-drone-test-centre",
+        "tamu-rellis-uas-flight-test-facility",
+        "skelleftea-hammarangen-droneport"
       ]
     }
   ]

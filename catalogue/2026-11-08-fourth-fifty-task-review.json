@@ -1,0 +1,564 @@
+{
+  "reviewedAt": "2026-11-08",
+  "researchBatch": "2026-11-08-fifty-international-test-centre-candidates",
+  "taskDefinition": "Screen one candidate for source evidence, site identity and catalogue eligibility; a completed screening can defer addition.",
+  "completedTasks": 50,
+  "acceptedRecords": 11,
+  "deferredCandidates": 26,
+  "excludedOverlaps": 13,
+  "tasks": [
+    {
+      "task": 1,
+      "candidate": "University of Sydney Marulan UAV test farm",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "sydney-marulan-uav-test-farm",
+      "sourceUrls": [
+        "https://www.sydney.edu.au/engineering/our-research/laboratories-and-facilities/aerospace-mechanical-and-mechatronic-facilities.html"
+      ],
+      "reason": "One Marulan field facility. The existing Sydney record covers an indoor laboratory and explicitly excludes this farm. Airspace size and historical approval statements are not represented as present flight permission."
+    },
+    {
+      "task": 2,
+      "candidate": "TU Delft RoboFactory",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.tudelft.nl/lr/organisatie/afdelingen/control-and-operations/facilities/drone-facilities"
+      ],
+      "reason": "The university labels RoboFactory coming soon. Completion and its distinct physical scope need confirmation."
+    },
+    {
+      "task": 3,
+      "candidate": "DronePort Hangar 66",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://droneport.eu/flight-areas-2/hangar-66/"
+      ],
+      "reason": "A facility within the existing droneport-sint-truiden campus; internal hangars do not create another campus record."
+    },
+    {
+      "task": 4,
+      "candidate": "Unmanned Valley Valkenburg facilities",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.unmannedvalley.nl/en/faciliteiten"
+      ],
+      "reason": "Already covered by unmanned-valley-valkenburg. Internal fields and planned service extensions are not new sites."
+    },
+    {
+      "task": 5,
+      "candidate": "SDU Flight Lab at HCA Airport",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.sdu.dk/en/forskning/sduuascenter/aboutsduuascenter/sdu-flight-lab"
+      ],
+      "reason": "Part of the already represented uas-denmark-odense test campus; no additional campus is counted."
+    },
+    {
+      "task": 6,
+      "candidate": "FUAVE Oulu West",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.fuave.fi/test-areas/"
+      ],
+      "reason": "A broad airspace and indoor services are listed; the distinct ground facility remains unlocated."
+    },
+    {
+      "task": 7,
+      "candidate": "FUAVE Helsinki Jätkäsaari",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.fuave.fi/test-areas/"
+      ],
+      "reason": "Activities are planned and opening is undefined; completed ground infrastructure is not established."
+    },
+    {
+      "task": 8,
+      "candidate": "FUAVE Helsinki East Pyhtää",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.fuave.fi/test-areas/"
+      ],
+      "reason": "Two airspace areas are established, but nearby airports are not necessarily their operating bases."
+    },
+    {
+      "task": 9,
+      "candidate": "FUAVE Oulu East",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.fuave.fi/test-areas/"
+      ],
+      "reason": "Explicitly named OuluZone, already covered by ouluzone-wireless-drone-test."
+    },
+    {
+      "task": 10,
+      "candidate": "FUAVE Lapland East Savukoski",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.fuave.fi/test-areas/"
+      ],
+      "reason": "The listing remains in preparation despite a past estimated opening; completion needs confirmation."
+    },
+    {
+      "task": 11,
+      "candidate": "FUAVE Helsinki West Sjökulla",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.fuave.fi/test-areas/"
+      ],
+      "reason": "The listing combines accepted airspace and planned activity; physical flight-site evidence needs clarification."
+    },
+    {
+      "task": 12,
+      "candidate": "Säres-Center UAS testing facility",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "sares-valkeakoski-uas-test-centre",
+      "sourceUrls": [
+        "https://www.fuave.fi/test-areas/",
+        "https://sares.fi/sata-mukana-hakathonissa/"
+      ],
+      "reason": "One integrated centre. Indoor and outdoor areas are grouped. The operator supplies Valkeakoski location context."
+    },
+    {
+      "task": 13,
+      "candidate": "Bofors Test Center UAS testing facility",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "bofors-karlskoga-uas-test-centre",
+      "sourceUrls": [
+        "https://www.testcenter.se/services/uas-testing/"
+      ],
+      "reason": "One test-centre record. Individual ranges, workshops and equipment are not additional sites. The broad locality marker does not identify a test position. Operator approval claims do not establish current access or permission."
+    },
+    {
+      "task": 14,
+      "candidate": "Dutch Drone Centre Aviolanda test campus",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "dutch-drone-centre-aviolanda",
+      "sourceUrls": [
+        "https://www.dutchdronecentre.eu/index.php/en/location",
+        "https://www.dutchdronecentre.eu/index.php/en"
+      ],
+      "reason": "One linked Aviolanda campus record combining the Dronelab and adjacent airbase facilities. Internal flight volumes are not separate sites. The separately listed Deelen airbase is outside this record. No current operational authorization is inferred."
+    },
+    {
+      "task": 15,
+      "candidate": "NLR Drone Centre Marknesse",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.nlr.org/newsroom/facility/nlr-drone-centre/"
+      ],
+      "reason": "Already represented by nlr-marknesse-drone-centre; the facility listing does not establish a second site."
+    },
+    {
+      "task": 16,
+      "candidate": "NTNU Agdenes UAV test field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "ntnu-agdenes-uav-test-field",
+      "sourceUrls": [
+        "https://www.itk.ntnu.no/english/lab/unmanned"
+      ],
+      "reason": "One Agdenes field. The campus workshop and other places named in the laboratory overview are not included. The locality marker is not a runway or launch coordinate."
+    },
+    {
+      "task": 17,
+      "candidate": "NTNU Eggemoen operations",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.itk.ntnu.no/english/lab/unmanned"
+      ],
+      "reason": "NTNU names UAV operations at Eggemoen but does not define the physical base or facility scope."
+    },
+    {
+      "task": 18,
+      "candidate": "NTNU Brekken operations",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.itk.ntnu.no/english/lab/unmanned"
+      ],
+      "reason": "Brekken is named as an operating location; a distinct facility and its site boundary are not described."
+    },
+    {
+      "task": 19,
+      "candidate": "NTNU Ørland operations",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.itk.ntnu.no/english/lab/unmanned"
+      ],
+      "reason": "The location list supports activity, but the physical base and relationship to other operators remain unresolved."
+    },
+    {
+      "task": 20,
+      "candidate": "NTNU Frøya operations",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.itk.ntnu.no/english/lab/unmanned"
+      ],
+      "reason": "The overview names Frøya without identifying a specific launch base or dedicated testing facility."
+    },
+    {
+      "task": 21,
+      "candidate": "NTNU Ny-Ålesund operations",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.itk.ntnu.no/english/lab/unmanned"
+      ],
+      "reason": "The location is named, but a distinct site and its relationship to other Arctic research infrastructure need clarification."
+    },
+    {
+      "task": 22,
+      "candidate": "ITG ANCORA coastal drone test centre",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "itg-ancora-san-cibrao",
+      "sourceUrls": [
+        "https://ancora.itg.es/en/home"
+      ],
+      "reason": "One coastal test campus. Its flight pad, hangar, automated-hangar demonstration and individual use cases are grouped. ITG’s registered address in A Coruña is not this facility’s location. Current access and flight permission remain unverified."
+    },
+    {
+      "task": 23,
+      "candidate": "INTA CEDEA El Arenosillo UAS test centre",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "inta-cedea-el-arenosillo",
+      "sourceUrls": [
+        "https://www.inta.es/INTA/en/donde-estamos/Centros-de-ensayos/"
+      ],
+      "reason": "One CEDEA site. INTA explicitly distinguishes it geographically from the existing CEUS Moguer record despite their integrated programme. Other research activities and test areas are not extra records. The 2024 CEUS development date is not this source’s publication date."
+    },
+    {
+      "task": 24,
+      "candidate": "INTA CIAR Rozas",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.inta.es/CIAR/en/instalaciones-y-servicios/"
+      ],
+      "reason": "Already represented by ciar-rozas. Supporting facilities remain within that site."
+    },
+    {
+      "task": 25,
+      "candidate": "ATLAS Alpha Villacarrillo",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.catec.aero/en/atlas/"
+      ],
+      "reason": "Already represented by atlas-alpha-villacarrillo; the newer combined directory is not a new site."
+    },
+    {
+      "task": 26,
+      "candidate": "ATLAS Bravo Beas de Segura",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.catec.aero/en/atlas/"
+      ],
+      "reason": "Already represented by atlas-bravo-beas; shared branding does not create another record."
+    },
+    {
+      "task": 27,
+      "candidate": "Foremost UAS Range",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://foremostuasrange.ca/airspace/"
+      ],
+      "reason": "Already represented by foremost-uas-range. Indexed airspace material does not identify a new ground site; direct retrieval failed."
+    },
+    {
+      "task": 28,
+      "candidate": "Alma QUALIA test environment",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.cedquebec.ca/en/support-and-innovation/research-and-development"
+      ],
+      "reason": "The Alma Airport testing environment is already represented by qualia-alma; runway and support services are grouped."
+    },
+    {
+      "task": 29,
+      "candidate": "Ear Falls ARDTIC",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://3points.ca/ardtic/"
+      ],
+      "reason": "The operator combines existing test-centre claims with future airport conversion and infrastructure wording. Reconcile completed scope and development phases before addition."
+    },
+    {
+      "task": 30,
+      "candidate": "Västervik Airport drone test centre",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "vastervik-airport-drone-test-centre",
+      "sourceUrls": [
+        "https://www.vastervikdsp.com/uxs-test-demo/"
+      ],
+      "reason": "One airport facility, including the Drone Center Sweden identity. Wider geographical zones and off-airport demonstrations are not additional bases. Inconsistent airspace-area figures are omitted. The 2014 activity year is not a publication date."
+    },
+    {
+      "task": 31,
+      "candidate": "Green Flyway Östersund test arena",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.ostersund.se/trafik-och-infrastruktur/hallbart-resande/green-flyway.html"
+      ],
+      "reason": "The regional programme spans several locations. Resolve the individual ground facility and its boundary before counting a city-wide arena."
+    },
+    {
+      "task": 32,
+      "candidate": "Green Flyway Røros test arena",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://roros.kommune.no/naering/vi-deltar-i-prosjektet-green-flyway-en-testarena-for-el-fly-droner-og-luftfarstkontroll/"
+      ],
+      "reason": "The municipal report describes creating an international test corridor. A distinct completed drone facility is not established by that programme announcement."
+    },
+    {
+      "task": 33,
+      "candidate": "BCN Drone Center Moià test site",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "bcn-moia-drone-test-centre",
+      "sourceUrls": [
+        "https://www.barcelonadronecenter.com/"
+      ],
+      "reason": "One Moià test campus. The Barcelona branding does not locate it at Barcelona airport or the city port. Workshops, training rooms, hangars and temporary off-site assignments are not extra records."
+    },
+    {
+      "task": 34,
+      "candidate": "Maynooth University Drone Test Centre",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.eurocontrol.int/sites/default/files/2024-06/eurocontrol-european-uas-test-centres-alliance-survey-results.pdf"
+      ],
+      "reason": "The survey lists the centre without a website. Resolve its physical identity and possible relationship to the already recorded Waterford U-Flyte base."
+    },
+    {
+      "task": 35,
+      "candidate": "Portugal ZLT Infante D. Henrique",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://ani.pt/en/regulatory-sandboxes/"
+      ],
+      "reason": "The national listing establishes a broad multimodal regulatory sandbox, without defining a single physical drone base for this record."
+    },
+    {
+      "task": 36,
+      "candidate": "Atlantis Test Center Viana do Castelo",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.inesctec.pt/en/press-releases/portuguese-team-successfully-tests-autonomous-robots-to-inspect-floating-offshore-wind-farms"
+      ],
+      "reason": "The report supports actual offshore drone testing. Resolve whether the record should represent the offshore trial platform or a separate onshore operating base; do not infer a launch site."
+    },
+    {
+      "task": 37,
+      "candidate": "Texas A&M RELLIS UAS flight-test facility",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "tamu-rellis-uas-flight-test-facility",
+      "sourceUrls": [
+        "https://vscl.tamu.edu/facility/uas-flight-testing-facility/"
+      ],
+      "reason": "One RELLIS site, also called Riverside Campus in the directions. The main university campus, individual runway segments and student demonstrations are not extra records. No current booking or operational approval is implied."
+    },
+    {
+      "task": 38,
+      "candidate": "EUOPEX Santa Margarida campaign site",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://eda.europa.eu/news-and-events/news/2026/09/25/major-european-defence-experimentation-campaign-begins-in-portugal"
+      ],
+      "reason": "This campaign announcement does not establish a separately scoped continuing drone flight facility. Confirm completed activity and site identity before addition."
+    },
+    {
+      "task": 39,
+      "candidate": "Skellefteå Droneport",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "skelleftea-hammarangen-droneport",
+      "sourceUrls": [
+        "https://arcticaviationhub.com/skelleftea-droneport/",
+        "https://skelleftea.se/society-expo-2026/en/society-expo-2026/participation/projects/projects/droneport"
+      ],
+      "reason": "One city-side droneport. The hub’s airport and educational campus are separate leads and are not counted here. Its Innovation Park contact address is not treated as the flight site. The municipality identifies the droneport at Hammarängen."
+    },
+    {
+      "task": 40,
+      "candidate": "UNSW Aerodynamics and Propeller Testing Centre",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.unsw.edu.au/research/facilities-and-infrastructure/find-a-facility/apt"
+      ],
+      "reason": "Wind tunnels and propeller test rigs support component testing; a separate free-flight area is not established."
+    },
+    {
+      "task": 41,
+      "candidate": "CSIR Aerospace flight-testing facilities",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.csir.co.za/what-we-do/defence-and-security/aerospace"
+      ],
+      "reason": "The service overview lists flight testing and wind tunnels but does not identify a distinct drone flight base."
+    },
+    {
+      "task": 42,
+      "candidate": "CDU Katherine AIR-F",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.cdu.edu.au/news/new-test-flight-facility-lets-drone-operators-test-tech-extreme-conditions"
+      ],
+      "reason": "The Katherine Rural Campus facility is already represented; the AIR-F launch report is additional evidence for that site."
+    },
+    {
+      "task": 43,
+      "candidate": "Cloncurry Queensland Flight Test Range",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://statements.qld.gov.au/statements/91088"
+      ],
+      "reason": "Already represented by cloncurry-flight-test-range. Boeing’s reported flights do not create an additional base."
+    },
+    {
+      "task": 44,
+      "candidate": "Maryland Fearless Flight Facility",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://aero.umd.edu/research/fearless-flight-facility-f3"
+      ],
+      "reason": "The existing Maryland outdoor flight-facility record covers this F3 site; the expanded acronym is an alias."
+    },
+    {
+      "task": 45,
+      "candidate": "FUAVE Espoo Otaniemi",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.fuave.fi/test-areas/"
+      ],
+      "reason": "Application and planned activities are described; completion and ground-site identity remain unresolved."
+    },
+    {
+      "task": 46,
+      "candidate": "FUAVE Vihti Hovi test fields",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.fuave.fi/test-areas/"
+      ],
+      "reason": "Accepted agricultural airspace is listed; the physical launch-site scope needs further evidence."
+    },
+    {
+      "task": 47,
+      "candidate": "Norrköping Airport drone testbed",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.transportforetagen.se/om-oss/dronarnatverket/testbaddar/"
+      ],
+      "reason": "The association lists the airport’s involvement in projects. A primary site report defining completed drone infrastructure or base activity is still needed."
+    },
+    {
+      "task": 48,
+      "candidate": "Arctic Aviation Hub Skellefteå Airport",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.skellefteasciencecity.se/projekt/arctic-aviation-hub/"
+      ],
+      "reason": "The hub assigns the airport to aircraft, eVTOL and charging. Dedicated drone-site scope is not established by this summary."
+    },
+    {
+      "task": 49,
+      "candidate": "Arctic Aviation Hub Campus Skellefteå",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.skellefteasciencecity.se/projekt/arctic-aviation-hub/"
+      ],
+      "reason": "The campus supports education and collaboration; no separate physical drone flight facility is identified."
+    },
+    {
+      "task": 50,
+      "candidate": "Optand Green Flyway test area",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://flygklubben.se/d-omrade-for-test-av-dronare/"
+      ],
+      "reason": "The flying club describes a temporary January–June 2025 test authorization and planned flights. Confirm completed activity and facility scope; do not present the expired authorization as current."
+    }
+  ]
+}

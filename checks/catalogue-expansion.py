@@ -1165,4 +1165,18 @@ assert all(by_id[id]['sourcePublishedAt']==dated_third.get(id) for id in accepte
 assert by_id['aichi-nagoya-port-south-5-test-field']['where']=='Chita, Aichi, Japan'
 assert 'paused' in by_id['japan-kawachi-drone-field']['reviewNotes']
 assert 'without hangars, electricity or water' in by_id['shizuoka-miho-drone-test-airfield']['reviewNotes']
+# Preserve all 629 previous records and reconcile the fourth fifty-task ledger.
+assert hashlib.sha256(json.dumps(additions[:579],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='6b5ede9300f811a93c965dfbf7ce98244d97e39af73f4c973df1f990a9936dab'
+fifty_fourth=json.loads((ROOT/'catalogue/2026-11-08-fourth-fifty-task-review.json').read_text())
+assert fifty_fourth['completedTasks']==50 and [t['task'] for t in fifty_fourth['tasks']]==list(range(1,51))
+assert all(t['reviewStatus']=='completed' and t['sourceUrls'] and t['reason'] for t in fifty_fourth['tasks'])
+accepted_fourth=[t['recordId'] for t in fifty_fourth['tasks'] if t['decision']=='accepted']
+assert accepted_fourth==batch['releases'][107]['recordIds'] and len(accepted_fourth)==fifty_fourth['acceptedRecords']==11
+assert sum(t['decision']=='deferred' for t in fifty_fourth['tasks'])==fifty_fourth['deferredCandidates']==26
+assert sum(t['decision']=='excluded-overlap' for t in fifty_fourth['tasks'])==fifty_fourth['excludedOverlaps']==13
+assert all(t['recordId'] is None for t in fifty_fourth['tasks'] if t['decision']!='accepted')
+assert all(by_id[id]['sourcePublishedAt'] is None for id in accepted_fourth)
+assert by_id['bcn-moia-drone-test-centre']['where']=='Moià, Barcelona, Spain'
+assert by_id['sares-valkeakoski-uas-test-centre']['where']=='Valkeakoski, Finland'
+assert 'ten kilometres' in by_id['inta-cedea-el-arenosillo']['description']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
