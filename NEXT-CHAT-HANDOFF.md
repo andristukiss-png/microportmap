@@ -1,3 +1,15 @@
+# Current catalogue continuation — 8 November 2026
+
+Repository: https://github.com/andristukiss-png/microportmap, branch main. The old no-repository statements below are historical. User requests adding the next locations and authorizes routine decisions without repeated permission. Continue location research, not synthetic task-count inflation.
+
+Batch 110 reviews 50 Japanese location candidates: 29 accepted, 15 deferred, six existing-site overlaps. Build total: 689 (50 original records + 639 additions), 53 countries, 311 remaining to 1,000. See catalogue/one-hundred-tenth-batch-review.md and catalogue/2026-11-08-sixth-fifty-task-review.json for exact decisions and sources. Earlier 660 records are preserved.
+
+Use scripts/build_catalogue.py and deploy dist/, never src/ alone. Run checks/catalogue-expansion.py and checks/catalogue-browser-runner-test.py; GitHub Actions covers 694 routes at desktop/mobile sizes. PR and CI contain actual publication status; the existence of these source files alone does not establish deployment.
+
+New sites include dedicated drone fields, municipal research plots and explicitly described shared or recreational venues. Do not turn courts or rental plots into extra locations. Sekido Yokohama's old field and new centre are one site. Muramoto Sakai and its Tondabayashi field are distinct. Nose Kogen street-number disagreement is deliberately unresolved. ZOZOPARK's operator link now redirects to SMBC FIELD; current drone-use continuity needs follow-up. TK and GAP150 primary text was indexed despite direct-fetch failures. Undated pages retain null original publication dates; municipal update dates are labelled separately. No operation, access or flight permission is independently verified.
+
+---
+
 # MicroportMap handoff — 25 October 2026
 
 Continue development of MicroportMap.com. The user authorizes routine fixes and safe Vercel deployments without repeated approval. Preserve all 50 original research records and existing desktop/mobile colors. Use Cloud Browser for live UI tests. Report implementation, verification and unverified items separately. Do not spawn agents without explicit authorization.
