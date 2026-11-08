@@ -1,0 +1,560 @@
+{
+  "reviewedAt": "2026-11-08",
+  "batch": "2026-11-08-hokkaido-and-resort-candidates",
+  "completedTasks": 50,
+  "acceptedRecords": 15,
+  "deferredCandidates": 33,
+  "excludedOverlaps": 2,
+  "tasks": [
+    {
+      "task": 1,
+      "candidate": "Former Sunagawa Kita High School forest",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.harp.lg.jp/opendata/dataset/1873/resource/4869/%E3%80%90%E6%95%99%E8%82%B2%E5%BA%81%E3%80%91%E7%A0%82%E5%B7%9D%E5%B8%82%E9%AB%98%E6%A0%A1%E5%AE%9F%E7%BF%92%E5%9C%B0%EF%BC%88%E6%9E%97%E5%9C%B0%EF%BC%89.pdf"
+      ],
+      "reason": "Woodland offered for potential tests; no dedicated drone facility established."
+    },
+    {
+      "task": 2,
+      "candidate": "Bibai Technical High School vacant plot",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.harp.lg.jp/opendata/dataset/1873/resource/4876/%E3%80%90%E6%95%99%E8%82%B2%E5%BA%81%E3%80%91%E7%BE%8E%E5%94%84%E5%B8%82%E9%AB%98%E6%A0%A1%E5%AE%9F%E7%BF%92%E5%9C%B0%EF%BC%88%E7%A9%BA%E3%81%8D%E5%9C%B0%EF%BC%89.pdf"
+      ],
+      "reason": "Vacant practice land with no facilities; defer dedicated drone-site classification."
+    },
+    {
+      "task": 3,
+      "candidate": "Former Bibai Minami High School plot",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.harp.lg.jp/opendata/dataset/1873/resource/4877/%E3%80%90%E6%95%99%E8%82%B2%E5%BA%81%E3%80%91%E7%BE%8E%E5%94%84%E5%B8%82%E9%AB%98%E6%A0%A1%E5%AE%9F%E7%BF%92%E5%9C%B0%EF%BC%88%E7%A9%BA%E3%81%8D%E5%9C%B0%E3%80%81%E3%81%9D%E3%81%AE%EF%BC%92%EF%BC%89.pdf"
+      ],
+      "reason": "Overgrown vacant land, without drone-specific infrastructure evidence."
+    },
+    {
+      "task": 4,
+      "candidate": "Bibai Sky Park drone test airfield",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-bibai-sky-park-test-airfield",
+      "sourceUrls": [
+        "https://www.harp.lg.jp/opendata/dataset/1873/resource/4892/%E3%80%90%E7%BE%8E%E5%94%84%E5%B8%82%E3%80%91%E5%A0%B4%E5%A4%96%E9%9B%A2%E7%99%BA%E7%9D%80%E5%A0%B4.pdf"
+      ],
+      "reason": "One shared airfield. Distinct from the existing Bibai agricultural surveying dock record; crewed-aircraft movements constrain drone use."
+    },
+    {
+      "task": 5,
+      "candidate": "Former Horonai Elementary School",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.harp.lg.jp/opendata/dataset/1873/resource/4884/%E3%80%90%E4%B8%89%E7%AC%A0%E5%B8%82%E3%80%91%E6%97%A7%E5%AD%A6%E6%A0%A1%E6%A0%A1%E8%88%8E%E3%80%81%E3%82%B0%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89%EF%BC%88%E3%81%9D%E3%81%AE%EF%BC%91%EF%BC%89.pdf"
+      ],
+      "reason": "Government property lead; detailed PDF retrieval timed out, so a configured drone venue is unconfirmed."
+    },
+    {
+      "task": 6,
+      "candidate": "Former Misono Elementary School",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.harp.lg.jp/opendata/dataset/1873/resource/4885/%E3%80%90%E4%B8%89%E7%AC%A0%E5%B8%82%E3%80%91%E6%97%A7%E5%AD%A6%E6%A0%A1%E6%A0%A1%E8%88%8E%E3%80%81%E3%82%B0%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89%EF%BC%88%E3%81%9D%E3%81%AE%EF%BC%92%EF%BC%89.pdf"
+      ],
+      "reason": "School property needs utilities reinstated and grounds cleared; a functioning drone venue is unconfirmed."
+    },
+    {
+      "task": 7,
+      "candidate": "Chupchinika Yuni drone test campus",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-yuni-chupchinika-test-campus",
+      "sourceUrls": [
+        "https://www.harp.lg.jp/opendata/dataset/1873/resource/4963/%E3%80%90%E7%94%B1%E4%BB%81%E7%94%BA%E3%80%91%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E5%AE%9F%E8%A8%BC%E6%96%BD%E8%A8%AD.pdf"
+      ],
+      "reason": "One campus, grouping the school, gym and grounds. The government sheet explicitly identifies drone equipment and demonstration use."
+    },
+    {
+      "task": 8,
+      "candidate": "Shintotsukawa Yoshino Drone Test Field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-shintotsukawa-yoshino-test-field",
+      "sourceUrls": [
+        "https://kddi.smartdrone.co.jp/academy/shintotsukawa/testfield/"
+      ],
+      "reason": "One field, separate from Yamato and the town-centre SkyHub depot."
+    },
+    {
+      "task": 9,
+      "candidate": "Shintotsukawa Yamato Drone Test Field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-shintotsukawa-yamato-test-field",
+      "sourceUrls": [
+        "https://kddi.smartdrone.co.jp/academy/shintotsukawa/testfield/"
+      ],
+      "reason": "One campus, grouping outdoor flight and indoor support facilities; separate from Yoshino and SkyHub."
+    },
+    {
+      "task": 10,
+      "candidate": "Kamisunagawa Nishiyama drone inspection test facility",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-kamisunagawa-nishiyama-test-housing",
+      "sourceUrls": [
+        "https://www.pref.hokkaido.lg.jp/fs/1/3/1/7/0/4/5/7/_/%E3%80%90%E4%B8%8A%E7%A0%82%E5%B7%9D%E7%94%BA%E3%80%91%E6%97%A7%E7%94%BA%E5%96%B6%E5%9B%A3%E5%9C%B0.pdf"
+      ],
+      "reason": "One designated test complex. Rooms on two floors are grouped; no public flying access or active commercial service is inferred."
+    },
+    {
+      "task": 11,
+      "candidate": "Moshiri school grounds",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.pref.hokkaido.lg.jp/fs/1/3/1/7/0/4/6/6/_/%E3%80%90%E8%B5%A4%E5%B9%B3%E5%B8%82%E3%80%91%E8%8C%82%E5%B0%BB%E5%B0%8F%E5%AD%A6%E6%A0%A1.pdf"
+      ],
+      "reason": "School and neighbouring grounds offered as test property; no established drone venue identified."
+    },
+    {
+      "task": 12,
+      "candidate": "Okayamacho snow-storage land",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.pref.hokkaido.lg.jp/fs/1/3/1/7/0/4/7/1/_/%E3%80%90%E5%B2%A9%E8%A6%8B%E6%B2%A2%E5%B8%82%E3%80%91%E5%B2%A1%E5%B1%B1%E7%94%BA%E9%9B%AA%E5%A0%86%E7%A9%8D%E5%A0%B4.pdf"
+      ],
+      "reason": "Seasonal vacant test land used for snow storage in winter; no dedicated drone facility established."
+    },
+    {
+      "task": 13,
+      "candidate": "Sapporo Drone Park",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-sapporo-drone-park",
+      "sourceUrls": [
+        "https://www.pref.hokkaido.lg.jp/fs/1/3/1/7/0/3/9/5/_/%E3%80%90%E6%9C%AD%E5%B9%8C%E5%B8%82%E3%80%91%E6%9C%AD%E5%B9%8C%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%83%91%E3%83%BC%E3%82%AF%28%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E7%B7%B4%E7%BF%92%E5%A0%B4.pdf"
+      ],
+      "reason": "One field, including the associated woodland flight area. The membership listing does not establish present access."
+    },
+    {
+      "task": 14,
+      "candidate": "Eniwa sewer network",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.harp.lg.jp/opendata/dataset/1873/resource/4883/%E3%80%90%E6%81%B5%E5%BA%AD%E5%B8%82%E3%80%91%E4%B8%8B%E6%B0%B4%E9%81%93%E7%AE%A1%E6%B8%A0%EF%BC%88%E9%9B%A8%E6%B0%B4%E7%AE%A1%E5%8F%8A%E3%81%B3%E6%B1%9A%E6%B0%B4%E7%AE%A1%EF%BC%89.pdf"
+      ],
+      "reason": "Distributed sewer test assets, not a distinct aerial-drone facility; detail retrieval timed out."
+    },
+    {
+      "task": 15,
+      "candidate": "Hokkaido Drone Association Tobetsu field",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.harp.lg.jp/opendata/dataset/1873/resource/4902/%E3%80%90%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E5%8D%94%E4%BC%9A%E3%80%91%E7%B7%B4%E7%BF%92%E5%A0%B4.pdf"
+      ],
+      "reason": "Already recorded as japan-tobetsu-association-field."
+    },
+    {
+      "task": 16,
+      "candidate": "ASOviva Sapporo drone venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-sapporo-asoviva",
+      "sourceUrls": [
+        "https://asoviva-sapporo.com/"
+      ],
+      "reason": "One venue; indoor and conditional outdoor experiences are grouped. The privacy-policy date is not the facility publication date."
+    },
+    {
+      "task": 17,
+      "candidate": "Sapporo Dome test-use lead",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.pref.hokkaido.lg.jp/fs/1/3/1/6/7/2/5/6/_/%E5%A4%A7%E5%92%8C%E3%83%8F%E3%82%A6%E3%82%B9%E3%83%97%E3%83%AC%E3%83%9F%E3%82%B9%E3%83%88%E3%83%89%E3%83%BC%E3%83%A0%28%E6%9C%AD%E5%B9%8C%E3%83%89%E3%83%BC%E3%83%A0%29.pdf"
+      ],
+      "reason": "General arena offered for testing; dedicated drone operations unconfirmed. Technology Farm Nishinosato incorrectly shares this PDF link and is not added."
+    },
+    {
+      "task": 18,
+      "candidate": "Apple Port Yoichi drone test airfield",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-yoichi-apple-port-test-airfield",
+      "sourceUrls": [
+        "https://www.harp.lg.jp/opendata/dataset/1873/resource/4935/%E3%80%90%E4%BD%99%E5%B8%82%E7%94%BA%E3%80%91%E8%BE%B2%E9%81%93%E9%9B%A2%E7%99%BA%E7%9D%80%E5%A0%B4.pdf"
+      ],
+      "reason": "One shared airfield. The sheet lists a May–October season and other aircraft users; current availability is unverified."
+    },
+    {
+      "task": 19,
+      "candidate": "NISEKO T. village woodland",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.harp.lg.jp/opendata/dataset/1873/resource/5933/%E3%80%90%E8%98%AD%E8%B6%8A%E7%94%BA%E3%80%91%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97%E5%A0%B4.pdf"
+      ],
+      "reason": "Campsite and forest offered for potential tests; no configured drone flight venue established."
+    },
+    {
+      "task": 20,
+      "candidate": "Tomatoh property C",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.harp.lg.jp/opendata/dataset/1873/resource/4859/%E3%80%90%28%E6%A0%AA%29%E8%8B%AB%E6%9D%B1%E3%80%91%E5%BA%83%E5%A4%A7%E3%81%AA%E5%88%86%E8%AD%B2%E5%9C%B0%281340000m2%29.pdf"
+      ],
+      "reason": "Unserviced land offered for temporary lease, not an established drone installation."
+    },
+    {
+      "task": 21,
+      "candidate": "Tomatoh property D",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.harp.lg.jp/opendata/dataset/1873/resource/4860/%E3%80%90%28%E6%A0%AA%29%E8%8B%AB%E6%9D%B1%E3%80%91%E5%88%86%E8%AD%B2%E5%9C%B0%2875000m2%29.pdf"
+      ],
+      "reason": "Unserviced sale plot in Atsuma, not an established drone facility; directory locality differs from detail sheet."
+    },
+    {
+      "task": 22,
+      "candidate": "Tomikawa Driving School pony track",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.harp.lg.jp/opendata/dataset/1873/resource/4962/%E3%80%90%E6%97%A5%E9%AB%98%E7%94%BA%E3%80%91%E3%81%B0%E3%82%93%E3%81%B0%E5%A0%B4.pdf"
+      ],
+      "reason": "Shared-property lead; detailed PDF retrieval timed out and drone-facility scope remains unconfirmed."
+    },
+    {
+      "task": 23,
+      "candidate": "Tomikawa East disaster square",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.pref.hokkaido.lg.jp/fs/1/3/1/7/0/4/5/9/_/%E3%80%90%E6%97%A5%E9%AB%98%E7%94%BA%E3%80%91%E5%AF%8C%E5%B7%9D%E6%9D%B1%E9%98%B2%E7%81%BD%E5%BA%83%E5%A0%B4.pdf"
+      ],
+      "reason": "General emergency-use square offered for tests; dedicated drone facility not established."
+    },
+    {
+      "task": 24,
+      "candidate": "Asahi no Mori drone development test campus",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-niikappu-asahi-no-mori-test-campus",
+      "sourceUrls": [
+        "https://www.pref.hokkaido.lg.jp/fs/1/3/1/7/0/4/7/4/_/%E3%80%90%E6%96%B0%E5%86%A0%E7%94%BA%E3%80%91%E6%96%B0%E5%86%A0%E7%94%BA%E5%9C%B0%E5%9F%9F%E4%BA%A4%E6%B5%81%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E6%9C%9D%E6%97%A5%E3%81%AE%E6%A3%AE_%E3%82%B0%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89.pdf"
+      ],
+      "reason": "One campus. Unlike a generic property listing, the sheet explicitly reports drone-development use; other community activities share the site."
+    },
+    {
+      "task": 25,
+      "candidate": "Former Toi High School",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.harp.lg.jp/opendata/dataset/1873/resource/4874/%E3%80%90%E6%95%99%E8%82%B2%E5%BA%81%E3%80%91%E5%87%BD%E9%A4%A8%E5%B8%82%E6%97%A7%E6%A0%A1%E8%88%8E%E3%80%81%E4%BD%93%E8%82%B2%E9%A4%A8.pdf"
+      ],
+      "reason": "Vacant school without utilities; potential test property rather than established drone facility."
+    },
+    {
+      "task": 26,
+      "candidate": "Matsumae exchange centre",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.harp.lg.jp/opendata/dataset/1873/resource/5393/%E3%80%90%E6%9D%BE%E5%89%8D%E7%94%BA%E3%80%91%E5%BB%83%E6%A0%A1%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%9F%E4%BA%A4%E6%B5%81%E6%96%BD%E8%A8%AD.pdf"
+      ],
+      "reason": "Former-school property lead; detail retrieval timed out, leaving drone-specific scope unconfirmed."
+    },
+    {
+      "task": 27,
+      "candidate": "Furen Nisshin school grounds",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.harp.lg.jp/opendata/dataset/1873/resource/4895/%E3%80%90%E5%90%8D%E5%AF%84%E5%B8%82%E3%80%91%E5%AD%A6%E6%A0%A1%E8%B7%A1%E5%9C%B0%E3%80%81%E3%82%B0%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89.pdf"
+      ],
+      "reason": "Partly demolished school with shared community uses and inconsistent utility status; dedicated drone venue unconfirmed."
+    },
+    {
+      "task": 28,
+      "candidate": "Former Wassamu Junior High grounds",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.harp.lg.jp/opendata/dataset/1873/resource/4894/%E3%80%90%E5%92%8C%E5%AF%92%E7%94%BA%E3%80%91%E3%82%B0%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89.pdf"
+      ],
+      "reason": "General grounds offered for tests; drone-specific installation not established."
+    },
+    {
+      "task": 29,
+      "candidate": "Toma ski area test-use lead",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.harp.lg.jp/opendata/dataset/1873/resource/4890/%E3%80%90%E5%BD%93%E9%BA%BB%E7%94%BA%E3%80%91%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4.pdf"
+      ],
+      "reason": "Seasonal rental area within a ski venue; no dedicated drone field established."
+    },
+    {
+      "task": 30,
+      "candidate": "Toma municipal forest",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.harp.lg.jp/opendata/dataset/1873/resource/4891/%E3%80%90%E5%BD%93%E9%BA%BB%E7%94%BA%E3%80%91%E7%94%BA%E6%9C%89%E6%9E%97.pdf"
+      ],
+      "reason": "Large distributed forest estate, not a distinct drone facility."
+    },
+    {
+      "task": 31,
+      "candidate": "Higashikagura University grounds",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.pref.hokkaido.lg.jp/fs/1/3/1/7/0/4/2/2/_/%E3%80%90%E6%9D%B1%E7%A5%9E%E6%A5%BD%E7%94%BA%E3%80%91%E6%9D%B1%E7%A5%9E%E6%A5%BD%E5%A4%A7%E5%AD%A6.pdf"
+      ],
+      "reason": "Shared gym and schoolyard offered for tests; dedicated drone use not established in the sheet."
+    },
+    {
+      "task": 32,
+      "candidate": "Shibetsu former racecourse",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.pref.hokkaido.lg.jp/fs/1/3/1/7/0/4/2/3/_/%E3%80%90%E5%A3%AB%E5%88%A5%E5%B8%82%E3%80%91%E6%97%A7%E7%AB%B6%E9%A6%AC%E5%A0%B4.pdf"
+      ],
+      "reason": "Vacant property offered for possible research; no drone facility established."
+    },
+    {
+      "task": 33,
+      "candidate": "Former Nakatayori Elementary School",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.pref.hokkaido.lg.jp/fs/1/3/1/7/0/4/2/5/_/%E3%80%90%E5%A3%AB%E5%88%A5%E5%B8%82%E3%80%91%E6%97%A7%E4%B8%AD%E5%A4%9A%E5%AF%84%E5%B0%8F%E5%AD%A6%E6%A0%A1.pdf"
+      ],
+      "reason": "Disused property with unusable damaged buildings; no configured drone venue established."
+    },
+    {
+      "task": 34,
+      "candidate": "Former Kitaochiai Elementary School",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.pref.hokkaido.lg.jp/fs/1/3/1/7/0/4/7/6/_/%E3%80%90%E5%8D%97%E5%AF%8C%E8%89%AF%E9%87%8E%E7%94%BA%E3%80%91%E6%97%A7%E5%8C%97%E8%90%BD%E5%90%88%E5%B0%8F%E5%AD%A6%E6%A0%A1.pdf"
+      ],
+      "reason": "Reusable school property subject to local agreement; dedicated drone facility unconfirmed."
+    },
+    {
+      "task": 35,
+      "candidate": "Former Rumoi High School site A",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.harp.lg.jp/opendata/dataset/1873/resource/4881/%E3%80%90%E6%95%99%E8%82%B2%E5%BA%81%E3%80%91%E7%95%99%E8%90%8C%E5%B8%82%E6%97%A7%E6%A0%A1%E8%88%8E%E8%B7%A1%E5%9C%B0%EF%BC%88%E6%9E%97%E5%9C%B0%EF%BC%89.pdf"
+      ],
+      "reason": "Demolished-school woodland with no facilities; no established drone venue."
+    },
+    {
+      "task": 36,
+      "candidate": "Former Wakkanai Technical Training College",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.pref.hokkaido.lg.jp/fs/1/3/1/7/0/4/7/5/_/%E3%80%90%E7%A8%9A%E5%86%85%E5%B8%82%E3%80%91%E6%97%A7%E7%A8%9A%E5%86%85%E9%AB%98%E7%AD%89%E6%8A%80%E8%A1%93%E5%B0%82%E9%96%80%E5%AD%A6%E9%99%A2.pdf"
+      ],
+      "reason": "Vacant land without facilities; no configured drone venue established."
+    },
+    {
+      "task": 37,
+      "candidate": "Takinoue FPV Field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-takinoue-fpv-field",
+      "sourceUrls": [
+        "https://www.pref.hokkaido.lg.jp/fs/1/3/1/6/7/1/8/4/_/01_TAKINOUE%20FPV%20FIELD%28%E6%97%A7%E6%BB%9D%E4%B8%8A%E4%B8%AD%E5%AD%A6%E6%A0%A1%E5%BB%83%E6%A0%A1%E8%88%8E%29.pdf"
+      ],
+      "reason": "One former-school venue. The sheet describes trial pricing and excludes corporate demonstration tests; access remains unverified."
+    },
+    {
+      "task": 38,
+      "candidate": "Takinoue Sports Park drone fields",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-takinoue-sports-park-fields",
+      "sourceUrls": [
+        "https://www.pref.hokkaido.lg.jp/fs/1/3/1/6/7/1/8/5/_/02_TAKINOUE%20BALL%20PARK%20FIELD%28%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E5%85%AC%E5%9C%92%E9%87%8E%E7%90%83%E5%A0%B4%29.pdf"
+      ],
+      "reason": "One sports-park campus, grouping Ball Park and Drill fields. Sports use has priority; the source describes trial pricing."
+    },
+    {
+      "task": 39,
+      "candidate": "Takinoue Drill Field",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.pref.hokkaido.lg.jp/fs/1/3/1/6/7/1/9/0/_/03_TAKINOUE%20DRONE%20DRILL%20FIELD%28%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E5%85%AC%E5%9C%92%E5%AE%A4%E5%86%85%E3%82%B0%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89%29.pdf"
+      ],
+      "reason": "Grouped into the Takinoue Sports Park campus record in this batch; not an extra location."
+    },
+    {
+      "task": 40,
+      "candidate": "Takinoue Public Runway Akebono",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-takinoue-akebono-launch-field",
+      "sourceUrls": [
+        "https://www.pref.hokkaido.lg.jp/fs/1/3/1/6/7/1/9/1/_/04_TAKINOUE%20PUBLIC%20RUNWAY%20AKEBONO(%E7%94%BA%E5%96%B6%E4%BD%8F%E5%AE%85%E3%81%82%E3%81%91%E3%81%BC%E3%81%AE%E8%A5%BF%E5%9B%A3%E5%9C%B0%E6%95%B7%E5%9C%B0%E5%86%85).pdf"
+      ],
+      "reason": "One launch area, separate from the school and sports park. The sheet has inconsistent indoor-area wording; no building dimensions or flight permission are inferred."
+    },
+    {
+      "task": 41,
+      "candidate": "Takinoue municipal bridges",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.pref.hokkaido.lg.jp/fs/1/3/1/6/7/1/9/2/_/05_%E6%BB%9D%E4%B8%8A%E7%94%BA%E7%AE%A1%E7%90%86%E6%A9%8B%E6%A2%81.pdf"
+      ],
+      "reason": "Distributed inspection targets, not one drone facility; individual bridges are not counted as ports."
+    },
+    {
+      "task": 42,
+      "candidate": "Takinoue sewer network",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.pref.hokkaido.lg.jp/fs/1/3/1/6/7/1/9/3/_/06_%E6%BB%9D%E4%B8%8A%E7%94%BA%E4%B8%8B%E6%B0%B4%E9%81%93%E7%AE%A1%E7%B6%B2.pdf"
+      ],
+      "reason": "Distributed pipe-inspection assets, not an aerial-drone flight facility."
+    },
+    {
+      "task": 43,
+      "candidate": "Takinoue municipal roads",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.pref.hokkaido.lg.jp/fs/1/3/1/6/7/1/9/4/_/07_%E6%BB%9D%E4%B8%8A%E7%94%BA%E9%81%93.pdf"
+      ],
+      "reason": "Distributed road test assets, not a distinct drone facility."
+    },
+    {
+      "task": 44,
+      "candidate": "Takinoue municipal buildings",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.pref.hokkaido.lg.jp/fs/1/3/1/6/7/1/9/5/_/08_%E6%BB%9D%E4%B8%8A%E7%94%BA%E7%94%BA%E5%96%B6%E4%BD%8F%E5%AE%85%E7%AD%89%E5%BB%BA%E7%AF%89%E6%A7%8B%E9%80%A0%E7%89%A9.pdf"
+      ],
+      "reason": "Distributed inspection targets; no dedicated drone facility identified."
+    },
+    {
+      "task": 45,
+      "candidate": "Iwanai Senkyo suspension bridge",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.harp.lg.jp/opendata/dataset/1873/resource/4886/%E3%80%90%E5%B8%AF%E5%BA%83%E5%B8%82%E3%80%91%E3%81%A4%E3%82%8A%E6%A9%8B.pdf"
+      ],
+      "reason": "Inspection-target lead, not a drone facility; detailed retrieval timed out."
+    },
+    {
+      "task": 46,
+      "candidate": "Kita Aikoku event square",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.harp.lg.jp/opendata/dataset/1873/resource/4887/%E3%80%90%E5%B8%AF%E5%BA%83%E5%B8%82%E3%80%91%E5%B1%8B%E5%A4%96%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E4%BC%9A%E5%A0%B4.pdf"
+      ],
+      "reason": "Shared event grounds offered for tests; dedicated drone facility unconfirmed."
+    },
+    {
+      "task": 47,
+      "candidate": "Memuro Kakko former training grounds",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.harp.lg.jp/opendata/dataset/1873/resource/4867/%E3%80%90%E8%8A%BD%E5%AE%A4%E7%94%BA%E3%80%91%E6%97%A7%E7%A0%94%E4%BF%AE%E6%96%BD%E8%A8%AD%E3%82%B0%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89.pdf"
+      ],
+      "reason": "General property lead; detail retrieval timed out and drone-specific scope remains unconfirmed."
+    },
+    {
+      "task": 48,
+      "candidate": "Betsukai Flight Park drone practice venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-betsukai-flight-park",
+      "sourceUrls": [
+        "https://www.harp.lg.jp/opendata/dataset/1873/resource/4933/%E3%80%90%E5%88%A5%E6%B5%B7%E7%94%BA%E3%80%91%E5%88%A5%E6%B5%B7FP.pdf"
+      ],
+      "reason": "One campus, grouping indoor and outdoor facilities. Other aircraft and RC users share the site; booking and flight access are unverified."
+    },
+    {
+      "task": 49,
+      "candidate": "Maiko Drone Field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-maiko-drone-field",
+      "sourceUrls": [
+        "https://www.maiko-resort.com/summer/drone.html"
+      ],
+      "reason": "One resort field, partly shared with disc golf. The published 2026 season ended on 12 October; this record does not claim it is open now."
+    },
+    {
+      "task": 50,
+      "candidate": "Mt. Fuji Sky Ground",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-asagiri-mt-fuji-sky-ground",
+      "sourceUrls": [
+        "https://asagiri-foodpark.com/drone.html"
+      ],
+      "reason": "One food-park field. The March 2025 reopening is not a second facility or the page publication date."
+    }
+  ]
+}
