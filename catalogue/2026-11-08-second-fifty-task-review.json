@@ -1,0 +1,563 @@
+{
+  "reviewedAt": "2026-11-08",
+  "researchBatch": "2026-11-08-fifty-international-facility-candidates",
+  "taskDefinition": "Screen one candidate for source evidence, site identity and catalogue eligibility; a completed screening can defer addition.",
+  "completedTasks": 50,
+  "acceptedRecords": 18,
+  "deferredCandidates": 24,
+  "excludedOverlaps": 8,
+  "tasks": [
+    {
+      "task": 1,
+      "candidate": "DIT University indoor drone testing centre",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "dit-dehradun-indoor-drone-centre",
+      "sourceUrls": [
+        "https://www.dituniversity.edu.in/research/research-centers-and-facilities"
+      ],
+      "reason": "One Drone CoE at the Makkawala university campus. Aircraft, assembly kits and other research centres are not additional sites. The establishment year is not a publication date."
+    },
+    {
+      "task": 2,
+      "candidate": "IIT Kanpur Helicopter and VTOL indoor flight laboratory",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "iit-kanpur-helicopter-vtol-indoor-lab",
+      "sourceUrls": [
+        "https://startupmission.up.gov.in/en/pages/drone-coe-kanpur"
+      ],
+      "reason": "One indoor laboratory. The separately listed runway is outside this record. A proposed gust wall is not presented as installed equipment, and CoE names are not counted as additional sites."
+    },
+    {
+      "task": 3,
+      "candidate": "TU Dresden TAFAS",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://tu-dresden.de/smart-mobility-lab/forschung/tafas?set_language=en"
+      ],
+      "reason": "The facility description and visualisation need reconciliation with construction status and the actual site before addition."
+    },
+    {
+      "task": 4,
+      "candidate": "IITRAM Aerial Robotics Laboratory",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.iitram.ac.in/aerodef"
+      ],
+      "reason": "The source says laboratories are being established and lists facilities that will be available. It does not establish completed flight provision."
+    },
+    {
+      "task": 5,
+      "candidate": "PASTEC Indore drone training campus",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "pastec-indore-drone-training-campus",
+      "sourceUrls": [
+        "https://pastec.mppolice.gov.in/content.php?key=training_infrastructure&lang=en"
+      ],
+      "reason": "One training campus, including its indoor arena and outdoor zone. Hover, takeoff and landing exercises do not create separate sites. Course availability and permission are not independently verified."
+    },
+    {
+      "task": 6,
+      "candidate": "IBISC indoor drone platform",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "evry-ibisc-indoor-drone-platform",
+      "sourceUrls": [
+        "https://www.ibisc.univ-evry.fr/plateformes/drones/index.html"
+      ],
+      "reason": "One IBISC platform in Évry. X500, FIRNAS and Crazyflie platforms are equipment, not separate facilities. The precise flight-room coordinates are not established."
+    },
+    {
+      "task": 7,
+      "candidate": "Karunya UAV and Flight Simulator Laboratory",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.karunya.edu/aerospace/UAV-and-Flight-simulator-Facility"
+      ],
+      "reason": "Aircraft, assembly, calibration and simulation facilities are described, without a clearly identified physical drone flight area."
+    },
+    {
+      "task": 8,
+      "candidate": "Lille LMFL ONERA B20 free-flight laboratory",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "lille-lmfl-onera-b20-flight-lab",
+      "sourceUrls": [
+        "https://lmfl.univ-lille.fr/equipements-et-plateformes/laboratoire-de-vol-libre"
+      ],
+      "reason": "One B20 hall, described as 90 by 20 by 20 metres. Historical wind equipment and proposed upgrades are not additional facilities or evidence that future upgrades are operational."
+    },
+    {
+      "task": 9,
+      "candidate": "BTU Cottbus control systems drone cage",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "btu-cottbus-control-drone-cage",
+      "sourceUrls": [
+        "https://www.b-tu.de/en/fg-regelungssysteme/research/research-areas/laboratory-research-facilities"
+      ],
+      "reason": "One laboratory flight cage in Cottbus. Parrot and Pixhawk aircraft and tracking systems are equipment; other laboratory workstations are not additional aerial sites."
+    },
+    {
+      "task": 10,
+      "candidate": "MAIT UAV Research and Development Facility",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.me.mait.ac.in/index.php/campus-life/additional-facilities/uav-research-development-facility"
+      ],
+      "reason": "Room 203 supports assembly and programming; flight learning objectives do not establish that flights occur in this physical laboratory."
+    },
+    {
+      "task": 11,
+      "candidate": "Galgotias Drone Research and Development Center",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.galgotiasuniversity.edu.in/p/drone-research-and-development-center"
+      ],
+      "reason": "The retrieved material does not resolve a distinct physical flight space. The centre title alone is insufficient."
+    },
+    {
+      "task": 12,
+      "candidate": "Bundeswehr University Munich MissionLab cage",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.unibw.de/ingmathe/navigationselemente-labor/drones-1"
+      ],
+      "reason": "The university equipment page does not resolve the location and relationship of the separately reported new MissionLab cage. Reconcile before adding."
+    },
+    {
+      "task": 13,
+      "candidate": "TiHAN IIT Hyderabad propulsion laboratory",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://tihan.iith.ac.in/eVTOLpropulsiontesting.html"
+      ],
+      "reason": "Propulsion testing equipment alone does not establish a distinct aerial flight facility."
+    },
+    {
+      "task": 14,
+      "candidate": "UPC Castelldefels DroneLab",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "upc-castelldefels-dronelab",
+      "sourceUrls": [
+        "https://www.upc.edu/en/press-room/news/the-upc-and-the-castelldefels-city-council-inaugurate-dronelab-a-unique-laboratory-and-flight-facility-for-uavs"
+      ],
+      "reason": "One campus enclosure, not separate sites for ICARUS, EETAC or the Mediterranean Technology Park. The English report was published on 13 December 2022; the opening occurred on 11 November. Current access is unverified."
+    },
+    {
+      "task": 15,
+      "candidate": "TELEPILOTE Marcq training campus",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "telepilote-marcq-training-campus",
+      "sourceUrls": [
+        "https://www.tele-pilote.fr/le-campus-telepilote/"
+      ],
+      "reason": "One campus at 29 Grande Rue, 78770 Marcq. Partner training centres and separate classroom areas are not counted. The opening year is not the publication date."
+    },
+    {
+      "task": 16,
+      "candidate": "ISAE-SUPAERO indoor aviary",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://webfactory.univ-toulouse.fr/app/uploads/sites/20/2023/12/MIDOC-Cartographie.pdf"
+      ],
+      "reason": "University directory and thesis leads describe an aviary; reconcile its identity and relationship to other campus drone laboratories before adding a separate site."
+    },
+    {
+      "task": 17,
+      "candidate": "ONERA Toulouse-region test field",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.onera.fr/sites/default/files/fr-Drones.pdf"
+      ],
+      "reason": "A Toulouse-region test field is mentioned without a sufficiently identified physical location."
+    },
+    {
+      "task": 18,
+      "candidate": "GIPSA-lab MOCA indoor drone aviary",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "gipsa-moca-indoor-aviary",
+      "sourceUrls": [
+        "https://www.gipsa-lab.grenoble-inp.fr/plateau-technique-robotique-aerienne-2/",
+        "https://www.gipsa-lab.grenoble-inp.fr/contact-1/"
+      ],
+      "reason": "One MOCA aviary at the Grenoble university campus in Saint-Martin-d’Hères. Wind tunnels and mobile tracking equipment are included, not additional sites. Unnamed outdoor test locations are excluded."
+    },
+    {
+      "task": 19,
+      "candidate": "ENAC Toulouse Occitanie aviary",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.enac.fr/fr/voliere-drones-toulouse-occitanie"
+      ],
+      "reason": "Already represented by enac-toulouse-flight-arena; the French label does not identify an additional site."
+    },
+    {
+      "task": 20,
+      "candidate": "ENSTA Brest air-sea facility",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.ensta.fr/recherche-et-innovation/decouvrir-la-recherche/plateformes-experimentales/bassin-dexperimentation-air-mer"
+      ],
+      "reason": "Already represented by ensta-brest-air-sea-facility; the same experimental infrastructure is not added again."
+    },
+    {
+      "task": 21,
+      "candidate": "MPIT Gorakhpur drone training laboratory",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "mpit-gorakhpur-drone-training-lab",
+      "sourceUrls": [
+        "https://www.mpit.ac.in/coe_drone.php"
+      ],
+      "reason": "One Gorakhpur training facility. Indoor and outdoor provision are grouped; Phillips Machine Tools is a partner, not an additional site. Aircraft and simulators are equipment."
+    },
+    {
+      "task": 22,
+      "candidate": "CARE College drone workshop",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://care.ac.in/engineering/2025/07/18/three-days-hands-on-workshop-on-cra332-drone-technologies/"
+      ],
+      "reason": "A workshop report documents activity, not a distinct permanent flight facility."
+    },
+    {
+      "task": 23,
+      "candidate": "Dronetropolis flight arena",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://dronetropolis.com/flight-arena"
+      ],
+      "reason": "Physical address and site identity remain unresolved from the reviewed marketing material."
+    },
+    {
+      "task": 24,
+      "candidate": "Houston ALAIC flight arena",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://cescon.me.uh.edu/facilities/"
+      ],
+      "reason": "Already represented by houston-alaic-flight-arena; another laboratory page does not create a second arena."
+    },
+    {
+      "task": 25,
+      "candidate": "TU Darmstadt DLR School Lab cage",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.tu-darmstadt.de/studieren/studieninteressierte/internationale_studieninteressierte/kurzzeitprogramme_und_sommeruniversitaet/irep_1/artikel_details_de_en_383808.en.jsp"
+      ],
+      "reason": "The student-project description does not resolve the cage location or implementation phase."
+    },
+    {
+      "task": 26,
+      "candidate": "RWTH Aachen DSME PHY_LAB flight cage",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "rwth-aachen-dsme-phy-flight-cage",
+      "sourceUrls": [
+        "https://robotics-institute-germany.de/de/project/infrastruktur/"
+      ],
+      "reason": "One PHY_LAB flying cage at the DSME institute, Theaterstrasse 35–39 in Aachen. This is distinct from the existing Aldenhoven testing-centre record. Ground robots and two institute laboratory labels do not create extra sites."
+    },
+    {
+      "task": 27,
+      "candidate": "TH Nürnberg AerodrOhm indoor flight hall",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "nuremberg-aerodrohm-flight-hall",
+      "sourceUrls": [
+        "https://www.th-nuernberg.de/forschung-innovation/forschungseinrichtungen/ohm-innovation-center/forschung-am-oic/aerodrohm/"
+      ],
+      "reason": "One indoor flight hall at OIC. Research themes, participating projects and swarms are not additional sites. The source does not display an original publication date."
+    },
+    {
+      "task": 28,
+      "candidate": "DLR Cochstedt Hangar 2",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.dlr.de/en/ux/research-operation/research-infrastructure/uas-hangar"
+      ],
+      "reason": "Within the existing dlr-cochstedt-test-centre scope; no additional count for a component hangar."
+    },
+    {
+      "task": 29,
+      "candidate": "TU Berlin Drone Lab",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.tu.berlin/en/ff/research/research-facilities"
+      ],
+      "reason": "A laboratory label and equipment listing do not establish a distinct physical flight area."
+    },
+    {
+      "task": 30,
+      "candidate": "Würzburg IDAS flight facility",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.uni-wuerzburg.de/en/news-and-events/einblick/single/news/drones-2025/"
+      ],
+      "reason": "The physical facility identity and boundary need reconciliation; university drone research is not itself a new site."
+    },
+    {
+      "task": 31,
+      "candidate": "Politecnico di Torino indoor flight facility",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://webthesis.biblio.polito.it/38549/"
+      ],
+      "reason": "Thesis evidence needs further reconciliation of the actual experiment site and its identity before a distinct facility is added."
+    },
+    {
+      "task": 32,
+      "candidate": "Bologna Flight Mechanics Laboratory",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://industrial-engineering.unibo.it/en/research/research-laboratories/aeronautical-and-space-technologies-laboratory/flight-mechanics-laboratory"
+      ],
+      "reason": "Research and flight-testing capabilities do not sufficiently identify a distinct physical flight space in the reviewed material."
+    },
+    {
+      "task": 33,
+      "candidate": "Trento Sensing Laboratory",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.disi.unitn.it/it/node/1533"
+      ],
+      "reason": "Drone equipment and sensing research are not sufficient evidence for a distinct flight facility."
+    },
+    {
+      "task": 34,
+      "candidate": "Valencia AiRT",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.ai2.upv.es/resultado/airt-software-interfaz-de-usuario-para-el-diseno-de-planes-de-vuelo-con-vehiculos-aereos-no-tripulados-para-vuelo-en-interior/"
+      ],
+      "reason": "The source identifies software and a research project, not a physical indoor flight site."
+    },
+    {
+      "task": 35,
+      "candidate": "Luxembourg SwarmLab",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.uni.lu/fstm-en/facilities/swarmlab/"
+      ],
+      "reason": "Indexed material describes an arena, but direct retrieval was limited. Resolve its physical location and relationship to AeRoLab before addition."
+    },
+    {
+      "task": 36,
+      "candidate": "Luxembourg AeRoLab",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.uni.lu/snt-en/facilities/aerolab/"
+      ],
+      "reason": "Indexed material describes a flight arena, but direct retrieval was limited. Resolve its physical location and relationship to SwarmLab before addition."
+    },
+    {
+      "task": 37,
+      "candidate": "TU Graz ICG droneSpace flying arena",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "tu-graz-icg-dronespace",
+      "sourceUrls": [
+        "https://www.tugraz.at/institute/icg/teaching/coursepages/710099-cameradrones"
+      ],
+      "reason": "One named ICG arena. The evidence concerns the 2024–25 course; current operation is not verified. Course dates and a page revision date are not original publication dates. No separate count or dimensions are inferred from AIRlabs partner listings."
+    },
+    {
+      "task": 38,
+      "candidate": "KU Leuven Bruges drone cage",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://euraxess.ec.europa.eu/jobs/461621"
+      ],
+      "reason": "The recruitment description requires further confirmation of implementation status and the exact facility scope."
+    },
+    {
+      "task": 39,
+      "candidate": "Klagenfurt drone infrastructure",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.aau.at/en/research/research-profile/research-infrastructure/drone-infrastructure/"
+      ],
+      "reason": "The indoor hall and outdoor area are already represented by klagenfurt-indoor-drone-hall and klagenfurt-outdoor-odsa."
+    },
+    {
+      "task": 40,
+      "candidate": "Osaka Institute of Technology Hirakata DX Field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "oit-hirakata-dx-field",
+      "sourceUrls": [
+        "https://www.oit.ac.jp/oit/facility/dx-field/"
+      ],
+      "reason": "One DX Field building in Hirakata, not Osaka city. Its farm, meeting room, sensors and robot storage do not create additional drone sites. The April 2025 opening is not the page publication date."
+    },
+    {
+      "task": 41,
+      "candidate": "Nagoya Institute of Technology GDAC–Yamada flight room",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "nagoya-nitech-gdac-yamada-flight-room",
+      "sourceUrls": [
+        "https://gdaclab.web.nitech.ac.jp/facilities/"
+      ],
+      "reason": "One shared room, not two sites for the participating laboratories. Drones, printers and thrust-testing stands are equipment. The October 2026 page-update timestamp is not an original publication date."
+    },
+    {
+      "task": 42,
+      "candidate": "JBNU IRDL indoor drone and robot test room",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "jbnu-jeonju-irdl-flight-room",
+      "sourceUrls": [
+        "https://irdl.jbnu.ac.kr/facilities.html"
+      ],
+      "reason": "One test room in Jeonju; the source gives the Creative Building 2 address at 567 Baekje-daero. Ground robots and flight platforms are equipment. The source’s operational label is reported, not independently confirmed."
+    },
+    {
+      "task": 43,
+      "candidate": "Incheon Songdo UAM flight room",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://view.asiae.co.kr/en/article/2022012011061293601"
+      ],
+      "reason": "Reconcile the reported room with an institutional source and existing Incheon testing infrastructure before adding a separate site."
+    },
+    {
+      "task": 44,
+      "candidate": "Droneport Solutions South African coastal test site",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.droneportsolutions.com/drone-test-site/"
+      ],
+      "reason": "The reviewed description does not identify the coastal site precisely enough to establish a distinct record."
+    },
+    {
+      "task": 45,
+      "candidate": "Imperial College London Vicon Flight Arena",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "imperial-london-vicon-flight-arena",
+      "sourceUrls": [
+        "https://www.imperial.ac.uk/aeronautics/research/facilities/aerial-robotics/"
+      ],
+      "reason": "One specifically named Vicon arena. The Brahmal Vasudevan multi-terrain arena and Microthruster Lab are not counted separately because their physical relationship requires review. The marker is London only; no campus or building is inferred. Evidence was available through the indexed university page; direct retrieval returned 403."
+    },
+    {
+      "task": 46,
+      "candidate": "Naples PRISMA FLARE",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://prisma.dieti.unina.it/index.php/facilities/flying-arena"
+      ],
+      "reason": "Already represented by naples-prisma-flare; FLARE is an alias of the same arena."
+    },
+    {
+      "task": 47,
+      "candidate": "ITG A Coruña experimentation centre",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://itg.es/en/visit-advanced-experimentation-centre/"
+      ],
+      "reason": "Already represented by itg-coruna-experimentation-centre; the visitor page does not establish a new site."
+    },
+    {
+      "task": 48,
+      "candidate": "Caltech CAST Aerodrome",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://cast.caltech.edu/facilities"
+      ],
+      "reason": "Already represented by caltech-cast-aerodrome; CAST facilities are not recounted under a second label."
+    },
+    {
+      "task": 49,
+      "candidate": "AIT Vienna Aerial Systems Lab",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "ait-vienna-aerial-systems-lab",
+      "sourceUrls": [
+        "https://www.ait.ac.at/en/labs/aerial-systems-lab",
+        "https://www.ait.ac.at/en/about-the-ait/center/center-for-vision-automation-control"
+      ],
+      "reason": "One Aerial Systems Lab at Giefinggasse 4 in Vienna. Unspecified outdoor test environments, flight simulators and Seibersdorf robotics infrastructure are not counted as additional sites."
+    },
+    {
+      "task": 50,
+      "candidate": "NCKU iUAS indoor flight work",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://sites.google.com/view/ncku-iuas/"
+      ],
+      "reason": "Research videos and project descriptions do not sufficiently identify a named physical flight facility."
+    }
+  ]
+}
