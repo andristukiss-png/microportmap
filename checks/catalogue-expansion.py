@@ -1194,4 +1194,24 @@ assert by_id['goyang-daedeok-drone-airfield']['where']=='Goyang, Gyeonggi, South
 assert by_id['ddc-deelen-uas-test-site']['where']=='Deelen, Gelderland, Netherlands'
 assert by_id['rzeszow-dronolandia-flight-track']['infrastructureType']=='Recreational drone flying facility'
 assert 'no paved runway' in by_id['onera-esperce-drone-test-field']['reviewNotes']
+# Preserve all 660 prior records and reconcile the sixth fifty-task review.
+assert hashlib.sha256(json.dumps(additions[:610],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='e7557d415b3750e434daa4c529d36819856f304f37b8bd27f6b9a3429ebd1067'
+sixth_review=json.loads((ROOT/'catalogue/2026-11-08-sixth-fifty-task-review.json').read_text())
+assert sixth_review['completedTasks']==50 and [t['task'] for t in sixth_review['tasks']]==list(range(1,51))
+assert len({t['candidate'] for t in sixth_review['tasks']})==50
+assert all(t['reviewStatus']=='completed' and t['sourceUrls'] and t['reason'] for t in sixth_review['tasks'])
+sixth_ids=[t['recordId'] for t in sixth_review['tasks'] if t['decision']=='accepted']
+assert sixth_ids==batch['releases'][109]['recordIds'] and len(sixth_ids)==sixth_review['acceptedRecords']==29
+assert sum(t['decision']=='deferred' for t in sixth_review['tasks'])==sixth_review['deferredCandidates']==15
+assert sum(t['decision']=='excluded-overlap' for t in sixth_review['tasks'])==sixth_review['excludedOverlaps']==6
+assert all(t['recordId'] is None for t in sixth_review['tasks'] if t['decision']!='accepted')
+for t in sixth_review['tasks']:
+ if t['decision']=='accepted':
+  r=by_id[t['recordId']]
+  assert r['source']['url'] in t['sourceUrls'] and r['reviewNotes']==t['reason']
+  assert r['researchBatch']==sixth_review['batch'] and r['country']=='Japan'
+  assert r['sourcePublishedAt']==('2023-08-06' if r['id']=='japan-kibichuo-jma-drone-field' else None)
+assert 'renamed' in by_id['japan-yokohama-sekido-training-centre']['reviewNotes']
+assert 'administrative address' in by_id['japan-nasushiobara-practice-field']['reviewNotes']
+assert 'Both plots are one campus' in by_id['japan-chiba-agricultural-test-field']['reviewNotes']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
