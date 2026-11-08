@@ -1,6 +1,6 @@
 {
   "batch": "2026-10-28-cumulative-reviewed-additions",
-  "reviewedAt": "2026-11-07",
+  "reviewedAt": "2026-11-08",
   "records": [
     {
       "id": "zipline-omenako",
@@ -17918,9 +17918,40 @@
       "researchBatch": "2026-11-07-loughborough-flight-laboratory",
       "reviewNotes": "One named laboratory, not separate records for tracking cameras, aircraft, ground vehicles or autopilot equipment. The departmental contact address does not independently establish the flight room. No opening date or present booking availability is inferred. Other departmental simulators and wind tunnels are not counted.",
       "coordinateBasis": "Editorial locality reference. Rounded Loughborough marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "newcastle-university-aerospace-drone-zone",
+      "entityKey": "newcastle-university-aerospace-drone-zone",
+      "name": "Newcastle University Aerospace Teaching Laboratory drone zone",
+      "where": "Newcastle University, Newcastle upon Tyne, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "University drone teaching flight zone",
+      "reportedOperator": "Newcastle University — School of Engineering",
+      "reportedEquipment": "Drone flight zone; aircraft models and tracking equipment not stated in cited page",
+      "locationPrecision": "Approximate Newcastle upon Tyne locality reference; not a laboratory coordinate",
+      "approximateMapPoint": {
+        "latitude": 54.98,
+        "longitude": -1.61
+      },
+      "reportDateLabel": "University course and facility description; publication date not displayed",
+      "description": "Newcastle University identifies a drone flight zone within its Aerospace Teaching Laboratory for practical aerospace-engineering study. The zone is counted as one teaching facility.",
+      "source": {
+        "name": "Newcastle University — Aerospace Engineering facilities",
+        "url": "https://www.ncl.ac.uk/engineering/study-with-us/undergraduate/aerospace-engineering/"
+      },
+      "verificationStatus": "University-reported teaching flight zone; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-newcastle-teaching-flight-zone",
+      "reviewNotes": "One named teaching laboratory with explicit physical drone-flight provision. Simulators, wind tunnels, jet engines and Makerspace are not extra records. The source does not establish the exact room, opening date or current bookings. Distinct from Newcastle Airfield in Ireland and the university’s underwater-drone laboratory.",
+      "coordinateBasis": "Editorial locality reference. Rounded Newcastle upon Tyne marker, not a surveyed building, laboratory or launch point."
     }
   ],
-  "expectedTotal": 571,
+  "expectedTotal": 572,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -18951,6 +18982,12 @@
       "id": "2026-11-07-loughborough-flight-laboratory",
       "recordIds": [
         "loughborough-autonomous-systems-flight-lab"
+      ]
+    },
+    {
+      "id": "2026-11-08-newcastle-teaching-flight-zone",
+      "recordIds": [
+        "newcastle-university-aerospace-drone-zone"
       ]
     }
   ]
