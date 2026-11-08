@@ -1,0 +1,567 @@
+{
+  "reviewedAt": "2026-11-08",
+  "researchBatch": "2026-11-08-fifty-flight-and-training-candidates",
+  "taskDefinition": "Screen one candidate for source evidence, site identity and catalogue eligibility; a completed screening can defer addition.",
+  "completedTasks": 50,
+  "acceptedRecords": 17,
+  "deferredCandidates": 24,
+  "excludedOverlaps": 9,
+  "tasks": [
+    {
+      "task": 1,
+      "candidate": "Bangkok University Drone Testing Laboratory",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.bu.ac.th/en/engineering/facilities/97"
+      ],
+      "reason": "Indexed university material describes simulators for assembly and testing. Direct retrieval was rejected; a physical flight area was not established."
+    },
+    {
+      "task": 2,
+      "candidate": "UTHM Drone Tech and Aerial Systems flight nets",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.uthm.edu.my/en/di-sini-pembelajaran-menjadi-pengembaraan-terokai-uthm-edutourism"
+      ],
+      "reason": "The programme describes live piloting inside flight nets, but the exact campus and permanent facility identity need resolution."
+    },
+    {
+      "task": 3,
+      "candidate": "UTM Aerolab UAS laboratory",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://research.utm.my/aerolab/aerolab-facilities/"
+      ],
+      "reason": "The lab covers design through flight testing, but the page does not locate a distinct flight space."
+    },
+    {
+      "task": 4,
+      "candidate": "Chulalongkorn UAS and Flight Systems facilities",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://aero.ise.eng.chula.ac.th/facility/"
+      ],
+      "reason": "Aircraft, ground-control equipment and project preparation areas do not sufficiently identify a physical flight facility."
+    },
+    {
+      "task": 5,
+      "candidate": "C V Raman Drone Technology Centre",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://cgu-odisha.ac.in/drone-technology/"
+      ],
+      "reason": "Assembly, manufacturing and flight-training aims are described, but a distinct flying area is not established."
+    },
+    {
+      "task": 6,
+      "candidate": "UNSW Canberra LIRTA",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.unsw.edu.au/research/facilities-and-infrastructure/find-a-facility/lirta"
+      ],
+      "reason": "Already represented by unsw-canberra-lirta; the expanded arena name does not create another site."
+    },
+    {
+      "task": 7,
+      "candidate": "Sejong University Gwanggaeto indoor flight test room",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "sejong-seoul-gwanggaeto-flight-room",
+      "sourceUrls": [
+        "https://www.sejong.ac.kr/news/newsletter/news.do?article.offset=400&articleLimit=10&articleNo=799174&mode=view"
+      ],
+      "reason": "One Gwanggaeto indoor room. The separately described rooftop and guidance-control laboratory are not counted. The 2019 establishment year differs from the 2022 report date."
+    },
+    {
+      "task": 8,
+      "candidate": "DJI Yongin indoor flight arena",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "dji-yongin-flight-arena",
+      "sourceUrls": [
+        "https://www.dji.com/media-center/announcements/dji-arena-officially-opens-in-korea",
+        "https://www.dji.com/newsroom/news/dji-opens-its-first-drone-arena-in-korea"
+      ],
+      "reason": "One Yongin arena. The Seoul retail store is a different site and is excluded. The 2016 report does not establish present bookings, opening hours or continued service."
+    },
+    {
+      "task": 9,
+      "candidate": "DJI Arena by JDRONE Tokyo",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.dji.com/au/newsroom/news/dji-opens-its-first-drone-arena-in-japan"
+      ],
+      "reason": "The 2017 report announces a forthcoming opening. Completion and subsequent site history need reconciliation before addition."
+    },
+    {
+      "task": 10,
+      "candidate": "Hanseo Taean Flight Education Center",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://hanseoflight.hanseo.ac.kr/fly/0102.do?m=01060406&s=fly"
+      ],
+      "reason": "The reviewed page documents an aviation training airfield but does not establish a specifically scoped drone facility."
+    },
+    {
+      "task": 11,
+      "candidate": "Sinclair Dayton Indoor Flying Pavilion",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "sinclair-dayton-indoor-flying-pavilion",
+      "sourceUrls": [
+        "https://uas.sinclair.edu/center-overview/indoor-flying-pavilion/",
+        "https://uas.sinclair.edu/center-overview/"
+      ],
+      "reason": "One pavilion. The separately named Indoor Flight Range, simulation laboratories and external operating authorizations are not additional records in this review."
+    },
+    {
+      "task": 12,
+      "candidate": "Aerodyne Flight Institute training fields",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://flight-institute.aerodyne.group/"
+      ],
+      "reason": "Multiple cities and forthcoming locations are listed. The general flying-field description cannot be assigned to one specific site without further evidence."
+    },
+    {
+      "task": 13,
+      "candidate": "Anna University MIT CASR facilities",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.mitindia.edu/src/assets/MIT_BROCHURE_JUNE_2024.pdf"
+      ],
+      "reason": "The brochure describes UAV development and simulator training; a distinctly located physical flight facility remains unresolved."
+    },
+    {
+      "task": 14,
+      "candidate": "Hindustan Centre for Autonomous Systems",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://api.hindustanuniv.ac.in/uploads/Research_Brochure_12_6_24_compressed_1e5c46507d.pdf"
+      ],
+      "reason": "General flight-trial and research capability does not establish a distinct site boundary in the reviewed brochure."
+    },
+    {
+      "task": 15,
+      "candidate": "Maharashtra Drone Mission proposed droneport",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://htedu.maharashtra.gov.in/Main/DocMasters/Website/Media/1/Maharashtra_Drone_Mission.pdf"
+      ],
+      "reason": "The mission document describes a proposed droneport and permitted testing areas. Reconcile proposal, construction and actual site scope before addition."
+    },
+    {
+      "task": 16,
+      "candidate": "NIED large rainfall facility drone demonstration",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.bosai.go.jp/info/news/2026/20260917.html"
+      ],
+      "reason": "The source announces a September 2026 demonstration. Follow-up evidence of the event and the continuing drone-test scope is needed."
+    },
+    {
+      "task": 17,
+      "candidate": "Sakai ACSL drone laboratory and field",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.acsl.co.jp/news-release/press-release/3580/"
+      ],
+      "reason": "The source reports a completed facility at Tsukazaki 1988-1. Reconcile its physical boundary with the existing Sakai depot-led programme before counting another site."
+    },
+    {
+      "task": 18,
+      "candidate": "Pandan Reservoir unmanned aircraft flying area",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "singapore-pandan-uafa",
+      "sourceUrls": [
+        "https://www.caas.gov.sg/unmanned-aircraft/no-fly-zones-and-ua-flying-areas/"
+      ],
+      "reason": "One reservoir flying area, distinct from Dover Road. No water-sector dock is inferred. The source revision date is not an original publication date; this record does not grant flight permission."
+    },
+    {
+      "task": 19,
+      "candidate": "Dover Road unmanned aircraft flying area",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "singapore-dover-road-uafa",
+      "sourceUrls": [
+        "https://www.caas.gov.sg/unmanned-aircraft/no-fly-zones-and-ua-flying-areas/"
+      ],
+      "reason": "One Dover Road area, separate from Pandan Reservoir and the PIXEL one-north trial origin. Source rules and closures may change; the record is not flight authorization."
+    },
+    {
+      "task": 20,
+      "candidate": "MRANTI Area 57 drone testing campus",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "mranti-bukit-jalil-area-57",
+      "sourceUrls": [
+        "https://www.mosti.gov.my/berita/pertandingan-dron-multi-gp-pemilihan-peringkat-antarabangsa-2023/"
+      ],
+      "reason": "One Area 57 campus. The runway, netted area, workshops and participating training companies are grouped. The event occurred on 9 July 2023; the ministry page was published on 23 July."
+    },
+    {
+      "task": 21,
+      "candidate": "DRZ Iskandar drone testing zone",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://sandbox.gov.my/sandbox-partners"
+      ],
+      "reason": "A broad robotics zone and test areas are listed. The flight-field location and its relationship to the Medini centre remain unresolved."
+    },
+    {
+      "task": 22,
+      "candidate": "Drone Field KAWACHI",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-kawachi-drone-field",
+      "sourceUrls": [
+        "https://irobotics.jp/kawachi/"
+      ],
+      "reason": "One Kawachi facility. The operator says one-off use is unavailable and new annual-use applications are paused. Outdoor route segments, research rooms and accommodation are not extra sites."
+    },
+    {
+      "task": 23,
+      "candidate": "FFC Higashi-Kawaguchi indoor drone flight field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "ffc-higashi-kawaguchi-flight-field",
+      "sourceUrls": [
+        "https://www.h-kawadff.com/maintenance"
+      ],
+      "reason": "One indoor venue at 6-6-11 Higashi-Kawaguchi. Court subdivisions and training sessions are not extra sites; no current reservation availability is asserted."
+    },
+    {
+      "task": 24,
+      "candidate": "TIRI DX Promotion Center ReAMo workshop",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://reamo.nedo.go.jp/event/4944"
+      ],
+      "reason": "The announced 19–20 November 2026 workshop is still in the future on the review date; its temporary test construction does not establish a permanent flight facility."
+    },
+    {
+      "task": 25,
+      "candidate": "Aichi Nagoya Port South District 5 drone test field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "aichi-nagoya-port-south-5-test-field",
+      "sourceUrls": [
+        "https://www.pref.aichi.jp/soshiki/jisedai/mujinhikoujikken.html"
+      ],
+      "reason": "One field at 5 Midorihama-cho, Chita, despite the Nagoya Port name. The Yahagi River centre is a separate lead. September 2026 is a revision date, not original publication."
+    },
+    {
+      "task": 26,
+      "candidate": "Yahagi River purification-centre test field",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.pref.aichi.jp/soshiki/jisedai/mujinhikoujikken.html"
+      ],
+      "reason": "The prefecture explicitly says applications are temporarily suspended. Clarify the site’s reported activity and appropriate status before adding a record."
+    },
+    {
+      "task": 27,
+      "candidate": "Toyokawa Hashio Sports Plaza drone test field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "toyokawa-hashio-drone-test-field",
+      "sourceUrls": [
+        "https://www.city.toyokawa.lg.jp/soshiki/sangyokankyo/shokokanko/2/8/1/1/3179.html"
+      ],
+      "reason": "One Hashio site. Conflicting area figures in the city and prefectural summaries are omitted. The closed agricultural training-centre arena is not included. The city page date is a revision."
+    },
+    {
+      "task": 28,
+      "candidate": "Politecnico di Milano FlyART",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.aero.polimi.it/en/experimental-labs/flyart-flying-arena-for-rotorcraft-technologies"
+      ],
+      "reason": "Already represented by polimi-flyart-arena; the departmental directory describes the same arena."
+    },
+    {
+      "task": 29,
+      "candidate": "CTU Prague Drone Academy indoor arena",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://meas.fel.cvut.cz/dacourse"
+      ],
+      "reason": "Already represented by ctu-prague-indoor-flight-arena; Drone Academy courses use the existing Dejvice arena."
+    },
+    {
+      "task": 30,
+      "candidate": "University of Tennessee ASL flight arena",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://volweb.utk.edu/~zwang124/res_facility.html"
+      ],
+      "reason": "Already represented by ut-knoxville-asl-flight-arena; the laboratory page is not an additional site."
+    },
+    {
+      "task": 31,
+      "candidate": "Itabashi Drone Field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "tokyo-itabashi-drone-field",
+      "sourceUrls": [
+        "https://www.mitsuifudosan.co.jp/english/corporate/news/2024/1002_02/"
+      ],
+      "reason": "One logistics-campus test facility. The net field, warehouse research spaces, training academy and on-site drone ports are grouped; tenants and equipment are not separate sites."
+    },
+    {
+      "task": 32,
+      "candidate": "TATARA SKY former-school gym demonstrations",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://mediatalking.jp/special/%E5%BB%83%E6%A0%A1%E3%81%AE%E4%BD%93%E8%82%B2%E9%A4%A8%E3%81%8C%E6%9C%AA%E6%9D%A5%E3%81%AE%E5%AE%9F%E9%A8%93%E5%A0%B4%E3%81%AB%EF%BC%81-tatara-sky%E3%81%8C%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%B7/"
+      ],
+      "reason": "The reporting lead requires primary-source confirmation of the former school, site identity and ongoing facility scope."
+    },
+    {
+      "task": 33,
+      "candidate": "Cranfield Building 83 UAV arena",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://gtr.ukri.org/project/AFE12119-039E-4CD4-94A9-7A82882524DA?fetchSize=50&pn=0&selectedSortOrder=ASC&selectedSortableField=title"
+      ],
+      "reason": "The Cranfield arena is already represented by cranfield-drone-flight-arena; a project output is not a new site."
+    },
+    {
+      "task": 34,
+      "candidate": "Bristol Flight Lab facilities",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://flightlab.bristol.ac.uk/facilities/"
+      ],
+      "reason": "The BRL arena and Fenswood field are already represented. The Clifton design and assembly laboratory does not establish another flying site."
+    },
+    {
+      "task": 35,
+      "candidate": "UCVision demonstration cage",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://ucvision.org.nz/category/drones/"
+      ],
+      "reason": "The described cage was part of an event stand. This does not establish a permanent, separately located flight facility."
+    },
+    {
+      "task": 36,
+      "candidate": "New Mexico Tech Skeen Library drone room",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "nmt-socorro-skeen-drone-room",
+      "sourceUrls": [
+        "https://www.nmt.edu/academics/mecheng/news_article/ThunderDrone.php",
+        "https://www.nmt.edu/library/help.php"
+      ],
+      "reason": "One room on Skeen Library’s second floor. The simulator and mini drone museum are not flight sites. The report describes a late-2020 opening and was published in February 2022."
+    },
+    {
+      "task": 37,
+      "candidate": "CMU Hazelwood RIC drone cages",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.cmu.edu/ric/updates/opening.html"
+      ],
+      "reason": "The Hazelwood facility is already represented by cmu-hazelwood-ric-drone-cage. Internal test spaces and further reports do not create another campus record."
+    },
+    {
+      "task": 38,
+      "candidate": "Fahari Nairobi drone cage",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "fahari-nairobi-drone-cage",
+      "sourceUrls": [
+        "https://aviationweek.com/aerospace/fahari-aviation-launches-first-drone-cage-facility-kenya",
+        "https://corporate.kenya-airways.com/en/about-us/milestones/awards-achievements/"
+      ],
+      "reason": "One Nairobi enclosure. The drone club is a community programme, not a second site. No specific campus address is inferred; current access and continued operation remain unverified."
+    },
+    {
+      "task": 39,
+      "candidate": "Embry-Riddle modular drone cage",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://commons.erau.edu/db-undergraduate-studies/1/"
+      ],
+      "reason": "The report documents a constructed portable cage, but its fixed location and relationship to existing university facilities are unresolved."
+    },
+    {
+      "task": 40,
+      "candidate": "Pennovation Center drone cage",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://pennovation.upenn.edu/news/heres-why-pennovation-center-has-drone-cage"
+      ],
+      "reason": "Already covered by penn-perch-flight-test-campus, which includes indoor and outdoor aerial testing at Pennovation."
+    },
+    {
+      "task": 41,
+      "candidate": "Technology University of Poland Drone Lab",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://technology.edu.pl/labs/drone-lab/"
+      ],
+      "reason": "The page claims a netted arena, but a verifiable institution and physical site address were not established. Do not infer a university location from the domain or title."
+    },
+    {
+      "task": 42,
+      "candidate": "University of Tokyo FSLab open-campus drone demonstration",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://sites.google.com/edu.k.u-tokyo.ac.jp/fslab-jp/open-campus"
+      ],
+      "reason": "An electric-vehicle experiment venue hosts a drone demonstration; permanent aerial facility scope is not established."
+    },
+    {
+      "task": 43,
+      "candidate": "AIST buried-vehicle drone experiment field",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.aist.go.jp/aist_j/magazine/20171103.html"
+      ],
+      "reason": "The research report describes flight experiments without sufficiently identifying the physical test-field location."
+    },
+    {
+      "task": 44,
+      "candidate": "Osaka ATC TEQS drone demonstration",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://teqs.jp/news/2024072923997"
+      ],
+      "reason": "Indexed material announces demonstration activity at ATC; direct retrieval timed out. A distinct ongoing flight facility was not established."
+    },
+    {
+      "task": 45,
+      "candidate": "Hokkaido Spaceport UAV runway",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://hokkaidospaceport.com/facilities/"
+      ],
+      "reason": "Already represented by taiki-hospo-uav-runway; the facilities directory does not identify a second runway site."
+    },
+    {
+      "task": 46,
+      "candidate": "Siheung drone education and training centre",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "korea-siheung-drone-training-centre",
+      "sourceUrls": [
+        "https://www.droneportal.or.kr/main/web/contents/M050-01-06",
+        "https://main.kotsa.or.kr/portal/contents.do?menuCode=02020400"
+      ],
+      "reason": "One Siheung centre. Multiple practice lanes, storage rooms and classrooms are grouped. The portal’s ministry and KIAST footer addresses are not used as the facility location."
+    },
+    {
+      "task": 47,
+      "candidate": "Jeonju drone technology development support centre",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.droneportal.or.kr/main/web/contents/M050-01-01"
+      ],
+      "reason": "The national directory names a centre, but its linked facility page timed out. Flight provision and separation from other Jeonju facilities remain unresolved."
+    },
+    {
+      "task": 48,
+      "candidate": "Gimcheon drone qualification test centre",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "korea-gimcheon-drone-qualification-centre",
+      "sourceUrls": [
+        "https://www.droneportal.or.kr/main/web/contents/M050-01-05",
+        "https://main.kotsa.or.kr/portal/contents.do?menuCode=06020402"
+      ],
+      "reason": "One Gimcheon centre. The detailed page reports construction completed in December 2023, superseding an older overview snippet marked planned. Test lanes and the separate Hwaseong centre are not recounted."
+    },
+    {
+      "task": 49,
+      "candidate": "Toyohashi Industrial Human Resources Development Center flight field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "toyohashi-industrial-training-flight-field",
+      "sourceUrls": [
+        "https://www.city.toyohashi.lg.jp/49919.htm"
+      ],
+      "reason": "One indoor field at Jinno-Shinden-cho, Shinowari 1-3. Driving courses, forklift space and lecture rooms are not additional drone facilities. The city-hall footer address is not the site."
+    },
+    {
+      "task": 50,
+      "candidate": "Shizuoka Miho Airfield drone test site",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "shizuoka-miho-drone-test-airfield",
+      "sourceUrls": [
+        "https://www.city.shizuoka.lg.jp/s7524/s013063.html"
+      ],
+      "reason": "One Miho airfield. The city describes interim facilities without hangars, electricity or water. Applications require review; no approval is implied. April 2026 is a page revision, not publication."
+    }
+  ]
+}
