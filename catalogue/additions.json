@@ -17949,9 +17949,71 @@
       "researchBatch": "2026-11-08-newcastle-teaching-flight-zone",
       "reviewNotes": "One named teaching laboratory with explicit physical drone-flight provision. Simulators, wind tunnels, jet engines and Makerspace are not extra records. The source does not establish the exact room, opening date or current bookings. Distinct from Newcastle Airfield in Ireland and the university’s underwater-drone laboratory.",
       "coordinateBasis": "Editorial locality reference. Rounded Newcastle upon Tyne marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "plymouth-autonomous-systems-test-laboratory",
+      "entityKey": "plymouth-autonomous-systems-test-laboratory",
+      "name": "University of Plymouth Autonomous Systems Test Laboratory",
+      "where": "Plymouth, Devon, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "University aerial robotics test facility",
+      "reportedOperator": "University of Plymouth",
+      "reportedEquipment": "Aerial drones; 16 × 9 metre robotics space; motion capture with more than 20 cameras",
+      "locationPrecision": "Approximate Plymouth locality reference; not a laboratory coordinate",
+      "approximateMapPoint": {
+        "latitude": 50.38,
+        "longitude": -4.14
+      },
+      "reportDateLabel": "University facility description; publication date not displayed",
+      "description": "The university identifies its Babbage Building laboratory as a controlled space for testing drone aircraft alongside other robotic systems. It is counted as one research facility.",
+      "source": {
+        "name": "University of Plymouth — Autonomous Systems Test Laboratory",
+        "url": "https://www.plymouth.ac.uk/facilities/autonomous-systems-test-laboratory"
+      },
+      "verificationStatus": "University-reported research facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-plymouth-essex-aerial-research",
+      "reviewNotes": "One named laboratory with explicit drone-aircraft testing provision. The water tank, motion platforms and connected visualisation suite are not extra aerial facilities. The undated source does not establish an opening date or current booking availability.",
+      "coordinateBasis": "Editorial locality reference. Rounded Plymouth marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "essex-robotics-arena",
+      "entityKey": "essex-robotics-arena",
+      "name": "University of Essex Robot Arena",
+      "where": "Colchester, Essex, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "University aerial robotics test facility",
+      "reportedOperator": "University of Essex — Robotics and Mechatronics Laboratory",
+      "reportedEquipment": "100-square-metre Robot Arena with six-metre ceiling for flying robots",
+      "locationPrecision": "Approximate Colchester locality reference; not a laboratory coordinate",
+      "approximateMapPoint": {
+        "latitude": 51.89,
+        "longitude": 0.9
+      },
+      "reportDateLabel": "University facility description; publication date not displayed",
+      "description": "The university describes a Robot Arena designed to accommodate flying robots within its Robotics and Mechatronics Laboratory. One shared research arena is counted.",
+      "source": {
+        "name": "University of Essex — Robotics and Mechatronics Laboratory",
+        "url": "https://www.essex.ac.uk/departments/computer-science-and-electronic-engineering/research/robotics-and-embedded-systems/robotics-and-mechatronics-laboratory"
+      },
+      "verificationStatus": "University-reported research facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-plymouth-essex-aerial-research",
+      "reviewNotes": "One physical arena with explicit flying-robot provision. The powered floor, individual robots, Robotic Games Lab and research projects are not additional aerial sites. The undated page does not establish an opening date, precise room or current access.",
+      "coordinateBasis": "Editorial locality reference. Rounded Colchester marker, not a surveyed building, laboratory or launch point."
     }
   ],
-  "expectedTotal": 572,
+  "expectedTotal": 574,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -18988,6 +19050,13 @@
       "id": "2026-11-08-newcastle-teaching-flight-zone",
       "recordIds": [
         "newcastle-university-aerospace-drone-zone"
+      ]
+    },
+    {
+      "id": "2026-11-08-plymouth-essex-aerial-research",
+      "recordIds": [
+        "plymouth-autonomous-systems-test-laboratory",
+        "essex-robotics-arena"
       ]
     }
   ]
