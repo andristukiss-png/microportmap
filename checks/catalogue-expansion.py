@@ -1214,4 +1214,23 @@ for t in sixth_review['tasks']:
 assert 'renamed' in by_id['japan-yokohama-sekido-training-centre']['reviewNotes']
 assert 'administrative address' in by_id['japan-nasushiobara-practice-field']['reviewNotes']
 assert 'Both plots are one campus' in by_id['japan-chiba-agricultural-test-field']['reviewNotes']
+# Preserve the 689-record baseline and reconcile batch 111 screening decisions.
+assert hashlib.sha256(json.dumps(additions[:639],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='326364ca6bca3abebc8d130f86aa9ddde87750a0f05489222c81e4723dfca06d'
+seventh_review=json.loads((ROOT/'catalogue/2026-11-08-seventh-fifty-task-review.json').read_text())
+assert seventh_review['completedTasks']==50 and [t['task'] for t in seventh_review['tasks']]==list(range(1,51))
+assert len({t['candidate'] for t in seventh_review['tasks']})==50
+assert all(t['reviewStatus']=='completed' and t['sourceUrls'] and t['reason'] for t in seventh_review['tasks'])
+seventh_ids=[t['recordId'] for t in seventh_review['tasks'] if t['decision']=='accepted']
+assert seventh_ids==batch['releases'][110]['recordIds'] and len(seventh_ids)==seventh_review['acceptedRecords']==15
+assert sum(t['decision']=='deferred' for t in seventh_review['tasks'])==seventh_review['deferredCandidates']==33
+assert sum(t['decision']=='excluded-overlap' for t in seventh_review['tasks'])==seventh_review['excludedOverlaps']==2
+for t in seventh_review['tasks']:
+ if t['decision']=='accepted':
+  r=by_id[t['recordId']]
+  assert r['source']['url'] in t['sourceUrls'] and r['reviewNotes']==t['reason']
+  assert r['researchBatch']==seventh_review['batch'] and r['sourcePublishedAt'] is None
+ else: assert t['recordId'] is None
+assert '2026 season has ended' in by_id['japan-maiko-drone-field']['description']
+assert 'grouping Ball Park and Drill' in by_id['japan-takinoue-sports-park-fields']['reviewNotes']
+assert by_id['japan-takinoue-akebono-launch-field']['reportedStatus']=='trial'
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
