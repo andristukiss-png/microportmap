@@ -1,0 +1,565 @@
+{
+  "reviewedAt": "2026-11-08",
+  "researchBatch": "2026-11-08-fifty-europe-and-korea-candidates",
+  "taskDefinition": "Screen one candidate for source evidence, site identity and catalogue eligibility; a completed screening can defer addition.",
+  "completedTasks": 50,
+  "acceptedRecords": 20,
+  "deferredCandidates": 19,
+  "excludedOverlaps": 11,
+  "tasks": [
+    {
+      "task": 1,
+      "candidate": "Kąkolewo AEROSFERA UAV test campus",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "psnc-kakolewo-aerosfera",
+      "sourceUrls": [
+        "https://aerospacelab.psnc.pl/en/aerosfera-lotnisko-rzeczy/"
+      ],
+      "reason": "One aerodrome research campus. The hangar, laboratory groups, safety cage and digital-airport projects are grouped. The Poznań institutional name is not the flight-site location."
+    },
+    {
+      "task": 2,
+      "candidate": "Moravské Budějovice UAV Technology Park",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "moravske-budejovice-uav-park",
+      "sourceUrls": [
+        "https://www.uavtechnologypark.com/en"
+      ],
+      "reason": "One park, with its training spaces grouped. The company’s founding year is not a facility opening date. The website’s malformed coordinate label is not used; the map marker is an editorial locality reference."
+    },
+    {
+      "task": 3,
+      "candidate": "CTU Česká Lípa UAS test site",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "ctu-ceska-lipa-uas-test-site",
+      "sourceUrls": [
+        "https://drony.fd.cvut.cz/"
+      ],
+      "reason": "One airport test site, separate from CTU’s Prague indoor arena. Direct page retrieval timed out; the primary university page was available through the search index. Historical flight-approval details are not treated as current permission."
+    },
+    {
+      "task": 4,
+      "candidate": "VZLU UAS flight-testing facilities",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.vzlu.cz/en/uas-en/flight-tests/"
+      ],
+      "reason": "The service page establishes flight-testing capability but does not locate a distinct flight facility."
+    },
+    {
+      "task": 5,
+      "candidate": "Drone Flight Academy Musinè training field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "dfa-pianezza-musine-training-field",
+      "sourceUrls": [
+        "https://www.droneflightacademy.it/training_area.html"
+      ],
+      "reason": "One Pianezza field, separate from the Turin arena. The listed 2019 authorization date is not a publication date or current permission."
+    },
+    {
+      "task": 6,
+      "candidate": "Drone Flight Academy AeroClub Torino arena",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "dfa-turin-aeroclub-drone-arena",
+      "sourceUrls": [
+        "https://www.droneflightacademy.it/training_area.html"
+      ],
+      "reason": "One Turin arena. Classrooms at this address are grouped; classroom-only listings in Rivoli and Caselle are not flight sites."
+    },
+    {
+      "task": 7,
+      "candidate": "Naples PRISMA FLARE",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://prisma.dieti.unina.it/index.php/facilities/flying-arena"
+      ],
+      "reason": "Already covered by naples-prisma-flare. The laboratory directory and arena page identify the same facility."
+    },
+    {
+      "task": 8,
+      "candidate": "Politecnico di Milano FlyART",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.aero.polimi.it/en/experimental-labs/flyart-flying-arena-for-rotorcraft-technologies"
+      ],
+      "reason": "Already covered by polimi-flyart-arena; revised capability descriptions do not create a second site."
+    },
+    {
+      "task": 9,
+      "candidate": "ENAC Toulouse Occitanie Drone Flight Arena",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.enac.fr/en/drone-flight-arena-toulouse-occitanie-0"
+      ],
+      "reason": "Already represented by enac-toulouse-flight-arena; this is the same campus flight space."
+    },
+    {
+      "task": 10,
+      "candidate": "Klagenfurt drone infrastructure",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.aau.at/en/research/research-profile/research-infrastructure/drone-infrastructure/"
+      ],
+      "reason": "Both the indoor hall and outdoor ODSA already have records. The combined infrastructure page does not add a third site."
+    },
+    {
+      "task": 11,
+      "candidate": "ITG A Coruña experimentation centre",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://itg.es/en/technology-center/"
+      ],
+      "reason": "Already covered by itg-coruna-experimentation-centre, including its outdoor cage. The centre’s other offices are not additional flight sites."
+    },
+    {
+      "task": 12,
+      "candidate": "University of Málaga LAENTIEC drone test grounds",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "malaga-teatinos-laentiec",
+      "sourceUrls": [
+        "https://www.uma.es/robotics-and-mechatronics/cms/menu/robotica-y-mecatronica/area-de-experimentacion/"
+      ],
+      "reason": "One mixed-robotics test campus. Grounds, workshop, tunnels and water features are grouped. A ground-robotics capability alone is not the basis for inclusion: the university explicitly names drone testing."
+    },
+    {
+      "task": 13,
+      "candidate": "ONERA Esperce drone test field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "onera-esperce-drone-test-field",
+      "sourceUrls": [
+        "https://www.centres-essais-drones.fr/centres-essais/onera/"
+      ],
+      "reason": "One Esperce field. The source explicitly says it has no paved runway or special equipment. The Toulouse contact office and stacked airspace volumes are not additional sites."
+    },
+    {
+      "task": 14,
+      "candidate": "C2RD Magnac-Lavalette drone test centre",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "c2rd-magnac-lavalette",
+      "sourceUrls": [
+        "https://www.centres-essais-drones.fr/centres-essais/c2rd-16/",
+        "https://www.c2rd.fr/qui-sommes-nous?lang=fr"
+      ],
+      "reason": "One Magnac-Lavalette site, distinct from Pourrières. Runway subdivisions are grouped. Planned airspace changes are not asserted as completed."
+    },
+    {
+      "task": 15,
+      "candidate": "C2RD Pourrières drone test centre",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "c2rd-pourrieres-planet",
+      "sourceUrls": [
+        "https://www.centres-essais-drones.fr/centres-essais/c2rd-83/",
+        "https://www.c2rd.fr/qui-sommes-nous?lang=fr"
+      ],
+      "reason": "One Pourrières campus. Flight areas, storage, hangars and accommodation are grouped. The separate Magnac-Lavalette site receives its own record."
+    },
+    {
+      "task": 16,
+      "candidate": "CESA Souge drone test site",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "cesa-souge-drone-test-site",
+      "sourceUrls": [
+        "https://www.centres-essais-drones.fr/centres-essais/cesa/"
+      ],
+      "reason": "One source-reported Souge site. The Mérignac headquarters address is not used as the location. The 2009 establishment year is not a publication date; continued operation is unverified."
+    },
+    {
+      "task": 17,
+      "candidate": "CESA Hourtin drone test base",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "cesa-hourtin-test-base",
+      "sourceUrls": [
+        "https://technowest.com/wp-content/uploads/2025/10/Plaquette-cesa-Web.pdf"
+      ],
+      "reason": "One Hourtin base. Hourtin-Plage, Le Pin Sec and the offshore corridor are excluded. The PDF path is not a publication date."
+    },
+    {
+      "task": 18,
+      "candidate": "CESA Bordeaux-Mérignac vertiports",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.centres-essais-drones.fr/centres-essais/cesa/"
+      ],
+      "reason": "The profile places airport vertiports and in-situ tests under forthcoming developments. Completed site evidence is still needed."
+    },
+    {
+      "task": 19,
+      "candidate": "CIDN Le Havre–Octeville drone test campus",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "cidn-le-havre-octeville",
+      "sourceUrls": [
+        "https://www.cidn.fr/zones-de-vol-du-cidn/",
+        "https://www.lehavre.aeroport.fr/en/recreational-aviation/pole-drone-innovation-center-drones-normandy-cidn/"
+      ],
+      "reason": "One airport-linked campus, grouping the local Pôle Drone and airport areas. The forthcoming maritime zone and partner sites are excluded. The Saint-Étienne-du-Rouvray contact address is not this test site."
+    },
+    {
+      "task": 20,
+      "candidate": "CIDN maritime test zone",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.cidn.fr/zones-de-vol-du-cidn/"
+      ],
+      "reason": "Explicitly forthcoming; do not convert a planned corridor into a completed ground site."
+    },
+    {
+      "task": 21,
+      "candidate": "Delivrone Saint-Étienne-du-Rouvray zone",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.cidn.fr/zones-de-vol-du-cidn/"
+      ],
+      "reason": "The partner zone is listed, but a distinct physical base is not identified."
+    },
+    {
+      "task": 22,
+      "candidate": "DGA-TH Val-de-Reuil test facilities",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.cidn.fr/zones-de-vol-du-cidn/"
+      ],
+      "reason": "Partner test capability is listed without establishing a separately scoped drone flight facility."
+    },
+    {
+      "task": 23,
+      "candidate": "CTDO Lannion drone test centre",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "ctdo-lannion-drone-test-centre",
+      "sourceUrls": [
+        "https://ct-drone-ouest.bzh/"
+      ],
+      "reason": "One airport campus. The dedicated drone zone, runway and hangars are grouped. Maritime corridors and individual training providers do not create additional sites. Airspace-size discrepancies between profiles are omitted."
+    },
+    {
+      "task": 24,
+      "candidate": "CEDIF Brétigny drone test site",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "cedif-bretigny-drone-test-site",
+      "sourceUrls": [
+        "https://systematic-paris-region.org/cedif/"
+      ],
+      "reason": "One former-airbase flight site. Planned corridors, the proposed Saint-Quentin-en-Yvelines site, the EUROCONTROL supervision centre and nearby innovation buildings are not separately counted. The December 2021 inauguration is not the page publication date."
+    },
+    {
+      "task": 25,
+      "candidate": "CESA Sainte-Hélène drone test airfield",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "cesa-sainte-helene-drone-test-airfield",
+      "sourceUrls": [
+        "https://technowest.com/wp-content/uploads/2025/10/Plaquette-cesa-Web.pdf"
+      ],
+      "reason": "One Sainte-Hélène airfield. Both runways and the hangar are grouped; other CESA locations remain separate candidates."
+    },
+    {
+      "task": 26,
+      "candidate": "Rzeszów Uspace4UAM trial bases",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://cordis.europa.eu/article/id/435532-drone-flight-trials-in-poland-bring-eu-wide-urban-air-mobility-a-step-closer"
+      ],
+      "reason": "The report supports city-area drone trials, but does not identify their physical dispatch or launch bases."
+    },
+    {
+      "task": 27,
+      "candidate": "Gliwice DronBox mobile centre",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.polsl.pl/en/ps_aktualnosci/dronbox-mobile-drone-technology-centre-presented-in-gliwice/"
+      ],
+      "reason": "A mobile production and servicing prototype was presented in a hall. This does not establish a permanent drone flight site at the demonstration venue."
+    },
+    {
+      "task": 28,
+      "candidate": "Podkarpackie Competence Centre",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.pansa.pl/en/the-podkarpackie-competence-centre-contract-is-signed/"
+      ],
+      "reason": "The contract announcement concerns a regional ecosystem with several locations. Separate completed ground facilities need site-specific evidence."
+    },
+    {
+      "task": 29,
+      "candidate": "Dronolandia Rzeszów drone flight track",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "rzeszow-dronolandia-flight-track",
+      "sourceUrls": [
+        "https://www.dronolandia.pl/",
+        "https://www.dronolandia.pl/kontakt"
+      ],
+      "reason": "One recreational flight venue, not a delivery depot or research laboratory. The separate control area and course obstacles are grouped. No current booking availability is asserted."
+    },
+    {
+      "task": 30,
+      "candidate": "Sędziszów Małopolski RPAS airfield",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://publications.jrc.ec.europa.eu/repository/bitstream/JRC143402/JRC143402_01.pdf"
+      ],
+      "reason": "Indexed JRC material names an RPAS airfield. Full document retrieval timed out; the exact operator, location and distinct facility identity need confirmation."
+    },
+    {
+      "task": 31,
+      "candidate": "Incheon drone certification centre",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.droneportal.or.kr/main/web/contents/M050-01-03"
+      ],
+      "reason": "The detailed page describes a runway at Jeongseojin-ro 194-2, adjacent in address to the existing Incheon flight centre. Resolve shared-campus scope before another record."
+    },
+    {
+      "task": 32,
+      "candidate": "Taean UV Land drone flight campus",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taean-uvland-drone-campus",
+      "sourceUrls": [
+        "https://www.uvland.co.kr/facility"
+      ],
+      "reason": "One campus in Nam-myeon, Taean. Runway, training lanes, racing circuit, hangar and indoor activities are grouped. The separate Hanseo aviation-training airfield lead is not assumed to be this facility."
+    },
+    {
+      "task": 33,
+      "candidate": "Goyang Daedeok drone airfield",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "goyang-daedeok-drone-airfield",
+      "sourceUrls": [
+        "https://www.goyang.go.kr/gydrone/fieldintroduce.do"
+      ],
+      "reason": "One airfield in Deogeun-dong. The separately addressed Goyang Drone Anchor Center is not included. The Daedeok name does not locate this site in Daejeon."
+    },
+    {
+      "task": 34,
+      "candidate": "Daejeon Munpyeong drone park",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "daejeon-munpyeong-drone-park",
+      "sourceUrls": [
+        "https://www.djtp.or.kr/reserveDrone/view.es?mid=a20303020000"
+      ],
+      "reason": "One park at Munpyeong-dong 14-1 and 17. Wider airspace spanning other districts is not counted as extra sites. The operator’s central-office address is not the park. No reservation was made."
+    },
+    {
+      "task": 35,
+      "candidate": "Daejeon robot-drone support centre",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.droneportal.or.kr/main/web/contents/M050-01-01"
+      ],
+      "reason": "Industry support is listed; a separate physical flying area is not established."
+    },
+    {
+      "task": 36,
+      "candidate": "Busan Nam-gu drone education centre",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.droneportal.or.kr/main/web/contents/M050-01-01"
+      ],
+      "reason": "The education listing does not define a distinct permanent flight space or its campus boundary."
+    },
+    {
+      "task": 37,
+      "candidate": "Incheon UAM indoor test site",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.droneportal.or.kr/main/web/contents/M050-01-01"
+      ],
+      "reason": "The summary lacks site details needed to distinguish it from existing Incheon testing infrastructure."
+    },
+    {
+      "task": 38,
+      "candidate": "Gwangju Onbitnuri drone centre",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.droneportal.or.kr/main/web/contents/M050-01-01"
+      ],
+      "reason": "The education-centre listing needs site-specific confirmation of its physical flying facilities."
+    },
+    {
+      "task": 39,
+      "candidate": "Yangju Dronebot talent education centre",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.droneportal.or.kr/main/web/contents/M050-01-01"
+      ],
+      "reason": "A named educational centre alone does not establish its flight-site scope."
+    },
+    {
+      "task": 40,
+      "candidate": "Mungyeong drone practice field",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.droneportal.or.kr/main/web/contents/M050-01-01"
+      ],
+      "reason": "The summary identifies a practice venue but lacks a resolved address and physical boundary."
+    },
+    {
+      "task": 41,
+      "candidate": "KIAST Yeongwol flight-test centre",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://dronetest.kiast.or.kr/drncenter/aircenter/aircenter.do"
+      ],
+      "reason": "Already represented by kiast-yeongwol-flight-test-centre; the regional centre listing is not an additional site."
+    },
+    {
+      "task": 42,
+      "candidate": "KIAST Boeun flight-test centre",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://dronetest.kiast.or.kr/drncenter/aircenter/aircenter.do"
+      ],
+      "reason": "Already represented by kiast-boeun-flight-test-centre; the regional centre listing is not an additional site."
+    },
+    {
+      "task": 43,
+      "candidate": "KIAST Goseong flight-test centre",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://dronetest.kiast.or.kr/drncenter/aircenter/aircenter.do"
+      ],
+      "reason": "Already represented by kiast-goseong-flight-test-centre; the regional centre listing is not an additional site."
+    },
+    {
+      "task": 44,
+      "candidate": "KIAST Hwaseong flight-test centre",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://dronetest.kiast.or.kr/drncenter/aircenter/aircenter.do"
+      ],
+      "reason": "Already represented by kiast-hwaseong-flight-test-centre; the regional centre listing is not an additional site."
+    },
+    {
+      "task": 45,
+      "candidate": "KIAST Incheon flight-test centre",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://dronetest.kiast.or.kr/drncenter/aircenter/aircenter.do"
+      ],
+      "reason": "Already represented by kiast-incheon-flight-test-centre; the regional centre listing is not an additional site."
+    },
+    {
+      "task": 46,
+      "candidate": "KIAST Uiseong flight-test centre",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://dronetest.kiast.or.kr/drncenter/aircenter/aircenter.do"
+      ],
+      "reason": "Already represented by kiast-uiseong-flight-test-centre; the regional centre listing is not an additional site."
+    },
+    {
+      "task": 47,
+      "candidate": "Hwaseong drone qualification grounds",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.droneportal.or.kr/main/web/contents/M050-01-05"
+      ],
+      "reason": "The portal describes completed examination grounds. Their physical relationship to the existing Hwaseong flight-test record needs resolution before separate counting."
+    },
+    {
+      "task": 48,
+      "candidate": "Goseong drone development test centre",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.droneportal.or.kr/main/web/contents/M050-01-04"
+      ],
+      "reason": "The centre is within Naegok-ri’s unmanned-aircraft complex. Resolve shared-campus and flight-facility scope relative to the existing Goseong record."
+    },
+    {
+      "task": 49,
+      "candidate": "Jeonju drone technology support centre",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.droneportal.or.kr/main/web/contents/M050-01-01"
+      ],
+      "reason": "Revisited after finding the updated directory’s direct operator link. That site timed out; a distinct physical flight area remains unresolved."
+    },
+    {
+      "task": 50,
+      "candidate": "Dutch Drone Centre Deelen UAS test site",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "ddc-deelen-uas-test-site",
+      "sourceUrls": [
+        "https://www.dutchdronecentre.eu/index.php/en/location"
+      ],
+      "reason": "One Deelen site, geographically distinct from the previously recorded Aviolanda campus. Individual flight volumes and surrounding airspace are grouped. Broad locality marker only; access and mission approvals remain unverified."
+    }
+  ]
+}

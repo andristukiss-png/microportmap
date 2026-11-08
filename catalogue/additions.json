@@ -20157,9 +20157,653 @@
           "url": "https://skelleftea.se/society-expo-2026/en/society-expo-2026/participation/projects/projects/droneport"
         }
       ]
+    },
+    {
+      "id": "psnc-kakolewo-aerosfera",
+      "entityKey": "psnc-kakolewo-aerosfera",
+      "name": "Kąkolewo AEROSFERA UAV test campus",
+      "where": "Kąkolewo, Grodzisk Wielkopolski, Poland",
+      "country": "Poland",
+      "region": "Europe",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "PSNC Aerospace Lab / Poznan University of Technology",
+      "reportedEquipment": "Aerodrome research hangar and enclosed UAV test spaces",
+      "locationPrecision": "Approximate Kąkolewo, Grodzisk Wielkopolski locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 52.23,
+        "longitude": 16.26
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "PSNC describes the established AEROSFERA laboratory at Kąkolewo aerodrome, including UAV testing infrastructure, a research hangar and a safety cage.",
+      "source": {
+        "name": "PSNC Aerospace Lab / Poznan University of Technology — facility evidence",
+        "url": "https://aerospacelab.psnc.pl/en/aerosfera-lotnisko-rzeczy/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-europe-and-korea-candidates",
+      "reviewNotes": "One aerodrome research campus. The hangar, laboratory groups, safety cage and digital-airport projects are grouped. The Poznań institutional name is not the flight-site location.",
+      "coordinateBasis": "Editorial locality reference. Rounded Kąkolewo, Grodzisk Wielkopolski marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "moravske-budejovice-uav-park",
+      "entityKey": "moravske-budejovice-uav-park",
+      "name": "Moravské Budějovice UAV Technology Park",
+      "where": "Moravské Budějovice, Czech Republic",
+      "country": "Czech Republic",
+      "region": "Europe",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "FlyinDiamonds",
+      "reportedEquipment": "Drone test grounds with practical training infrastructure",
+      "locationPrecision": "Approximate Moravské Budějovice locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 49.05,
+        "longitude": 15.81
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "FlyinDiamonds describes its UAV Technology Park in Moravské Budějovice as a facility for unmanned-system testing and practical training.",
+      "source": {
+        "name": "FlyinDiamonds — facility evidence",
+        "url": "https://www.uavtechnologypark.com/en"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-08-fifty-europe-and-korea-candidates",
+      "reviewNotes": "One park, with its training spaces grouped. The company’s founding year is not a facility opening date. The website’s malformed coordinate label is not used; the map marker is an editorial locality reference.",
+      "coordinateBasis": "Editorial locality reference. Rounded Moravské Budějovice marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "ctu-ceska-lipa-uas-test-site",
+      "entityKey": "ctu-ceska-lipa-uas-test-site",
+      "name": "CTU Česká Lípa UAS test site",
+      "where": "Česká Lípa, Czech Republic",
+      "country": "Czech Republic",
+      "region": "Europe",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Czech Technical University in Prague, Faculty of Transportation Sciences",
+      "reportedEquipment": "Airport-based UAS test field",
+      "locationPrecision": "Approximate Česká Lípa locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 50.68,
+        "longitude": 14.54
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "CTU’s indexed facility page identifies a UAS test site at Česká Lípa Airport and reports completed beyond-visual-line-of-sight flights using a DJI Matrice 600 Pro.",
+      "source": {
+        "name": "Czech Technical University in Prague, Faculty of Transportation Sciences — facility evidence",
+        "url": "https://drony.fd.cvut.cz/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-europe-and-korea-candidates",
+      "reviewNotes": "One airport test site, separate from CTU’s Prague indoor arena. Direct page retrieval timed out; the primary university page was available through the search index. Historical flight-approval details are not treated as current permission.",
+      "coordinateBasis": "Editorial locality reference. Rounded Česká Lípa marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "dfa-pianezza-musine-training-field",
+      "entityKey": "dfa-pianezza-musine-training-field",
+      "name": "Drone Flight Academy Musinè training field",
+      "where": "Pianezza, Turin, Italy",
+      "country": "Italy",
+      "region": "Europe",
+      "infrastructureType": "Drone training field",
+      "reportedOperator": "Drone Flight Academy",
+      "reportedEquipment": "Outdoor drone training field at Aviosuperficie Musinè",
+      "locationPrecision": "Approximate Pianezza, Turin locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 45.1,
+        "longitude": 7.55
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Drone Flight Academy lists an outdoor drone training area at Aviosuperficie Musinè in Pianezza.",
+      "source": {
+        "name": "Drone Flight Academy — facility evidence",
+        "url": "https://www.droneflightacademy.it/training_area.html"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-08-fifty-europe-and-korea-candidates",
+      "reviewNotes": "One Pianezza field, separate from the Turin arena. The listed 2019 authorization date is not a publication date or current permission.",
+      "coordinateBasis": "Editorial locality reference. Rounded Pianezza, Turin marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "dfa-turin-aeroclub-drone-arena",
+      "entityKey": "dfa-turin-aeroclub-drone-arena",
+      "name": "Drone Flight Academy AeroClub Torino arena",
+      "where": "Turin, Italy",
+      "country": "Italy",
+      "region": "Europe",
+      "infrastructureType": "Drone training field",
+      "reportedOperator": "Drone Flight Academy",
+      "reportedEquipment": "Outdoor drone arena at AeroClub Torino",
+      "locationPrecision": "Approximate Turin locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 45.07,
+        "longitude": 7.69
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Drone Flight Academy separately identifies an outdoor Drone Arena at AeroClub Torino on Strada della Berlia.",
+      "source": {
+        "name": "Drone Flight Academy — facility evidence",
+        "url": "https://www.droneflightacademy.it/training_area.html"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-08-fifty-europe-and-korea-candidates",
+      "reviewNotes": "One Turin arena. Classrooms at this address are grouped; classroom-only listings in Rivoli and Caselle are not flight sites.",
+      "coordinateBasis": "Editorial locality reference. Rounded Turin marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "malaga-teatinos-laentiec",
+      "entityKey": "malaga-teatinos-laentiec",
+      "name": "University of Málaga LAENTIEC drone test grounds",
+      "where": "Málaga, Spain",
+      "country": "Spain",
+      "region": "Europe",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "University of Málaga",
+      "reportedEquipment": "Outdoor emergency-technology test grounds with workshop support",
+      "locationPrecision": "Approximate Málaga locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.72,
+        "longitude": -4.42
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The University of Málaga identifies LAENTIEC beside its engineering school on the Teatinos campus extension and explicitly describes drone experiments on its outdoor grounds.",
+      "source": {
+        "name": "University of Málaga — facility evidence",
+        "url": "https://www.uma.es/robotics-and-mechatronics/cms/menu/robotica-y-mecatronica/area-de-experimentacion/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-europe-and-korea-candidates",
+      "reviewNotes": "One mixed-robotics test campus. Grounds, workshop, tunnels and water features are grouped. A ground-robotics capability alone is not the basis for inclusion: the university explicitly names drone testing.",
+      "coordinateBasis": "Editorial locality reference. Rounded Málaga marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "onera-esperce-drone-test-field",
+      "entityKey": "onera-esperce-drone-test-field",
+      "name": "ONERA Esperce drone test field",
+      "where": "Esperce, Haute-Garonne, France",
+      "country": "France",
+      "region": "Europe",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "ONERA",
+      "reportedEquipment": "Maintained outdoor flight-test field",
+      "locationPrecision": "Approximate Esperce, Haute-Garonne locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 43.3,
+        "longitude": 1.42
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "ONERA’s entry in the French test-centre alliance describes a dedicated drone flight-test field at Esperce.",
+      "source": {
+        "name": "French test-centre alliance — ONERA facility profile",
+        "url": "https://www.centres-essais-drones.fr/centres-essais/onera/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-europe-and-korea-candidates",
+      "reviewNotes": "One Esperce field. The source explicitly says it has no paved runway or special equipment. The Toulouse contact office and stacked airspace volumes are not additional sites.",
+      "coordinateBasis": "Editorial locality reference. Rounded Esperce, Haute-Garonne marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "c2rd-magnac-lavalette",
+      "entityKey": "c2rd-magnac-lavalette",
+      "name": "C2RD Magnac-Lavalette drone test centre",
+      "where": "Magnac-Lavalette-Villars, France",
+      "country": "France",
+      "region": "Europe",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Centre Régional de Ressource Drone (C2RD)",
+      "reportedEquipment": "Outdoor drone flight-test grounds and runways",
+      "locationPrecision": "Approximate Magnac-Lavalette-Villars locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 45.5,
+        "longitude": 0.26
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "C2RD identifies a drone testing, demonstration and training site at Magnac-Lavalette. Its alliance profile separately locates the site and describes the runways.",
+      "source": {
+        "name": "French test-centre alliance — C2RD 16",
+        "url": "https://www.centres-essais-drones.fr/centres-essais/c2rd-16/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-08-fifty-europe-and-korea-candidates",
+      "reviewNotes": "One Magnac-Lavalette site, distinct from Pourrières. Runway subdivisions are grouped. Planned airspace changes are not asserted as completed.",
+      "coordinateBasis": "Editorial locality reference. Rounded Magnac-Lavalette-Villars marker, not a surveyed building, flight boundary or launch point.",
+      "supportingSources": [
+        {
+          "name": "C2RD — two-site description",
+          "url": "https://www.c2rd.fr/qui-sommes-nous?lang=fr"
+        }
+      ]
+    },
+    {
+      "id": "c2rd-pourrieres-planet",
+      "entityKey": "c2rd-pourrieres-planet",
+      "name": "C2RD Pourrières drone test centre",
+      "where": "Pourrières, Var, France",
+      "country": "France",
+      "region": "Europe",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Centre Régional de Ressource Drone (C2RD)",
+      "reportedEquipment": "Flight-test runway and supporting test buildings",
+      "locationPrecision": "Approximate Pourrières, Var locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 43.5,
+        "longitude": 5.73
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "C2RD describes its Pourrières site at Domaine du Planet, including a runway and supporting facilities for drone trials and training.",
+      "source": {
+        "name": "French test-centre alliance — C2RD 83",
+        "url": "https://www.centres-essais-drones.fr/centres-essais/c2rd-83/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-08-fifty-europe-and-korea-candidates",
+      "reviewNotes": "One Pourrières campus. Flight areas, storage, hangars and accommodation are grouped. The separate Magnac-Lavalette site receives its own record.",
+      "coordinateBasis": "Editorial locality reference. Rounded Pourrières, Var marker, not a surveyed building, flight boundary or launch point.",
+      "supportingSources": [
+        {
+          "name": "C2RD — operator facility description",
+          "url": "https://www.c2rd.fr/qui-sommes-nous?lang=fr"
+        }
+      ]
+    },
+    {
+      "id": "cesa-souge-drone-test-site",
+      "entityKey": "cesa-souge-drone-test-site",
+      "name": "CESA Souge drone test site",
+      "where": "Martignas-sur-Jalle, France",
+      "country": "France",
+      "region": "Europe",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Bordeaux Technowest / CESA Drones",
+      "reportedEquipment": "Dedicated drone test grounds at Souge",
+      "locationPrecision": "Approximate Martignas-sur-Jalle locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 44.85,
+        "longitude": -0.77
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "CESA’s alliance profile reports that Bordeaux Technowest established the Souge drone test site in Martignas-sur-Jalle in 2009.",
+      "source": {
+        "name": "French test-centre alliance — CESA profile",
+        "url": "https://www.centres-essais-drones.fr/centres-essais/cesa/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-08-fifty-europe-and-korea-candidates",
+      "reviewNotes": "One source-reported Souge site. The Mérignac headquarters address is not used as the location. The 2009 establishment year is not a publication date; continued operation is unverified.",
+      "coordinateBasis": "Editorial locality reference. Rounded Martignas-sur-Jalle marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "cesa-hourtin-test-base",
+      "entityKey": "cesa-hourtin-test-base",
+      "name": "CESA Hourtin drone test base",
+      "where": "Hourtin, France",
+      "country": "France",
+      "region": "Europe",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "CESA Drones / Bordeaux Technowest",
+      "reportedEquipment": "Grass runway and supporting offices",
+      "locationPrecision": "Approximate Hourtin locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 45.19,
+        "longitude": -1.06
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "CESA’s brochure identifies a Hourtin ground base with a grass runway and offices supporting drone flight tests.",
+      "source": {
+        "name": "Bordeaux Technowest — CESA facilities brochure",
+        "url": "https://technowest.com/wp-content/uploads/2025/10/Plaquette-cesa-Web.pdf"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-08-fifty-europe-and-korea-candidates",
+      "reviewNotes": "One Hourtin base. Hourtin-Plage, Le Pin Sec and the offshore corridor are excluded. The PDF path is not a publication date.",
+      "coordinateBasis": "Editorial locality reference. Rounded Hourtin marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "cidn-le-havre-octeville",
+      "entityKey": "cidn-le-havre-octeville",
+      "name": "CIDN Le Havre–Octeville drone test campus",
+      "where": "Le Havre, France",
+      "country": "France",
+      "region": "Europe",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Centre d’Innovation Drones Normandie (CIDN) / NAE",
+      "reportedEquipment": "Airport-linked drone testing and training areas",
+      "locationPrecision": "Approximate Le Havre locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 49.5,
+        "longitude": 0.11
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "CIDN describes its Pôle Drone and Le Havre–Octeville airport flight areas as facilities for drone testing and training.",
+      "source": {
+        "name": "Centre d’Innovation Drones Normandie (CIDN) / NAE — facility evidence",
+        "url": "https://www.cidn.fr/zones-de-vol-du-cidn/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-08-fifty-europe-and-korea-candidates",
+      "reviewNotes": "One airport-linked campus, grouping the local Pôle Drone and airport areas. The forthcoming maritime zone and partner sites are excluded. The Saint-Étienne-du-Rouvray contact address is not this test site.",
+      "coordinateBasis": "Editorial locality reference. Rounded Le Havre marker, not a surveyed building, flight boundary or launch point.",
+      "supportingSources": [
+        {
+          "name": "Le Havre airport — CIDN facility context",
+          "url": "https://www.lehavre.aeroport.fr/en/recreational-aviation/pole-drone-innovation-center-drones-normandy-cidn/"
+        }
+      ]
+    },
+    {
+      "id": "ctdo-lannion-drone-test-centre",
+      "entityKey": "ctdo-lannion-drone-test-centre",
+      "name": "CTDO Lannion drone test centre",
+      "where": "Lannion, France",
+      "country": "France",
+      "region": "Europe",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Centre Technologique Drone Ouest / Lannion Airport",
+      "reportedEquipment": "Dedicated drone flight area and airport support infrastructure",
+      "locationPrecision": "Approximate Lannion locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 48.73,
+        "longitude": -3.46
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "CTDO identifies its test centre as part of Lannion Airport, with a dedicated drone flight area and supporting airport facilities.",
+      "source": {
+        "name": "Centre Technologique Drone Ouest / Lannion Airport — facility evidence",
+        "url": "https://ct-drone-ouest.bzh/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-08-fifty-europe-and-korea-candidates",
+      "reviewNotes": "One airport campus. The dedicated drone zone, runway and hangars are grouped. Maritime corridors and individual training providers do not create additional sites. Airspace-size discrepancies between profiles are omitted.",
+      "coordinateBasis": "Editorial locality reference. Rounded Lannion marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "cedif-bretigny-drone-test-site",
+      "entityKey": "cedif-bretigny-drone-test-site",
+      "name": "CEDIF Brétigny drone test site",
+      "where": "Brétigny-sur-Orge, France",
+      "country": "France",
+      "region": "Europe",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Systematic Paris-Region / CEDIF",
+      "reportedEquipment": "Drone flight-test area on former Air Base 217",
+      "locationPrecision": "Approximate Brétigny-sur-Orge locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 48.61,
+        "longitude": 2.31
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Systematic identifies an established CEDIF flight-testing area on the former Air Base 217 at Brétigny-sur-Orge.",
+      "source": {
+        "name": "Systematic Paris-Region / CEDIF — facility evidence",
+        "url": "https://systematic-paris-region.org/cedif/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-08-fifty-europe-and-korea-candidates",
+      "reviewNotes": "One former-airbase flight site. Planned corridors, the proposed Saint-Quentin-en-Yvelines site, the EUROCONTROL supervision centre and nearby innovation buildings are not separately counted. The December 2021 inauguration is not the page publication date.",
+      "coordinateBasis": "Editorial locality reference. Rounded Brétigny-sur-Orge marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "cesa-sainte-helene-drone-test-airfield",
+      "entityKey": "cesa-sainte-helene-drone-test-airfield",
+      "name": "CESA Sainte-Hélène drone test airfield",
+      "where": "Sainte-Hélène, Gironde, France",
+      "country": "France",
+      "region": "Europe",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "CESA Drones / Bordeaux Technowest",
+      "reportedEquipment": "Grass airfield with hangar and offices",
+      "locationPrecision": "Approximate Sainte-Hélène, Gironde locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 44.97,
+        "longitude": -0.89
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "CESA’s brochure lists Sainte-Hélène aerodrome as a drone testing site with grass runways and supporting buildings.",
+      "source": {
+        "name": "Bordeaux Technowest — CESA facilities brochure",
+        "url": "https://technowest.com/wp-content/uploads/2025/10/Plaquette-cesa-Web.pdf"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-08-fifty-europe-and-korea-candidates",
+      "reviewNotes": "One Sainte-Hélène airfield. Both runways and the hangar are grouped; other CESA locations remain separate candidates.",
+      "coordinateBasis": "Editorial locality reference. Rounded Sainte-Hélène, Gironde marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "rzeszow-dronolandia-flight-track",
+      "entityKey": "rzeszow-dronolandia-flight-track",
+      "name": "Dronolandia Rzeszów drone flight track",
+      "where": "Rzeszów, Poland",
+      "country": "Poland",
+      "region": "Europe",
+      "infrastructureType": "Recreational drone flying facility",
+      "reportedOperator": "Dronolandia",
+      "reportedEquipment": "Dedicated recreational drone flight course",
+      "locationPrecision": "Approximate Rzeszów locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 50.04,
+        "longitude": 22.0
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Dronolandia describes a purpose-built drone course in Rzeszów for hands-on flying. Its contact and facility rules identify Warszawska 139 as the venue.",
+      "source": {
+        "name": "Dronolandia — facility evidence",
+        "url": "https://www.dronolandia.pl/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "flying-area",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-08-fifty-europe-and-korea-candidates",
+      "reviewNotes": "One recreational flight venue, not a delivery depot or research laboratory. The separate control area and course obstacles are grouped. No current booking availability is asserted.",
+      "coordinateBasis": "Editorial locality reference. Rounded Rzeszów marker, not a surveyed building, flight boundary or launch point.",
+      "supportingSources": [
+        {
+          "name": "Dronolandia — venue address",
+          "url": "https://www.dronolandia.pl/kontakt"
+        }
+      ]
+    },
+    {
+      "id": "taean-uvland-drone-campus",
+      "entityKey": "taean-uvland-drone-campus",
+      "name": "Taean UV Land drone flight campus",
+      "where": "Taean, South Chungcheong, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Taean UV Land",
+      "reportedEquipment": "Runway, drone training fields and supporting facilities",
+      "locationPrecision": "Approximate Taean, South Chungcheong locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.75,
+        "longitude": 126.3
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Taean UV Land describes its completed drone flight campus, including a runway, training grounds and indoor and outdoor experience spaces.",
+      "source": {
+        "name": "Taean UV Land — facility evidence",
+        "url": "https://www.uvland.co.kr/facility"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-08-fifty-europe-and-korea-candidates",
+      "reviewNotes": "One campus in Nam-myeon, Taean. Runway, training lanes, racing circuit, hangar and indoor activities are grouped. The separate Hanseo aviation-training airfield lead is not assumed to be this facility.",
+      "coordinateBasis": "Editorial locality reference. Rounded Taean, South Chungcheong marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "goyang-daedeok-drone-airfield",
+      "entityKey": "goyang-daedeok-drone-airfield",
+      "name": "Goyang Daedeok drone airfield",
+      "where": "Goyang, Gyeonggi, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone training and test airfield",
+      "reportedOperator": "Goyang City",
+      "reportedEquipment": "Outdoor drone runway and practical training grounds",
+      "locationPrecision": "Approximate Goyang, Gyeonggi locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 37.66,
+        "longitude": 126.83
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Goyang City identifies its Daedeok drone airfield as a municipal facility for practical examinations, basic training, public experience and company tests.",
+      "source": {
+        "name": "Goyang City — facility evidence",
+        "url": "https://www.goyang.go.kr/gydrone/fieldintroduce.do"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-08-fifty-europe-and-korea-candidates",
+      "reviewNotes": "One airfield in Deogeun-dong. The separately addressed Goyang Drone Anchor Center is not included. The Daedeok name does not locate this site in Daejeon.",
+      "coordinateBasis": "Editorial locality reference. Rounded Goyang, Gyeonggi marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "daejeon-munpyeong-drone-park",
+      "entityKey": "daejeon-munpyeong-drone-park",
+      "name": "Daejeon Munpyeong drone park",
+      "where": "Daejeon, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone flying and testing park",
+      "reportedOperator": "Daejeon Technopark",
+      "reportedEquipment": "Drone takeoff and landing area, control room and maintenance space",
+      "locationPrecision": "Approximate Daejeon locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.35,
+        "longitude": 127.38
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Daejeon Technopark identifies its drone park in Munpyeong-dong and lists physical flight, control and maintenance facilities.",
+      "source": {
+        "name": "Daejeon Technopark — facility evidence",
+        "url": "https://www.djtp.or.kr/reserveDrone/view.es?mid=a20303020000"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "flying-area",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-08-fifty-europe-and-korea-candidates",
+      "reviewNotes": "One park at Munpyeong-dong 14-1 and 17. Wider airspace spanning other districts is not counted as extra sites. The operator’s central-office address is not the park. No reservation was made.",
+      "coordinateBasis": "Editorial locality reference. Rounded Daejeon marker, not a surveyed building, flight boundary or launch point."
+    },
+    {
+      "id": "ddc-deelen-uas-test-site",
+      "entityKey": "ddc-deelen-uas-test-site",
+      "name": "Dutch Drone Centre Deelen UAS test site",
+      "where": "Deelen, Gelderland, Netherlands",
+      "country": "Netherlands",
+      "region": "Europe",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Dutch Drone Centre Aviolanda",
+      "reportedEquipment": "Airbase runway and controlled ground area for UAS tests",
+      "locationPrecision": "Approximate Deelen, Gelderland locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 52.06,
+        "longitude": 5.89
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Dutch Drone Centre identifies Deelen Airbase as a separate UAS testing location, with runway access and a designated ground area.",
+      "source": {
+        "name": "Dutch Drone Centre Aviolanda — facility evidence",
+        "url": "https://www.dutchdronecentre.eu/index.php/en/location"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "test-centre",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-08-fifty-europe-and-korea-candidates",
+      "reviewNotes": "One Deelen site, geographically distinct from the previously recorded Aviolanda campus. Individual flight volumes and surrounding airspace are grouped. Broad locality marker only; access and mission approvals remain unverified.",
+      "coordinateBasis": "Editorial locality reference. Rounded Deelen, Gelderland marker, not a surveyed building, flight boundary or launch point."
     }
   ],
-  "expectedTotal": 640,
+  "expectedTotal": 660,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -21289,6 +21933,31 @@
         "bcn-moia-drone-test-centre",
         "tamu-rellis-uas-flight-test-facility",
         "skelleftea-hammarangen-droneport"
+      ]
+    },
+    {
+      "id": "2026-11-08-fifty-europe-and-korea-candidates",
+      "recordIds": [
+        "psnc-kakolewo-aerosfera",
+        "moravske-budejovice-uav-park",
+        "ctu-ceska-lipa-uas-test-site",
+        "dfa-pianezza-musine-training-field",
+        "dfa-turin-aeroclub-drone-arena",
+        "malaga-teatinos-laentiec",
+        "onera-esperce-drone-test-field",
+        "c2rd-magnac-lavalette",
+        "c2rd-pourrieres-planet",
+        "cesa-souge-drone-test-site",
+        "cesa-hourtin-test-base",
+        "cidn-le-havre-octeville",
+        "ctdo-lannion-drone-test-centre",
+        "cedif-bretigny-drone-test-site",
+        "cesa-sainte-helene-drone-test-airfield",
+        "rzeszow-dronolandia-flight-track",
+        "taean-uvland-drone-campus",
+        "goyang-daedeok-drone-airfield",
+        "daejeon-munpyeong-drone-park",
+        "ddc-deelen-uas-test-site"
       ]
     }
   ]

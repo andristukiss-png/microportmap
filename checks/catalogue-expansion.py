@@ -1179,4 +1179,19 @@ assert all(by_id[id]['sourcePublishedAt'] is None for id in accepted_fourth)
 assert by_id['bcn-moia-drone-test-centre']['where']=='Moià, Barcelona, Spain'
 assert by_id['sares-valkeakoski-uas-test-centre']['where']=='Valkeakoski, Finland'
 assert 'ten kilometres' in by_id['inta-cedea-el-arenosillo']['description']
+# Preserve all 640 previous records and reconcile the fifth fifty-task ledger.
+assert hashlib.sha256(json.dumps(additions[:590],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='47009d0631eac3009be5d64d352f1257153c1a4ac789f7d7b2a6086b5c4ee6cd'
+fifty_fifth=json.loads((ROOT/'catalogue/2026-11-08-fifth-fifty-task-review.json').read_text())
+assert fifty_fifth['completedTasks']==50 and [t['task'] for t in fifty_fifth['tasks']]==list(range(1,51))
+assert all(t['reviewStatus']=='completed' and t['sourceUrls'] and t['reason'] for t in fifty_fifth['tasks'])
+accepted_fifth=[t['recordId'] for t in fifty_fifth['tasks'] if t['decision']=='accepted']
+assert accepted_fifth==batch['releases'][108]['recordIds'] and len(accepted_fifth)==fifty_fifth['acceptedRecords']==20
+assert sum(t['decision']=='deferred' for t in fifty_fifth['tasks'])==fifty_fifth['deferredCandidates']==19
+assert sum(t['decision']=='excluded-overlap' for t in fifty_fifth['tasks'])==fifty_fifth['excludedOverlaps']==11
+assert all(t['recordId'] is None for t in fifty_fifth['tasks'] if t['decision']!='accepted')
+assert all(by_id[id]['sourcePublishedAt'] is None for id in accepted_fifth)
+assert by_id['goyang-daedeok-drone-airfield']['where']=='Goyang, Gyeonggi, South Korea'
+assert by_id['ddc-deelen-uas-test-site']['where']=='Deelen, Gelderland, Netherlands'
+assert by_id['rzeszow-dronolandia-flight-track']['infrastructureType']=='Recreational drone flying facility'
+assert 'no paved runway' in by_id['onera-esperce-drone-test-field']['reviewNotes']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
