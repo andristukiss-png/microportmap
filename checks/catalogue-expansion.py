@@ -1122,4 +1122,17 @@ assert by_id['plymouth-autonomous-systems-test-laboratory']['sourcePublishedAt']
 assert by_id['plymouth-autonomous-systems-test-laboratory']['reportedStatus']=='reported-operation'
 assert by_id['essex-robotics-arena']['sourcePublishedAt'] is None
 assert by_id['essex-robotics-arena']['reportedStatus']=='reported-operation'
+# Preserve all earlier additions and reconcile the fifty-candidate review.
+assert hashlib.sha256(json.dumps(additions[:524],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='0a97be0c2795f9a062a4cb4b18dfc3ce65a96ffc59a9d3be31f9a603d94f362e'
+fifty=json.loads((ROOT/'catalogue/2026-11-08-fifty-task-review.json').read_text())
+assert fifty['completedTasks']==50 and [t['task'] for t in fifty['tasks']]==list(range(1,51))
+assert all(t['reviewStatus']=='completed' and t['sourceUrls'] and t['reason'] for t in fifty['tasks'])
+accepted=[t['recordId'] for t in fifty['tasks'] if t['decision']=='accepted']
+assert accepted==batch['releases'][104]['recordIds'] and len(accepted)==20
+assert sum(t['decision']=='deferred' for t in fifty['tasks'])==28
+assert sum(t['decision']=='excluded-overlap' for t in fifty['tasks'])==2
+assert all(t['recordId'] is None for t in fifty['tasks'] if t['decision']!='accepted')
+assert by_id['utari-fort-worth-mavrc']['sourcePublishedAt']=='2025-09-16'
+assert by_id['princeton-equad-drone-flight-space']['sourcePublishedAt']=='2022-01-25'
+assert all(by_id[id]['sourcePublishedAt'] is None for id in accepted if id not in ['utari-fort-worth-mavrc','princeton-equad-drone-flight-space'])
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')

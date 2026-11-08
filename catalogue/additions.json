@@ -18011,9 +18011,663 @@
       "researchBatch": "2026-11-08-plymouth-essex-aerial-research",
       "reviewNotes": "One physical arena with explicit flying-robot provision. The powered floor, individual robots, Robotic Games Lab and research projects are not additional aerial sites. The undated page does not establish an opening date, precise room or current access.",
       "coordinateBasis": "Editorial locality reference. Rounded Colchester marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "york-robotics-laboratory-arena",
+      "entityKey": "york-robotics-laboratory-arena",
+      "name": "York Robotics Laboratory aerial arena",
+      "where": "York, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "University of York",
+      "reportedEquipment": "80-square-metre arena with high ceiling and tracking systems",
+      "locationPrecision": "Approximate York locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 53.96,
+        "longitude": -1.08
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "The university describes a purpose-built robotics laboratory with an arena for drone experiments. Its tour explicitly describes flying platforms in this space.",
+      "source": {
+        "name": "University of York — facility evidence",
+        "url": "https://www.york.ac.uk/robot-lab/tour/"
+      },
+      "verificationStatus": "Source-reported research facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-candidate-facility-review",
+      "reviewNotes": "One YRL arena, established before the separate Institute for Safe Autonomy building. The 80-square-metre YRL space is distinct from ISA Test Space 1. Workshop, classroom and individual robots are not extra records.",
+      "coordinateBasis": "Editorial locality reference. Rounded York marker, not a surveyed building, laboratory or launch point.",
+      "supportingSources": [
+        {
+          "name": "University of York — YRL location and history",
+          "url": "https://www.york.ac.uk/robot-lab/"
+        },
+        {
+          "name": "University of York — separate ISA test spaces",
+          "url": "https://www.york.ac.uk/safe-autonomy/facilities/laboratories-and-test-spaces/"
+        }
+      ]
+    },
+    {
+      "id": "slu-aircraft-drone-cage",
+      "entityKey": "slu-aircraft-drone-cage",
+      "name": "Saint Louis University AirCRAFT drone flight cage",
+      "where": "St. Louis, Missouri, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "Saint Louis University",
+      "reportedEquipment": "Campus drone flight cage; dimensions not specified",
+      "locationPrecision": "Approximate St. Louis, Missouri locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 38.63,
+        "longitude": -90.2
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "The university reports that its AirCRAFT Lab uses an on-campus flight cage to test morphing drones.",
+      "source": {
+        "name": "Saint Louis University — facility evidence",
+        "url": "https://enroll.slu.edu/science-and-engineering/research/aerospace.php"
+      },
+      "verificationStatus": "Source-reported research facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-candidate-facility-review",
+      "reviewNotes": "One campus cage used by AirCRAFT researchers. The separate airport runway-safety project and spacecraft laboratories are excluded. The source does not identify the cage building or an opening date.",
+      "coordinateBasis": "Editorial locality reference. Rounded St. Louis, Missouri marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "purdue-uas-research-test-facility",
+      "entityKey": "purdue-uas-research-test-facility",
+      "name": "Purdue UAS Research and Test Facility",
+      "where": "West Lafayette, Indiana, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "Purdue University",
+      "reportedEquipment": "Indoor motion-capture environment for fixed-wing and rotary-wing UAS",
+      "locationPrecision": "Approximate West Lafayette, Indiana locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 40.43,
+        "longitude": -86.91
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "Purdue describes PURT as an indoor facility supporting flight experiments with fast-moving aircraft and drone swarms.",
+      "source": {
+        "name": "Purdue University — facility evidence",
+        "url": "https://engineering.purdue.edu/PURT/capabilities"
+      },
+      "verificationStatus": "Source-reported research facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-candidate-facility-review",
+      "reviewNotes": "One PURT facility; courses, research groups and simulated vehicles are not extra sites. Conflicting camera totals on the source page are not repeated. Publication date is not inferred from page-modification metadata.",
+      "coordinateBasis": "Editorial locality reference. Rounded West Lafayette, Indiana marker, not a surveyed building, laboratory or launch point.",
+      "supportingSources": [
+        {
+          "name": "Purdue — facility contact",
+          "url": "https://engineering.purdue.edu/PURT/people/contact"
+        }
+      ]
+    },
+    {
+      "id": "utari-fort-worth-mavrc",
+      "entityKey": "utari-fort-worth-mavrc",
+      "name": "UTARI Maverick Autonomous Vehicle Research Center",
+      "where": "Fort Worth, Texas, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "University of Texas at Arlington",
+      "reportedEquipment": "Outdoor netted flight enclosure with motion capture and control centre",
+      "locationPrecision": "Approximate Fort Worth, Texas locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 32.75,
+        "longitude": -97.33
+      },
+      "reportDateLabel": "University report published 2025-09-16",
+      "description": "The university reported unveiling MAVRC at its Fort Worth research institute in September 2025 for autonomous aerial vehicle testing.",
+      "source": {
+        "name": "University of Texas at Arlington — facility evidence",
+        "url": "https://www.uta.edu/news/news-releases/2025/09/16/uta-unveils-mavrc-boosting-drone-research-and-innovation"
+      },
+      "verificationStatus": "Source-reported research facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": "2025-09-16",
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-candidate-facility-review",
+      "reviewNotes": "One MAVRC enclosure in Fort Worth, not Arlington city. The connected observation centre is included; earlier indoor UTARI space and demonstration flights are not extra records. The 2025 opening report supersedes the earlier construction proposal.",
+      "coordinateBasis": "Editorial locality reference. Rounded Fort Worth, Texas marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "stanford-boeing-flight-autonomy-lab",
+      "entityKey": "stanford-boeing-flight-autonomy-lab",
+      "name": "Stanford Boeing Flight and Autonomy Laboratory",
+      "where": "Stanford, California, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "Stanford University",
+      "reportedEquipment": "Autonomous aerial vehicle test space with motion capture",
+      "locationPrecision": "Approximate Stanford, California locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 37.43,
+        "longitude": -122.17
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "Stanford identifies a shared laboratory for autonomous aerial vehicle research and testing in the basement of the Durand building.",
+      "source": {
+        "name": "Stanford University — facility evidence",
+        "url": "https://aa.stanford.edu/research-impact/labs-and-centers/boeing-flight-autonomy-laboratory"
+      },
+      "verificationStatus": "Source-reported research facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-candidate-facility-review",
+      "reviewNotes": "One shared flight laboratory. The maker area, control room, observation space and participating research groups are not separate facilities.",
+      "coordinateBasis": "Editorial locality reference. Rounded Stanford, California marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "msstate-raspet-asrl-arena",
+      "entityKey": "msstate-raspet-asrl-arena",
+      "name": "Mississippi State ASRL indoor robotics arena",
+      "where": "Starkville, Mississippi, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "Mississippi State University",
+      "reportedEquipment": "Indoor air-and-ground robotics arena, netted cage and OptiTrack cameras",
+      "locationPrecision": "Approximate Starkville, Mississippi locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 33.45,
+        "longitude": -88.82
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "The university identifies ASRL in Raspet building II, with an indoor arena giving aerial and ground robots room to manoeuvre.",
+      "source": {
+        "name": "Mississippi State University — facility evidence",
+        "url": "https://www.ae.msstate.edu/research/asrl/"
+      },
+      "verificationStatus": "Source-reported research facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-candidate-facility-review",
+      "reviewNotes": "One ASRL arena at Raspet, not the entire university flight-research programme or its external test ranges. Listed aircraft and tracking cameras are equipment, not additional sites.",
+      "coordinateBasis": "Editorial locality reference. Rounded Starkville, Mississippi marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "mit-lincoln-hanscom-asdf",
+      "entityKey": "mit-lincoln-hanscom-asdf",
+      "name": "MIT Lincoln Autonomous Systems Development Facility",
+      "where": "Hanscom Air Force Base, Massachusetts, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "MIT Lincoln Laboratory",
+      "reportedEquipment": "Indoor autonomous-systems test hangar with retractable nets and motion capture",
+      "locationPrecision": "Approximate Hanscom Air Force Base, Massachusetts locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 42.46,
+        "longitude": -71.29
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "MIT Lincoln Laboratory describes ASDF at Hanscom as an indoor test facility for aerial, ground and underwater systems, including multi-drone experiments.",
+      "source": {
+        "name": "MIT Lincoln Laboratory — facility evidence",
+        "url": "https://www.ll.mit.edu/about/facilities/autonomous-systems-development-facility"
+      },
+      "verificationStatus": "Source-reported research facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-candidate-facility-review",
+      "reviewNotes": "One named ASDF facility. Internal partitions and research programmes are not extra records; no additional count is made for Lincoln Laboratory Flight Test Facility references without resolving their physical relationship.",
+      "coordinateBasis": "Editorial locality reference. Rounded Hanscom Air Force Base, Massachusetts marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "south-carolina-usrl-drone-cage",
+      "entityKey": "south-carolina-usrl-drone-cage",
+      "name": "University of South Carolina USRL drone cage",
+      "where": "Columbia, South Carolina, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "University of South Carolina",
+      "reportedEquipment": "Indoor drone cage at the McNair Aerospace Center",
+      "locationPrecision": "Approximate Columbia, South Carolina locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.0,
+        "longitude": -81.03
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "The university research directory identifies a cage for indoor drone flights in the Unmanned Systems and Robotics Lab at the McNair Aerospace Center.",
+      "source": {
+        "name": "University of South Carolina — facility evidence",
+        "url": "https://sc.edu/study/colleges_schools/engineering_and_computing/research/research_directory/vitzilaios_usrl.php"
+      },
+      "verificationStatus": "Source-reported research facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-candidate-facility-review",
+      "reviewNotes": "One USRL flight cage at 1000 Catawba Street. The whole McNair Center, aircraft projects and marine or ground robotics equipment are not additional aerial sites.",
+      "coordinateBasis": "Editorial locality reference. Rounded Columbia, South Carolina marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "duke-north-building-drone-lab",
+      "entityKey": "duke-north-building-drone-lab",
+      "name": "Duke North Building robotics flight space",
+      "where": "Durham, North Carolina, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "Duke University",
+      "reportedEquipment": "High-bay indoor drone space and observation control room",
+      "locationPrecision": "Approximate Durham, North Carolina locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.0,
+        "longitude": -78.9
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "Duke identifies indoor drone flying within its shared Robotics Lab on the lower level of the North Building.",
+      "source": {
+        "name": "Duke University — facility evidence",
+        "url": "https://mems.duke.edu/impact/facilities/"
+      },
+      "verificationStatus": "Source-reported research facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-candidate-facility-review",
+      "reviewNotes": "One shared laboratory, with human-interaction rooms and observation space included. Duke Forest flight sites are outside this record and are not added without individual review.",
+      "coordinateBasis": "Editorial locality reference. Rounded Durham, North Carolina marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "princeton-equad-drone-flight-space",
+      "entityKey": "princeton-equad-drone-flight-space",
+      "name": "Princeton EQuad robotics drone flight space",
+      "where": "Princeton, New Jersey, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "Princeton University",
+      "reportedEquipment": "Aerial drone-flying space within the shared EQuad robotics laboratory",
+      "locationPrecision": "Approximate Princeton, New Jersey locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 40.35,
+        "longitude": -74.66
+      },
+      "reportDateLabel": "University report published 2022-01-25",
+      "description": "A university report describes a drone-flying space in the EQuad robotics laboratory, which opened in January 2021.",
+      "source": {
+        "name": "Princeton University — facility evidence",
+        "url": "https://engineering.princeton.edu/news/2022/01/25/robotics-lab-opens-experimentation-and-collaboration"
+      },
+      "verificationStatus": "Source-reported research facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": "2022-01-25",
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-candidate-facility-review",
+      "reviewNotes": "One EQuad laboratory flight space. The January 2021 opening is distinct from the January 2022 publication. Mobile-robot, living-lab and prototyping areas do not create extra records.",
+      "coordinateBasis": "Editorial locality reference. Rounded Princeton, New Jersey marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "ohio-state-pcv-indoor-flight-lab",
+      "entityKey": "ohio-state-pcv-indoor-flight-lab",
+      "name": "Ohio State PCVLab indoor drone space",
+      "where": "Columbus, Ohio, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "The Ohio State University",
+      "reportedEquipment": "Indoor drone operation and sensor-calibration space",
+      "locationPrecision": "Approximate Columbus, Ohio locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 39.96,
+        "longitude": -83.0
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "The Photogrammetric Computer Vision Lab identifies dedicated space for indoor drone operations, flight and sensor calibration.",
+      "source": {
+        "name": "The Ohio State University — facility evidence",
+        "url": "https://u.osu.edu/pcvlab/information/resources/"
+      },
+      "verificationStatus": "Source-reported research facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-candidate-facility-review",
+      "reviewNotes": "One PCVLab indoor space. Ohio State Airport, Molly Caren Agricultural Center and the Route 33 corridor are separate leads, not included here. The source does not establish the precise room or opening date.",
+      "coordinateBasis": "Editorial locality reference. Rounded Columbus, Ohio marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "penn-state-purl-indoor-flight",
+      "entityKey": "penn-state-purl-indoor-flight",
+      "name": "Penn State PURL indoor flight facility",
+      "where": "University Park, Pennsylvania, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "Pennsylvania State University",
+      "reportedEquipment": "Dedicated indoor flight space with motion capture",
+      "locationPrecision": "Approximate University Park, Pennsylvania locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 40.8,
+        "longitude": -77.86
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "PURL describes indoor flight space alongside its research aircraft, simulation systems and maintenance facilities.",
+      "source": {
+        "name": "Pennsylvania State University — facility evidence",
+        "url": "https://purl.psu.edu/"
+      },
+      "verificationStatus": "Source-reported research facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-candidate-facility-review",
+      "reviewNotes": "One PURL facility. External flight sites and the separately described ECoRE indoor facility are not counted. The map is a University Park locality reference; it does not locate the flight room.",
+      "coordinateBasis": "Editorial locality reference. Rounded University Park, Pennsylvania marker, not a surveyed building, laboratory or launch point.",
+      "supportingSources": [
+        {
+          "name": "Penn State — aerospace research facilities",
+          "url": "https://aerospaceengineeringresearch.psu.edu/facilities/"
+        }
+      ]
+    },
+    {
+      "id": "clemson-iswin-anderson-test-field",
+      "entityKey": "clemson-iswin-anderson-test-field",
+      "name": "Clemson IS-WiN Anderson UAV test field",
+      "where": "Anderson, South Carolina, United States",
+      "country": "United States",
+      "region": "North America",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "Clemson University IS-WiN Laboratory",
+      "reportedEquipment": "Outdoor UAV test field behind the National Brick Research Center",
+      "locationPrecision": "Approximate Anderson, South Carolina locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.5,
+        "longitude": -82.65
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "The laboratory identifies its primary outdoor UAV test location behind the National Brick Research Center in Anderson.",
+      "source": {
+        "name": "Clemson University IS-WiN Laboratory — facility evidence",
+        "url": "https://sites.google.com/g.clemson.edu/is-win-lab/facilities"
+      },
+      "verificationStatus": "Source-reported research facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-candidate-facility-review",
+      "reviewNotes": "One Anderson field at 100 Clemson Research Boulevard. The separate indoor laboratory in Clemson and individual sensing nodes are not additional records in this review.",
+      "coordinateBasis": "Editorial locality reference. Rounded Anderson, South Carolina marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "waterloo-robohub-aerial-test-space",
+      "entityKey": "waterloo-robohub-aerial-test-space",
+      "name": "University of Waterloo RoboHub aerial test space",
+      "where": "Waterloo, Ontario, Canada",
+      "country": "Canada",
+      "region": "North America",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "University of Waterloo",
+      "reportedEquipment": "Indoor robotics test space with positioning system and aerial robots",
+      "locationPrecision": "Approximate Waterloo, Ontario locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 43.46,
+        "longitude": -80.52
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "Waterloo describes RoboHub as a shared testing and training facility for heterogeneous robots, including aerial platforms, between Engineering 5 and Pearl Sullivan Engineering.",
+      "source": {
+        "name": "University of Waterloo — facility evidence",
+        "url": "https://uwaterloo.ca/robohub/about/space"
+      },
+      "verificationStatus": "Source-reported research facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-candidate-facility-review",
+      "reviewNotes": "One RoboHub chamber. Participating laboratories, robot types and the earlier garage-based facility are not counted separately. The facility page is undated.",
+      "coordinateBasis": "Editorial locality reference. Rounded Waterloo, Ontario marker, not a surveyed building, laboratory or launch point.",
+      "supportingSources": [
+        {
+          "name": "Waterloo — RoboHub drone-testing description",
+          "url": "https://uwaterloo.ca/robohub/news/waterloo-creates-terrarium-robots"
+        }
+      ]
+    },
+    {
+      "id": "mcgill-aerospace-mechatronics-uav-lab",
+      "entityKey": "mcgill-aerospace-mechatronics-uav-lab",
+      "name": "McGill Aerospace Mechatronics UAV laboratory",
+      "where": "Montreal, Quebec, Canada",
+      "country": "Canada",
+      "region": "North America",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "McGill University",
+      "reportedEquipment": "UAV experimental space with Vicon motion capture and indoor blimps",
+      "locationPrecision": "Approximate Montreal, Quebec locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 45.5,
+        "longitude": -73.57
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "McGill describes laboratory space for limited UAV experiments, including research on multirotors and indoor helium blimps, at its Aerospace Mechatronics Laboratory.",
+      "source": {
+        "name": "McGill University — facility evidence",
+        "url": "https://aerospacemechatronics.lab.mcgill.ca/index.html"
+      },
+      "verificationStatus": "Source-reported research facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-candidate-facility-review",
+      "reviewNotes": "One room-scale experimental facility at 817 Sherbrooke Street West. The source establishes limited experiments, not a large flight range; individual blimps and space-debris test rigs are not extra sites.",
+      "coordinateBasis": "Editorial locality reference. Rounded Montreal, Quebec marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "alberta-ancl-flight-arena",
+      "entityKey": "alberta-ancl-flight-arena",
+      "name": "University of Alberta ANCL indoor flight arena",
+      "where": "Edmonton, Alberta, Canada",
+      "country": "Canada",
+      "region": "North America",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "University of Alberta",
+      "reportedEquipment": "Indoor arena for multirotor UAV experiments",
+      "locationPrecision": "Approximate Edmonton, Alberta locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 53.55,
+        "longitude": -113.49
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "The Applied Nonlinear Control Lab reports using an indoor flight arena for multirotor UAV work since 2010.",
+      "source": {
+        "name": "University of Alberta — facility evidence",
+        "url": "https://ancl.ece.ualberta.ca/"
+      },
+      "verificationStatus": "Source-reported research facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-candidate-facility-review",
+      "reviewNotes": "One ANCL arena. The earlier outdoor helicopter programme is not a separately identified test site. The page update of 6 October 2025 is not treated as an original publication date.",
+      "coordinateBasis": "Editorial locality reference. Rounded Edmonton, Alberta marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "sydney-aeronautical-indoor-uav-lab",
+      "entityKey": "sydney-aeronautical-indoor-uav-lab",
+      "name": "University of Sydney indoor UAV flight laboratory",
+      "where": "Sydney, New South Wales, Australia",
+      "country": "Australia",
+      "region": "Oceania",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "University of Sydney",
+      "reportedEquipment": "Indoor UAV flight space with OptiTrack motion capture",
+      "locationPrecision": "Approximate Sydney, New South Wales locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": -33.89,
+        "longitude": 151.19
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "The university identifies an indoor laboratory in its aeronautical engineering building for small-UAV flight experiments.",
+      "source": {
+        "name": "University of Sydney — facility evidence",
+        "url": "https://www.sydney.edu.au/engineering/our-research/laboratories-and-facilities/aerospace-mechanical-and-mechatronic-facilities.html"
+      },
+      "verificationStatus": "Source-reported research facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-candidate-facility-review",
+      "reviewNotes": "One indoor laboratory. The Marulan farm flight facility, flight simulators, fabrication spaces and other test chambers are outside this record and are not counted here.",
+      "coordinateBasis": "Editorial locality reference. Rounded Sydney, New South Wales marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "monash-clayton-g10-arena",
+      "entityKey": "monash-clayton-g10-arena",
+      "name": "Monash G10 robotics experimental arena",
+      "where": "Clayton, Victoria, Australia",
+      "country": "Australia",
+      "region": "Oceania",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "Monash University",
+      "reportedEquipment": "Three-storey G10 experimental arena supporting drone studies",
+      "locationPrecision": "Approximate Clayton, Victoria locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": -37.92,
+        "longitude": 145.12
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "Monash identifies the G10 arena within its purpose-built robotics facility as a space for drone studies and other robotic experiments.",
+      "source": {
+        "name": "Monash University — facility evidence",
+        "url": "https://www.monash.edu/engineering/robotics/about/facilities"
+      },
+      "verificationStatus": "Source-reported research facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-candidate-facility-review",
+      "reviewNotes": "One G10 arena at the Clayton robotics facility. The 2022 facility launch is not a publication date. Kitchen, lounge, workspace and Drone Discovery Platform links are not extra records.",
+      "coordinateBasis": "Editorial locality reference. Rounded Clayton, Victoria marker, not a surveyed building, laboratory or launch point.",
+      "supportingSources": [
+        {
+          "name": "Monash Robotics — Clayton address",
+          "url": "https://www.monash.edu/engineering/robotics/about/contact-us"
+        }
+      ]
+    },
+    {
+      "id": "aarhus-air-flight-arena",
+      "entityKey": "aarhus-air-flight-arena",
+      "name": "Aarhus AiR Laboratory flight arena",
+      "where": "Aarhus, Denmark",
+      "country": "Denmark",
+      "region": "Europe",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "Aarhus University",
+      "reportedEquipment": "15 × 15 × 4.5 metre flight arena with 12 Vicon cameras",
+      "locationPrecision": "Approximate Aarhus locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 56.16,
+        "longitude": 10.2
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "Aarhus describes a flight arena in its Artificial Intelligence in Robotics Lab for aerial manipulation, formation flight and other robot experiments.",
+      "source": {
+        "name": "Aarhus University — facility evidence",
+        "url": "https://ece.au.dk/forskning/forskningsomraader-institut-for-elektro-og-computerteknologi-technical-sciences-aarhus-universitet/signal-processing-and-machine-learning/research-groups-alt/artificial-intelligence-in-robotics/research"
+      },
+      "verificationStatus": "Source-reported research facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-candidate-facility-review",
+      "reviewNotes": "One AiR arena. No separate count is made for Deep Tech Experimental Hub references without resolving their relationship. The displayed July 2026 revision is not an original publication date; the map locates only Aarhus.",
+      "coordinateBasis": "Editorial locality reference. Rounded Aarhus marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "tecnalia-aduna-flying-robots-lab",
+      "entityKey": "tecnalia-aduna-flying-robots-lab",
+      "name": "TECNALIA Aduna Flying Robots Lab",
+      "where": "Aduna, Gipuzkoa, Spain",
+      "country": "Spain",
+      "region": "Europe",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "TECNALIA",
+      "reportedEquipment": "Indoor flight volume with optical positioning and configurable wind generator",
+      "locationPrecision": "Approximate Aduna, Gipuzkoa locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 43.2,
+        "longitude": -2.05
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "TECNALIA identifies its Flying Robots Lab within the Innovative Air Mobility Lab, whose main infrastructure is at Aduna.",
+      "source": {
+        "name": "TECNALIA — facility evidence",
+        "url": "https://www.tecnalia.com/en/infrastructure/innovative-air-mobility-lab"
+      },
+      "verificationStatus": "Source-reported research facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-candidate-facility-review",
+      "reviewNotes": "One Aduna flight facility. The propulsion test bench and control post are included; Donostia offices and minor laboratory equipment do not create a second flight-site record.",
+      "coordinateBasis": "Editorial locality reference. Rounded Aduna, Gipuzkoa marker, not a surveyed building, laboratory or launch point."
     }
   ],
-  "expectedTotal": 574,
+  "expectedTotal": 594,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -19057,6 +19711,31 @@
       "recordIds": [
         "plymouth-autonomous-systems-test-laboratory",
         "essex-robotics-arena"
+      ]
+    },
+    {
+      "id": "2026-11-08-fifty-candidate-facility-review",
+      "recordIds": [
+        "york-robotics-laboratory-arena",
+        "slu-aircraft-drone-cage",
+        "purdue-uas-research-test-facility",
+        "utari-fort-worth-mavrc",
+        "stanford-boeing-flight-autonomy-lab",
+        "msstate-raspet-asrl-arena",
+        "mit-lincoln-hanscom-asdf",
+        "south-carolina-usrl-drone-cage",
+        "duke-north-building-drone-lab",
+        "princeton-equad-drone-flight-space",
+        "ohio-state-pcv-indoor-flight-lab",
+        "penn-state-purl-indoor-flight",
+        "clemson-iswin-anderson-test-field",
+        "waterloo-robohub-aerial-test-space",
+        "mcgill-aerospace-mechatronics-uav-lab",
+        "alberta-ancl-flight-arena",
+        "sydney-aeronautical-indoor-uav-lab",
+        "monash-clayton-g10-arena",
+        "aarhus-air-flight-arena",
+        "tecnalia-aduna-flying-robots-lab"
       ]
     }
   ]
