@@ -1135,4 +1135,19 @@ assert all(t['recordId'] is None for t in fifty['tasks'] if t['decision']!='acce
 assert by_id['utari-fort-worth-mavrc']['sourcePublishedAt']=='2025-09-16'
 assert by_id['princeton-equad-drone-flight-space']['sourcePublishedAt']=='2022-01-25'
 assert all(by_id[id]['sourcePublishedAt'] is None for id in accepted if id not in ['utari-fort-worth-mavrc','princeton-equad-drone-flight-space'])
+# Preserve all 594 previous records and reconcile the second fifty-task ledger.
+assert hashlib.sha256(json.dumps(additions[:544],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='fbd744862000512a9c11c0e6f2298fa9a11bc9dd1c924bd1d9bd855e2a014dd0'
+fifty_second=json.loads((ROOT/'catalogue/2026-11-08-second-fifty-task-review.json').read_text())
+assert fifty_second['completedTasks']==50 and [t['task'] for t in fifty_second['tasks']]==list(range(1,51))
+assert all(t['reviewStatus']=='completed' and t['sourceUrls'] and t['reason'] for t in fifty_second['tasks'])
+accepted_second=[t['recordId'] for t in fifty_second['tasks'] if t['decision']=='accepted']
+assert accepted_second==batch['releases'][105]['recordIds'] and len(accepted_second)==fifty_second['acceptedRecords']==18
+assert sum(t['decision']=='deferred' for t in fifty_second['tasks'])==fifty_second['deferredCandidates']==24
+assert sum(t['decision']=='excluded-overlap' for t in fifty_second['tasks'])==fifty_second['excludedOverlaps']==8
+assert all(t['recordId'] is None for t in fifty_second['tasks'] if t['decision']!='accepted')
+assert by_id['upc-castelldefels-dronelab']['sourcePublishedAt']=='2022-12-13'
+assert by_id['gipsa-moca-indoor-aviary']['sourcePublishedAt']=='2026-03-24'
+assert all(by_id[id]['sourcePublishedAt'] is None for id in accepted_second if id not in ['upc-castelldefels-dronelab','gipsa-moca-indoor-aviary'])
+assert by_id['oit-hirakata-dx-field']['where']=='Hirakata, Japan'
+assert by_id['jbnu-jeonju-irdl-flight-room']['where']=='Jeonju, South Korea'
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')

@@ -18665,9 +18665,579 @@
       "researchBatch": "2026-11-08-fifty-candidate-facility-review",
       "reviewNotes": "One Aduna flight facility. The propulsion test bench and control post are included; Donostia offices and minor laboratory equipment do not create a second flight-site record.",
       "coordinateBasis": "Editorial locality reference. Rounded Aduna, Gipuzkoa marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "dit-dehradun-indoor-drone-centre",
+      "entityKey": "dit-dehradun-indoor-drone-centre",
+      "name": "DIT University indoor drone testing centre",
+      "where": "Dehradun, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "DIT University",
+      "reportedEquipment": "Indoor drone flying and testing space",
+      "locationPrecision": "Approximate Dehradun locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 30.32,
+        "longitude": 78.03
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "The university describes indoor flying and testing facilities within its Drone Centre of Excellence, established in 2024.",
+      "source": {
+        "name": "DIT University — facility evidence",
+        "url": "https://www.dituniversity.edu.in/research/research-centers-and-facilities"
+      },
+      "verificationStatus": "Source-reported facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-international-facility-candidates",
+      "reviewNotes": "One Drone CoE at the Makkawala university campus. Aircraft, assembly kits and other research centres are not additional sites. The establishment year is not a publication date.",
+      "coordinateBasis": "Editorial locality reference. Rounded Dehradun marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "iit-kanpur-helicopter-vtol-indoor-lab",
+      "entityKey": "iit-kanpur-helicopter-vtol-indoor-lab",
+      "name": "IIT Kanpur Helicopter and VTOL indoor flight laboratory",
+      "where": "Kanpur, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "IIT Kanpur",
+      "reportedEquipment": "Instrumented indoor flight space with motion capture",
+      "locationPrecision": "Approximate Kanpur locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 26.45,
+        "longitude": 80.33
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "The Uttar Pradesh Startup Mission identifies an existing indoor flight space in the Helicopter and VTOL Laboratory among IIT Kanpur resources supporting its drone centre.",
+      "source": {
+        "name": "IIT Kanpur — facility evidence",
+        "url": "https://startupmission.up.gov.in/en/pages/drone-coe-kanpur"
+      },
+      "verificationStatus": "Source-reported facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-08-fifty-international-facility-candidates",
+      "reviewNotes": "One indoor laboratory. The separately listed runway is outside this record. A proposed gust wall is not presented as installed equipment, and CoE names are not counted as additional sites.",
+      "coordinateBasis": "Editorial locality reference. Rounded Kanpur marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "pastec-indore-drone-training-campus",
+      "entityKey": "pastec-indore-drone-training-campus",
+      "name": "PASTEC Indore drone training campus",
+      "where": "Indore, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Drone training facility",
+      "reportedOperator": "Madhya Pradesh Police PASTEC",
+      "reportedEquipment": "Indoor flying arena and outdoor drone training zone",
+      "locationPrecision": "Approximate Indore locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 22.72,
+        "longitude": 75.86
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "PASTEC describes indoor and outdoor drone flying provision at its Police Radio Training School campus in Indore.",
+      "source": {
+        "name": "Madhya Pradesh Police PASTEC — facility evidence",
+        "url": "https://pastec.mppolice.gov.in/content.php?key=training_infrastructure&lang=en"
+      },
+      "verificationStatus": "Source-reported facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-08-fifty-international-facility-candidates",
+      "reviewNotes": "One training campus, including its indoor arena and outdoor zone. Hover, takeoff and landing exercises do not create separate sites. Course availability and permission are not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Rounded Indore marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "evry-ibisc-indoor-drone-platform",
+      "entityKey": "evry-ibisc-indoor-drone-platform",
+      "name": "IBISC indoor drone platform",
+      "where": "Évry, France",
+      "country": "France",
+      "region": "Europe",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "Université Évry Paris-Saclay IBISC",
+      "reportedEquipment": "Indoor flight area with Vicon tracking",
+      "locationPrecision": "Approximate Évry locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 48.63,
+        "longitude": 2.44
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "IBISC describes an indoor experimental flight area equipped with motion capture for drone research.",
+      "source": {
+        "name": "Université Évry Paris-Saclay IBISC — facility evidence",
+        "url": "https://www.ibisc.univ-evry.fr/plateformes/drones/index.html"
+      },
+      "verificationStatus": "Source-reported facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-international-facility-candidates",
+      "reviewNotes": "One IBISC platform in Évry. X500, FIRNAS and Crazyflie platforms are equipment, not separate facilities. The precise flight-room coordinates are not established.",
+      "coordinateBasis": "Editorial locality reference. Rounded Évry marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "lille-lmfl-onera-b20-flight-lab",
+      "entityKey": "lille-lmfl-onera-b20-flight-lab",
+      "name": "Lille LMFL ONERA B20 free-flight laboratory",
+      "where": "Lille, France",
+      "country": "France",
+      "region": "Europe",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "LMFL / ONERA",
+      "reportedEquipment": "Large indoor free-flight hall with wind-generation equipment",
+      "locationPrecision": "Approximate Lille locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 50.63,
+        "longitude": 3.06
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "LMFL identifies the B20 hall at ONERA Lille as a free-flight laboratory used for drone and airship research.",
+      "source": {
+        "name": "LMFL / ONERA — facility evidence",
+        "url": "https://lmfl.univ-lille.fr/equipements-et-plateformes/laboratoire-de-vol-libre"
+      },
+      "verificationStatus": "Source-reported facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-international-facility-candidates",
+      "reviewNotes": "One B20 hall, described as 90 by 20 by 20 metres. Historical wind equipment and proposed upgrades are not additional facilities or evidence that future upgrades are operational.",
+      "coordinateBasis": "Editorial locality reference. Rounded Lille marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "btu-cottbus-control-drone-cage",
+      "entityKey": "btu-cottbus-control-drone-cage",
+      "name": "BTU Cottbus control systems drone cage",
+      "where": "Cottbus, Germany",
+      "country": "Germany",
+      "region": "Europe",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "Brandenburg University of Technology Cottbus-Senftenberg",
+      "reportedEquipment": "Netted 4 × 4 × 2 metre flying area with tracking",
+      "locationPrecision": "Approximate Cottbus locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 51.76,
+        "longitude": 14.33
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "The university control systems group describes a netted flying workplace for experimental drone control.",
+      "source": {
+        "name": "Brandenburg University of Technology Cottbus-Senftenberg — facility evidence",
+        "url": "https://www.b-tu.de/en/fg-regelungssysteme/research/research-areas/laboratory-research-facilities"
+      },
+      "verificationStatus": "Source-reported facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-international-facility-candidates",
+      "reviewNotes": "One laboratory flight cage in Cottbus. Parrot and Pixhawk aircraft and tracking systems are equipment; other laboratory workstations are not additional aerial sites.",
+      "coordinateBasis": "Editorial locality reference. Rounded Cottbus marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "upc-castelldefels-dronelab",
+      "entityKey": "upc-castelldefels-dronelab",
+      "name": "UPC Castelldefels DroneLab",
+      "where": "Castelldefels, Spain",
+      "country": "Spain",
+      "region": "Europe",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "Universitat Politècnica de Catalunya",
+      "reportedEquipment": "Netted 80 × 40 × 15 metre flight enclosure",
+      "locationPrecision": "Approximate Castelldefels locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 41.28,
+        "longitude": 1.98
+      },
+      "reportDateLabel": "Facility report published 2022-12-13",
+      "description": "UPC reported opening DroneLab on its Baix Llobregat campus in Castelldefels for drone testing, research and teaching in November 2022.",
+      "source": {
+        "name": "Universitat Politècnica de Catalunya — facility evidence",
+        "url": "https://www.upc.edu/en/press-room/news/the-upc-and-the-castelldefels-city-council-inaugurate-dronelab-a-unique-laboratory-and-flight-facility-for-uavs"
+      },
+      "verificationStatus": "Source-reported facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": "2022-12-13",
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-international-facility-candidates",
+      "reviewNotes": "One campus enclosure, not separate sites for ICARUS, EETAC or the Mediterranean Technology Park. The English report was published on 13 December 2022; the opening occurred on 11 November. Current access is unverified.",
+      "coordinateBasis": "Editorial locality reference. Rounded Castelldefels marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "telepilote-marcq-training-campus",
+      "entityKey": "telepilote-marcq-training-campus",
+      "name": "TELEPILOTE Marcq training campus",
+      "where": "Marcq, Yvelines, France",
+      "country": "France",
+      "region": "Europe",
+      "infrastructureType": "Drone training facility",
+      "reportedOperator": "TELEPILOTE",
+      "reportedEquipment": "Indoor and outdoor drone training areas on a two-hectare campus",
+      "locationPrecision": "Approximate Marcq, Yvelines locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 48.86,
+        "longitude": 1.81
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "TELEPILOTE describes its Marcq campus, opened in 2017, as a site for indoor and outdoor drone pilot training.",
+      "source": {
+        "name": "TELEPILOTE — facility evidence",
+        "url": "https://www.tele-pilote.fr/le-campus-telepilote/"
+      },
+      "verificationStatus": "Source-reported facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-08-fifty-international-facility-candidates",
+      "reviewNotes": "One campus at 29 Grande Rue, 78770 Marcq. Partner training centres and separate classroom areas are not counted. The opening year is not the publication date.",
+      "coordinateBasis": "Editorial locality reference. Rounded Marcq, Yvelines marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "gipsa-moca-indoor-aviary",
+      "entityKey": "gipsa-moca-indoor-aviary",
+      "name": "GIPSA-lab MOCA indoor drone aviary",
+      "where": "Saint-Martin-d’Hères, France",
+      "country": "France",
+      "region": "Europe",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "GIPSA-lab",
+      "reportedEquipment": "8 × 9 × 2.9 metre indoor aviary with motion capture",
+      "locationPrecision": "Approximate Saint-Martin-d’Hères locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 45.18,
+        "longitude": 5.76
+      },
+      "reportDateLabel": "Facility report published 2026-03-24",
+      "description": "GIPSA-lab describes an indoor drone aviary within its shared MOCA technical platform for flight-control experiments.",
+      "source": {
+        "name": "GIPSA-lab — facility evidence",
+        "url": "https://www.gipsa-lab.grenoble-inp.fr/plateau-technique-robotique-aerienne-2/"
+      },
+      "verificationStatus": "Source-reported facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": "2026-03-24",
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-international-facility-candidates",
+      "reviewNotes": "One MOCA aviary at the Grenoble university campus in Saint-Martin-d’Hères. Wind tunnels and mobile tracking equipment are included, not additional sites. Unnamed outdoor test locations are excluded.",
+      "coordinateBasis": "Editorial locality reference. Rounded Saint-Martin-d’Hères marker, not a surveyed building, laboratory or launch point.",
+      "supportingSources": [
+        {
+          "name": "GIPSA-lab — address",
+          "url": "https://www.gipsa-lab.grenoble-inp.fr/contact-1/"
+        }
+      ]
+    },
+    {
+      "id": "mpit-gorakhpur-drone-training-lab",
+      "entityKey": "mpit-gorakhpur-drone-training-lab",
+      "name": "MPIT Gorakhpur drone training laboratory",
+      "where": "Gorakhpur, India",
+      "country": "India",
+      "region": "Asia",
+      "infrastructureType": "Drone training facility",
+      "reportedOperator": "Maharana Pratap Institute of Technology",
+      "reportedEquipment": "Indoor flight arena and designated outdoor flight field",
+      "locationPrecision": "Approximate Gorakhpur locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 26.76,
+        "longitude": 83.37
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "MPIT describes an indoor arena for beginner drone practice and an outdoor field for autonomous missions within its Drone Technology Lab.",
+      "source": {
+        "name": "Maharana Pratap Institute of Technology — facility evidence",
+        "url": "https://www.mpit.ac.in/coe_drone.php"
+      },
+      "verificationStatus": "Source-reported facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-international-facility-candidates",
+      "reviewNotes": "One Gorakhpur training facility. Indoor and outdoor provision are grouped; Phillips Machine Tools is a partner, not an additional site. Aircraft and simulators are equipment.",
+      "coordinateBasis": "Editorial locality reference. Rounded Gorakhpur marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "rwth-aachen-dsme-phy-flight-cage",
+      "entityKey": "rwth-aachen-dsme-phy-flight-cage",
+      "name": "RWTH Aachen DSME PHY_LAB flight cage",
+      "where": "Aachen, Germany",
+      "country": "Germany",
+      "region": "Europe",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "RWTH Aachen University DSME",
+      "reportedEquipment": "8 × 4 × 2.8 metre indoor flying cage with Vicon tracking",
+      "locationPrecision": "Approximate Aachen locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 50.78,
+        "longitude": 6.08
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "The Robotics Institute Germany infrastructure directory identifies an indoor flying cage at RWTH Aachen’s Institute for Data Science in Mechanical Engineering.",
+      "source": {
+        "name": "RWTH Aachen University DSME — facility evidence",
+        "url": "https://robotics-institute-germany.de/de/project/infrastruktur/"
+      },
+      "verificationStatus": "Source-reported facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-international-facility-candidates",
+      "reviewNotes": "One PHY_LAB flying cage at the DSME institute, Theaterstrasse 35–39 in Aachen. This is distinct from the existing Aldenhoven testing-centre record. Ground robots and two institute laboratory labels do not create extra sites.",
+      "coordinateBasis": "Editorial locality reference. Rounded Aachen marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "nuremberg-aerodrohm-flight-hall",
+      "entityKey": "nuremberg-aerodrohm-flight-hall",
+      "name": "TH Nürnberg AerodrOhm indoor flight hall",
+      "where": "Nuremberg, Germany",
+      "country": "Germany",
+      "region": "Europe",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "Technische Hochschule Nürnberg Georg Simon Ohm",
+      "reportedEquipment": "280-square-metre indoor hall with flight height up to 12 metres",
+      "locationPrecision": "Approximate Nuremberg locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 49.45,
+        "longitude": 11.08
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "The university identifies AerodrOhm at its Ohm Innovation Center as an indoor environment for testing individual drones and cooperating swarms.",
+      "source": {
+        "name": "Technische Hochschule Nürnberg Georg Simon Ohm — facility evidence",
+        "url": "https://www.th-nuernberg.de/forschung-innovation/forschungseinrichtungen/ohm-innovation-center/forschung-am-oic/aerodrohm/"
+      },
+      "verificationStatus": "Source-reported facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-international-facility-candidates",
+      "reviewNotes": "One indoor flight hall at OIC. Research themes, participating projects and swarms are not additional sites. The source does not display an original publication date.",
+      "coordinateBasis": "Editorial locality reference. Rounded Nuremberg marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "tu-graz-icg-dronespace",
+      "entityKey": "tu-graz-icg-dronespace",
+      "name": "TU Graz ICG droneSpace flying arena",
+      "where": "Graz, Austria",
+      "country": "Austria",
+      "region": "Europe",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "Graz University of Technology",
+      "reportedEquipment": "Indoor drone teaching arena with obstacle-flight exercises",
+      "locationPrecision": "Approximate Graz locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 47.07,
+        "longitude": 15.44
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "An ICG course page for the 2024–25 teaching period identifies droneSpace as a flying arena for student drone programming and demonstrations.",
+      "source": {
+        "name": "Graz University of Technology — facility evidence",
+        "url": "https://www.tugraz.at/institute/icg/teaching/coursepages/710099-cameradrones"
+      },
+      "verificationStatus": "Source-reported facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-international-facility-candidates",
+      "reviewNotes": "One named ICG arena. The evidence concerns the 2024–25 course; current operation is not verified. Course dates and a page revision date are not original publication dates. No separate count or dimensions are inferred from AIRlabs partner listings.",
+      "coordinateBasis": "Editorial locality reference. Rounded Graz marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "oit-hirakata-dx-field",
+      "entityKey": "oit-hirakata-dx-field",
+      "name": "Osaka Institute of Technology Hirakata DX Field",
+      "where": "Hirakata, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "Osaka Institute of Technology",
+      "reportedEquipment": "31 × 38 × 19.7 metre indoor experimental space",
+      "locationPrecision": "Approximate Hirakata locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.81,
+        "longitude": 135.65
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "The university describes DX Field at its Hirakata campus as an indoor space supporting drone flight and automatic-control experiments, opened in April 2025.",
+      "source": {
+        "name": "Osaka Institute of Technology — facility evidence",
+        "url": "https://www.oit.ac.jp/oit/facility/dx-field/"
+      },
+      "verificationStatus": "Source-reported facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-international-facility-candidates",
+      "reviewNotes": "One DX Field building in Hirakata, not Osaka city. Its farm, meeting room, sensors and robot storage do not create additional drone sites. The April 2025 opening is not the page publication date.",
+      "coordinateBasis": "Editorial locality reference. Rounded Hirakata marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "nagoya-nitech-gdac-yamada-flight-room",
+      "entityKey": "nagoya-nitech-gdac-yamada-flight-room",
+      "name": "Nagoya Institute of Technology GDAC–Yamada flight room",
+      "where": "Nagoya, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "Nagoya Institute of Technology",
+      "reportedEquipment": "Shared drone experiment room with Vicon and Qualisys tracking",
+      "locationPrecision": "Approximate Nagoya locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.18,
+        "longitude": 136.91
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "GDAC Lab identifies an experiment room shared with the Yamada Laboratory as the place where its research drones fly.",
+      "source": {
+        "name": "Nagoya Institute of Technology — facility evidence",
+        "url": "https://gdaclab.web.nitech.ac.jp/facilities/"
+      },
+      "verificationStatus": "Source-reported facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-international-facility-candidates",
+      "reviewNotes": "One shared room, not two sites for the participating laboratories. Drones, printers and thrust-testing stands are equipment. The October 2026 page-update timestamp is not an original publication date.",
+      "coordinateBasis": "Editorial locality reference. Rounded Nagoya marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "jbnu-jeonju-irdl-flight-room",
+      "entityKey": "jbnu-jeonju-irdl-flight-room",
+      "name": "JBNU IRDL indoor drone and robot test room",
+      "where": "Jeonju, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "Jeonbuk National University IRDL",
+      "reportedEquipment": "Dedicated indoor flight room with motion capture",
+      "locationPrecision": "Approximate Jeonju locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.82,
+        "longitude": 127.15
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "IRDL describes a motion-capture-equipped room for controlled drone and ground-robot experiments in Creative Building 2 at JBNU.",
+      "source": {
+        "name": "Jeonbuk National University IRDL — facility evidence",
+        "url": "https://irdl.jbnu.ac.kr/facilities.html"
+      },
+      "verificationStatus": "Source-reported facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-international-facility-candidates",
+      "reviewNotes": "One test room in Jeonju; the source gives the Creative Building 2 address at 567 Baekje-daero. Ground robots and flight platforms are equipment. The source’s operational label is reported, not independently confirmed.",
+      "coordinateBasis": "Editorial locality reference. Rounded Jeonju marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "imperial-london-vicon-flight-arena",
+      "entityKey": "imperial-london-vicon-flight-arena",
+      "name": "Imperial College London Vicon Flight Arena",
+      "where": "London, United Kingdom",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "Imperial College London",
+      "reportedEquipment": "Enclosed 10 × 6.2 × 5.5 metre arena with Vicon tracking",
+      "locationPrecision": "Approximate London locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 51.51,
+        "longitude": -0.13
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "Imperial’s aeronautics facilities directory identifies the Vicon Flight Arena as an enclosed space for tracking and controlling multiple flying objects.",
+      "source": {
+        "name": "Imperial College London — facility evidence",
+        "url": "https://www.imperial.ac.uk/aeronautics/research/facilities/aerial-robotics/"
+      },
+      "verificationStatus": "Source-reported facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-international-facility-candidates",
+      "reviewNotes": "One specifically named Vicon arena. The Brahmal Vasudevan multi-terrain arena and Microthruster Lab are not counted separately because their physical relationship requires review. The marker is London only; no campus or building is inferred. Evidence was available through the indexed university page; direct retrieval returned 403.",
+      "coordinateBasis": "Editorial locality reference. Rounded London marker, not a surveyed building, laboratory or launch point."
+    },
+    {
+      "id": "ait-vienna-aerial-systems-lab",
+      "entityKey": "ait-vienna-aerial-systems-lab",
+      "name": "AIT Vienna Aerial Systems Lab",
+      "where": "Vienna, Austria",
+      "country": "Austria",
+      "region": "Europe",
+      "infrastructureType": "Aerial robotics research facility",
+      "reportedOperator": "AIT Austrian Institute of Technology",
+      "reportedEquipment": "Indoor flight area with safety net",
+      "locationPrecision": "Approximate Vienna locality reference; not a flight-area coordinate",
+      "approximateMapPoint": {
+        "latitude": 48.21,
+        "longitude": 16.37
+      },
+      "reportDateLabel": "Facility description; publication date not displayed",
+      "description": "AIT describes its Aerial Systems Lab as a flight laboratory with a netted indoor flight area for automated aviation research.",
+      "source": {
+        "name": "AIT Austrian Institute of Technology — facility evidence",
+        "url": "https://www.ait.ac.at/en/labs/aerial-systems-lab"
+      },
+      "verificationStatus": "Source-reported facility; current operation and access not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "research-facility",
+      "sourceReviewedAt": "2026-11-08",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-08-fifty-international-facility-candidates",
+      "reviewNotes": "One Aerial Systems Lab at Giefinggasse 4 in Vienna. Unspecified outdoor test environments, flight simulators and Seibersdorf robotics infrastructure are not counted as additional sites.",
+      "coordinateBasis": "Editorial locality reference. Rounded Vienna marker, not a surveyed building, laboratory or launch point.",
+      "supportingSources": [
+        {
+          "name": "AIT — centre facilities and locations",
+          "url": "https://www.ait.ac.at/en/about-the-ait/center/center-for-vision-automation-control"
+        }
+      ]
     }
   ],
-  "expectedTotal": 594,
+  "expectedTotal": 612,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -19736,6 +20306,29 @@
         "monash-clayton-g10-arena",
         "aarhus-air-flight-arena",
         "tecnalia-aduna-flying-robots-lab"
+      ]
+    },
+    {
+      "id": "2026-11-08-fifty-international-facility-candidates",
+      "recordIds": [
+        "dit-dehradun-indoor-drone-centre",
+        "iit-kanpur-helicopter-vtol-indoor-lab",
+        "pastec-indore-drone-training-campus",
+        "evry-ibisc-indoor-drone-platform",
+        "lille-lmfl-onera-b20-flight-lab",
+        "btu-cottbus-control-drone-cage",
+        "upc-castelldefels-dronelab",
+        "telepilote-marcq-training-campus",
+        "gipsa-moca-indoor-aviary",
+        "mpit-gorakhpur-drone-training-lab",
+        "rwth-aachen-dsme-phy-flight-cage",
+        "nuremberg-aerodrohm-flight-hall",
+        "tu-graz-icg-dronespace",
+        "oit-hirakata-dx-field",
+        "nagoya-nitech-gdac-yamada-flight-room",
+        "jbnu-jeonju-irdl-flight-room",
+        "imperial-london-vicon-flight-arena",
+        "ait-vienna-aerial-systems-lab"
       ]
     }
   ]
