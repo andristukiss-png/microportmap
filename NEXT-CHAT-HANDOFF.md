@@ -1,12 +1,12 @@
 # Current catalogue continuation — 8 November 2026
 
-Repository: https://github.com/andristukiss-png/microportmap, branch main. Historical no-repository statements below are superseded. User authorizes routine research, additions and publication without repeated questions. Continue credible locations, not synthetic task counts.
+Repository: https://github.com/andristukiss-png/microportmap, main. Historical no-repository statements below are superseded. User authorizes routine research, additions and publication without repeated questions. Continue credible locations, not synthetic task counts.
 
-Batch 111: 50 candidate reviews, 15 accepted, 33 deferred, two overlaps. Total 704 records (50 original + 654 additions), 53 countries, 296 remaining to 1,000. See catalogue/one-hundred-eleventh-batch-review.md and the seventh-fifty-task ledger. All 689 earlier records are preserved. PR and CI contain actual publication status; these files alone do not establish deployment.
+Batch 112: 50 candidate reviews, 24 additions, 24 deferred, two overlaps. Total 728 records (50 original + 678 additions), 53 countries; 272 remaining to 1,000. All 704 previous records preserved. See catalogue/one-hundred-twelfth-batch-review.md and eighth-fifty-task ledger. PR and CI contain actual publication status; files alone do not establish deployment.
 
-Build with scripts/build_catalogue.py and deploy dist/, never src/. Run checks/catalogue-expansion.py and checks/catalogue-browser-runner-test.py. CI covers 709 routes / 1,418 desktop-mobile journeys. Vercel Git integration builds main automatically. Public site: https://microportmap.com.
+Build scripts/build_catalogue.py and deploy dist/, never src/. Run checks/catalogue-expansion.py and checks/catalogue-browser-runner-test.py. All four browser CI shards must pass: 733 routes / 1,466 desktop-mobile journeys. Vercel automatically deploys main. Public site https://microportmap.com.
 
-Takinoue sports fields form one campus. Akebono and the FPV school are separate. Bibai Sky Park differs from the agricultural dock; KDDI Yoshino and Yamato differ from the SkyHub depot. Maiko's 2026 season ended; Yoichi is seasonal. Takinoue trial-use descriptions and Akebono's inconsistent indoor-area wording are explicit. Technology Farm Nishinosato's directory PDF points to Sapporo Dome; do not add from that mismatched evidence. Generic properties and distributed inspection assets remain deferred. Source dates are null, map points approximate, current access and operations unverified.
+Sunny Aeropark duplicates Yokohama Hodogaya, Taiki duplicates existing Spaceport. Liberdade field is in Yamaguchi despite Hiroshima branding. Koriyama indoor use is suspended. Multi-area campuses and resort courses are grouped. Municipal-area coordinates are approximate, not flight locations. SGFC is supported by indexed operator evidence; Takizawa publication is dated 2023-04-08. Other publication dates remain null. Current operation and access are not independently verified.
 
 ---
 

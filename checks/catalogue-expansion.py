@@ -1233,4 +1233,23 @@ for t in seventh_review['tasks']:
 assert '2026 season has ended' in by_id['japan-maiko-drone-field']['description']
 assert 'grouping Ball Park and Drill' in by_id['japan-takinoue-sports-park-fields']['reviewNotes']
 assert by_id['japan-takinoue-akebono-launch-field']['reportedStatus']=='trial'
+# Preserve the prior 704 records and reconcile batch 112 candidate decisions.
+assert hashlib.sha256(json.dumps(additions[:654],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='9a6dd4205e589616566c9a79af6b88b15ba5395415a8348cc6f43c0813e6d3fc'
+eighth_review=json.loads((ROOT/'catalogue/2026-11-08-eighth-fifty-task-review.json').read_text())
+assert eighth_review['completedTasks']==50 and [t['task'] for t in eighth_review['tasks']]==list(range(1,51))
+assert len({t['candidate'] for t in eighth_review['tasks']})==50
+assert all(t['reviewStatus']=='completed' and t['sourceUrls'] and t['reason'] for t in eighth_review['tasks'])
+eighth_ids=[t['recordId'] for t in eighth_review['tasks'] if t['decision']=='accepted']
+assert eighth_ids==batch['releases'][111]['recordIds'] and len(eighth_ids)==eighth_review['acceptedRecords']==24
+assert sum(t['decision']=='deferred' for t in eighth_review['tasks'])==eighth_review['deferredCandidates']==24
+assert sum(t['decision']=='excluded-overlap' for t in eighth_review['tasks'])==eighth_review['excludedOverlaps']==2
+for t in eighth_review['tasks']:
+ if t['decision']=='accepted':
+  r=by_id[t['recordId']]
+  assert r['source']['url'] in t['sourceUrls'] and r['reviewNotes']==t['reason']
+  assert r['researchBatch']==eighth_review['batch']
+  assert r['sourcePublishedAt']==('2023-04-08' if r['id']=='japan-takizawa-drone-field' else None)
+ else: assert t['recordId'] is None
+assert 'Yamaguchi' in by_id['japan-liberdade-iwakuni-field']['where']
+assert 'suspends indoor use' in by_id['japan-koriyama-drone-park']['reviewNotes']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
