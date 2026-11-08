@@ -1,0 +1,567 @@
+{
+  "reviewedAt": "2026-11-08",
+  "researchBatch": "2026-11-08-fifty-candidate-facility-review",
+  "taskDefinition": "Screen one candidate for source evidence, site identity and catalogue eligibility; a completed screening can defer addition.",
+  "completedTasks": 50,
+  "acceptedRecords": 20,
+  "deferredCandidates": 28,
+  "excludedOverlaps": 2,
+  "tasks": [
+    {
+      "task": 1,
+      "candidate": "York Robotics Laboratory aerial arena",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "york-robotics-laboratory-arena",
+      "sourceUrls": [
+        "https://www.york.ac.uk/robot-lab/tour/",
+        "https://www.york.ac.uk/robot-lab/",
+        "https://www.york.ac.uk/safe-autonomy/facilities/laboratories-and-test-spaces/"
+      ],
+      "reason": "One YRL arena, established before the separate Institute for Safe Autonomy building. The 80-square-metre YRL space is distinct from ISA Test Space 1. Workshop, classroom and individual robots are not extra records."
+    },
+    {
+      "task": 2,
+      "candidate": "Leeds robotics innovation laboratory",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://eps.leeds.ac.uk/electronic-engineering-undergraduate/doc/learning-teaching-facilities-1"
+      ],
+      "reason": "Drone swarm projects are described, but a physical flight area is not explicitly established."
+    },
+    {
+      "task": 3,
+      "candidate": "Southampton Soton UAV labs",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.southampton.ac.uk/research/facilities/soton-uav-uncrewed-aerial-vehicle-laboratory"
+      ],
+      "reason": "Prototyping and airframe assembly labs plus mobile flight support do not establish flight space at either listed laboratory."
+    },
+    {
+      "task": 4,
+      "candidate": "Bath drone project lab",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.bath.ac.uk/campaigns/apply-mechanical-engineering-knowledge-to-industry-inspired-projects/"
+      ],
+      "reason": "A project lab is listed without evidence of physical flight provision at that site."
+    },
+    {
+      "task": 5,
+      "candidate": "Saint Louis University AirCRAFT drone flight cage",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "slu-aircraft-drone-cage",
+      "sourceUrls": [
+        "https://enroll.slu.edu/science-and-engineering/research/aerospace.php"
+      ],
+      "reason": "One campus cage used by AirCRAFT researchers. The separate airport runway-safety project and spacecraft laboratories are excluded. The source does not identify the cage building or an opening date."
+    },
+    {
+      "task": 6,
+      "candidate": "Indiana VAIL expansion",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://arcdesign.us/project/iu-vehicle-autonomy-and-intelligence-lab/"
+      ],
+      "reason": "Architect describes a flight arena, but its precise site and relationship to the university MESH lab require reconciliation before a new record."
+    },
+    {
+      "task": 7,
+      "candidate": "Purdue UAS Research and Test Facility",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "purdue-uas-research-test-facility",
+      "sourceUrls": [
+        "https://engineering.purdue.edu/PURT/capabilities",
+        "https://engineering.purdue.edu/PURT/people/contact"
+      ],
+      "reason": "One PURT facility; courses, research groups and simulated vehicles are not extra sites. Conflicting camera totals on the source page are not repeated. Publication date is not inferred from page-modification metadata."
+    },
+    {
+      "task": 8,
+      "candidate": "Notre Dame Wireless Institute Drone Lab",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://wireless.nd.edu/about/the-drone-lab/"
+      ],
+      "reason": "Research projects and drone platforms are documented, without explicit physical flight-area evidence."
+    },
+    {
+      "task": 9,
+      "candidate": "Michigan State drone services",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://research.msu.edu/drones"
+      ],
+      "reason": "Service and policy information does not identify a distinct research flight facility."
+    },
+    {
+      "task": 10,
+      "candidate": "Georgia Tech DCSL arena",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://dcsl.gatech.edu/facilities/"
+      ],
+      "reason": "The reviewed arena is for spacecraft simulation on air bearings, not an aerial drone flight facility."
+    },
+    {
+      "task": 11,
+      "candidate": "UT Austin Drone Estimation Lab cage",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://sites.utexas.edu/del/flight-tests/"
+      ],
+      "reason": "Cage testing is described, but the cage location and identity are not sufficiently established."
+    },
+    {
+      "task": 12,
+      "candidate": "UTARI Maverick Autonomous Vehicle Research Center",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "utari-fort-worth-mavrc",
+      "sourceUrls": [
+        "https://www.uta.edu/news/news-releases/2025/09/16/uta-unveils-mavrc-boosting-drone-research-and-innovation"
+      ],
+      "reason": "One MAVRC enclosure in Fort Worth, not Arlington city. The connected observation centre is included; earlier indoor UTARI space and demonstration flights are not extra records. The 2025 opening report supersedes the earlier construction proposal."
+    },
+    {
+      "task": 13,
+      "candidate": "Stanford Boeing Flight and Autonomy Laboratory",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "stanford-boeing-flight-autonomy-lab",
+      "sourceUrls": [
+        "https://aa.stanford.edu/research-impact/labs-and-centers/boeing-flight-autonomy-laboratory"
+      ],
+      "reason": "One shared flight laboratory. The maker area, control room, observation space and participating research groups are not separate facilities."
+    },
+    {
+      "task": 14,
+      "candidate": "US Naval Academy outdoor drone lab proposal",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://ndw.cnic.navy.mil/Installations/NSA-Annapolis/Operations-and-Management/Environmental-Support/Environmental-Assessment/Autonomous-Outdoor-Drone-Lab-at-NSAA-USNA/"
+      ],
+      "reason": "Environmental assessment establishes a proposal; dated project scope and present development state need further review."
+    },
+    {
+      "task": 15,
+      "candidate": "Mississippi State ASRL indoor robotics arena",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "msstate-raspet-asrl-arena",
+      "sourceUrls": [
+        "https://www.ae.msstate.edu/research/asrl/"
+      ],
+      "reason": "One ASRL arena at Raspet, not the entire university flight-research programme or its external test ranges. Listed aircraft and tracking cameras are equipment, not additional sites."
+    },
+    {
+      "task": 16,
+      "candidate": "Berkeley CADR and designated flight sites",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://uav.studentorg.berkeley.edu/ethical-flying-and-building-of-uavs/"
+      ],
+      "reason": "Three permitted flight locations are listed. Defer until each site and its relationship to CADR test infrastructure are separately scoped."
+    },
+    {
+      "task": 17,
+      "candidate": "UCLA drone teaching",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://catalog.registrar.ucla.edu/course/2024/ENGR1DR?siteYear=2024"
+      ],
+      "reason": "Course describes drone construction and testing without identifying a physical flight facility."
+    },
+    {
+      "task": 18,
+      "candidate": "University of Southern California drone use",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://ehs.usc.edu/occhealth/injury-prevention/unmanned-aerial-systems-drones/"
+      ],
+      "reason": "Policy and exceptions do not establish a named flight facility; not confused with South Carolina USRL."
+    },
+    {
+      "task": 19,
+      "candidate": "MIT Lincoln Autonomous Systems Development Facility",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "mit-lincoln-hanscom-asdf",
+      "sourceUrls": [
+        "https://www.ll.mit.edu/about/facilities/autonomous-systems-development-facility"
+      ],
+      "reason": "One named ASDF facility. Internal partitions and research programmes are not extra records; no additional count is made for Lincoln Laboratory Flight Test Facility references without resolving their physical relationship."
+    },
+    {
+      "task": 20,
+      "candidate": "University of South Carolina USRL drone cage",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "south-carolina-usrl-drone-cage",
+      "sourceUrls": [
+        "https://sc.edu/study/colleges_schools/engineering_and_computing/research/research_directory/vitzilaios_usrl.php"
+      ],
+      "reason": "One USRL flight cage at 1000 Catawba Street. The whole McNair Center, aircraft projects and marine or ground robotics equipment are not additional aerial sites."
+    },
+    {
+      "task": 21,
+      "candidate": "Duke North Building robotics flight space",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "duke-north-building-drone-lab",
+      "sourceUrls": [
+        "https://mems.duke.edu/impact/facilities/"
+      ],
+      "reason": "One shared laboratory, with human-interaction rooms and observation space included. Duke Forest flight sites are outside this record and are not added without individual review."
+    },
+    {
+      "task": 22,
+      "candidate": "Cornell drone operations",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.risk.cornell.edu/events-and-staffing-main-page/use-of-drones/"
+      ],
+      "reason": "Campus flight-request policy is not evidence for a distinct drone infrastructure site."
+    },
+    {
+      "task": 23,
+      "candidate": "Princeton EQuad robotics drone flight space",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "princeton-equad-drone-flight-space",
+      "sourceUrls": [
+        "https://engineering.princeton.edu/news/2022/01/25/robotics-lab-opens-experimentation-and-collaboration"
+      ],
+      "reason": "One EQuad laboratory flight space. The January 2021 opening is distinct from the January 2022 publication. Mobile-robot, living-lab and prototyping areas do not create extra records."
+    },
+    {
+      "task": 24,
+      "candidate": "Harvard laboratory drone guidance",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.ehs.harvard.edu/resource/unmanned-aerial-vehicles-and-drones-labs"
+      ],
+      "reason": "Generic laboratory guidance does not identify a named aerial test space."
+    },
+    {
+      "task": 25,
+      "candidate": "Michigan M-Air Net",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://robotics.umich.edu/about/facilities/m-air-net/"
+      ],
+      "reason": "Already represented by michigan-m-air-net; renaming or research uses do not create a new site."
+    },
+    {
+      "task": 26,
+      "candidate": "Ohio State PCVLab indoor drone space",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "ohio-state-pcv-indoor-flight-lab",
+      "sourceUrls": [
+        "https://u.osu.edu/pcvlab/information/resources/"
+      ],
+      "reason": "One PCVLab indoor space. Ohio State Airport, Molly Caren Agricultural Center and the Route 33 corridor are separate leads, not included here. The source does not establish the precise room or opening date."
+    },
+    {
+      "task": 27,
+      "candidate": "Penn State PURL indoor flight facility",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "penn-state-purl-indoor-flight",
+      "sourceUrls": [
+        "https://purl.psu.edu/",
+        "https://aerospaceengineeringresearch.psu.edu/facilities/"
+      ],
+      "reason": "One PURL facility. External flight sites and the separately described ECoRE indoor facility are not counted. The map is a University Park locality reference; it does not locate the flight room."
+    },
+    {
+      "task": 28,
+      "candidate": "Clemson IS-WiN Anderson UAV test field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "clemson-iswin-anderson-test-field",
+      "sourceUrls": [
+        "https://sites.google.com/g.clemson.edu/is-win-lab/facilities"
+      ],
+      "reason": "One Anderson field at 100 Clemson Research Boulevard. The separate indoor laboratory in Clemson and individual sensing nodes are not additional records in this review."
+    },
+    {
+      "task": 29,
+      "candidate": "University of Waterloo RoboHub aerial test space",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "waterloo-robohub-aerial-test-space",
+      "sourceUrls": [
+        "https://uwaterloo.ca/robohub/about/space",
+        "https://uwaterloo.ca/robohub/news/waterloo-creates-terrarium-robots"
+      ],
+      "reason": "One RoboHub chamber. Participating laboratories, robot types and the earlier garage-based facility are not counted separately. The facility page is undated."
+    },
+    {
+      "task": 30,
+      "candidate": "UBC STAR airborne sensing laboratory",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://star.ubc.ca/services-equipment/"
+      ],
+      "reason": "The reviewed page labels this laboratory coming soon and does not establish its flight provision."
+    },
+    {
+      "task": 31,
+      "candidate": "McGill Aerospace Mechatronics UAV laboratory",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "mcgill-aerospace-mechatronics-uav-lab",
+      "sourceUrls": [
+        "https://aerospacemechatronics.lab.mcgill.ca/index.html"
+      ],
+      "reason": "One room-scale experimental facility at 817 Sherbrooke Street West. The source establishes limited experiments, not a large flight range; individual blimps and space-debris test rigs are not extra sites."
+    },
+    {
+      "task": 32,
+      "candidate": "University of Alberta ANCL indoor flight arena",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "alberta-ancl-flight-arena",
+      "sourceUrls": [
+        "https://ancl.ece.ualberta.ca/"
+      ],
+      "reason": "One ANCL arena. The earlier outdoor helicopter programme is not a separately identified test site. The page update of 6 October 2025 is not treated as an original publication date."
+    },
+    {
+      "task": 33,
+      "candidate": "University of Sydney indoor UAV flight laboratory",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "sydney-aeronautical-indoor-uav-lab",
+      "sourceUrls": [
+        "https://www.sydney.edu.au/engineering/our-research/laboratories-and-facilities/aerospace-mechanical-and-mechatronic-facilities.html"
+      ],
+      "reason": "One indoor laboratory. The Marulan farm flight facility, flight simulators, fabrication spaces and other test chambers are outside this record and are not counted here."
+    },
+    {
+      "task": 34,
+      "candidate": "Monash G10 robotics experimental arena",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "monash-clayton-g10-arena",
+      "sourceUrls": [
+        "https://www.monash.edu/engineering/robotics/about/facilities",
+        "https://www.monash.edu/engineering/robotics/about/contact-us"
+      ],
+      "reason": "One G10 arena at the Clayton robotics facility. The 2022 facility launch is not a publication date. Kitchen, lounge, workspace and Drone Discovery Platform links are not extra records."
+    },
+    {
+      "task": 35,
+      "candidate": "QUT Banyo Research Engineering Facility",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://science.qld.gov.au/research/capability-directory/research-engineering-facility"
+      ],
+      "reason": "Drone services and engineering capability are described, without a specifically identified flight space."
+    },
+    {
+      "task": 36,
+      "candidate": "RMIT RUASRT netted test area",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://ruasrt.com/capability/"
+      ],
+      "reason": "An outdoor netted test area is listed, but its physical location needs confirmation."
+    },
+    {
+      "task": 37,
+      "candidate": "NUS Temasek Flight Sciences",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.temasek-labs.nus.edu.sg/program/program_flightscience.html"
+      ],
+      "reason": "A research programme and contact address do not establish a distinct physical flight arena."
+    },
+    {
+      "task": 38,
+      "candidate": "NTU UAV Lab",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.ntu.edu.sg/mae/research/research-focus/aerospace"
+      ],
+      "reason": "A UAV lab is listed; a separate tethered-drone project cannot be assumed to identify this room as a flight facility."
+    },
+    {
+      "task": 39,
+      "candidate": "HKUST-DJI joint laboratory",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://hdji.hkust.edu.hk/research/"
+      ],
+      "reason": "Research themes, wind-tunnel work and demonstrations do not resolve a distinct physical flight facility for this candidate."
+    },
+    {
+      "task": 40,
+      "candidate": "University of Hong Kong drone use",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.hku.hk/en/campus-life/visit-hku/filming-on-hku-campus/filming-with-uas"
+      ],
+      "reason": "Filming guidance does not establish a named drone research flight facility."
+    },
+    {
+      "task": 41,
+      "candidate": "Zurich RPG arena and LINA",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://news.uzh.ch/en/articles/news/2023/lina.html"
+      ],
+      "reason": "Strong arena evidence exists, but the relationship between RPG hangar and LINA infrastructure needs reconciliation to avoid duplicate sites."
+    },
+    {
+      "task": 42,
+      "candidate": "Aalto Robotics Lab",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.aalto.fi/en/department-of-electrical-engineering-and-automation/aalto-robotics-lab"
+      ],
+      "reason": "Motion capture and ground robots are described; aerial flight use is not established by the reviewed facility page."
+    },
+    {
+      "task": 43,
+      "candidate": "Aarhus AiR Laboratory flight arena",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "aarhus-air-flight-arena",
+      "sourceUrls": [
+        "https://ece.au.dk/forskning/forskningsomraader-institut-for-elektro-og-computerteknologi-technical-sciences-aarhus-universitet/signal-processing-and-machine-learning/research-groups-alt/artificial-intelligence-in-robotics/research"
+      ],
+      "reason": "One AiR arena. No separate count is made for Deep Tech Experimental Hub references without resolving their relationship. The displayed July 2026 revision is not an original publication date; the map locates only Aarhus."
+    },
+    {
+      "task": 44,
+      "candidate": "SDU Flight Lab at HCA Airport",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.sdu.dk/en/forskning/sduuascenter/aboutsduuascenter/sdu-flight-lab"
+      ],
+      "reason": "Part of the existing UAS Denmark Odense test-centre campus; no additional record without a justified separate site scope."
+    },
+    {
+      "task": 45,
+      "candidate": "TECNALIA Aduna Flying Robots Lab",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "tecnalia-aduna-flying-robots-lab",
+      "sourceUrls": [
+        "https://www.tecnalia.com/en/infrastructure/innovative-air-mobility-lab"
+      ],
+      "reason": "One Aduna flight facility. The propulsion test bench and control post are included; Donostia offices and minor laboratory equipment do not create a second flight-site record."
+    },
+    {
+      "task": 46,
+      "candidate": "Seville GRVC and CUAM",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://etsi.us.es/agenda/la-etsi-pone-prueba-drones-bio-inspirados-en-el-taller-energy-efficient-flapping-wing-robots"
+      ],
+      "reason": "Workshop demonstrations establish activity, but facility identity, event year and relationship to the newer CUAM require further review."
+    },
+    {
+      "task": 47,
+      "candidate": "Zagreb LARICS",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://larics.fer.hr/larics/about"
+      ],
+      "reason": "Aerial robotics work is documented; the reviewed pages do not sufficiently identify a distinct physical flight facility."
+    },
+    {
+      "task": 48,
+      "candidate": "Ljubljana AEROL",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://web.fs.uni-lj.si/avio/"
+      ],
+      "reason": "Aeronautical teaching and drone topics do not establish a physical drone flight facility in the reviewed material."
+    },
+    {
+      "task": 49,
+      "candidate": "Oslo Drone Infrastructure Lab",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.mn.uio.no/geo/english/research/about/infrastructure/facilities/observations/geosciences/the-drone-infrastructure-laboratory/index.html"
+      ],
+      "reason": "Fleet, equipment loans and field services are established, not flight provision at the Oslo lab address."
+    },
+    {
+      "task": 50,
+      "candidate": "Oulu Arctic Drone Labs indoor space",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://oamk.fi/en/development-platforms/arctic-drone-labs/our-services/"
+      ],
+      "reason": "Several test areas and indoor services are listed; exact indoor identity and relationship to existing Oulu records remain unresolved."
+    }
+  ]
+}
