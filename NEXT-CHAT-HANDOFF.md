@@ -2,13 +2,13 @@
 
 Repository: https://github.com/andristukiss-png/microportmap, main. Historical no-repository statements below are superseded. User authorizes routine research, additions and publication without repeated questions. Continue credible locations, not synthetic task counts.
 
-Batch 115: 50 candidate reviews, 30 additions, 20 deferred. Total 816 records (50 original + 766 additions), 53 countries; 184 remaining to 1,000. All 786 prior records preserved. See catalogue/one-hundred-fifteenth-batch-review.md and catalogue/2026-11-09-third-fifty-task-review.json. PR and CI contain actual publication status; files alone do not establish deployment.
+Batch 116: 50 candidate reviews, 18 additions, 32 deferred. Total 834 records (50 original + 784 additions), 53 countries; 166 remaining to 1,000. All 816 prior records preserved. See catalogue/one-hundred-sixteenth-batch-review.md and catalogue/2026-11-09-fourth-fifty-task-review.json. PR and CI contain actual publication status; files alone do not establish deployment.
 
-Build scripts/build_catalogue.py and deploy dist/, never src/. Run checks/catalogue-expansion.py and checks/catalogue-browser-runner-test.py. All four browser CI shards must pass: 821 routes / 1,642 desktop-mobile journeys. Vercel automatically deploys main. Public site https://microportmap.com.
+Build scripts/build_catalogue.py and deploy dist/, never src/. Run checks/catalogue-expansion.py and checks/catalogue-browser-runner-test.py. All four browser CI shards must pass: 839 routes / 1,678 desktop-mobile journeys. Vercel automatically deploys main. Public site https://microportmap.com.
 
-Former JUAVAC Tsuda rental and Katano venues are historical. NDSA Nagoya, Polista and Setobara have suspended use/bookings and unknown current status. Setobara notice dated 15 October 2026. Kaizuka field is Hashimoto 1517, not city hall; Saxeed field is Eitakuji, not its Chuocho office. Labotech personal practice is graduate-only. Hyogo sports grounds require exclusive rental. All markers are editorial municipal references. Operation/access not independently verified.
+Hirakata East is the successor to former Katano. Kitakyushu Kawachi is suspended, status unknown, and unrelated to iRobotics Kawachi in Ibaraki. KDNPA Kurino is in Yusui, not Kirishima city. DSJ Saga Tosu is in Kiyama. Naka Oto Drone Plaza is not assumed identical to NAKA DRONE FIELD. All markers are editorial municipal references; operation and access are not independently verified.
 
-Future leads: JUAVAC Hirakata East field at Sonenji 2978-1 (primary https://bluesky.vie-orner.com/drone-osaka-space; relocation https://bluesky.vie-orner.com/news-11095); Sky Dome Fukuyama; Takano Drone Training Field; DPLAN Tokushima; Camp Park Kito. Earlier unresolved leads remain in ledgers. Do not count unreviewed leads as additions. Aozora and Rainbow Sports alias relationship remains unresolved.
+Future leads: separately named NAKA DRONE FIELD needs site identification and relation to Oto Plaza; Nanten's Nago, Nishihara and planned Ginowan venues need location and campus relationships. Earlier deferred leads remain in ledgers. Scenic filming spots alone are not configured practice infrastructure. Do not count unreviewed leads as additions.
 
 ---
 
