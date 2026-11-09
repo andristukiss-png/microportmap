@@ -1,0 +1,566 @@
+{
+  "reviewedAt": "2026-11-09",
+  "batch": "2026-11-09-taiwan-australia-field-review",
+  "completedTasks": 50,
+  "acceptedRecords": 36,
+  "deferredCandidates": 14,
+  "excludedOverlaps": 0,
+  "tasks": [
+    {
+      "task": 1,
+      "candidate": "Houcun Weir drone field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taiwan-houcun-weir",
+      "sourceUrls": [
+        "https://wedid.ntpc.gov.tw/governance/detail/dqWDvx58Pob1",
+        "https://www.hrcm.ntpc.gov.tw/About/PublicInfomation/SitsUseRules/MachineryRemoteRule/Airplane1/"
+      ],
+      "reason": "One field; runway, preparation space and practice areas grouped. Opening date is not treated as publication date."
+    },
+    {
+      "task": 2,
+      "candidate": "Fudekeng environmental restoration park",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.laws.taipei.gov.tw/Law/SOPSearch/DownloadFile?sop_no=P12000113.pdf"
+      ],
+      "reason": "Municipal enforcement procedure addresses prohibited drone activity; not established as an operating training facility."
+    },
+    {
+      "task": 3,
+      "candidate": "Huazhong Riverside Park",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://drone.sean.cat/sites"
+      ],
+      "reason": "Directory flight-area lead; configured training or test infrastructure not established."
+    },
+    {
+      "task": 4,
+      "candidate": "Sanchong drone field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taiwan-sanchong-field",
+      "sourceUrls": [
+        "https://www.hrcm.ntpc.gov.tw/About/PublicInfomation/SitsUseRules/MachineryRemoteRule/Airplane2"
+      ],
+      "reason": "One field; controlled flight and launch areas grouped."
+    },
+    {
+      "task": 5,
+      "candidate": "Xiaobitan Park",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://drone.sean.cat/sites"
+      ],
+      "reason": "Directory flight-area lead; configured training or test infrastructure not established."
+    },
+    {
+      "task": 6,
+      "candidate": "Fengshan Creek Riverside Park",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://drone.sean.cat/sites"
+      ],
+      "reason": "Directory flight-area lead; configured training or test infrastructure not established."
+    },
+    {
+      "task": 7,
+      "candidate": "Jingguo model aviation and drone field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taiwan-jingguo-field",
+      "sourceUrls": [
+        "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=613812"
+      ],
+      "reason": "One field; three test areas and runway grouped. Source reports the facility, not independently verified current management."
+    },
+    {
+      "task": 8,
+      "candidate": "Bazhang Creek Park",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://drone.sean.cat/sites"
+      ],
+      "reason": "Directory flight-area lead; configured training or test infrastructure not established."
+    },
+    {
+      "task": 9,
+      "candidate": "Wanda Bridge riverbank",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://drone.sean.cat/sites"
+      ],
+      "reason": "Directory flight-area lead; configured training or test infrastructure not established."
+    },
+    {
+      "task": 10,
+      "candidate": "Ligang jet model field",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://drone.sean.cat/sites"
+      ],
+      "reason": "Primary evidence for the listed drone-training or examination offering not established."
+    },
+    {
+      "task": 11,
+      "candidate": "Yilan Riverside Jietoufen",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://drone.sean.cat/sites"
+      ],
+      "reason": "Directory flight-area lead; configured training or test infrastructure not established."
+    },
+    {
+      "task": 12,
+      "candidate": "China University of Technology Taipei examination field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taiwan-cut-taipei-field",
+      "sourceUrls": [
+        "https://testdrone.caa.gov.tw/zh-TW/Default/DataDetail3/10130"
+      ],
+      "reason": "One campus field; classroom not an additional facility."
+    },
+    {
+      "task": 13,
+      "candidate": "Taipei University of Marine Technology Shilin field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taiwan-tumt-shilin-field",
+      "sourceUrls": [
+        "https://admc.tumt.edu.tw/p/16-1021-48986.php?Lang=zh-tw"
+      ],
+      "reason": "One Shilin campus; computer examination room grouped with the practical field."
+    },
+    {
+      "task": 14,
+      "candidate": "National Taiwan University Ankang farm drone field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taiwan-ntu-ankang-field",
+      "sourceUrls": [
+        "https://www.ercba.ntu.edu.tw/News_Content_n_51173_s_233953.html",
+        "https://www.farm.ntu.edu.tw/page/about/index.aspx?kind=93&lang=TW"
+      ],
+      "reason": "One Ankang farm field, distinct from the theory centre and Taipei main campus."
+    },
+    {
+      "task": 15,
+      "candidate": "Daxindian drone examination field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taiwan-daxindian-field",
+      "sourceUrls": [
+        "https://testdrone.caa.gov.tw/zh-TW/Default/DataDetail3/10130"
+      ],
+      "reason": "One field, distinct from NTU Ankang farm."
+    },
+    {
+      "task": 16,
+      "candidate": "Tungnan University drone examination field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taiwan-tungnan-field",
+      "sourceUrls": [
+        "https://testdrone.caa.gov.tw/zh-TW/Default/DataDetail3/10130"
+      ],
+      "reason": "One Shenkeng campus field."
+    },
+    {
+      "task": 17,
+      "candidate": "Huafan University drone examination field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taiwan-huafan-field",
+      "sourceUrls": [
+        "https://www.hfu.edu.tw/Front/Announce/Announce-02/News.aspx?Sn=709&id=%2BCcwjg98bKg%3D&page=19"
+      ],
+      "reason": "One Shiding campus; examination dates are not publication dates."
+    },
+    {
+      "task": 18,
+      "candidate": "Chungyu University of Film and Arts examination field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taiwan-chungyu-field",
+      "sourceUrls": [
+        "https://testdrone.caa.gov.tw/zh-TW/Default/DataDetail3/10130"
+      ],
+      "reason": "One Keelung campus field."
+    },
+    {
+      "task": 19,
+      "candidate": "Nanya Institute of Technology drone field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taiwan-nanya-field",
+      "sourceUrls": [
+        "https://www.nanya.edu.tw/news_detail.aspx?nno=54338"
+      ],
+      "reason": "One campus field; athletics ground, runway and courts grouped."
+    },
+    {
+      "task": 20,
+      "candidate": "Ming Chuan University Taoyuan drone field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taiwan-ming-chuan-taoyuan-field",
+      "sourceUrls": [
+        "https://testdrone.caa.gov.tw/zh-TW/Default/DataDetail3/10130"
+      ],
+      "reason": "One campus; theory rooms are not extra facilities."
+    },
+    {
+      "task": 21,
+      "candidate": "Chinese UAV Education Development Exchange Association Zhudong outdoor field",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://testdrone.caa.gov.tw/zh-TW/Default/DataDetail3/10130"
+      ],
+      "reason": "Association listing does not resolve the exact outdoor field and office relationship."
+    },
+    {
+      "task": 22,
+      "candidate": "Chinese UAV Education Development Exchange Association Baoshan indoor field",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://drone.sean.cat/sites/cduea-baoshan"
+      ],
+      "reason": "Directory lead; distinct indoor field not confirmed by a primary venue source."
+    },
+    {
+      "task": 23,
+      "candidate": "Yu Da University drone examination field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taiwan-yu-da-field",
+      "sourceUrls": [
+        "https://iot.ydu.edu.tw/zh_tw/Classroom/drone_exam"
+      ],
+      "reason": "One Zaoqiao campus field; examination areas grouped."
+    },
+    {
+      "task": 24,
+      "candidate": "Hungkuang University drone examination field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taiwan-hungkuang-field",
+      "sourceUrls": [
+        "https://www.hk.edu.tw/remote/HK_PO37650247/"
+      ],
+      "reason": "One campus facility; additional campus areas and examination rooms are not separate records."
+    },
+    {
+      "task": 25,
+      "candidate": "Agricultural Chemicals Research Institute Wufeng trial field",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.acri.gov.tw/Item/Detail/%E8%BE%B2%E5%A7%94%E6%9C%83%E9%96%8B%E8%A8%AD%E5%B0%88%E7%8F%AD%E8%BC%94%E5%B0%8E%E8%80%83%E7%85%A7--%E5%A5%A0%E5%AE%9A%E7%84%A1%E4%BA%BA%E6%A9%9F%E8%BE%B2%E8%97%A5"
+      ],
+      "reason": "Older cooperation announcement does not resolve the trial field relationship with the agricultural research institute."
+    },
+    {
+      "task": 26,
+      "candidate": "Feng Chia University drone field",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://drone.sean.cat/sites"
+      ],
+      "reason": "Training lead found, but a distinct physical practice field remains unresolved."
+    },
+    {
+      "task": 27,
+      "candidate": "Chienkuo Technology University drone examination field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taiwan-chienkuo-field",
+      "sourceUrls": [
+        "https://eetc.ctu.edu.tw/news_detail/144"
+      ],
+      "reason": "One campus field; theory examination provision is grouped."
+    },
+    {
+      "task": 28,
+      "candidate": "AIDC Formosan Era Village drone field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taiwan-aidc-formosan-era-field",
+      "sourceUrls": [
+        "https://www.aidc-vipclub.com/news/details.php?group_id=9737&id=51934",
+        "https://www.aidc-vipclub.com/products/index.php?group_id=8986&title_id=15370"
+      ],
+      "reason": "One Caotun field at Zhongzheng Road 1039; Taichung office excluded."
+    },
+    {
+      "task": 29,
+      "candidate": "Formosa association Huwei drone field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taiwan-formosa-huwei-field",
+      "sourceUrls": [
+        "https://news.pts.org.tw/article/826835",
+        "https://news.pts.org.tw/article/825717"
+      ],
+      "reason": "Historical field, distinct from National Formosa University campus. Flight use had already stopped in the cited report; no successor site inferred."
+    },
+    {
+      "task": 30,
+      "candidate": "National Chiayi University drone field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taiwan-chiayi-university-field",
+      "sourceUrls": [
+        "https://website.ncyu.edu.tw/bioeng/Contents?nodeId=33822"
+      ],
+      "reason": "One university field; practical courses and examinations grouped."
+    },
+    {
+      "task": 31,
+      "candidate": "Asia UAV AI Innovation Application R&D Centre",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taiwan-asia-uav-ai-centre",
+      "sourceUrls": [
+        "https://spacechiayi.tw/"
+      ],
+      "reason": "One Puzi campus; research and testing provision grouped. Not the former Huwei field."
+    },
+    {
+      "task": 32,
+      "candidate": "CTBC University of Technology drone field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taiwan-ctbc-tech-field",
+      "sourceUrls": [
+        "https://www.ctbctech.edu.tw/p/404-1000-16873.php?Lang=zh-tw"
+      ],
+      "reason": "One campus formerly known as Far East University; renamed institution is not a second facility."
+    },
+    {
+      "task": 33,
+      "candidate": "Taiwan Steel University of Science and Technology drone field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taiwan-taiwan-steel-field",
+      "sourceUrls": [
+        "https://www.tsust.edu.tw/var/file/0/1000/img/tsust_drone.pdf"
+      ],
+      "reason": "One campus formerly known as Kao Yuan University; renamed institution is not a second facility."
+    },
+    {
+      "task": 34,
+      "candidate": "Shih Chien University Kaohsiung drone field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taiwan-shih-chien-kaohsiung-field",
+      "sourceUrls": [
+        "https://eec.kh.usc.edu.tw/p/406-1040-55391%2Cr1090.php?Lang=zh-tw"
+      ],
+      "reason": "One Neimen campus; an upcoming course date is not treated as a facility opening date."
+    },
+    {
+      "task": 35,
+      "candidate": "Zhutian drone training and examination field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taiwan-zhutian-field",
+      "sourceUrls": [
+        "https://elite.taiwanjobs.gov.tw/ClassSearch/Detail?SOURCE_TYPE=ELIT&UUID=B52D0297F0494369BBD7C4F05C6E60B8"
+      ],
+      "reason": "One field at Fengan Road 60; separate university teaching premises are not added from this course listing."
+    },
+    {
+      "task": 36,
+      "candidate": "National Ilan University Chengnan drone field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taiwan-ilan-chengnan-field",
+      "sourceUrls": [
+        "https://niu-uav.niu.edu.tw/p/405-1060-33734,c4555.php",
+        "https://udb.moe.edu.tw/ulist/Institution?id=000021E74150"
+      ],
+      "reason": "One Chengnan campus in Yilan City; practical areas grouped. Shennong theory rooms are not additional flight facilities."
+    },
+    {
+      "task": 37,
+      "candidate": "National Dong Hwa University Shoufeng drone field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taiwan-dong-hwa-shoufeng-field",
+      "sourceUrls": [
+        "https://secret.ndhu.edu.tw/p/406-1011-170723%2Cr5380.php?Lang=zh-tw"
+      ],
+      "reason": "One Shoufeng campus; Meilun theory provision is not counted as an additional flight field."
+    },
+    {
+      "task": 38,
+      "candidate": "National Dong Hwa University Meilun indoor field",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://ipark.ndhu.edu.tw/p/412-1189-19003.php?Lang=zh-tw"
+      ],
+      "reason": "Accessible primary material does not establish the distinct indoor field; linked facility document unavailable."
+    },
+    {
+      "task": 39,
+      "candidate": "Luminous Hot Spring Luye field",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://testdrone.caa.gov.tw/zh-TW/Default/DataDetail3/10130"
+      ],
+      "reason": "Listed examination venue does not resolve the specific hotel campus identity and field relationship."
+    },
+    {
+      "task": 40,
+      "candidate": "Nangan Mazu Village drone examination field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taiwan-nangan-mazu-field",
+      "sourceUrls": [
+        "https://www.nankan.gov.tw/Chhtml/Detail/2221?mcid=113432"
+      ],
+      "reason": "One practical field below Houao reservoir; Fire Bureau theory room is not a flight facility."
+    },
+    {
+      "task": 41,
+      "candidate": "Ming Chuan University Kinmen drone field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "taiwan-ming-chuan-kinmen-field",
+      "sourceUrls": [
+        "https://www.week.mcu.edu.tw/42743/",
+        "https://kinmen.mcu.edu.tw/about/"
+      ],
+      "reason": "One branch campus in Jinsha; examinations, practice and rental grouped."
+    },
+    {
+      "task": 42,
+      "candidate": "Droneit Northern Suburbs Districts Cricket Club field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "australia-droneit-kedron",
+      "sourceUrls": [
+        "https://www.droneit.com.au/locations/brisbane"
+      ],
+      "reason": "One Kedron field at Shaw Road 128; examination room grouped. Operator training does not imply unrestricted public flight access."
+    },
+    {
+      "task": 43,
+      "candidate": "Droneit Wynnum Manly District Cricket Club field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "australia-droneit-tingalpa",
+      "sourceUrls": [
+        "https://www.droneit.com.au/locations/brisbane"
+      ],
+      "reason": "One alternative field at Boundary Street 175, Tingalpa; examination room grouped. Operator training does not imply unrestricted public flight access."
+    },
+    {
+      "task": 44,
+      "candidate": "Droneit Dandenong Softball Association field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "australia-droneit-dandenong",
+      "sourceUrls": [
+        "https://www.droneit.com.au/locations/melbourne"
+      ],
+      "reason": "One Dandenong training field; Mount Waverley examination room excluded. Operator training does not imply unrestricted public flight access."
+    },
+    {
+      "task": 45,
+      "candidate": "Droneit KCC Park Skye field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "australia-droneit-skye",
+      "sourceUrls": [
+        "https://www.droneit.com.au/locations/melbourne"
+      ],
+      "reason": "One alternative Skye training field; classroom is not another facility. Operator training does not imply unrestricted public flight access."
+    },
+    {
+      "task": 46,
+      "candidate": "Droneit Dogs NSW Orchard Hills field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "australia-droneit-orchard-hills",
+      "sourceUrls": [
+        "https://www.droneit.com.au/locations/sydney"
+      ],
+      "reason": "One Orchard Hills field; Penrith municipal marker, not venue coordinates. Operator training does not imply unrestricted public flight access."
+    },
+    {
+      "task": 47,
+      "candidate": "Droneit Search DOGS Rossmore field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "australia-droneit-rossmore",
+      "sourceUrls": [
+        "https://www.droneit.com.au/locations/sydney"
+      ],
+      "reason": "One alternative field at Ramsay Road 148–152; classroom grouped. Operator training does not imply unrestricted public flight access."
+    },
+    {
+      "task": 48,
+      "candidate": "Droneit Onkaparinga Rugby Union Football Club field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "australia-droneit-morphett-vale",
+      "sourceUrls": [
+        "https://www.droneit.com.au/locations/adelaide"
+      ],
+      "reason": "One Sports Park Drive field; examination room grouped. Operator training does not imply unrestricted public flight access."
+    },
+    {
+      "task": 49,
+      "candidate": "Droneit George Burnett Leisure Centre field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "australia-droneit-karawara",
+      "sourceUrls": [
+        "https://www.droneit.com.au/locations/perth"
+      ],
+      "reason": "One Karawara field; Meeting Room 3 grouped. Marker represents Perth, not the centre. Operator training does not imply unrestricted public flight access."
+    },
+    {
+      "task": 50,
+      "candidate": "Droneit Walker Road Sporting Precinct field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "australia-droneit-edmonton",
+      "sourceUrls": [
+        "https://www.droneit.com.au/locations/cairns"
+      ],
+      "reason": "One Edmonton field at Walker Road 10–20; examination room grouped. Operator training does not imply unrestricted public flight access."
+    }
+  ]
+}
