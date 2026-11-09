@@ -1252,4 +1252,26 @@ for t in eighth_review['tasks']:
  else: assert t['recordId'] is None
 assert 'Yamaguchi' in by_id['japan-liberdade-iwakuni-field']['where']
 assert 'suspends indoor use' in by_id['japan-koriyama-drone-park']['reviewNotes']
+# Preserve all 728 prior records and reconcile batch 113, including closed venues.
+assert hashlib.sha256(json.dumps(additions[:678],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='2702f7a111792abdd801b6214f82b4b0ef5e56e5be3e6ab732946548e5ca9d50'
+ninth_review=json.loads((ROOT/'catalogue/2026-11-09-fifty-task-review.json').read_text())
+assert ninth_review['completedTasks']==50 and [t['task'] for t in ninth_review['tasks']]==list(range(1,51))
+assert len({t['candidate'] for t in ninth_review['tasks']})==50
+assert all(t['reviewStatus']=='completed' and t['sourceUrls'] and t['reason'] for t in ninth_review['tasks'])
+ninth_ids=[t['recordId'] for t in ninth_review['tasks'] if t['decision']=='accepted']
+assert ninth_ids==batch['releases'][112]['recordIds'] and len(ninth_ids)==ninth_review['acceptedRecords']==27
+assert sum(t['decision']=='deferred' for t in ninth_review['tasks'])==ninth_review['deferredCandidates']==21
+assert sum(t['decision']=='excluded-overlap' for t in ninth_review['tasks'])==ninth_review['excludedOverlaps']==2
+closed_ninth={'japan-semboku-tazawako-former-area':'31 March 2024','japan-semboku-kakunodate-former-area':'31 March 2024','japan-flightspace-kawasaki-former-field':'3 July 2021','japan-chichibu-former-play-area':'30 September 2024'}
+for t in ninth_review['tasks']:
+ if t['decision']=='accepted':
+  r=by_id[t['recordId']]
+  assert r['source']['url'] in t['sourceUrls'] and r['reviewNotes']==t['reason']
+  assert r['researchBatch']==ninth_review['batch'] and r['sourcePublishedAt'] is None
+  assert r['reportedStatus']==('historical' if r['id'] in closed_ninth else 'reported-operation')
+  if r['id'] in closed_ninth: assert closed_ninth[r['id']] in r['description'] and r['name'].startswith('Former ')
+ else: assert t['recordId'] is None
+assert 'Shimotsuma' in by_id['japan-bluemax-skynet-shimotsuma-field']['where']
+assert 'Kado office is not the field' in by_id['japan-iwate-association-kurokawa-park']['reviewNotes']
+assert 'seasonal' in by_id['japan-seinousha-kazo-seasonal-field']['reviewNotes']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
