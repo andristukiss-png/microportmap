@@ -42,7 +42,7 @@ A successful GitHub workflow **does not deploy to Vercel**. The production deplo
 
 ## Research limits
 
-The current build contains 755 source-linked research records (50 originals plus 705 additions in one hundred and thirteen reviewed batches). Records can describe a centre, hospital campus, station or network; they are not a count of individually verified operating ports. All approximate map points are research references. They do not establish current operations, public access or flight permission. Independent research accuracy and actual mobile/device visuals remain unverified. Correction reports are prepared locally; no submission inbox is connected.
+The current build contains 786 source-linked research records (50 originals plus 736 additions in one hundred and fourteen reviewed batches). Records can describe a centre, hospital campus, station or network; they are not a count of individually verified operating ports. All approximate map points are research references. They do not establish current operations, public access or flight permission. Independent research accuracy and actual mobile/device visuals remain unverified. Correction reports are prepared locally; no submission inbox is connected.
 
 ## V1 launch status
 
@@ -50,7 +50,7 @@ The current build contains 755 source-linked research records (50 originals plus
 
 ## Catalogue expansion
 
-The next target is 1,000 credible, distinct research records. The first one hundred and thirteen batches add 705 records; 245 more are needed. No quantity guarantee is made before sources and counting scope are reviewed.
+The next target is 1,000 credible, distinct research records. The first one hundred and fourteen batches add 736 records; 214 more are needed. No quantity guarantee is made before sources and counting scope are reviewed.
 
 The [50-candidate review](catalogue/one-hundred-fifth-batch-review.md) records 50 completed screening tasks: 20 accepted sites, 28 deferred candidates and two overlapping entries excluded. A completed screening is not a claim that a deferred site has been verified.
 
@@ -70,11 +70,13 @@ The [eighth 50-candidate review](catalogue/one-hundred-twelfth-batch-review.md) 
 
 The [batch 113 review](catalogue/one-hundred-thirteenth-batch-review.md) adds 27 locations (four historical), defers 21 leads and resolves two overlaps from 50 candidates.
 
+The [batch 114 review](catalogue/one-hundred-fourteenth-batch-review.md) adds 31 locations, defers 17 leads and resolves two overlaps from 50 candidates. Seasonal limits and suspended facilities remain explicit.
+
 Each new record requires a named location or clearly scoped network, a traceable public source, its publication date when displayed, source-reading date, source type, reported status, duplicate-review notes and an explicitly editorial approximate locality point. Do not count delivery destinations, all hospitals in a network, or vendor fleet totals as individual sites without separate evidence. Source reading is not an operational inspection.
 
 Add reviewed records to `catalogue/additions.json`, then run `python3 checks/catalogue-expansion.py`. The build rejects duplicate IDs/entities, duplicate names and localities, missing review notes, unsafe URLs and invalid coordinates. Review near-duplicates manually; string checks cannot establish real-world identity. Government, hospital, operator, research and attributed original news reports support the reviewed batches. Undated ministry pages remain labelled undated.
 
-The original source and export snapshot is available under `/data/original-50/` in the build. Historic audit/backlog downloads outside the current projects/countries/quality exports still describe that original snapshot; their 500 planned review tasks are not newly completed research. Existing source-regression suites retain their original fixture scope. The separate expansion suite tests the actual built 755-record catalogue and its generated pages in desktop/mobile Chromium.
+The original source and export snapshot is available under `/data/original-50/` in the build. Historic audit/backlog downloads outside the current projects/countries/quality exports still describe that original snapshot; their 500 planned review tasks are not newly completed research. Existing source-regression suites retain their original fixture scope. The separate expansion suite tests the actual built 786-record catalogue and its generated pages in desktop/mobile Chromium.
 
 Vercel builds from the repository root using `vercel.json`; output is `dist/`. Deploying only `src/` will omit additions. The build is deterministic and does not contact source websites or geocode during deployment.
 
@@ -82,6 +84,6 @@ The 29 October 2026 review also corrects four Australian Wing records to histori
 
 ### Catalogue browser coverage
 
-Browser verification derives its routes from the built catalogue: every passport plus the atlas, directory, countries, operators and technologies views. Four independent CI shards cover each route once at desktop and mobile sizes. At 755 records this is 760 routes and 1,520 journeys; new records join automatically. Every shard must pass. Only a pending probe may retry, with three attempts maximum; assertion failures, missing results, browser errors and missing screenshots fail the check. Browser profiles and the temporary HTTP server are cleaned up after execution.
+Browser verification derives its routes from the built catalogue: every passport plus the atlas, directory, countries, operators and technologies views. Four independent CI shards cover each route once at desktop and mobile sizes. At 786 records this is 791 routes and 1,582 journeys; new records join automatically. Every shard must pass. Only a pending probe may retry, with three attempts maximum; assertion failures, missing results, browser errors and missing screenshots fail the check. Browser profiles and the temporary HTTP server are cleaned up after execution.
 
 Run `bash checks/catalogue-expansion-browser-smoke.sh` for the full local browser suite, or set `CATALOGUE_SHARD_INDEX` (zero-based) and `CATALOGUE_SHARD_COUNT` to run one partition. Run `python3 checks/catalogue-browser-runner-test.py` after building to verify partition coverage and failure handling without Chromium.
