@@ -26331,9 +26331,1161 @@
       "researchBatch": "2026-11-09-japan-western-field-review",
       "reviewNotes": "One outdoor field; graduate practice requires reservation. Not the separate Kamiooka indoor venue.",
       "coordinateBasis": "Editorial locality reference. Municipal-area marker for Kamakura, Kanagawa. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "taiwan-houcun-weir",
+      "entityKey": "taiwan-houcun-weir",
+      "name": "Houcun Weir drone field",
+      "where": "New Taipei City, Taiwan",
+      "country": "Taiwan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "New Taipei City government",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate New Taipei City locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 25.01,
+        "longitude": 121.46
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The municipality describes a configured aviation field with a multirotor practice area.",
+      "source": {
+        "name": "New Taipei City government — Houcun Weir drone field",
+        "url": "https://wedid.ntpc.gov.tw/governance/detail/dqWDvx58Pob1"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One field; runway, preparation space and practice areas grouped. Opening date is not treated as publication date.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for New Taipei City; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "High Riverbank Construction Management Office — Houcun field",
+          "url": "https://www.hrcm.ntpc.gov.tw/About/PublicInfomation/SitsUseRules/MachineryRemoteRule/Airplane1/"
+        }
+      ]
+    },
+    {
+      "id": "taiwan-sanchong-field",
+      "entityKey": "taiwan-sanchong-field",
+      "name": "Sanchong drone field",
+      "where": "New Taipei City, Taiwan",
+      "country": "Taiwan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "New Taipei City High Riverbank Construction Management Office",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate New Taipei City locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 25.01,
+        "longitude": 121.46
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The municipality identifies an electric drone field with training and test bookings.",
+      "source": {
+        "name": "New Taipei City High Riverbank Construction Management Office — Sanchong drone field",
+        "url": "https://www.hrcm.ntpc.gov.tw/About/PublicInfomation/SitsUseRules/MachineryRemoteRule/Airplane2"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One field; controlled flight and launch areas grouped.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for New Taipei City; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "taiwan-jingguo-field",
+      "entityKey": "taiwan-jingguo-field",
+      "name": "Jingguo model aviation and drone field",
+      "where": "Miaoli City, Taiwan",
+      "country": "Taiwan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Miaoli City field / Miaoli County Model Aviation Association",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Miaoli City locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 24.56,
+        "longitude": 120.82
+      },
+      "reportDateLabel": "Published 2022-12-11",
+      "description": "The county describes a runway and helicopter or multirotor examination areas at Jingguo field.",
+      "source": {
+        "name": "Miaoli County government — Jingguo field",
+        "url": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=613812"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": "2022-12-11",
+      "sourceType": "government",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One field; three test areas and runway grouped. Source reports the facility, not independently verified current management.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Miaoli City; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "taiwan-cut-taipei-field",
+      "entityKey": "taiwan-cut-taipei-field",
+      "name": "China University of Technology Taipei examination field",
+      "where": "Taipei, Taiwan",
+      "country": "Taiwan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "China University of Technology",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Taipei locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 25.03,
+        "longitude": 121.57
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "CAA lists a practical examination field on the Taipei campus.",
+      "source": {
+        "name": "Civil Aeronautics Administration — practical examination venues",
+        "url": "https://testdrone.caa.gov.tw/zh-TW/Default/DataDetail3/10130"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One campus field; classroom not an additional facility.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Taipei; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "taiwan-tumt-shilin-field",
+      "entityKey": "taiwan-tumt-shilin-field",
+      "name": "Taipei University of Marine Technology Shilin field",
+      "where": "Taipei, Taiwan",
+      "country": "Taiwan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Taipei University of Marine Technology",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Taipei locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 25.03,
+        "longitude": 121.57
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The university describes practical drone examinations on its Shilin tennis court.",
+      "source": {
+        "name": "Taipei University of Marine Technology — Taipei University of Marine Technology Shilin field",
+        "url": "https://admc.tumt.edu.tw/p/16-1021-48986.php?Lang=zh-tw"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One Shilin campus; computer examination room grouped with the practical field.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Taipei; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "taiwan-ntu-ankang-field",
+      "entityKey": "taiwan-ntu-ankang-field",
+      "name": "National Taiwan University Ankang farm drone field",
+      "where": "New Taipei City, Taiwan",
+      "country": "Taiwan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "National Taiwan University",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate New Taipei City locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 25.01,
+        "longitude": 121.46
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The university identifies Ankang experimental farm as its practical drone examination venue.",
+      "source": {
+        "name": "National Taiwan University — National Taiwan University Ankang farm drone field",
+        "url": "https://www.ercba.ntu.edu.tw/News_Content_n_51173_s_233953.html"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One Ankang farm field, distinct from the theory centre and Taipei main campus.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for New Taipei City; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "NTU farm — drone field rental",
+          "url": "https://www.farm.ntu.edu.tw/page/about/index.aspx?kind=93&lang=TW"
+        }
+      ]
+    },
+    {
+      "id": "taiwan-daxindian-field",
+      "entityKey": "taiwan-daxindian-field",
+      "name": "Daxindian drone examination field",
+      "where": "New Taipei City, Taiwan",
+      "country": "Taiwan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Daxindian examination venue",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate New Taipei City locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 25.01,
+        "longitude": 121.46
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "CAA lists the Daxindian practical examination field.",
+      "source": {
+        "name": "Civil Aeronautics Administration — practical examination venues",
+        "url": "https://testdrone.caa.gov.tw/zh-TW/Default/DataDetail3/10130"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One field, distinct from NTU Ankang farm.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for New Taipei City; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "taiwan-tungnan-field",
+      "entityKey": "taiwan-tungnan-field",
+      "name": "Tungnan University drone examination field",
+      "where": "New Taipei City, Taiwan",
+      "country": "Taiwan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Tungnan University",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate New Taipei City locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 25.01,
+        "longitude": 121.46
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "CAA lists the university practical examination field.",
+      "source": {
+        "name": "Civil Aeronautics Administration — practical examination venues",
+        "url": "https://testdrone.caa.gov.tw/zh-TW/Default/DataDetail3/10130"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One Shenkeng campus field.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for New Taipei City; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "taiwan-huafan-field",
+      "entityKey": "taiwan-huafan-field",
+      "name": "Huafan University drone examination field",
+      "where": "New Taipei City, Taiwan",
+      "country": "Taiwan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Huafan University",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate New Taipei City locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 25.01,
+        "longitude": 121.46
+      },
+      "reportDateLabel": "Published 2022-02-22",
+      "description": "The university reports practical drone examinations held at its campus field.",
+      "source": {
+        "name": "Huafan University — Huafan University drone examination field",
+        "url": "https://www.hfu.edu.tw/Front/Announce/Announce-02/News.aspx?Sn=709&id=%2BCcwjg98bKg%3D&page=19"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": "2022-02-22",
+      "sourceType": "research",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One Shiding campus; examination dates are not publication dates.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for New Taipei City; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "taiwan-chungyu-field",
+      "entityKey": "taiwan-chungyu-field",
+      "name": "Chungyu University of Film and Arts examination field",
+      "where": "Keelung, Taiwan",
+      "country": "Taiwan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Chungyu University of Film and Arts",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Keelung locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 25.13,
+        "longitude": 121.74
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "CAA lists the university practical examination field.",
+      "source": {
+        "name": "Civil Aeronautics Administration — practical examination venues",
+        "url": "https://testdrone.caa.gov.tw/zh-TW/Default/DataDetail3/10130"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One Keelung campus field.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Keelung; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "taiwan-nanya-field",
+      "entityKey": "taiwan-nanya-field",
+      "name": "Nanya Institute of Technology drone field",
+      "where": "Taoyuan City, Taiwan",
+      "country": "Taiwan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Nanya Institute of Technology",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Taoyuan City locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 24.99,
+        "longitude": 121.3
+      },
+      "reportDateLabel": "Published 2023-11-07",
+      "description": "The institute describes its sports-ground and tennis-court drone examination venue.",
+      "source": {
+        "name": "Nanya Institute of Technology — Nanya Institute of Technology drone field",
+        "url": "https://www.nanya.edu.tw/news_detail.aspx?nno=54338"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": "2023-11-07",
+      "sourceType": "research",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One campus field; athletics ground, runway and courts grouped.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Taoyuan City; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "taiwan-ming-chuan-taoyuan-field",
+      "entityKey": "taiwan-ming-chuan-taoyuan-field",
+      "name": "Ming Chuan University Taoyuan drone field",
+      "where": "Taoyuan City, Taiwan",
+      "country": "Taiwan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Ming Chuan University",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Taoyuan City locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 24.99,
+        "longitude": 121.3
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "CAA lists the Taoyuan campus practical examination field.",
+      "source": {
+        "name": "Civil Aeronautics Administration — practical examination venues",
+        "url": "https://testdrone.caa.gov.tw/zh-TW/Default/DataDetail3/10130"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One campus; theory rooms are not extra facilities.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Taoyuan City; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "taiwan-yu-da-field",
+      "entityKey": "taiwan-yu-da-field",
+      "name": "Yu Da University drone examination field",
+      "where": "Zaoqiao, Miaoli, Taiwan",
+      "country": "Taiwan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Yu Da University",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Zaoqiao, Miaoli locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 24.64,
+        "longitude": 120.86
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The university identifies its sports ground as a practical drone examination field.",
+      "source": {
+        "name": "Yu Da University — Yu Da University drone examination field",
+        "url": "https://iot.ydu.edu.tw/zh_tw/Classroom/drone_exam"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One Zaoqiao campus field; examination areas grouped.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Zaoqiao, Miaoli; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "taiwan-hungkuang-field",
+      "entityKey": "taiwan-hungkuang-field",
+      "name": "Hungkuang University drone examination field",
+      "where": "Taichung, Taiwan",
+      "country": "Taiwan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Hungkuang University",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Taichung locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 24.15,
+        "longitude": 120.68
+      },
+      "reportDateLabel": "Published 2026-11-02",
+      "description": "The university describes operation and maintenance of its drone examination field.",
+      "source": {
+        "name": "Hungkuang University — Hungkuang University drone examination field",
+        "url": "https://www.hk.edu.tw/remote/HK_PO37650247/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": "2026-11-02",
+      "sourceType": "research",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One campus facility; additional campus areas and examination rooms are not separate records.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Taichung; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "taiwan-chienkuo-field",
+      "entityKey": "taiwan-chienkuo-field",
+      "name": "Chienkuo Technology University drone examination field",
+      "where": "Changhua City, Taiwan",
+      "country": "Taiwan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Chienkuo Technology University",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Changhua City locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 24.07,
+        "longitude": 120.54
+      },
+      "reportDateLabel": "Published 2026-10-07",
+      "description": "The university announces an approved practical drone examination venue on campus.",
+      "source": {
+        "name": "Chienkuo Technology University — Chienkuo Technology University drone examination field",
+        "url": "https://eetc.ctu.edu.tw/news_detail/144"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": "2026-10-07",
+      "sourceType": "research",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One campus field; theory examination provision is grouped.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Changhua City; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "taiwan-aidc-formosan-era-field",
+      "entityKey": "taiwan-aidc-formosan-era-field",
+      "name": "AIDC Formosan Era Village drone field",
+      "where": "Caotun, Nantou, Taiwan",
+      "country": "Taiwan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Asia International Drone Club",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Caotun, Nantou locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 23.98,
+        "longitude": 120.68
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator identifies Formosan Era Village as a drone training venue.",
+      "source": {
+        "name": "Asia International Drone Club — AIDC Formosan Era Village drone field",
+        "url": "https://www.aidc-vipclub.com/news/details.php?group_id=9737&id=51934"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One Caotun field at Zhongzheng Road 1039; Taichung office excluded.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Caotun, Nantou; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "AIDC — field rental",
+          "url": "https://www.aidc-vipclub.com/products/index.php?group_id=8986&title_id=15370"
+        }
+      ]
+    },
+    {
+      "id": "taiwan-formosa-huwei-field",
+      "entityKey": "taiwan-formosa-huwei-field",
+      "name": "Formosa association Huwei drone field",
+      "where": "Huwei, Yunlin, Taiwan",
+      "country": "Taiwan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Formosa drone association",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Huwei, Yunlin locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 23.71,
+        "longitude": 120.43
+      },
+      "reportDateLabel": "Published 2026-09-13",
+      "description": "Public Television Service reports that the Huwei training field ceased flight use after its lease expired, with closure scheduled for September 2026.",
+      "source": {
+        "name": "Public Television Service — Huwei field closure",
+        "url": "https://news.pts.org.tw/article/826835"
+      },
+      "verificationStatus": "Historical facility; closure reported by cited source",
+      "reportedStatus": "historical",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": "2026-09-13",
+      "sourceType": "news",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "Historical field, distinct from National Formosa University campus. Flight use had already stopped in the cited report; no successor site inferred.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Huwei, Yunlin; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "Public Television Service — association and lease report",
+          "url": "https://news.pts.org.tw/article/825717"
+        }
+      ]
+    },
+    {
+      "id": "taiwan-chiayi-university-field",
+      "entityKey": "taiwan-chiayi-university-field",
+      "name": "National Chiayi University drone field",
+      "where": "Chiayi City, Taiwan",
+      "country": "Taiwan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "National Chiayi University",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Chiayi City locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 23.48,
+        "longitude": 120.45
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The university identifies its flight examination field in drone training information.",
+      "source": {
+        "name": "National Chiayi University — National Chiayi University drone field",
+        "url": "https://website.ncyu.edu.tw/bioeng/Contents?nodeId=33822"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One university field; practical courses and examinations grouped.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Chiayi City; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "taiwan-asia-uav-ai-centre",
+      "entityKey": "taiwan-asia-uav-ai-centre",
+      "name": "Asia UAV AI Innovation Application R&D Centre",
+      "where": "Puzi, Chiayi, Taiwan",
+      "country": "Taiwan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Chiayi County government / National Formosa University",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Puzi, Chiayi locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 23.46,
+        "longitude": 120.25
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The centre describes drone research and testing at the converted former sports-university campus.",
+      "source": {
+        "name": "Chiayi County government / National Formosa University — Asia UAV AI Innovation Application R&D Centre",
+        "url": "https://spacechiayi.tw/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One Puzi campus; research and testing provision grouped. Not the former Huwei field.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Puzi, Chiayi; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "taiwan-ctbc-tech-field",
+      "entityKey": "taiwan-ctbc-tech-field",
+      "name": "CTBC University of Technology drone field",
+      "where": "Tainan, Taiwan",
+      "country": "Taiwan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "CTBC University of Technology",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Tainan locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 22.99,
+        "longitude": 120.2
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The university describes marked drone practice and examination areas on its sports ground.",
+      "source": {
+        "name": "CTBC University of Technology — CTBC University of Technology drone field",
+        "url": "https://www.ctbctech.edu.tw/p/404-1000-16873.php?Lang=zh-tw"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One campus formerly known as Far East University; renamed institution is not a second facility.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Tainan; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "taiwan-taiwan-steel-field",
+      "entityKey": "taiwan-taiwan-steel-field",
+      "name": "Taiwan Steel University of Science and Technology drone field",
+      "where": "Kaohsiung, Taiwan",
+      "country": "Taiwan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Taiwan Steel University of Science and Technology",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Kaohsiung locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 22.63,
+        "longitude": 120.3
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The university describes campus drone training and on-site practical examination provision.",
+      "source": {
+        "name": "Taiwan Steel University of Science and Technology — Taiwan Steel University of Science and Technology drone field",
+        "url": "https://www.tsust.edu.tw/var/file/0/1000/img/tsust_drone.pdf"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One campus formerly known as Kao Yuan University; renamed institution is not a second facility.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Kaohsiung; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "taiwan-shih-chien-kaohsiung-field",
+      "entityKey": "taiwan-shih-chien-kaohsiung-field",
+      "name": "Shih Chien University Kaohsiung drone field",
+      "where": "Kaohsiung, Taiwan",
+      "country": "Taiwan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Shih Chien University",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Kaohsiung locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 22.63,
+        "longitude": 120.3
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The university identifies its Kaohsiung campus as a drone practical examination venue.",
+      "source": {
+        "name": "Shih Chien University — Shih Chien University Kaohsiung drone field",
+        "url": "https://eec.kh.usc.edu.tw/p/406-1040-55391%2Cr1090.php?Lang=zh-tw"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One Neimen campus; an upcoming course date is not treated as a facility opening date.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Kaohsiung; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "taiwan-zhutian-field",
+      "entityKey": "taiwan-zhutian-field",
+      "name": "Zhutian drone training and examination field",
+      "where": "Zhutian, Pingtung, Taiwan",
+      "country": "Taiwan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Zhutian practical examination venue",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Zhutian, Pingtung locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 22.58,
+        "longitude": 120.54
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "A government training listing identifies Zhutian field for practical drone instruction.",
+      "source": {
+        "name": "Taiwan Jobs — practical training venue listing",
+        "url": "https://elite.taiwanjobs.gov.tw/ClassSearch/Detail?SOURCE_TYPE=ELIT&UUID=B52D0297F0494369BBD7C4F05C6E60B8"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One field at Fengan Road 60; separate university teaching premises are not added from this course listing.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Zhutian, Pingtung; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "taiwan-ilan-chengnan-field",
+      "entityKey": "taiwan-ilan-chengnan-field",
+      "name": "National Ilan University Chengnan drone field",
+      "where": "Yilan City, Taiwan",
+      "country": "Taiwan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "National Ilan University",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Yilan City locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 24.76,
+        "longitude": 121.75
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The university identifies its Chengnan campus practical drone field.",
+      "source": {
+        "name": "National Ilan University — National Ilan University Chengnan drone field",
+        "url": "https://niu-uav.niu.edu.tw/p/405-1060-33734,c4555.php"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One Chengnan campus in Yilan City; practical areas grouped. Shennong theory rooms are not additional flight facilities.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Yilan City; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "Ministry of Education — university campus locations",
+          "url": "https://udb.moe.edu.tw/ulist/Institution?id=000021E74150"
+        }
+      ]
+    },
+    {
+      "id": "taiwan-dong-hwa-shoufeng-field",
+      "entityKey": "taiwan-dong-hwa-shoufeng-field",
+      "name": "National Dong Hwa University Shoufeng drone field",
+      "where": "Shoufeng, Hualien, Taiwan",
+      "country": "Taiwan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "National Dong Hwa University",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Shoufeng, Hualien locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 23.87,
+        "longitude": 121.51
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The university describes practical drone examinations at its Shoufeng outdoor field.",
+      "source": {
+        "name": "National Dong Hwa University — National Dong Hwa University Shoufeng drone field",
+        "url": "https://secret.ndhu.edu.tw/p/406-1011-170723%2Cr5380.php?Lang=zh-tw"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One Shoufeng campus; Meilun theory provision is not counted as an additional flight field.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Shoufeng, Hualien; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "taiwan-nangan-mazu-field",
+      "entityKey": "taiwan-nangan-mazu-field",
+      "name": "Nangan Mazu Village drone examination field",
+      "where": "Nangan, Lienchiang, Taiwan",
+      "country": "Taiwan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Lienchiang County",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Nangan, Lienchiang locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 26.15,
+        "longitude": 119.93
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The township publishes a report of the drone examination field opening near Mazu Village.",
+      "source": {
+        "name": "Lienchiang County — Nangan Mazu Village drone examination field",
+        "url": "https://www.nankan.gov.tw/Chhtml/Detail/2221?mcid=113432"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One practical field below Houao reservoir; Fire Bureau theory room is not a flight facility.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Nangan, Lienchiang; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "taiwan-ming-chuan-kinmen-field",
+      "entityKey": "taiwan-ming-chuan-kinmen-field",
+      "name": "Ming Chuan University Kinmen drone field",
+      "where": "Jinsha, Kinmen, Taiwan",
+      "country": "Taiwan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Ming Chuan University",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Jinsha, Kinmen locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 24.49,
+        "longitude": 118.41
+      },
+      "reportDateLabel": "Published 2022-07-07",
+      "description": "The university reports practical examinations and field practice at its Kinmen branch.",
+      "source": {
+        "name": "Ming Chuan University — Ming Chuan University Kinmen drone field",
+        "url": "https://www.week.mcu.edu.tw/42743/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": "2022-07-07",
+      "sourceType": "research",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One branch campus in Jinsha; examinations, practice and rental grouped.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Jinsha, Kinmen; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "Ming Chuan University — Kinmen branch location",
+          "url": "https://kinmen.mcu.edu.tw/about/"
+        }
+      ]
+    },
+    {
+      "id": "australia-droneit-kedron",
+      "entityKey": "australia-droneit-kedron",
+      "name": "Droneit Northern Suburbs Districts Cricket Club field",
+      "where": "Brisbane, Queensland, Australia",
+      "country": "Australia",
+      "region": "Oceania",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Droneit",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Brisbane, Queensland locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": -27.47,
+        "longitude": 153.03
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Droneit identifies this shared venue as a practical drone training field.",
+      "source": {
+        "name": "Droneit — Droneit Northern Suburbs Districts Cricket Club field",
+        "url": "https://www.droneit.com.au/locations/brisbane"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One Kedron field at Shaw Road 128; examination room grouped. Operator training does not imply unrestricted public flight access.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Brisbane, Queensland; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "australia-droneit-tingalpa",
+      "entityKey": "australia-droneit-tingalpa",
+      "name": "Droneit Wynnum Manly District Cricket Club field",
+      "where": "Brisbane, Queensland, Australia",
+      "country": "Australia",
+      "region": "Oceania",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Droneit",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Brisbane, Queensland locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": -27.47,
+        "longitude": 153.03
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Droneit identifies this shared venue as a practical drone training field.",
+      "source": {
+        "name": "Droneit — Droneit Wynnum Manly District Cricket Club field",
+        "url": "https://www.droneit.com.au/locations/brisbane"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One alternative field at Boundary Street 175, Tingalpa; examination room grouped. Operator training does not imply unrestricted public flight access.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Brisbane, Queensland; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "australia-droneit-dandenong",
+      "entityKey": "australia-droneit-dandenong",
+      "name": "Droneit Dandenong Softball Association field",
+      "where": "Dandenong, Victoria, Australia",
+      "country": "Australia",
+      "region": "Oceania",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Droneit",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Dandenong, Victoria locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": -37.99,
+        "longitude": 145.21
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Droneit identifies this shared venue as a practical drone training field.",
+      "source": {
+        "name": "Droneit — Droneit Dandenong Softball Association field",
+        "url": "https://www.droneit.com.au/locations/melbourne"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One Dandenong training field; Mount Waverley examination room excluded. Operator training does not imply unrestricted public flight access.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Dandenong, Victoria; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "australia-droneit-skye",
+      "entityKey": "australia-droneit-skye",
+      "name": "Droneit KCC Park Skye field",
+      "where": "Skye, Victoria, Australia",
+      "country": "Australia",
+      "region": "Oceania",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Droneit",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Skye, Victoria locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": -38.11,
+        "longitude": 145.2
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Droneit identifies this shared venue as a practical drone training field.",
+      "source": {
+        "name": "Droneit — Droneit KCC Park Skye field",
+        "url": "https://www.droneit.com.au/locations/melbourne"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One alternative Skye training field; classroom is not another facility. Operator training does not imply unrestricted public flight access.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Skye, Victoria; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "australia-droneit-orchard-hills",
+      "entityKey": "australia-droneit-orchard-hills",
+      "name": "Droneit Dogs NSW Orchard Hills field",
+      "where": "Penrith, New South Wales, Australia",
+      "country": "Australia",
+      "region": "Oceania",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Droneit",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Penrith, New South Wales locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": -33.75,
+        "longitude": 150.69
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Droneit identifies this shared venue as a practical drone training field.",
+      "source": {
+        "name": "Droneit — Droneit Dogs NSW Orchard Hills field",
+        "url": "https://www.droneit.com.au/locations/sydney"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One Orchard Hills field; Penrith municipal marker, not venue coordinates. Operator training does not imply unrestricted public flight access.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Penrith, New South Wales; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "australia-droneit-rossmore",
+      "entityKey": "australia-droneit-rossmore",
+      "name": "Droneit Search DOGS Rossmore field",
+      "where": "Rossmore, New South Wales, Australia",
+      "country": "Australia",
+      "region": "Oceania",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Droneit",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Rossmore, New South Wales locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": -33.94,
+        "longitude": 150.77
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Droneit identifies this shared venue as a practical drone training field.",
+      "source": {
+        "name": "Droneit — Droneit Search DOGS Rossmore field",
+        "url": "https://www.droneit.com.au/locations/sydney"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One alternative field at Ramsay Road 148–152; classroom grouped. Operator training does not imply unrestricted public flight access.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Rossmore, New South Wales; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "australia-droneit-morphett-vale",
+      "entityKey": "australia-droneit-morphett-vale",
+      "name": "Droneit Onkaparinga Rugby Union Football Club field",
+      "where": "Morphett Vale, South Australia, Australia",
+      "country": "Australia",
+      "region": "Oceania",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Droneit",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Morphett Vale, South Australia locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": -35.12,
+        "longitude": 138.52
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Droneit identifies this shared venue as a practical drone training field.",
+      "source": {
+        "name": "Droneit — Droneit Onkaparinga Rugby Union Football Club field",
+        "url": "https://www.droneit.com.au/locations/adelaide"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One Sports Park Drive field; examination room grouped. Operator training does not imply unrestricted public flight access.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Morphett Vale, South Australia; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "australia-droneit-karawara",
+      "entityKey": "australia-droneit-karawara",
+      "name": "Droneit George Burnett Leisure Centre field",
+      "where": "Perth, Western Australia, Australia",
+      "country": "Australia",
+      "region": "Oceania",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Droneit",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Perth, Western Australia locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": -31.95,
+        "longitude": 115.86
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Droneit identifies this shared venue as a practical drone training field.",
+      "source": {
+        "name": "Droneit — Droneit George Burnett Leisure Centre field",
+        "url": "https://www.droneit.com.au/locations/perth"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One Karawara field; Meeting Room 3 grouped. Marker represents Perth, not the centre. Operator training does not imply unrestricted public flight access.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Perth, Western Australia; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "australia-droneit-edmonton",
+      "entityKey": "australia-droneit-edmonton",
+      "name": "Droneit Walker Road Sporting Precinct field",
+      "where": "Cairns, Queensland, Australia",
+      "country": "Australia",
+      "region": "Oceania",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Droneit",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Cairns, Queensland locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": -16.92,
+        "longitude": 145.78
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Droneit identifies this shared venue as a practical drone training field.",
+      "source": {
+        "name": "Droneit — Droneit Walker Road Sporting Precinct field",
+        "url": "https://www.droneit.com.au/locations/cairns"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-taiwan-australia-field-review",
+      "reviewNotes": "One Edmonton field at Walker Road 10–20; examination room grouped. Operator training does not imply unrestricted public flight access.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Cairns, Queensland; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
     }
   ],
-  "expectedTotal": 834,
+  "expectedTotal": 870,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -27697,6 +28849,47 @@
         "japan-naka-kaikawa-ground",
         "japan-naka-former-sakuradani-ground",
         "japan-ydis-kamakura-field"
+      ]
+    },
+    {
+      "id": "2026-11-09-taiwan-australia-field-review",
+      "recordIds": [
+        "taiwan-houcun-weir",
+        "taiwan-sanchong-field",
+        "taiwan-jingguo-field",
+        "taiwan-cut-taipei-field",
+        "taiwan-tumt-shilin-field",
+        "taiwan-ntu-ankang-field",
+        "taiwan-daxindian-field",
+        "taiwan-tungnan-field",
+        "taiwan-huafan-field",
+        "taiwan-chungyu-field",
+        "taiwan-nanya-field",
+        "taiwan-ming-chuan-taoyuan-field",
+        "taiwan-yu-da-field",
+        "taiwan-hungkuang-field",
+        "taiwan-chienkuo-field",
+        "taiwan-aidc-formosan-era-field",
+        "taiwan-formosa-huwei-field",
+        "taiwan-chiayi-university-field",
+        "taiwan-asia-uav-ai-centre",
+        "taiwan-ctbc-tech-field",
+        "taiwan-taiwan-steel-field",
+        "taiwan-shih-chien-kaohsiung-field",
+        "taiwan-zhutian-field",
+        "taiwan-ilan-chengnan-field",
+        "taiwan-dong-hwa-shoufeng-field",
+        "taiwan-nangan-mazu-field",
+        "taiwan-ming-chuan-kinmen-field",
+        "australia-droneit-kedron",
+        "australia-droneit-tingalpa",
+        "australia-droneit-dandenong",
+        "australia-droneit-skye",
+        "australia-droneit-orchard-hills",
+        "australia-droneit-rossmore",
+        "australia-droneit-morphett-vale",
+        "australia-droneit-karawara",
+        "australia-droneit-edmonton"
       ]
     }
   ]
