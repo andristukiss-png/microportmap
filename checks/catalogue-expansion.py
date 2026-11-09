@@ -1296,4 +1296,28 @@ assert 'ended on 31 October' in by_id['japan-ichirino-seasonal-drone-park']['des
 assert 'season has ended' in by_id['japan-madarao-kogen-field']['reviewNotes']
 assert 'Komagatadori is the company office' in by_id['japan-feed-shizuoka-nakajima']['reviewNotes']
 assert 'Yatsu office' in by_id['japan-axis21-ageo-tosaki']['reviewNotes']
+# Preserve all 786 prior records and reconcile the 50 batch-115 decisions.
+assert hashlib.sha256(json.dumps(additions[:736],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='16c2ad92b962fc5114813b522e465803b31368c90de431d1d7687894e3fd13c7'
+eleventh_review=json.loads((ROOT/'catalogue/2026-11-09-third-fifty-task-review.json').read_text())
+assert eleventh_review['completedTasks']==50 and [t['task'] for t in eleventh_review['tasks']]==list(range(1,51))
+assert len({t['candidate'] for t in eleventh_review['tasks']})==50
+assert all(t['reviewStatus']=='completed' and t['sourceUrls'] and t['reason'] for t in eleventh_review['tasks'])
+eleventh_ids=[t['recordId'] for t in eleventh_review['tasks'] if t['decision']=='accepted']
+assert eleventh_ids==batch['releases'][114]['recordIds'] and len(eleventh_ids)==eleventh_review['acceptedRecords']==30
+assert sum(t['decision']=='deferred' for t in eleventh_review['tasks'])==eleventh_review['deferredCandidates']==20
+assert sum(t['decision']=='excluded-overlap' for t in eleventh_review['tasks'])==eleventh_review['excludedOverlaps']==0
+historical115={'japan-juavac-former-hirakata-tsuda','japan-juavac-former-katano'}
+suspended115={'japan-ndsa-nagoya-ematsu','japan-polista-suita-warehouse','japan-setobara-ube-campus'}
+dates115={'japan-juavac-former-hirakata-tsuda':'2021-06-18','japan-juavac-former-katano':'2026-04-08','japan-atcl-himeji-practice-court':'2018-08-16'}
+for t in eleventh_review['tasks']:
+ if t['decision']=='accepted':
+  r=by_id[t['recordId']]
+  assert r['source']['url'] in t['sourceUrls'] and r['reviewNotes']==t['reason']
+  assert r['researchBatch']==eleventh_review['batch'] and r['sourcePublishedAt']==dates115.get(r['id'])
+  assert r['reportedStatus']==('historical' if r['id'] in historical115 else 'unknown' if r['id'] in suspended115 else 'reported-operation')
+ else: assert t['recordId'] is None
+assert 'Hashimoto 1517' in by_id['japan-kaizuka-drone-cricket-field']['reviewNotes']
+assert 'Eitakuji' in by_id['japan-saxeed-sanda-eitakuji']['reviewNotes']
+assert 'limited to graduates' in by_id['japan-labotech-wakayama-test-campus']['reviewNotes']
+assert any(s['url'].endswith('202610151852.html') for s in by_id['japan-setobara-ube-campus']['supportingSources'])
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
