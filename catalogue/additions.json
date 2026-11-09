@@ -24785,9 +24785,979 @@
       "researchBatch": "2026-11-09-japan-regional-practice-fields",
       "reviewNotes": "One venue at Nakakashiwabara Shinden 106-3; retail and rental services are not extra locations.",
       "coordinateBasis": "Editorial locality reference. Municipal-area marker for Fuji, Shizuoka. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-ndsa-nagoya-ematsu",
+      "entityKey": "japan-ndsa-nagoya-ematsu",
+      "name": "Drone Park Nagoya Ematsu field",
+      "where": "Nagoya, Aichi, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "NDSA",
+      "reportedEquipment": "Drone practice field",
+      "locationPrecision": "Approximate Nagoya, Aichi municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.18,
+        "longitude": 136.91
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "NDSA describes its Ematsu drone practice field and reports that use is suspended.",
+      "source": {
+        "name": "NDSA — Drone Park Nagoya Ematsu field",
+        "url": "https://npo-ndsa.org/event.html"
+      },
+      "verificationStatus": "Operator reports field suspension; reopening not established",
+      "reportedStatus": "unknown",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One field in Ematsu 2-chome; suspension takes precedence over older booking instructions.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Nagoya, Aichi. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-jdc-nagoya-indoor",
+      "entityKey": "japan-jdc-nagoya-indoor",
+      "name": "Japan Drone College indoor practice venue",
+      "where": "Nagoya, Aichi, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Japan Drone College",
+      "reportedEquipment": "Indoor netted practice space",
+      "locationPrecision": "Approximate Nagoya, Aichi municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.18,
+        "longitude": 136.91
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Japan Drone College offers a netted indoor practice venue in Nishi ward.",
+      "source": {
+        "name": "Japan Drone College — Japan Drone College indoor practice venue",
+        "url": "https://j-drone.jp/service/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One venue at Nagasakicho 31; Shinkicho 97-5 is the separate classroom, not another flight site.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Nagoya, Aichi. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-ntp-nagoya-atsuta-indoor",
+      "entityKey": "japan-ntp-nagoya-atsuta-indoor",
+      "name": "NTP Drone Academy indoor courts",
+      "where": "Nagoya, Aichi, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "NTP Seventh",
+      "reportedEquipment": "Indoor practice courts",
+      "locationPrecision": "Approximate Nagoya, Aichi municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.18,
+        "longitude": 136.91
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "NTP offers indoor drone practice courts at its academy.",
+      "source": {
+        "name": "NTP Seventh — NTP Drone Academy indoor courts",
+        "url": "https://www.nt7.co.jp/drone/ntpda_service.html"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One academy building in Atsuta at Otoumachi 2-47; separately advertised outdoor field not located or counted.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Nagoya, Aichi. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "NTP — academy access",
+          "url": "https://www.nt7.co.jp/drone/access.html"
+        }
+      ]
+    },
+    {
+      "id": "japan-takidenki-konan-circuit",
+      "entityKey": "japan-takidenki-konan-circuit",
+      "name": "TAKIDENKI JAPAN microdrone circuit",
+      "where": "Konan, Aichi, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Takidenki Japan",
+      "reportedEquipment": "Indoor microdrone circuit",
+      "locationPrecision": "Approximate Konan, Aichi municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.33,
+        "longitude": 136.87
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Takidenki describes an indoor microdrone circuit within a shopping centre.",
+      "source": {
+        "name": "Takidenki Japan — TAKIDENKI JAPAN microdrone circuit",
+        "url": "https://www.takidenki.co.jp/takidenkijapan/index.html"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One venue at Maebohicho Kawahara 33, Pina first floor; second-floor shop is reception.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Konan, Aichi. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-polaris-tsushima-indoor",
+      "entityKey": "japan-polaris-tsushima-indoor",
+      "name": "Polaris Tsushima indoor drone field",
+      "where": "Tsushima, Aichi, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Polaris Export",
+      "reportedEquipment": "Indoor drone field and classroom",
+      "locationPrecision": "Approximate Tsushima, Aichi municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.18,
+        "longitude": 136.74
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Polaris offers an indoor drone field and training room in Tsushima.",
+      "source": {
+        "name": "Polaris Export — Polaris Tsushima indoor drone field",
+        "url": "https://www.polaris-export.com/event_pages/tsushima_field"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One venue at Umetacho 1-36; operator address takes precedence over older directory numbering.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Tsushima, Aichi. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-wing-futsal-seto",
+      "entityKey": "japan-wing-futsal-seto",
+      "name": "Wing Futsal Club drone practice courts",
+      "where": "Seto, Aichi, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Wing Futsal Club",
+      "reportedEquipment": "Shared indoor and outdoor sports courts",
+      "locationPrecision": "Approximate Seto, Aichi municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.22,
+        "longitude": 137.08
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Wing Futsal Club offers indoor and available outdoor courts for drone practice.",
+      "source": {
+        "name": "Wing Futsal Club — Wing Futsal Club drone practice courts",
+        "url": "https://www.wing-futsal.com/drone/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One Seto sports campus; indoor and outdoor courts grouped, subject to booking.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Seto, Aichi. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-okazaki-taki-flight-base",
+      "entityKey": "japan-okazaki-taki-flight-base",
+      "name": "Okazaki Taki Flight Base",
+      "where": "Okazaki, Aichi, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Aichi Drone",
+      "reportedEquipment": "Outdoor flight-training and test field",
+      "locationPrecision": "Approximate Okazaki, Aichi municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.95,
+        "longitude": 137.17
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Aichi Drone describes its dedicated Okazaki flight-training and test field.",
+      "source": {
+        "name": "Aichi Drone — Okazaki Taki Flight Base",
+        "url": "https://aichidrone.net/taki"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One Taki field; practice and examination areas grouped. The separately mentioned indoor venue is not counted.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Okazaki, Aichi. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-mobi-navi-tsu-dome",
+      "entityKey": "japan-mobi-navi-tsu-dome",
+      "name": "Mobi-Navi Dome",
+      "where": "Tsu, Mie, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Mobility Navi",
+      "reportedEquipment": "Indoor drone-training dome",
+      "locationPrecision": "Approximate Tsu, Mie municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.72,
+        "longitude": 136.51
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Mobility Navi describes a dedicated indoor drone-training dome in Tsu.",
+      "source": {
+        "name": "Mobility Navi — Mobi-Navi Dome",
+        "url": "https://www.mobi-navi.jp/school/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One dome at Sakurabashi 3-401; school and dome are the same campus.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Tsu, Mie. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-saikunomori-meiwa-indoor",
+      "entityKey": "japan-saikunomori-meiwa-indoor",
+      "name": "Saikunomori Drone School indoor field",
+      "where": "Meiwa, Mie, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Etec / Saikunomori Drone School",
+      "reportedEquipment": "Indoor drone practice area",
+      "locationPrecision": "Approximate Meiwa, Mie municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.55,
+        "longitude": 136.62
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The school describes an indoor drone practice area at its Meiwa premises.",
+      "source": {
+        "name": "Etec / Saikunomori Drone School — Saikunomori Drone School indoor field",
+        "url": "https://etec-mie.co.jp/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One school venue at Arinaka 1155-504; classes and rental use grouped.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Meiwa, Mie. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-mcd-tamaki-indoor",
+      "entityKey": "japan-mcd-tamaki-indoor",
+      "name": "MCD Tamaki indoor drone course",
+      "where": "Tamaki, Mie, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "MCD",
+      "reportedEquipment": "Indoor drone practice course",
+      "locationPrecision": "Approximate Tamaki, Mie municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.49,
+        "longitude": 136.63
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "MCD offers an indoor course for real-drone practice within its rental-space facility.",
+      "source": {
+        "name": "MCD — MCD Tamaki indoor drone course",
+        "url": "https://mcds.jp/rental/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One venue at Hiruta 449-3; simulator and meeting rooms are not additional flight locations.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Tamaki, Mie. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-kaizuka-drone-cricket-field",
+      "entityKey": "japan-kaizuka-drone-cricket-field",
+      "name": "Kaizuka Municipal Drone and Cricket Field",
+      "where": "Kaizuka, Osaka, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Kaizuka City",
+      "reportedEquipment": "Shared grass drone and cricket field",
+      "locationPrecision": "Approximate Kaizuka, Osaka municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.44,
+        "longitude": 135.36
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Kaizuka operates a shared grass field for drone practice and cricket.",
+      "source": {
+        "name": "Kaizuka City — Kaizuka Municipal Drone and Cricket Field",
+        "url": "https://www.city.kaizuka.lg.jp/doronecricket/index.html"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One field at Hashimoto 1517; Hatanaka 1-17-1 is city hall, not the flight venue.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Kaizuka, Osaka. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "Kaizuka City — field access",
+          "url": "https://www.city.kaizuka.lg.jp/doronecricket/access1.html"
+        }
+      ]
+    },
+    {
+      "id": "japan-juavac-former-hirakata-tsuda",
+      "entityKey": "japan-juavac-former-hirakata-tsuda",
+      "name": "Former JUAVAC Hirakata Tsuda rental field",
+      "where": "Hirakata, Osaka, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Flagships / JUAVAC Osaka Hirakata",
+      "reportedEquipment": "Former outdoor rental field",
+      "locationPrecision": "Approximate Hirakata, Osaka municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.81,
+        "longitude": 135.65
+      },
+      "reportDateLabel": "Published 2021-06-18",
+      "description": "JUAVAC identifies the former outdoor Tsuda rental field and states that rental has ended.",
+      "source": {
+        "name": "Flagships / JUAVAC Osaka Hirakata — Former JUAVAC Hirakata Tsuda rental field",
+        "url": "https://bluesky.vie-orner.com/news-881"
+      },
+      "verificationStatus": "Historical rental offering; operator reports rental ended",
+      "reportedStatus": "historical",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": "2021-06-18",
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One former Tsuda venue; not the new Hirakata East field. Ending rental does not establish subsequent land use.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Hirakata, Osaka. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-juavac-former-katano",
+      "entityKey": "japan-juavac-former-katano",
+      "name": "Former JUAVAC Katano rental field",
+      "where": "Katano, Osaka, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Flagships / JUAVAC Osaka Hirakata",
+      "reportedEquipment": "Former outdoor practice field",
+      "locationPrecision": "Approximate Katano, Osaka municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.79,
+        "longitude": 135.68
+      },
+      "reportDateLabel": "Published 2026-04-08",
+      "description": "JUAVAC reports relocation of its Katano practice offering to Hirakata East.",
+      "source": {
+        "name": "Flagships / JUAVAC Osaka Hirakata — Former JUAVAC Katano rental field",
+        "url": "https://bluesky.vie-orner.com/news-11095"
+      },
+      "verificationStatus": "Historical venue; operator reports relocation to Hirakata East",
+      "reportedStatus": "historical",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": "2026-04-08",
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One former Katano venue; successor site is a future lead, not part of this record.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Katano, Osaka. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "JUAVAC — earlier named Katano field",
+          "url": "https://bluesky.vie-orner.com/news-881"
+        }
+      ]
+    },
+    {
+      "id": "japan-polista-suita-warehouse",
+      "entityKey": "japan-polista-suita-warehouse",
+      "name": "Polista Suita drone practice space",
+      "where": "Suita, Osaka, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Polista rental-space host",
+      "reportedEquipment": "Shared warehouse practice space",
+      "locationPrecision": "Approximate Suita, Osaka municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.76,
+        "longitude": 135.52
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The host lists warehouse drone practice in Suita; bookings are paused.",
+      "source": {
+        "name": "Polista rental-space host — Polista Suita drone practice space",
+        "url": "https://www.spacemarket.com/spaces/s8cmfkhcqecwui09/"
+      },
+      "verificationStatus": "Host listing reports bookings paused; current availability not established",
+      "reportedStatus": "unknown",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One venue at Higashi Otabicho 4-22. Booking suspension is explicit; reopening is unconfirmed.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Suita, Osaka. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-flight-salon-osaka",
+      "entityKey": "japan-flight-salon-osaka",
+      "name": "Flight Salon Osaka indoor drone field",
+      "where": "Osaka, Osaka, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "ITEM / Soragokochi",
+      "reportedEquipment": "Indoor drone practice field",
+      "locationPrecision": "Approximate Osaka, Osaka municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.69,
+        "longitude": 135.5
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Soragokochi describes its indoor Flight Salon Osaka for drone practice near Hirabayashi station.",
+      "source": {
+        "name": "ITEM / Soragokochi — Flight Salon Osaka indoor drone field",
+        "url": "https://soragokochi.com/rental/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One indoor venue; distinct from Flight Base Osaka in Honjo Nishi. City-level reference only.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Osaka, Osaka. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-osaka-drone-park-ikuno",
+      "entityKey": "japan-osaka-drone-park-ikuno",
+      "name": "Osaka Drone Park Ikuno courts",
+      "where": "Osaka, Osaka, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Osaka Drone Park / Captain Tsubasa Stadium Ikuno",
+      "reportedEquipment": "Netted outdoor sports courts",
+      "locationPrecision": "Approximate Osaka, Osaka municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.69,
+        "longitude": 135.5
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Osaka Drone Park offers outdoor netted sports courts for drone flight practice.",
+      "source": {
+        "name": "Osaka Drone Park / Captain Tsubasa Stadium Ikuno — Osaka Drone Park Ikuno courts",
+        "url": "https://www.osakadronepark.com/info"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One venue at Tatsumi Higashi 3-2-4; individual courts grouped.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Osaka, Osaka. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-miki-disaster-park-drone",
+      "entityKey": "japan-miki-disaster-park-drone",
+      "name": "Miki Disaster Prevention Park drone-use grounds",
+      "where": "Miki, Hyogo, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Hyogo Prefecture",
+      "reportedEquipment": "Shared sports grounds",
+      "locationPrecision": "Approximate Miki, Hyogo municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.8,
+        "longitude": 134.99
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Hyogo offers selected paid sports grounds at Miki for drone instruction and events.",
+      "source": {
+        "name": "Hyogo Prefecture — Miki Disaster Prevention Park drone-use grounds",
+        "url": "https://web.pref.hyogo.lg.jp/ks24/doron.html"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One park campus; exclusive rental only, not permission to fly throughout the public park.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Miki, Hyogo. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-awaji-sano-park-drone",
+      "entityKey": "japan-awaji-sano-park-drone",
+      "name": "Awaji Sano Sports Park drone-use grounds",
+      "where": "Awaji, Hyogo, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Hyogo Prefecture",
+      "reportedEquipment": "Shared sports grounds",
+      "locationPrecision": "Approximate Awaji, Hyogo municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.44,
+        "longitude": 134.91
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Hyogo offers selected paid sports grounds at Awaji Sano for drone instruction and events.",
+      "source": {
+        "name": "Hyogo Prefecture — Awaji Sano Sports Park drone-use grounds",
+        "url": "https://web.pref.hyogo.lg.jp/ks24/doron.html"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One park campus; exclusive rental only, not unrestricted public flight access.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Awaji, Hyogo. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-atcl-himeji-practice-court",
+      "entityKey": "japan-atcl-himeji-practice-court",
+      "name": "ATCL DSJ Himeji drone practice court",
+      "where": "Himeji, Hyogo, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Asahi Technology",
+      "reportedEquipment": "Drone-training court",
+      "locationPrecision": "Approximate Himeji, Hyogo municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.82,
+        "longitude": 134.69
+      },
+      "reportDateLabel": "Published 2018-08-16",
+      "description": "Asahi Technology announced public rental of its DSJ Himeji drone-training court.",
+      "source": {
+        "name": "Asahi Technology — ATCL DSJ Himeji drone practice court",
+        "url": "https://atcl-dsj.com/news/2211/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": "2018-08-16",
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One Himeji school court. Dated 2018 rental announcement; present availability not independently verified.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Himeji, Hyogo. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-saxeed-sanda-eitakuji",
+      "entityKey": "japan-saxeed-sanda-eitakuji",
+      "name": "Saxeed Sanda Eitakuji practice field",
+      "where": "Sanda, Hyogo, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Saxeed",
+      "reportedEquipment": "Drone practice field",
+      "locationPrecision": "Approximate Sanda, Hyogo municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.89,
+        "longitude": 135.23
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Saxeed offers drone practice on its Eitakuji field in Sanda.",
+      "source": {
+        "name": "Saxeed — Saxeed Sanda Eitakuji practice field",
+        "url": "https://saxeed-drone.com/drone2/20230206172937/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One field in Eitakuji; exact address withheld. March–May closure stated. Chuocho 14-15 is the office.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Sanda, Hyogo. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-nara-yoshino-oyodo-field",
+      "entityKey": "japan-nara-yoshino-oyodo-field",
+      "name": "Nara Yoshino drone practice venue",
+      "where": "Oyodo, Nara, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Nara Yoshino Drone Practice Field",
+      "reportedEquipment": "Indoor and outdoor practice areas",
+      "locationPrecision": "Approximate Oyodo, Nara municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.39,
+        "longitude": 135.79
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator describes indoor and outdoor drone-practice provision in Oyodo.",
+      "source": {
+        "name": "Nara Yoshino Drone Practice Field — Nara Yoshino drone practice venue",
+        "url": "https://dskishi.wixsite.com/drone-nara"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One named practice venue; indoor and outdoor provision grouped, no separately inferred field.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Oyodo, Nara. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-winds-pro-oyodo-field",
+      "entityKey": "japan-winds-pro-oyodo-field",
+      "name": "Winds Pro Oyodo drone practice field",
+      "where": "Oyodo, Nara, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Aoi Consultant / Winds Pro",
+      "reportedEquipment": "Outdoor drone-practice courses",
+      "locationPrecision": "Approximate Oyodo, Nara municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.39,
+        "longitude": 135.79
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Winds Pro offers drone-practice courses at its Oyodo field.",
+      "source": {
+        "name": "Aoi Consultant / Winds Pro — Winds Pro Oyodo drone practice field",
+        "url": "https://drone.gr.jp/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One field at Basa 684; Yoshino Tanji 298-4 is the company address, not the practice site.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Oyodo, Nara. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-delufuli-nagahama-park",
+      "entityKey": "japan-delufuli-nagahama-park",
+      "name": "Delufuli Enjoy Drone Park",
+      "where": "Nagahama, Shiga, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Kitchen Labo / Delufuli Camp",
+      "reportedEquipment": "Outdoor drone park and designated launch area",
+      "locationPrecision": "Approximate Nagahama, Shiga municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.38,
+        "longitude": 136.28
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Delufuli operates a drone park around its Nagahama campground.",
+      "source": {
+        "name": "Kitchen Labo / Delufuli Camp — Delufuli Enjoy Drone Park",
+        "url": "https://www.delufuli.com/p/2/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One managed park at Odani Kamiyamadacho; campground and launch area grouped, not separate sites.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Nagahama, Shiga. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-labotech-wakayama-test-campus",
+      "entityKey": "japan-labotech-wakayama-test-campus",
+      "name": "Labotech Wakayama drone test campus",
+      "where": "Wakayama, Wakayama, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Labotech International",
+      "reportedEquipment": "Drone test field and laboratory",
+      "locationPrecision": "Approximate Wakayama, Wakayama municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.23,
+        "longitude": 135.17
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Labotech describes a drone test field alongside its laboratory and academy.",
+      "source": {
+        "name": "Labotech International — Labotech Wakayama drone test campus",
+        "url": "https://www.labotech-intl.co.jp/drone/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One Umehara 579-1 campus; personal field practice is limited to graduates. Nishinomiya classroom is not counted.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Wakayama, Wakayama. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "Labotech — academy access",
+          "url": "https://www.labotech-intl.co.jp/drone/access.html"
+        },
+        {
+          "name": "Labotech — graduate practice restrictions",
+          "url": "https://www.labotech-intl.co.jp/drone/lication-for-airport-use.html"
+        }
+      ]
+    },
+    {
+      "id": "japan-yuasa-hirogawa-campus",
+      "entityKey": "japan-yuasa-hirogawa-campus",
+      "name": "Yuasa Driving School drone-practice campus",
+      "where": "Hirogawa, Wakayama, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Yuasa Driving School",
+      "reportedEquipment": "Shared driving course and indoor practice space",
+      "locationPrecision": "Approximate Hirogawa, Wakayama municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.03,
+        "longitude": 135.17
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Yuasa Driving School offers indoor and outdoor drone practice on its campus.",
+      "source": {
+        "name": "Yuasa Driving School — Yuasa Driving School drone-practice campus",
+        "url": "https://www.yuasadrivingschool.com/course-rental"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One campus at Hiro 299-4; outdoor use depends on driving lessons and weather.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Hirogawa, Wakayama. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-sky-terrace-daisen",
+      "entityKey": "japan-sky-terrace-daisen",
+      "name": "Sky Terrace Daisen drone field",
+      "where": "Daisen, Tottori, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Sky Terrace Daisen",
+      "reportedEquipment": "Shared turf drone field",
+      "locationPrecision": "Approximate Daisen, Tottori municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.51,
+        "longitude": 133.5
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator offers its turf grounds for drone flying and school practice.",
+      "source": {
+        "name": "Sky Terrace Daisen — Sky Terrace Daisen drone field",
+        "url": "https://reserva.be/skyterrace/about"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One shared turf venue at Kuradani 1141; sports and other rental uses are not extra locations.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Daisen, Tottori. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-setobara-ube-campus",
+      "entityKey": "japan-setobara-ube-campus",
+      "name": "Drone Setobara Ube campus",
+      "where": "Ube, Yamaguchi, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Hitachi Construction / Drone Setobara",
+      "reportedEquipment": "Drone sports and training facilities; bookings suspended",
+      "locationPrecision": "Approximate Ube, Yamaguchi municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 33.95,
+        "longitude": 131.25
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Setobara describes indoor drone sports and training facilities; facility and school bookings are suspended.",
+      "source": {
+        "name": "Hitachi Construction / Drone Setobara — Drone Setobara Ube campus",
+        "url": "https://drone-setobara.jp/"
+      },
+      "verificationStatus": "Operator reports facility and school bookings suspended; reopening not established",
+      "reportedStatus": "unknown",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One campus at Yoshiwa 591-3. Notice of 15 October 2026 pauses reservations pending reopening.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Ube, Yamaguchi. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "Setobara — reservation suspension notice",
+          "url": "https://drone-setobara.jp/news/notice/202610151852.html"
+        }
+      ]
+    },
+    {
+      "id": "japan-wake-dome-training",
+      "entityKey": "japan-wake-dome-training",
+      "name": "Wake Dome drone-training venue",
+      "where": "Wake, Okayama, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Wake Town / Future Dimension",
+      "reportedEquipment": "Covered multipurpose training ground",
+      "locationPrecision": "Approximate Wake, Okayama municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.8,
+        "longitude": 134.16
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Future Dimension identifies Wake Dome as its covered drone practical-training venue.",
+      "source": {
+        "name": "Future Dimension — training environment",
+        "url": "https://www.fddi.jp/training-center"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One shared dome at Masubara 681-1; partitions and adjacent lodging are not additional flight sites.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Wake, Okayama. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "Wake Town — dome location",
+          "url": "https://www.town.wake.lg.jp/soshiki/machikeiei/gyomu/15/19.html"
+        }
+      ]
+    },
+    {
+      "id": "japan-wake-utsukushii-mori-park",
+      "entityKey": "japan-wake-utsukushii-mori-park",
+      "name": "Wake Utsukushii Mori Drone Park",
+      "where": "Wake, Okayama, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Wake Town",
+      "reportedEquipment": "Outdoor drone park",
+      "locationPrecision": "Approximate Wake, Okayama municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.8,
+        "longitude": 134.16
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Wake Town lists a bookable drone park within Utsukushii Mori.",
+      "source": {
+        "name": "Wake Town — Wake Utsukushii Mori Drone Park",
+        "url": "https://www.town.wake.lg.jp/kanko_bunka_sports/kankojoho/wakideasobu/1/1248.html"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One forest-recreation campus; day-use drone reservation is separate from accommodation.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Wake, Okayama. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-kurashiki-air-base",
+      "entityKey": "japan-kurashiki-air-base",
+      "name": "Kurashiki Air Base drone field",
+      "where": "Kurashiki, Okayama, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Buzz Flight",
+      "reportedEquipment": "Outdoor drone-training field",
+      "locationPrecision": "Approximate Kurashiki, Okayama municipal-area reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.59,
+        "longitude": 133.77
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Kurashiki Air Base offers a reservable outdoor drone-training and test space.",
+      "source": {
+        "name": "Buzz Flight — Kurashiki Air Base drone field",
+        "url": "https://buzzflight.co.jp/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-09",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-09-japan-central-western-venues",
+      "reviewNotes": "One field at Kojima Hiedacho Oku 3547; simulated examination course is not another location.",
+      "coordinateBasis": "Editorial locality reference. Municipal-area marker for Kurashiki, Okayama. Rounded and intentionally approximate; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
     }
   ],
-  "expectedTotal": 786,
+  "expectedTotal": 816,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -26093,6 +27063,41 @@
         "japan-kani-driving-school-practice",
         "japan-feed-shizuoka-nakajima",
         "japan-drone-village-fuji"
+      ]
+    },
+    {
+      "id": "2026-11-09-japan-central-western-venues",
+      "recordIds": [
+        "japan-ndsa-nagoya-ematsu",
+        "japan-jdc-nagoya-indoor",
+        "japan-ntp-nagoya-atsuta-indoor",
+        "japan-takidenki-konan-circuit",
+        "japan-polaris-tsushima-indoor",
+        "japan-wing-futsal-seto",
+        "japan-okazaki-taki-flight-base",
+        "japan-mobi-navi-tsu-dome",
+        "japan-saikunomori-meiwa-indoor",
+        "japan-mcd-tamaki-indoor",
+        "japan-kaizuka-drone-cricket-field",
+        "japan-juavac-former-hirakata-tsuda",
+        "japan-juavac-former-katano",
+        "japan-polista-suita-warehouse",
+        "japan-flight-salon-osaka",
+        "japan-osaka-drone-park-ikuno",
+        "japan-miki-disaster-park-drone",
+        "japan-awaji-sano-park-drone",
+        "japan-atcl-himeji-practice-court",
+        "japan-saxeed-sanda-eitakuji",
+        "japan-nara-yoshino-oyodo-field",
+        "japan-winds-pro-oyodo-field",
+        "japan-delufuli-nagahama-park",
+        "japan-labotech-wakayama-test-campus",
+        "japan-yuasa-hirogawa-campus",
+        "japan-sky-terrace-daisen",
+        "japan-setobara-ube-campus",
+        "japan-wake-dome-training",
+        "japan-wake-utsukushii-mori-park",
+        "japan-kurashiki-air-base"
       ]
     }
   ]
