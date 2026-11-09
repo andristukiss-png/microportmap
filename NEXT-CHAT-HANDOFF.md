@@ -2,13 +2,13 @@
 
 Repository: https://github.com/andristukiss-png/microportmap, main. Historical no-repository statements below are superseded. User authorizes routine research, additions and publication without repeated questions. Continue credible locations, not synthetic task counts.
 
-Batch 113: 50 candidate reviews, 27 additions (four historical), 21 deferred, two overlaps. Total 755 records (50 original + 705 additions), 53 countries; 245 remaining to 1,000. All 728 prior records preserved. See catalogue/one-hundred-thirteenth-batch-review.md and catalogue/2026-11-09-fifty-task-review.json. PR and CI contain actual publication status; files alone do not establish deployment.
+Batch 114: 50 candidate reviews, 31 additions, 17 deferred, two overlaps. Total 786 records (50 original + 736 additions), 53 countries; 214 remaining to 1,000. All 755 prior records preserved. See catalogue/one-hundred-fourteenth-batch-review.md and catalogue/2026-11-09-second-fifty-task-review.json. PR and CI contain actual publication status; files alone do not establish deployment.
 
-Build scripts/build_catalogue.py and deploy dist/, never src/. Run checks/catalogue-expansion.py and checks/catalogue-browser-runner-test.py. All four browser CI shards must pass: 760 routes / 1,520 desktop-mobile journeys. Vercel automatically deploys main. Public site https://microportmap.com.
+Build scripts/build_catalogue.py and deploy dist/, never src/. Run checks/catalogue-expansion.py and checks/catalogue-browser-runner-test.py. All four browser CI shards must pass: 791 routes / 1,582 desktop-mobile journeys. Vercel automatically deploys main. Public site https://microportmap.com.
 
-Semboku's two designations ended March 2024, FlightSpace Kawasaki closed July 2021, Chichibu closed September 2024: all historical. Omiya JUIDA/Sainichi share one sports campus; Koga booking centre is not another field. BlueMax is in Shimotsuma, not its Koga office. Iwate association field is Kurokawa, not its Kado office. DTF's successor uses the Ageo venue. Boomerang is now resolved. All municipal markers remain approximate and publication dates null. Current operation and access are not independently verified.
+ODC halls and circuit are suspended; campus status unknown. Ichirino and Madarao published seasons have ended. FEED is Nakajima, not its Komagatadori office; Axis21 is Tosaki, not Yatsu. Niikappu main test campus duplicates Asahi no Mori; Asagiri duplicates Mt. Fuji Sky Ground. Jupiter relocation/Skyfight and Sarabetsu remain unresolved. Municipal markers are approximate, all publication dates null. Current operation and access are not independently verified.
 
-Future leads: AIRSTAGE Sapporo/Naganuma (check Sarabetsu overlap), Iwate Drone Center Top Crew Hanamaki, JUIDA Niikappu/Kaga Hotel Arrowle/J-Village, Akafuu Stadium, FlyBase Osaka. Do not treat these unreviewed leads as additions.
+Future leads: Niikappu remote test areas (JUIDA says two unavailable through March 2027); Kamakura Drone Field via Yokohama Drone IT School; ROBOZ Mino needs readable primary details; DRONE AIRBASE Hamamatsu; remaining central/western Japan directory leads. Do not count unreviewed leads as additions.
 
 ---
 
