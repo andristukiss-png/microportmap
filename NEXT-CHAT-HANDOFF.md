@@ -1,12 +1,14 @@
-# Current catalogue continuation — 8 November 2026
+# Current catalogue continuation — 9 November 2026
 
 Repository: https://github.com/andristukiss-png/microportmap, main. Historical no-repository statements below are superseded. User authorizes routine research, additions and publication without repeated questions. Continue credible locations, not synthetic task counts.
 
-Batch 112: 50 candidate reviews, 24 additions, 24 deferred, two overlaps. Total 728 records (50 original + 678 additions), 53 countries; 272 remaining to 1,000. All 704 previous records preserved. See catalogue/one-hundred-twelfth-batch-review.md and eighth-fifty-task ledger. PR and CI contain actual publication status; files alone do not establish deployment.
+Batch 113: 50 candidate reviews, 27 additions (four historical), 21 deferred, two overlaps. Total 755 records (50 original + 705 additions), 53 countries; 245 remaining to 1,000. All 728 prior records preserved. See catalogue/one-hundred-thirteenth-batch-review.md and catalogue/2026-11-09-fifty-task-review.json. PR and CI contain actual publication status; files alone do not establish deployment.
 
-Build scripts/build_catalogue.py and deploy dist/, never src/. Run checks/catalogue-expansion.py and checks/catalogue-browser-runner-test.py. All four browser CI shards must pass: 733 routes / 1,466 desktop-mobile journeys. Vercel automatically deploys main. Public site https://microportmap.com.
+Build scripts/build_catalogue.py and deploy dist/, never src/. Run checks/catalogue-expansion.py and checks/catalogue-browser-runner-test.py. All four browser CI shards must pass: 760 routes / 1,520 desktop-mobile journeys. Vercel automatically deploys main. Public site https://microportmap.com.
 
-Sunny Aeropark duplicates Yokohama Hodogaya, Taiki duplicates existing Spaceport. Liberdade field is in Yamaguchi despite Hiroshima branding. Koriyama indoor use is suspended. Multi-area campuses and resort courses are grouped. Municipal-area coordinates are approximate, not flight locations. SGFC is supported by indexed operator evidence; Takizawa publication is dated 2023-04-08. Other publication dates remain null. Current operation and access are not independently verified.
+Semboku's two designations ended March 2024, FlightSpace Kawasaki closed July 2021, Chichibu closed September 2024: all historical. Omiya JUIDA/Sainichi share one sports campus; Koga booking centre is not another field. BlueMax is in Shimotsuma, not its Koga office. Iwate association field is Kurokawa, not its Kado office. DTF's successor uses the Ageo venue. Boomerang is now resolved. All municipal markers remain approximate and publication dates null. Current operation and access are not independently verified.
+
+Future leads: AIRSTAGE Sapporo/Naganuma (check Sarabetsu overlap), Iwate Drone Center Top Crew Hanamaki, JUIDA Niikappu/Kaga Hotel Arrowle/J-Village, Akafuu Stadium, FlyBase Osaka. Do not treat these unreviewed leads as additions.
 
 ---
 
