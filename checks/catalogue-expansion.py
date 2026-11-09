@@ -1274,4 +1274,26 @@ for t in ninth_review['tasks']:
 assert 'Shimotsuma' in by_id['japan-bluemax-skynet-shimotsuma-field']['where']
 assert 'Kado office is not the field' in by_id['japan-iwate-association-kurokawa-park']['reviewNotes']
 assert 'seasonal' in by_id['japan-seinousha-kazo-seasonal-field']['reviewNotes']
+# Preserve all 755 prior records and reconcile batch 114 with operating limits.
+assert hashlib.sha256(json.dumps(additions[:705],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='f42d7e535b2ec7230f7453339072e5f0a94cb6504ef67b2326c7b51116d05b44'
+tenth_review=json.loads((ROOT/'catalogue/2026-11-09-second-fifty-task-review.json').read_text())
+assert tenth_review['completedTasks']==50 and [t['task'] for t in tenth_review['tasks']]==list(range(1,51))
+assert len({t['candidate'] for t in tenth_review['tasks']})==50
+assert all(t['reviewStatus']=='completed' and t['sourceUrls'] and t['reason'] for t in tenth_review['tasks'])
+tenth_ids=[t['recordId'] for t in tenth_review['tasks'] if t['decision']=='accepted']
+assert tenth_ids==batch['releases'][113]['recordIds'] and len(tenth_ids)==tenth_review['acceptedRecords']==31
+assert sum(t['decision']=='deferred' for t in tenth_review['tasks'])==tenth_review['deferredCandidates']==17
+assert sum(t['decision']=='excluded-overlap' for t in tenth_review['tasks'])==tenth_review['excludedOverlaps']==2
+for t in tenth_review['tasks']:
+ if t['decision']=='accepted':
+  r=by_id[t['recordId']]
+  assert r['source']['url'] in t['sourceUrls'] and r['reviewNotes']==t['reason']
+  assert r['researchBatch']==tenth_review['batch'] and r['sourcePublishedAt'] is None
+  assert r['reportedStatus']==('unknown' if r['id']=='japan-odc-namerikawa-campus' else 'reported-operation')
+ else: assert t['recordId'] is None
+assert 'suspended' in by_id['japan-odc-namerikawa-campus']['reviewNotes']
+assert 'ended on 31 October' in by_id['japan-ichirino-seasonal-drone-park']['description']
+assert 'season has ended' in by_id['japan-madarao-kogen-field']['reviewNotes']
+assert 'Komagatadori is the company office' in by_id['japan-feed-shizuoka-nakajima']['reviewNotes']
+assert 'Yatsu office' in by_id['japan-axis21-ageo-tosaki']['reviewNotes']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
