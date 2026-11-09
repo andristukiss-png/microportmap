@@ -1320,4 +1320,25 @@ assert 'Hashimoto 1517' in by_id['japan-kaizuka-drone-cricket-field']['reviewNot
 assert 'Eitakuji' in by_id['japan-saxeed-sanda-eitakuji']['reviewNotes']
 assert 'limited to graduates' in by_id['japan-labotech-wakayama-test-campus']['reviewNotes']
 assert any(s['url'].endswith('202610151852.html') for s in by_id['japan-setobara-ube-campus']['supportingSources'])
+# Batch 116 preserves all 816 earlier records and reconciles 50 decisions.
+assert hashlib.sha256(json.dumps(additions[:766],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='3665333f20f869dcfb18a27a3fcd90956825f53e939d1f33a9abe4e3e286a35d'
+review116=json.loads((ROOT/'catalogue/2026-11-09-fourth-fifty-task-review.json').read_text())
+assert review116['completedTasks']==50 and [t['task'] for t in review116['tasks']]==list(range(1,51))
+assert len({t['candidate'] for t in review116['tasks']})==50
+assert all(t['reviewStatus']=='completed' and t['sourceUrls'] and t['reason'] for t in review116['tasks'])
+ids116=[t['recordId'] for t in review116['tasks'] if t['decision']=='accepted']
+assert ids116==batch['releases'][115]['recordIds'] and len(ids116)==review116['acceptedRecords']==18
+assert sum(t['decision']=='deferred' for t in review116['tasks'])==review116['deferredCandidates']==32
+assert review116['excludedOverlaps']==0
+for t in review116['tasks']:
+ if t['decision']=='accepted':
+  r=by_id[t['recordId']]
+  assert r['source']['url'] in t['sourceUrls'] and r['reviewNotes']==t['reason']
+  assert r['researchBatch']==review116['batch']
+  assert r['sourcePublishedAt']==('2022-09-21' if r['id']=='japan-kdnpa-yusui-kurino' else None)
+  assert r['reportedStatus']==('unknown' if r['id']=='japan-kitakyushu-kawachi-practice' else 'reported-operation')
+ else: assert t['recordId'] is None
+assert by_id['japan-dsj-saga-tosu-kiyama']['where']=='Kiyama, Saga, Japan'
+assert by_id['japan-kdnpa-yusui-kurino']['where']=='Yusui, Kagoshima, Japan'
+assert 'Sonenji 2978-1' in by_id['japan-juavac-hirakata-east']['reviewNotes']
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
