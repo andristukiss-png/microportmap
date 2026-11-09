@@ -2,13 +2,13 @@
 
 Repository: https://github.com/andristukiss-png/microportmap, main. Historical no-repository statements below are superseded. User authorizes routine research, additions and publication without repeated questions. Continue credible locations, not synthetic task counts.
 
-Batch 114: 50 candidate reviews, 31 additions, 17 deferred, two overlaps. Total 786 records (50 original + 736 additions), 53 countries; 214 remaining to 1,000. All 755 prior records preserved. See catalogue/one-hundred-fourteenth-batch-review.md and catalogue/2026-11-09-second-fifty-task-review.json. PR and CI contain actual publication status; files alone do not establish deployment.
+Batch 115: 50 candidate reviews, 30 additions, 20 deferred. Total 816 records (50 original + 766 additions), 53 countries; 184 remaining to 1,000. All 786 prior records preserved. See catalogue/one-hundred-fifteenth-batch-review.md and catalogue/2026-11-09-third-fifty-task-review.json. PR and CI contain actual publication status; files alone do not establish deployment.
 
-Build scripts/build_catalogue.py and deploy dist/, never src/. Run checks/catalogue-expansion.py and checks/catalogue-browser-runner-test.py. All four browser CI shards must pass: 791 routes / 1,582 desktop-mobile journeys. Vercel automatically deploys main. Public site https://microportmap.com.
+Build scripts/build_catalogue.py and deploy dist/, never src/. Run checks/catalogue-expansion.py and checks/catalogue-browser-runner-test.py. All four browser CI shards must pass: 821 routes / 1,642 desktop-mobile journeys. Vercel automatically deploys main. Public site https://microportmap.com.
 
-ODC halls and circuit are suspended; campus status unknown. Ichirino and Madarao published seasons have ended. FEED is Nakajima, not its Komagatadori office; Axis21 is Tosaki, not Yatsu. Niikappu main test campus duplicates Asahi no Mori; Asagiri duplicates Mt. Fuji Sky Ground. Jupiter relocation/Skyfight and Sarabetsu remain unresolved. Municipal markers are approximate, all publication dates null. Current operation and access are not independently verified.
+Former JUAVAC Tsuda rental and Katano venues are historical. NDSA Nagoya, Polista and Setobara have suspended use/bookings and unknown current status. Setobara notice dated 15 October 2026. Kaizuka field is Hashimoto 1517, not city hall; Saxeed field is Eitakuji, not its Chuocho office. Labotech personal practice is graduate-only. Hyogo sports grounds require exclusive rental. All markers are editorial municipal references. Operation/access not independently verified.
 
-Future leads: Niikappu remote test areas (JUIDA says two unavailable through March 2027); Kamakura Drone Field via Yokohama Drone IT School; ROBOZ Mino needs readable primary details; DRONE AIRBASE Hamamatsu; remaining central/western Japan directory leads. Do not count unreviewed leads as additions.
+Future leads: JUAVAC Hirakata East field at Sonenji 2978-1 (primary https://bluesky.vie-orner.com/drone-osaka-space; relocation https://bluesky.vie-orner.com/news-11095); Sky Dome Fukuyama; Takano Drone Training Field; DPLAN Tokushima; Camp Park Kito. Earlier unresolved leads remain in ledgers. Do not count unreviewed leads as additions. Aozora and Rainbow Sports alias relationship remains unresolved.
 
 ---
 
