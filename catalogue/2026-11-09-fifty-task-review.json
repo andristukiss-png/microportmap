@@ -1,0 +1,560 @@
+{
+  "reviewedAt": "2026-11-09",
+  "batch": "2026-11-09-japan-practice-and-historical-venues",
+  "completedTasks": 50,
+  "acceptedRecords": 27,
+  "deferredCandidates": 21,
+  "excludedOverlaps": 2,
+  "tasks": [
+    {
+      "task": 1,
+      "candidate": "HDS Sapporo Bankei special field",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.hds.comdrone.net/03trydorone/03trydrone.html"
+      ],
+      "reason": "Primary venue page unavailable; directory identity remains unconfirmed."
+    },
+    {
+      "task": 2,
+      "candidate": "HDS Sapporo Atsubetsu Nishi field",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.hds.comdrone.net/03trydorone/03trydrone.html"
+      ],
+      "reason": "Primary venue page unavailable; directory identity remains unconfirmed."
+    },
+    {
+      "task": 3,
+      "candidate": "HDS Sapporo Phase indoor field",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.hds.comdrone.net/03trydorone/03trydrone.html"
+      ],
+      "reason": "Primary venue page unavailable; directory identity remains unconfirmed."
+    },
+    {
+      "task": 4,
+      "candidate": "AIRSTAGE Obihiro indoor flight space",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-airstage-obihiro-indoor",
+      "sourceUrls": [
+        "https://www.rc-airstage.com/page_info.php/pages_id/73"
+      ],
+      "reason": "One building at Nishi 5 Minami 13-1; retail floors are not extra venues. Indexed operator text reviewed."
+    },
+    {
+      "task": 5,
+      "candidate": "Sapporo Drone School Nakanosawa field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-sapporo-nakanosawa-field",
+      "sourceUrls": [
+        "https://www.sapporo-drone-school.com/"
+      ],
+      "reason": "One field; the separate Kitanosawa classroom is not counted."
+    },
+    {
+      "task": 6,
+      "candidate": "SkyGarden drone practice park",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://skygarden.localinfo.jp/"
+      ],
+      "reason": "Primary page unavailable; incomplete directory address cannot establish the venue."
+    },
+    {
+      "task": 7,
+      "candidate": "CoreLine Drone Base Nanbu",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-coreline-nanbu-base",
+      "sourceUrls": [
+        "https://core-line.net/facility/"
+      ],
+      "reason": "One campus at Mugisawa Kamikidoba 9-5; numbered rental areas grouped."
+    },
+    {
+      "task": 8,
+      "candidate": "Hachinohe Nango Drone Field",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "http://skuas.jp/field/"
+      ],
+      "reason": "Primary field page unavailable; venue details remain unconfirmed."
+    },
+    {
+      "task": 9,
+      "candidate": "Drone Field Akita DFA",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-drone-field-akita",
+      "sourceUrls": [
+        "https://rtd-drone.com/drone_field.html"
+      ],
+      "reason": "One field; approximate city reference avoids treating an older directory address as a verified location."
+    },
+    {
+      "task": 10,
+      "candidate": "Former Semboku Tazawako drone area",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-semboku-tazawako-former-area",
+      "sourceUrls": [
+        "https://www.city.semboku.akita.jp/senryaku/drone_area.html"
+      ],
+      "reason": "Historical designated area; closed program, not an active flying venue."
+    },
+    {
+      "task": 11,
+      "candidate": "Former Semboku Kakunodate drone area",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-semboku-kakunodate-former-area",
+      "sourceUrls": [
+        "https://www.city.semboku.akita.jp/senryaku/drone_area.html"
+      ],
+      "reason": "Historical designated area; separate from Tazawako."
+    },
+    {
+      "task": 12,
+      "candidate": "VanillaFactory Sakata field",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "http://vanillafactory.co.jp/ja/about/drone-field/"
+      ],
+      "reason": "Primary field page unavailable; venue identity unresolved."
+    },
+    {
+      "task": 13,
+      "candidate": "RC Lab Fukushima field lead",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.rc-lab.biz/general-1"
+      ],
+      "reason": "Operator advertises one outdoor field with location disclosed on enquiry; a store address does not establish a separate flight venue."
+    },
+    {
+      "task": 14,
+      "candidate": "RC Lab Date field lead",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.rc-lab.biz/general-1"
+      ],
+      "reason": "Operator advertises one outdoor field with location disclosed on enquiry; a store address does not establish a separate flight venue."
+    },
+    {
+      "task": 15,
+      "candidate": "Azuma Sports Park drone-use lead",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.azumapark.or.jp/user-guide/%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E3%81%94%E8%B3%AA%E5%95%8F/"
+      ],
+      "reason": "General sports-ground use policy does not establish a configured drone venue."
+    },
+    {
+      "task": 16,
+      "candidate": "Iwate Drone Association Drone Park",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-iwate-association-kurokawa-park",
+      "sourceUrls": [
+        "https://droneiwate.or.jp/ground"
+      ],
+      "reason": "Indexed primary address is Kurokawa 2-chiwari; the Kado office is not the field."
+    },
+    {
+      "task": 17,
+      "candidate": "APIO drone practice venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "http://www.apio-iwate.com/index.php/dronepractice/"
+      ],
+      "reason": "Primary drone-practice page timed out; general venue identity alone is insufficient."
+    },
+    {
+      "task": 18,
+      "candidate": "Fut Messe Sendai Nagamachi drone court",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-fut-messe-sendai-nagamachi",
+      "sourceUrls": [
+        "https://www.fut-messe.com/drone/"
+      ],
+      "reason": "One shared venue at Asuto Nagamachi 1-4-30."
+    },
+    {
+      "task": 19,
+      "candidate": "Former FlightSpace Miyagi Kawasaki field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-flightspace-kawasaki-former-field",
+      "sourceUrls": [
+        "https://flydrone.yamatsu.info/"
+      ],
+      "reason": "Historical closed field; no current operation claimed."
+    },
+    {
+      "task": 20,
+      "candidate": "Boomerang Taiwa drone field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-boomerang-taiwa-field",
+      "sourceUrls": [
+        "https://www.chick-fun.jp/field/"
+      ],
+      "reason": "Re-review resolves the previously deferred Boomerang lead using its operator page. One field."
+    },
+    {
+      "task": 21,
+      "candidate": "i-Station Shiroishi",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.eastjapan-ict.jp/i-station/"
+      ],
+      "reason": "Indexed primary historical training reports found, but detailed venue identity remains unresolved after retrieval failures."
+    },
+    {
+      "task": 22,
+      "candidate": "GO JAPAN Annaka field",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "http://go-japan.ne.jp/"
+      ],
+      "reason": "Primary venue evidence unavailable; directory address not sufficient."
+    },
+    {
+      "task": 23,
+      "candidate": "Gunma Drone Park Okanari field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-gunma-okanari-field",
+      "sourceUrls": [
+        "https://www.tomiokacci.or.jp/gunma-dp/"
+      ],
+      "reason": "One field; separate from Myogi and Matsuida."
+    },
+    {
+      "task": 24,
+      "candidate": "Gunma Drone Park Myogi field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-gunma-myogi-field",
+      "sourceUrls": [
+        "https://www.tomiokacci.or.jp/gunma-dp/"
+      ],
+      "reason": "One field; not a subdivision of Okanari."
+    },
+    {
+      "task": 25,
+      "candidate": "Gunma Drone Park Matsuida field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-gunma-matsuida-field",
+      "sourceUrls": [
+        "https://www.tomiokacci.or.jp/gunma-dp/"
+      ],
+      "reason": "One field; separate Annaka location."
+    },
+    {
+      "task": 26,
+      "candidate": "Igano Flower Garden drone field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-igano-flower-garden-field",
+      "sourceUrls": [
+        "https://www.minakamids.com/%E4%BC%8A%E8%B3%80%E9%87%8E%E3%81%AE%E8%8A%B1%E7%95%91-%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E7%B7%B4%E7%BF%92%E5%A0%B4/"
+      ],
+      "reason": "One shared garden venue; seasonal availability requires confirmation."
+    },
+    {
+      "task": 27,
+      "candidate": "Torakuri Maebashi indoor UAV field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-torakuri-maebashi-indoor",
+      "sourceUrls": [
+        "https://torakuri.com/field/"
+      ],
+      "reason": "One venue at Takaimachi 1-29-21; the Minamicho retail office is not counted."
+    },
+    {
+      "task": 28,
+      "candidate": "Able Sports Exchange Centre drone-field lead",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://shisetsu.mizuno.jp/mss-7577/news/page/10234"
+      ],
+      "reason": "Booking/contact centre for RiverField Koga; no separate flying site established. Grouped with the RiverField record."
+    },
+    {
+      "task": 29,
+      "candidate": "Hokota drone field",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://adachi-ecology.com/field/index.html"
+      ],
+      "reason": "Primary field page unavailable; directory-listed location remains unconfirmed."
+    },
+    {
+      "task": 30,
+      "candidate": "JUIDA GOKO Tsukuba test field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-juida-goko-tsukuba-test-field",
+      "sourceUrls": [
+        "https://uas-japan.org/business/test-air-field/goko-tsukuba/"
+      ],
+      "reason": "One campus at Wadai 17-5; associated services are not extra locations."
+    },
+    {
+      "task": 31,
+      "candidate": "DEC Drone Park Toride",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://declabo.wixsite.com/decpark"
+      ],
+      "reason": "Primary page unavailable; venue identity remains unconfirmed."
+    },
+    {
+      "task": 32,
+      "candidate": "BlueMax Skynet Shimotsuma FC drone field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-bluemax-skynet-shimotsuma-field",
+      "sourceUrls": [
+        "https://skypicture.net/drone-school-view.html"
+      ],
+      "reason": "Field is in Shimotsuma; the Koga company office is not counted."
+    },
+    {
+      "task": 33,
+      "candidate": "RiverField Koga grass-hill drone area",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-riverfield-koga-grass-hill",
+      "sourceUrls": [
+        "https://www.city.ibaraki-koga.lg.jp/soshiki/sports/6/1010.html"
+      ],
+      "reason": "One park venue; the booking centre is not a second field. Page update date is not treated as publication."
+    },
+    {
+      "task": 34,
+      "candidate": "Omiya Kenpo drone training and test campus",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-omiya-kenpo-test-campus",
+      "sourceUrls": [
+        "https://uas-japan.org/business/test-air-field/omiya/"
+      ],
+      "reason": "One campus at Futatsumiya 113-1; plots 19 and 21 and the Sainichi same-campus lead are grouped."
+    },
+    {
+      "task": 35,
+      "candidate": "Sports Ground ARAKAWA",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://drone.sg-arakawa.com/"
+      ],
+      "reason": "Partner names the field, but primary venue retrieval failed and precise venue identity remains unresolved."
+    },
+    {
+      "task": 36,
+      "candidate": "SAITAMA Drone Practice Field Nakakugi",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-saitama-nakakugi-practice-field",
+      "sourceUrls": [
+        "https://saitamauav.wixsite.com/mysite/access"
+      ],
+      "reason": "One field; distinct from the Futatsumiya sports campus."
+    },
+    {
+      "task": 37,
+      "candidate": "Tanaka Denki drone training ground",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-tanaka-denki-saitama-ground",
+      "sourceUrls": [
+        "https://drone.tanaka-denki.co.jp/course/challenge.html"
+      ],
+      "reason": "Indexed operator evidence specifies Okubo Ryoke 896; direct retrieval failed. The Akihabara office is not counted."
+    },
+    {
+      "task": 38,
+      "candidate": "Drone Base Saitama Soka",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://dronebase.tokyo/"
+      ],
+      "reason": "Primary website unavailable; older directory entry remains unconfirmed."
+    },
+    {
+      "task": 39,
+      "candidate": "DTF Ageo indoor drone practice venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-dtf-ageo-indoor",
+      "sourceUrls": [
+        "https://dtf-a.com/"
+      ],
+      "reason": "One venue. The old school closed, while the cited successor advertises training here; no second site counted."
+    },
+    {
+      "task": 40,
+      "candidate": "Sainichi Omiya Kenpo field",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://sainichi-drone.com/field-rental/"
+      ],
+      "reason": "Same Futatsumiya 113-1 sports campus as the JUIDA Omiya entry; grouped at campus level, not asserted to be the same plot."
+    },
+    {
+      "task": 41,
+      "candidate": "Former Chichibu Drone Play Area",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-chichibu-former-play-area",
+      "sourceUrls": [
+        "https://www.city.chichibu.lg.jp/9720.html"
+      ],
+      "reason": "Historical closed venue; the municipal office address is not used as a field coordinate."
+    },
+    {
+      "task": 42,
+      "candidate": "Seinousha Kazo seasonal drone field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-seinousha-kazo-seasonal-field",
+      "sourceUrls": [
+        "https://www.seinousha.com/facilities/drone/"
+      ],
+      "reason": "One seasonal farm venue; paddies and supporting rooms are grouped."
+    },
+    {
+      "task": 43,
+      "candidate": "MIFA Football Park drone-use lead",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.spacemarket.com/spaces/mifa/?room_uid=rDxowTnNG5Boj1FE"
+      ],
+      "reason": "Reviewed host listing establishes a generic sports venue, not a configured drone practice facility."
+    },
+    {
+      "task": 44,
+      "candidate": "Adachi municipal gym network",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.city.adachi.tokyo.jp/sports/chiikibunka/sports/dronetaiikukan.html"
+      ],
+      "reason": "Conditional use policy covers multiple general gyms; this network lead is not one individually reviewed drone facility."
+    },
+    {
+      "task": 45,
+      "candidate": "DroneCourt Ariake",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-dronecourt-ariake",
+      "sourceUrls": [
+        "https://www.drone-court.com/"
+      ],
+      "reason": "One venue; indoor and rooftop courts grouped."
+    },
+    {
+      "task": 46,
+      "candidate": "DroneCourt Toyocho",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-dronecourt-toyocho",
+      "sourceUrls": [
+        "https://www.drone-court.com/"
+      ],
+      "reason": "One venue; indoor and outdoor courts grouped."
+    },
+    {
+      "task": 47,
+      "candidate": "DroneCourt Hachioji Takakura",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-dronecourt-hachioji-takakura",
+      "sourceUrls": [
+        "https://www.drone-court.com/"
+      ],
+      "reason": "One campus; gym and turf areas grouped."
+    },
+    {
+      "task": 48,
+      "candidate": "DroneCourt Tama Minami Toyogaoka",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.drone-court.com/"
+      ],
+      "reason": "Absent from the reviewed operator venue list; the older directory lead remains unconfirmed."
+    },
+    {
+      "task": 49,
+      "candidate": "SOOO dramatic drone-use lead",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://sooo-dramatic.com/cate-news/8371"
+      ],
+      "reason": "Expired short-term rental promotion mentions possible drone use; it does not establish a configured drone venue."
+    },
+    {
+      "task": 50,
+      "candidate": "Niijima Ishiyama quarry drone-use lead",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://niijima.com/kankou/niijima/spot/2024-0911-1647-101.html"
+      ],
+      "reason": "Municipal tourism evidence establishes a quarry viewpoint, not a designated drone facility."
+    }
+  ]
+}
