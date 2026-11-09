@@ -1341,4 +1341,26 @@ for t in review116['tasks']:
 assert by_id['japan-dsj-saga-tosu-kiyama']['where']=='Kiyama, Saga, Japan'
 assert by_id['japan-kdnpa-yusui-kurino']['where']=='Yusui, Kagoshima, Japan'
 assert 'Sonenji 2978-1' in by_id['japan-juavac-hirakata-east']['reviewNotes']
+# Batch 117 preserves earlier records and reconciles the reviewed candidate ledger.
+assert hashlib.sha256(json.dumps(additions[:784],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='11a198ac47e796b8b744a47020764d9359898ba8204337a4097b55d30f5991fb'
+review117=json.loads((ROOT/'catalogue/2026-11-09-fifth-fifty-task-review.json').read_text())
+assert review117['completedTasks']==50 and [t['task'] for t in review117['tasks']]==list(range(1,51))
+assert len({t['candidate'] for t in review117['tasks']})==50
+assert all(t['reviewStatus']=='completed' and t['sourceUrls'] and t['reason'] for t in review117['tasks'])
+ids117=[t['recordId'] for t in review117['tasks'] if t['decision']=='accepted']
+assert ids117==batch['releases'][116]['recordIds'] and len(ids117)==review117['acceptedRecords']==36
+assert sum(t['decision']=='deferred' for t in review117['tasks'])==review117['deferredCandidates']==14
+assert review117['excludedOverlaps']==0
+for t in review117['tasks']:
+ if t['decision']=='accepted':
+  r=by_id[t['recordId']]
+  assert r['source']['url'] in t['sourceUrls'] and r['reviewNotes']==t['reason']
+  assert r['researchBatch']==review117['batch']
+  assert r['reportedStatus']==('historical' if r['id']=='taiwan-formosa-huwei-field' else 'reported-operation')
+ else: assert t['recordId'] is None
+assert by_id['taiwan-formosa-huwei-field']['sourcePublishedAt']=='2026-09-13'
+assert by_id['taiwan-ming-chuan-kinmen-field']['where']=='Jinsha, Kinmen, Taiwan'
+assert by_id['taiwan-ilan-chengnan-field']['where']=='Yilan City, Taiwan'
+assert sum(by_id[r]['country']=='Taiwan' for r in ids117)==27
+assert sum(by_id[r]['country']=='Australia' for r in ids117)==9
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
