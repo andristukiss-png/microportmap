@@ -42,7 +42,7 @@ A successful GitHub workflow **does not deploy to Vercel**. The production deplo
 
 ## Research limits
 
-The current build contains 816 source-linked research records (50 originals plus 766 additions in one hundred and fifteen reviewed batches). Records can describe a centre, hospital campus, station or network; they are not a count of individually verified operating ports. All approximate map points are research references. They do not establish current operations, public access or flight permission. Independent research accuracy and actual mobile/device visuals remain unverified. Correction reports are prepared locally; no submission inbox is connected.
+The current build contains 834 source-linked research records (50 originals plus 784 additions in one hundred and sixteen reviewed batches). Records can describe a centre, hospital campus, station or network; they are not a count of individually verified operating ports. All approximate map points are research references. They do not establish current operations, public access or flight permission. Independent research accuracy and actual mobile/device visuals remain unverified. Correction reports are prepared locally; no submission inbox is connected.
 
 ## V1 launch status
 
@@ -50,7 +50,7 @@ The current build contains 816 source-linked research records (50 originals plus
 
 ## Catalogue expansion
 
-The next target is 1,000 credible, distinct research records. The first one hundred and fifteen batches add 766 records; 184 more are needed. No quantity guarantee is made before sources and counting scope are reviewed.
+The next target is 1,000 credible, distinct research records. The first one hundred and fifteen batches add 766 records; 166 more are needed. No quantity guarantee is made before sources and counting scope are reviewed.
 
 The [50-candidate review](catalogue/one-hundred-fifth-batch-review.md) records 50 completed screening tasks: 20 accepted sites, 28 deferred candidates and two overlapping entries excluded. A completed screening is not a claim that a deferred site has been verified.
 
@@ -74,6 +74,8 @@ The [batch 114 review](catalogue/one-hundred-fourteenth-batch-review.md) adds 31
 
 The [batch 115 review](catalogue/one-hundred-fifteenth-batch-review.md) adds 30 locations and defers 20 leads from 50 reviews. Two former venues are historical; three suspended offerings have unknown current status.
 
+The [batch 116 review](catalogue/one-hundred-sixteenth-batch-review.md) adds 18 facilities and defers 32 candidates from 50 reviews. Kitakyushu Kawachi is suspended with unknown current status.
+
 Each new record requires a named location or clearly scoped network, a traceable public source, its publication date when displayed, source-reading date, source type, reported status, duplicate-review notes and an explicitly editorial approximate locality point. Do not count delivery destinations, all hospitals in a network, or vendor fleet totals as individual sites without separate evidence. Source reading is not an operational inspection.
 
 Add reviewed records to `catalogue/additions.json`, then run `python3 checks/catalogue-expansion.py`. The build rejects duplicate IDs/entities, duplicate names and localities, missing review notes, unsafe URLs and invalid coordinates. Review near-duplicates manually; string checks cannot establish real-world identity. Government, hospital, operator, research and attributed original news reports support the reviewed batches. Undated ministry pages remain labelled undated.
@@ -86,6 +88,6 @@ The 29 October 2026 review also corrects four Australian Wing records to histori
 
 ### Catalogue browser coverage
 
-Browser verification derives its routes from the built catalogue: every passport plus the atlas, directory, countries, operators and technologies views. Four independent CI shards cover each route once at desktop and mobile sizes. At 816 records this is 821 routes and 1,642 journeys; new records join automatically. Every shard must pass. Only a pending probe may retry, with three attempts maximum; assertion failures, missing results, browser errors and missing screenshots fail the check. Browser profiles and the temporary HTTP server are cleaned up after execution.
+Browser verification derives its routes from the built catalogue: every passport plus the atlas, directory, countries, operators and technologies views. Four independent CI shards cover each route once at desktop and mobile sizes. At 816 records this is 839 routes and 1,678 journeys; new records join automatically. Every shard must pass. Only a pending probe may retry, with three attempts maximum; assertion failures, missing results, browser errors and missing screenshots fail the check. Browser profiles and the temporary HTTP server are cleaned up after execution.
 
 Run `bash checks/catalogue-expansion-browser-smoke.sh` for the full local browser suite, or set `CATALOGUE_SHARD_INDEX` (zero-based) and `CATALOGUE_SHARD_COUNT` to run one partition. Run `python3 checks/catalogue-browser-runner-test.py` after building to verify partition coverage and failure handling without Chromium.
