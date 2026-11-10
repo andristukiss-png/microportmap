@@ -1,0 +1,571 @@
+{
+  "reviewedAt": "2026-11-10",
+  "batch": "2026-11-10-juavac-and-atcl-venues",
+  "completedTasks": 50,
+  "acceptedRecords": 12,
+  "deferredCandidates": 36,
+  "excludedOverlaps": 2,
+  "tasks": [
+    {
+      "task": 1,
+      "candidate": "JUAVAC Hokkaido practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E5%8C%97%E6%B5%B7%E9%81%93%E6%A0%A1/"
+      ],
+      "reason": "The association describes a planned 2019 indoor facility; current operator material reviewed did not resolve its physical identity or completion."
+    },
+    {
+      "task": 2,
+      "candidate": "Sappa-do Hirosaki drone training court",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-hirosaki-sappado-court",
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E9%9D%92%E6%A3%AE%E6%A0%A1/",
+        "https://www.sappa-do.com/"
+      ],
+      "reason": "One shared sports venue. The association describes the school opening here in 2018; Sappa-do gives Takada 4-3-4. The school mailing address in Shigemori Shinmachi is not used as the field location."
+    },
+    {
+      "task": 3,
+      "candidate": "JUAVAC Iwate practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E5%B2%A9%E6%89%8B%E6%A0%A1/"
+      ],
+      "reason": "The association lists a Morioka contact address; the linked operator page could not be fetched and a practical venue is unresolved."
+    },
+    {
+      "task": 4,
+      "candidate": "JUAVAC Sendai practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E4%BB%99%E5%8F%B0%E6%A0%A1/"
+      ],
+      "reason": "The school reports contracted flight fields across Miyagi without identifying individual maintained venues; the Okino office is excluded."
+    },
+    {
+      "task": 5,
+      "candidate": "JUAVAC Akita practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E7%A7%8B%E7%94%B0%E6%A0%A1/"
+      ],
+      "reason": "Nikaho and Semboku campuses are named, but reviewed pages do not establish the configured practical field or gym identity."
+    },
+    {
+      "task": 6,
+      "candidate": "JUAVAC Fukushima practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E7%A6%8F%E5%B3%B6%E6%A0%A1/"
+      ],
+      "reason": "The school lists Aizuwakamatsu and Kitakata addresses without resolving the practical flight venue."
+    },
+    {
+      "task": 7,
+      "candidate": "JUAVAC Ibaraki practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E8%8C%A8%E5%9F%8E%E6%A0%A1/"
+      ],
+      "reason": "The operator describes courses but the reviewed material does not establish a distinct flight facility at the Mito contact address."
+    },
+    {
+      "task": 8,
+      "candidate": "JUAVAC Tochigi practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E6%A0%83%E6%9C%A8%E6%A0%A1/"
+      ],
+      "reason": "The Haga school and courses are listed; the physical flight ground is not identified."
+    },
+    {
+      "task": 9,
+      "candidate": "JUAVAC Gunma practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E7%BE%A4%E9%A6%AC%E6%A0%A1/"
+      ],
+      "reason": "The Maebashi office and course offering do not establish a configured practical flight venue."
+    },
+    {
+      "task": 10,
+      "candidate": "Ageo Sports General Centre drone venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-ageo-sports-centre-training",
+      "sourceUrls": [
+        "https://sainichi-drone.com/access/",
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E5%A4%A7%E5%AE%AE%E6%A0%A1/"
+      ],
+      "reason": "One shared sports venue at Higashicho 3-1679. The separately listed Omiya Kenpo outdoor field is already recorded; unnamed additional venues are excluded."
+    },
+    {
+      "task": 11,
+      "candidate": "JUAVAC Chiba practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E5%8D%83%E8%91%89%E6%A0%A1/"
+      ],
+      "reason": "Indoor and outdoor flight areas are reported separately from the Kashiwa classroom, but their physical identities remain unresolved."
+    },
+    {
+      "task": 12,
+      "candidate": "JUAVAC East Tokyo practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E6%9D%B1%E6%9D%B1%E4%BA%AC%E6%A0%A1/"
+      ],
+      "reason": "An unnamed contracted Adachi sports venue is mentioned while the contact address is in Chiba; no precise venue identity is established."
+    },
+    {
+      "task": 13,
+      "candidate": "JUAVAC Tokyo Satellite practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E6%9D%B1%E4%BA%AC%E3%82%B5%E3%83%86%E3%83%A9%E3%82%A4/"
+      ],
+      "reason": "SkyBrex reports multiple practice sites but the reviewed material does not identify a distinct maintained venue against existing Tokyo sites."
+    },
+    {
+      "task": 14,
+      "candidate": "JUAVAC Tokyo Headquarters practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E6%9D%B1%E4%BA%AC%E6%9C%AC%E6%A0%A1/"
+      ],
+      "reason": "The Kita-Aoyama office is not a flight venue; practical indoor and outdoor sites are available by inquiry without identified locations."
+    },
+    {
+      "task": 15,
+      "candidate": "JUAVAC West Tokyo practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E8%A5%BF%E6%9D%B1%E4%BA%AC%E6%A0%A1/"
+      ],
+      "reason": "The listing places the school in Haijima Driving School, but configured drone flight provision at that campus needs confirmation."
+    },
+    {
+      "task": 16,
+      "candidate": "JUAVAC Yokohama practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E6%A8%AA%E6%B5%9C%E6%A0%A1/"
+      ],
+      "reason": "A contact office is listed and the operator site has no readable facility evidence; no additional flying venue is established."
+    },
+    {
+      "task": 17,
+      "candidate": "JUAVAC Niigata Kizaki indoor flight hall",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-juavac-niigata-kizaki",
+      "sourceUrls": [
+        "https://juavac-niigata.jp/",
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E6%96%B0%E6%BD%9F%E6%A0%A1/"
+      ],
+      "reason": "One indoor venue at Kizaki 3425-3, Kita. The school office at Hokuyo 2-802-1 is not the flight hall. The separately described Shibata venue is retained for a separate review."
+    },
+    {
+      "task": 18,
+      "candidate": "Kigoyama training-centre drone venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-kanazawa-kigoyama-training",
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E7%9F%B3%E5%B7%9D%E6%A0%A1/",
+        "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/kigoyamafureaikenshucenter/gyomuannai/1/1/1/3/2152.html"
+      ],
+      "reason": "One shared training-centre campus at Azukisawamachi Wo 4. The Yanagibashimachi office is excluded; use requires facility permission."
+    },
+    {
+      "task": 19,
+      "candidate": "JUAVAC Fukui practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E7%A6%8F%E4%BA%95%E6%A0%A1/"
+      ],
+      "reason": "Kaneko describes drone services; practical venue identity is not established by the Kaihatsu contact address."
+    },
+    {
+      "task": 20,
+      "candidate": "JUAVAC Yamanashi practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E5%B1%B1%E6%A2%A8%E6%A0%A1/"
+      ],
+      "reason": "The national listing provides a Hokuto school address but the linked operator page could not be fetched; practical facility evidence remains unresolved."
+    },
+    {
+      "task": 21,
+      "candidate": "JUAVAC Komoro indoor training campus",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-juavac-komoro-indoor",
+      "sourceUrls": [
+        "https://juavac-nagano.jp/faq/",
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E9%95%B7%E9%87%8E%E6%A0%A1/"
+      ],
+      "reason": "One campus at 己65-2. The older national-directory address at Kamasu 578 is not added as another flight venue."
+    },
+    {
+      "task": 22,
+      "candidate": "JUAVAC Gifu practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E5%B2%90%E9%98%9C%E6%A0%A1/"
+      ],
+      "reason": "The Shirakawa school offers flight courses, but reviewed operator material does not identify the practical flight ground."
+    },
+    {
+      "task": 23,
+      "candidate": "Lopta Futsal Dome drone training venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-fuji-lopta-training",
+      "sourceUrls": [
+        "https://juavac-shizuoka.com/",
+        "https://juavac-droneschool.jp/school/43/"
+      ],
+      "reason": "One shared indoor sports venue at Matsumoto 299-10. The operator headquarters in Shizuoka city is excluded; the dated event notice is not treated as evidence of present availability."
+    },
+    {
+      "task": 24,
+      "candidate": "JUAVAC Nagoya practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E5%90%8D%E5%8F%A4%E5%B1%8B%E6%A0%A1/"
+      ],
+      "reason": "The operator offers access to practical venues after graduation without identifying those sites separately from the Jingu office."
+    },
+    {
+      "task": 25,
+      "candidate": "Sky D Lake Moriyama indoor drone venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-moriyama-sky-d-lake",
+      "sourceUrls": [
+        "https://www.pieri.sc/shop/detail/174/",
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E6%BB%8B%E8%B3%80%E6%A0%A1/",
+        "https://toyo-drone.jp/"
+      ],
+      "reason": "One first-floor venue at Pieri Moriyama, Imahamacho 2620-5. Store, instruction and experience areas are grouped."
+    },
+    {
+      "task": 26,
+      "candidate": "Fujitaka former Kawabe School flight campus",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-nantan-kawabe-school-campus",
+      "sourceUrls": [
+        "https://www.fujitaka.com/fdps/",
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E4%BA%AC%E9%83%BD%E6%A0%A1/"
+      ],
+      "reason": "One former school campus at Sonobecho Funaoka Nagahata 52-3. JUAVAC Kyoto and Fujitaka describe the same venue; gym and associated grounds are grouped."
+    },
+    {
+      "task": 27,
+      "candidate": "JUAVAC Osaka Hirakata flight venue",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E5%A4%A7%E9%98%AA%E6%9E%9A%E6%96%B9%E6%A0%A1/"
+      ],
+      "reason": "Already represented by japan-juavac-hirakata-east; no additional physical site established."
+    },
+    {
+      "task": 28,
+      "candidate": "MAG Futsal Stadium drone training court",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-osaka-mag-futsal-training",
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E5%A4%A7%E9%98%AA%E6%A0%A1/"
+      ],
+      "reason": "One shared indoor sports venue at Izumi 1-1-82, Suminoe. The Edobori office is excluded. This venue is distinct from Flight Salon Osaka at Shinkitajima 5-1-50."
+    },
+    {
+      "task": 29,
+      "candidate": "JUAVAC Hyogo practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E5%85%B5%E5%BA%AB%E6%A0%A1/"
+      ],
+      "reason": "The operator lists Sayo and Ako offices and training services, but a distinct configured flight venue remains unresolved."
+    },
+    {
+      "task": 30,
+      "candidate": "JUAVAC Wakayama practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E5%92%8C%E6%AD%8C%E5%B1%B1%E6%A0%A1/"
+      ],
+      "reason": "The Shirahama address alone does not establish a practical facility; the linked operator site could not be fetched."
+    },
+    {
+      "task": 31,
+      "candidate": "JUAVAC Shimane M-Land practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E5%B3%B6%E6%A0%B9m%E3%83%A9%E3%83%B3%E3%83%89%E6%A0%A1/"
+      ],
+      "reason": "The school is within the driving-school campus, but specific drone practice provision remains unresolved and the linked site returns 404."
+    },
+    {
+      "task": 32,
+      "candidate": "JUAVAC Okayama practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E5%B2%A1%E5%B1%B1%E6%A0%A1/"
+      ],
+      "reason": "Niimi and Tamano flight facilities are reported, but the reviewed facility description does not resolve the individual gym/ground identities against the company address."
+    },
+    {
+      "task": 33,
+      "candidate": "JUAVAC Hiroshima practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E5%BA%83%E5%B3%B6%E6%A0%A1/"
+      ],
+      "reason": "The operator confirms the school and specialist courses; a configured flight venue at the Kurose contact address is not established."
+    },
+    {
+      "task": 34,
+      "candidate": "JUAVAC Yamaguchi practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E5%B1%B1%E5%8F%A3%E6%A0%A1/"
+      ],
+      "reason": "The EN-Biz contact office is not established as a flight field; some specialist practical training is explicitly elsewhere in Saitama."
+    },
+    {
+      "task": 35,
+      "candidate": "JUAVAC Kagawa practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E9%A6%99%E5%B7%9D%E6%A0%A1/"
+      ],
+      "reason": "The listing explicitly identifies theory venues at Kawaramachi Flag and the driving school; physical flight provision remains unresolved."
+    },
+    {
+      "task": 36,
+      "candidate": "JUAVAC Kochi practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E9%AB%98%E7%9F%A5%E6%A0%A1/"
+      ],
+      "reason": "A December 2023 school relocation is described, but the practical flight site is not identified by the new office address."
+    },
+    {
+      "task": 37,
+      "candidate": "JUAVAC Fukuoka South former-school campus",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-yame-juavac-former-school",
+      "sourceUrls": [
+        "https://mtm-kikaku.co.jp/",
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E7%A6%8F%E5%B2%A1%E5%8D%97%E6%A0%A1/"
+      ],
+      "reason": "One campus at 立花町上辺春1080; indoor and outdoor training areas are grouped."
+    },
+    {
+      "task": 38,
+      "candidate": "JUAVAC Nagomi former-factory flight hall",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-nagomi-juavac-factory-hall",
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E7%86%8A%E6%9C%AC%E6%A0%A1/"
+      ],
+      "reason": "One venue at 久井原899, Nagomi. Outdoor experiences arranged on request do not establish another maintained field."
+    },
+    {
+      "task": 39,
+      "candidate": "JUAVAC Miyazaki practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E5%AE%AE%E5%B4%8E%E6%A0%A1/"
+      ],
+      "reason": "The operator describes practical instruction, but the reviewed material does not resolve the flight venue separately from its contact address."
+    },
+    {
+      "task": 40,
+      "candidate": "JUAVAC Kagoshima practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E9%B9%BF%E5%85%90%E5%B3%B6%E6%A0%A1/"
+      ],
+      "reason": "The Kamoike office and shared Miyazaki/Kagoshima services do not establish a separate physical flight facility."
+    },
+    {
+      "task": 41,
+      "candidate": "JUAVAC Okinawa practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E6%B2%96%E7%B8%84%E6%A0%A1/"
+      ],
+      "reason": "Practical instruction is at an unnamed partner facility in Nanjo, not the Naha contact office; venue identity remains unresolved."
+    },
+    {
+      "task": 42,
+      "candidate": "ATCL DMS Himeji campus",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://atcl-dsj.com/dsj/access/"
+      ],
+      "reason": "Already represented by japan-atcl-himeji-practice-court; no additional physical site established."
+    },
+    {
+      "task": 43,
+      "candidate": "DMS Osaka Juso indoor flight court",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-dms-osaka-juso-court",
+      "sourceUrls": [
+        "https://drone-school.mobility-techno.jp/dms-osaka",
+        "https://atcl-dsj.com/dsj/access/"
+      ],
+      "reason": "One campus at Tagawakita 2-4-13, Yodogawa, confirmed by the local operator access page. The conflicting Tatsuminishi group-index address is not used or counted separately."
+    },
+    {
+      "task": 44,
+      "candidate": "ATCL Akashi experience venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://atcl-dsj.com/dsj/access/"
+      ],
+      "reason": "The operator lists an experience-session location, but a maintained drone flight-training facility at this venue is not established. It is not added as a permanent school campus."
+    },
+    {
+      "task": 45,
+      "candidate": "ATCL Kobe experience venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://atcl-dsj.com/dsj/access/"
+      ],
+      "reason": "The operator lists an experience-session location, but a maintained drone flight-training facility at this venue is not established. It is not added as a permanent school campus."
+    },
+    {
+      "task": 46,
+      "candidate": "ATCL Sannomiya experience venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://atcl-dsj.com/dsj/access/"
+      ],
+      "reason": "The operator lists an experience-session location, but a maintained drone flight-training facility at this venue is not established. It is not added as a permanent school campus."
+    },
+    {
+      "task": 47,
+      "candidate": "ATCL Osaka Umeda experience venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://atcl-dsj.com/dsj/access/"
+      ],
+      "reason": "The operator lists an experience-session location, but a maintained drone flight-training facility at this venue is not established. It is not added as a permanent school campus."
+    },
+    {
+      "task": 48,
+      "candidate": "ATCL Osaka Hirakata experience venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://atcl-dsj.com/dsj/access/"
+      ],
+      "reason": "The operator lists an experience-session location, but a maintained drone flight-training facility at this venue is not established. It is not added as a permanent school campus."
+    },
+    {
+      "task": 49,
+      "candidate": "ATCL Osaka Tennoji experience venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://atcl-dsj.com/dsj/access/"
+      ],
+      "reason": "The operator lists an experience-session location, but a maintained drone flight-training facility at this venue is not established. It is not added as a permanent school campus."
+    },
+    {
+      "task": 50,
+      "candidate": "ATCL Osaka Tenmabashi experience venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://atcl-dsj.com/dsj/access/"
+      ],
+      "reason": "The operator lists an experience-session location, but a maintained drone flight-training facility at this venue is not established. It is not added as a permanent school campus."
+    }
+  ]
+}
