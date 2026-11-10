@@ -27483,9 +27483,969 @@
       "researchBatch": "2026-11-09-taiwan-australia-field-review",
       "reviewNotes": "One Edmonton field at Walker Road 10–20; examination room grouped. Operator training does not imply unrestricted public flight access.",
       "coordinateBasis": "Editorial locality reference. Rounded marker for Cairns, Queensland; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "korea-gwangnaru-field",
+      "entityKey": "korea-gwangnaru-field",
+      "name": "Gwangnaru Hangang drone field",
+      "where": "Seoul, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Seoul Metropolitan Government",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Seoul locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 37.57,
+        "longitude": 126.98
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Seoul offers reserved use of the Gwangnaru drone field.",
+      "source": {
+        "name": "Seoul Metropolitan Government — Gwangnaru Hangang drone field",
+        "url": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S251204150129967749"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One park field; fixed-wing and rotary-wing sections grouped. Booking availability is not independent flight permission.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Seoul; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "Seoul — fixed-wing field booking",
+          "url": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S251204153316603131"
+        }
+      ]
+    },
+    {
+      "id": "korea-chuncheon-geodu-field",
+      "entityKey": "korea-chuncheon-geodu-field",
+      "name": "Chuncheon Geodu grass-ground drone examination field",
+      "where": "Chuncheon, Gangwon, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Chuncheon City / Chuncheon City Corporation",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Chuncheon, Gangwon locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 37.88,
+        "longitude": 127.73
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The municipality identifies Geodu grass ground as its standing drone practical examination venue.",
+      "source": {
+        "name": "Chuncheon City / Chuncheon City Corporation — Chuncheon Geodu grass-ground drone examination field",
+        "url": "https://www.chuncheon.go.kr/economy/industry/ict/dron/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One shared ground at Geodu-ri 1156; spectator and waiting facilities grouped.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Chuncheon, Gangwon; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "korea-gwangju-bukgu-park",
+      "entityKey": "korea-gwangju-bukgu-park",
+      "name": "Gwangju Buk-gu drone park",
+      "where": "Gwangju, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Gwangju Buk-gu",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Gwangju locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.16,
+        "longitude": 126.85
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The official portal identifies a drone flying field and drone football area near Citizens Forest.",
+      "source": {
+        "name": "Korean Drone Information Portal — drone parks",
+        "url": "https://www.droneportal.or.kr/main/web/contents/M050-02-04"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One Daechon-dong park; examination and recreation areas grouped.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Gwangju; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "korea-dangjin-park",
+      "entityKey": "korea-dangjin-park",
+      "name": "Dangjin drone park",
+      "where": "Dangjin, South Chungcheong, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Dangjin City",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Dangjin, South Chungcheong locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.89,
+        "longitude": 126.63
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The official portal lists the Dangjin park with a fixed-wing field and drone football provision.",
+      "source": {
+        "name": "Korean Drone Information Portal — drone parks",
+        "url": "https://www.droneportal.or.kr/main/web/contents/M050-02-04"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One Janggohang-ri site; park components grouped. The designation date is not a publication date.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Dangjin, South Chungcheong; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "korea-goyang-anchor-centre",
+      "entityKey": "korea-goyang-anchor-centre",
+      "name": "Goyang Drone Anchor Centre indoor flight facility",
+      "where": "Goyang, Gyeonggi, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Goyang City",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Goyang, Gyeonggi locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 37.66,
+        "longitude": 126.83
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Goyang describes an indoor flight hall, research facilities and drone laboratory at its Anchor Centre.",
+      "source": {
+        "name": "Goyang City — Goyang Drone Anchor Centre indoor flight facility",
+        "url": "https://www.goyang.go.kr/gydrone/centerintroduce.do"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One centre at Hwarang-ro 57-27, distinct from the already catalogued Daedeok outdoor field.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Goyang, Gyeonggi; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "korea-hwaseong-qualification-centre",
+      "entityKey": "korea-hwaseong-qualification-centre",
+      "name": "Hwaseong drone qualification centre",
+      "where": "Hwaseong, Gyeonggi, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Korea Transportation Safety Authority",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Hwaseong, Gyeonggi locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 37.2,
+        "longitude": 126.83
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The official portal describes practical drone examination fields at the Hwaseong qualification centre.",
+      "source": {
+        "name": "Korean Drone Information Portal — Hwaseong practical examination centre",
+        "url": "https://www.droneportal.or.kr/main/web/contents/M050-01-05"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One centre at Samjon-ro 200; six examination lines grouped. Distinct from KIAST at Gongnyong-ro 488beon-gil.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Hwaseong, Gyeonggi; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "Korea Transportation Safety Authority — centre address",
+          "url": "https://main.kotsa.or.kr/portal/contents.do?menuCode=06040501"
+        }
+      ]
+    },
+    {
+      "id": "korea-boeun-gubyeongsan-field",
+      "entityKey": "korea-boeun-gubyeongsan-field",
+      "name": "Boeun Gubyeongsan grass-ground former examination field",
+      "where": "Boeun, North Chungcheong, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Boeun County / Korea Transportation Safety Authority",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Boeun, North Chungcheong locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.49,
+        "longitude": 127.73
+      },
+      "reportDateLabel": "Council proceedings dated 30 May 2024; publication date not recorded",
+      "description": "County proceedings report withdrawal of the grass-ground drone examination designation from 2024 after its venue agreement ended.",
+      "source": {
+        "name": "Boeun County / Korea Transportation Safety Authority — Boeun Gubyeongsan grass-ground former examination field",
+        "url": "https://council.boeun.go.kr/record/recordView.do?key=d093b3d5d1d56b9045f56716a8003b27758c13f0f6d296aacaff481252c4ea78fe95d3adc3382a0b"
+      },
+      "verificationStatus": "Historical facility; closure reported by cited source",
+      "reportedStatus": "historical",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "Historical examination use; not a closure of the sports ground. Distinct from KIAST Boeun and the earlier Sports Park venue.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Boeun, North Chungcheong; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "korea-cheongyang-stadium-field",
+      "entityKey": "korea-cheongyang-stadium-field",
+      "name": "Cheongyang Public Stadium drone examination field",
+      "where": "Cheongyang, South Chungcheong, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Cheongyang examination venue",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Cheongyang, South Chungcheong locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.46,
+        "longitude": 126.8
+      },
+      "reportDateLabel": "Published 2023-09-06",
+      "description": "Reported drone practical examination venue.",
+      "source": {
+        "name": "Newsis — examination venue designation report",
+        "url": "https://www.newsis.com/view/NISX20230906_0002439694"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": "2023-09-06",
+      "sourceType": "news",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One venue. Evidence dates to 2023; current activity remains unverified.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Cheongyang, South Chungcheong; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "korea-buyeo-baekma-field",
+      "entityKey": "korea-buyeo-baekma-field",
+      "name": "Buyeo Baekma River Sports Park drone examination field",
+      "where": "Buyeo, South Chungcheong, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Buyeo examination venue",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Buyeo, South Chungcheong locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.28,
+        "longitude": 126.91
+      },
+      "reportDateLabel": "Published 2023-09-06",
+      "description": "Reported drone practical examination venue.",
+      "source": {
+        "name": "Newsis — examination venue designation report",
+        "url": "https://www.newsis.com/view/NISX20230906_0002439694"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": "2023-09-06",
+      "sourceType": "news",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One venue. Evidence dates to 2023; current activity remains unverified.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Buyeo, South Chungcheong; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "korea-gimhae-practice-field",
+      "entityKey": "korea-gimhae-practice-field",
+      "name": "Gimhae drone practice and examination field",
+      "where": "Gimhae, South Gyeongsang, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Gimhae examination venue",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Gimhae, South Gyeongsang locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.23,
+        "longitude": 128.89
+      },
+      "reportDateLabel": "Published 2023-09-06",
+      "description": "Reported drone practical examination venue.",
+      "source": {
+        "name": "Newsis — examination venue designation report",
+        "url": "https://www.newsis.com/view/NISX20230906_0002439694"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": "2023-09-06",
+      "sourceType": "news",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One venue. Evidence dates to 2023; current activity remains unverified.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Gimhae, South Gyeongsang; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "korea-mungyeong-yeonggang-field",
+      "entityKey": "korea-mungyeong-yeonggang-field",
+      "name": "Mungyeong Yeonggang Sports Park drone examination field",
+      "where": "Mungyeong, North Gyeongsang, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Mungyeong examination venue",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Mungyeong, North Gyeongsang locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.59,
+        "longitude": 128.19
+      },
+      "reportDateLabel": "Published 2023-09-06",
+      "description": "Reported drone practical examination venue.",
+      "source": {
+        "name": "Newsis — examination venue designation report",
+        "url": "https://www.newsis.com/view/NISX20230906_0002439694"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": "2023-09-06",
+      "sourceType": "news",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One venue. Evidence dates to 2023; current activity remains unverified.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Mungyeong, North Gyeongsang; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "Mungyeong council — field operation",
+          "url": "https://council.gbmg.go.kr/viewer/minutes/3558.do"
+        }
+      ]
+    },
+    {
+      "id": "korea-sacheon-gonyang-field",
+      "entityKey": "korea-sacheon-gonyang-field",
+      "name": "Sacheon Gonyang football-ground drone examination field",
+      "where": "Sacheon, South Gyeongsang, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Sacheon examination venue",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Sacheon, South Gyeongsang locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.0,
+        "longitude": 128.06
+      },
+      "reportDateLabel": "Published 2023-09-06",
+      "description": "Reported drone practical examination venue.",
+      "source": {
+        "name": "Newsis — examination venue designation report",
+        "url": "https://www.newsis.com/view/NISX20230906_0002439694"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": "2023-09-06",
+      "sourceType": "news",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One venue. Evidence dates to 2023; current activity remains unverified.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Sacheon, South Gyeongsang; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "korea-yeongcheon-stadium-field",
+      "entityKey": "korea-yeongcheon-stadium-field",
+      "name": "Yeongcheon Citizens Stadium drone examination field",
+      "where": "Yeongcheon, North Gyeongsang, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Yeongcheon examination venue",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Yeongcheon, North Gyeongsang locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.97,
+        "longitude": 128.94
+      },
+      "reportDateLabel": "Published 2023-09-06",
+      "description": "Reported drone practical examination venue.",
+      "source": {
+        "name": "Newspim — examination venue designation report",
+        "url": "https://www.newspim.com/news/view/20230906000270"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": "2023-09-06",
+      "sourceType": "news",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One venue. Evidence dates to 2023; current activity remains unverified.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Yeongcheon, North Gyeongsang; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "korea-jinju-sports-park-field",
+      "entityKey": "korea-jinju-sports-park-field",
+      "name": "Jinju Sports Park drone examination field",
+      "where": "Jinju, South Gyeongsang, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Jinju examination venue",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Jinju, South Gyeongsang locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.18,
+        "longitude": 128.11
+      },
+      "reportDateLabel": "Published 2023-09-06",
+      "description": "Reported drone practical examination venue.",
+      "source": {
+        "name": "Newspim — examination venue designation report",
+        "url": "https://www.newspim.com/news/view/20230906000270"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": "2023-09-06",
+      "sourceType": "news",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One venue. Evidence dates to 2023; current activity remains unverified.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Jinju, South Gyeongsang; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "korea-jeonju-wansan-field",
+      "entityKey": "korea-jeonju-wansan-field",
+      "name": "Jeonju Wansan Sports Park drone examination field",
+      "where": "Jeonju, North Jeolla, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Jeonju examination venue",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Jeonju, North Jeolla locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.82,
+        "longitude": 127.15
+      },
+      "reportDateLabel": "Published 2023-09-06",
+      "description": "Reported drone practical examination venue.",
+      "source": {
+        "name": "Newspim — examination venue designation report",
+        "url": "https://www.newspim.com/news/view/20230906000270"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": "2023-09-06",
+      "sourceType": "news",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One venue. Evidence dates to 2023; current activity remains unverified.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Jeonju, North Jeolla; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "korea-jinan-sangjeon-field",
+      "entityKey": "korea-jinan-sangjeon-field",
+      "name": "Jinan Sangjeon Sports Park drone examination field",
+      "where": "Jinan, North Jeolla, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Jinan examination venue",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Jinan, North Jeolla locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.79,
+        "longitude": 127.42
+      },
+      "reportDateLabel": "Published 2023-09-06",
+      "description": "Reported drone practical examination venue.",
+      "source": {
+        "name": "Newspim — examination venue designation report",
+        "url": "https://www.newspim.com/news/view/20230906000270"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": "2023-09-06",
+      "sourceType": "news",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One venue. Evidence dates to 2023; current activity remains unverified.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Jinan, North Jeolla; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "korea-uljin-agriculture-field",
+      "entityKey": "korea-uljin-agriculture-field",
+      "name": "Uljin Agricultural Technology Centre drone examination field",
+      "where": "Uljin, North Gyeongsang, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Uljin examination venue",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Uljin, North Gyeongsang locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.99,
+        "longitude": 129.4
+      },
+      "reportDateLabel": "Published 2023-09-06",
+      "description": "Reported drone practical examination venue.",
+      "source": {
+        "name": "Newspim — examination venue designation report",
+        "url": "https://www.newspim.com/news/view/20230906000270"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": "2023-09-06",
+      "sourceType": "news",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One venue. Evidence dates to 2023; current activity remains unverified.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Uljin, North Gyeongsang; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "korea-seongdong-indoor-field",
+      "entityKey": "korea-seongdong-indoor-field",
+      "name": "Seongdong AI and Future Technology Centre drone hall",
+      "where": "Seoul, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Seongdong District",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Seoul locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 37.57,
+        "longitude": 126.98
+      },
+      "reportDateLabel": "July 2025 newsletter; exact publication day not recorded",
+      "description": "The district newsletter describes a dedicated drone experience hall in the renovated technology centre.",
+      "source": {
+        "name": "Seongdong District — Seongdong AI and Future Technology Centre drone hall",
+        "url": "https://sd.newstool.co.kr/pdf/sd_202507.pdf"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One centre at Salgoji-gil 327; formerly the Fourth Industrial Revolution Experience Centre. Renaming does not create a second facility.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Seoul; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "Seongdong — 2026 drone course venue",
+          "url": "https://www.sd.go.kr/booking/webEduDetail.do?eduMngNo=964&key=3661&pageIndex=1&pageUnit=10&searchMonth=9&searchYear=2026"
+        }
+      ]
+    },
+    {
+      "id": "korea-ilgok-school-field",
+      "entityKey": "korea-ilgok-school-field",
+      "name": "Ilgok Middle School Huimang Ieumteo drone practice field",
+      "where": "Gwangju, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Gwangju Metropolitan Office of Education",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Gwangju locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.16,
+        "longitude": 126.85
+      },
+      "reportDateLabel": "Published 2026-01-05",
+      "description": "Yonhap reports a drone practice area in the completed school and community complex at Ilgok Middle School.",
+      "source": {
+        "name": "Yonhap — Ilgok community facility completion",
+        "url": "https://www.yna.co.kr/view/AKR20260105094800054"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": "2026-01-05",
+      "sourceType": "news",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One school-campus practice facility; gardens and other sports spaces are not additional drone locations.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Gwangju; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "korea-popdrone-eumseong",
+      "entityKey": "korea-popdrone-eumseong",
+      "name": "POPDRONE Eumseong experience venue",
+      "where": "Eumseong, North Chungcheong, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "DRONKEN / POPDRONE",
+      "reportedEquipment": "Indoor drone experience space",
+      "locationPrecision": "Approximate Eumseong, North Chungcheong locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.94,
+        "longitude": 127.69
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator lists a physical drone experience venue.",
+      "source": {
+        "name": "DRONKEN / POPDRONE — POPDRONE Eumseong experience venue",
+        "url": "https://popdrone.co.kr/77"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One motorway-service-area venue; duplicated page sections are not separate sites.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Eumseong, North Chungcheong; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "korea-popdrone-seongnae",
+      "entityKey": "korea-popdrone-seongnae",
+      "name": "POPDRONE Ulsan Seongnae experience venue",
+      "where": "Ulsan, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "DRONKEN / POPDRONE",
+      "reportedEquipment": "Indoor drone experience space",
+      "locationPrecision": "Approximate Ulsan locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.54,
+        "longitude": 129.31
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator lists a physical drone experience venue.",
+      "source": {
+        "name": "DRONKEN / POPDRONE — POPDRONE Ulsan Seongnae experience venue",
+        "url": "https://popdrone.co.kr/77"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One Seongnae venue, distinct from Maegok.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Ulsan; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "korea-popdrone-maegok",
+      "entityKey": "korea-popdrone-maegok",
+      "name": "POPDRONE Ulsan Maegok experience venue",
+      "where": "Ulsan, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "DRONKEN / POPDRONE",
+      "reportedEquipment": "Indoor drone experience space",
+      "locationPrecision": "Approximate Ulsan locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.54,
+        "longitude": 129.31
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator lists a physical drone experience venue.",
+      "source": {
+        "name": "DRONKEN / POPDRONE — POPDRONE Ulsan Maegok experience venue",
+        "url": "https://popdrone.co.kr/77"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One Maegok venue, distinct from Seongnae.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Ulsan; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "korea-boeun-sports-park-former-field",
+      "entityKey": "korea-boeun-sports-park-former-field",
+      "name": "Boeun Sports Park former drone examination venue",
+      "where": "Boeun, North Chungcheong, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Boeun County / Korea Transportation Safety Authority",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Boeun, North Chungcheong locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.49,
+        "longitude": 127.73
+      },
+      "reportDateLabel": "Council proceedings dated 30 May 2024; publication date not recorded",
+      "description": "County proceedings describe former drone examination use of Sports Park grounds before relocation to Gubyeongsan.",
+      "source": {
+        "name": "Boeun County / Korea Transportation Safety Authority — Boeun Sports Park former drone examination venue",
+        "url": "https://council.boeun.go.kr/record/recordView.do?key=d093b3d5d1d56b9045f56716a8003b27758c13f0f6d296aacaff481252c4ea78fe95d3adc3382a0b"
+      },
+      "verificationStatus": "Historical facility; closure reported by cited source",
+      "reportedStatus": "historical",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "Historical venue; multiple grounds within Sports Park grouped. Distinct from the successor grass ground and KIAST facility.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Boeun, North Chungcheong; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "korea-shinhan-dongducheon-field",
+      "entityKey": "korea-shinhan-dongducheon-field",
+      "name": "Shinhan Global Talent Institute Dongducheon field",
+      "where": "Dongducheon, Gyeonggi, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Shinhan Global Talent Institute",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Dongducheon, Gyeonggi locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 37.9,
+        "longitude": 127.06
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The institute identifies its Dongducheon drone flight field.",
+      "source": {
+        "name": "Shinhan Global Talent Institute — Shinhan Global Talent Institute Dongducheon field",
+        "url": "https://www.shgedu.co.kr/about/facilities"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One field at Saengyeon-dong 83-5; Uijeongbu offices and heavy-equipment training ground excluded.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Dongducheon, Gyeonggi; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "korea-shinhan-yangju-field",
+      "entityKey": "korea-shinhan-yangju-field",
+      "name": "Shinhan Global Talent Institute Yangju field",
+      "where": "Yangju, Gyeonggi, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Shinhan Global Talent Institute",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Yangju, Gyeonggi locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 37.79,
+        "longitude": 127.05
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The institute separately identifies its Yangju drone flight field.",
+      "source": {
+        "name": "Shinhan Global Talent Institute — Shinhan Global Talent Institute Yangju field",
+        "url": "https://www.shgedu.co.kr/about/facilities"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One named Yangju field, distinct from Dongducheon. Exact site address is not supplied; marker represents the municipality.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Yangju, Gyeonggi; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "korea-bigdrone-gonjiam-field",
+      "entityKey": "korea-bigdrone-gonjiam-field",
+      "name": "Big Drone Geoneop-ri football-ground training field",
+      "where": "Gwangju, Gyeonggi, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Big Drone / The Daum Drone Academy",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Gwangju, Gyeonggi locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 37.43,
+        "longitude": 127.26
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator identifies Geoneop-ri football ground in Gonjiam as its drone training venue.",
+      "source": {
+        "name": "Big Drone / The Daum Drone Academy — Big Drone Geoneop-ri football-ground training field",
+        "url": "https://www.bigdroneacademy.co.kr/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One shared field; Seongnam office is not used as the flight location. Gwangju in Gyeonggi is distinct from Gwangju metropolitan city.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Gwangju, Gyeonggi; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "korea-yangju-dronebot-centre",
+      "entityKey": "korea-yangju-dronebot-centre",
+      "name": "Yangju Dronebot Talent Education Centre",
+      "where": "Yangju, Gyeonggi, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Yangju City",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Yangju, Gyeonggi locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 37.79,
+        "longitude": 127.05
+      },
+      "reportDateLabel": "Published 2025-01-24",
+      "description": "Yonhap reports the opening of a centre with an indoor drone flight hall and education rooms at Yangju Techno City.",
+      "source": {
+        "name": "Yonhap — Yangju Dronebot centre opening",
+        "url": "https://www.yna.co.kr/view/AKR20250124107300060"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": "2025-01-24",
+      "sourceType": "news",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One centre; flight hall and second-floor classrooms grouped. Distinct from Shinhan institute field.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Yangju, Gyeonggi; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "Yangju City — centre training notice",
+          "url": "https://www.yangju.go.kr/www/selectEminwonView.do?key=4075&not_ancmt_mgt_no=61075&ofr_pageSize=10&pageIndex=1&pageUnit=10&searchCnd=all"
+        }
+      ]
+    },
+    {
+      "id": "korea-tturuttu-nonsan-field",
+      "entityKey": "korea-tturuttu-nonsan-field",
+      "name": "Tturuttu Nonsan drone flight and training field",
+      "where": "Nonsan, South Chungcheong, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Tturuttu",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Nonsan, South Chungcheong locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.19,
+        "longitude": 127.1
+      },
+      "reportDateLabel": "Published 2018-09-07",
+      "description": "Yonhap reports a configured drone field with landing areas, maintenance space and a flight-control room near Konyang University.",
+      "source": {
+        "name": "Yonhap — Nonsan drone field",
+        "url": "https://www.yna.co.kr/view/AKR20180906122100063"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": "2018-09-07",
+      "sourceType": "news",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One Eunjin-myeon field; four flight areas grouped. Evidence describes 2018 provision, not independently verified current activity.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Nonsan, South Chungcheong; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "korea-jeonju-international-sports-centre",
+      "entityKey": "korea-jeonju-international-sports-centre",
+      "name": "Jeonju International Drone Sports Centre",
+      "where": "Jeonju, North Jeolla, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Jeonju City",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Jeonju, North Jeolla locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.82,
+        "longitude": 127.15
+      },
+      "reportDateLabel": "April 2026 magazine issue; exact publication day not recorded",
+      "description": "The city magazine describes a dedicated drone sports arena with exhibition and experience spaces.",
+      "source": {
+        "name": "Jeonju City — Jeonju International Drone Sports Centre",
+        "url": "https://daum.jeonju.go.kr/main/menu?do=view&gc=WEBZINE1&page=1&webzine_code=BSnpqQ__IMP69c1f7a0&wgroup_code=wdpXktqquCY69c0ca1a"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One centre at Hyeoksin-ro 617; trial operation reported in the April 2026 issue. Arena subdivisions are not extra facilities.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Jeonju, North Jeolla; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "korea-jeonju-wingwing-station",
+      "entityKey": "korea-jeonju-wingwing-station",
+      "name": "Jeonju Wing Wing Station drone maker and flight venue",
+      "where": "Jeonju, North Jeolla, South Korea",
+      "country": "South Korea",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "CAMTIC",
+      "reportedEquipment": "Drone practical training or examination field",
+      "locationPrecision": "Approximate Jeonju, North Jeolla locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.82,
+        "longitude": 127.15
+      },
+      "reportDateLabel": "April 2026 magazine issue; exact publication day not recorded",
+      "description": "The city magazine describes drone making and flight experiences, including practice drone football, at Wing Wing Station.",
+      "source": {
+        "name": "Jeonju city magazine — drone experience venues",
+        "url": "https://daum.jeonju.go.kr/main/menu?do=view&gc=WEBZINE1&page=1&webzine_code=BSnpqQ__IMP69c1f7a0&wgroup_code=wdpXktqquCY69c0ca1a"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "government",
+      "researchBatch": "2026-11-10-korean-practice-field-review",
+      "reviewNotes": "One venue at Yusang-ro 67, building 1; distinct from the International Drone Sports Centre and JBNU indoor flight room.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Jeonju, North Jeolla; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
     }
   ],
-  "expectedTotal": 870,
+  "expectedTotal": 900,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -28890,6 +29850,41 @@
         "australia-droneit-morphett-vale",
         "australia-droneit-karawara",
         "australia-droneit-edmonton"
+      ]
+    },
+    {
+      "id": "2026-11-10-korean-practice-field-review",
+      "recordIds": [
+        "korea-gwangnaru-field",
+        "korea-chuncheon-geodu-field",
+        "korea-gwangju-bukgu-park",
+        "korea-dangjin-park",
+        "korea-goyang-anchor-centre",
+        "korea-hwaseong-qualification-centre",
+        "korea-boeun-gubyeongsan-field",
+        "korea-cheongyang-stadium-field",
+        "korea-buyeo-baekma-field",
+        "korea-gimhae-practice-field",
+        "korea-mungyeong-yeonggang-field",
+        "korea-sacheon-gonyang-field",
+        "korea-yeongcheon-stadium-field",
+        "korea-jinju-sports-park-field",
+        "korea-jeonju-wansan-field",
+        "korea-jinan-sangjeon-field",
+        "korea-uljin-agriculture-field",
+        "korea-seongdong-indoor-field",
+        "korea-ilgok-school-field",
+        "korea-popdrone-eumseong",
+        "korea-popdrone-seongnae",
+        "korea-popdrone-maegok",
+        "korea-boeun-sports-park-former-field",
+        "korea-shinhan-dongducheon-field",
+        "korea-shinhan-yangju-field",
+        "korea-bigdrone-gonjiam-field",
+        "korea-yangju-dronebot-centre",
+        "korea-tturuttu-nonsan-field",
+        "korea-jeonju-international-sports-centre",
+        "korea-jeonju-wingwing-station"
       ]
     }
   ]
