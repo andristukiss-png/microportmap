@@ -2,13 +2,13 @@
 
 Repository: https://github.com/andristukiss-png/microportmap, main. Historical no-repository statements below are superseded. User authorizes routine research, additions and publication without repeated questions. Continue credible locations, not synthetic task counts.
 
-Batch 120: 50 candidate reviews, 29 additions, 17 deferred, four overlaps. Total 954 records (50 original + 904 additions), 56 countries; 46 remaining to 1,000. All 925 prior records preserved. See catalogue/one-hundred-twentieth-batch-review.md and catalogue/2026-11-10-third-fifty-task-review.json. PR and CI contain actual publication status; files alone do not establish deployment.
+Batch 121: 50 candidate reviews, 36 additions, nine deferred, five overlaps. Total 990 records (50 original + 940 additions), 56 countries; ten remaining to 1,000. All 954 prior records preserved. See catalogue/one-hundred-twenty-first-batch-review.md and catalogue/2026-11-10-fourth-fifty-task-review.json. PR and CI contain actual publication status; files alone do not establish deployment.
 
-Build scripts/build_catalogue.py and deploy dist/, never src/. Run checks/catalogue-expansion.py and checks/catalogue-browser-runner-test.py sequentially. All four browser CI shards must pass: 959 routes / 1,918 desktop-mobile journeys. Browser timeout is now 30 minutes. Vercel automatically deploys main. Public site https://microportmap.com.
+Build scripts/build_catalogue.py and deploy dist/, never src/. Run checks/catalogue-expansion.py and checks/catalogue-browser-runner-test.py sequentially. All four browser CI shards must pass: 995 routes / 1,990 desktop-mobile journeys. Browser timeout is 30 minutes. Vercel automatically deploys main. Public site https://microportmap.com.
 
-Yokkaichi school relocated to Suzuka in June 2026. Misato DSJ/KDDI is one campus. Akihabara has simulator/theory only; its practical venues are already grouped elsewhere. Do not duplicate Himeji, Makuhari, Saga Tosu or D-Academy Kanto/DDFF. Four SAFRA venues from batch 119 remain trials. Markers are editorial locality references, never launch coordinates.
+Drone Campus Hiroshima detailed venue is Takehara, not the outdated Etajima index. Tokushima detailed address differs from its index. KDDI Kyoto labels are inconsistent with physical venues; use Daigo Gym and Kelbito venue names. KDDI Nagoya is in Chita and Matsuyama is in Toon. Do not duplicate DRONE PLUS/Shintotsukawa, Itabashi, Misato, Toyota or Suminoe. Markers are editorial locality references, never launch coordinates.
 
-Future leads: Sogakkan former Fushiodai school gym and Nishinomiya sites, BirdEye outdoor field, CSON Nagara River field, Hummingbird Ichikawa Shiohama technical centre. Resolve JWEDA Toda venue, DPA Tsukuba test centre, DMS Osaka, remaining alliance schools and Pameungpeuk UAV provision. Earlier ledgers retain other deferred candidates. Do not count unreviewed leads as additions.
+Future leads: BirdEye outdoor field, CSON Nagara River field, JWEDA Toda, DPA Tsukuba, DMS Osaka and KDDI Aizu address resolution; Chichibu partner venues need names. DSJ Sakura has a 2017 announcement but subsequent operation remains unresolved; DSJ Nagoya needs primary identity evidence. Remaining alliance schools and Pameungpeuk UAV provision remain open. Earlier ledgers retain other deferred candidates. Do not count unreviewed leads as additions.
 
 ---
 
