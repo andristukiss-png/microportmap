@@ -1421,4 +1421,24 @@ for t in review120['tasks']:
  else: assert t['recordId'] is None
 assert by_id['japan-suzuka-yokkaichi-school-court']['where']=='Suzuka, Mie, Japan'
 assert len({r['country'] for r in rows})==56
+# Batch 121 preserves earlier records and reconciles 50 candidate reviews.
+assert hashlib.sha256(json.dumps(additions[:904],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='3613552ea3653fb2e1a2037556692e0d81fd942d98430a76c2566bfa3d854b0f'
+review121=json.loads((ROOT/'catalogue/2026-11-10-fourth-fifty-task-review.json').read_text())
+assert review121['completedTasks']==50 and [t['task'] for t in review121['tasks']]==list(range(1,51))
+assert len({t['candidate'] for t in review121['tasks']})==50
+assert all(t['reviewStatus']=='completed' and t['sourceUrls'] and t['reason'] for t in review121['tasks'])
+ids121=[t['recordId'] for t in review121['tasks'] if t['decision']=='accepted']
+assert ids121==batch['releases'][120]['recordIds'] and len(ids121)==review121['acceptedRecords']==36
+assert sum(t['decision']=='deferred' for t in review121['tasks'])==review121['deferredCandidates']==9
+assert sum(t['decision']=='excluded-overlap' for t in review121['tasks'])==review121['excludedOverlaps']==5
+for t in review121['tasks']:
+ if t['decision']=='accepted':
+  r=by_id[t['recordId']]
+  assert r['source']['url'] in t['sourceUrls'] and r['reviewNotes']==t['reason']
+  assert r['researchBatch']==review121['batch'] and r['sourceReviewedAt']=='2026-11-10'
+ else: assert t['recordId'] is None
+assert by_id['japan-drone-campus-hiroshima']['where']=='Takehara, Hiroshima, Japan'
+assert by_id['japan-chita-kddi-indoor']['where']=='Chita, Aichi, Japan'
+assert by_id['japan-toon-twin-dome']['where']=='Toon, Ehime, Japan'
+assert len({r['country'] for r in rows})==56
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
