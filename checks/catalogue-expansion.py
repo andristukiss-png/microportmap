@@ -1383,4 +1383,24 @@ for t in review118['tasks']:
 assert by_id['korea-bigdrone-gonjiam-field']['where']=='Gwangju, Gyeonggi, South Korea'
 assert 'Samjon-ro 200' in by_id['korea-hwaseong-qualification-centre']['reviewNotes']
 assert all(by_id[r]['country']=='South Korea' for r in ids118)
+# Batch 119 preserves earlier records and reconciles 50 candidate reviews.
+assert hashlib.sha256(json.dumps(additions[:850],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='8f69c9e25cda9397a367f1c0a423e63d2d56b97081307a20bbe3b0ced13ccef4'
+review119=json.loads((ROOT/'catalogue/2026-11-10-second-fifty-task-review.json').read_text())
+assert review119['completedTasks']==50 and [t['task'] for t in review119['tasks']]==list(range(1,51))
+assert len({t['candidate'] for t in review119['tasks']})==50
+assert all(t['reviewStatus']=='completed' and t['sourceUrls'] and t['reason'] for t in review119['tasks'])
+ids119=[t['recordId'] for t in review119['tasks'] if t['decision']=='accepted']
+assert ids119==batch['releases'][118]['recordIds'] and len(ids119)==review119['acceptedRecords']==25
+assert sum(t['decision']=='deferred' for t in review119['tasks'])==review119['deferredCandidates']==25
+assert review119['excludedOverlaps']==0
+for t in review119['tasks']:
+ if t['decision']=='accepted':
+  r=by_id[t['recordId']]
+  assert r['source']['url'] in t['sourceUrls'] and r['reviewNotes']==t['reason']
+  assert r['researchBatch']==review119['batch'] and r['sourceReviewedAt']=='2026-11-10'
+  assert r['reportedStatus']==('trial' if r['id'].startswith('singapore-safra-') else 'reported-operation')
+ else: assert t['recordId'] is None
+assert sum(by_id[r]['reportedStatus']=='trial' for r in ids119)==4
+assert by_id['malaysia-sri-bestari-arena']['where']=='Bandar Sri Damansara, Malaysia'
+assert len({r['country'] for r in rows})==56
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
