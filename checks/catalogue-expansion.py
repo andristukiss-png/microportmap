@@ -1363,4 +1363,24 @@ assert by_id['taiwan-ming-chuan-kinmen-field']['where']=='Jinsha, Kinmen, Taiwan
 assert by_id['taiwan-ilan-chengnan-field']['where']=='Yilan City, Taiwan'
 assert sum(by_id[r]['country']=='Taiwan' for r in ids117)==27
 assert sum(by_id[r]['country']=='Australia' for r in ids117)==9
+# Batch 118 preserves earlier records and reconciles 50 candidate reviews.
+assert hashlib.sha256(json.dumps(additions[:820],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='4ada7f74d3959bbfa223eefc776ccde174f7e3320e213617a99c74d410323619'
+review118=json.loads((ROOT/'catalogue/2026-11-10-first-fifty-task-review.json').read_text())
+assert review118['completedTasks']==50 and [t['task'] for t in review118['tasks']]==list(range(1,51))
+assert len({t['candidate'] for t in review118['tasks']})==50
+assert all(t['reviewStatus']=='completed' and t['sourceUrls'] and t['reason'] for t in review118['tasks'])
+ids118=[t['recordId'] for t in review118['tasks'] if t['decision']=='accepted']
+assert ids118==batch['releases'][117]['recordIds'] and len(ids118)==review118['acceptedRecords']==30
+assert sum(t['decision']=='deferred' for t in review118['tasks'])==review118['deferredCandidates']==20
+assert review118['excludedOverlaps']==0
+for t in review118['tasks']:
+ if t['decision']=='accepted':
+  r=by_id[t['recordId']]
+  assert r['source']['url'] in t['sourceUrls'] and r['reviewNotes']==t['reason']
+  assert r['researchBatch']==review118['batch'] and r['sourceReviewedAt']=='2026-11-10'
+  assert r['reportedStatus']==('historical' if r['id'] in ['korea-boeun-gubyeongsan-field','korea-boeun-sports-park-former-field'] else 'reported-operation')
+ else: assert t['recordId'] is None
+assert by_id['korea-bigdrone-gonjiam-field']['where']=='Gwangju, Gyeonggi, South Korea'
+assert 'Samjon-ro 200' in by_id['korea-hwaseong-qualification-centre']['reviewNotes']
+assert all(by_id[r]['country']=='South Korea' for r in ids118)
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
