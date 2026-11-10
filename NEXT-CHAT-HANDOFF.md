@@ -2,13 +2,13 @@
 
 Repository: https://github.com/andristukiss-png/microportmap, main. Historical no-repository statements below are superseded. User authorizes routine research, additions and publication without repeated questions. Continue credible locations, not synthetic task counts.
 
-Batch 118: 50 candidate reviews, 30 additions, 20 deferred. Total 900 records (50 original + 850 additions), 54 countries; 100 remaining to 1,000. All 870 prior records preserved. See catalogue/one-hundred-eighteenth-batch-review.md and catalogue/2026-11-10-first-fifty-task-review.json. PR and CI contain actual publication status; files alone do not establish deployment.
+Batch 119: 50 candidate reviews, 25 additions, 25 deferred. Total 925 records (50 original + 875 additions), 56 countries; 75 remaining to 1,000. All 900 prior records preserved. See catalogue/one-hundred-nineteenth-batch-review.md and catalogue/2026-11-10-second-fifty-task-review.json. PR and CI contain actual publication status; files alone do not establish deployment.
 
-Build scripts/build_catalogue.py and deploy dist/, never src/. Run checks/catalogue-expansion.py and checks/catalogue-browser-runner-test.py. All four browser CI shards must pass: 905 routes / 1,810 desktop-mobile journeys. Vercel automatically deploys main. Public site https://microportmap.com.
+Build scripts/build_catalogue.py and deploy dist/, never src/. Run checks/catalogue-expansion.py and checks/catalogue-browser-runner-test.py. All four browser CI shards must pass: 930 routes / 1,860 desktop-mobile journeys. Vercel automatically deploys main. Public site https://microportmap.com.
 
-Boeun Sports Park and Gubyeongsan grass ground are historical examination venues, not the KIAST centre. Hwaseong qualification centre at Samjon-ro 200 is distinct from KIAST. Goyang Anchor Centre is separate from Daedeok. Seongdong renamed centre counts once. Gwangju in Gyeonggi is distinct from Gwangju metropolitan city. All markers are editorial locality references.
+Four SAFRA sites are limited-duration trials beginning August 2026; do not silently promote to permanent operation. Medini 6 counts once. Obama Oval and RekaScape are distinct. Sri Bestari is in Bandar Sri Damansara, not the release dateline Cyberjaya. DTI headquarters is not its flight venue. All markers are editorial locality references.
 
-Future leads: resolve POPDRONE Cheongju's conflicting addresses and Gayang/Daedeok relationship; Yeongwol Sports Park needs stronger examination evidence. Equipment-delivery lists alone do not prove maintained flight facilities. Earlier deferred leads remain in ledgers. Do not count unreviewed leads as additions.
+Future leads: Garuda Media Walk fields need relationship check against PIXEL one-north; ITE College Central has reported netted training provision, needing primary venue confirmation. Resolve flight-ground locations for Nicotex, BCTech and Airworks, and Smartech address changes. Earlier deferred leads remain in ledgers. Do not count unreviewed leads as additions.
 
 ---
 
