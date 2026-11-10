@@ -1,0 +1,566 @@
+{
+  "reviewedAt": "2026-11-10",
+  "batch": "2026-11-10-japan-and-campus-flight-facilities",
+  "completedTasks": 50,
+  "acceptedRecords": 29,
+  "deferredCandidates": 17,
+  "excludedOverlaps": 4,
+  "tasks": [
+    {
+      "task": 1,
+      "candidate": "Hummingbird Odaiba flight courts",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-hummingbird-odaiba-courts",
+      "sourceUrls": [
+        "https://www.hb-j.jp/school/about/odaiba/"
+      ],
+      "reason": "One campus. Odaiba rooftop practice is grouped with its indoor courts; shared off-site examinations are not extra records."
+    },
+    {
+      "task": 2,
+      "candidate": "Hummingbird Shinjuku indoor flight court",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-hummingbird-shinjuku-court",
+      "sourceUrls": [
+        "https://www.hb-j.jp/school/about/shinjuku/"
+      ],
+      "reason": "One campus. Odaiba rooftop practice is grouped with its indoor courts; shared off-site examinations are not extra records."
+    },
+    {
+      "task": 3,
+      "candidate": "Hummingbird Yokohama indoor flight court",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-hummingbird-yokohama-court",
+      "sourceUrls": [
+        "https://www.hb-j.jp/school/about/yokohama/"
+      ],
+      "reason": "One campus. Odaiba rooftop practice is grouped with its indoor courts; shared off-site examinations are not extra records."
+    },
+    {
+      "task": 4,
+      "candidate": "Drone School Chiba Makuhari",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://d-pa.or.jp/school-group/"
+      ],
+      "reason": "Already represented by japan-chiba-makuhari-school-courts; no additional physical site established."
+    },
+    {
+      "task": 5,
+      "candidate": "Drone School Shimonoseki flight courts",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-shimonoseki-school-courts",
+      "sourceUrls": [
+        "https://drone-shimonoseki.jp/"
+      ],
+      "reason": "One school campus at Yoshimifurujuku 1-21; associated instruction areas are grouped."
+    },
+    {
+      "task": 6,
+      "candidate": "Drone School Kisarazu indoor courts",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-kisarazu-aeon-courts",
+      "sourceUrls": [
+        "https://ds-chiba.jp/kisarazu/"
+      ],
+      "reason": "Distinct from the existing Makuhari campus; one mall facility, not one record per court."
+    },
+    {
+      "task": 7,
+      "candidate": "Drone School Yokkaichi Suzuka indoor venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-suzuka-yokkaichi-school-court",
+      "sourceUrls": [
+        "https://hb-j.jp/school/about/yokkaichi/"
+      ],
+      "reason": "The school reports relocation on 5 June 2026 to Nomuracho 77-3, Suzuka. The older Yokkaichi mall listing is not mapped as current. Matsusaka off-site examinations are not included."
+    },
+    {
+      "task": 8,
+      "candidate": "Drone School Osaka Namba Parks courts",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-osaka-namba-parks-courts",
+      "sourceUrls": [
+        "https://droneschool-osaka.forum8.co.jp/"
+      ],
+      "reason": "One mall training facility; course levels and individual courts are grouped."
+    },
+    {
+      "task": 9,
+      "candidate": "Hummingbird Laketown indoor courts",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-hummingbird-laketown-courts",
+      "sourceUrls": [
+        "https://d-pa.or.jp/school/"
+      ],
+      "reason": "One campus at Laketown 4-1-1. Unspecified off-site instruction is not added."
+    },
+    {
+      "task": 10,
+      "candidate": "Drone School Ebina indoor training venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-ebina-marui-training",
+      "sourceUrls": [
+        "https://www.hb-j.jp/school/about/ebina/"
+      ],
+      "reason": "One fifth-floor mall venue; opening date is not treated as source publication date."
+    },
+    {
+      "task": 11,
+      "candidate": "DMS Tsukuba flight-training facility",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-dms-tsukuba-practice",
+      "sourceUrls": [
+        "https://drone-school-ibaraki-tsukuba.mobility-techno.jp/"
+      ],
+      "reason": "One physical campus at Shimana 2900-22; classroom and practical courses are grouped."
+    },
+    {
+      "task": 12,
+      "candidate": "DMS Urawa flight-training facility",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-dms-urawa-practice",
+      "sourceUrls": [
+        "https://drone-school-saitama.mobility-techno.jp/"
+      ],
+      "reason": "One physical campus at Nishibori 3-22-16; classroom and practical courses are grouped."
+    },
+    {
+      "task": 13,
+      "candidate": "DMS Osaka Tatsuminishi campus",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://drone-school.mobility-techno.jp/"
+      ],
+      "reason": "Campus address is listed; a sufficiently specific description of its flight court remains unresolved."
+    },
+    {
+      "task": 14,
+      "candidate": "DMS Hyogo Himeji campus",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://drone-school.mobility-techno.jp/"
+      ],
+      "reason": "Already represented by japan-atcl-himeji-practice-court; no additional physical site established."
+    },
+    {
+      "task": 15,
+      "candidate": "KDDI Smart Drone Academy Misato courts",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-misato-kddi-indoor-courts",
+      "sourceUrls": [
+        "https://drone-misato.jp/school.html"
+      ],
+      "reason": "One campus at Misato 1-24-7. The former DSJ school name is an alias, not another location."
+    },
+    {
+      "task": 16,
+      "candidate": "DSJ Chiba Sakura school",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://coeteco.jp/drone-school/schools/brast-a-djs-sutaff"
+      ],
+      "reason": "Directory reports flight spaces, but primary physical-venue confirmation is still needed."
+    },
+    {
+      "task": 17,
+      "candidate": "DSJ Aichi Nagoya school",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://drone-school-navi.com/school/ドローンスクールジャパン愛知名古屋校/"
+      ],
+      "reason": "Directory describes indoor training; operator venue identity and relationship to existing Nagoya sites require resolution."
+    },
+    {
+      "task": 18,
+      "candidate": "DSJ Saga Tosu school",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://d-pa.or.jp/school-group/"
+      ],
+      "reason": "Already represented by japan-dsj-saga-tosu-kiyama; no additional physical site established."
+    },
+    {
+      "task": 19,
+      "candidate": "DWS Iwaki drone training centre",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-dws-iwaki-training",
+      "sourceUrls": [
+        "https://www.dwstc.jp/index.php/courselist/curriculum-deo/",
+        "https://www.dwstc.jp/index.php/companyprofile-2/"
+      ],
+      "reason": "The training centre at Uchigo Takano Kawahira 50-1 is distinct from the Sekifunemachi headquarters."
+    },
+    {
+      "task": 20,
+      "candidate": "DWS Yamagata Tsuruoka school",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://coeteco.jp/drone-school/schools/dwstc-yamagata"
+      ],
+      "reason": "School address is listed; configured practical flight space needs primary confirmation."
+    },
+    {
+      "task": 21,
+      "candidate": "DWS Murakami former-school flight campus",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-dws-murakami-school-field",
+      "sourceUrls": [
+        "https://dwstcnm.fujidenshi.biz/",
+        "https://dwstcnm.fujidenshi.biz/?page_id=561"
+      ],
+      "reason": "One campus at Hirabayashi 122; gym and ground are grouped. Underwater-drone pool training does not create another aerial facility."
+    },
+    {
+      "task": 22,
+      "candidate": "DSA Nagono indoor flight venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-dsa-nagono-indoor",
+      "sourceUrls": [
+        "https://www.drone.aichi.jp/",
+        "https://dsa-nagono.jp/"
+      ],
+      "reason": "One Nagono campus venue, distinct from the existing Ematsu, NTP and Japan Drone College records."
+    },
+    {
+      "task": 23,
+      "candidate": "DSA Gifu BirdEye indoor court",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-dsa-gifu-indoor",
+      "sourceUrls": [
+        "https://www.birdeye-drone.com/"
+      ],
+      "reason": "One indoor venue at Imojima 2-9-5. The separately mentioned outdoor field five minutes away needs its own location review and is excluded here."
+    },
+    {
+      "task": 24,
+      "candidate": "Skytech Technology Farm Nishinosato flight campus",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-skytech-nishinosato-campus",
+      "sourceUrls": [
+        "https://skytech-drone-sch.jp/"
+      ],
+      "reason": "One campus at Nishinosato 308-1; indoor and outdoor areas are grouped."
+    },
+    {
+      "task": 25,
+      "candidate": "DPA Tsukuba training centre",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://d-pa.or.jp/school-group/"
+      ],
+      "reason": "Named test centre lacks a resolved physical-site identity; possible overlap with other Tsukuba facilities remains open."
+    },
+    {
+      "task": 26,
+      "candidate": "JWEDA Toda school",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://jweda.jp/"
+      ],
+      "reason": "Test-site status is reported, but the physical venue relationship to the Sportivo Toda listing needs confirmation before mapping."
+    },
+    {
+      "task": 27,
+      "candidate": "CSON Toyota indoor drone centre",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-cson-toyota-indoor",
+      "sourceUrls": [
+        "https://cson.co.jp/schoolguide.php"
+      ],
+      "reason": "One indoor facility at Hanagaokacho 3-8-5. The separately mentioned Nagara River outdoor field is not mapped from the headquarters address."
+    },
+    {
+      "task": 28,
+      "candidate": "Sogakkan Itami indoor drone flight hall",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-sogakkan-itami-indoor",
+      "sourceUrls": [
+        "https://sogakkan.jp/ds/about/"
+      ],
+      "reason": "Only the Itami hall at Shimogawara 2-12-22 is included. The separate former Fushiodai school gym and Nishinomiya venues require individual review."
+    },
+    {
+      "task": 29,
+      "candidate": "Meikosha Miyazaki drone practice court",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-meikosha-miyazaki-court",
+      "sourceUrls": [
+        "https://www.meikousha.co.jp/drone/faq/",
+        "https://www.meikousha.co.jp/drone/"
+      ],
+      "reason": "One training venue at Uryuno 2187; corporate offices and individual courses are excluded."
+    },
+    {
+      "task": 30,
+      "candidate": "D-Academy Hokkaido Shinoro",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://drone.ssds.co.jp/"
+      ],
+      "reason": "Current training notices do not resolve the maintained flight-ground location."
+    },
+    {
+      "task": 31,
+      "candidate": "D-Academy Tohoku Gojome flight campus",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-dacademy-gojome-campus",
+      "sourceUrls": [
+        "https://www.3eye-bird.jp/"
+      ],
+      "reason": "One former Babame school campus at Babame Yomogiuchidai 117-1; gym and ground are grouped."
+    },
+    {
+      "task": 32,
+      "candidate": "D-Academy Kanto headquarters flight venue",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://d-academy.co.jp/field/field.html"
+      ],
+      "reason": "Already represented by japan-kimitsu-ddff; no additional physical site established."
+    },
+    {
+      "task": 33,
+      "candidate": "D-Academy Kanto Saitama",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.d-academy-saitama.com/"
+      ],
+      "reason": "Current page emphasizes underwater-drone instruction; no separate aerial flight facility established."
+    },
+    {
+      "task": 34,
+      "candidate": "D-Academy Kanto Gunma",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://d-academy-alliance.jp/alliance/members/"
+      ],
+      "reason": "Alliance describes a converted school; exact campus identity is unresolved and the operator page could not be fetched."
+    },
+    {
+      "task": 35,
+      "candidate": "D-Academy Hokuriku Kanazawa",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://drone.inuwashi.info/"
+      ],
+      "reason": "School and mailing address do not identify the practical flight ground."
+    },
+    {
+      "task": 36,
+      "candidate": "D-Academy Kinki Wakayama",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://milaizu.co.jp/"
+      ],
+      "reason": "Services page does not resolve a distinct flight venue against existing Wakayama campuses."
+    },
+    {
+      "task": 37,
+      "candidate": "D-Academy Chugoku Okayama",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://d-academy-okayama.com/"
+      ],
+      "reason": "Maniwa Air Works course information does not establish an independently identifiable maintained flight field."
+    },
+    {
+      "task": 38,
+      "candidate": "D-Academy Chugoku Shimane",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.drone-sc.jp/"
+      ],
+      "reason": "Service and training descriptions do not resolve the maintained flight-site identity."
+    },
+    {
+      "task": 39,
+      "candidate": "D-Academy Shikoku Tokushima",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://d-academy-alliance.jp/alliance/members/"
+      ],
+      "reason": "Alliance membership is confirmed; operator site could not be fetched and flight location remains unresolved."
+    },
+    {
+      "task": 40,
+      "candidate": "D-Academy Okinawa Naha",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://d-ac.com/"
+      ],
+      "reason": "Naha school information does not establish the practical field separately from its office."
+    },
+    {
+      "task": 41,
+      "candidate": "DMS Akihabara simulator campus",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://drone-school-tokyo-akihabara.mobility-techno.jp/"
+      ],
+      "reason": "Operator explicitly places practical flight instruction at Urawa or Tsukuba; this simulator and theory venue is not another flight site."
+    },
+    {
+      "task": 42,
+      "candidate": "DMS Utsunomiya flight-training facility",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-dms-utsunomiya-practice",
+      "sourceUrls": [
+        "https://drone-school-tochigi.mobility-techno.jp/"
+      ],
+      "reason": "One physical training venue at Shimoguri 1-23-1; course variants are grouped and no off-site area is added."
+    },
+    {
+      "task": 43,
+      "candidate": "DMS Adachi flight-training facility",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-dms-adachi-practice",
+      "sourceUrls": [
+        "https://drone-school-tokyo-adachi.mobility-techno.jp/"
+      ],
+      "reason": "One physical training venue at Minamihanahata 4-3-22; course variants are grouped and no off-site area is added."
+    },
+    {
+      "task": 44,
+      "candidate": "DMS Kasama flight-training facility",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-dms-kasama-practice",
+      "sourceUrls": [
+        "https://drone-school-ibaraki-kasama.mobility-techno.jp/"
+      ],
+      "reason": "One physical training venue at Nagatoro 725; course variants are grouped and no off-site area is added."
+    },
+    {
+      "task": 45,
+      "candidate": "DMS Minamisuna flight-training facility",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-dms-minamisuna-practice",
+      "sourceUrls": [
+        "https://drone-school-tokyo-minamisuna.mobility-techno.jp/"
+      ],
+      "reason": "One physical training venue at Topilec Plaza, Minamisuna 6-7-15; course variants are grouped and no off-site area is added."
+    },
+    {
+      "task": 46,
+      "candidate": "DMS Agras Noda drone training venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-dms-agras-noda-field",
+      "sourceUrls": [
+        "https://drone-school.mobility-techno.jp/",
+        "https://drone-school-chiba.mobility-techno.jp/"
+      ],
+      "reason": "One school venue at Namiki 3-31-21. Customer fields used for visiting instruction are excluded."
+    },
+    {
+      "task": 47,
+      "candidate": "SUTD Aerial Arena",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "singapore-sutd-aerial-arena",
+      "sourceUrls": [
+        "https://www.sutd.edu.sg/media-releases-listing/sutd-extends-collaboration-with-caas-to-include-cybersecurity-and-unmanned-aircraft-systems"
+      ],
+      "reason": "One campus arena. The enclosure does not imply permission to fly in surrounding airspace."
+    },
+    {
+      "task": 48,
+      "candidate": "ITE College Central drone arena",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "singapore-ite-central-arena",
+      "sourceUrls": [
+        "https://www.ite.edu.sg/about-ite/colleges/college-central/student-development-and-cca/"
+      ],
+      "reason": "One College Central campus facility. Separate clubs and courses do not create additional locations."
+    },
+    {
+      "task": 49,
+      "candidate": "Rumpin UAV research airfield",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "indonesia-rumpin-research-airfield",
+      "sourceUrls": [
+        "https://brin.go.id/orpa/pusat-riset-teknologi-penerbangan/page/airfield",
+        "https://www.kemhan.go.id/itjen/2017/07/27/menhan-tinjau-uji-coba-pesawat-tanpa-awak-di-bogor.html"
+      ],
+      "reason": "One shared research airfield. BRIN reports Air Force ownership and permission requirements; this is not a public-access flying site."
+    },
+    {
+      "task": 50,
+      "candidate": "Pameungpeuk research airfield",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://brin.go.id/orpa/pusat-riset-teknologi-penerbangan/page/airfield"
+      ],
+      "reason": "Research airfield is identified, but specific UAV provision and its relationship to the former LAPAN rocket campus need primary confirmation."
+    }
+  ]
+}
