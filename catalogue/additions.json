@@ -29266,9 +29266,944 @@
           "url": "https://sfadmin.safra.sg/whats-on/unmanned-aircraft-flying-area-at-safra"
         }
       ]
+    },
+    {
+      "id": "japan-hummingbird-odaiba-courts",
+      "entityKey": "japan-hummingbird-odaiba-courts",
+      "name": "Hummingbird Odaiba flight courts",
+      "where": "Minato, Tokyo, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Hummingbird",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Minato, Tokyo locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.66,
+        "longitude": 139.75
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator identifies drone practice courts at Aqua City Odaiba.",
+      "source": {
+        "name": "Hummingbird — facility description",
+        "url": "https://www.hb-j.jp/school/about/odaiba/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "One campus. Odaiba rooftop practice is grouped with its indoor courts; shared off-site examinations are not extra records.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Minato, Tokyo; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-hummingbird-shinjuku-court",
+      "entityKey": "japan-hummingbird-shinjuku-court",
+      "name": "Hummingbird Shinjuku indoor flight court",
+      "where": "Shinjuku, Tokyo, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Hummingbird",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Shinjuku, Tokyo locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.69,
+        "longitude": 139.7
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator identifies drone practice courts at Shinjuku Marui Men.",
+      "source": {
+        "name": "Hummingbird — facility description",
+        "url": "https://www.hb-j.jp/school/about/shinjuku/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "One campus. Odaiba rooftop practice is grouped with its indoor courts; shared off-site examinations are not extra records.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Shinjuku, Tokyo; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-hummingbird-yokohama-court",
+      "entityKey": "japan-hummingbird-yokohama-court",
+      "name": "Hummingbird Yokohama indoor flight court",
+      "where": "Yokohama, Kanagawa, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Hummingbird",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Yokohama, Kanagawa locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.44,
+        "longitude": 139.64
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator identifies drone practice courts at Yokohama World Porters.",
+      "source": {
+        "name": "Hummingbird — facility description",
+        "url": "https://www.hb-j.jp/school/about/yokohama/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "One campus. Odaiba rooftop practice is grouped with its indoor courts; shared off-site examinations are not extra records.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Yokohama, Kanagawa; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-shimonoseki-school-courts",
+      "entityKey": "japan-shimonoseki-school-courts",
+      "name": "Drone School Shimonoseki flight courts",
+      "where": "Shimonoseki, Yamaguchi, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Drone School Shimonoseki",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Shimonoseki, Yamaguchi locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 33.96,
+        "longitude": 130.94
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The school describes dedicated indoor practice courts and associated outdoor flight practice.",
+      "source": {
+        "name": "Drone School Shimonoseki — facility description",
+        "url": "https://drone-shimonoseki.jp/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "One school campus at Yoshimifurujuku 1-21; associated instruction areas are grouped.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Shimonoseki, Yamaguchi; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-kisarazu-aeon-courts",
+      "entityKey": "japan-kisarazu-aeon-courts",
+      "name": "Drone School Kisarazu indoor courts",
+      "where": "Kisarazu, Chiba, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Drone School Chiba",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Kisarazu, Chiba locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.38,
+        "longitude": 139.92
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator identifies two indoor drone courts at AEON Mall Kisarazu.",
+      "source": {
+        "name": "Drone School Chiba — facility description",
+        "url": "https://ds-chiba.jp/kisarazu/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "Distinct from the existing Makuhari campus; one mall facility, not one record per court.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Kisarazu, Chiba; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-suzuka-yokkaichi-school-court",
+      "entityKey": "japan-suzuka-yokkaichi-school-court",
+      "name": "Drone School Yokkaichi Suzuka indoor venue",
+      "where": "Suzuka, Mie, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Drone School Yokkaichi Suzuka",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Suzuka, Mie locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.88,
+        "longitude": 136.58
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The group identifies indoor flight training at Misato Tennis Club Suzuka.",
+      "source": {
+        "name": "Drone School Yokkaichi Suzuka — facility description",
+        "url": "https://hb-j.jp/school/about/yokkaichi/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "The school reports relocation on 5 June 2026 to Nomuracho 77-3, Suzuka. The older Yokkaichi mall listing is not mapped as current. Matsusaka off-site examinations are not included.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Suzuka, Mie; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-osaka-namba-parks-courts",
+      "entityKey": "japan-osaka-namba-parks-courts",
+      "name": "Drone School Osaka Namba Parks courts",
+      "where": "Osaka, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Forum8",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Osaka locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.69,
+        "longitude": 135.5
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator identifies permanent drone practice courts within Namba Parks.",
+      "source": {
+        "name": "Forum8 — facility description",
+        "url": "https://droneschool-osaka.forum8.co.jp/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "One mall training facility; course levels and individual courts are grouped.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Osaka; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-hummingbird-laketown-courts",
+      "entityKey": "japan-hummingbird-laketown-courts",
+      "name": "Hummingbird Laketown indoor courts",
+      "where": "Koshigaya, Saitama, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Hummingbird",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Koshigaya, Saitama locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.89,
+        "longitude": 139.79
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "DPA identifies two indoor drone courts at Laketown Outlet.",
+      "source": {
+        "name": "DPA — member school facilities",
+        "url": "https://d-pa.or.jp/school/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "One campus at Laketown 4-1-1. Unspecified off-site instruction is not added.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Koshigaya, Saitama; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-ebina-marui-training",
+      "entityKey": "japan-ebina-marui-training",
+      "name": "Drone School Ebina indoor training venue",
+      "where": "Ebina, Kanagawa, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "KANTO Motor School",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Ebina, Kanagawa locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.45,
+        "longitude": 139.39
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The group describes indoor drone instruction at Marui Family Ebina.",
+      "source": {
+        "name": "Hummingbird — Ebina school description",
+        "url": "https://www.hb-j.jp/school/about/ebina/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "One fifth-floor mall venue; opening date is not treated as source publication date.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Ebina, Kanagawa; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-dms-tsukuba-practice",
+      "entityKey": "japan-dms-tsukuba-practice",
+      "name": "DMS Tsukuba flight-training facility",
+      "where": "Tsukuba, Ibaraki, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Mobility Techno",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Tsukuba, Ibaraki locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.08,
+        "longitude": 140.11
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator describes a dedicated drone flight-training environment.",
+      "source": {
+        "name": "Mobility Techno — facility description",
+        "url": "https://drone-school-ibaraki-tsukuba.mobility-techno.jp/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "One physical campus at Shimana 2900-22; classroom and practical courses are grouped.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Tsukuba, Ibaraki; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-dms-urawa-practice",
+      "entityKey": "japan-dms-urawa-practice",
+      "name": "DMS Urawa flight-training facility",
+      "where": "Saitama, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Mobility Techno",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Saitama locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.86,
+        "longitude": 139.65
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator describes a dedicated drone flight-training environment.",
+      "source": {
+        "name": "Mobility Techno — facility description",
+        "url": "https://drone-school-saitama.mobility-techno.jp/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "One physical campus at Nishibori 3-22-16; classroom and practical courses are grouped.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Saitama; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-misato-kddi-indoor-courts",
+      "entityKey": "japan-misato-kddi-indoor-courts",
+      "name": "KDDI Smart Drone Academy Misato courts",
+      "where": "Misato, Saitama, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "evolia / KDDI Smart Drone Academy",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Misato, Saitama locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.83,
+        "longitude": 139.87
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The school identifies three permanent indoor flight courts.",
+      "source": {
+        "name": "evolia / KDDI Smart Drone Academy — facility description",
+        "url": "https://drone-misato.jp/school.html"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "One campus at Misato 1-24-7. The former DSJ school name is an alias, not another location.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Misato, Saitama; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-dws-iwaki-training",
+      "entityKey": "japan-dws-iwaki-training",
+      "name": "DWS Iwaki drone training centre",
+      "where": "Iwaki, Fukushima, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Drone Work System",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Iwaki, Fukushima locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 37.05,
+        "longitude": 140.89
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The school identifies indoor and outdoor drone instruction areas.",
+      "source": {
+        "name": "Drone Work System — facility description",
+        "url": "https://www.dwstc.jp/index.php/courselist/curriculum-deo/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "The training centre at Uchigo Takano Kawahira 50-1 is distinct from the Sekifunemachi headquarters.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Iwaki, Fukushima; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "DWS — centre and headquarters addresses",
+          "url": "https://www.dwstc.jp/index.php/companyprofile-2/"
+        }
+      ]
+    },
+    {
+      "id": "japan-dws-murakami-school-field",
+      "entityKey": "japan-dws-murakami-school-field",
+      "name": "DWS Murakami former-school flight campus",
+      "where": "Murakami, Niigata, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Fuji Denshi",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Murakami, Niigata locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 38.22,
+        "longitude": 139.48
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator describes flight training in a former school gym and outdoor ground.",
+      "source": {
+        "name": "Fuji Denshi — facility description",
+        "url": "https://dwstcnm.fujidenshi.biz/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "One campus at Hirabayashi 122; gym and ground are grouped. Underwater-drone pool training does not create another aerial facility.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Murakami, Niigata; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "Fuji Denshi — school contact",
+          "url": "https://dwstcnm.fujidenshi.biz/?page_id=561"
+        }
+      ]
+    },
+    {
+      "id": "japan-dsa-nagono-indoor",
+      "entityKey": "japan-dsa-nagono-indoor",
+      "name": "DSA Nagono indoor flight venue",
+      "where": "Nagoya, Aichi, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "DSA",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Nagoya, Aichi locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.18,
+        "longitude": 136.91
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The school describes an indoor drone practice hall at its Nagono campus.",
+      "source": {
+        "name": "DSA — facility description",
+        "url": "https://www.drone.aichi.jp/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "One Nagono campus venue, distinct from the existing Ematsu, NTP and Japan Drone College records.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Nagoya, Aichi; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "DSA Nagono — campus location",
+          "url": "https://dsa-nagono.jp/"
+        }
+      ]
+    },
+    {
+      "id": "japan-dsa-gifu-indoor",
+      "entityKey": "japan-dsa-gifu-indoor",
+      "name": "DSA Gifu BirdEye indoor court",
+      "where": "Gifu, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "BirdEye",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Gifu locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.42,
+        "longitude": 136.76
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The school identifies an indoor drone practice court at its Imojima campus.",
+      "source": {
+        "name": "BirdEye — facility description",
+        "url": "https://www.birdeye-drone.com/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "One indoor venue at Imojima 2-9-5. The separately mentioned outdoor field five minutes away needs its own location review and is excluded here.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Gifu; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-skytech-nishinosato-campus",
+      "entityKey": "japan-skytech-nishinosato-campus",
+      "name": "Skytech Technology Farm Nishinosato flight campus",
+      "where": "Kitahiroshima, Hokkaido, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Kitanihon Skytech",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Kitahiroshima, Hokkaido locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 42.99,
+        "longitude": 141.56
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator identifies indoor flight courts and an outdoor drone training field at Technology Farm Nishinosato.",
+      "source": {
+        "name": "Kitanihon Skytech — facility description",
+        "url": "https://skytech-drone-sch.jp/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "One campus at Nishinosato 308-1; indoor and outdoor areas are grouped.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Kitahiroshima, Hokkaido; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-cson-toyota-indoor",
+      "entityKey": "japan-cson-toyota-indoor",
+      "name": "CSON Toyota indoor drone centre",
+      "where": "Toyota, Aichi, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "CSON",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Toyota, Aichi locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.08,
+        "longitude": 137.16
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "CSON describes indoor drone training courts and a practice space at its Toyota school.",
+      "source": {
+        "name": "CSON — facility description",
+        "url": "https://cson.co.jp/schoolguide.php"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "One indoor facility at Hanagaokacho 3-8-5. The separately mentioned Nagara River outdoor field is not mapped from the headquarters address.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Toyota, Aichi; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-sogakkan-itami-indoor",
+      "entityKey": "japan-sogakkan-itami-indoor",
+      "name": "Sogakkan Itami indoor drone flight hall",
+      "where": "Itami, Hyogo, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Sogakkan",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Itami, Hyogo locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.78,
+        "longitude": 135.4
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Sogakkan describes a purpose-designed indoor drone flight hall at its Itami school.",
+      "source": {
+        "name": "Sogakkan — facility description",
+        "url": "https://sogakkan.jp/ds/about/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "Only the Itami hall at Shimogawara 2-12-22 is included. The separate former Fushiodai school gym and Nishinomiya venues require individual review.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Itami, Hyogo; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-meikosha-miyazaki-court",
+      "entityKey": "japan-meikosha-miyazaki-court",
+      "name": "Meikosha Miyazaki drone practice court",
+      "where": "Miyazaki, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Meikosha",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Miyazaki locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 31.91,
+        "longitude": 131.42
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator describes drone instruction inside its practice court.",
+      "source": {
+        "name": "Meikosha — facility description",
+        "url": "https://www.meikousha.co.jp/drone/faq/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "One training venue at Uryuno 2187; corporate offices and individual courses are excluded.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Miyazaki; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "Meikosha — training venue address",
+          "url": "https://www.meikousha.co.jp/drone/"
+        }
+      ]
+    },
+    {
+      "id": "japan-dacademy-gojome-campus",
+      "entityKey": "japan-dacademy-gojome-campus",
+      "name": "D-Academy Tohoku Gojome flight campus",
+      "where": "Gojome, Akita, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "D-Academy Tohoku",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Gojome, Akita locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 39.94,
+        "longitude": 140.11
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator describes drone practice on a former school ground, with gym training in poor weather.",
+      "source": {
+        "name": "D-Academy Tohoku — facility description",
+        "url": "https://www.3eye-bird.jp/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "One former Babame school campus at Babame Yomogiuchidai 117-1; gym and ground are grouped.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Gojome, Akita; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-dms-utsunomiya-practice",
+      "entityKey": "japan-dms-utsunomiya-practice",
+      "name": "DMS Utsunomiya flight-training facility",
+      "where": "Utsunomiya, Tochigi, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Mobility Techno",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Utsunomiya, Tochigi locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.56,
+        "longitude": 139.88
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator describes a practical drone training environment serving this campus.",
+      "source": {
+        "name": "Mobility Techno — facility description",
+        "url": "https://drone-school-tochigi.mobility-techno.jp/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "One physical training venue at Shimoguri 1-23-1; course variants are grouped and no off-site area is added.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Utsunomiya, Tochigi; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-dms-adachi-practice",
+      "entityKey": "japan-dms-adachi-practice",
+      "name": "DMS Adachi flight-training facility",
+      "where": "Adachi, Tokyo, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Mobility Techno",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Adachi, Tokyo locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.78,
+        "longitude": 139.81
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator describes a practical drone training environment serving this campus.",
+      "source": {
+        "name": "Mobility Techno — facility description",
+        "url": "https://drone-school-tokyo-adachi.mobility-techno.jp/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "One physical training venue at Minamihanahata 4-3-22; course variants are grouped and no off-site area is added.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Adachi, Tokyo; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-dms-kasama-practice",
+      "entityKey": "japan-dms-kasama-practice",
+      "name": "DMS Kasama flight-training facility",
+      "where": "Kasama, Ibaraki, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Mobility Techno",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Kasama, Ibaraki locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.35,
+        "longitude": 140.3
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator describes a practical drone training environment serving this campus.",
+      "source": {
+        "name": "Mobility Techno — facility description",
+        "url": "https://drone-school-ibaraki-kasama.mobility-techno.jp/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "One physical training venue at Nagatoro 725; course variants are grouped and no off-site area is added.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Kasama, Ibaraki; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-dms-minamisuna-practice",
+      "entityKey": "japan-dms-minamisuna-practice",
+      "name": "DMS Minamisuna flight-training facility",
+      "where": "Koto, Tokyo, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Mobility Techno",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Koto, Tokyo locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.67,
+        "longitude": 139.82
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator describes a practical drone training environment serving this campus.",
+      "source": {
+        "name": "Mobility Techno — facility description",
+        "url": "https://drone-school-tokyo-minamisuna.mobility-techno.jp/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "One physical training venue at Topilec Plaza, Minamisuna 6-7-15; course variants are grouped and no off-site area is added.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Koto, Tokyo; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-dms-agras-noda-field",
+      "entityKey": "japan-dms-agras-noda-field",
+      "name": "DMS Agras Noda drone training venue",
+      "where": "Noda, Chiba, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Mobility Techno",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Noda, Chiba locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.96,
+        "longitude": 139.87
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator lists outdoor training provision at its Agras Noda campus.",
+      "source": {
+        "name": "Mobility Techno — facility description",
+        "url": "https://drone-school.mobility-techno.jp/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "One school venue at Namiki 3-31-21. Customer fields used for visiting instruction are excluded.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Noda, Chiba; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "DMS Noda — course and campus information",
+          "url": "https://drone-school-chiba.mobility-techno.jp/"
+        }
+      ]
+    },
+    {
+      "id": "singapore-sutd-aerial-arena",
+      "entityKey": "singapore-sutd-aerial-arena",
+      "name": "SUTD Aerial Arena",
+      "where": "Upper Changi, Singapore",
+      "country": "Singapore",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Singapore University of Technology and Design",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Upper Changi locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 1.34,
+        "longitude": 103.96
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "SUTD identifies a netted outdoor drone facility for testing and educational outreach.",
+      "source": {
+        "name": "Singapore University of Technology and Design — facility description",
+        "url": "https://www.sutd.edu.sg/media-releases-listing/sutd-extends-collaboration-with-caas-to-include-cybersecurity-and-unmanned-aircraft-systems"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "One campus arena. The enclosure does not imply permission to fly in surrounding airspace.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Upper Changi; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "singapore-ite-central-arena",
+      "entityKey": "singapore-ite-central-arena",
+      "name": "ITE College Central drone arena",
+      "where": "Ang Mo Kio, Singapore",
+      "country": "Singapore",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Institute of Technical Education",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Ang Mo Kio locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 1.37,
+        "longitude": 103.85
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The college describes drone soccer training in an enclosed arena.",
+      "source": {
+        "name": "Institute of Technical Education — facility description",
+        "url": "https://www.ite.edu.sg/about-ite/colleges/college-central/student-development-and-cca/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "research",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "One College Central campus facility. Separate clubs and courses do not create additional locations.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Ang Mo Kio; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "indonesia-rumpin-research-airfield",
+      "entityKey": "indonesia-rumpin-research-airfield",
+      "name": "Rumpin UAV research airfield",
+      "where": "Rumpin, Bogor, Indonesia",
+      "country": "Indonesia",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Indonesian Air Force / BRIN",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Rumpin, Bogor locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": -6.44,
+        "longitude": 106.65
+      },
+      "reportDateLabel": "Published 2023-09-26",
+      "description": "BRIN identifies Rumpin as an airfield available for authorized research flight tests; the defence ministry documents UAV testing there.",
+      "source": {
+        "name": "BRIN — research airfields",
+        "url": "https://brin.go.id/orpa/pusat-riset-teknologi-penerbangan/page/airfield"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": "2023-09-26",
+      "sourceType": "government",
+      "researchBatch": "2026-11-10-japan-and-campus-flight-facilities",
+      "reviewNotes": "One shared research airfield. BRIN reports Air Force ownership and permission requirements; this is not a public-access flying site.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Rumpin, Bogor; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "Indonesian Ministry of Defence — Rumpin UAV flight test",
+          "url": "https://www.kemhan.go.id/itjen/2017/07/27/menhan-tinjau-uji-coba-pesawat-tanpa-awak-di-bogor.html"
+        }
+      ]
     }
   ],
-  "expectedTotal": 925,
+  "expectedTotal": 954,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -30738,6 +31673,40 @@
         "singapore-safra-mount-faber-uafa",
         "singapore-safra-tampines-uafa",
         "singapore-safra-toa-payoh-uafa"
+      ]
+    },
+    {
+      "id": "2026-11-10-japan-and-campus-flight-facilities",
+      "recordIds": [
+        "japan-hummingbird-odaiba-courts",
+        "japan-hummingbird-shinjuku-court",
+        "japan-hummingbird-yokohama-court",
+        "japan-shimonoseki-school-courts",
+        "japan-kisarazu-aeon-courts",
+        "japan-suzuka-yokkaichi-school-court",
+        "japan-osaka-namba-parks-courts",
+        "japan-hummingbird-laketown-courts",
+        "japan-ebina-marui-training",
+        "japan-dms-tsukuba-practice",
+        "japan-dms-urawa-practice",
+        "japan-misato-kddi-indoor-courts",
+        "japan-dws-iwaki-training",
+        "japan-dws-murakami-school-field",
+        "japan-dsa-nagono-indoor",
+        "japan-dsa-gifu-indoor",
+        "japan-skytech-nishinosato-campus",
+        "japan-cson-toyota-indoor",
+        "japan-sogakkan-itami-indoor",
+        "japan-meikosha-miyazaki-court",
+        "japan-dacademy-gojome-campus",
+        "japan-dms-utsunomiya-practice",
+        "japan-dms-adachi-practice",
+        "japan-dms-kasama-practice",
+        "japan-dms-minamisuna-practice",
+        "japan-dms-agras-noda-field",
+        "singapore-sutd-aerial-arena",
+        "singapore-ite-central-arena",
+        "indonesia-rumpin-research-airfield"
       ]
     }
   ]
