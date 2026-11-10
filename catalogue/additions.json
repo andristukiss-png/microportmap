@@ -31341,9 +31341,445 @@
       "researchBatch": "2026-11-10-japan-training-networks",
       "reviewNotes": "One named technical-centre venue. The source identifies the locality; no unconfirmed street address is inferred from similarly named facilities.",
       "coordinateBasis": "Editorial locality reference. Rounded marker for Ichikawa, Chiba; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-hirosaki-sappado-court",
+      "entityKey": "japan-hirosaki-sappado-court",
+      "name": "Sappa-do Hirosaki drone training court",
+      "where": "Hirosaki, Aomori, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JUAVAC Aomori",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Hirosaki, Aomori locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 40.6,
+        "longitude": 140.46
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JUAVAC describes indoor drone instruction at the Sappa-do futsal facility in Hirosaki.",
+      "source": {
+        "name": "JUAVAC Aomori — facility description",
+        "url": "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E9%9D%92%E6%A3%AE%E6%A0%A1/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-juavac-and-atcl-venues",
+      "reviewNotes": "One shared sports venue. The association describes the school opening here in 2018; Sappa-do gives Takada 4-3-4. The school mailing address in Shigemori Shinmachi is not used as the field location.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Hirosaki, Aomori; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "Sappa-do — physical venue address",
+          "url": "https://www.sappa-do.com/"
+        }
+      ]
+    },
+    {
+      "id": "japan-ageo-sports-centre-training",
+      "entityKey": "japan-ageo-sports-centre-training",
+      "name": "Ageo Sports General Centre drone venue",
+      "where": "Ageo, Saitama, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Sainichi Drone School",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Ageo, Saitama locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.98,
+        "longitude": 139.59
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Sainichi identifies the Sports General Centre in Ageo as an indoor drone practice venue.",
+      "source": {
+        "name": "Sainichi Drone School — facility description",
+        "url": "https://sainichi-drone.com/access/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-juavac-and-atcl-venues",
+      "reviewNotes": "One shared sports venue at Higashicho 3-1679. The separately listed Omiya Kenpo outdoor field is already recorded; unnamed additional venues are excluded.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Ageo, Saitama; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "JUAVAC — Omiya school listing",
+          "url": "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E5%A4%A7%E5%AE%AE%E6%A0%A1/"
+        }
+      ]
+    },
+    {
+      "id": "japan-juavac-niigata-kizaki",
+      "entityKey": "japan-juavac-niigata-kizaki",
+      "name": "JUAVAC Niigata Kizaki indoor flight hall",
+      "where": "Niigata, Niigata, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JUAVAC Niigata",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Niigata, Niigata locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 37.92,
+        "longitude": 139.04
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator identifies an indoor flight facility at Niigata Toko Unyu headquarters.",
+      "source": {
+        "name": "JUAVAC Niigata — facility description",
+        "url": "https://juavac-niigata.jp/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-juavac-and-atcl-venues",
+      "reviewNotes": "One indoor venue at Kizaki 3425-3, Kita. The school office at Hokuyo 2-802-1 is not the flight hall. The separately described Shibata venue is retained for a separate review.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Niigata, Niigata; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "JUAVAC — Niigata school listing",
+          "url": "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E6%96%B0%E6%BD%9F%E6%A0%A1/"
+        }
+      ]
+    },
+    {
+      "id": "japan-kanazawa-kigoyama-training",
+      "entityKey": "japan-kanazawa-kigoyama-training",
+      "name": "Kigoyama training-centre drone venue",
+      "where": "Kanazawa, Ishikawa, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JUAVAC Ishikawa",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Kanazawa, Ishikawa locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.56,
+        "longitude": 136.66
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JUAVAC identifies the Kigoyama Fureai Training Centre youth exchange building as its theory and practical training venue.",
+      "source": {
+        "name": "JUAVAC Ishikawa — facility description",
+        "url": "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E7%9F%B3%E5%B7%9D%E6%A0%A1/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-juavac-and-atcl-venues",
+      "reviewNotes": "One shared training-centre campus at Azukisawamachi Wo 4. The Yanagibashimachi office is excluded; use requires facility permission.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Kanazawa, Ishikawa; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "Kanazawa City — facility use requires permission",
+          "url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/kigoyamafureaikenshucenter/gyomuannai/1/1/1/3/2152.html"
+        }
+      ]
+    },
+    {
+      "id": "japan-juavac-komoro-indoor",
+      "entityKey": "japan-juavac-komoro-indoor",
+      "name": "JUAVAC Komoro indoor training campus",
+      "where": "Komoro, Nagano, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JUAVAC Nagano",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Komoro, Nagano locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.33,
+        "longitude": 138.43
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator identifies a dedicated indoor flight-training facility at its Komoro campus.",
+      "source": {
+        "name": "JUAVAC Nagano — facility description",
+        "url": "https://juavac-nagano.jp/faq/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-juavac-and-atcl-venues",
+      "reviewNotes": "One campus at 己65-2. The older national-directory address at Kamasu 578 is not added as another flight venue.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Komoro, Nagano; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "JUAVAC — Nagano school listing",
+          "url": "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E9%95%B7%E9%87%8E%E6%A0%A1/"
+        }
+      ]
+    },
+    {
+      "id": "japan-fuji-lopta-training",
+      "entityKey": "japan-fuji-lopta-training",
+      "name": "Lopta Futsal Dome drone training venue",
+      "where": "Fuji, Shizuoka, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Muramatsu Corporation / JUAVAC Shizuoka",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Fuji, Shizuoka locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.16,
+        "longitude": 138.68
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The school describes indoor drone practice at Lopta Futsal Dome in Fuji.",
+      "source": {
+        "name": "Muramatsu Corporation / JUAVAC Shizuoka — facility description",
+        "url": "https://juavac-shizuoka.com/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-juavac-and-atcl-venues",
+      "reviewNotes": "One shared indoor sports venue at Matsumoto 299-10. The operator headquarters in Shizuoka city is excluded; the dated event notice is not treated as evidence of present availability.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Fuji, Shizuoka; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "JUAVAC — Shizuoka school listing",
+          "url": "https://juavac-droneschool.jp/school/43/"
+        }
+      ]
+    },
+    {
+      "id": "japan-moriyama-sky-d-lake",
+      "entityKey": "japan-moriyama-sky-d-lake",
+      "name": "Sky D Lake Moriyama indoor drone venue",
+      "where": "Moriyama, Shiga, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Toyo Engineer / JUAVAC Shiga",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Moriyama, Shiga locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.06,
+        "longitude": 135.99
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The mall identifies a drone practice and demonstration space beside the Sky D Lake store and school.",
+      "source": {
+        "name": "Pieri Moriyama — Sky D Lake venue",
+        "url": "https://www.pieri.sc/shop/detail/174/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-juavac-and-atcl-venues",
+      "reviewNotes": "One first-floor venue at Pieri Moriyama, Imahamacho 2620-5. Store, instruction and experience areas are grouped.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Moriyama, Shiga; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "JUAVAC — Shiga school listing",
+          "url": "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E6%BB%8B%E8%B3%80%E6%A0%A1/"
+        },
+        {
+          "name": "Toyo Engineer — school and store",
+          "url": "https://toyo-drone.jp/"
+        }
+      ]
+    },
+    {
+      "id": "japan-nantan-kawabe-school-campus",
+      "entityKey": "japan-nantan-kawabe-school-campus",
+      "name": "Fujitaka former Kawabe School flight campus",
+      "where": "Nantan, Kyoto, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Fujitaka Drone Pilot School",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Nantan, Kyoto locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.11,
+        "longitude": 135.47
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator describes drone instruction using the former Kawabe Elementary School gym.",
+      "source": {
+        "name": "Fujitaka Drone Pilot School — facility description",
+        "url": "https://www.fujitaka.com/fdps/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-juavac-and-atcl-venues",
+      "reviewNotes": "One former school campus at Sonobecho Funaoka Nagahata 52-3. JUAVAC Kyoto and Fujitaka describe the same venue; gym and associated grounds are grouped.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Nantan, Kyoto; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "JUAVAC — Kyoto school listing",
+          "url": "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E4%BA%AC%E9%83%BD%E6%A0%A1/"
+        }
+      ]
+    },
+    {
+      "id": "japan-osaka-mag-futsal-training",
+      "entityKey": "japan-osaka-mag-futsal-training",
+      "name": "MAG Futsal Stadium drone training court",
+      "where": "Osaka, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JUAVAC Osaka",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Osaka locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.69,
+        "longitude": 135.5
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JUAVAC identifies indoor practical drone instruction at MAG Futsal Stadium.",
+      "source": {
+        "name": "JUAVAC Osaka — facility description",
+        "url": "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E5%A4%A7%E9%98%AA%E6%A0%A1/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-juavac-and-atcl-venues",
+      "reviewNotes": "One shared indoor sports venue at Izumi 1-1-82, Suminoe. The Edobori office is excluded. This venue is distinct from Flight Salon Osaka at Shinkitajima 5-1-50.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Osaka; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-yame-juavac-former-school",
+      "entityKey": "japan-yame-juavac-former-school",
+      "name": "JUAVAC Fukuoka South former-school campus",
+      "where": "Yame, Fukuoka, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "MTM Kikaku",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Yame, Fukuoka locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 33.21,
+        "longitude": 130.56
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator describes flight practice on a former school ground and in its gym.",
+      "source": {
+        "name": "MTM Kikaku — facility description",
+        "url": "https://mtm-kikaku.co.jp/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-juavac-and-atcl-venues",
+      "reviewNotes": "One campus at 立花町上辺春1080; indoor and outdoor training areas are grouped.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Yame, Fukuoka; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "JUAVAC — Fukuoka South school listing",
+          "url": "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E7%A6%8F%E5%B2%A1%E5%8D%97%E6%A0%A1/"
+        }
+      ]
+    },
+    {
+      "id": "japan-nagomi-juavac-factory-hall",
+      "entityKey": "japan-nagomi-juavac-factory-hall",
+      "name": "JUAVAC Nagomi former-factory flight hall",
+      "where": "Nagomi, Kumamoto, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JUAVAC Kumamoto",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Nagomi, Kumamoto locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 32.98,
+        "longitude": 130.6
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JUAVAC describes indoor drone flight practice in a converted factory.",
+      "source": {
+        "name": "JUAVAC Kumamoto — facility description",
+        "url": "https://juavac-droneschool.jp/school/juavac%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E7%86%8A%E6%9C%AC%E6%A0%A1/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-juavac-and-atcl-venues",
+      "reviewNotes": "One venue at 久井原899, Nagomi. Outdoor experiences arranged on request do not establish another maintained field.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Nagomi, Kumamoto; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-dms-osaka-juso-court",
+      "entityKey": "japan-dms-osaka-juso-court",
+      "name": "DMS Osaka Juso indoor flight court",
+      "where": "Osaka, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Asahi Technology / DMS",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Osaka locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.69,
+        "longitude": 135.5
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The DMS campus page identifies an indoor practical flight court at its Osaka school.",
+      "source": {
+        "name": "Asahi Technology / DMS — facility description",
+        "url": "https://drone-school.mobility-techno.jp/dms-osaka"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-10",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-10-juavac-and-atcl-venues",
+      "reviewNotes": "One campus at Tagawakita 2-4-13, Yodogawa, confirmed by the local operator access page. The conflicting Tatsuminishi group-index address is not used or counted separately.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Osaka; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "Asahi Technology — Osaka campus address",
+          "url": "https://atcl-dsj.com/dsj/access/"
+        }
+      ]
     }
   ],
-  "expectedTotal": 990,
+  "expectedTotal": 1002,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -32888,6 +33324,23 @@
         "japan-sogakkan-fushiodai-gym",
         "japan-sogakkan-nishinomiya-north",
         "japan-hummingbird-ichikawa-technical"
+      ]
+    },
+    {
+      "id": "2026-11-10-juavac-and-atcl-venues",
+      "recordIds": [
+        "japan-hirosaki-sappado-court",
+        "japan-ageo-sports-centre-training",
+        "japan-juavac-niigata-kizaki",
+        "japan-kanazawa-kigoyama-training",
+        "japan-juavac-komoro-indoor",
+        "japan-fuji-lopta-training",
+        "japan-moriyama-sky-d-lake",
+        "japan-nantan-kawabe-school-campus",
+        "japan-osaka-mag-futsal-training",
+        "japan-yame-juavac-former-school",
+        "japan-nagomi-juavac-factory-hall",
+        "japan-dms-osaka-juso-court"
       ]
     }
   ]
