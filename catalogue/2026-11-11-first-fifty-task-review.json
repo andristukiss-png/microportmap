@@ -1,0 +1,570 @@
+{
+  "reviewedAt": "2026-11-11",
+  "batch": "2026-11-11-drone-juku-julc-venues",
+  "completedTasks": 50,
+  "acceptedRecords": 26,
+  "deferredCandidates": 19,
+  "excludedOverlaps": 5,
+  "tasks": [
+    {
+      "task": 1,
+      "candidate": "Drone Juku sendai venue",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://drone-juku.jp/sendai"
+      ],
+      "reason": "Already represented by japan-fut-messe-sendai-nagamachi; no additional physical site established."
+    },
+    {
+      "task": 2,
+      "candidate": "Takada Gym drone training venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-aizumisato-takada-gym",
+      "sourceUrls": [
+        "https://drone-juku.jp/fukushima"
+      ],
+      "reason": "One shared gym at 東川原3244-1. The separately listed Koriyama venue remains a follow-up lead."
+    },
+    {
+      "task": 3,
+      "candidate": "Drone Juku Moka training campus",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-moka-juku-training-campus",
+      "sourceUrls": [
+        "https://drone-juku.jp/tochigi-moka"
+      ],
+      "reason": "One campus at 松山町26番4; individual practice areas are grouped."
+    },
+    {
+      "task": 4,
+      "candidate": "Drone Juku Yoshimi training campus",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-yoshimi-juku-training-campus",
+      "sourceUrls": [
+        "https://drone-juku.jp/saitama"
+      ],
+      "reason": "One campus at 久保田678-1-1. Toda and Omiya consultation offices are excluded."
+    },
+    {
+      "task": 5,
+      "candidate": "Arena Tachikawa Tachihi drone venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-tachikawa-tachihi-arena-training",
+      "sourceUrls": [
+        "https://drone-juku.jp/tokyo-tachikawa"
+      ],
+      "reason": "One shared arena at 泉町500-4. The Akebonocho classroom and unnamed additional venues are excluded."
+    },
+    {
+      "task": 6,
+      "candidate": "Rosa Kaikan rooftop drone training venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-ikebukuro-rosa-rooftop",
+      "sourceUrls": [
+        "https://drone-juku.jp/tokyo-ikebukuro"
+      ],
+      "reason": "One rooftop venue at 西池袋1-37-12. Off-site examinations and the separate LABI rooftop are not included."
+    },
+    {
+      "task": 7,
+      "candidate": "Drone Juku chiba-hamano practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://drone-juku.jp/chiba-hamano"
+      ],
+      "reason": "Two locations in Hamano and Shirako are listed with indoor and outdoor provision; the distribution and physical identity of the flight areas need confirmation."
+    },
+    {
+      "task": 8,
+      "candidate": "Drone Juku chiba-matsudo practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://drone-juku.jp/chiba-matsudo"
+      ],
+      "reason": "The Matsudo contact address and a separate Shiroi location are listed, but the practical field identity is not resolved; the office is not mapped."
+    },
+    {
+      "task": 9,
+      "candidate": "Drone Juku chiba-kujukuri practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://drone-juku.jp/chiba-kujukuri"
+      ],
+      "reason": "Two Sammu addresses are listed without sufficiently resolving which configured flight venue each represents."
+    },
+    {
+      "task": 10,
+      "candidate": "Himitsukichi Kozukue drone field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-yokohama-himitsukichi-field",
+      "sourceUrls": [
+        "https://drone-juku.jp/yokohama"
+      ],
+      "reason": "One field at 小机町2138, Kohoku. AOBA Sports Park is a separate follow-up venue."
+    },
+    {
+      "task": 11,
+      "candidate": "Former Nakafushiki School drone gym",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-imizu-nakafushiki-school-gym",
+      "sourceUrls": [
+        "https://drone-juku.jp/toyama"
+      ],
+      "reason": "One shared gym at 庄西町2丁目12番50号. The separate UPD grounds at 野手28 are not grouped with this gym."
+    },
+    {
+      "task": 12,
+      "candidate": "Former Imajo Junior High drone gym",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-minamiechizen-imajo-school-gym",
+      "sourceUrls": [
+        "https://drone-juku.jp/fukui"
+      ],
+      "reason": "One shared gym at 今庄27-20. Sakai and Kaerushika district gyms remain separate follow-up venues."
+    },
+    {
+      "task": 13,
+      "candidate": "Drone Juku Watauchi training campus",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-nagano-watauchi-juku-campus",
+      "sourceUrls": [
+        "https://drone-juku.jp/nagano"
+      ],
+      "reason": "One campus at 若穂綿内6887; five practice areas are grouped."
+    },
+    {
+      "task": 14,
+      "candidate": "Drone Juku shizuoka venue",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://drone-juku.jp/shizuoka"
+      ],
+      "reason": "Already represented by japan-feed-shizuoka-nakajima; no additional physical site established."
+    },
+    {
+      "task": 15,
+      "candidate": "Hirako no Mori drone training campus",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-owariasahi-hirako-juku-campus",
+      "sourceUrls": [
+        "https://drone-juku.jp/nagoya"
+      ],
+      "reason": "One campus at 平子町北59. Facility rental and regular training evidence support inclusion beyond a single experience event."
+    },
+    {
+      "task": 16,
+      "candidate": "Drone Juku toyohashi venue",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://drone-juku.jp/toyohashi"
+      ],
+      "reason": "Already represented by toyohashi-industrial-training-flight-field; no additional physical site established."
+    },
+    {
+      "task": 17,
+      "candidate": "Tennozan Port drone training field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-nagaokakyo-tennozan-port",
+      "sourceUrls": [
+        "https://drone-juku.jp/tennozan"
+      ],
+      "reason": "One venue at 浄土谷ヤケ山11; individual courses are not separate facilities."
+    },
+    {
+      "task": 18,
+      "candidate": "Itakano Golf Centre drone venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-osaka-itakano-golf-training",
+      "sourceUrls": [
+        "https://drone-juku.jp/osaka"
+      ],
+      "reason": "One shared venue at 井高野4-7-85, Higashiyodogawa. The separate Cerezo Futsal Park is retained for follow-up."
+    },
+    {
+      "task": 19,
+      "candidate": "Drone Juku hyogo-himezi practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://drone-juku.jp/hyogo-himezi"
+      ],
+      "reason": "The page lists Hirohata Civic Centre but describes practical venues supplied separately to learners; maintained flight provision at the civic centre is unresolved."
+    },
+    {
+      "task": 20,
+      "candidate": "Drone Juku hiroshima-fukuyama practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://drone-juku.jp/hiroshima-fukuyama"
+      ],
+      "reason": "Indoor and outdoor practice are reported, but the Momijicho building address is not established as the flight venue."
+    },
+    {
+      "task": 21,
+      "candidate": "Act Village Ono drone training venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-ube-act-village-ono-training",
+      "sourceUrls": [
+        "https://drone-juku.jp/yamaguti"
+      ],
+      "reason": "One shared campus at 小野字日原7025; individual practice areas are grouped."
+    },
+    {
+      "task": 22,
+      "candidate": "Yodo Community Centre drone gym",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-matsuyama-yodo-gym-training",
+      "sourceUrls": [
+        "https://drone-juku.jp/ehime"
+      ],
+      "reason": "One shared gym at 余戸東4-1-35. Toon and Tobe venues are not grouped into this Matsuyama record."
+    },
+    {
+      "task": 23,
+      "candidate": "Kamimura no Sato drone training campus",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-kitsuki-kamimura-no-sato",
+      "sourceUrls": [
+        "https://drone-juku.jp/oita"
+      ],
+      "reason": "One campus at 山香町大字久木野尾3792-1. Associated school grounds are grouped with the gym."
+    },
+    {
+      "task": 24,
+      "candidate": "Yasu Kogen Youth Centre drone venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-chikuzen-yasu-youth-training",
+      "sourceUrls": [
+        "https://drone-juku.jp/fukuoka-tikugo",
+        "https://prtimes.jp/main/html/rd/p/000000015.000131100.html"
+      ],
+      "reason": "One shared campus at 三箇山1103, distinct from ASKHIM in Shisojima. The generic former-school testimonial is not used to classify this facility."
+    },
+    {
+      "task": 25,
+      "candidate": "Kasukabe Midori no Park drone training campus",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-kasukabe-midori-park-training",
+      "sourceUrls": [
+        "https://julc.co.jp/course/workshop/5770",
+        "https://julc.co.jp/campus/801"
+      ],
+      "reason": "One shared campus at 神間872; the gym and associated training areas are grouped."
+    },
+    {
+      "task": 26,
+      "candidate": "JULC hokkaidohigashi venue",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://julc.co.jp/campus/hokkaidohigashi"
+      ],
+      "reason": "Already represented by japan-airstage-obihiro-indoor; no additional physical site established."
+    },
+    {
+      "task": 27,
+      "candidate": "JULC hokkaidochuo practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://julc.co.jp/campus/hokkaidochuo"
+      ],
+      "reason": "Indoor and outdoor training are reported, but the dedicated field is not resolved separately from the Sapporo contact address."
+    },
+    {
+      "task": 28,
+      "candidate": "JULC hokkaidokita practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://julc.co.jp/campus/hokkaidokita"
+      ],
+      "reason": "The Asahikawa hub and regional outreach cities are named; individual practical venues remain unidentified."
+    },
+    {
+      "task": 29,
+      "candidate": "JULC aomori practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://julc.co.jp/campus/aomori"
+      ],
+      "reason": "The Nanbu school contact address differs from the recorded Coreline base, but a separate configured flight venue is not established."
+    },
+    {
+      "task": 30,
+      "candidate": "JULC miyagi practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://julc.co.jp/campus/miyagi"
+      ],
+      "reason": "Coastal, mountain-side and Kurihara training areas are reported without resolving their physical identities against the contact address."
+    },
+    {
+      "task": 31,
+      "candidate": "JULC ibarakinishi practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://julc.co.jp/campus/ibarakinishi"
+      ],
+      "reason": "Outdoor instruction uses agricultural land, but the field is not identified separately from the Goka classroom address."
+    },
+    {
+      "task": 32,
+      "candidate": "JULC ibaraki practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://julc.co.jp/campus/ibaraki"
+      ],
+      "reason": "Courses and a Joso contact address are supplied; a configured practical venue is not established."
+    },
+    {
+      "task": 33,
+      "candidate": "JULC Motegi flight-training campus",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-motegi-julc-training-campus",
+      "sourceUrls": [
+        "https://julc.co.jp/course/workshop/8311",
+        "https://julc.co.jp/campus/tochigi"
+      ],
+      "reason": "One campus at 鮎田2020; indoor and outdoor training areas are grouped."
+    },
+    {
+      "task": 34,
+      "candidate": "Former Kambai School drone training campus",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-midori-former-kambai-school",
+      "sourceUrls": [
+        "https://julc.co.jp/course/workshop/8257",
+        "https://julc.co.jp/campus/gunma"
+      ],
+      "reason": "One campus at 大間々町上神梅68-5. The Maebashi contact office is excluded; the source schedules a December 2026 course and describes existing training areas."
+    },
+    {
+      "task": 35,
+      "candidate": "Tobu Railway Kuki drone training hall",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-kuki-tobu-training-hall",
+      "sourceUrls": [
+        "https://julc.co.jp/campus/saitama"
+      ],
+      "reason": "One shared hall at 南栗橋2-20. The separate Oshiage renewal-course room is not added as a flight site."
+    },
+    {
+      "task": 36,
+      "candidate": "JULC tokyo practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://julc.co.jp/campus/tokyo"
+      ],
+      "reason": "The Akasaka contact office and course offering do not identify a practical flight facility."
+    },
+    {
+      "task": 37,
+      "candidate": "JULC tokyokowan practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://julc.co.jp/campus/tokyokowan"
+      ],
+      "reason": "An indoor Tokyo flight venue is reported but is not located separately from the Tsukishima office and Shibaura theory classroom."
+    },
+    {
+      "task": 38,
+      "candidate": "JULC kanagawanishi practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://julc.co.jp/campus/kanagawanishi"
+      ],
+      "reason": "Multiple flight sites in Minamiashigara, Matsuda and Hadano are reported; their individual physical identities remain unresolved."
+    },
+    {
+      "task": 39,
+      "candidate": "JULC kanagawa venue",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://julc.co.jp/campus/kanagawa"
+      ],
+      "reason": "Already represented by japan-yokohama-sekido-training-centre; no additional physical site established."
+    },
+    {
+      "task": 40,
+      "candidate": "JULC niigata practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://julc.co.jp/campus/niigata",
+        "https://julc.co.jp/course/workshop/1785",
+        "https://julc.co.jp/course/workshop/5980"
+      ],
+      "reason": "Course pages identify Tsukikage, already recorded, and former Sanwa Seibu Sports House. The latter requires overlap review against the existing address-withheld DearStaff field; the Sanwa No office is not mapped."
+    },
+    {
+      "task": 41,
+      "candidate": "Sanjo Monozukuri School drone gym",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-sanjo-monozukuri-training",
+      "sourceUrls": [
+        "https://julc.co.jp/course/workshop/659",
+        "https://julc.co.jp/campus/niigatachuo"
+      ],
+      "reason": "One indoor venue at 桜木町12-38. The separately described school sports ground is not included as another record."
+    },
+    {
+      "task": 42,
+      "candidate": "JULC fukui practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://julc.co.jp/campus/fukui"
+      ],
+      "reason": "A former-school gym and ground are described but the school identity is unresolved; the Omoricho contact address alone is insufficient."
+    },
+    {
+      "task": 43,
+      "candidate": "JULC nagano practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://julc.co.jp/campus/nagano"
+      ],
+      "reason": "Several practical venues across Nagano are described without resolving their locations separately from the Ojoji contact address."
+    },
+    {
+      "task": 44,
+      "candidate": "JULC shizuoka practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://julc.co.jp/campus/shizuoka"
+      ],
+      "reason": "Indoor and outdoor training venues are not identified separately from the Yaizu office."
+    },
+    {
+      "task": 45,
+      "candidate": "JULC aichi practical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://julc.co.jp/campus/aichi"
+      ],
+      "reason": "The operator describes a Tahara outdoor field and separate indoor venue; their identities remain unresolved and the Toyohashi office is excluded."
+    },
+    {
+      "task": 46,
+      "candidate": "Kiho Tashiro Park drone training venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-kiho-tashiro-training-campus",
+      "sourceUrls": [
+        "https://julc.co.jp/campus/mie"
+      ],
+      "reason": "One shared campus at 大里2837-2. The Yokkaichi contact office is excluded; other Mie venues require separate review."
+    },
+    {
+      "task": 47,
+      "candidate": "Former Honden School drone training campus",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-shibata-honden-school-campus",
+      "sourceUrls": [
+        "https://juavac-niigata.jp/"
+      ],
+      "reason": "One campus at 本田丙12, distinct from the Niigata Kizaki flight hall."
+    },
+    {
+      "task": 48,
+      "candidate": "Saku General Gym drone venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-saku-general-gym-training",
+      "sourceUrls": [
+        "https://juavac-nagano.jp/info/",
+        "https://www.city.saku.nagano.jp/bunka/sports_shisetsu/gaiyou/syakaitaikuitiran.html"
+      ],
+      "reason": "One shared gym; the city identifies Saku General Gym at 中込2939. The truck training hall is a theory venue."
+    },
+    {
+      "task": 49,
+      "candidate": "Former Usuda School drone gym venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-saku-usuda-school-training",
+      "sourceUrls": [
+        "https://juavac-nagano.jp/info/",
+        "https://www.city.saku.nagano.jp/bunka/sports_shisetsu/gaiyou/syakaitaikuitiran.html"
+      ],
+      "reason": "One former-school campus. The city lists two gyms at 臼田283-2 and 臼田264-3; the operator does not specify which, so no individual hall or street address is assigned."
+    },
+    {
+      "task": 50,
+      "candidate": "Former Kirihara School drone gym",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-saku-kirihara-school-training",
+      "sourceUrls": [
+        "https://juavac-nagano.jp/info/",
+        "https://www.city.saku.nagano.jp/bunka/sports_shisetsu/gaiyou/syakaitaikuitiran.html"
+      ],
+      "reason": "One shared gym; the city lists Kirihara Gym at 中小田切111-1. Its separate outdoor ground is not asserted to be a flight venue."
+    }
+  ]
+}
