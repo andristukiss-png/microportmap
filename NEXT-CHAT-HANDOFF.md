@@ -1,14 +1,14 @@
-# Current catalogue continuation — 11 November 2026
+# Current catalogue continuation — 12 November 2026
 
-Repository: https://github.com/andristukiss-png/microportmap, main. Historical no-repository statements below are superseded. User authorizes routine research, additions and publication without repeated questions. Continue credible physical locations, not synthetic task counts. Do not spawn subagents.
+Repository: https://github.com/andristukiss-png/microportmap, main. User authorizes routine research, additions and publication without repeated questions. Do not spawn subagents.
 
-Batch 123: 50 candidate reviews, 26 additions, 19 deferred, five overlaps. Total 1,028 records (50 original + 978 additions), 56 countries. All 1,002 prior records preserved. See catalogue/one-hundred-twenty-third-batch-review.md and catalogue/2026-11-11-first-fifty-task-review.json. PR and CI contain actual publication status; files alone do not establish deployment.
+Batch 124: 50 candidate reviews, 26 additions, 23 deferred, one overlap. Total 1,054 records (50 original + 1,004 additions), 56 countries. All 1,028 prior records preserved. See catalogue/one-hundred-twenty-fourth-batch-review.md and catalogue/2026-11-12-first-fifty-task-review.json. Consult the PR for actual CI and publication status.
 
-Build scripts/build_catalogue.py and deploy dist/, never src/. Run checks/catalogue-expansion.py and checks/catalogue-browser-runner-test.py sequentially. All four browser CI shards must pass: 1,033 routes / 2,066 desktop-mobile journeys. Browser timeout is 30 minutes. Vercel automatically deploys main. Public site https://microportmap.com.
+Build scripts/build_catalogue.py and deploy dist/, never src/. Run checks/catalogue-expansion.py and checks/catalogue-browser-runner-test.py sequentially. All four browser CI shards must pass: 1,059 routes / 2,118 desktop-mobile journeys. Vercel automatically deploys main. Public site https://microportmap.com.
 
-Physical venues take precedence over offices. JULC Gunma uses former Kambai School in Midori; Mie's Tashiro venue is in Kiho, not Yokkaichi. JULC Niigata's Sanwa Seibu Sports House needs overlap resolution against DearStaff before addition; Tsukikage is already recorded. Saku truck hall is theory-only. Former Usuda School is one campus record with individual gym unresolved. The Yasu youth centre is distinct from ASKHIM's Chikuzen field. Markers are locality references, never launch coordinates.
+Physical venues take precedence over offices. Iizuna Connect WEST is existing Drone Campus Nagano. Sekido Joetsu's Sanwa No training centre is newly documented as a gym and former tennis courts; its headquarters is elsewhere. Sanwa Seibu Sports House and DearStaff overlap remain unresolved. Historical course listings do not guarantee current availability. Markers are locality references, never launch coordinates.
 
-Next leads: Drone Juku's LABI rooftop, Koriyama Tamura centre, AOBA Sports Park, Imizu UPD field, Minamiechizen Sakai/Kaerushika gyms, Cerezo Futsal Park, Toon/Tobe venues, JULC Mie's other practical facilities, and JULC regional campuses west of Mie. Review the deferred candidates for physical flight identity before mapping offices. Previous leads include Akita Nikaho/Semboku, Yamasa Niimi/Tamano, BirdEye outdoor, CSON Nagara River, JWEDA Toda, DPA Tsukuba, KDDI Aizu, Chichibu partner venues and DSJ Sakura/Nagoya. Do not count unreviewed leads as additions.
+Next leads: Sharp Tenri campus, Tamano Sports Centre, Saga rural field, Kokubu Children Gym, Koriyama Tamura centre, BANKYO Cultural Hall, Drone Juku Shirako and the deferred JULC western branches. Confirm flight use and identity before addition. Additional NULC listings include Asoviva Nagano Park, Susaka Kojo-so and Kijimadaira Rural Exchange Hall; verify practical use and overlap. Preserve all prior records.
 
 ---
 
