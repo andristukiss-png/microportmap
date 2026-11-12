@@ -1,0 +1,569 @@
+{
+  "reviewedAt": "2026-11-12",
+  "batch": "2026-11-12-jma-dda-venues",
+  "completedTasks": 50,
+  "acceptedRecords": 23,
+  "deferredCandidates": 25,
+  "excludedOverlaps": 2,
+  "tasks": [
+    {
+      "task": 1,
+      "candidate": "JMA Numazu Ide training venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-numazu-ide-jma-venue",
+      "sourceUrls": [
+        "https://shizuoka.jma-drone.or.jp/"
+      ],
+      "reason": "One venue at 井出1442; course levels and renewal sessions grouped."
+    },
+    {
+      "task": 2,
+      "candidate": "Fujieda General Sports Park drone venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-fujieda-general-sports-park-training",
+      "sourceUrls": [
+        "https://shizuoka-chuo.jma-drone.or.jp/"
+      ],
+      "reason": "One shared park at 原100."
+    },
+    {
+      "task": 3,
+      "candidate": "Kazahaya no Sato drone field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-tsu-kazahaya-no-sato-field",
+      "sourceUrls": [
+        "https://mie.jma-drone.or.jp/"
+      ],
+      "reason": "One venue at 戸木町4096. Misato Gym remains a separate lead; the renewal office is excluded."
+    },
+    {
+      "task": 4,
+      "candidate": "JMA Kameoka Shikatani indoor venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-kameoka-shikatani-jma-indoor",
+      "sourceUrls": [
+        "https://kyoto.jma-drone.or.jp/"
+      ],
+      "reason": "One indoor venue at 稗田野鹿谷西川19-1. The outdoor address at 鹿谷上条75-1 remains a separate lead."
+    },
+    {
+      "task": 5,
+      "candidate": "JMA Yamato-Takada practical venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-yamato-takada-jma-field",
+      "sourceUrls": [
+        "https://osaka.jma-drone.or.jp/"
+      ],
+      "reason": "One venue at 曽大根175. The Kadoma office is excluded."
+    },
+    {
+      "task": 6,
+      "candidate": "jma-hyogo physical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://hyogo.jma-drone.or.jp/"
+      ],
+      "reason": "The practical listing names Taka town without resolving a physical facility or address."
+    },
+    {
+      "task": 7,
+      "candidate": "jma-okayama practical venue",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://okayama.jma-drone.or.jp/"
+      ],
+      "reason": "Already represented by japan-kibichuo-jma-drone-field; no additional physical site established."
+    },
+    {
+      "task": 8,
+      "candidate": "JMA Hofu Kokubunjicho practical venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-hofu-kokubunjicho-jma-field",
+      "sourceUrls": [
+        "https://yamaguchi.jma-drone.or.jp/"
+      ],
+      "reason": "The practical section gives 国分寺町157-11 while the footer abbreviates the address differently. One locality-level venue; Hachioji and Sakaemachi offices excluded."
+    },
+    {
+      "task": 9,
+      "candidate": "JMA Anan Shimoono practical venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-anan-shimoono-jma-field",
+      "sourceUrls": [
+        "https://tokushima.jma-drone.or.jp/"
+      ],
+      "reason": "One venue at 下大野町藪呂74-1."
+    },
+    {
+      "task": 10,
+      "candidate": "jma-ehime practical venue",
+      "reviewStatus": "completed",
+      "decision": "excluded-overlap",
+      "recordId": null,
+      "sourceUrls": [
+        "https://ehime.jma-drone.or.jp/"
+      ],
+      "reason": "Already represented by japan-toon-twin-dome; no additional physical site established. The additional Nishioka 1284-1 address remains unresolved."
+    },
+    {
+      "task": 11,
+      "candidate": "JMA Imabari Higashitoriu training venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-imabari-higashitoriu-jma-venue",
+      "sourceUrls": [
+        "https://imabari.jma-drone.or.jp/"
+      ],
+      "reason": "One venue at 東鳥生町4丁目4番21号; course levels and renewal sessions grouped."
+    },
+    {
+      "task": 12,
+      "candidate": "jma-fukuoka physical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://fukuoka.jma-drone.or.jp/"
+      ],
+      "reason": "The Miyawaka addresses 本城1593-1 and 磯光1668-2 are listed, but their practical versus administrative roles remain unresolved."
+    },
+    {
+      "task": 13,
+      "candidate": "Former Mimata Elementary School drone venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-okawa-former-mimata-school",
+      "sourceUrls": [
+        "https://fukuokaminami.jma-drone.or.jp/"
+      ],
+      "reason": "One former-school campus at 中古賀198. The Kurume renewal address is excluded."
+    },
+    {
+      "task": 14,
+      "candidate": "jma-saga physical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://saga.jma-drone.or.jp/"
+      ],
+      "reason": "The Hamadama address is a renewal venue; the page warns practical courses may use another registered venue."
+    },
+    {
+      "task": 15,
+      "candidate": "JMA Ueki Iwano drone field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-kumamoto-ueki-iwano-field",
+      "sourceUrls": [
+        "https://kumamoto.jma-drone.or.jp/"
+      ],
+      "reason": "One field at 北区植木町岩野418-1."
+    },
+    {
+      "task": 16,
+      "candidate": "JMA Beppu Ama outdoor field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-beppu-ama-jma-outdoor",
+      "sourceUrls": [
+        "https://oita.jma-drone.or.jp/"
+      ],
+      "reason": "One field at 天間字宮ノ本326-2. The Ishigaki Nishi consultation and renewal address is excluded."
+    },
+    {
+      "task": 17,
+      "candidate": "JMA Urasoe Takushi practical venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-urasoe-takushi-jma-field",
+      "sourceUrls": [
+        "https://okinawa.jma-drone.or.jp/"
+      ],
+      "reason": "One venue at 沢岻道平原1152番2. The heavy-aircraft venue in Nishihara remains a separate lead."
+    },
+    {
+      "task": 18,
+      "candidate": "jma-miyakojima physical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://miyakojima.jma-drone.or.jp/"
+      ],
+      "reason": "The practical section names both the municipal gym and Shimoji Sports Centre without resolving their separate identities and addresses."
+    },
+    {
+      "task": 19,
+      "candidate": "Hanakita Motor School drone campus",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-kitakami-hanakita-motor-school",
+      "sourceUrls": [
+        "https://tohoku-air.jp/"
+      ],
+      "reason": "One campus at 飯豊24-75-2; indoor and outdoor areas grouped."
+    },
+    {
+      "task": 20,
+      "candidate": "dda-ugo physical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.ugodrive.co.jp/"
+      ],
+      "reason": "The affiliated-school listing is available, but the operator returned HTTP 403; the practical venue is not established."
+    },
+    {
+      "task": 21,
+      "candidate": "dda-taihei physical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://taihei-drone.jp/"
+      ],
+      "reason": "The Iwaki contact address and school identity do not establish a configured flight area."
+    },
+    {
+      "task": 22,
+      "candidate": "dda-nanko physical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://doroaca.com/"
+      ],
+      "reason": "The operator returned HTTP 503; differing listed addresses do not resolve the physical practical venue."
+    },
+    {
+      "task": 23,
+      "candidate": "dda-tsukuba physical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://tsukuba.dlabo.jp/"
+      ],
+      "reason": "The branch URL redirects to the shared DLabo homepage; generic court descriptions do not identify this branch venue."
+    },
+    {
+      "task": 24,
+      "candidate": "dda-nitta physical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://drone-academy.co.jp/",
+        "https://nitta-drive.com/drone/"
+      ],
+      "reason": "The driving-school address is identified, but the reviewed course page does not explicitly locate the practical flight area."
+    },
+    {
+      "task": 25,
+      "candidate": "dda-toda physical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://drone-academy.co.jp/",
+        "https://www.toda-drive.com/drone/"
+      ],
+      "reason": "The driving-school address is identified, but the reviewed course page does not explicitly locate the practical flight area."
+    },
+    {
+      "task": 26,
+      "candidate": "dda-sayama physical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.sayama-ms.co.jp/"
+      ],
+      "reason": "The driving-school homepage and company information do not establish its practical drone venue."
+    },
+    {
+      "task": 27,
+      "candidate": "Gyoda Fujiwaracho indoor drone venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-gyoda-fujiwaracho-indoor",
+      "sourceUrls": [
+        "https://www.drone-school.co.jp/facilities.html"
+      ],
+      "reason": "One venue at 藤原町2-26-6. The Hanyu Motor School outdoor venue remains a separate lead."
+    },
+    {
+      "task": 28,
+      "candidate": "dda-rainbow-saitama physical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.rms.co.jp/drone/",
+        "https://www.rms.co.jp/drone/about-rms-drone/"
+      ],
+      "reason": "The venue page lists Honda Gakuen, former Demaru School and Wako trial sessions; individual practical-site roles need confirmation."
+    },
+    {
+      "task": 29,
+      "candidate": "Nakago Arena drone training venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-kisarazu-nakago-arena",
+      "sourceUrls": [
+        "https://ids-drone.co.jp/access/"
+      ],
+      "reason": "One arena campus at 有吉932. The Tokyo office and Yaesu classroom are excluded."
+    },
+    {
+      "task": 30,
+      "candidate": "Haijima Drone Field",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-fussa-haijima-drone-field",
+      "sourceUrls": [
+        "https://www.haijima-ds.co.jp/drone/"
+      ],
+      "reason": "One field at 熊川1652-3. The theory school at 熊川1495 is excluded; Fujimi and Kawai remain separate leads."
+    },
+    {
+      "task": 31,
+      "candidate": "dda-mirise physical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.mirise-ds.com/",
+        "https://www.mirise-ds.com/about_the_school"
+      ],
+      "reason": "Indoor and outdoor facilities are described, but the practical hall is not independently located against the driving-school classroom."
+    },
+    {
+      "task": 32,
+      "candidate": "Omiya Motor School drone venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-saitama-omiya-driving-course",
+      "sourceUrls": [
+        "https://drone.omiya-ds.co.jp/"
+      ],
+      "reason": "One campus at 見沼区新右ェ門新田111; distinct from Omiya Kenpo Ground and FUT MESSE."
+    },
+    {
+      "task": 33,
+      "candidate": "dda-sulga physical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.sulga.co.jp/sdac/"
+      ],
+      "reason": "The operator returned HTTP 503; secondary listings of several training addresses are insufficient to resolve one primary-supported venue."
+    },
+    {
+      "task": 34,
+      "candidate": "Hamamatsu DRONE CUBE",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-hamamatsu-drone-cube",
+      "sourceUrls": [
+        "https://www.hamamatsu-drone.jp/about/facility",
+        "https://www.hamamatsu-drone.jp/access"
+      ],
+      "reason": "One campus at 中央区和田町700, supported by the access page."
+    },
+    {
+      "task": 35,
+      "candidate": "dda-rainbow-hamanako physical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.rms.co.jp/drone/",
+        "https://www.rms.co.jp/drone/about-rms-drone/"
+      ],
+      "reason": "The linked operator page now describes Saitama venues; the Hamanako physical flight site remains unresolved."
+    },
+    {
+      "task": 36,
+      "candidate": "Yoshitomi no Sho drone venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-nantan-yoshitomi-school-campus",
+      "sourceUrls": [
+        "https://delta-drone.net/school/"
+      ],
+      "reason": "One former-school campus at 八木町鳥羽鳥栄本11. Distinct from the existing former Kawabe School; the Kyoto office is excluded."
+    },
+    {
+      "task": 37,
+      "candidate": "dda-kurashiki physical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://www.dlabo.jp/"
+      ],
+      "reason": "The shared DLabo homepage describes courts generically without resolving the Kurashiki Mabi branch venue."
+    },
+    {
+      "task": 38,
+      "candidate": "dda-hirosawa physical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://hirosawa-drone.com/",
+        "https://uas-japan.org/school/research/"
+      ],
+      "reason": "The operator confirms indoor instruction and JUIDA lists the Kamiyama address, but primary evidence does not identify the named former-school gym conclusively."
+    },
+    {
+      "task": 39,
+      "candidate": "Daiichi Motor School indoor drone venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-matsuyama-daiichi-indoor",
+      "sourceUrls": [
+        "https://www.ehimeds.jp/"
+      ],
+      "reason": "One campus at 朝生田町4丁目4-32. The alternate former Tamatani School gym requires overlap resolution."
+    },
+    {
+      "task": 40,
+      "candidate": "CHRES drone training venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-kochi-chres-training-campus",
+      "sourceUrls": [
+        "https://ryoma-drone.com/news/?p=524",
+        "https://ryoma-drone.com/curriculum/"
+      ],
+      "reason": "One shared campus at 高須砂地155; gym and ground grouped. The Ichinomiya driving-school office is excluded."
+    },
+    {
+      "task": 41,
+      "candidate": "dda-kochi physical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://kochi-droneschool.com/"
+      ],
+      "reason": "The course page describes practical instruction but the linked facility page concerns driving-school accommodation, not a resolved flight venue."
+    },
+    {
+      "task": 42,
+      "candidate": "Onsto Higashikariki drone venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-sapporo-onsto-higashikariki",
+      "sourceUrls": [
+        "https://www.onsto.jp/"
+      ],
+      "reason": "One venue at 東区東雁来町375番地111, distinct from the previously recorded Hanakawa site."
+    },
+    {
+      "task": 43,
+      "candidate": "Onogo Sports Centre drone venue",
+      "reviewStatus": "completed",
+      "decision": "accepted",
+      "recordId": "japan-susaki-onogo-sports-centre",
+      "sourceUrls": [
+        "https://jpndo.com/school/kochi_school/"
+      ],
+      "reason": "One shared sports centre at 赤崎3-18. The Kochi classroom and former Mimase School are separate."
+    },
+    {
+      "task": 44,
+      "candidate": "follow-aso physical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://asonomori.jp/",
+        "https://asonomori.jp/news/"
+      ],
+      "reason": "Ogura 882-3 is listed among course venues without a clear practical-flight role; recent news names another gym."
+    },
+    {
+      "task": 45,
+      "candidate": "follow-kikuyo physical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://asonomori.jp/"
+      ],
+      "reason": "Haramizu 5189-5 is listed among course venues without a clear practical-flight role."
+    },
+    {
+      "task": 46,
+      "candidate": "follow-yamaga physical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://asonomori.jp/"
+      ],
+      "reason": "Shimonagano 650 is listed as a gym venue, but the reviewed source does not explicitly assign practical drone use there."
+    },
+    {
+      "task": 47,
+      "candidate": "follow-kumamoto physical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://asonomori.jp/"
+      ],
+      "reason": "Toshima Nishi 3-4-150 is listed among course venues without a clear practical-flight role."
+    },
+    {
+      "task": 48,
+      "candidate": "follow-kanoya physical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://cislunarbase.com/"
+      ],
+      "reason": "Indexed operator text confirms the Park Takasu Chu contact address, but practical flight use at that campus remains unresolved."
+    },
+    {
+      "task": 49,
+      "candidate": "follow-sakura physical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://d-pa.or.jp/school-group/"
+      ],
+      "reason": "The old DPA school link redirects to the generic school directory. Search results describe a historical indoor school but do not resolve a primary-supported physical site."
+    },
+    {
+      "task": 50,
+      "candidate": "follow-nagoya physical venue",
+      "reviewStatus": "completed",
+      "decision": "deferred",
+      "recordId": null,
+      "sourceUrls": [
+        "https://d-pa.or.jp/school-group/"
+      ],
+      "reason": "The old DPA school link redirects to the generic school directory. Search results do not resolve the historical DSJ venue against other Nagoya schools."
+    }
+  ]
+}
