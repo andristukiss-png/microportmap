@@ -33495,9 +33495,739 @@
           "url": "https://drone-juku.jp/chiba-hamano/"
         }
       ]
+    },
+    {
+      "id": "japan-ishikari-hanakawa-onsto-field",
+      "entityKey": "japan-ishikari-hanakawa-onsto-field",
+      "name": "Onsto Hanakawa drone training venue",
+      "where": "Ishikari, Hokkaido, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Onsto / JDO",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Ishikari, Hokkaido locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 43.17,
+        "longitude": 141.32
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator identifies Hanakawa as a training location and offers drone practice use.",
+      "source": {
+        "name": "Onsto / JDO — facility description",
+        "url": "https://www.onsto.jp/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-jdo-jma-physical-venues",
+      "reviewNotes": "One venue at 花川東96番35. The Taihei office and separate Higashikariki site are excluded.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Ishikari, Hokkaido; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "JDO school listing",
+          "url": "https://jpndo.com/school/school_sapporo"
+        }
+      ]
+    },
+    {
+      "id": "japan-sendai-gam-nomura-campus",
+      "entityKey": "japan-sendai-gam-nomura-campus",
+      "name": "GAM Sendai Nomura drone campus",
+      "where": "Sendai, Miyagi, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "GAM / JDO",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Sendai, Miyagi locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 38.27,
+        "longitude": 140.87
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "GAM describes adjacent indoor and outdoor practice areas at its Sendai school.",
+      "source": {
+        "name": "GAM / JDO — facility description",
+        "url": "https://s-gam.com/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-jdo-jma-physical-venues",
+      "reviewNotes": "One campus at 野村字二重袋前5-1. An unnamed rainy-weather gym is not added separately.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Sendai, Miyagi; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "JDO school listing",
+          "url": "https://jpndo.com/school/school_miyagi_sendai"
+        }
+      ]
+    },
+    {
+      "id": "japan-nakagawa-community-gym-training",
+      "entityKey": "japan-nakagawa-community-gym-training",
+      "name": "Nakagawa Community Gym drone venue",
+      "where": "Nakagawa, Nagano, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Komatabi / JDO",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Nakagawa, Nagano locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.63,
+        "longitude": 137.95
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JDO lists the Nakagawa sports gym as its Komagane school venue; the operator describes recurring drone instruction there.",
+      "source": {
+        "name": "Komatabi / JDO — facility description",
+        "url": "https://jpndo.com/school/komagane_school"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-jdo-jma-physical-venues",
+      "reviewNotes": "One shared gym at 片桐4748. The 2024 operator flyer supports repeated flight use, not guaranteed current availability.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Nakagawa, Nagano; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "Komatabi — recurring 2024 drone instruction flyer",
+          "url": "https://komatabi.net/wp-content/uploads/2024/01/drone_tirasi4_2024_a4-1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "japan-shinshiro-katayama-jdo-field",
+      "entityKey": "japan-shinshiro-katayama-jdo-field",
+      "name": "JDO Shinshiro Katayama practical venue",
+      "where": "Shinshiro, Aichi, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JDO Okazaki",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Shinshiro, Aichi locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.9,
+        "longitude": 137.5
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JDO explicitly identifies its practical training venue in Katayama, Shinshiro.",
+      "source": {
+        "name": "JDO Okazaki — facility description",
+        "url": "https://jpndo.com/school/okazaki_school"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-jdo-jma-physical-venues",
+      "reviewNotes": "One venue at 片山字柴先610番2. The Okazaki theory classroom is excluded.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Shinshiro, Aichi; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-fujinomiya-graceland-field",
+      "entityKey": "japan-fujinomiya-graceland-field",
+      "name": "Graceland drone field",
+      "where": "Fujinomiya, Shizuoka, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JDAS / JDO",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Fujinomiya, Shizuoka locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.22,
+        "longitude": 138.62
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JDAS identifies Graceland as its Fujinomiya drone instruction venue.",
+      "source": {
+        "name": "JDAS / JDO — facility description",
+        "url": "https://www.j-das.jp/taiken-shizuoka"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-jdo-jma-physical-venues",
+      "reviewNotes": "One field at 人穴793, corroborated by JDO. Distinct from the Nebara food-park field.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Fujinomiya, Shizuoka; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "JDO school listing",
+          "url": "https://jpndo.com/school_fujinomiya"
+        }
+      ]
+    },
+    {
+      "id": "japan-kochi-former-mimase-school-gym",
+      "entityKey": "japan-kochi-former-mimase-school-gym",
+      "name": "Former Mimase School drone gym",
+      "where": "Kochi, Kochi, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JDO Kochi",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Kochi, Kochi locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 33.56,
+        "longitude": 133.53
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JDO explicitly identifies the former Mimase Elementary School gym as a practical venue.",
+      "source": {
+        "name": "JDO Kochi — facility description",
+        "url": "https://jpndo.com/school/kochi_school/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-jdo-jma-physical-venues",
+      "reviewNotes": "One shared gym at 長浜209. The Akebonocho classroom is excluded; Onogo Sports Centre remains a separate lead.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Kochi, Kochi; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-ozu-takaono-jdo-field",
+      "entityKey": "japan-ozu-takaono-jdo-field",
+      "name": "JDO Ozu Takaono practical venue",
+      "where": "Ozu, Kumamoto, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JDO Ozu",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Ozu, Kumamoto locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 32.88,
+        "longitude": 130.87
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JDO distinguishes its practical training venue from its nearby classroom.",
+      "source": {
+        "name": "JDO Ozu — facility description",
+        "url": "https://jpndo.com/school/kumamoto_otsu_school"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-jdo-jma-physical-venues",
+      "reviewNotes": "One venue at 高尾野797. The theory address at 高尾野801 is excluded.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Ozu, Kumamoto; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-isa-hokusatsu-heliport-training",
+      "entityKey": "japan-isa-hokusatsu-heliport-training",
+      "name": "Hokusatsu Heliport Park drone venue",
+      "where": "Isa, Kagoshima, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JDAS / JDO",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Isa, Kagoshima locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 32.06,
+        "longitude": 130.61
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JDAS identifies Hokusatsu Heliport Park for drone instruction and follow-up practice.",
+      "source": {
+        "name": "JDAS / JDO — facility description",
+        "url": "https://www.j-das.jp/taiken-kagoshima"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-jdo-jma-physical-venues",
+      "reviewNotes": "One shared park venue. Recurring practice provision supports inclusion beyond a single experience event.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Isa, Kagoshima; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "JDO school listing",
+          "url": "https://jpndo.com/school/school_isa"
+        }
+      ]
+    },
+    {
+      "id": "japan-yokote-akita-drone-station",
+      "entityKey": "japan-yokote-akita-drone-station",
+      "name": "Akita Drone Station indoor venue",
+      "where": "Yokote, Akita, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JMA / local venue operator",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Yokote, Akita locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 39.31,
+        "longitude": 140.55
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JMA identifies indoor practical instruction and assessment at Akita Drone Station.",
+      "source": {
+        "name": "JMA / local venue operator — facility description",
+        "url": "https://akita.jma-drone.or.jp/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-jdo-jma-physical-venues",
+      "reviewNotes": "One venue at 十文字町字海道下6-1.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Yokote, Akita; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-bando-kadoyama-jma-field",
+      "entityKey": "japan-bando-kadoyama-jma-field",
+      "name": "JMA Bando Kadoyama outdoor field",
+      "where": "Bando, Ibaraki, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JMA / local venue operator",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Bando, Ibaraki locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.05,
+        "longitude": 139.89
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JMA identifies an outdoor practical training field in Kadoyama.",
+      "source": {
+        "name": "JMA / local venue operator — facility description",
+        "url": "https://ibaraki.jma-drone.or.jp/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-jdo-jma-physical-venues",
+      "reviewNotes": "One field at 神田山字堀畑1538-12; its office is on the same site.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Bando, Ibaraki; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-moka-kamisagiya-drone-field",
+      "entityKey": "japan-moka-kamisagiya-drone-field",
+      "name": "Tochigi Drone Station Kamisagiya field",
+      "where": "Moka, Tochigi, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JMA / local venue operator",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Moka, Tochigi locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.44,
+        "longitude": 140.01
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JMA and the local operator identify drone instruction at the Kamisagiya field.",
+      "source": {
+        "name": "JMA / local venue operator — facility description",
+        "url": "https://tochigi.jma-drone.or.jp/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-jdo-jma-physical-venues",
+      "reviewNotes": "One venue at 上鷺谷606, distinct from the Matsuyamacho Drone Juku campus.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Moka, Tochigi; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "Tochigi Drone Station — instruction venue",
+          "url": "https://tochigi-ds.co.jp/jma_tochigi/"
+        }
+      ]
+    },
+    {
+      "id": "japan-isesaki-jma-training-field",
+      "entityKey": "japan-isesaki-jma-training-field",
+      "name": "JMA Isesaki practical training venue",
+      "where": "Isesaki, Gunma, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JMA / local venue operator",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Isesaki, Gunma locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.31,
+        "longitude": 139.2
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JMA identifies practical instruction and assessment at its Higashikaminomiyamachi venue.",
+      "source": {
+        "name": "JMA / local venue operator — facility description",
+        "url": "https://gunma.jma-drone.or.jp/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-jdo-jma-physical-venues",
+      "reviewNotes": "One venue at 東上之宮町710-1. The alternate renewal address is not added as a flight site.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Isesaki, Gunma; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-shibukawa-jma-indoor",
+      "entityKey": "japan-shibukawa-jma-indoor",
+      "name": "JMA Shibukawa indoor training venue",
+      "where": "Shibukawa, Gunma, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JMA / local venue operator",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Shibukawa, Gunma locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.49,
+        "longitude": 139.0
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JMA identifies indoor practical instruction at its northern Gunma venue.",
+      "source": {
+        "name": "JMA / local venue operator — facility description",
+        "url": "https://gunma-kita.jma-drone.or.jp/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-jdo-jma-physical-venues",
+      "reviewNotes": "One venue at 村上3788-1; individual courses are grouped.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Shibukawa, Gunma; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-shirai-jma-field",
+      "entityKey": "japan-shirai-jma-field",
+      "name": "JMA Shirai training field",
+      "where": "Shirai, Chiba, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JMA / local venue operator",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Shirai, Chiba locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.79,
+        "longitude": 140.06
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JMA identifies a practical flight-training field in Shirai.",
+      "source": {
+        "name": "JMA / local venue operator — facility description",
+        "url": "https://chiba.jma-drone.or.jp/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-jdo-jma-physical-venues",
+      "reviewNotes": "One field at 復91. The school name Chiba does not imply Chiba city.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Shirai, Chiba; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-sakado-osubachi-field",
+      "entityKey": "japan-sakado-osubachi-field",
+      "name": "Osubachi drone field",
+      "where": "Sakado, Saitama, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JMA / local venue operator",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Sakado, Saitama locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.96,
+        "longitude": 139.4
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JMA Tokyo identifies Osubachi as its instruction site and a field available for separate practice.",
+      "source": {
+        "name": "JMA / local venue operator — facility description",
+        "url": "https://tokyodronestation.com/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-jdo-jma-physical-venues",
+      "reviewNotes": "One field at 北大塚832-1. Indexed operator evidence was readable; direct retrieval returned 403.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Sakado, Saitama; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-sagamihara-airwolf-field",
+      "entityKey": "japan-sagamihara-airwolf-field",
+      "name": "AIRWOLF Sagamihara training field",
+      "where": "Sagamihara, Kanagawa, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JMA / local venue operator",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Sagamihara, Kanagawa locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.57,
+        "longitude": 139.37
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator identifies its dedicated training field in Suwarashi.",
+      "source": {
+        "name": "JMA / local venue operator — facility description",
+        "url": "https://drone.seimaiki-fort.com/company/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-jdo-jma-physical-venues",
+      "reviewNotes": "One field at 寸沢嵐2527-1. The Isobe headquarters and other JMA classrooms are excluded.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Sagamihara, Kanagawa; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "JMA Kanagawa locations",
+          "url": "https://kanagawa.jma-drone.or.jp/"
+        }
+      ]
+    },
+    {
+      "id": "japan-toyama-nishishiono-jma-field",
+      "entityKey": "japan-toyama-nishishiono-jma-field",
+      "name": "Toyama Drone Station Nishishiono venue",
+      "where": "Toyama, Toyama, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JMA / local venue operator",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Toyama, Toyama locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.7,
+        "longitude": 137.21
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JMA identifies practical instruction at its Nishishiono venue.",
+      "source": {
+        "name": "JMA / local venue operator — facility description",
+        "url": "https://toyama.jma-drone.or.jp/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-jdo-jma-physical-venues",
+      "reviewNotes": "One venue at 西塩野308-1; renewal sessions and course levels are grouped.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Toyama, Toyama; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-tenri-sharp-training-campus",
+      "entityKey": "japan-tenri-sharp-training-campus",
+      "name": "Sharp Tenri drone training campus",
+      "where": "Tenri, Nara, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JULC Osaka Central",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Tenri, Nara locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.6,
+        "longitude": 135.84
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JULC identifies practical instruction in the Sharp Tenri gym and an outdoor ground.",
+      "source": {
+        "name": "JULC Osaka Central — facility description",
+        "url": "https://julc.co.jp/course/workshop/8014"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-jdo-jma-physical-venues",
+      "reviewNotes": "One campus at 櫟本町2613-1; practice areas grouped, with entry arrangements required by the operator.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Tenri, Nara; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-tamano-sports-centre-training",
+      "entityKey": "japan-tamano-sports-centre-training",
+      "name": "Tamano Sports Centre drone venue",
+      "where": "Tamano, Okayama, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JULC Hiroshima",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Tamano, Okayama locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.49,
+        "longitude": 133.95
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JULC identifies the sports centre gyms as practical flight-training venues.",
+      "source": {
+        "name": "JULC Hiroshima — facility description",
+        "url": "https://julc.co.jp/course/workshop/7751"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-jdo-jma-physical-venues",
+      "reviewNotes": "One campus in Tai; large and small gyms grouped.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Tamano, Okayama; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-nagano-asoviva-gym-training",
+      "entityKey": "japan-nagano-asoviva-gym-training",
+      "name": "Asoviva Nagano Park drone gym",
+      "where": "Nagano, Nagano, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Life Seed / JULC Nagano",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Nagano, Nagano locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.65,
+        "longitude": 138.19
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator identifies a dedicated gym for practical drone instruction at Asoviva Nagano Park.",
+      "source": {
+        "name": "Life Seed / JULC Nagano — facility description",
+        "url": "https://www.drone.life-seed.com/uav-license"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-jdo-jma-physical-venues",
+      "reviewNotes": "One shared gym at 上ヶ屋2471-79; the theory room is grouped with the campus.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Nagano, Nagano; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-suzaka-kojosou-gym-training",
+      "entityKey": "japan-suzaka-kojosou-gym-training",
+      "name": "Suzaka Kojo-so drone gym",
+      "where": "Suzaka, Nagano, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JULC Nagano",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Suzaka, Nagano locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.65,
+        "longitude": 138.31
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JULC identifies practical instruction in the dedicated gym at Suzaka Onsen Kojo-so.",
+      "source": {
+        "name": "JULC Nagano — facility description",
+        "url": "https://julc.co.jp/course/workshop/994"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-jdo-jma-physical-venues",
+      "reviewNotes": "One shared gym at 日滝5414. Historical course evidence does not guarantee current availability.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Suzaka, Nagano; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "Life Seed — practical venues",
+          "url": "https://www.drone.life-seed.com/uav-license"
+        }
+      ]
+    },
+    {
+      "id": "japan-kijimadaira-rural-exchange-gym",
+      "entityKey": "japan-kijimadaira-rural-exchange-gym",
+      "name": "Kijimadaira Rural Exchange Hall drone gym",
+      "where": "Kijimadaira, Nagano, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JULC Nagano",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Kijimadaira, Nagano locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.86,
+        "longitude": 138.41
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JULC identifies practical drone instruction in the rural exchange hall gym.",
+      "source": {
+        "name": "JULC Nagano — facility description",
+        "url": "https://julc.co.jp/course/workshop/1532"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-jdo-jma-physical-venues",
+      "reviewNotes": "One former-school campus at 上木島1762. The 2023 course establishes reported training use, not current availability.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Kijimadaira, Nagano; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
     }
   ],
-  "expectedTotal": 1054,
+  "expectedTotal": 1076,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -35121,6 +35851,33 @@
         "japan-yaizu-nakane-shinden-field",
         "japan-tahara-ebima-training-centre",
         "japan-chiba-hamano-hare-nochi-hare"
+      ]
+    },
+    {
+      "id": "2026-11-12-jdo-jma-physical-venues",
+      "recordIds": [
+        "japan-ishikari-hanakawa-onsto-field",
+        "japan-sendai-gam-nomura-campus",
+        "japan-nakagawa-community-gym-training",
+        "japan-shinshiro-katayama-jdo-field",
+        "japan-fujinomiya-graceland-field",
+        "japan-kochi-former-mimase-school-gym",
+        "japan-ozu-takaono-jdo-field",
+        "japan-isa-hokusatsu-heliport-training",
+        "japan-yokote-akita-drone-station",
+        "japan-bando-kadoyama-jma-field",
+        "japan-moka-kamisagiya-drone-field",
+        "japan-isesaki-jma-training-field",
+        "japan-shibukawa-jma-indoor",
+        "japan-shirai-jma-field",
+        "japan-sakado-osubachi-field",
+        "japan-sagamihara-airwolf-field",
+        "japan-toyama-nishishiono-jma-field",
+        "japan-tenri-sharp-training-campus",
+        "japan-tamano-sports-centre-training",
+        "japan-nagano-asoviva-gym-training",
+        "japan-suzaka-kojosou-gym-training",
+        "japan-kijimadaira-rural-exchange-gym"
       ]
     }
   ]

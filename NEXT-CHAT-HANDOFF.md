@@ -2,13 +2,13 @@
 
 Repository: https://github.com/andristukiss-png/microportmap, main. User authorizes routine research, additions and publication without repeated questions. Do not spawn subagents.
 
-Batch 124: 50 candidate reviews, 26 additions, 23 deferred, one overlap. Total 1,054 records (50 original + 1,004 additions), 56 countries. All 1,028 prior records preserved. See catalogue/one-hundred-twenty-fourth-batch-review.md and catalogue/2026-11-12-first-fifty-task-review.json. Consult the PR for actual CI and publication status.
+Batch 125: 50 candidate reviews, 22 additions, 27 deferred, one overlap. Total 1,076 records (50 original + 1,026 additions), 56 countries. All 1,054 prior records preserved. See catalogue/one-hundred-twenty-fifth-batch-review.md and catalogue/2026-11-12-second-fifty-task-review.json. Consult the PR for actual CI and publication status.
 
-Build scripts/build_catalogue.py and deploy dist/, never src/. Run checks/catalogue-expansion.py and checks/catalogue-browser-runner-test.py sequentially. All four browser CI shards must pass: 1,059 routes / 2,118 desktop-mobile journeys. Vercel automatically deploys main. Public site https://microportmap.com.
+Build scripts/build_catalogue.py and deploy dist/, never src/. Run checks/catalogue-expansion.py and checks/catalogue-browser-runner-test.py sequentially. All four browser CI shards must pass: 1,081 routes / 2,162 desktop-mobile journeys. Vercel automatically deploys main. Public site https://microportmap.com.
 
-Physical venues take precedence over offices. Iizuna Connect WEST is existing Drone Campus Nagano. Sekido Joetsu's Sanwa No training centre is newly documented as a gym and former tennis courts; its headquarters is elsewhere. Sanwa Seibu Sports House and DearStaff overlap remain unresolved. Historical course listings do not guarantee current availability. Markers are locality references, never launch coordinates.
+Physical venues take precedence over offices. JDO Shinjuku shares the existing Nakakugi 1472 field; headquarters practical venue at 1470-10 needs overlap resolution. JDO Okazaki trains in Shinshiro; Komagane uses Nakagawa gym; JMA Tokyo uses Osubachi in Sakado. AIRWOLF's Suwarashi field is separate from its Isobe office. Historical listings do not guarantee current availability. Markers are locality references, never launch coordinates.
 
-Next leads: Sharp Tenri campus, Tamano Sports Centre, Saga rural field, Kokubu Children Gym, Koriyama Tamura centre, BANKYO Cultural Hall, Drone Juku Shirako and the deferred JULC western branches. Confirm flight use and identity before addition. Additional NULC listings include Asoviva Nagano Park, Susaka Kojo-so and Kijimadaira Rural Exchange Hall; verify practical use and overlap. Preserve all prior records.
+Next leads: Onsto Higashikariki, JDO Kochi Onogo Sports Centre, remaining 18 JMA listings after Toyama, Aso-area practical facilities, Park Takasu Chu in Kanoya, and deferred JULC/Juku venues (Saga rural field, Kokubu Children Gym, Tamura Community Centre, BANKYO Cultural Hall, Shirako). Nagano's Asoviva, Kojo-so and Kijimadaira gyms are now recorded. Preserve prior records; verify new candidates before adding.
 
 ---
 

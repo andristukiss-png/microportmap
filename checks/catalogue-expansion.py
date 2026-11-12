@@ -1498,4 +1498,23 @@ for t in review124['tasks']:
 assert by_id['japan-kohoku-navel-gym-training']['where']=='Kohoku, Saga, Japan'
 assert by_id['japan-kiho-tashiro-training-campus']['where']=='Kiho, Mie, Japan'
 assert len({r['country'] for r in rows})==56
+# Batch 125 preserves earlier records and reconciles 50 candidate reviews.
+assert hashlib.sha256(json.dumps(additions[:1004],sort_keys=True,ensure_ascii=False).encode()).hexdigest()=='6bcef8617a8807ad75521ca59733df120a5c2321882a4669591e928c645bea39'
+review125=json.loads((ROOT/'catalogue/2026-11-12-second-fifty-task-review.json').read_text())
+assert review125['completedTasks']==50 and [t['task'] for t in review125['tasks']]==list(range(1,51))
+assert len({t['candidate'] for t in review125['tasks']})==50
+assert all(t['reviewStatus']=='completed' and t['sourceUrls'] and t['reason'] for t in review125['tasks'])
+ids125=[t['recordId'] for t in review125['tasks'] if t['decision']=='accepted']
+assert ids125==batch['releases'][124]['recordIds'] and len(ids125)==review125['acceptedRecords']==22
+assert sum(t['decision']=='deferred' for t in review125['tasks'])==review125['deferredCandidates']==27
+assert sum(t['decision']=='excluded-overlap' for t in review125['tasks'])==review125['excludedOverlaps']==1
+for t in review125['tasks']:
+ if t['decision']=='accepted':
+  r=by_id[t['recordId']]
+  assert r['source']['url'] in t['sourceUrls'] and r['reviewNotes']==t['reason']
+  assert r['researchBatch']==review125['batch'] and r['sourceReviewedAt']=='2026-11-12'
+ else: assert t['recordId'] is None
+assert by_id['japan-kohoku-navel-gym-training']['where']=='Kohoku, Saga, Japan'
+assert by_id['japan-kiho-tashiro-training-campus']['where']=='Kiho, Mie, Japan'
+assert len({r['country'] for r in rows})==56
 print(f'PASS: {len(rows)} records, {len(additions)} sourced additions, aligned exports, generated passports, safe input and deterministic build')
