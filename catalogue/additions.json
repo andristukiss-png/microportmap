@@ -32631,9 +32631,873 @@
           "url": "https://www.city.saku.nagano.jp/bunka/sports_shisetsu/gaiyou/syakaitaikuitiran.html"
         }
       ]
+    },
+    {
+      "id": "japan-daito-active-square-training",
+      "entityKey": "japan-daito-active-square-training",
+      "name": "Active Square Daito drone training campus",
+      "where": "Daito, Osaka, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JULC osakachuo",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Daito, Osaka locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.71,
+        "longitude": 135.62
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JULC identifies the gym and adjoining grounds as practical flight-training areas.",
+      "source": {
+        "name": "JULC osakachuo — facility description",
+        "url": "https://julc.co.jp/course/workshop/8008"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-julc-and-shared-venues",
+      "reviewNotes": "One campus at 深野3-28-3. The Osaka office is excluded; Sharp Tenri is a separate follow-up venue.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Daito, Osaka; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "JULC campus listing",
+          "url": "https://julc.co.jp/campus/osakachuo"
+        }
+      ]
+    },
+    {
+      "id": "japan-saka-bg-marine-training",
+      "entityKey": "japan-saka-bg-marine-training",
+      "name": "Saka B&G Marine Centre drone venue",
+      "where": "Saka, Hiroshima, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JULC hiroshima",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Saka, Hiroshima locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.34,
+        "longitude": 132.51
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JULC identifies indoor and outdoor practical flight training at Saka B&G Marine Centre.",
+      "source": {
+        "name": "JULC hiroshima — facility description",
+        "url": "https://julc.co.jp/course/workshop/7730"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-julc-and-shared-venues",
+      "reviewNotes": "One campus at 北新地1-2-75; gym and adjoining ground grouped. Tamano Sports Centre remains a separate lead.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Saka, Hiroshima; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "JULC campus listing",
+          "url": "https://julc.co.jp/campus/hiroshima"
+        }
+      ]
+    },
+    {
+      "id": "japan-onomichi-mukaishima-sports-training",
+      "entityKey": "japan-onomichi-mukaishima-sports-training",
+      "name": "Mukaishima Sports Park drone venue",
+      "where": "Onomichi, Hiroshima, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JULC hiroshimahigashi",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Onomichi, Hiroshima locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.41,
+        "longitude": 133.2
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JULC identifies Mukaishima Sports Park as its indoor and outdoor practical training venue.",
+      "source": {
+        "name": "JULC hiroshimahigashi — facility description",
+        "url": "https://julc.co.jp/campus/hiroshimahigashi"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-julc-and-shared-venues",
+      "reviewNotes": "One shared park campus. The Minohongo contact office is excluded.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Onomichi, Hiroshima; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-ino-former-mise-school",
+      "entityKey": "japan-ino-former-mise-school",
+      "name": "Former Mise Junior High drone campus",
+      "where": "Ino, Kochi, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JULC kochi",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Ino, Kochi locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 33.55,
+        "longitude": 133.43
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JULC describes flight training in the former school gym and grounds.",
+      "source": {
+        "name": "JULC kochi — facility description",
+        "url": "https://julc.co.jp/campus/kochi"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-julc-and-shared-venues",
+      "reviewNotes": "One former-school campus at 楠瀬54; classrooms and practice areas grouped.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Ino, Kochi; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-kawara-nakatsubaru-training",
+      "entityKey": "japan-kawara-nakatsubaru-training",
+      "name": "Nakatsubaru Shugakko drone campus",
+      "where": "Kawara, Fukuoka, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JULC fukuokachuo",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Kawara, Fukuoka locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 33.67,
+        "longitude": 130.85
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JULC describes practical drone instruction at the renovated former school.",
+      "source": {
+        "name": "JULC fukuokachuo — facility description",
+        "url": "https://julc.co.jp/campus/fukuokachuo"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-julc-and-shared-venues",
+      "reviewNotes": "One campus at 中津原812; the school name and access address identify the training venue.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Kawara, Fukuoka; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-kohoku-navel-gym-training",
+      "entityKey": "japan-kohoku-navel-gym-training",
+      "name": "Navel Gym drone training venue",
+      "where": "Kohoku, Saga, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JULC saga",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Kohoku, Saga locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 33.22,
+        "longitude": 130.16
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JULC identifies Navel Gym as its indoor practical venue for rainy weather.",
+      "source": {
+        "name": "JULC saga — facility description",
+        "url": "https://julc.co.jp/campus/saga"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-julc-and-shared-venues",
+      "reviewNotes": "One shared gym in Kohoku. The separate rural outdoor field is not grouped with it.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Kohoku, Saga; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-minamikyushu-chiran-julc-campus",
+      "entityKey": "japan-minamikyushu-chiran-julc-campus",
+      "name": "JULC Chiran flight-training campus",
+      "where": "Minamikyushu, Kagoshima, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JULC kagoshima",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Minamikyushu, Kagoshima locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 31.38,
+        "longitude": 130.44
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JULC describes a campus with indoor and outdoor training facilities outside Kagoshima city.",
+      "source": {
+        "name": "JULC kagoshima — facility description",
+        "url": "https://julc.co.jp/campus/kagoshima"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-julc-and-shared-venues",
+      "reviewNotes": "One campus at 知覧町郡10344. The separate Kagoshima-city theory room is excluded.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Minamikyushu, Kagoshima; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-okinawa-comprehensive-park-dome",
+      "entityKey": "japan-okinawa-comprehensive-park-dome",
+      "name": "Okinawa Comprehensive Sports Park drone dome",
+      "where": "Okinawa, Okinawa, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JULC okinawa",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Okinawa, Okinawa locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 26.33,
+        "longitude": 127.8
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JULC identifies the park dome as a practical drone instruction venue.",
+      "source": {
+        "name": "JULC okinawa — facility description",
+        "url": "https://julc.co.jp/course/workshop/7891"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-julc-and-shared-venues",
+      "reviewNotes": "One shared dome at 比屋根5-3-1. Individual courts are grouped; the Kaiho office is excluded.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Okinawa, Okinawa; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "JULC campus listing",
+          "url": "https://julc.co.jp/campus/okinawa"
+        }
+      ]
+    },
+    {
+      "id": "japan-ikebukuro-labi-rooftop",
+      "entityKey": "japan-ikebukuro-labi-rooftop",
+      "name": "LABI Ikebukuro rooftop drone venue",
+      "where": "Toshima, Tokyo, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Drone Juku",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Toshima, Tokyo locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.73,
+        "longitude": 139.72
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The school lists the LABI rooftop among its rented training courts.",
+      "source": {
+        "name": "Drone Juku — facility description",
+        "url": "https://drone-juku.jp/tokyo-ikebukuro/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-julc-and-shared-venues",
+      "reviewNotes": "One rooftop at 東池袋1-5-7, separate from Rosa Kaikan.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Toshima, Tokyo; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-yokohama-aoba-sports-training",
+      "entityKey": "japan-yokohama-aoba-sports-training",
+      "name": "AOBA Sports Park drone venue",
+      "where": "Yokohama, Kanagawa, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Drone Juku",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Yokohama, Kanagawa locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.44,
+        "longitude": 139.64
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Drone Juku lists AOBA Sports Park as a training venue.",
+      "source": {
+        "name": "Drone Juku — facility description",
+        "url": "https://drone-juku.jp/yokohama/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-julc-and-shared-venues",
+      "reviewNotes": "One shared sports venue at 北新横浜1-12; distinct from Himitsukichi.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Yokohama, Kanagawa; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-imizu-upd-training-field",
+      "entityKey": "japan-imizu-upd-training-field",
+      "name": "UPD Imizu drone training field",
+      "where": "Imizu, Toyama, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Drone Juku",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Imizu, Toyama locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.72,
+        "longitude": 137.1
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Drone Juku lists UPD company grounds alongside its indoor training venue.",
+      "source": {
+        "name": "Drone Juku — facility description",
+        "url": "https://drone-juku.jp/toyama/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-julc-and-shared-venues",
+      "reviewNotes": "One outdoor site at 野手28; the former Nakafushiki School gym is separate.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Imizu, Toyama; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-minamiechizen-sakai-gym",
+      "entityKey": "japan-minamiechizen-sakai-gym",
+      "name": "Sakai District drone training gym",
+      "where": "Minamiechizen, Fukui, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Drone Juku",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Minamiechizen, Fukui locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.84,
+        "longitude": 136.19
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Drone Juku lists Sakai District indoor gym for training.",
+      "source": {
+        "name": "Drone Juku — facility description",
+        "url": "https://drone-juku.jp/fukui/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-julc-and-shared-venues",
+      "reviewNotes": "One shared gym at 大門9-5-1.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Minamiechizen, Fukui; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-minamiechizen-shindo-gym",
+      "entityKey": "japan-minamiechizen-shindo-gym",
+      "name": "鹿蒜 District drone training gym",
+      "where": "Minamiechizen, Fukui, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Drone Juku",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Minamiechizen, Fukui locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.84,
+        "longitude": 136.19
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Drone Juku lists the district indoor gym in Shindo for training.",
+      "source": {
+        "name": "Drone Juku — facility description",
+        "url": "https://drone-juku.jp/fukui/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-julc-and-shared-venues",
+      "reviewNotes": "One shared gym at 新道24-25-1; distinct from Sakai and Imajo gyms.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Minamiechizen, Fukui; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-osaka-cerezo-futsal-training",
+      "entityKey": "japan-osaka-cerezo-futsal-training",
+      "name": "Cerezo Futsal Park drone venue",
+      "where": "Osaka, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Drone Juku",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Osaka locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.69,
+        "longitude": 135.5
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Drone Juku lists Cerezo Futsal Park as a training venue.",
+      "source": {
+        "name": "Drone Juku — facility description",
+        "url": "https://drone-juku.jp/osaka/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-julc-and-shared-venues",
+      "reviewNotes": "One shared venue at 大淀中5-12-39, separate from Itakano Golf Centre.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Osaka; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-toon-kasumi-forest-ground",
+      "entityKey": "japan-toon-kasumi-forest-ground",
+      "name": "Kasumi Forest drone training ground",
+      "where": "Toon, Ehime, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Drone Juku",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Toon, Ehime locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 33.79,
+        "longitude": 132.87
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Drone Juku lists the Shigenobu River Kasumi Forest ground for training.",
+      "source": {
+        "name": "Drone Juku — facility description",
+        "url": "https://drone-juku.jp/ehime/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-julc-and-shared-venues",
+      "reviewNotes": "One ground at 上村417番1地先.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Toon, Ehime; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-toon-kawauchi-sports-training",
+      "entityKey": "japan-toon-kawauchi-sports-training",
+      "name": "Kawauchi Sports Centre drone campus",
+      "where": "Toon, Ehime, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Drone Juku",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Toon, Ehime locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 33.79,
+        "longitude": 132.87
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Drone Juku lists the centre arena and ground for training.",
+      "source": {
+        "name": "Drone Juku — facility description",
+        "url": "https://drone-juku.jp/ehime/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-julc-and-shared-venues",
+      "reviewNotes": "One campus at 北方甲2314-2; arena and ground grouped.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Toon, Ehime; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-tobe-tamatani-gym",
+      "entityKey": "japan-tobe-tamatani-gym",
+      "name": "Tamatani Municipal Gym drone venue",
+      "where": "Tobe, Ehime, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "Drone Juku",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Tobe, Ehime locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 33.75,
+        "longitude": 132.79
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "Drone Juku lists Tamatani Gym as a training venue.",
+      "source": {
+        "name": "Drone Juku — facility description",
+        "url": "https://drone-juku.jp/ehime/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-julc-and-shared-venues",
+      "reviewNotes": "One shared gym at 玉谷663 in Tobe.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Tobe, Ehime; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-taki-ajisai-arena-training",
+      "entityKey": "japan-taki-ajisai-arena-training",
+      "name": "Ajisai Arena drone training venue",
+      "where": "Taki, Mie, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JULC Mie",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Taki, Mie locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.5,
+        "longitude": 136.55
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JULC lists Ajisai Arena among its training facilities.",
+      "source": {
+        "name": "JULC Mie — facility description",
+        "url": "https://julc.co.jp/campus/mie"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-julc-and-shared-venues",
+      "reviewNotes": "One shared gym at 丹生1807; former Seiwa East Gym is the same venue.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Taki, Mie; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-taki-seiwa-training-centre",
+      "entityKey": "japan-taki-seiwa-training-centre",
+      "name": "Seiwa Training Centre drone venue",
+      "where": "Taki, Mie, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JULC Mie",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Taki, Mie locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.5,
+        "longitude": 136.55
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JULC lists Seiwa Training Centre among its training facilities.",
+      "source": {
+        "name": "JULC Mie — facility description",
+        "url": "https://julc.co.jp/campus/mie"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-julc-and-shared-venues",
+      "reviewNotes": "One shared centre at 片野2254, distinct from Ajisai Arena.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Taki, Mie; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-shima-green-adventure-field",
+      "entityKey": "japan-shima-green-adventure-field",
+      "name": "Shima Green Adventure drone field",
+      "where": "Shima, Mie, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JULC Mie",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Shima, Mie locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.33,
+        "longitude": 136.83
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JULC explicitly identifies a drone field at Shima Green Adventure.",
+      "source": {
+        "name": "JULC Mie — facility description",
+        "url": "https://julc.co.jp/campus/mie"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-julc-and-shared-venues",
+      "reviewNotes": "One field at 浜島町迫子1614-1; individual course offerings are grouped.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Shima, Mie; not surveyed, source-derived facility coordinates, a flight boundary or a launch point."
+    },
+    {
+      "id": "japan-joso-ishige-gym-training",
+      "entityKey": "japan-joso-ishige-gym-training",
+      "name": "Ishige General Gym drone venue",
+      "where": "Joso, Ibaraki, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JULC ibaraki",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Joso, Ibaraki locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.02,
+        "longitude": 139.99
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JULC identifies Ishige General Gym as a practical flight-training venue.",
+      "source": {
+        "name": "JULC ibaraki — facility description",
+        "url": "https://julc.co.jp/course/workshop/8070"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-julc-and-shared-venues",
+      "reviewNotes": "One gym at 鴻野山1670; the Shino yama theory address is excluded.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Joso, Ibaraki; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "JULC campus listing",
+          "url": "https://julc.co.jp/campus/ibaraki"
+        }
+      ]
+    },
+    {
+      "id": "japan-joetsu-sekido-sanwa-training",
+      "entityKey": "japan-joetsu-sekido-sanwa-training",
+      "name": "Sekido Niigata Joetsu training centre",
+      "where": "Joetsu, Niigata, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JULC niigata",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Joetsu, Niigata locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 37.15,
+        "longitude": 138.24
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JULC identifies a gym and former tennis courts at the Sekido training centre.",
+      "source": {
+        "name": "JULC niigata — facility description",
+        "url": "https://julc.co.jp/course/workshop/7308"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-julc-and-shared-venues",
+      "reviewNotes": "One campus at 三和区野5534-4. The operator separately identifies its Fujinoshinden headquarters; Sanwa Seibu Sports House remains a separate unresolved lead.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Joetsu, Niigata; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "JULC campus listing",
+          "url": "https://julc.co.jp/campus/niigata"
+        },
+        {
+          "name": "Sekido Niigata Joetsu — company and training-centre addresses",
+          "url": "https://photooo2.o2-g.com/sekido-ngj.com/about_us/"
+        }
+      ]
+    },
+    {
+      "id": "japan-sakai-chikuchiku-bonbon-training",
+      "entityKey": "japan-sakai-chikuchiku-bonbon-training",
+      "name": "Chikuchiku Bonbon drone campus",
+      "where": "Sakai, Fukui, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JULC fukui",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Sakai, Fukui locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 36.17,
+        "longitude": 136.23
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JULC identifies practical instruction in the campus gym and grounds.",
+      "source": {
+        "name": "JULC fukui — facility description",
+        "url": "https://julc.co.jp/course/workshop/8204"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-julc-and-shared-venues",
+      "reviewNotes": "One campus at 丸岡町山口60-8; the Fukui office is excluded.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Sakai, Fukui; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "JULC campus listing",
+          "url": "https://julc.co.jp/campus/fukui"
+        }
+      ]
+    },
+    {
+      "id": "japan-yaizu-nakane-shinden-field",
+      "entityKey": "japan-yaizu-nakane-shinden-field",
+      "name": "JULC Yaizu Nakane Shinden outdoor field",
+      "where": "Yaizu, Shizuoka, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JULC shizuoka",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Yaizu, Shizuoka locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.87,
+        "longitude": 138.32
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "A JULC course page identifies an outdoor practical flight field in Nakane Shinden.",
+      "source": {
+        "name": "JULC shizuoka — facility description",
+        "url": "https://julc.co.jp/course/workshop/2247"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-julc-and-shared-venues",
+      "reviewNotes": "One field at 中根新田1399. The 2024 course listing supports reported use, not current availability; the Yaizu office is excluded.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Yaizu, Shizuoka; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "JULC campus listing",
+          "url": "https://julc.co.jp/campus/shizuoka"
+        }
+      ]
+    },
+    {
+      "id": "japan-tahara-ebima-training-centre",
+      "entityKey": "japan-tahara-ebima-training-centre",
+      "name": "Ebima Outdoor Activity Centre drone venue",
+      "where": "Tahara, Aichi, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "JULC aichi",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Tahara, Aichi locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 34.67,
+        "longitude": 137.26
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "JULC identifies indoor practical flight training at Ebima Outdoor Activity Centre.",
+      "source": {
+        "name": "JULC aichi — facility description",
+        "url": "https://julc.co.jp/course/workshop/1402"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-julc-and-shared-venues",
+      "reviewNotes": "One indoor campus at 江比間町長尾1-1. The historical course does not establish current availability; an unnamed separate outdoor field is excluded.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Tahara, Aichi; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "JULC campus listing",
+          "url": "https://julc.co.jp/campus/aichi"
+        }
+      ]
+    },
+    {
+      "id": "japan-chiba-hamano-hare-nochi-hare",
+      "entityKey": "japan-chiba-hamano-hare-nochi-hare",
+      "name": "Hare Nochi Hare Hamano drone venue",
+      "where": "Chiba, Chiba, Japan",
+      "country": "Japan",
+      "region": "Asia",
+      "infrastructureType": "Drone research and training facility",
+      "reportedOperator": "SI Drone School / Drone Juku",
+      "reportedEquipment": "Drone flight training or test area",
+      "locationPrecision": "Approximate Chiba, Chiba locality reference; not a facility coordinate",
+      "approximateMapPoint": {
+        "latitude": 35.61,
+        "longitude": 140.11
+      },
+      "reportDateLabel": "Facility description; original publication date not displayed",
+      "description": "The operator identifies indoor drone instruction at Hare Nochi Hare sports courts.",
+      "source": {
+        "name": "SI Drone School / Drone Juku — facility description",
+        "url": "https://si-droneschool.jp/"
+      },
+      "verificationStatus": "Source-reported facility; current operation, access and flight permission not independently verified",
+      "reportedStatus": "reported-operation",
+      "recordScope": "training-and-test-site",
+      "sourceReviewedAt": "2026-11-12",
+      "sourcePublishedAt": null,
+      "sourceType": "operator",
+      "researchBatch": "2026-11-12-julc-and-shared-venues",
+      "reviewNotes": "One shared indoor venue at 浜野町840; Drone Juku lists the same address. Its separate Shirako venue is excluded.",
+      "coordinateBasis": "Editorial locality reference. Rounded marker for Chiba, Chiba; not surveyed, source-derived facility coordinates, a flight boundary or a launch point.",
+      "supportingSources": [
+        {
+          "name": "Drone Juku — Hamano school locations",
+          "url": "https://drone-juku.jp/chiba-hamano/"
+        }
+      ]
     }
   ],
-  "expectedTotal": 1028,
+  "expectedTotal": 1054,
   "releases": [
     {
       "id": "2026-10-28-medical-logistics",
@@ -34226,6 +35090,37 @@
         "japan-saku-general-gym-training",
         "japan-saku-usuda-school-training",
         "japan-saku-kirihara-school-training"
+      ]
+    },
+    {
+      "id": "2026-11-12-julc-and-shared-venues",
+      "recordIds": [
+        "japan-daito-active-square-training",
+        "japan-saka-bg-marine-training",
+        "japan-onomichi-mukaishima-sports-training",
+        "japan-ino-former-mise-school",
+        "japan-kawara-nakatsubaru-training",
+        "japan-kohoku-navel-gym-training",
+        "japan-minamikyushu-chiran-julc-campus",
+        "japan-okinawa-comprehensive-park-dome",
+        "japan-ikebukuro-labi-rooftop",
+        "japan-yokohama-aoba-sports-training",
+        "japan-imizu-upd-training-field",
+        "japan-minamiechizen-sakai-gym",
+        "japan-minamiechizen-shindo-gym",
+        "japan-osaka-cerezo-futsal-training",
+        "japan-toon-kasumi-forest-ground",
+        "japan-toon-kawauchi-sports-training",
+        "japan-tobe-tamatani-gym",
+        "japan-taki-ajisai-arena-training",
+        "japan-taki-seiwa-training-centre",
+        "japan-shima-green-adventure-field",
+        "japan-joso-ishige-gym-training",
+        "japan-joetsu-sekido-sanwa-training",
+        "japan-sakai-chikuchiku-bonbon-training",
+        "japan-yaizu-nakane-shinden-field",
+        "japan-tahara-ebima-training-centre",
+        "japan-chiba-hamano-hare-nochi-hare"
       ]
     }
   ]
